@@ -1,4 +1,4 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Open Y – Documentation</title><link>/docs/</link><description>Recent content in Documentation on Open Y</description><generator>Hugo -- gohugo.io</generator><atom:link href="/docs/index.xml" rel="self" type="application/rss+xml"/><item><title>Docs: 1c</title><link>/docs/content-structure/paragraphs/1c/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/content-structure/paragraphs/1c/</guid><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Open Y – Documentation</title><link>https://froboy.github.io/openy_docs/docs/</link><description>Recent content in Documentation on Open Y</description><generator>Hugo -- gohugo.io</generator><atom:link href="https://froboy.github.io/openy_docs/docs/index.xml" rel="self" type="application/rss+xml"/><item><title>Docs: 1c</title><link>https://froboy.github.io/openy_docs/docs/content-structure/paragraphs/1c/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://froboy.github.io/openy_docs/docs/content-structure/paragraphs/1c/</guid><description>
 &lt;h1 id="paragraph-1-column">Paragraph 1 Column&lt;/h1>
 &lt;p>This is a paragraph type that will be used for implements a paragraph with 1 column.&lt;/p>
 &lt;h3 id="fields">Fields&lt;/h3>
@@ -42,7 +42,7 @@
 &lt;td>&lt;/td>
 &lt;/tr>
 &lt;/tbody>
-&lt;/table></description></item><item><title>Docs: 2c</title><link>/docs/content-structure/paragraphs/2c/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/content-structure/paragraphs/2c/</guid><description>
+&lt;/table></description></item><item><title>Docs: 2c</title><link>https://froboy.github.io/openy_docs/docs/content-structure/paragraphs/2c/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://froboy.github.io/openy_docs/docs/content-structure/paragraphs/2c/</guid><description>
 &lt;h1 id="paragraph-2-column">Paragraph 2 Column&lt;/h1>
 &lt;p>This is a paragraph type that will be used for implements a paragraph with 2 column.&lt;/p>
 &lt;h3 id="fields">Fields&lt;/h3>
@@ -79,7 +79,7 @@
 &lt;td>&lt;/td>
 &lt;/tr>
 &lt;/tbody>
-&lt;/table></description></item><item><title>Docs: 3c</title><link>/docs/content-structure/paragraphs/3c/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/content-structure/paragraphs/3c/</guid><description>
+&lt;/table></description></item><item><title>Docs: 3c</title><link>https://froboy.github.io/openy_docs/docs/content-structure/paragraphs/3c/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://froboy.github.io/openy_docs/docs/content-structure/paragraphs/3c/</guid><description>
 &lt;h1 id="paragraph-3-column">Paragraph 3 Column&lt;/h1>
 &lt;p>This is a paragraph type that will be used for implements a paragraph with 3 column.&lt;/p>
 &lt;h3 id="fields">Fields&lt;/h3>
@@ -130,7 +130,7 @@
 &lt;td>&lt;/td>
 &lt;/tr>
 &lt;/tbody>
-&lt;/table></description></item><item><title>Docs: 4c</title><link>/docs/content-structure/paragraphs/4c/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/content-structure/paragraphs/4c/</guid><description>
+&lt;/table></description></item><item><title>Docs: 4c</title><link>https://froboy.github.io/openy_docs/docs/content-structure/paragraphs/4c/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://froboy.github.io/openy_docs/docs/content-structure/paragraphs/4c/</guid><description>
 &lt;h1 id="paragraph-4-column">Paragraph 4 Column&lt;/h1>
 &lt;p>This is a paragraph type that will be used for implements a paragraph with 4 column.&lt;/p>
 &lt;h3 id="fields">Fields&lt;/h3>
@@ -202,7 +202,7 @@
 &lt;td>&lt;/td>
 &lt;/tr>
 &lt;/tbody>
-&lt;/table></description></item><item><title>Docs: AcceptanceTesting</title><link>/docs/development/acceptancetesting/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/development/acceptancetesting/</guid><description>
+&lt;/table></description></item><item><title>Docs: AcceptanceTesting</title><link>https://froboy.github.io/openy_docs/docs/development/acceptancetesting/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://froboy.github.io/openy_docs/docs/development/acceptancetesting/</guid><description>
 &lt;h3 id="open-y-acceptance-testing-best-practices">Open Y Acceptance testing best practices&lt;/h3>
 &lt;p>Open Y is a big distribution with a large amount of modules, components, subsystems, and business
 processes, therefore we have to take appropriate steps to ensure the stability of major functionality during development.&lt;/p>
@@ -250,7 +250,7 @@ Having a tour for the business functionality is highly recommended to ship with 
 &lt;p>And last, but not the lease - adding Behat tests to the system will ensure functionality is tested on every pull
 request, on every CI build in the future.&lt;/p>
 &lt;h3 id="rule">Rule&lt;/h3>
-&lt;p>Every release of Open Y since 8.1.9 should include list of subsystems, changed in release for the community to be aware of the possible regressions on their end.)&lt;/p></description></item><item><title>Docs: Activity</title><link>/docs/content-structure/content-types/activity/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/content-structure/content-types/activity/</guid><description>
+&lt;p>Every release of Open Y since 8.1.9 should include list of subsystems, changed in release for the community to be aware of the possible regressions on their end.)&lt;/p></description></item><item><title>Docs: Activity</title><link>https://froboy.github.io/openy_docs/docs/content-structure/content-types/activity/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://froboy.github.io/openy_docs/docs/content-structure/content-types/activity/</guid><description>
 &lt;h1 id="activity">Activity&lt;/h1>
 &lt;p>Activity content type is used for adding Activities on the site.&lt;/p>
 &lt;h3 id="fields">Fields&lt;/h3>
@@ -292,7 +292,7 @@ request, on every CI build in the future.&lt;/p>
 &lt;/table>
 &lt;h3 id="url-pattern">URL pattern&lt;/h3>
 &lt;p>Content type is using following pattern:
-&lt;code>/programs/[node:field_activity_category:entity:field_category_program:entity:title]/[node:field_activity_category:entity:title]/[node:title]&lt;/code>)&lt;/p></description></item><item><title>Docs: AddThis</title><link>/docs/development/addthis/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/development/addthis/</guid><description>
+&lt;code>/programs/[node:field_activity_category:entity:field_category_program:entity:title]/[node:field_activity_category:entity:title]/[node:title]&lt;/code>)&lt;/p></description></item><item><title>Docs: AddThis</title><link>https://froboy.github.io/openy_docs/docs/development/addthis/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://froboy.github.io/openy_docs/docs/development/addthis/</guid><description>
 &lt;h1 id="how-to-configure-addthis">How to configure AddThis&lt;/h1>
 &lt;p>Open Y AddThis module allow you easy add Social icons to any node.&lt;/p>
 &lt;ol>
@@ -317,7 +317,7 @@ request, on every CI build in the future.&lt;/p>
 &lt;p>After content add &amp;lsquo;Social share icons&amp;rsquo; paragraph
 &lt;img src="../assets/addthis_paragraph.png" alt="Enter Public id">)&lt;/p>
 &lt;/li>
-&lt;/ol></description></item><item><title>Docs: Alert</title><link>/docs/content-structure/content-types/alert/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/content-structure/content-types/alert/</guid><description>
+&lt;/ol></description></item><item><title>Docs: Alert</title><link>https://froboy.github.io/openy_docs/docs/content-structure/content-types/alert/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://froboy.github.io/openy_docs/docs/content-structure/content-types/alert/</guid><description>
 &lt;h1 id="alert">Alert&lt;/h1>
 &lt;p>Alert content type is used for adding alerts on the site.&lt;/p>
 &lt;h3 id="fields">Fields&lt;/h3>
@@ -383,7 +383,7 @@ request, on every CI build in the future.&lt;/p>
 &lt;/table>
 &lt;h3 id="url-pattern">URL pattern&lt;/h3>
 &lt;p>Content type is using following pattern:
-&lt;code>/alert/[node:title]&lt;/code>.)&lt;/p></description></item><item><title>Docs: All Amenities</title><link>/docs/content-structure/paragraphs/all-amenities/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/content-structure/paragraphs/all-amenities/</guid><description>
+&lt;code>/alert/[node:title]&lt;/code>.)&lt;/p></description></item><item><title>Docs: All Amenities</title><link>https://froboy.github.io/openy_docs/docs/content-structure/paragraphs/all-amenities/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://froboy.github.io/openy_docs/docs/content-structure/paragraphs/all-amenities/</guid><description>
 &lt;h1 id="all-amenities">All Amenities&lt;/h1>
 &lt;p>Provide a paragraph with a table view shows list of Branches.&lt;/p>
 &lt;h3 id="fields">Fields&lt;/h3>
@@ -410,13 +410,13 @@ request, on every CI build in the future.&lt;/p>
 &lt;td>Enter title which is going to be displayed on top of the paragraph.&lt;/td>
 &lt;/tr>
 &lt;/tbody>
-&lt;/table></description></item><item><title>Docs: Amenities</title><link>/docs/content-structure/taxonomy/amenities/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/content-structure/taxonomy/amenities/</guid><description>
+&lt;/table></description></item><item><title>Docs: Amenities</title><link>https://froboy.github.io/openy_docs/docs/content-structure/taxonomy/amenities/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://froboy.github.io/openy_docs/docs/content-structure/taxonomy/amenities/</guid><description>
 &lt;h1 id="amenities-vocabulary">Amenities Vocabulary&lt;/h1>
 &lt;p>This is a vocabulary that will be used for adding reference Branch amenities. We will use this for the Branch.&lt;/p>
-&lt;p>&lt;strong>Machine_name&lt;/strong>: amenities)&lt;/p></description></item><item><title>Docs: Area</title><link>/docs/content-structure/taxonomy/area/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/content-structure/taxonomy/area/</guid><description>
+&lt;p>&lt;strong>Machine_name&lt;/strong>: amenities)&lt;/p></description></item><item><title>Docs: Area</title><link>https://froboy.github.io/openy_docs/docs/content-structure/taxonomy/area/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://froboy.github.io/openy_docs/docs/content-structure/taxonomy/area/</guid><description>
 &lt;h1 id="area-vocabulary">Area Vocabulary&lt;/h1>
 &lt;p>This is a vocabulary that will be used for adding location areas on the site. We will use this for the Location Branch and Facility CTs.&lt;/p>
-&lt;p>&lt;strong>Machine_name&lt;/strong>: area)&lt;/p></description></item><item><title>Docs: Banner</title><link>/docs/content-structure/paragraphs/banner/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/content-structure/paragraphs/banner/</guid><description>
+&lt;p>&lt;strong>Machine_name&lt;/strong>: area)&lt;/p></description></item><item><title>Docs: Banner</title><link>https://froboy.github.io/openy_docs/docs/content-structure/paragraphs/banner/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://froboy.github.io/openy_docs/docs/content-structure/paragraphs/banner/</guid><description>
 &lt;h1 id="banner">Banner&lt;/h1>
 &lt;p>This is a paragraph type that will be used for the banner content.&lt;/p>
 &lt;h3 id="fields">Fields&lt;/h3>
@@ -467,7 +467,7 @@ request, on every CI build in the future.&lt;/p>
 &lt;td>&lt;/td>
 &lt;/tr>
 &lt;/tbody>
-&lt;/table></description></item><item><title>Docs: Basic</title><link>/docs/content-structure/blocks/basic/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/content-structure/blocks/basic/</guid><description>
+&lt;/table></description></item><item><title>Docs: Basic</title><link>https://froboy.github.io/openy_docs/docs/content-structure/blocks/basic/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://froboy.github.io/openy_docs/docs/content-structure/blocks/basic/</guid><description>
 &lt;h1 id="basic-block">Basic Block&lt;/h1>
 &lt;p>A simple block with a description.&lt;/p>
 &lt;h3 id="fields">Fields&lt;/h3>
@@ -488,7 +488,7 @@ request, on every CI build in the future.&lt;/p>
 &lt;td>WYSIWYG field without summary.&lt;/td>
 &lt;/tr>
 &lt;/tbody>
-&lt;/table></description></item><item><title>Docs: Block Menu</title><link>/docs/content-structure/blocks/block-menu/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/content-structure/blocks/block-menu/</guid><description>
+&lt;/table></description></item><item><title>Docs: Block Menu</title><link>https://froboy.github.io/openy_docs/docs/content-structure/blocks/block-menu/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://froboy.github.io/openy_docs/docs/content-structure/blocks/block-menu/</guid><description>
 &lt;h1 id="block-menu">Block Menu&lt;/h1>
 &lt;p>Implements custom block type with a links.&lt;/p>
 &lt;h3 id="fields">Fields&lt;/h3>
@@ -521,7 +521,7 @@ request, on every CI build in the future.&lt;/p>
 &lt;td>Select text color of the menu block.&lt;/td>
 &lt;/tr>
 &lt;/tbody>
-&lt;/table></description></item><item><title>Docs: Blog</title><link>/docs/content-structure/content-types/blog/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/content-structure/content-types/blog/</guid><description>
+&lt;/table></description></item><item><title>Docs: Blog</title><link>https://froboy.github.io/openy_docs/docs/content-structure/content-types/blog/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://froboy.github.io/openy_docs/docs/content-structure/content-types/blog/</guid><description>
 &lt;h1 id="blog">Blog&lt;/h1>
 &lt;p>Blog Post content type is used for adding blog posts on the site.&lt;/p>
 &lt;h3 id="fields">Fields&lt;/h3>
@@ -629,10 +629,10 @@ request, on every CI build in the future.&lt;/p>
 &lt;/table>
 &lt;h3 id="url-pattern">URL pattern&lt;/h3>
 &lt;p>Content type is using following pattern:
-&lt;code>/blog/[node:title]&lt;/code>)&lt;/p></description></item><item><title>Docs: Blog Category</title><link>/docs/content-structure/taxonomy/blog-category/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/content-structure/taxonomy/blog-category/</guid><description>
+&lt;code>/blog/[node:title]&lt;/code>)&lt;/p></description></item><item><title>Docs: Blog Category</title><link>https://froboy.github.io/openy_docs/docs/content-structure/taxonomy/blog-category/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://froboy.github.io/openy_docs/docs/content-structure/taxonomy/blog-category/</guid><description>
 &lt;h1 id="blog-category">Blog Category&lt;/h1>
 &lt;p>This is a vocabulary that will be used for adding blog categories on the site.&lt;/p>
-&lt;p>&lt;strong>Machine_name&lt;/strong>: blog_category)&lt;/p></description></item><item><title>Docs: Blog Posts Listing</title><link>/docs/content-structure/paragraphs/blog-posts-listing/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/content-structure/paragraphs/blog-posts-listing/</guid><description>
+&lt;p>&lt;strong>Machine_name&lt;/strong>: blog_category)&lt;/p></description></item><item><title>Docs: Blog Posts Listing</title><link>https://froboy.github.io/openy_docs/docs/content-structure/paragraphs/blog-posts-listing/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://froboy.github.io/openy_docs/docs/content-structure/paragraphs/blog-posts-listing/</guid><description>
 &lt;h1 id="blog-posts-listing">Blog Posts Listing&lt;/h1>
 &lt;p>This is dynamic paragraph that renders the latest blog posts and utilizes exposed filters.&lt;/p>
 &lt;ul>
@@ -659,7 +659,7 @@ request, on every CI build in the future.&lt;/p>
 &lt;td>Block reference to the view/block. Should have default value and should be hidden in form display.&lt;/td>
 &lt;/tr>
 &lt;/tbody>
-&lt;/table></description></item><item><title>Docs: Branch</title><link>/docs/content-structure/content-types/branch/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/content-structure/content-types/branch/</guid><description>
+&lt;/table></description></item><item><title>Docs: Branch</title><link>https://froboy.github.io/openy_docs/docs/content-structure/content-types/branch/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://froboy.github.io/openy_docs/docs/content-structure/content-types/branch/</guid><description>
 &lt;h1 id="branch">Branch&lt;/h1>
 &lt;p>Branch content type is used for adding Branches on the site.&lt;/p>
 &lt;h3 id="fields">Fields&lt;/h3>
@@ -809,7 +809,7 @@ request, on every CI build in the future.&lt;/p>
 &lt;/table>
 &lt;h3 id="url-pattern">URL pattern&lt;/h3>
 &lt;p>Content type is using following pattern:
-&lt;code>/locations/[node:title]&lt;/code>)&lt;/p></description></item><item><title>Docs: Branch Amenities</title><link>/docs/content-structure/blocks/branch-amenities/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/content-structure/blocks/branch-amenities/</guid><description>
+&lt;code>/locations/[node:title]&lt;/code>)&lt;/p></description></item><item><title>Docs: Branch Amenities</title><link>https://froboy.github.io/openy_docs/docs/content-structure/blocks/branch-amenities/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://froboy.github.io/openy_docs/docs/content-structure/blocks/branch-amenities/</guid><description>
 &lt;h1 id="block-branch-amenities">Block Branch Amenities&lt;/h1>
 &lt;p>A block with amenities list of the current branch.&lt;/p>
 &lt;h3 id="fields">Fields&lt;/h3>
@@ -848,7 +848,7 @@ request, on every CI build in the future.&lt;/p>
 &lt;td>Provide a &amp;ldquo;Font Awesome&amp;rdquo; icon name, e.g. flag, car, info. Overrides image icon.&lt;/td>
 &lt;/tr>
 &lt;/tbody>
-&lt;/table></description></item><item><title>Docs: Branches Popup (All)</title><link>/docs/content-structure/paragraphs/branches-popup-all/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/content-structure/paragraphs/branches-popup-all/</guid><description>
+&lt;/table></description></item><item><title>Docs: Branches Popup (All)</title><link>https://froboy.github.io/openy_docs/docs/content-structure/paragraphs/branches-popup-all/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://froboy.github.io/openy_docs/docs/content-structure/paragraphs/branches-popup-all/</guid><description>
 &lt;h1 id="branches-popup-all">Branches Popup (All)&lt;/h1>
 &lt;p>This is dynamic paragraph that renders the locations selection popup, based on current node.&lt;/p>
 &lt;p>Relates to:&lt;/p>
@@ -874,7 +874,7 @@ request, on every CI build in the future.&lt;/p>
 &lt;td>Block reference to the view/block. Should have default value and should be hidden in form display.&lt;/td>
 &lt;/tr>
 &lt;/tbody>
-&lt;/table></description></item><item><title>Docs: Branches Popup (Class)</title><link>/docs/content-structure/paragraphs/branches-popup-class/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/content-structure/paragraphs/branches-popup-class/</guid><description>
+&lt;/table></description></item><item><title>Docs: Branches Popup (Class)</title><link>https://froboy.github.io/openy_docs/docs/content-structure/paragraphs/branches-popup-class/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://froboy.github.io/openy_docs/docs/content-structure/paragraphs/branches-popup-class/</guid><description>
 &lt;h1 id="branches-popup-class">Branches Popup (Class)&lt;/h1>
 &lt;p>This is dynamic paragraph that renders the locations selection popup, based on current node.&lt;/p>
 &lt;p>Relates to:&lt;/p>
@@ -900,7 +900,7 @@ request, on every CI build in the future.&lt;/p>
 &lt;td>Block reference to the view/block. Should have default value and should be hidden in form display.&lt;/td>
 &lt;/tr>
 &lt;/tbody>
-&lt;/table></description></item><item><title>Docs: Camp</title><link>/docs/content-structure/content-types/camp/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/content-structure/content-types/camp/</guid><description>
+&lt;/table></description></item><item><title>Docs: Camp</title><link>https://froboy.github.io/openy_docs/docs/content-structure/content-types/camp/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://froboy.github.io/openy_docs/docs/content-structure/content-types/camp/</guid><description>
 &lt;h1 id="camp">Camp&lt;/h1>
 &lt;p>Camp content type is used for adding Camps on the site.&lt;/p>
 &lt;h3 id="fields">Fields&lt;/h3>
@@ -1014,7 +1014,7 @@ request, on every CI build in the future.&lt;/p>
 &lt;/table>
 &lt;h3 id="url-pattern">URL pattern&lt;/h3>
 &lt;p>Content type is using following pattern:
-&lt;code>/camps/[node:title]&lt;/code>)&lt;/p></description></item><item><title>Docs: Categories Listing</title><link>/docs/content-structure/paragraphs/categories-listing/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/content-structure/paragraphs/categories-listing/</guid><description>
+&lt;code>/camps/[node:title]&lt;/code>)&lt;/p></description></item><item><title>Docs: Categories Listing</title><link>https://froboy.github.io/openy_docs/docs/content-structure/paragraphs/categories-listing/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://froboy.github.io/openy_docs/docs/content-structure/paragraphs/categories-listing/</guid><description>
 &lt;h1 id="categories-listing">Categories Listing&lt;/h1>
 &lt;p>This is dynamic paragraph that renders all published categories according to current program page.&lt;/p>
 &lt;p>It uses sticky at the top option and order items based on published date(newest at the top).&lt;/p>
@@ -1036,7 +1036,7 @@ request, on every CI build in the future.&lt;/p>
 &lt;td>Block reference to the view/block. Should have default value and should be hidden in form display.&lt;/td>
 &lt;/tr>
 &lt;/tbody>
-&lt;/table></description></item><item><title>Docs: Class</title><link>/docs/content-structure/content-types/class/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/content-structure/content-types/class/</guid><description>
+&lt;/table></description></item><item><title>Docs: Class</title><link>https://froboy.github.io/openy_docs/docs/content-structure/content-types/class/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://froboy.github.io/openy_docs/docs/content-structure/content-types/class/</guid><description>
 &lt;h1 id="class">Class&lt;/h1>
 &lt;p>Class content type is used for adding Classes on the site.&lt;/p>
 &lt;h3 id="fields">Fields&lt;/h3>
@@ -1126,7 +1126,7 @@ request, on every CI build in the future.&lt;/p>
 &lt;/table>
 &lt;h3 id="url-pattern">URL pattern&lt;/h3>
 &lt;p>Content type is using following pattern:
-&lt;code>/programs/[node:field_class_activity:entity:field_activity_category:entity:field_category_program:entity:title]/[node:field_class_activity:entity:field_activity_category:entity:title]/[node:title]/class-times&lt;/code>)&lt;/p></description></item><item><title>Docs: Class Location</title><link>/docs/content-structure/paragraphs/class-location/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/content-structure/paragraphs/class-location/</guid><description>
+&lt;code>/programs/[node:field_class_activity:entity:field_activity_category:entity:field_category_program:entity:title]/[node:field_class_activity:entity:field_activity_category:entity:title]/[node:title]/class-times&lt;/code>)&lt;/p></description></item><item><title>Docs: Class Location</title><link>https://froboy.github.io/openy_docs/docs/content-structure/paragraphs/class-location/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://froboy.github.io/openy_docs/docs/content-structure/paragraphs/class-location/</guid><description>
 &lt;h1 id="class-location">Class Location&lt;/h1>
 &lt;p>This is dynamic paragraph that renders the locations class location view mode, based on url query parameter location with a valid id.&lt;/p>
 &lt;p>Relates to [Branches Popup (Class)](Branches Popup (Class).md).&lt;/p>
@@ -1151,7 +1151,7 @@ request, on every CI build in the future.&lt;/p>
 &lt;td>Block reference to the view/block. Should have default value and should be hidden in form display.&lt;/td>
 &lt;/tr>
 &lt;/tbody>
-&lt;/table></description></item><item><title>Docs: Class Sessions</title><link>/docs/content-structure/paragraphs/class-sessions/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/content-structure/paragraphs/class-sessions/</guid><description>
+&lt;/table></description></item><item><title>Docs: Class Sessions</title><link>https://froboy.github.io/openy_docs/docs/content-structure/paragraphs/class-sessions/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://froboy.github.io/openy_docs/docs/content-structure/paragraphs/class-sessions/</guid><description>
 &lt;h1 id="class-sessions">Class Sessions&lt;/h1>
 &lt;p>This is dynamic paragraph that renders the class session instances, based on url query parameter location with a valid id.&lt;/p>
 &lt;p>Relates to [Branches Popup (Class)](Branches Popup (Class).md).&lt;/p>
@@ -1226,7 +1226,7 @@ request, on every CI build in the future.&lt;/p>
 &lt;li>Results should contain all branches&lt;/li>
 &lt;li>In sidebar we should see &amp;ldquo;All locations&amp;hellip;.&amp;rdquo;&lt;/li>
 &lt;li>Location popup should be shown (Unless only one location is associated with the class))&lt;/li>
-&lt;/ul></description></item><item><title>Docs: Classes Listing</title><link>/docs/content-structure/paragraphs/classes-listing/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/content-structure/paragraphs/classes-listing/</guid><description>
+&lt;/ul></description></item><item><title>Docs: Classes Listing</title><link>https://froboy.github.io/openy_docs/docs/content-structure/paragraphs/classes-listing/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://froboy.github.io/openy_docs/docs/content-structure/paragraphs/classes-listing/</guid><description>
 &lt;h1 id="classes-listing--classes-listing-filters">Classes Listing + Classes Listing Filters&lt;/h1>
 &lt;p>Classes Listing - should display all published classes grouped by activity.&lt;/p>
 &lt;p>Classes Listing Filters - this paragraph should disply filter form for &amp;ldquo;Classes Listing&amp;rdquo; with following fields:&lt;/p>
@@ -1309,7 +1309,7 @@ request, on every CI build in the future.&lt;/p>
 &lt;li>Location popup shouldn&amp;rsquo;t be shown&lt;/li>
 &lt;li>Filter by location should show branch from URL&lt;/li>
 &lt;li>Results should be filtered)&lt;/li>
-&lt;/ul></description></item><item><title>Docs: Code</title><link>/docs/content-structure/paragraphs/code/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/content-structure/paragraphs/code/</guid><description>
+&lt;/ul></description></item><item><title>Docs: Code</title><link>https://froboy.github.io/openy_docs/docs/content-structure/paragraphs/code/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://froboy.github.io/openy_docs/docs/content-structure/paragraphs/code/</guid><description>
 &lt;h1 id="code">Code&lt;/h1>
 &lt;p>Provide paragraph containing a Code block. Can be used to embed Youtube video for instance.&lt;/p>
 &lt;h3 id="fields">Fields&lt;/h3>
@@ -1330,7 +1330,7 @@ request, on every CI build in the future.&lt;/p>
 &lt;td>Block reference to Code block. Create a new one or pick up an existed Code block.&lt;/td>
 &lt;/tr>
 &lt;/tbody>
-&lt;/table></description></item><item><title>Docs: Color</title><link>/docs/content-structure/taxonomy/color/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/content-structure/taxonomy/color/</guid><description>
+&lt;/table></description></item><item><title>Docs: Color</title><link>https://froboy.github.io/openy_docs/docs/content-structure/taxonomy/color/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://froboy.github.io/openy_docs/docs/content-structure/taxonomy/color/</guid><description>
 &lt;h1 id="area-vocabulary">Area Vocabulary&lt;/h1>
 &lt;p>This is a vocabulary that will be used for adding colors on the site.&lt;/p>
 &lt;p>&lt;strong>Machine_name&lt;/strong>: color&lt;/p>
@@ -1358,13 +1358,13 @@ request, on every CI build in the future.&lt;/p>
 &lt;td>Color selector.&lt;/td>
 &lt;/tr>
 &lt;/tbody>
-&lt;/table></description></item><item><title>Docs: Composer</title><link>/docs/development/composer/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/development/composer/</guid><description>
+&lt;/table></description></item><item><title>Docs: Composer</title><link>https://froboy.github.io/openy_docs/docs/development/composer/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://froboy.github.io/openy_docs/docs/development/composer/</guid><description>
 &lt;h1 id="composer">Composer&lt;/h1>
 &lt;p>Please always make sure &lt;code>composer.lock&lt;/code> file is updated after any changes in &lt;code>composer.json&lt;/code> file.
 You can use &lt;code>composer update&lt;/code> command to update any package, in this case composer will take care about updating of &lt;code>composer.lock&lt;/code> file.&lt;/p>
 &lt;pre tabindex="0">&lt;code>composer update drupal/metatag
 &lt;/code>&lt;/pre>&lt;p>Also you can use &lt;code>composer update --lock&lt;/code> command to force updating of &lt;code>composer.lock&lt;/code> file according to dependencies in &lt;code>composer.json&lt;/code>.&lt;/p>
-&lt;p>Please check official composer documentation for details: &lt;a href="https://getcomposer.org/doc/01-basic-usage.md">https://getcomposer.org/doc/01-basic-usage.md&lt;/a>)&lt;/p></description></item><item><title>Docs: Configuration for social posts import</title><link>/docs/development/configuration-for-social-posts-import/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/development/configuration-for-social-posts-import/</guid><description>
+&lt;p>Please check official composer documentation for details: &lt;a href="https://getcomposer.org/doc/01-basic-usage.md">https://getcomposer.org/doc/01-basic-usage.md&lt;/a>)&lt;/p></description></item><item><title>Docs: Configuration for social posts import</title><link>https://froboy.github.io/openy_docs/docs/development/configuration-for-social-posts-import/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://froboy.github.io/openy_docs/docs/development/configuration-for-social-posts-import/</guid><description>
 &lt;p>Add import social posts to site (Facebook, Instagram, Twitter)&lt;/p>
 &lt;h3 id="how-configure-import-of-posts-from-the-social-networks">How configure import of posts from the social networks&lt;/h3>
 &lt;p>&lt;strong>Given:&lt;/strong>
@@ -1374,7 +1374,7 @@ As an Open Y site developer, I want to be able import posts from company&amp;rsq
 &lt;li>Open configuration page /admin/config/social_feed_fetcher_settings - Configuration -&amp;gt; Social Feed Settings&lt;/li>
 &lt;li>Select checkbox for needed social network and add additional settings. Every social network has their own API, please read documentation for this settings on the official pages of each social networks.&lt;/li>
 &lt;li>When all settings will be filled - click on the button - Run Cron. Import is started. )&lt;/li>
-&lt;/ul></description></item><item><title>Docs: Contributing</title><link>/docs/development/contributing/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/development/contributing/</guid><description>
+&lt;/ul></description></item><item><title>Docs: Contributing</title><link>https://froboy.github.io/openy_docs/docs/development/contributing/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://froboy.github.io/openy_docs/docs/development/contributing/</guid><description>
 &lt;h1 id="contributing-to-open-y">Contributing to Open Y&lt;/h1>
 &lt;h1 id="issues">Issues&lt;/h1>
 &lt;p>If you have a support request, you&amp;rsquo;ve found a bug or you have a feature request:&lt;/p>
@@ -1401,7 +1401,7 @@ As an Open Y site developer, I want to be able import posts from company&amp;rsq
 &lt;li>Link drupal.org issue to GitHub Pull Request&lt;/li>
 &lt;li>Specify in GitHub Pull Request link to drupal.org issue&lt;/li>
 &lt;li>Once PR has been merged, reviewer will close drupal.org issue with appropriate credits.)&lt;/li>
-&lt;/ul></description></item><item><title>Docs: Create View Modes</title><link>/docs/development/create-view-modes/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/development/create-view-modes/</guid><description>
+&lt;/ul></description></item><item><title>Docs: Create View Modes</title><link>https://froboy.github.io/openy_docs/docs/development/create-view-modes/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://froboy.github.io/openy_docs/docs/development/create-view-modes/</guid><description>
 &lt;h1 id="how-to-create-new-view-mode-and-use">How to Create new View mode and use&lt;/h1>
 &lt;p>As with any other entity in drupal, when it comes to render the rendering it in different contexts, you might want to have specific viewmodes.&lt;/p>
 &lt;p>Here you can find instructions how you can add new view modes into embedded entity form on Open Y distribution.&lt;/p>
@@ -1430,7 +1430,7 @@ As an Open Y site developer, I want to be able import posts from company&amp;rsq
 &lt;ol start="2">
 &lt;li>Then make sure you enable the new viewmode in &amp;ldquo;Allowed Entity Embed Display plugins&amp;rdquo;, and at the bottom of the page click &amp;ldquo;Save&amp;rdquo;.
 &lt;img src="../assets/view_mode_enable.png" alt="Configuration project add/update form">)&lt;/li>
-&lt;/ol></description></item><item><title>Docs: Custom Simple</title><link>/docs/content-structure/blocks/custom-simple/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/content-structure/blocks/custom-simple/</guid><description>
+&lt;/ol></description></item><item><title>Docs: Custom Simple</title><link>https://froboy.github.io/openy_docs/docs/content-structure/blocks/custom-simple/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://froboy.github.io/openy_docs/docs/content-structure/blocks/custom-simple/</guid><description>
 &lt;h1 id="block-custom-simple">Block Custom Simple&lt;/h1>
 &lt;p>A simple block with a body.&lt;/p>
 &lt;h3 id="fields">Fields&lt;/h3>
@@ -1475,7 +1475,7 @@ As an Open Y site developer, I want to be able import posts from company&amp;rsq
 &lt;td>Title to display at top of block.&lt;/td>
 &lt;/tr>
 &lt;/tbody>
-&lt;/table></description></item><item><title>Docs: DataLayer</title><link>/docs/development/datalayer/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/development/datalayer/</guid><description>
+&lt;/table></description></item><item><title>Docs: DataLayer</title><link>https://froboy.github.io/openy_docs/docs/development/datalayer/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://froboy.github.io/openy_docs/docs/development/datalayer/</guid><description>
 &lt;p>See also the Data Layer module readme datalayer/README.md&lt;/p>
 &lt;p>The Data Layers module output data on the page in a json format. By default it will output properties (langcode, vid, name, uid, created, status, roles) and related taxonomy for any node, user, or any route based entity.&lt;/p>
 &lt;p>A limited set of properties are available via the Data Layers configuration form at /admin/config/search/datalayer (langcode, vid, name, uid, created, status, roles).&lt;/p>
@@ -1527,11 +1527,11 @@ As an Open Y site developer, I want to be able import posts from company&amp;rsq
 &lt;span style="color:#000;font-weight:bold">}&lt;/span>
 &lt;span style="color:#000;font-weight:bold">}&lt;/span>
 &lt;span style="color:#4e9a06">``&lt;/span>&lt;span style="color:#a40000">`&lt;/span>&lt;span style="color:#000;font-weight:bold">)&lt;/span>
-&lt;/code>&lt;/pre>&lt;/div></description></item><item><title>Docs: Daxko</title><link>/docs/development/daxko/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/development/daxko/</guid><description>
+&lt;/code>&lt;/pre>&lt;/div></description></item><item><title>Docs: Daxko</title><link>https://froboy.github.io/openy_docs/docs/development/daxko/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://froboy.github.io/openy_docs/docs/development/daxko/</guid><description>
 &lt;h1 id="daxko">Daxko&lt;/h1>
 &lt;p>Relates to: [Program Registration (Daxko)](../Paragraphs/Program Registration (Daxko).md)&lt;/p>
 &lt;p>Configuration setting at /admin/config/development/daxko&lt;/p>
-&lt;p>Account configuration must be setup before the Program Registration paragraph will work.)&lt;/p></description></item><item><title>Docs: Facility</title><link>/docs/content-structure/content-types/facility/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/content-structure/content-types/facility/</guid><description>
+&lt;p>Account configuration must be setup before the Program Registration paragraph will work.)&lt;/p></description></item><item><title>Docs: Facility</title><link>https://froboy.github.io/openy_docs/docs/content-structure/content-types/facility/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://froboy.github.io/openy_docs/docs/content-structure/content-types/facility/</guid><description>
 &lt;h1 id="facility">Facility&lt;/h1>
 &lt;p>Facility content type is used for adding facilities on the site.&lt;/p>
 &lt;h3 id="fields">Fields&lt;/h3>
@@ -1645,10 +1645,10 @@ As an Open Y site developer, I want to be able import posts from company&amp;rsq
 &lt;/table>
 &lt;h3 id="url-pattern">URL pattern&lt;/h3>
 &lt;p>Content type is using following pattern:
-&lt;code>/facility/[node:title]&lt;/code>)&lt;/p></description></item><item><title>Docs: Facility Type</title><link>/docs/content-structure/taxonomy/facility-type/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/content-structure/taxonomy/facility-type/</guid><description>
+&lt;code>/facility/[node:title]&lt;/code>)&lt;/p></description></item><item><title>Docs: Facility Type</title><link>https://froboy.github.io/openy_docs/docs/content-structure/taxonomy/facility-type/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://froboy.github.io/openy_docs/docs/content-structure/taxonomy/facility-type/</guid><description>
 &lt;h1 id="facility-type">Facility Type&lt;/h1>
 &lt;p>This is a vocabulary that will be used for adding facility type on the site. We will use this for the Facility CT.&lt;/p>
-&lt;p>&lt;strong>Machine name&lt;/strong>: facility_type)&lt;/p></description></item><item><title>Docs: Featured Blog Posts</title><link>/docs/content-structure/paragraphs/featured-blog-posts/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/content-structure/paragraphs/featured-blog-posts/</guid><description>
+&lt;p>&lt;strong>Machine name&lt;/strong>: facility_type)&lt;/p></description></item><item><title>Docs: Featured Blog Posts</title><link>https://froboy.github.io/openy_docs/docs/content-structure/paragraphs/featured-blog-posts/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://froboy.github.io/openy_docs/docs/content-structure/paragraphs/featured-blog-posts/</guid><description>
 &lt;h1 id="featured-blog-posts">Featured Blog Posts&lt;/h1>
 &lt;p>This is a paragraph type that will be used for the featured stories.&lt;/p>
 &lt;h3 id="fields">Fields&lt;/h3>
@@ -1675,7 +1675,7 @@ As an Open Y site developer, I want to be able import posts from company&amp;rsq
 &lt;td>Multiple values. Reference field to Blog posts.&lt;/td>
 &lt;/tr>
 &lt;/tbody>
-&lt;/table></description></item><item><title>Docs: Featured Content</title><link>/docs/content-structure/paragraphs/featured-content/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/content-structure/paragraphs/featured-content/</guid><description>
+&lt;/table></description></item><item><title>Docs: Featured Content</title><link>https://froboy.github.io/openy_docs/docs/content-structure/paragraphs/featured-content/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://froboy.github.io/openy_docs/docs/content-structure/paragraphs/featured-content/</guid><description>
 &lt;h1 id="featured-content">Featured Content&lt;/h1>
 &lt;p>This is a paragraph type that will be used for the featured content.&lt;/p>
 &lt;h3 id="fields">Fields&lt;/h3>
@@ -1720,7 +1720,7 @@ As an Open Y site developer, I want to be able import posts from company&amp;rsq
 &lt;td>Multiple values. Textarea for the column with WYSIWYG, without summary.&lt;/td>
 &lt;/tr>
 &lt;/tbody>
-&lt;/table></description></item><item><title>Docs: Featured Highlights</title><link>/docs/content-structure/paragraphs/featured-highlights/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/content-structure/paragraphs/featured-highlights/</guid><description>
+&lt;/table></description></item><item><title>Docs: Featured Highlights</title><link>https://froboy.github.io/openy_docs/docs/content-structure/paragraphs/featured-highlights/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://froboy.github.io/openy_docs/docs/content-structure/paragraphs/featured-highlights/</guid><description>
 &lt;h1 id="featured-highlights">Featured Highlights&lt;/h1>
 &lt;p>Provides a paragraph containing blocks of specific types positioned as 2, 3 or 4 blocks per row.&lt;/p>
 &lt;h3 id="fields">Fields&lt;/h3>
@@ -1753,7 +1753,7 @@ As an Open Y site developer, I want to be able import posts from company&amp;rsq
 &lt;td>Create a new one or pick up an existing block of given types: Featured Highlight Block, Basic Block, Simple Block, Date block.&lt;/td>
 &lt;/tr>
 &lt;/tbody>
-&lt;/table></description></item><item><title>Docs: Featured News Posts</title><link>/docs/content-structure/paragraphs/featured-news-posts/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/content-structure/paragraphs/featured-news-posts/</guid><description>
+&lt;/table></description></item><item><title>Docs: Featured News Posts</title><link>https://froboy.github.io/openy_docs/docs/content-structure/paragraphs/featured-news-posts/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://froboy.github.io/openy_docs/docs/content-structure/paragraphs/featured-news-posts/</guid><description>
 &lt;h1 id="featured-news-posts">Featured News Posts&lt;/h1>
 &lt;p>This is a paragraph type that will be used for the featured news.&lt;/p>
 &lt;h3 id="fields">Fields&lt;/h3>
@@ -1780,7 +1780,7 @@ As an Open Y site developer, I want to be able import posts from company&amp;rsq
 &lt;td>Multiple values. Reference field to News posts.&lt;/td>
 &lt;/tr>
 &lt;/tbody>
-&lt;/table></description></item><item><title>Docs: Flexible</title><link>/docs/content-structure/blocks/flexible/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/content-structure/blocks/flexible/</guid><description>
+&lt;/table></description></item><item><title>Docs: Flexible</title><link>https://froboy.github.io/openy_docs/docs/content-structure/blocks/flexible/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://froboy.github.io/openy_docs/docs/content-structure/blocks/flexible/</guid><description>
 &lt;h1 id="block-flexible-content">Block Flexible Content&lt;/h1>
 &lt;p>A block with amenities list of the current branch.&lt;/p>
 &lt;h3 id="fields">Fields&lt;/h3>
@@ -1801,7 +1801,7 @@ As an Open Y site developer, I want to be able import posts from company&amp;rsq
 &lt;td>Provide reference to Node .&lt;/td>
 &lt;/tr>
 &lt;/tbody>
-&lt;/table></description></item><item><title>Docs: Fonts</title><link>/docs/development/fonts/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/development/fonts/</guid><description>
+&lt;/table></description></item><item><title>Docs: Fonts</title><link>https://froboy.github.io/openy_docs/docs/development/fonts/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://froboy.github.io/openy_docs/docs/development/fonts/</guid><description>
 &lt;p>#Fonts&lt;/p>
 &lt;p>The majority of the fonts used by the Open Y distribution are freely available, except for Cachet.&lt;/p>
 &lt;p>Helvetica is used for paragraph text, with Verdana as a fallback. Page titles, headers, highlighted text, etc, use Cachet, with Ubuntu Condensed as a fallback.&lt;/p>
@@ -1832,7 +1832,7 @@ base:
 //fast.fonts.net/jsapi/12345-abcdef-67890.js: {}
 &lt;/code>&lt;/pre>
 &lt;p>Another option is to use the @font-your-face Drupal module, &lt;a href="https://www.drupal.org/project/fontyourface">https://www.drupal.org/project/fontyourface&lt;/a> .&lt;/p>
-&lt;p>Once installed you can connect your Drupal site to your font.com account, or one of the other font providers, and have the font automatically retrieved and added to your site. Follow the directions provided by the module to connect to your font provider account.)&lt;/p></description></item><item><title>Docs: Gallery</title><link>/docs/content-structure/paragraphs/gallery/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/content-structure/paragraphs/gallery/</guid><description>
+&lt;p>Once installed you can connect your Drupal site to your font.com account, or one of the other font providers, and have the font automatically retrieved and added to your site. Follow the directions provided by the module to connect to your font provider account.)&lt;/p></description></item><item><title>Docs: Gallery</title><link>https://froboy.github.io/openy_docs/docs/content-structure/paragraphs/gallery/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://froboy.github.io/openy_docs/docs/content-structure/paragraphs/gallery/</guid><description>
 &lt;h1 id="gallery">Gallery&lt;/h1>
 &lt;p>This is a paragraph type that will be used for the gallery content.&lt;/p>
 &lt;h3 id="fields">Fields&lt;/h3>
@@ -1871,7 +1871,7 @@ base:
 &lt;td>Entityreference to media image. Multiple values.&lt;/td>
 &lt;/tr>
 &lt;/tbody>
-&lt;/table></description></item><item><title>Docs: Google_Analytics_Search</title><link>/docs/development/google_analytics_search/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/development/google_analytics_search/</guid><description>
+&lt;/table></description></item><item><title>Docs: Google_Analytics_Search</title><link>https://froboy.github.io/openy_docs/docs/development/google_analytics_search/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://froboy.github.io/openy_docs/docs/development/google_analytics_search/</guid><description>
 &lt;h1 id="how-to-configure-search-tracking-in-google-analytics-account">How to configure search tracking in Google Analytics account&lt;/h1>
 &lt;p>##Prerequisites
 Google Analitycs account to track you site should be created.
@@ -1901,7 +1901,7 @@ Google Analitycs contrib module should be enabled and configured to use existing
 &lt;/li>
 &lt;/ol>
 &lt;p>Attention: Data processing latency for search tracking reports is 24-48 hours
-(see &lt;a href="https://support.google.com/analytics/answer/1070983?hl=en#DataProcessingLatency">https://support.google.com/analytics/answer/1070983?hl=en#DataProcessingLatency&lt;/a>))&lt;/p></description></item><item><title>Docs: GoogleCustomSearchConfiguration</title><link>/docs/development/googlecustomsearchconfiguration/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/development/googlecustomsearchconfiguration/</guid><description>
+(see &lt;a href="https://support.google.com/analytics/answer/1070983?hl=en#DataProcessingLatency">https://support.google.com/analytics/answer/1070983?hl=en#DataProcessingLatency&lt;/a>))&lt;/p></description></item><item><title>Docs: GoogleCustomSearchConfiguration</title><link>https://froboy.github.io/openy_docs/docs/development/googlecustomsearchconfiguration/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://froboy.github.io/openy_docs/docs/development/googlecustomsearchconfiguration/</guid><description>
 &lt;h1 id="google-custom-search-configuration">Google Custom Search configuration&lt;/h1>
 &lt;p>The Open Y release &lt;strong>8.2.4&lt;/strong> introduces Google Custom Search for the website out of the box.&lt;/p>
 &lt;h2 id="enabling-the-module">Enabling the module&lt;/h2>
@@ -2002,7 +2002,7 @@ openy_third_party_services.google_search_engine_id=&amp;quot;0123456789012345678
 &lt;p>Use the following snippet to set the Search Engine ID on already installed websites:&lt;/p>
 &lt;pre tabindex="0">&lt;code>drush config-set openy_google_search.settings google_engine_id &amp;quot;01234567890123456789:abcedefgh&amp;quot;
 ```)
-&lt;/code>&lt;/pre></description></item><item><title>Docs: Grid columns</title><link>/docs/content-structure/paragraphs/grid-columns/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/content-structure/paragraphs/grid-columns/</guid><description>
+&lt;/code>&lt;/pre></description></item><item><title>Docs: Grid columns</title><link>https://froboy.github.io/openy_docs/docs/content-structure/paragraphs/grid-columns/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://froboy.github.io/openy_docs/docs/content-structure/paragraphs/grid-columns/</guid><description>
 &lt;h1 id="grid-columns">Grid columns&lt;/h1>
 &lt;p>This is a paragraph type that will be used for field_grid_columns the in Grid Content paragraph.&lt;/p>
 &lt;h3 id="fields">Fields&lt;/h3>
@@ -2047,7 +2047,7 @@ openy_third_party_services.google_search_engine_id=&amp;quot;0123456789012345678
 &lt;td>Link field that supports internal and external URLs.&lt;/td>
 &lt;/tr>
 &lt;/tbody>
-&lt;/table></description></item><item><title>Docs: Grid Content</title><link>/docs/content-structure/paragraphs/grid-content/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/content-structure/paragraphs/grid-content/</guid><description>
+&lt;/table></description></item><item><title>Docs: Grid Content</title><link>https://froboy.github.io/openy_docs/docs/content-structure/paragraphs/grid-content/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://froboy.github.io/openy_docs/docs/content-structure/paragraphs/grid-content/</guid><description>
 &lt;h1 id="grid-content">Grid Content&lt;/h1>
 &lt;p>This is a paragraph type that will be used for the grid content stories.&lt;/p>
 &lt;h3 id="fields">Fields&lt;/h3>
@@ -2104,7 +2104,7 @@ openy_third_party_services.google_search_engine_id=&amp;quot;0123456789012345678
 &lt;td>Link field that supports internal and external URLs.&lt;/td>
 &lt;/tr>
 &lt;/tbody>
-&lt;/table></description></item><item><title>Docs: Group Schedules</title><link>/docs/content-structure/paragraphs/group-schedules/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/content-structure/paragraphs/group-schedules/</guid><description>
+&lt;/table></description></item><item><title>Docs: Group Schedules</title><link>https://froboy.github.io/openy_docs/docs/content-structure/paragraphs/group-schedules/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://froboy.github.io/openy_docs/docs/content-structure/paragraphs/group-schedules/</guid><description>
 &lt;h1 id="group-schedules">Group Schedules&lt;/h1>
 &lt;p>This is dynamic paragraph that renders the group schedules from GroupEx Pro.&lt;/p>
 &lt;h3 id="fields">Fields&lt;/h3>
