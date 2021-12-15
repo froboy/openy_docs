@@ -1,0 +1,1009 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Open Y – Development</title><link>/docs/development/</link><description>Recent content in Development on Open Y</description><generator>Hugo -- gohugo.io</generator><atom:link href="/docs/development/index.xml" rel="self" type="application/rss+xml"/><item><title>Docs: AcceptanceTesting</title><link>/docs/development/acceptancetesting/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/development/acceptancetesting/</guid><description>
+&lt;h3 id="open-y-acceptance-testing-best-practices">Open Y Acceptance testing best practices&lt;/h3>
+&lt;p>Open Y is a big distribution with a large amount of modules, components, subsystems, and business
+processes, therefore we have to take appropriate steps to ensure the stability of major functionality during development.&lt;/p>
+&lt;p>For the automated tests we have created &lt;a href="https://github.com/ymcatwincities/openy/blob/8.x-1.x/.github/PULL_REQUEST_TEMPLATE.md">General Checks template&lt;/a>
+on GitHub every developer should follow to get review approval from Open Y core team.
+However, General Checks are for testing functionality for the current proposed change only, not for Regression Testing.&lt;/p>
+&lt;p>For regression testing, &lt;a href="https://github.com/ymcatwincities/openy/blob/8.x-1.x/docs/Development/Tests.md#behat">Behat tests&lt;/a> in this flow are provided automatically on each build by Open Y community.&lt;/p>
+&lt;p>Every pull request should include a testing plan prior to release into Open Y. This plan should cover the testing of all workflows and functionality to ensure that they continue to work with any new code or change implemented. This is because it is possible for conflicts to occur between elements of Open Y, Drupal Modules, and Drupal Core. These pull request testing plans will increase productivity and decrease effort for manual Acceptance Testing of upcoming Releases. This testing plan should cover specific features and functionality that is likely to cause regression issues post-release or post-upgrade to the latest version of Open Y once this new code is implemented.&lt;/p>
+&lt;p>Example of testing plan: If the Drupal core is updated it is important to gather all Drupal core Release Notes since last release
+core upgrade for Open Y and analyze important issues fixed.
+Example - in case if you are doing upgrade from latest 8.4.0 to 8.4.4:&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://www.drupal.org/project/drupal/releases/8.4.4">https://www.drupal.org/project/drupal/releases/8.4.4&lt;/a> (translations)&lt;/li>
+&lt;li>&lt;a href="https://www.drupal.org/project/drupal/releases/8.4.3">https://www.drupal.org/project/drupal/releases/8.4.3&lt;/a> (postgreSQL and migration)&lt;/li>
+&lt;li>&lt;a href="https://www.drupal.org/project/drupal/releases/8.4.2">https://www.drupal.org/project/drupal/releases/8.4.2&lt;/a> (migrations, taxonomy, ckeditor)&lt;/li>
+&lt;li>&lt;a href="https://www.drupal.org/project/drupal/releases/8.4.1">https://www.drupal.org/project/drupal/releases/8.4.1&lt;/a> (composer)&lt;/li>
+&lt;/ul>
+&lt;p>This means the list of systems should be tested are&lt;/p>
+&lt;ul>
+&lt;li>multilingual&lt;/li>
+&lt;li>postgreSQL support&lt;/li>
+&lt;li>migration&lt;/li>
+&lt;li>taxonomy&lt;/li>
+&lt;li>ckeditor&lt;/li>
+&lt;li>composer&lt;/li>
+&lt;/ul>
+&lt;p>This list could be extended by analyzing some highly important parts of Open Y distributions that depends from the above
+subsystems. It is not required to spend time on every module that has a dependency taxonomy, but it is important to test at least one impacted module to ensure it is still working post-implementation. In case if there is a Behat test already created for the subsystem in a list then a manual test could be skipped as long as the build is not failing due to the module or element covered in the associatied Behat test.&lt;/p>
+&lt;p>How to choose which modules to test: These can be a random selection from the list of systems impacted, or one of the oldest modules in a system impacted. This is because there is a higher chance that a minor change could cause a regression issue for the modules that have not received recent or regular updates.&lt;/p>
+&lt;p>The oldest modules(contrib modules) that have dependencies from the above list should also be updated, but
+to improve productivity, these updates should only be initiated if there is a security issue or a module stopped working because of
+the subsystems getting updated within an upcoming release. In case if a respective module update creates more issues
+that the older version of said module - then it is better to keep the old module and fix an associated regression bug.
+Tip: usually a new version of the module already contains a bug fix, so adding a patch from the drupal.org to composer.json of the Open Y distribution is preffered to get distribution
+released. Keep in mind, you will need to create a follow-up task for the module to be updated after release.&lt;/p>
+&lt;p>After creating list of modules that could introduce regression issues it is highly recommended to follow
+Quickstart section of the module&amp;rsquo;s readme files, that usually is shipped with modules. &lt;a href="https://github.com/ymcatwincities/openy/blob/8.x-1.x/modules/custom/location_finder/README.md#quickstart">Example for the location_finder&lt;/a>.
+In case if a module has no Quickstart of Acceptance testing section in readme - it is important to test at least one place
+where functionality of the module should be working. It is highly recommended to add this manual test steps as
+a follow-up task, &lt;a href="https://github.com/ymcatwincities/openy/issues/new">new issue&lt;/a> or even better - create Pull Request
+with changes to readme into Open Y repository. For the sake of performance, adding step by step how-to to the respective
+module&amp;rsquo;s README.md file is highly recommended. It takes only a few minutes to write a couple of lines of documentation which will greatly help others with future contributions and changes.&lt;/p>
+&lt;p>Optional, but grately appreciated: Add a Drupal tour for the how-to, created in README will benefit future Open Y users and developers.
+Having a tour for the business functionality is highly recommended to ship with the component - it creates an in-site visual guided documentation and helps to decrease time for the Acceptance testing.&lt;/p>
+&lt;p>And last, but not the lease - adding Behat tests to the system will ensure functionality is tested on every pull
+request, on every CI build in the future.&lt;/p>
+&lt;h3 id="rule">Rule&lt;/h3>
+&lt;p>Every release of Open Y since 8.1.9 should include list of subsystems, changed in release for the community to be aware of the possible regressions on their end.)&lt;/p></description></item><item><title>Docs: AddThis</title><link>/docs/development/addthis/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/development/addthis/</guid><description>
+&lt;h1 id="how-to-configure-addthis">How to configure AddThis&lt;/h1>
+&lt;p>Open Y AddThis module allow you easy add Social icons to any node.&lt;/p>
+&lt;ol>
+&lt;li>
+&lt;p>Go to &lt;code>http://www.addthis.com&lt;/code> and create your account and get public id.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Go to &lt;code>admin/openy/settings/openy-addthis&lt;/code> add public id
+&lt;img src="../assets/addthis.png" alt="Enter Public id">&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Select the content type for which to show the social icons and save.&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;h2 id="how-to-use-addthis-paragraph">How to use AddThis paragraph&lt;/h2>
+&lt;p>You can add AddThis to specific node use &amp;lsquo;Social share icons&amp;rsquo; paragraph&lt;/p>
+&lt;ol>
+&lt;li>
+&lt;p>Click on &amp;lsquo;Edit&amp;rsquo; any node&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>After content add &amp;lsquo;Social share icons&amp;rsquo; paragraph
+&lt;img src="../assets/addthis_paragraph.png" alt="Enter Public id">)&lt;/p>
+&lt;/li>
+&lt;/ol></description></item><item><title>Docs: Composer</title><link>/docs/development/composer/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/development/composer/</guid><description>
+&lt;h1 id="composer">Composer&lt;/h1>
+&lt;p>Please always make sure &lt;code>composer.lock&lt;/code> file is updated after any changes in &lt;code>composer.json&lt;/code> file.
+You can use &lt;code>composer update&lt;/code> command to update any package, in this case composer will take care about updating of &lt;code>composer.lock&lt;/code> file.&lt;/p>
+&lt;pre tabindex="0">&lt;code>composer update drupal/metatag
+&lt;/code>&lt;/pre>&lt;p>Also you can use &lt;code>composer update --lock&lt;/code> command to force updating of &lt;code>composer.lock&lt;/code> file according to dependencies in &lt;code>composer.json&lt;/code>.&lt;/p>
+&lt;p>Please check official composer documentation for details: &lt;a href="https://getcomposer.org/doc/01-basic-usage.md">https://getcomposer.org/doc/01-basic-usage.md&lt;/a>)&lt;/p></description></item><item><title>Docs: Configuration for social posts import</title><link>/docs/development/configuration-for-social-posts-import/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/development/configuration-for-social-posts-import/</guid><description>
+&lt;p>Add import social posts to site (Facebook, Instagram, Twitter)&lt;/p>
+&lt;h3 id="how-configure-import-of-posts-from-the-social-networks">How configure import of posts from the social networks&lt;/h3>
+&lt;p>&lt;strong>Given:&lt;/strong>
+As an Open Y site developer, I want to be able import posts from company&amp;rsquo;s accounts form social networks (Twitter, Facebook, Instagram) and save them as content on the site.&lt;/p>
+&lt;p>&lt;strong>How to:&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>Open configuration page /admin/config/social_feed_fetcher_settings - Configuration -&amp;gt; Social Feed Settings&lt;/li>
+&lt;li>Select checkbox for needed social network and add additional settings. Every social network has their own API, please read documentation for this settings on the official pages of each social networks.&lt;/li>
+&lt;li>When all settings will be filled - click on the button - Run Cron. Import is started. )&lt;/li>
+&lt;/ul></description></item><item><title>Docs: Contributing</title><link>/docs/development/contributing/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/development/contributing/</guid><description>
+&lt;h1 id="contributing-to-open-y">Contributing to Open Y&lt;/h1>
+&lt;h1 id="issues">Issues&lt;/h1>
+&lt;p>If you have a support request, you&amp;rsquo;ve found a bug or you have a feature request:&lt;/p>
+&lt;ul>
+&lt;li>Search through known issues/requests &lt;a href="https://github.com/ymcatwincities/openy/issues">https://github.com/ymcatwincities/openy/issues&lt;/a>&lt;/li>
+&lt;li>Create new issue &lt;a href="https://github.com/ymcatwincities/openy/issues/new">https://github.com/ymcatwincities/openy/issues/new&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h1 id="pull-requests">Pull Requests&lt;/h1>
+&lt;p>If you have some time to make a contribution to the project, here are the steps that will help you:&lt;/p>
+&lt;ul>
+&lt;li>Create fork of &lt;a href="https://github.com/ymcatwincities/openy">main project&lt;/a>. &lt;a href="https://help.github.com/articles/fork-a-repo/">How to create fork&lt;/a>.&lt;/li>
+&lt;li>Commit &amp;amp; push changes into your fork&lt;/li>
+&lt;li>Create new Pull Request. &lt;a href="https://help.github.com/articles/creating-a-pull-request/">How to create Pull Request&lt;/a>.&lt;/li>
+&lt;li>Write steps for review. In this way maintainers can go through steps on build to verify your fix/feature.&lt;/li>
+&lt;li>Ensure steps for review added to README.md file in a module&amp;rsquo;s/project&amp;rsquo;s directory if it makes sence to check them on regular basis. Often this is needed for crucial parts of the system which is main business functionality of the component. Example of super simple steps for review &lt;a href="https://github.com/ymcatwincities/openy/blob/8.x-1.x/modules/custom/location_finder/README.md#quickstart">see in Quickstart section of location_finder module&lt;/a>, plese.&lt;/li>
+&lt;li>Create Drupal tour module, based on steps for review and ship it with the module which provides a functionality.&lt;/li>
+&lt;li>Wait for a CI build and ask maintainers for review.&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>Important:&lt;/strong> make sure your git email is associated with account on drupal.org, otherwise you won&amp;rsquo;t get commits there.&lt;/p>
+&lt;h1 id="drupalorg-credits">Drupal.org credits&lt;/h1>
+&lt;p>If you would like to get drupal.org credits for your contribution:&lt;/p>
+&lt;ul>
+&lt;li>Create issue on &lt;a href="https://www.drupal.org/project/issues/openy?categories=All">drupal.org&lt;/a>&lt;/li>
+&lt;li>Link drupal.org issue to GitHub Pull Request&lt;/li>
+&lt;li>Specify in GitHub Pull Request link to drupal.org issue&lt;/li>
+&lt;li>Once PR has been merged, reviewer will close drupal.org issue with appropriate credits.)&lt;/li>
+&lt;/ul></description></item><item><title>Docs: Create View Modes</title><link>/docs/development/create-view-modes/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/development/create-view-modes/</guid><description>
+&lt;h1 id="how-to-create-new-view-mode-and-use">How to Create new View mode and use&lt;/h1>
+&lt;p>As with any other entity in drupal, when it comes to render the rendering it in different contexts, you might want to have specific viewmodes.&lt;/p>
+&lt;p>Here you can find instructions how you can add new view modes into embedded entity form on Open Y distribution.&lt;/p>
+&lt;h2 id="how-to-create-new-view-mode">How-to create new View mode&lt;/h2>
+&lt;ol>
+&lt;li>Go to &amp;lsquo;View modes&amp;rsquo; page: Structure -&amp;gt; Display modes -&amp;gt; View modes (or visit the URL: /admin/structure/display-modes/view )
+&lt;img src="../assets/view_mode_in_menu.png" alt="Configuration project add/update form">&lt;/li>
+&lt;/ol>
+&lt;p>&lt;img src="../assets/view_mode_types.png" alt="Configuration project add/update form">&lt;/p>
+&lt;ol start="2">
+&lt;li>Create new view mode: click &amp;lsquo;Add view mode&amp;rsquo; button and select entity type (or visit the URL: /admin/structure/display-modes/view/add )&lt;/li>
+&lt;/ol>
+&lt;p>&lt;img src="../assets/view_mode_firt_way_to_create.png" alt="Configuration project add/update form">&lt;/p>
+&lt;p>or after each entity type you can see &amp;lsquo;Add new {Name} view mode&amp;rsquo; and click on it
+&lt;img src="../assets/view_mode_seond_way.png" alt="Configuration project add/update form">&lt;/p>
+&lt;ol start="3">
+&lt;li>Select &amp;ldquo;Media&amp;rdquo; and then give a name to your new viewmode (or visit the URL: /admin/structure/display-modes/view/add/media )
+&lt;img src="../assets/view_mode_creating.png" alt="Configuration project add/update form">&lt;/li>
+&lt;/ol>
+&lt;h2 id="how-to-use-new-view-mode">How-to use new View mode&lt;/h2>
+&lt;ol>
+&lt;li>Go to Configuration -&amp;gt; Text editor embed buttons (or visit the URL: /admin/config/content/embed )
+&lt;img src="../assets/view_mode_using.png" alt="Configuration project add/update form">&lt;/li>
+&lt;/ol>
+&lt;p>&lt;img src="../assets/view_mode_using_list.png" alt="Configuration project add/update form">&lt;/p>
+&lt;ol start="2">
+&lt;li>Then make sure you enable the new viewmode in &amp;ldquo;Allowed Entity Embed Display plugins&amp;rdquo;, and at the bottom of the page click &amp;ldquo;Save&amp;rdquo;.
+&lt;img src="../assets/view_mode_enable.png" alt="Configuration project add/update form">)&lt;/li>
+&lt;/ol></description></item><item><title>Docs: DataLayer</title><link>/docs/development/datalayer/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/development/datalayer/</guid><description>
+&lt;p>See also the Data Layer module readme datalayer/README.md&lt;/p>
+&lt;p>The Data Layers module output data on the page in a json format. By default it will output properties (langcode, vid, name, uid, created, status, roles) and related taxonomy for any node, user, or any route based entity.&lt;/p>
+&lt;p>A limited set of properties are available via the Data Layers configuration form at /admin/config/search/datalayer (langcode, vid, name, uid, created, status, roles).&lt;/p>
+&lt;p>Adding additional properties can be done through use of hook_datalayer_meta().&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-php" data-lang="php">&lt;span style="color:#204a87;font-weight:bold">function&lt;/span> &lt;span style="color:#000">my_module_datalayer_meta&lt;/span>&lt;span style="color:#000;font-weight:bold">()&lt;/span> &lt;span style="color:#000;font-weight:bold">{&lt;/span>
+&lt;span style="color:#204a87;font-weight:bold">return&lt;/span> &lt;span style="color:#204a87;font-weight:bold">array&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span>
+&lt;span style="color:#4e9a06">&amp;#39;property&amp;#39;&lt;/span>&lt;span style="color:#000;font-weight:bold">,&lt;/span>
+&lt;span style="color:#000;font-weight:bold">);&lt;/span>
+&lt;span style="color:#000;font-weight:bold">}&lt;/span>
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>It will be added to the page as:&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-json" data-lang="json">&lt;span style="color:#000;font-weight:bold">{&lt;/span>
+&lt;span style="color:#204a87;font-weight:bold">&amp;#34;entityProperty&amp;#34;&lt;/span>&lt;span style="color:#000;font-weight:bold">:&lt;/span> &lt;span style="color:#4e9a06">&amp;#34;whatever the value is&amp;#34;&lt;/span>
+&lt;span style="color:#000;font-weight:bold">}&lt;/span>
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>Altering which properties will be output can be done via hook_datalayer_meta_alter().&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-php" data-lang="php">&lt;span style="color:#204a87;font-weight:bold">function&lt;/span> &lt;span style="color:#000">my_module_datalayer_meta_alter&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">&amp;amp;&lt;/span>&lt;span style="color:#000">$properties&lt;/span>&lt;span style="color:#000;font-weight:bold">)&lt;/span> &lt;span style="color:#000;font-weight:bold">{&lt;/span>
+&lt;span style="color:#8f5902;font-style:italic">// Override module norm in all cases.
+&lt;/span>&lt;span style="color:#8f5902;font-style:italic">&lt;/span> &lt;span style="color:#000">unset&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#000">$properties&lt;/span>&lt;span style="color:#000;font-weight:bold">[&lt;/span>&lt;span style="color:#4e9a06">&amp;#39;entityUid&amp;#39;&lt;/span>&lt;span style="color:#000;font-weight:bold">]);&lt;/span>
+&lt;span style="color:#8f5902;font-style:italic">// Specific situation alteration...
+&lt;/span>&lt;span style="color:#8f5902;font-style:italic">&lt;/span> &lt;span style="color:#000">$type&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">=&lt;/span> &lt;span style="color:#204a87;font-weight:bold">false&lt;/span>&lt;span style="color:#000;font-weight:bold">;&lt;/span>
+&lt;span style="color:#204a87;font-weight:bold">if&lt;/span> &lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#000">$obj&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">=&lt;/span> &lt;span style="color:#000">_datalayer_menu_get_any_object&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#000">$type&lt;/span>&lt;span style="color:#000;font-weight:bold">))&lt;/span> &lt;span style="color:#000;font-weight:bold">{&lt;/span>
+&lt;span style="color:#204a87;font-weight:bold">if&lt;/span> &lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#000">$type&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">===&lt;/span> &lt;span style="color:#4e9a06">&amp;#39;node&amp;#39;&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">&amp;amp;&amp;amp;&lt;/span> &lt;span style="color:#000">in_array&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#204a87;font-weight:bold">array&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#4e9a06">&amp;#39;my_bundle&amp;#39;&lt;/span>&lt;span style="color:#000;font-weight:bold">,&lt;/span> &lt;span style="color:#4e9a06">&amp;#39;my_nodetype&amp;#39;&lt;/span>&lt;span style="color:#000;font-weight:bold">),&lt;/span> &lt;span style="color:#000">$obj&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">-&amp;gt;&lt;/span>&lt;span style="color:#c4a000">type&lt;/span>&lt;span style="color:#000;font-weight:bold">))&lt;/span> &lt;span style="color:#000;font-weight:bold">{&lt;/span>
+&lt;span style="color:#8f5902;font-style:italic">// Remove author names on some content type.
+&lt;/span>&lt;span style="color:#8f5902;font-style:italic">&lt;/span> &lt;span style="color:#204a87;font-weight:bold">if&lt;/span> &lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#000">$key&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">=&lt;/span> &lt;span style="color:#000">array_search&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#4e9a06">&amp;#39;name&amp;#39;&lt;/span>&lt;span style="color:#000;font-weight:bold">,&lt;/span> &lt;span style="color:#000">$properties&lt;/span>&lt;span style="color:#000;font-weight:bold">))&lt;/span> &lt;span style="color:#000;font-weight:bold">{&lt;/span>
+&lt;span style="color:#000">unset&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#000">$properties&lt;/span>&lt;span style="color:#000;font-weight:bold">[&lt;/span>&lt;span style="color:#000">$key&lt;/span>&lt;span style="color:#000;font-weight:bold">]);&lt;/span>
+&lt;span style="color:#000;font-weight:bold">}&lt;/span>
+&lt;span style="color:#000;font-weight:bold">}&lt;/span>
+&lt;span style="color:#204a87;font-weight:bold">elseif&lt;/span> &lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#000">$type&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">===&lt;/span> &lt;span style="color:#4e9a06">&amp;#39;my_entity_type&amp;#39;&lt;/span>&lt;span style="color:#000;font-weight:bold">)&lt;/span> &lt;span style="color:#000;font-weight:bold">{&lt;/span>
+&lt;span style="color:#8f5902;font-style:italic">// Remove some property on some entity type.
+&lt;/span>&lt;span style="color:#8f5902;font-style:italic">&lt;/span> &lt;span style="color:#204a87;font-weight:bold">if&lt;/span> &lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#000">$key&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">=&lt;/span> &lt;span style="color:#000">array_search&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#4e9a06">&amp;#39;my_property&amp;#39;&lt;/span>&lt;span style="color:#000;font-weight:bold">,&lt;/span> &lt;span style="color:#000">$properties&lt;/span>&lt;span style="color:#000;font-weight:bold">))&lt;/span> &lt;span style="color:#000;font-weight:bold">{&lt;/span>
+&lt;span style="color:#000">unset&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#000">$properties&lt;/span>&lt;span style="color:#000;font-weight:bold">[&lt;/span>&lt;span style="color:#000">$key&lt;/span>&lt;span style="color:#000;font-weight:bold">]);&lt;/span>
+&lt;span style="color:#000;font-weight:bold">}&lt;/span>
+&lt;span style="color:#000;font-weight:bold">}&lt;/span>
+&lt;span style="color:#000;font-weight:bold">}&lt;/span>
+&lt;span style="color:#000;font-weight:bold">}&lt;/span>
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>Adding additional data can be done using datalayer_add().&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-php" data-lang="php">&lt;span style="color:#204a87;font-weight:bold">function&lt;/span> &lt;span style="color:#000">_my_module_myevent_func&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#000">$argument&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">=&lt;/span> &lt;span style="color:#204a87;font-weight:bold">FALSE&lt;/span>&lt;span style="color:#000;font-weight:bold">)&lt;/span> &lt;span style="color:#000;font-weight:bold">{&lt;/span>
+&lt;span style="color:#204a87;font-weight:bold">if&lt;/span> &lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#000">$argument&lt;/span>&lt;span style="color:#000;font-weight:bold">)&lt;/span> &lt;span style="color:#000;font-weight:bold">{&lt;/span>
+&lt;span style="color:#000">datalayer_add&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#204a87;font-weight:bold">array&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span>
+&lt;span style="color:#4e9a06">&amp;#39;drupalMyProperty&amp;#39;&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">=&amp;gt;&lt;/span> &lt;span style="color:#000">$argument&lt;/span>&lt;span style="color:#000;font-weight:bold">,&lt;/span>
+&lt;span style="color:#4e9a06">&amp;#39;userAnotherProperty&amp;#39;&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">=&amp;gt;&lt;/span> &lt;span style="color:#000">_my_module_other_funct&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#000">$argument&lt;/span>&lt;span style="color:#000;font-weight:bold">),&lt;/span>
+&lt;span style="color:#000;font-weight:bold">));&lt;/span>
+&lt;span style="color:#000;font-weight:bold">}&lt;/span>
+&lt;span style="color:#000;font-weight:bold">}&lt;/span>
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>To alter the data to be output use hook_datalayer_alter().&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-php" data-lang="php">&lt;span style="color:#204a87;font-weight:bold">function&lt;/span> &lt;span style="color:#000">my_module_datalayer_alter&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">&amp;amp;&lt;/span>&lt;span style="color:#000">$data_layer&lt;/span>&lt;span style="color:#000;font-weight:bold">)&lt;/span> &lt;span style="color:#000;font-weight:bold">{&lt;/span>
+&lt;span style="color:#8f5902;font-style:italic">// Make the title lowercase on some node type.
+&lt;/span>&lt;span style="color:#8f5902;font-style:italic">&lt;/span> &lt;span style="color:#204a87;font-weight:bold">if&lt;/span> &lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#000">isset&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#000">$data_layer&lt;/span>&lt;span style="color:#000;font-weight:bold">[&lt;/span>&lt;span style="color:#4e9a06">&amp;#39;entityBundle&amp;#39;&lt;/span>&lt;span style="color:#000;font-weight:bold">])&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">&amp;amp;&amp;amp;&lt;/span> &lt;span style="color:#000">$data_layer&lt;/span>&lt;span style="color:#000;font-weight:bold">[&lt;/span>&lt;span style="color:#4e9a06">&amp;#39;entityBundle&amp;#39;&lt;/span>&lt;span style="color:#000;font-weight:bold">]&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">==&lt;/span> &lt;span style="color:#4e9a06">&amp;#39;mytype&amp;#39;&lt;/span>&lt;span style="color:#000;font-weight:bold">)&lt;/span> &lt;span style="color:#000;font-weight:bold">{&lt;/span>
+&lt;span style="color:#000">$data_layer&lt;/span>&lt;span style="color:#000;font-weight:bold">[&lt;/span>&lt;span style="color:#4e9a06">&amp;#39;entityLabel&amp;#39;&lt;/span>&lt;span style="color:#000;font-weight:bold">]&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">=&lt;/span> &lt;span style="color:#000">strtolower&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#000">$data_layer&lt;/span>&lt;span style="color:#000;font-weight:bold">[&lt;/span>&lt;span style="color:#4e9a06">&amp;#39;entityLabel&amp;#39;&lt;/span>&lt;span style="color:#000;font-weight:bold">]);&lt;/span>
+&lt;span style="color:#000;font-weight:bold">}&lt;/span>
+&lt;span style="color:#000;font-weight:bold">}&lt;/span>
+&lt;span style="color:#4e9a06">``&lt;/span>&lt;span style="color:#a40000">`&lt;/span>&lt;span style="color:#000;font-weight:bold">)&lt;/span>
+&lt;/code>&lt;/pre>&lt;/div></description></item><item><title>Docs: Daxko</title><link>/docs/development/daxko/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/development/daxko/</guid><description>
+&lt;h1 id="daxko">Daxko&lt;/h1>
+&lt;p>Relates to: [Program Registration (Daxko)](../Paragraphs/Program Registration (Daxko).md)&lt;/p>
+&lt;p>Configuration setting at /admin/config/development/daxko&lt;/p>
+&lt;p>Account configuration must be setup before the Program Registration paragraph will work.)&lt;/p></description></item><item><title>Docs: Fonts</title><link>/docs/development/fonts/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/development/fonts/</guid><description>
+&lt;p>#Fonts&lt;/p>
+&lt;p>The majority of the fonts used by the Open Y distribution are freely available, except for Cachet.&lt;/p>
+&lt;p>Helvetica is used for paragraph text, with Verdana as a fallback. Page titles, headers, highlighted text, etc, use Cachet, with Ubuntu Condensed as a fallback.&lt;/p>
+&lt;p>The font definitions in the distribution&amp;rsquo;s main theme, Open Y Rose, are set to use Cachet, but fallback to Ubuntu Condensed if the font is not present.&lt;/p>
+&lt;pre>&lt;code>font-family: &amp;quot;Cachet W01 Bold&amp;quot;, 'Ubuntu Condensed', sans-serif;
+&lt;/code>&lt;/pre>
+&lt;h2 id="ubuntu-condensed">Ubuntu Condensed&lt;/h2>
+&lt;p>Ubuntu Condensed is a free font available from Google Fonts, &lt;a href="https://fonts.google.com/specimen/Ubuntu+Condensed">https://fonts.google.com/specimen/Ubuntu+Condensed&lt;/a> .&lt;/p>
+&lt;p>If you look at the openy_rose.libraries.yml file you can see Ubunutu Condensed is already linked as part of the theme.&lt;/p>
+&lt;pre>&lt;code>global-styling:
+css:
+base:
+//fonts.googleapis.com/css?family=Ubuntu+Condensed:400,700: {}
+&lt;/code>&lt;/pre>
+&lt;h2 id="cachet">Cachet&lt;/h2>
+&lt;p>Cachet, specifically &amp;ldquo;Cachet W01 Medium&amp;rdquo;, is part of the YMCA styleguide. It is a commercial font, and must be purchased for individual sites. It cannot be distributed as part of the Open Y distribution or hosted on Drupal.org.&lt;/p>
+&lt;p>The font can be purchased from fonts.com, &lt;a href="https://www.fonts.com/font/monotype/cachet/book">https://www.fonts.com/font/monotype/cachet/book&lt;/a> .&lt;/p>
+&lt;h2 id="installing-cachet">Installing Cachet&lt;/h2>
+&lt;p>There are a number of ways to get Cachet setup on your site. As long as the font gets linked in the page it should get used, since it is already part of the font declarations.&lt;/p>
+&lt;p>If you purchase Cachet from fonts.com, add the URL you are provided to the global-styling library in openy_rose.libraries.yml, right where Ubuntu Condensed is linked.&lt;/p>
+&lt;pre>&lt;code> css:
+base:
+//fast.fonts.net/cssapi/abcdef-12345-tuvwxyx-67890.css: {}
+//fonts.googleapis.com/css?family=Ubuntu+Condensed:400,700: {}
+&lt;/code>&lt;/pre>
+&lt;p>You may also need to add a JavaScript file provided by fonts.com. You can add that in the same global-styling library.&lt;/p>
+&lt;pre>&lt;code>js:
+//fast.fonts.net/jsapi/12345-abcdef-67890.js: {}
+&lt;/code>&lt;/pre>
+&lt;p>Another option is to use the @font-your-face Drupal module, &lt;a href="https://www.drupal.org/project/fontyourface">https://www.drupal.org/project/fontyourface&lt;/a> .&lt;/p>
+&lt;p>Once installed you can connect your Drupal site to your font.com account, or one of the other font providers, and have the font automatically retrieved and added to your site. Follow the directions provided by the module to connect to your font provider account.)&lt;/p></description></item><item><title>Docs: Google_Analytics_Search</title><link>/docs/development/google_analytics_search/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/development/google_analytics_search/</guid><description>
+&lt;h1 id="how-to-configure-search-tracking-in-google-analytics-account">How to configure search tracking in Google Analytics account&lt;/h1>
+&lt;p>##Prerequisites
+Google Analitycs account to track you site should be created.
+Google Analitycs contrib module should be enabled and configured to use existing GA account.&lt;/p>
+&lt;p>##Steps&lt;/p>
+&lt;ol>
+&lt;li>
+&lt;p>Log in to Google Analytics account that configured to track your Open Y site.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Click Admin button in bottom right corner of main screen
+&lt;img src="../assets/ga_search_1.png" alt="Google Analytics Main Screen">&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Click View Settings
+&lt;img src="../assets/ga_search_2.png" alt="Google Analytics View Settings">&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Scroll to “Site Search Settings” section and enable “Site Search Tracking” switch
+&lt;img src="../assets/ga_search_3.png" alt="Google Analytics Site Search Settings">&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Fill query parameter field with &lt;code>q, query&lt;/code> values and click Save&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Reports about the search tracking you can find at main screen in Behavior → Site Search Section&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;p>Attention: Data processing latency for search tracking reports is 24-48 hours
+(see &lt;a href="https://support.google.com/analytics/answer/1070983?hl=en#DataProcessingLatency">https://support.google.com/analytics/answer/1070983?hl=en#DataProcessingLatency&lt;/a>))&lt;/p></description></item><item><title>Docs: GoogleCustomSearchConfiguration</title><link>/docs/development/googlecustomsearchconfiguration/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/development/googlecustomsearchconfiguration/</guid><description>
+&lt;h1 id="google-custom-search-configuration">Google Custom Search configuration&lt;/h1>
+&lt;p>The Open Y release &lt;strong>8.2.4&lt;/strong> introduces Google Custom Search for the website out of the box.&lt;/p>
+&lt;h2 id="enabling-the-module">Enabling the module&lt;/h2>
+&lt;h3 id="fresh-installations">Fresh installations&lt;/h3>
+&lt;p>The search feature is included in the &lt;code>Extended&lt;/code> installation type.
+For &lt;code>Standard&lt;/code> see the &lt;a href="#existing-websites">Existing websites&lt;/a> section.&lt;/p>
+&lt;p>If you are installing a fresh Open Y website and going through the installation process via the Web interface, on the 3rd party integration step you can specify Google Search ID. If you specify the Google Search ID in this form your site&amp;rsquo;s search feature is up.&lt;/p>
+&lt;h3 id="existing-websites">Existing websites&lt;/h3>
+&lt;p>The search feature is not automatically enabled after upgrading an Open Y website. You have to manually enable it.&lt;/p>
+&lt;p>In order to do that:&lt;/p>
+&lt;ol>
+&lt;li>Log in as an admin (or a user with the &lt;code>administrator&lt;/code> role).&lt;/li>
+&lt;li>Go to the Open Y package install page (Admin menu &amp;gt; Open Y &amp;gt; Extend &amp;gt; Install, or &lt;code>/admin/openy/extend/list&lt;/code>)&lt;/li>
+&lt;li>Find the &lt;code>SEARCH&lt;/code> package there, tick the checkbox and submit the form.&lt;/li>
+&lt;/ol>
+&lt;p>Now the search modules are enabled and the header of the website should have a search field.
+Upon installation, the modules create a Landing page for search results and point the header search form to the page.&lt;/p>
+&lt;h2 id="configuring-the-google-search-modules">Configuring the Google Search modules&lt;/h2>
+&lt;ol>
+&lt;li>Go to the Google Search settings form (Admin menu &amp;gt; Open Y &amp;gt; Settings &amp;gt; Google Search settings, or &lt;code>/admin/openy/settings/google-search&lt;/code>).&lt;/li>
+&lt;li>Set the value of the &lt;code>Google Search ID&lt;/code> field (see the following &lt;a href="#obtaining-search-engine-id">section&lt;/a> for details) and submit the form.&lt;/li>
+&lt;/ol>
+&lt;h2 id="obtaining-search-engine-id">Obtaining Search Engine ID&lt;/h2>
+&lt;ol>
+&lt;li>Go to &lt;a href="https://cse.google.com/">https://cse.google.com/&lt;/a>, register if you haven&amp;rsquo;t yet, log in if you aren&amp;rsquo;t logged in.&lt;/li>
+&lt;li>Create the Search Engine (this process is explained in Google documentation &lt;a href="https://support.google.com/customsearch/answer/4513882?hl=en&amp;amp;ref_topic=4513742)">https://support.google.com/customsearch/answer/4513882?hl=en&amp;amp;ref_topic=4513742)&lt;/a>:
+&lt;ol>
+&lt;li>Click &amp;ldquo;New Search Engine&amp;rdquo;.&lt;/li>
+&lt;li>Specify the domain of your website (e.g. &lt;code>www.openymca.org&lt;/code>).&lt;/li>
+&lt;li>Specify the name of the Search Engine (e.g. &lt;code>openymca.org&lt;/code>).&lt;/li>
+&lt;li>Click &amp;ldquo;Create&amp;rdquo;.&lt;/li>
+&lt;/ol>
+&lt;/li>
+&lt;li>On the newly created Search Engine page there is the &lt;code>Search engine ID&lt;/code> field. Use this value in the Open Y Google Search configuration form.&lt;/li>
+&lt;/ol>
+&lt;h2 id="configuring-the-search-engine-look-and-feel">Configuring the Search Engine look and feel&lt;/h2>
+&lt;ol>
+&lt;li>Go to &lt;code>Look and feel&lt;/code> section of the Search Engine&lt;/li>
+&lt;li>In the &lt;code>Layout&lt;/code> tab, select &lt;code>Full width&lt;/code> option and click &lt;code>Save&lt;/code>&lt;/li>
+&lt;/ol>
+&lt;p>If this change hasn&amp;rsquo;t made, the search results on the website are shown in a popup window.&lt;/p>
+&lt;h2 id="dealing-with-ads">Dealing with ads&lt;/h2>
+&lt;p>By default, newly created Search engines use Free Edition (with ads) of the service. As YMCAs are non-profit organizations they have the option to switch to Non-profit Edition of the CSE, where it is possible to disable ads.&lt;/p>
+&lt;p>Take a look here &lt;a href="https://support.google.com/customsearch/answer/4542102?hl=en&amp;amp;ctx=topic">https://support.google.com/customsearch/answer/4542102?hl=en&amp;amp;ctx=topic&lt;/a>&lt;/p>
+&lt;p>If you are already registered as a Non-profit in Google:&lt;/p>
+&lt;ol>
+&lt;li>From the &lt;a href="https://cse.google.com">CSE Control Panel&lt;/a>, select the search engine you want to change.&lt;/li>
+&lt;li>Click &lt;strong>Setup&lt;/strong> then &lt;strong>Make Money&lt;/strong>&lt;/li>
+&lt;li>Toggle the &lt;strong>Show Ads&lt;/strong> option to off.&lt;/li>
+&lt;/ol>
+&lt;h2 id="advanced-setup">Advanced setup&lt;/h2>
+&lt;p>Official Google documentation &lt;a href="https://support.google.com/customsearch/topic/4542213?hl=en&amp;amp;ref_topic=4513868">https://support.google.com/customsearch/topic/4542213?hl=en&amp;amp;ref_topic=4513868&lt;/a>&lt;/p>
+&lt;h3 id="mutli-site-search">Mutli-site search&lt;/h3>
+&lt;p>You can add not only your website&amp;rsquo;s domain but other domains as well if you have other websites dedicated to your Association but split from the main website.&lt;/p>
+&lt;p>You can also add not only the whole websites but their parts by specifying patterns like &lt;code>example.com/blog/*&lt;/code>.&lt;/p>
+&lt;h3 id="refinements-and-facets">Refinements and facets&lt;/h3>
+&lt;p>&lt;a href="https://support.google.com/customsearch/answer/4542637?hl=en&amp;amp;ctx=topic&amp;amp;topic=2642564&amp;amp;visit_id=637166170019174137-3540762397&amp;amp;rd=1">https://support.google.com/customsearch/answer/4542637?hl=en&amp;amp;ctx=topic&amp;amp;topic=2642564&amp;amp;visit_id=637166170019174137-3540762397&amp;amp;rd=1&lt;/a>&lt;/p>
+&lt;p>Refinements let users filter results according to categories you provide.&lt;/p>
+&lt;p>Refinements appear in the search results page as tabs. The content of each tab is configured in Search features &amp;gt; Refinement section of the Custom Search Control panel.&lt;/p>
+&lt;p>To set up a dedicated tab in search results for Blog posts do the following:&lt;/p>
+&lt;ol>
+&lt;li>In Control panel, go to &lt;code>Search features&lt;/code> &amp;gt; &lt;code>Refinements&lt;/code>&lt;/li>
+&lt;li>Click &lt;code>Add&lt;/code>
+&lt;ol>
+&lt;li>Set the name of the refinement to &lt;code>Blog&lt;/code>&lt;/li>
+&lt;li>Select &lt;code>Search only the sites with this label&lt;/code> for &lt;code>How to search sites with this label?&lt;/code>&lt;/li>
+&lt;li>Click &lt;code>Ok&lt;/code>&lt;/li>
+&lt;/ol>
+&lt;/li>
+&lt;li>Go to &lt;code>Setup&lt;/code>&lt;/li>
+&lt;li>Find &lt;code>Sites to search&lt;/code>, click &lt;code>Add&lt;/code>
+&lt;ol>
+&lt;li>Add the &lt;code>yourymcadomain.org/blog/*&lt;/code> in the text field&lt;/li>
+&lt;li>Select &lt;code>Blog&lt;/code> in the Label dropdown&lt;/li>
+&lt;li>Select &lt;code>Include just this specific page or URL pattern I have entered&lt;/code>&lt;/li>
+&lt;li>Click &lt;code>Save&lt;/code>&lt;/li>
+&lt;/ol>
+&lt;/li>
+&lt;/ol>
+&lt;p>The search results page now shows the &lt;code>Blog&lt;/code> tab that only shows blog entries relevant to the search term.&lt;/p>
+&lt;h3 id="promotions">Promotions&lt;/h3>
+&lt;p>Official Google documentation &lt;a href="https://support.google.com/customsearch/answer/4542640?hl=en&amp;amp;ref_topic=4542213">https://support.google.com/customsearch/answer/4542640?hl=en&amp;amp;ref_topic=4542213&lt;/a>&lt;/p>
+&lt;h2 id="information-for-developers">Information for developers&lt;/h2>
+&lt;p>&lt;a href="https://developers.google.com/custom-search/docs/overview">Google Custom Search Developers documentation &lt;/a>&lt;/p>
+&lt;h3 id="enabling-via-drush">Enabling via Drush&lt;/h3>
+&lt;p>Use the following snippet to enable the package on existing websites:&lt;/p>
+&lt;pre tabindex="0">&lt;code>drush en openy_google_search
+&lt;/code>&lt;/pre>&lt;h3 id="configuring-the-module-via-drush">Configuring the module via Drush&lt;/h3>
+&lt;p>Use the following snippet when you install Open Y via Drush to set the Search Engine ID:&lt;/p>
+&lt;pre tabindex="0">&lt;code>drush site-install openy \
+--account-pass=password \
+--db-url=&amp;quot;mysql://user:pass@host:3306/db&amp;quot; \
+--root=/var/www/docroot \
+openy_configure_profile.preset=extended \
+openy_theme_select.theme=openy_rose \
+openy_third_party_services.google_search_engine_id=&amp;quot;01234567890123456789:abcedefgh&amp;quot;
+&lt;/code>&lt;/pre>&lt;p>The &lt;code>openy_third_party_services.google_search_engine_id&lt;/code> parameter sets the Search Engine ID (&lt;code>01234567890123456789:abcedefgh&lt;/code> in the example).&lt;/p>
+&lt;p>Use the following snippet to set the Search Engine ID on already installed websites:&lt;/p>
+&lt;pre tabindex="0">&lt;code>drush config-set openy_google_search.settings google_engine_id &amp;quot;01234567890123456789:abcedefgh&amp;quot;
+```)
+&lt;/code>&lt;/pre></description></item><item><title>Docs: InstallationWithDrush</title><link>/docs/development/installationwithdrush/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/development/installationwithdrush/</guid><description>
+&lt;h3 id="site-installation-with-drush">Site installation with drush&lt;/h3>
+&lt;p>Use &lt;a href="https://drushcommands.com/drush-8x/core/site-install/">drush site-install&lt;/a> command.&lt;/p>
+&lt;p>Basically you use something like this:&lt;/p>
+&lt;pre tabindex="0">&lt;code>drush site-install openy --account-pass=password --db-url=&amp;quot;mysql://user:pass@host:3306/db&amp;quot; --root=/var/www/docroot
+&lt;/code>&lt;/pre>&lt;p>Complete Open Y profile preset and Open Y Rose theme is used in this case.&lt;/p>
+&lt;p>You can set which preset must be installed by specifying it with &lt;code>openy_configure_profile.preset&lt;/code> variable, and theme with
+&lt;code>openy_theme_select.theme&lt;/code>variable e.g.:&lt;/p>
+&lt;pre tabindex="0">&lt;code>drush site-install openy --account-pass=password --db-url=&amp;quot;mysql://user:pass@host:3306/db&amp;quot; --root=/var/www/docroot openy_configure_profile.preset=extended openy_theme_select.theme=openy_rose
+```)
+&lt;/code>&lt;/pre></description></item><item><title>Docs: Module Develompent</title><link>/docs/development/module-develompent/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/development/module-develompent/</guid><description>
+&lt;h3 id="module-content-removal">Module content removal&lt;/h3>
+&lt;p>When deleting an entity, where plugins or services of removing module are used,
+then content removal should be done in the hook_uninstall() of that module.
+See openy_prgf_camp_menu.install as example.)&lt;/p></description></item><item><title>Docs: Patch OpenY</title><link>/docs/development/patch-openy/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/development/patch-openy/</guid><description>
+&lt;p>Here you can find instructions how you can patch Open Y distribution used on
+your project.&lt;/p>
+&lt;h1 id="when-you-need-to-patch-open-y">When you need to patch Open Y&lt;/h1>
+&lt;ul>
+&lt;li>In case you found a bug and prepared a patch for Open Y on github.&lt;/li>
+&lt;li>In case you developed a new feature that will be good to have in Open Y and
+created Pull Request to Open Y repository&lt;/li>
+&lt;li>In case you want to add a feature that added to Open Y but not included yet to
+Open Y release.&lt;/li>
+&lt;/ul>
+&lt;h1 id="how-to-patch-open-y-via-composer">How to patch Open Y via composer?&lt;/h1>
+&lt;p>If you followed instructions &lt;a href="https://github.com/ymcatwincities/openy/blob/8.x-1.x/docs/Development/Start%20new%20OpenY%20project.md">docs/Development/Start new Open Y project&lt;/a>
+and you have configured &lt;code>composer.json&lt;/code> you need just to do a few simple steps:&lt;/p>
+&lt;ol>
+&lt;li>Build a link to a patch using pull request ID
+&lt;pre tabindex="0">&lt;code>https://patch-diff.githubusercontent.com/raw/ymcatwincities/openy/pull/XXX.patch
+&lt;/code>&lt;/pre>&lt;/li>
+&lt;/ol>
+&lt;p>Where XXX is a number of pull request you want to use.&lt;/p>
+&lt;ol start="2">
+&lt;li>Add a new section &lt;code>patches&lt;/code> to the section &lt;code>extra&lt;/code> and add a patch to Open Y
+repository, as on this example:
+&lt;pre tabindex="0">&lt;code>&amp;quot;extra&amp;quot;: {
+&amp;quot;installer-paths&amp;quot;: {
+...
+},
+&amp;quot;enable-patching&amp;quot;: true,
+&amp;quot;patches&amp;quot;: {
+&amp;quot;ymcatwincities/openy&amp;quot;: {
+&amp;quot;Patch description&amp;quot;: &amp;quot;https://patch-diff.githubusercontent.com/raw/ymcatwincities/openy/pull/XXX.patch&amp;quot;
+}
+}
+}
+&lt;/code>&lt;/pre>&lt;/li>
+&lt;li>After adding a patch execute command &lt;code>composer update&lt;/code>&lt;/li>
+&lt;li>Verify you can see added changes in Open Y&lt;/li>
+&lt;li>Enjoy!)&lt;/li>
+&lt;/ol></description></item><item><title>Docs: Server Requirements</title><link>/docs/development/server-requirements/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/development/server-requirements/</guid><description>
+&lt;p>If you need to prepare server for the Open Y instance, here below you should find all needed software to meet its requirements.&lt;/p>
+&lt;h3 id="list-of-requirements">List of requirements&lt;/h3>
+&lt;ol>
+&lt;li>
+&lt;p>Ubuntu LTS (14 or 16) is preferred. CentOS is ok as well. Or even any other Linux distribution, but was not tested by Open Y team so far.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>(Drupal 8 server requirements should be met)[https://www.drupal.org/docs/system-requirements/php-requirements].&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>PHP 5.6+ (PHP 7 is better in terms of performance)&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;h3 id="list-of-php-modules-server-should-have">List of PHP modules server should have:&lt;/h3>
+&lt;ul>
+&lt;li>php{{ php_version }}&lt;/li>
+&lt;li>php{{ php_version }}-mcrypt&lt;/li>
+&lt;li>php{{ php_version }}-cli&lt;/li>
+&lt;li>php{{ php_version }}-common&lt;/li>
+&lt;li>php{{ php_version }}-curl&lt;/li>
+&lt;li>php{{ php_version }}-dev&lt;/li>
+&lt;li>php{{ php_version }}-fpm&lt;/li>
+&lt;li>php{{ php_version }}-gd&lt;/li>
+&lt;li>php{{ php_version }}-mysql&lt;/li>
+&lt;li>php{{ php_version }}-memcached&lt;/li>
+&lt;li>php{{ php_version }}-imagick&lt;/li>
+&lt;li>php{{ php_version }}-xml&lt;/li>
+&lt;li>php{{ php_version }}-xdebug&lt;/li>
+&lt;li>php{{ php_version }}-mbstring&lt;/li>
+&lt;li>php{{ php_version }}-soap&lt;/li>
+&lt;li>php{{ php_version }}-zip&lt;/li>
+&lt;/ul>
+&lt;ol start="4">
+&lt;li>MySQL 5.5+ . Here are the best settings &lt;a href="https://github.com/cibox/cibox/blob/master/core/facade-mysql/defaults/main.yml">https://github.com/cibox/cibox/blob/master/core/facade-mysql/defaults/main.yml&lt;/a> to get it fast and furious&lt;/li>
+&lt;li>Apache 2 with mod-php (preffered for stability) or nginx with php-fpm (better for speed and scalability)&lt;/li>
+&lt;/ol>
+&lt;ul>
+&lt;li>libapache2-mod-php{{ php_version }}&lt;/li>
+&lt;/ul>
+&lt;ol start="6">
+&lt;li>
+&lt;p>Memcache server (optional)&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Server tools&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;ul>
+&lt;li>Ansible (optional)&lt;/li>
+&lt;li>Docker (optional)&lt;/li>
+&lt;li>SOLR 4.x (if there will be requirement for SOLR search support)&lt;/li>
+&lt;li>Varnish (optional))&lt;/li>
+&lt;/ul></description></item><item><title>Docs: Start new OpenY project</title><link>/docs/development/start-new-openy-project/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/development/start-new-openy-project/</guid><description>
+&lt;p>Here you can find instructions how you can start project based on Open Y distribution.&lt;/p>
+&lt;h1 id="new-project-from-scratch-based-on-open-y">New project from scratch based on Open Y&lt;/h1>
+&lt;p>In order to start new project from scratch, you can use &lt;a href="https://github.com/ymcatwincities/openy-project#installation">installation instructions&lt;/a> that will build your project and even add development environment.&lt;/p>
+&lt;h1 id="add-open-y-to-existing-drupal-8-project">Add Open Y to existing Drupal 8 project&lt;/h1>
+&lt;p>Please take a look at the full &lt;code>composer.json&lt;/code> file below that you should eventually get.&lt;/p>
+&lt;details>
+ &lt;summary>&lt;strong>Example composer.json (Drupal 8.3.2 + Open Y 1.2)&lt;/strong>&lt;/summary>
+&lt;pre tabindex="0">&lt;code>{
+&amp;quot;name&amp;quot;: &amp;quot;drupal/drupal&amp;quot;,
+&amp;quot;description&amp;quot;: &amp;quot;Drupal is an open source content management platform powering millions of websites and applications.&amp;quot;,
+&amp;quot;type&amp;quot;: &amp;quot;project&amp;quot;,
+&amp;quot;license&amp;quot;: &amp;quot;GPL-2.0+&amp;quot;,
+&amp;quot;require&amp;quot;: {
+&amp;quot;composer/installers&amp;quot;: &amp;quot;^1.0.24&amp;quot;,
+&amp;quot;wikimedia/composer-merge-plugin&amp;quot;: &amp;quot;~1.4&amp;quot;,
+&amp;quot;ymcatwincities/openy&amp;quot;: &amp;quot;8.*.*&amp;quot;,
+&amp;quot;cweagans/composer-patches&amp;quot;: &amp;quot;~1.0&amp;quot;
+},
+&amp;quot;minimum-stability&amp;quot;: &amp;quot;dev&amp;quot;,
+&amp;quot;prefer-stable&amp;quot;: true,
+&amp;quot;config&amp;quot;: {
+&amp;quot;preferred-install&amp;quot;: &amp;quot;dist&amp;quot;,
+&amp;quot;autoloader-suffix&amp;quot;: &amp;quot;Drupal8&amp;quot;,
+&amp;quot;secure-http&amp;quot;: false
+},
+&amp;quot;extra&amp;quot;: {
+&amp;quot;_readme&amp;quot;: [
+&amp;quot;By default Drupal loads the autoloader from ./vendor/autoload.php.&amp;quot;,
+&amp;quot;To change the autoloader you can edit ./autoload.php.&amp;quot;,
+&amp;quot;This file specifies the packages.drupal.org repository.&amp;quot;,
+&amp;quot;You can read more about this composer repository at:&amp;quot;,
+&amp;quot;https://www.drupal.org/node/2718229&amp;quot;
+],
+&amp;quot;merge-plugin&amp;quot;: {
+&amp;quot;include&amp;quot;: [
+&amp;quot;core/composer.json&amp;quot;
+],
+&amp;quot;recurse&amp;quot;: false,
+&amp;quot;replace&amp;quot;: false,
+&amp;quot;merge-extra&amp;quot;: false
+},
+&amp;quot;installer-paths&amp;quot;: {
+&amp;quot;core&amp;quot;: [&amp;quot;type:drupal-core&amp;quot;],
+&amp;quot;libraries/{$name}&amp;quot;: [&amp;quot;type:drupal-library&amp;quot;],
+&amp;quot;modules/contrib/{$name}&amp;quot;: [&amp;quot;type:drupal-module&amp;quot;],
+&amp;quot;profiles/contrib/{$name}&amp;quot;: [&amp;quot;type:drupal-profile&amp;quot;],
+&amp;quot;themes/contrib/{$name}&amp;quot;: [&amp;quot;type:drupal-theme&amp;quot;],
+&amp;quot;drush/contrib/{$name}&amp;quot;: [&amp;quot;type:drupal-drush&amp;quot;],
+&amp;quot;modules/custom/{$name}&amp;quot;: [&amp;quot;type:drupal-custom-module&amp;quot;],
+&amp;quot;themes/custom/{$name}&amp;quot;: [&amp;quot;type:drupal-custom-theme&amp;quot;]
+},
+&amp;quot;enable-patching&amp;quot;: true
+},
+&amp;quot;autoload&amp;quot;: {
+&amp;quot;psr-4&amp;quot;: {
+&amp;quot;Drupal\Core\Composer\&amp;quot;: &amp;quot;core/lib/Drupal/Core/Composer&amp;quot;
+}
+},
+&amp;quot;scripts&amp;quot;: {
+&amp;quot;pre-autoload-dump&amp;quot;: &amp;quot;Drupal\Core\Composer\Composer::preAutoloadDump&amp;quot;,
+&amp;quot;post-autoload-dump&amp;quot;: [
+&amp;quot;Drupal\Core\Composer\Composer::ensureHtaccess&amp;quot;
+],
+&amp;quot;post-package-install&amp;quot;: &amp;quot;Drupal\Core\Composer\Composer::vendorTestCodeCleanup&amp;quot;,
+&amp;quot;post-package-update&amp;quot;: &amp;quot;Drupal\Core\Composer\Composer::vendorTestCodeCleanup&amp;quot;,
+&amp;quot;post-install-cmd&amp;quot;: [
+&amp;quot;bash scripts/remove_vendor_git_folders.sh || :&amp;quot;
+],
+&amp;quot;post-update-cmd&amp;quot;: [
+&amp;quot;bash scripts/remove_vendor_git_folders.sh || :&amp;quot;
+]
+},
+&amp;quot;repositories&amp;quot;: [
+{
+&amp;quot;type&amp;quot;: &amp;quot;composer&amp;quot;,
+&amp;quot;url&amp;quot;: &amp;quot;https://packages.drupal.org/8&amp;quot;
+},
+{
+&amp;quot;type&amp;quot;: &amp;quot;package&amp;quot;,
+&amp;quot;package&amp;quot;: {
+&amp;quot;name&amp;quot;: &amp;quot;library-kenwheeler/slick&amp;quot;,
+&amp;quot;version&amp;quot;: &amp;quot;1.6.0&amp;quot;,
+&amp;quot;type&amp;quot;: &amp;quot;drupal-library&amp;quot;,
+&amp;quot;source&amp;quot;: {
+&amp;quot;url&amp;quot;: &amp;quot;https://github.com/kenwheeler/slick&amp;quot;,
+&amp;quot;type&amp;quot;: &amp;quot;git&amp;quot;,
+&amp;quot;reference&amp;quot;: &amp;quot;1.6.0&amp;quot;
+}
+}
+},
+{
+&amp;quot;type&amp;quot;: &amp;quot;package&amp;quot;,
+&amp;quot;package&amp;quot;: {
+&amp;quot;name&amp;quot;: &amp;quot;library-dinbror/blazy&amp;quot;,
+&amp;quot;version&amp;quot;: &amp;quot;1.8.2&amp;quot;,
+&amp;quot;type&amp;quot;: &amp;quot;drupal-library&amp;quot;,
+&amp;quot;source&amp;quot;: {
+&amp;quot;url&amp;quot;: &amp;quot;https://github.com/dinbror/blazy&amp;quot;,
+&amp;quot;type&amp;quot;: &amp;quot;git&amp;quot;,
+&amp;quot;reference&amp;quot;: &amp;quot;1.8.2&amp;quot;
+}
+}
+},
+{
+&amp;quot;type&amp;quot;: &amp;quot;package&amp;quot;,
+&amp;quot;package&amp;quot;: {
+&amp;quot;name&amp;quot;: &amp;quot;library-gdsmith/jquery.easing&amp;quot;,
+&amp;quot;version&amp;quot;: &amp;quot;1.4.1&amp;quot;,
+&amp;quot;type&amp;quot;: &amp;quot;drupal-library&amp;quot;,
+&amp;quot;source&amp;quot;: {
+&amp;quot;url&amp;quot;: &amp;quot;https://github.com/gdsmith/jquery.easing&amp;quot;,
+&amp;quot;type&amp;quot;: &amp;quot;git&amp;quot;,
+&amp;quot;reference&amp;quot;: &amp;quot;1.4.1&amp;quot;
+}
+}
+},
+{
+&amp;quot;type&amp;quot;: &amp;quot;package&amp;quot;,
+&amp;quot;package&amp;quot;: {
+&amp;quot;name&amp;quot;: &amp;quot;library-enyo/dropzone&amp;quot;,
+&amp;quot;version&amp;quot;: &amp;quot;4.3.0&amp;quot;,
+&amp;quot;type&amp;quot;: &amp;quot;drupal-library&amp;quot;,
+&amp;quot;source&amp;quot;: {
+&amp;quot;url&amp;quot;: &amp;quot;https://github.com/enyo/dropzone&amp;quot;,
+&amp;quot;type&amp;quot;: &amp;quot;git&amp;quot;,
+&amp;quot;reference&amp;quot;: &amp;quot;v4.3.0&amp;quot;
+}
+}
+},
+{
+&amp;quot;type&amp;quot;: &amp;quot;package&amp;quot;,
+&amp;quot;package&amp;quot;: {
+&amp;quot;name&amp;quot;: &amp;quot;library-jaypan/jquery_colorpicker&amp;quot;,
+&amp;quot;version&amp;quot;: &amp;quot;1.0.1&amp;quot;,
+&amp;quot;type&amp;quot;: &amp;quot;drupal-library&amp;quot;,
+&amp;quot;source&amp;quot;: {
+&amp;quot;url&amp;quot;: &amp;quot;https://github.com/jaypan/jquery_colorpicker&amp;quot;,
+&amp;quot;type&amp;quot;: &amp;quot;git&amp;quot;,
+&amp;quot;reference&amp;quot;: &amp;quot;da978ae124c57817021b3166a31881876882f5f9&amp;quot;
+}
+}
+},
+{
+&amp;quot;type&amp;quot;: &amp;quot;package&amp;quot;,
+&amp;quot;package&amp;quot;: {
+&amp;quot;name&amp;quot;: &amp;quot;library-ckeditor/panelbutton&amp;quot;,
+&amp;quot;version&amp;quot;: &amp;quot;4.7.0&amp;quot;,
+&amp;quot;type&amp;quot;: &amp;quot;drupal-library&amp;quot;,
+&amp;quot;dist&amp;quot;: {
+&amp;quot;url&amp;quot;: &amp;quot;http://download.ckeditor.com/panelbutton/releases/panelbutton_4.7.0.zip&amp;quot;,
+&amp;quot;type&amp;quot;: &amp;quot;zip&amp;quot;
+}
+}
+},
+{
+&amp;quot;type&amp;quot;: &amp;quot;package&amp;quot;,
+&amp;quot;package&amp;quot;: {
+&amp;quot;name&amp;quot;: &amp;quot;library-ckeditor/colorbutton&amp;quot;,
+&amp;quot;version&amp;quot;: &amp;quot;4.7.0&amp;quot;,
+&amp;quot;type&amp;quot;: &amp;quot;drupal-library&amp;quot;,
+&amp;quot;dist&amp;quot;: {
+&amp;quot;url&amp;quot;: &amp;quot;http://download.ckeditor.com/colorbutton/releases/colorbutton_4.7.0.zip&amp;quot;,
+&amp;quot;type&amp;quot;: &amp;quot;zip&amp;quot;
+}
+}
+},
+{
+&amp;quot;type&amp;quot;: &amp;quot;package&amp;quot;,
+&amp;quot;package&amp;quot;: {
+&amp;quot;name&amp;quot;: &amp;quot;library-ckeditor/colordialog&amp;quot;,
+&amp;quot;version&amp;quot;: &amp;quot;4.7.0&amp;quot;,
+&amp;quot;type&amp;quot;: &amp;quot;drupal-library&amp;quot;,
+&amp;quot;dist&amp;quot;: {
+&amp;quot;url&amp;quot;: &amp;quot;http://download.ckeditor.com/colordialog/releases/colordialog_4.7.0.zip&amp;quot;,
+&amp;quot;type&amp;quot;: &amp;quot;zip&amp;quot;
+}
+}
+},
+{
+&amp;quot;type&amp;quot;: &amp;quot;package&amp;quot;,
+&amp;quot;package&amp;quot;: {
+&amp;quot;name&amp;quot;: &amp;quot;library-ckeditor/glyphicons&amp;quot;,
+&amp;quot;version&amp;quot;: &amp;quot;2.2&amp;quot;,
+&amp;quot;type&amp;quot;: &amp;quot;drupal-library&amp;quot;,
+&amp;quot;dist&amp;quot;: {
+&amp;quot;url&amp;quot;: &amp;quot;http://download.ckeditor.com/glyphicons/releases/glyphicons_2.2.zip&amp;quot;,
+&amp;quot;type&amp;quot;: &amp;quot;zip&amp;quot;
+}
+}
+}
+]
+}
+&lt;/code>&lt;/pre>&lt;/details>
+&lt;ol>
+&lt;li>
+&lt;p>Add &lt;code>&amp;quot;ymcatwincities/openy&amp;quot;: &amp;quot;8.*.*&amp;quot;&lt;/code> to the &lt;code>require&lt;/code> section in your &lt;code>composer.json&lt;/code>, like &lt;a href="https://github.com/ymcatwincities/openy-project/blob/8.1.x/composer.json#L7">here&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Add all required repositories that are &lt;a href="https://github.com/ymcatwincities/openy-project/blob/8.1.x/composer.json#L31">listed here&lt;/a> to your &lt;code>composer.json&lt;/code>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Add installer path as here to your &lt;code>composer json&lt;/code>. See &lt;a href="https://github.com/ymcatwincities/openy-project/blob/8.1.x/composer.json#L165">example&lt;/a>.&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;code>composer.json&lt;/code> &lt;strong>inside&lt;/strong> of docroot
+Installer path will look like this:&lt;/p>
+&lt;pre tabindex="0">&lt;code>&amp;quot;installer-paths&amp;quot;: {
+&amp;quot;core&amp;quot;: [&amp;quot;type:drupal-core&amp;quot;],
+&amp;quot;libraries/{$name}&amp;quot;: [&amp;quot;type:drupal-library&amp;quot;],
+&amp;quot;modules/contrib/{$name}&amp;quot;: [&amp;quot;type:drupal-module&amp;quot;],
+&amp;quot;profiles/contrib/{$name}&amp;quot;: [&amp;quot;type:drupal-profile&amp;quot;],
+&amp;quot;themes/contrib/{$name}&amp;quot;: [&amp;quot;type:drupal-theme&amp;quot;],
+&amp;quot;drush/contrib/{$name}&amp;quot;: [&amp;quot;type:drupal-drush&amp;quot;],
+&amp;quot;modules/custom/{$name}&amp;quot;: [&amp;quot;type:drupal-custom-module&amp;quot;],
+&amp;quot;themes/custom/{$name}&amp;quot;: [&amp;quot;type:drupal-custom-theme&amp;quot;]
+}
+&lt;/code>&lt;/pre>&lt;/li>
+&lt;li>
+&lt;p>&lt;code>composer.json&lt;/code> &lt;strong>outside&lt;/strong> of docroot
+Installer path will look like this:&lt;/p>
+&lt;pre tabindex="0">&lt;code>&amp;quot;installer-paths&amp;quot;: {
+&amp;quot;docroot/core&amp;quot;: [&amp;quot;type:drupal-core&amp;quot;],
+&amp;quot;docroot/libraries/{$name}&amp;quot;: [&amp;quot;type:drupal-library&amp;quot;],
+&amp;quot;docroot/modules/contrib/{$name}&amp;quot;: [&amp;quot;type:drupal-module&amp;quot;],
+&amp;quot;docroot/profiles/contrib/{$name}&amp;quot;: [&amp;quot;type:drupal-profile&amp;quot;],
+&amp;quot;docroot/themes/contrib/{$name}&amp;quot;: [&amp;quot;type:drupal-theme&amp;quot;],
+&amp;quot;drush/contrib/{$name}&amp;quot;: [&amp;quot;type:drupal-drush&amp;quot;],
+&amp;quot;docroot/modules/custom/{$name}&amp;quot;: [&amp;quot;type:drupal-custom-module&amp;quot;],
+&amp;quot;docroot/themes/custom/{$name}&amp;quot;: [&amp;quot;type:drupal-custom-theme&amp;quot;]
+}
+&lt;/code>&lt;/pre>&lt;/li>
+&lt;/ul>
+&lt;ol start="4">
+&lt;li>
+&lt;p>Add &lt;code>&amp;quot;cweagans/composer-patches&amp;quot;: &amp;quot;~1.0&amp;quot;&lt;/code> to the &lt;code>require&lt;/code> section in you &lt;code>composer.json&lt;/code>. See &lt;a href="https://github.com/ymcatwincities/openy-project/blob/8.1.x/composer.json#L10">example&lt;/a>.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Add &lt;code>&amp;quot;enable-patching&amp;quot;: true&lt;/code> to the &lt;code>extra&lt;/code> section in your &lt;code>composer.json&lt;/code> See &lt;a href="https://github.com/ymcatwincities/openy-project/blob/8.1.x/composer.json#L173">example&lt;/a>.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Add &lt;code>&amp;quot;secure-http&amp;quot;: false&lt;/code> to the &lt;code>config&lt;/code> section in your &lt;code>composer.json&lt;/code> See &lt;a href="https://github.com/ymcatwincities/openy-project/blob/8.1.x/composer.json#L177">example&lt;/a>.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Remove &lt;code>composer.lock&lt;/code> and &lt;code>vendor&lt;/code> folder from the project if they are exist in your folder.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Remove &lt;code>&amp;quot;replace&amp;quot;&lt;/code> section from your &lt;code>composer.json&lt;/code>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>(Optional) If you keep &lt;code>vendor&lt;/code> folder in your git repository, we recommend to clean up project from &lt;code>.git&lt;/code> folder inside modules and libraries. To do so&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;ul>
+&lt;li>
+&lt;p>Add cleaner script to your project from &lt;a href="https://github.com/ymcatwincities/openy-project/blob/8.1.x/scripts/remove_vendor_git_folders.sh">Open Y composer package&lt;/a>. You can just copy it and paste onto your project.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://github.com/ymcatwincities/openy-project/blob/8.1.x/scripts/remove_vendor_git_folders.sh#L4">Adjust folders&lt;/a> that you would like to cleanup&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Execute it in &lt;code>post-install-cmd&lt;/code> and &lt;code>post-update-cmd&lt;/code>:&lt;/p>
+&lt;pre tabindex="0">&lt;code>&amp;quot;post-install-cmd&amp;quot;: [
+&amp;quot;bash scripts/remove_vendor_git_folders.sh || :&amp;quot;
+],
+&amp;quot;post-update-cmd&amp;quot;: [
+&amp;quot;bash scripts/remove_vendor_git_folders.sh || :&amp;quot;
+]
+&lt;/code>&lt;/pre>&lt;/li>
+&lt;/ul>
+&lt;ol start="9">
+&lt;li>Run &lt;code>composer install&lt;/code>&lt;/li>
+&lt;/ol>
+&lt;h1 id="ciboxhttpsgithubcomciboxcibox">&lt;a href="https://github.com/cibox/cibox">CIBox&lt;/a>&lt;/h1>
+&lt;p>In this section you can learn how to configure development environment and CI server using Open Source product &lt;a href="https://github.com/cibox/cibox">CIBox&lt;/a>.&lt;/p>
+&lt;h3 id="create-project">Create project&lt;/h3>
+&lt;ol>
+&lt;li>
+&lt;p>Generate project based on &lt;a href="http://docs.cibox.tools/en/latest/Quickstart/#prepare-github-project">this quickstart&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Add Open Y to the project using (Add Open Y to already existing Drupal 8 project)&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Init git and add initial commit&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-bash" data-lang="bash">&lt;span style="color:#204a87">cd&lt;/span> OPENY_PROJECT
+git init
+git commit -m &lt;span style="color:#4e9a06">&amp;#34;Init Open Y project&amp;#34;&lt;/span>
+git remote add origin git@github.com:NAMESPACE/PROJECT.git
+git push -u origin master
+&lt;/code>&lt;/pre>&lt;/div>&lt;ol start="4">
+&lt;li>Spin up your local vagrant machine&lt;/li>
+&lt;/ol>
+&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-bash" data-lang="bash">vagrant up --provision
+&lt;/code>&lt;/pre>&lt;/div>&lt;ol start="5">
+&lt;li>Setup CI server for new project based on &lt;a href="https://github.com/cibox/cibox#provision-new-ci-server">CIBox documentation&lt;/a>.&lt;/li>
+&lt;/ol>
+&lt;ul>
+&lt;li>Follow quick start starting from Jenkins Provisioning Step &lt;a href="http://docs.cibox.tools/en/latest/Quickstart/#jenkins-provisioning">http://docs.cibox.tools/en/latest/Quickstart/#jenkins-provisioning&lt;/a> (Here we will get PR builds and DEMO site (DEV environment) with credentials to it )&lt;/li>
+&lt;li>Setup hosting STAGE environment (it should be a 1:1 copy of existing or expected hosting account for ability to provide performance testing there)&lt;/li>
+&lt;li>Setup deployment plans for CI by reusing DEMO builder job&lt;/li>
+&lt;/ul>
+&lt;h1 id="install-open-y-on-digitaloceanhttpbitlycibox-digitalocean">Install Open Y on &lt;a href="http://bit.ly/cibox-digitalocean">DigitalOcean&lt;/a>&lt;/h1>
+&lt;ol>
+&lt;li>Create new Droplet using &amp;ldquo;One-click apps&amp;rdquo; image &lt;code>Drupal 8.*.* on 14.04&lt;/code>&lt;/li>
+&lt;li>Login to server &lt;a href="https://www.digitalocean.com/community/tutorials/how-to-connect-to-your-droplet-with-ssh">via SSH&lt;/a> or &lt;a href="https://www.digitalocean.com/community/tutorials/how-to-use-the-digitalocean-console-to-access-your-droplet">web console&lt;/a>&lt;/li>
+&lt;li>Run command&lt;/li>
+&lt;/ol>
+&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-bash" data-lang="bash">bash &amp;lt;&lt;span style="color:#ce5c00;font-weight:bold">(&lt;/span>curl -s https://raw.githubusercontent.com/ymcatwincities/openy/8.x-1.x/build/openy-digital-ocean.sh&lt;span style="color:#ce5c00;font-weight:bold">)&lt;/span>
+&lt;/code>&lt;/pre>&lt;/div>&lt;ol start="4">
+&lt;li>Open link(e.g. http://IP/core/install.php) from console output and finish Open Y installation&lt;/li>
+&lt;/ol>
+&lt;h2 id="video-tutorial">Video tutorial&lt;/h2>
+&lt;p>&lt;a href="https://youtu.be/RCvsLANsbm8">&lt;img src="https://img.youtube.com/vi/RCvsLANsbm8/0.jpg" alt="Open Y v1.0b - Install Tutorial">&lt;/a>&lt;/p>
+&lt;h2 id="end-to-end-installation">End to end installation&lt;/h2>
+&lt;p>&lt;a href="https://youtu.be/RT6kC38zgvo">&lt;img src="https://img.youtube.com/vi/RT6kC38zgvo/0.jpg" alt="Open Y install - in 16 minutes end to end, no tutorial">&lt;/a>)&lt;/p></description></item><item><title>Docs: Tests</title><link>/docs/development/tests/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/development/tests/</guid><description>
+&lt;h1 id="running-tests">Running Tests&lt;/h1>
+&lt;p>These instructions explain how you can run tests.&lt;/p>
+&lt;h2 id="behat">Behat&lt;/h2>
+&lt;h3 id="requirements">Requirements&lt;/h3>
+&lt;ul>
+&lt;li>Ansible 1.9.4+ &lt;a href="http://docs.ansible.com/ansible/intro_installation.html">http://docs.ansible.com/ansible/intro_installation.html&lt;/a>&lt;/li>
+&lt;li>Docker &lt;a href="https://docs.docker.com/engine/installation/">https://docs.docker.com/engine/installation/&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h3 id="run-full-test-suite">Run full test suite&lt;/h3>
+&lt;ol>
+&lt;li>
+&lt;p>Execute command&lt;/p>
+&lt;pre tabindex="0">&lt;code>$ cd profiles/contrib/openy
+$ sh runtests.sh
+&lt;/code>&lt;/pre>&lt;/li>
+&lt;li>
+&lt;p>Open &lt;a href="http://site.com/profiles/contrib/openy/build/reports/behat">http://site.com/profiles/contrib/openy/build/reports/behat&lt;/a> in browser.&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;h3 id="run-selenium-container--behat-tests-in-usual-way">Run selenium container + Behat tests in usual way&lt;/h3>
+&lt;p>In order to run only selenium container + behat in usual way:&lt;/p>
+&lt;pre tabindex="0">&lt;code>$ cd profiles/contrib/openy
+$ sh runtests.sh --tags run_selenium
+$ bin/behat
+&lt;/code>&lt;/pre>&lt;h3 id="stop-selenium-container">Stop selenium container&lt;/h3>
+&lt;p>In order to stop selenium container:&lt;/p>
+&lt;pre tabindex="0">&lt;code>$ cd profiles/contrib/openy
+$ sh runtests.sh --tags stop_selenium
+&lt;/code>&lt;/pre>&lt;p>If necessary, edit behat.local.yml to match your environment.&lt;/p>
+&lt;h3 id="visual-debugging---videohttpsyoutubeqytpia1clvc">Visual debugging - &lt;a href="https://youtu.be/qYtpiA1ClVc">Video&lt;/a>&lt;/h3>
+&lt;p>When you develop JS tests, it&amp;rsquo;s important to see what&amp;rsquo;s going on the Selenium screen. You can easily see this during development.&lt;/p>
+&lt;ol>
+&lt;li>Install &lt;a href="https://www.realvnc.com/download/viewer">https://www.realvnc.com/download/viewer&lt;/a>&lt;/li>
+&lt;li>Run selenium using command&lt;/li>
+&lt;/ol>
+&lt;pre tabindex="0">&lt;code>$ cd profiles/contrib/openy
+$ sh runtests.sh --tags run_selenium
+&lt;/code>&lt;/pre>&lt;ol start="3">
+&lt;li>Open installed VNC Viewer and connect to the server with IP &lt;code>192.168.56.132:5901&lt;/code>&lt;/li>
+&lt;/ol>
+&lt;ul>
+&lt;li>Password = secret&lt;/li>
+&lt;/ul>
+&lt;ol start="4">
+&lt;li>Run tests and you should see everything that is performed by behat tests in VNC client&lt;/li>
+&lt;/ol>
+&lt;pre tabindex="0">&lt;code>$ bin/behat
+&lt;/code>&lt;/pre>&lt;p>&lt;a href="https://youtu.be/RSsQLVVhldc">&lt;img src="https://img.youtube.com/vi/RSsQLVVhldc/0.jpg" alt="Debugging JavaScript Behat tests">&lt;/a>&lt;/p>
+&lt;h3 id="custom-behat-functionality">Custom Behat functionality&lt;/h3>
+&lt;ul>
+&lt;li>Create entities in table forms, with key to use in reference and reference entities by key.
+&lt;ul>
+&lt;li>KEY is optional, and &lt;strong>must be all CAPS&lt;/strong>.&lt;/li>
+&lt;li>Taxonomy
+&lt;pre tabindex="0">&lt;code>Given I create &amp;quot;taxonomy_term&amp;quot; of type &amp;quot;color&amp;quot; with key for reference:
+| KEY | name | field_color |
+| Blue | Blue | 0000FF |
+| Red | Red | FF0000 |
+&lt;/code>&lt;/pre>&lt;/li>
+&lt;li>Paragraphs
+&lt;pre tabindex="0">&lt;code>Given I create &amp;quot;paragraph&amp;quot; of type &amp;quot;small_banner&amp;quot; with key for reference:
+| KEY | field_prgf_headline | field_prgf_color |
+| banner1 | Headline 1 | Blue |
+| banner2 | Headline 2 | Red |
+&lt;/code>&lt;/pre>&lt;/li>
+&lt;li>Media entities
+&lt;pre tabindex="0">&lt;code>Given I create &amp;quot;media&amp;quot; of type &amp;quot;image&amp;quot; with key for reference:
+| KEY | name | file |
+| gallery_1 | Gallery image 1 | gallery.png |
+| gallery_2 | Gallery image 2 | gallery2.png |
+| gallery_3 | Gallery image 3 | gallery3.png |
+&lt;/code>&lt;/pre>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Create nodes in table forms, with key to use in reference and reference entities by key.
+&lt;ul>
+&lt;li>KEY is optional, and &lt;strong>must be all CAPS&lt;/strong>.&lt;/li>
+&lt;li>Basic create
+&lt;pre tabindex="0">&lt;code>Given I create &amp;quot;landing_page&amp;quot; content:
+| KEY | title | field_lp_layout | field_content |
+| landing_1 | Test Landing 01 | one_column | banner1 |
+| landing_2 | Test Landing 02 | one_column | banner2 |
+&lt;/code>&lt;/pre>&lt;/li>
+&lt;li>Vertical field table
+&lt;pre tabindex="0">&lt;code>Given I create large &amp;quot;landing_page&amp;quot; content:
+| KEY | landing_3 | landing_4 |
+| title | Test Landing 03 | Test Landing 04 |
+| field_lp_layout | one_column | one_column |
+| field_content | banner1 | banner2 |
+&lt;/code>&lt;/pre>&lt;/li>
+&lt;li>Create &amp;amp; view immediately
+&lt;pre tabindex="0">&lt;code>Given I view a &amp;quot;landing_page&amp;quot; content:
+| KEY | landing_5 |
+| title | Test Landing 05 |
+| field_lp_layout | one_column |
+| field_content | banner1 |
+&lt;/code>&lt;/pre>&lt;/li>
+&lt;li>Multiple referenced entities by key on a field.
+&lt;pre tabindex="0">&lt;code>Given I create &amp;quot;landing_page&amp;quot; content:
+| KEY | title | field_lp_layout | field_content |
+| landing_6 | Test Landing 06 | one_column | banner1, banner2 |
+&lt;/code>&lt;/pre>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;h4 id="example-address-and-latitude--longitude">Example Address and Latitude + Longitude&lt;/h4>
+&lt;p>Fields with sub field/columns:
+The machine name and columns can be found in the form markup in the field name property.
+&lt;img src="../assets/complex_field_machine_names.png" alt="Inspect form field name depicted">
+The first portion, &lt;code>field_location_address&lt;/code> represents the Drupal field machine name, while the second array key &lt;code>address_line1&lt;/code> represents the column.&lt;/p>
+&lt;ul>
+&lt;li>Add Address
+&lt;pre tabindex="0">&lt;code>Given I view a &amp;quot;branch&amp;quot; content:
+| title | Branch Example |
+| field_location_address:country_code | US |
+| :address_line1 | Main road 10 |
+| :locality | Seattle |
+| :administrative_area | WA |
+| :postal_code | 98101 |
+&lt;/code>&lt;/pre>&lt;/li>
+&lt;li>Add Latitude and Longitude
+&lt;pre tabindex="0">&lt;code>Given I view a &amp;quot;branch&amp;quot; content:
+| title | Branch Example 2 |
+| field_location_coordinates:lat | 47.293433 |
+| :lng | -122.238717 |
+| field_location_phone | +1234567890 |
+```)
+&lt;/code>&lt;/pre>&lt;/li>
+&lt;/ul></description></item><item><title>Docs: Theming_and_Design</title><link>/docs/development/theming_and_design/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/development/theming_and_design/</guid><description>
+&lt;p>Welcome to Open Y Theming and Design documentation.&lt;/p>
+&lt;h3 id="how-to-change-styles-on-content-type-level">How to change styles on content type level&lt;/h3>
+&lt;p>&lt;strong>Given:&lt;/strong>
+As an Open Y site developer, I want to be able to easily change the CSS for a Camp page
+independently from a Location page, so I can better customize the site to meet the needs of my customers.&lt;/p>
+&lt;p>&lt;strong>How to:&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>If you need to change CSS on some pages independently, you should enable Custom CSS functionality on
+the theme configuration page - Custom CSS - check &amp;ldquo;Enable or disable custom CSS&amp;rdquo;.&lt;/li>
+&lt;li>Input CSS code into the textarea.&lt;/li>
+&lt;/ul>
+&lt;p>In order to change CSS on each particular page you should use the following selectors:&lt;/p>
+&lt;ul>
+&lt;li>.page-node-type-{node type};&lt;/li>
+&lt;li>.node-id-{node ID};&lt;/li>
+&lt;li>.path-frontpage.&lt;/li>
+&lt;/ul>
+&lt;p>The existing node types are: &lt;em>activity&lt;/em>, &lt;em>alert&lt;/em>, &lt;em>blog&lt;/em>, &lt;em>branch&lt;/em>, &lt;em>camp&lt;/em>, &lt;em>class&lt;/em>, &lt;em>facility&lt;/em>, &lt;em>landing-page&lt;/em>, &lt;em>membership&lt;/em>, &lt;em>news&lt;/em>, &lt;em>program&lt;/em>, &lt;em>program-subcategory&lt;/em>, &lt;em>session&lt;/em>.)&lt;/p></description></item><item><title>Docs: Tour</title><link>/docs/development/tour/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/development/tour/</guid><description>
+&lt;h1 id="how-to-use-tour-for-modules">How to use Tour for modules&lt;/h1>
+&lt;h3 id="how-to-use-open-y-tour-token-with-tour">How to use Open Y Tour Token with Tour&lt;/h3>
+&lt;p>In someone modules have tour tips and for more interactivity, you can add a token with a click to any selector.&lt;/p>
+&lt;ol>
+&lt;li>
+&lt;p>In the module open tour yml file.
+&lt;img src="../assets/openy_tour_place.png" alt="Configuration project add/update form">&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Select the tip for edit and in body add token like this [openy_tour:click:button_name:selector]
+&lt;img src="../assets/openy_tour_add_to_tip.png" alt="Configuration project add/update form">&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Create hook update for you changes and in command line run drush updb -y&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;h4 id="token-components">Token components:&lt;/h4>
+&lt;pre tabindex="0">&lt;code>[openy_tour:click:button_name:selector]*
+&lt;/code>&lt;/pre>&lt;p>openy_tour - token name;&lt;/p>
+&lt;p>click - command in the token;&lt;/p>
+&lt;p>button_name - name of button when show in a tip;&lt;/p>
+&lt;p>selector - selector to be clicked.&lt;/p>
+&lt;p>Please see and use &lt;a href="https://www.w3schools.com/jquery/jquery_ref_selectors.asp">jQuery selectors&lt;/a>.)&lt;/p></description></item><item><title>Docs: Upgrade path</title><link>/docs/development/upgrade-path/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/development/upgrade-path/</guid><description>
+&lt;h1 id="how-to-support-upgrade-path">How to support upgrade path&lt;/h1>
+&lt;p>All changes in configurations should be added to appropriate hook_update_N in order to update already existing environments. We suggest to use &lt;a href="https://www.drupal.org/project/confi">https://www.drupal.org/project/confi&lt;/a> for working with hook_update_N.&lt;/p>
+&lt;h3 id="openyinstall-in-profile">&lt;code>openy.install&lt;/code> in profile&lt;/h3>
+&lt;p>In this file we should put updates that are related to the distribution in general and don&amp;rsquo;t fit into any feature.&lt;/p>
+&lt;ul>
+&lt;li>Enable/Disable module&lt;/li>
+&lt;li>General configs&lt;/li>
+&lt;/ul>
+&lt;h3 id="openy_install-in-modules">&lt;code>openy_*.install&lt;/code> in modules&lt;/h3>
+&lt;p>In case if you update some configuration for specific feature, make sure that you put updates into appropriate module.&lt;/p>
+&lt;h3 id="revert-only-specific-property-from-config">Revert only specific property from config&lt;/h3>
+&lt;p>With &lt;a href="https://www.drupal.org/project/confi">config_import module&lt;/a> help we can update only part from full config.&lt;/p>
+&lt;p>For updating specific property in config (use service &amp;lsquo;openy_upgrade_tool.param_updater&amp;rsquo;):&lt;/p>
+&lt;ol>
+&lt;li>
+&lt;p>go to related to this config module&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>create new hook_update_N in openy_*.install file&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>in update add next code (this is example):&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;pre tabindex="0">&lt;code>$config = drupal_get_path('module', 'openy_media_image') . '/config/install/views.view.images_library.yml';
+$config_importer = \Drupal::service('openy_upgrade_tool.param_updater');
+$config_importer-&amp;gt;update($config, 'views.view.images_library', 'display.default.display_options.pager');
+&lt;/code>&lt;/pre>&lt;p>Where:&lt;/p>
+&lt;ul>
+&lt;li>$config variable contains path to config with config name&lt;/li>
+&lt;li>&amp;ldquo;views.view.images_library&amp;rdquo; - config name&lt;/li>
+&lt;li>&amp;ldquo;display.default.display_options.pager&amp;rdquo; - config specific property (you can set value from a nested array with variable depth)&lt;/li>
+&lt;/ul>
+&lt;h3 id="revert-full-configs">Revert full configs&lt;/h3>
+&lt;p>For updating full config or several configs from directory use service &amp;lsquo;openy_upgrade_tool.importer&amp;rsquo;.&lt;/p>
+&lt;pre tabindex="0">&lt;code>$config_dir = drupal_get_path('module', 'openy_media_image') . '/config/install';
+$config_importer = \Drupal::service('openy_upgrade_tool.importer');
+$config_importer-&amp;gt;setDirectory($config_dir);
+$config_importer-&amp;gt;importConfigs(['views.view.images_library']);
+&lt;/code>&lt;/pre>&lt;p>Where:&lt;/p>
+&lt;ul>
+&lt;li>$config_dir - path to directory with config&lt;/li>
+&lt;li>&amp;ldquo;views.view.images_library&amp;rdquo; - config name&lt;/li>
+&lt;/ul>
+&lt;p>Also you can update several configs from directory:&lt;/p>
+&lt;pre tabindex="0">&lt;code>$config_importer-&amp;gt;importConfigs([
+'views.view.images_library',
+'views.view.example_view',
+]);
+```)
+&lt;/code>&lt;/pre></description></item></channel></rss>

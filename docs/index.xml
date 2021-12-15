@@ -1,0 +1,2128 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Open Y – Documentation</title><link>/docs/</link><description>Recent content in Documentation on Open Y</description><generator>Hugo -- gohugo.io</generator><atom:link href="/docs/index.xml" rel="self" type="application/rss+xml"/><item><title>Docs: 1c</title><link>/docs/content-structure/paragraphs/1c/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/content-structure/paragraphs/1c/</guid><description>
+&lt;h1 id="paragraph-1-column">Paragraph 1 Column&lt;/h1>
+&lt;p>This is a paragraph type that will be used for implements a paragraph with 1 column.&lt;/p>
+&lt;h3 id="fields">Fields&lt;/h3>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>Name&lt;/th>
+&lt;th>Machine name&lt;/th>
+&lt;th>Required&lt;/th>
+&lt;th>Description&lt;/th>
+&lt;th>Notes&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>Line Above&lt;/td>
+&lt;td>field_prfg_display_line_above&lt;/td>
+&lt;td>No&lt;/td>
+&lt;td>Display a line above the column.&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Column&lt;/td>
+&lt;td>field_prgf_1c_column&lt;/td>
+&lt;td>No&lt;/td>
+&lt;td>Enter column body.&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Paragraph Title&lt;/td>
+&lt;td>field_prgf_1c_title&lt;/td>
+&lt;td>No&lt;/td>
+&lt;td>Enter title to display at the top of 1 column paragraph.&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Paragraph Description&lt;/td>
+&lt;td>field_prgf_1c_description&lt;/td>
+&lt;td>No&lt;/td>
+&lt;td>Enter description to display under the 1 column paragraph title.&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table></description></item><item><title>Docs: 2c</title><link>/docs/content-structure/paragraphs/2c/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/content-structure/paragraphs/2c/</guid><description>
+&lt;h1 id="paragraph-2-column">Paragraph 2 Column&lt;/h1>
+&lt;p>This is a paragraph type that will be used for implements a paragraph with 2 column.&lt;/p>
+&lt;h3 id="fields">Fields&lt;/h3>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>Name&lt;/th>
+&lt;th>Machine name&lt;/th>
+&lt;th>Required&lt;/th>
+&lt;th>Description&lt;/th>
+&lt;th>Notes&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>Line Above&lt;/td>
+&lt;td>field_prfg_display_line_above&lt;/td>
+&lt;td>No&lt;/td>
+&lt;td>Display a line above the column.&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Left Column&lt;/td>
+&lt;td>field_prgf_2c_left&lt;/td>
+&lt;td>No&lt;/td>
+&lt;td>Enter left column body.&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Right Column&lt;/td>
+&lt;td>field_prgf_2c_right&lt;/td>
+&lt;td>No&lt;/td>
+&lt;td>Enter right column body.&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table></description></item><item><title>Docs: 3c</title><link>/docs/content-structure/paragraphs/3c/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/content-structure/paragraphs/3c/</guid><description>
+&lt;h1 id="paragraph-3-column">Paragraph 3 Column&lt;/h1>
+&lt;p>This is a paragraph type that will be used for implements a paragraph with 3 column.&lt;/p>
+&lt;h3 id="fields">Fields&lt;/h3>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>Name&lt;/th>
+&lt;th>Machine name&lt;/th>
+&lt;th>Required&lt;/th>
+&lt;th>Description&lt;/th>
+&lt;th>Notes&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>Line Above&lt;/td>
+&lt;td>field_prfg_display_line_above&lt;/td>
+&lt;td>No&lt;/td>
+&lt;td>Display a line above the column.&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Left Column&lt;/td>
+&lt;td>field_prgf_3c_left&lt;/td>
+&lt;td>No&lt;/td>
+&lt;td>Enter left column body.&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Center Column&lt;/td>
+&lt;td>field_prgf_3c_center&lt;/td>
+&lt;td>No&lt;/td>
+&lt;td>Enter center column body.&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Right Column&lt;/td>
+&lt;td>field_prgf_3c_right&lt;/td>
+&lt;td>No&lt;/td>
+&lt;td>Enter right column body.&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Paragraph Title&lt;/td>
+&lt;td>field_prgf_title&lt;/td>
+&lt;td>No&lt;/td>
+&lt;td>Enter title to display at the top of 3 columns paragraph.&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table></description></item><item><title>Docs: 4c</title><link>/docs/content-structure/paragraphs/4c/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/content-structure/paragraphs/4c/</guid><description>
+&lt;h1 id="paragraph-4-column">Paragraph 4 Column&lt;/h1>
+&lt;p>This is a paragraph type that will be used for implements a paragraph with 4 column.&lt;/p>
+&lt;h3 id="fields">Fields&lt;/h3>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>Name&lt;/th>
+&lt;th>Machine name&lt;/th>
+&lt;th>Required&lt;/th>
+&lt;th>Description&lt;/th>
+&lt;th>Notes&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>Line Above&lt;/td>
+&lt;td>field_prfg_display_line_above&lt;/td>
+&lt;td>No&lt;/td>
+&lt;td>Display a line above the column.&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>First Column&lt;/td>
+&lt;td>field_prgf_4c_1st&lt;/td>
+&lt;td>No&lt;/td>
+&lt;td>Enter first column body.&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Second Column&lt;/td>
+&lt;td>field_prgf_4c_2nd&lt;/td>
+&lt;td>No&lt;/td>
+&lt;td>Enter second column body.&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Third Column&lt;/td>
+&lt;td>field_prgf_4c_3rd&lt;/td>
+&lt;td>No&lt;/td>
+&lt;td>Enter third column body.&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Fourth Column&lt;/td>
+&lt;td>field_prgf_4c_4th&lt;/td>
+&lt;td>No&lt;/td>
+&lt;td>Enter forth column body.&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Button&lt;/td>
+&lt;td>field_prgf_4c_button&lt;/td>
+&lt;td>No&lt;/td>
+&lt;td>Button with link to display under 4 column paragraph&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Paragraph Title&lt;/td>
+&lt;td>field_prgf_title&lt;/td>
+&lt;td>No&lt;/td>
+&lt;td>Enter title to display at the top of 4 columns paragraph.&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Paragraph Description&lt;/td>
+&lt;td>field_prgf_description&lt;/td>
+&lt;td>No&lt;/td>
+&lt;td>Enter description to display under the 4 columns paragraph title.&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table></description></item><item><title>Docs: AcceptanceTesting</title><link>/docs/development/acceptancetesting/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/development/acceptancetesting/</guid><description>
+&lt;h3 id="open-y-acceptance-testing-best-practices">Open Y Acceptance testing best practices&lt;/h3>
+&lt;p>Open Y is a big distribution with a large amount of modules, components, subsystems, and business
+processes, therefore we have to take appropriate steps to ensure the stability of major functionality during development.&lt;/p>
+&lt;p>For the automated tests we have created &lt;a href="https://github.com/ymcatwincities/openy/blob/8.x-1.x/.github/PULL_REQUEST_TEMPLATE.md">General Checks template&lt;/a>
+on GitHub every developer should follow to get review approval from Open Y core team.
+However, General Checks are for testing functionality for the current proposed change only, not for Regression Testing.&lt;/p>
+&lt;p>For regression testing, &lt;a href="https://github.com/ymcatwincities/openy/blob/8.x-1.x/docs/Development/Tests.md#behat">Behat tests&lt;/a> in this flow are provided automatically on each build by Open Y community.&lt;/p>
+&lt;p>Every pull request should include a testing plan prior to release into Open Y. This plan should cover the testing of all workflows and functionality to ensure that they continue to work with any new code or change implemented. This is because it is possible for conflicts to occur between elements of Open Y, Drupal Modules, and Drupal Core. These pull request testing plans will increase productivity and decrease effort for manual Acceptance Testing of upcoming Releases. This testing plan should cover specific features and functionality that is likely to cause regression issues post-release or post-upgrade to the latest version of Open Y once this new code is implemented.&lt;/p>
+&lt;p>Example of testing plan: If the Drupal core is updated it is important to gather all Drupal core Release Notes since last release
+core upgrade for Open Y and analyze important issues fixed.
+Example - in case if you are doing upgrade from latest 8.4.0 to 8.4.4:&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://www.drupal.org/project/drupal/releases/8.4.4">https://www.drupal.org/project/drupal/releases/8.4.4&lt;/a> (translations)&lt;/li>
+&lt;li>&lt;a href="https://www.drupal.org/project/drupal/releases/8.4.3">https://www.drupal.org/project/drupal/releases/8.4.3&lt;/a> (postgreSQL and migration)&lt;/li>
+&lt;li>&lt;a href="https://www.drupal.org/project/drupal/releases/8.4.2">https://www.drupal.org/project/drupal/releases/8.4.2&lt;/a> (migrations, taxonomy, ckeditor)&lt;/li>
+&lt;li>&lt;a href="https://www.drupal.org/project/drupal/releases/8.4.1">https://www.drupal.org/project/drupal/releases/8.4.1&lt;/a> (composer)&lt;/li>
+&lt;/ul>
+&lt;p>This means the list of systems should be tested are&lt;/p>
+&lt;ul>
+&lt;li>multilingual&lt;/li>
+&lt;li>postgreSQL support&lt;/li>
+&lt;li>migration&lt;/li>
+&lt;li>taxonomy&lt;/li>
+&lt;li>ckeditor&lt;/li>
+&lt;li>composer&lt;/li>
+&lt;/ul>
+&lt;p>This list could be extended by analyzing some highly important parts of Open Y distributions that depends from the above
+subsystems. It is not required to spend time on every module that has a dependency taxonomy, but it is important to test at least one impacted module to ensure it is still working post-implementation. In case if there is a Behat test already created for the subsystem in a list then a manual test could be skipped as long as the build is not failing due to the module or element covered in the associatied Behat test.&lt;/p>
+&lt;p>How to choose which modules to test: These can be a random selection from the list of systems impacted, or one of the oldest modules in a system impacted. This is because there is a higher chance that a minor change could cause a regression issue for the modules that have not received recent or regular updates.&lt;/p>
+&lt;p>The oldest modules(contrib modules) that have dependencies from the above list should also be updated, but
+to improve productivity, these updates should only be initiated if there is a security issue or a module stopped working because of
+the subsystems getting updated within an upcoming release. In case if a respective module update creates more issues
+that the older version of said module - then it is better to keep the old module and fix an associated regression bug.
+Tip: usually a new version of the module already contains a bug fix, so adding a patch from the drupal.org to composer.json of the Open Y distribution is preffered to get distribution
+released. Keep in mind, you will need to create a follow-up task for the module to be updated after release.&lt;/p>
+&lt;p>After creating list of modules that could introduce regression issues it is highly recommended to follow
+Quickstart section of the module&amp;rsquo;s readme files, that usually is shipped with modules. &lt;a href="https://github.com/ymcatwincities/openy/blob/8.x-1.x/modules/custom/location_finder/README.md#quickstart">Example for the location_finder&lt;/a>.
+In case if a module has no Quickstart of Acceptance testing section in readme - it is important to test at least one place
+where functionality of the module should be working. It is highly recommended to add this manual test steps as
+a follow-up task, &lt;a href="https://github.com/ymcatwincities/openy/issues/new">new issue&lt;/a> or even better - create Pull Request
+with changes to readme into Open Y repository. For the sake of performance, adding step by step how-to to the respective
+module&amp;rsquo;s README.md file is highly recommended. It takes only a few minutes to write a couple of lines of documentation which will greatly help others with future contributions and changes.&lt;/p>
+&lt;p>Optional, but grately appreciated: Add a Drupal tour for the how-to, created in README will benefit future Open Y users and developers.
+Having a tour for the business functionality is highly recommended to ship with the component - it creates an in-site visual guided documentation and helps to decrease time for the Acceptance testing.&lt;/p>
+&lt;p>And last, but not the lease - adding Behat tests to the system will ensure functionality is tested on every pull
+request, on every CI build in the future.&lt;/p>
+&lt;h3 id="rule">Rule&lt;/h3>
+&lt;p>Every release of Open Y since 8.1.9 should include list of subsystems, changed in release for the community to be aware of the possible regressions on their end.)&lt;/p></description></item><item><title>Docs: Activity</title><link>/docs/content-structure/content-types/activity/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/content-structure/content-types/activity/</guid><description>
+&lt;h1 id="activity">Activity&lt;/h1>
+&lt;p>Activity content type is used for adding Activities on the site.&lt;/p>
+&lt;h3 id="fields">Fields&lt;/h3>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>Name&lt;/th>
+&lt;th>Machine name&lt;/th>
+&lt;th>Required&lt;/th>
+&lt;th>Description&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>Title&lt;/td>
+&lt;td>drupal&amp;rsquo;s default&lt;/td>
+&lt;td>Yes&lt;/td>
+&lt;td>Title of the activity item.&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Program Subcategory&lt;/td>
+&lt;td>field_activity_category&lt;/td>
+&lt;td>Yes&lt;/td>
+&lt;td>A reference field for selecting the program subcategory.&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>Content Area&lt;/strong>&lt;/td>
+&lt;td>Field group&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Description&lt;/td>
+&lt;td>field_activity_description&lt;/td>
+&lt;td>No&lt;/td>
+&lt;td>Textarea for the description/body with WYSIWYG, without summary.&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h3 id="url-pattern">URL pattern&lt;/h3>
+&lt;p>Content type is using following pattern:
+&lt;code>/programs/[node:field_activity_category:entity:field_category_program:entity:title]/[node:field_activity_category:entity:title]/[node:title]&lt;/code>)&lt;/p></description></item><item><title>Docs: AddThis</title><link>/docs/development/addthis/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/development/addthis/</guid><description>
+&lt;h1 id="how-to-configure-addthis">How to configure AddThis&lt;/h1>
+&lt;p>Open Y AddThis module allow you easy add Social icons to any node.&lt;/p>
+&lt;ol>
+&lt;li>
+&lt;p>Go to &lt;code>http://www.addthis.com&lt;/code> and create your account and get public id.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Go to &lt;code>admin/openy/settings/openy-addthis&lt;/code> add public id
+&lt;img src="../assets/addthis.png" alt="Enter Public id">&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Select the content type for which to show the social icons and save.&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;h2 id="how-to-use-addthis-paragraph">How to use AddThis paragraph&lt;/h2>
+&lt;p>You can add AddThis to specific node use &amp;lsquo;Social share icons&amp;rsquo; paragraph&lt;/p>
+&lt;ol>
+&lt;li>
+&lt;p>Click on &amp;lsquo;Edit&amp;rsquo; any node&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>After content add &amp;lsquo;Social share icons&amp;rsquo; paragraph
+&lt;img src="../assets/addthis_paragraph.png" alt="Enter Public id">)&lt;/p>
+&lt;/li>
+&lt;/ol></description></item><item><title>Docs: Alert</title><link>/docs/content-structure/content-types/alert/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/content-structure/content-types/alert/</guid><description>
+&lt;h1 id="alert">Alert&lt;/h1>
+&lt;p>Alert content type is used for adding alerts on the site.&lt;/p>
+&lt;h3 id="fields">Fields&lt;/h3>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>Name&lt;/th>
+&lt;th>Machine name&lt;/th>
+&lt;th>Required&lt;/th>
+&lt;th>Description&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>Title&lt;/td>
+&lt;td>drupal&amp;rsquo;s default&lt;/td>
+&lt;td>Yes&lt;/td>
+&lt;td>Title of the activity item.&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Background color&lt;/td>
+&lt;td>field_alert_color&lt;/td>
+&lt;td>Yes&lt;/td>
+&lt;td>Reference field for choosing the term from &amp;ldquo;Color&amp;rdquo; vocabulary.&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Text color&lt;/td>
+&lt;td>field_alert_text_color&lt;/td>
+&lt;td>Yes&lt;/td>
+&lt;td>Reference field for choosing the term from &amp;ldquo;Color&amp;rdquo; vocabulary.&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Icon color&lt;/td>
+&lt;td>field_alert_icon_color&lt;/td>
+&lt;td>No&lt;/td>
+&lt;td>Reference field for choosing the term from &amp;ldquo;Color&amp;rdquo; vocabulary. Description for field: &amp;ldquo;Leave empty to hide icon.&amp;rdquo;&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Placement&lt;/td>
+&lt;td>field_alert_place&lt;/td>
+&lt;td>Yes&lt;/td>
+&lt;td>Select list field (singular) for choosing place: &lt;ul>&lt;li>Header&lt;/li>&lt;li>Footer&lt;/li>&lt;/ul>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Description&lt;/td>
+&lt;td>field_alert_description&lt;/td>
+&lt;td>Yes&lt;/td>
+&lt;td>Textarea for the description/body with WYSIWYG, without summary.&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Link&lt;/td>
+&lt;td>field_alert_link&lt;/td>
+&lt;td>No&lt;/td>
+&lt;td>Internal or external link.&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Reference&lt;/td>
+&lt;td>field_alert_belongs&lt;/td>
+&lt;td>No&lt;/td>
+&lt;td>Entityreference with autocomplete to any node. Description for field: &amp;ldquo;Reference to node (branch, camp, landing page and etc.), where local alert will be displayed.&amp;rdquo;&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h3 id="url-pattern">URL pattern&lt;/h3>
+&lt;p>Content type is using following pattern:
+&lt;code>/alert/[node:title]&lt;/code>.)&lt;/p></description></item><item><title>Docs: All Amenities</title><link>/docs/content-structure/paragraphs/all-amenities/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/content-structure/paragraphs/all-amenities/</guid><description>
+&lt;h1 id="all-amenities">All Amenities&lt;/h1>
+&lt;p>Provide a paragraph with a table view shows list of Branches.&lt;/p>
+&lt;h3 id="fields">Fields&lt;/h3>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>Name&lt;/th>
+&lt;th>Machine name&lt;/th>
+&lt;th>Required&lt;/th>
+&lt;th>Description&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>All amenities&lt;/td>
+&lt;td>field_field_prgf_amnts_view&lt;/td>
+&lt;td>No&lt;/td>
+&lt;td>Predefined reference to a view to display all amenities.&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Title&lt;/td>
+&lt;td>field_prgf_title&lt;/td>
+&lt;td>No&lt;/td>
+&lt;td>Enter title which is going to be displayed on top of the paragraph.&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table></description></item><item><title>Docs: Amenities</title><link>/docs/content-structure/taxonomy/amenities/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/content-structure/taxonomy/amenities/</guid><description>
+&lt;h1 id="amenities-vocabulary">Amenities Vocabulary&lt;/h1>
+&lt;p>This is a vocabulary that will be used for adding reference Branch amenities. We will use this for the Branch.&lt;/p>
+&lt;p>&lt;strong>Machine_name&lt;/strong>: amenities)&lt;/p></description></item><item><title>Docs: Area</title><link>/docs/content-structure/taxonomy/area/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/content-structure/taxonomy/area/</guid><description>
+&lt;h1 id="area-vocabulary">Area Vocabulary&lt;/h1>
+&lt;p>This is a vocabulary that will be used for adding location areas on the site. We will use this for the Location Branch and Facility CTs.&lt;/p>
+&lt;p>&lt;strong>Machine_name&lt;/strong>: area)&lt;/p></description></item><item><title>Docs: Banner</title><link>/docs/content-structure/paragraphs/banner/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/content-structure/paragraphs/banner/</guid><description>
+&lt;h1 id="banner">Banner&lt;/h1>
+&lt;p>This is a paragraph type that will be used for the banner content.&lt;/p>
+&lt;h3 id="fields">Fields&lt;/h3>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>Name&lt;/th>
+&lt;th>Machine name&lt;/th>
+&lt;th>Required&lt;/th>
+&lt;th>Description&lt;/th>
+&lt;th>Notes&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>Headline&lt;/td>
+&lt;td>field_prgf_headline&lt;/td>
+&lt;td>Yes&lt;/td>
+&lt;td>Headline of the banner.&lt;/td>
+&lt;td>Plain text, 255 characters&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Color&lt;/td>
+&lt;td>field_prgf_color&lt;/td>
+&lt;td>Yes&lt;/td>
+&lt;td>Reference field for choosing the term from &amp;ldquo;Color&amp;rdquo; vocabulary.&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Image&lt;/td>
+&lt;td>field_prgf_image&lt;/td>
+&lt;td>No&lt;/td>
+&lt;td>Entityreference to media image. Single value.&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Description&lt;/td>
+&lt;td>field_prgf_description&lt;/td>
+&lt;td>No&lt;/td>
+&lt;td>WYSIWYG field without summary.&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Link&lt;/td>
+&lt;td>field_prgf_link&lt;/td>
+&lt;td>No&lt;/td>
+&lt;td>Link field that should store internal and external links.&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table></description></item><item><title>Docs: Basic</title><link>/docs/content-structure/blocks/basic/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/content-structure/blocks/basic/</guid><description>
+&lt;h1 id="basic-block">Basic Block&lt;/h1>
+&lt;p>A simple block with a description.&lt;/p>
+&lt;h3 id="fields">Fields&lt;/h3>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>Name&lt;/th>
+&lt;th>Machine name&lt;/th>
+&lt;th>Required&lt;/th>
+&lt;th>Description&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>Content&lt;/td>
+&lt;td>field_block_content&lt;/td>
+&lt;td>Yes&lt;/td>
+&lt;td>WYSIWYG field without summary.&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table></description></item><item><title>Docs: Block Menu</title><link>/docs/content-structure/blocks/block-menu/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/content-structure/blocks/block-menu/</guid><description>
+&lt;h1 id="block-menu">Block Menu&lt;/h1>
+&lt;p>Implements custom block type with a links.&lt;/p>
+&lt;h3 id="fields">Fields&lt;/h3>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>Name&lt;/th>
+&lt;th>Machine name&lt;/th>
+&lt;th>Required&lt;/th>
+&lt;th>Description&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>Menu Links&lt;/td>
+&lt;td>field_menu_block_links&lt;/td>
+&lt;td>Yes&lt;/td>
+&lt;td>The Menu Links.&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Color&lt;/td>
+&lt;td>field_menu_block_color&lt;/td>
+&lt;td>Yes&lt;/td>
+&lt;td>Select colors for menu block background gradient.&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Text color&lt;/td>
+&lt;td>field_menu_block_text_color&lt;/td>
+&lt;td>Yes&lt;/td>
+&lt;td>Select text color of the menu block.&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table></description></item><item><title>Docs: Blog</title><link>/docs/content-structure/content-types/blog/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/content-structure/content-types/blog/</guid><description>
+&lt;h1 id="blog">Blog&lt;/h1>
+&lt;p>Blog Post content type is used for adding blog posts on the site.&lt;/p>
+&lt;h3 id="fields">Fields&lt;/h3>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>Name&lt;/th>
+&lt;th>Machine name&lt;/th>
+&lt;th>Required&lt;/th>
+&lt;th>Description&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>Title&lt;/td>
+&lt;td>drupal&amp;rsquo;s default&lt;/td>
+&lt;td>Yes&lt;/td>
+&lt;td>Title of the blog item.&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Locations&lt;/td>
+&lt;td>field_blog_location&lt;/td>
+&lt;td>Yes&lt;/td>
+&lt;td>Reference field to &lt;code>branch&lt;/code> and &lt;code>camp&lt;/code> nodes. Multiple Values.&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Category&lt;/td>
+&lt;td>field_blog_category&lt;/td>
+&lt;td>No&lt;/td>
+&lt;td>Reference field for choosing the term from &amp;ldquo;Blog Category&amp;rdquo; vocabulary. Multiple Values.&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Meta Tags&lt;/td>
+&lt;td>field_meta_tags&lt;/td>
+&lt;td>No&lt;/td>
+&lt;td>A meta tags field allows us to provide structured metadata and Graph meta tags for Facebook, Pinterest, LinkedIn and other social networking sites.&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>Styles&lt;/strong>&lt;/td>
+&lt;td>Field group&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Style&lt;/td>
+&lt;td>field_blog_style&lt;/td>
+&lt;td>Yes&lt;/td>
+&lt;td>Select list field with multiple options for choosing style: &lt;ul>&lt;li>Story Card&lt;/li>&lt;li>Photo Card&lt;/li>&lt;li>News Card (default)&lt;/li>&lt;li>Color Card&lt;/li>&lt;/ul>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Background color&lt;/td>
+&lt;td>field_blog_color&lt;/td>
+&lt;td>No&lt;/td>
+&lt;td>teaser background color (used when Color Card style is selected.)&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Text color&lt;/td>
+&lt;td>field_blog_text_color&lt;/td>
+&lt;td>No&lt;/td>
+&lt;td>teaser text color (used when Color Card style is selected.)&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>Content Area&lt;/strong>&lt;/td>
+&lt;td>Field group&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Image&lt;/td>
+&lt;td>field_blog_image&lt;/td>
+&lt;td>No&lt;/td>
+&lt;td>Image field for the Blog item. Entity reference to Media bundle.&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Description&lt;/td>
+&lt;td>field_blog_description&lt;/td>
+&lt;td>No&lt;/td>
+&lt;td>Textarea for the description/body with WYSIWYG, without summary.&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Content&lt;/td>
+&lt;td>field_content&lt;/td>
+&lt;td>No&lt;/td>
+&lt;td>A paragraph embed field that will allow us to add various flexible content modules, from the predefined list of paragraph types.&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>Sidebar Area&lt;/strong>&lt;/td>
+&lt;td>Field group&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Related content&lt;/td>
+&lt;td>field_blog_related&lt;/td>
+&lt;td>No&lt;/td>
+&lt;td>Reference field for choosing related Blog nodes. Multiple Values.&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Content&lt;/td>
+&lt;td>field_sidebar_content&lt;/td>
+&lt;td>No&lt;/td>
+&lt;td>A paragraph embed field that will allow us to add various flexible content modules, from the predefined list of paragraph types.&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h3 id="url-pattern">URL pattern&lt;/h3>
+&lt;p>Content type is using following pattern:
+&lt;code>/blog/[node:title]&lt;/code>)&lt;/p></description></item><item><title>Docs: Blog Category</title><link>/docs/content-structure/taxonomy/blog-category/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/content-structure/taxonomy/blog-category/</guid><description>
+&lt;h1 id="blog-category">Blog Category&lt;/h1>
+&lt;p>This is a vocabulary that will be used for adding blog categories on the site.&lt;/p>
+&lt;p>&lt;strong>Machine_name&lt;/strong>: blog_category)&lt;/p></description></item><item><title>Docs: Blog Posts Listing</title><link>/docs/content-structure/paragraphs/blog-posts-listing/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/content-structure/paragraphs/blog-posts-listing/</guid><description>
+&lt;h1 id="blog-posts-listing">Blog Posts Listing&lt;/h1>
+&lt;p>This is dynamic paragraph that renders the latest blog posts and utilizes exposed filters.&lt;/p>
+&lt;ul>
+&lt;li>Location&lt;/li>
+&lt;li>Category&lt;/li>
+&lt;li>Text&lt;/li>
+&lt;/ul>
+&lt;p>It uses sticky at the top option and order items based on published date (newest at the top).&lt;/p>
+&lt;h3 id="fields">Fields&lt;/h3>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>Name&lt;/th>
+&lt;th>Machine name&lt;/th>
+&lt;th>Required&lt;/th>
+&lt;th>Description&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>Block&lt;/td>
+&lt;td>field_prgf_block&lt;/td>
+&lt;td>Yes&lt;/td>
+&lt;td>Block reference to the view/block. Should have default value and should be hidden in form display.&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table></description></item><item><title>Docs: Branch</title><link>/docs/content-structure/content-types/branch/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/content-structure/content-types/branch/</guid><description>
+&lt;h1 id="branch">Branch&lt;/h1>
+&lt;p>Branch content type is used for adding Branches on the site.&lt;/p>
+&lt;h3 id="fields">Fields&lt;/h3>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>Name&lt;/th>
+&lt;th>Machine name&lt;/th>
+&lt;th>Required&lt;/th>
+&lt;th>Description&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>Title&lt;/td>
+&lt;td>drupal&amp;rsquo;s default&lt;/td>
+&lt;td>Yes&lt;/td>
+&lt;td>Title of the branch item.&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Neighborhood&lt;/td>
+&lt;td>field_location_area&lt;/td>
+&lt;td>No&lt;/td>
+&lt;td>A taxonomy reference field using the &amp;ldquo;Area&amp;rdquo; vocabulary.&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Coming Soon&lt;/td>
+&lt;td>field_location_state&lt;/td>
+&lt;td>No&lt;/td>
+&lt;td>A checkbox field to determine branches in development.&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Temporary URL&lt;/td>
+&lt;td>field_location_temp_url&lt;/td>
+&lt;td>No&lt;/td>
+&lt;td>A link field to provide a temporary page URL (a blog post, or smth else) if the branch is coming soon.&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Meta Tags&lt;/td>
+&lt;td>field_meta_tags&lt;/td>
+&lt;td>No&lt;/td>
+&lt;td>A meta tags field allows us to provide structured metadata and Graph meta tags for Facebook, Pinterest, LinkedIn and other social networking sites.&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>Contact&lt;/strong>&lt;/td>
+&lt;td>Field group&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Address&lt;/td>
+&lt;td>field_location_address&lt;/td>
+&lt;td>Yes&lt;/td>
+&lt;td>An address field that will provide the ability to add details about the locations. Details to be completed: &lt;ul>&lt;li>Address&lt;/li>&lt;li>City&lt;/li>&lt;li>State&lt;/li>&lt;li>Zip Code&lt;/li>&lt;/ul>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Branch Coordinates&lt;/td>
+&lt;td>field_location_coordinates&lt;/td>
+&lt;td>No&lt;/td>
+&lt;td>Input for providing the latitude and longitude information.&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Phone&lt;/td>
+&lt;td>field_location_phone&lt;/td>
+&lt;td>Yes&lt;/td>
+&lt;td>Input for providing the phone information.&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Fax&lt;/td>
+&lt;td>field_location_fax&lt;/td>
+&lt;td>No&lt;/td>
+&lt;td>Input for providing the fax information.&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Email&lt;/td>
+&lt;td>field_location_email&lt;/td>
+&lt;td>No&lt;/td>
+&lt;td>Input for providing the email information.&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Directions&lt;/td>
+&lt;td>field_location_directions&lt;/td>
+&lt;td>No&lt;/td>
+&lt;td>A link field for adding the directions link.&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>Branch Hours&lt;/strong>&lt;/td>
+&lt;td>Field group&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Branch Hours&lt;/td>
+&lt;td>field_branch_hours&lt;/td>
+&lt;td>Paragraph&lt;/td>
+&lt;td>Paragraph to indicate the branch hours.&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Day of the week&lt;/td>
+&lt;td>field_branch_hours_day&lt;/td>
+&lt;td>No&lt;/td>
+&lt;td>Select list with following values: &lt;ul>&lt;li>sunday|Sunday&lt;/li>&lt;li>monday|Monday&lt;/li>&lt;li>tuesday|Tuesday&lt;/li>&lt;li>wednesday|Wednesday&lt;/li>&lt;li>thursday|Thursday&lt;/li>&lt;li>friday|Friday&lt;/li>&lt;li>saturday|Saturday&lt;/li>&lt;/ul>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Start/End Time&lt;/td>
+&lt;td>field_branch_hours_time&lt;/td>
+&lt;td>No&lt;/td>
+&lt;td>Textfield with description &amp;ldquo;e.g. 9am - 5pm, closed.&amp;rdquo;&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>Header Area&lt;/strong>&lt;/td>
+&lt;td>Field group&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Content&lt;/td>
+&lt;td>field_header_content&lt;/td>
+&lt;td>No&lt;/td>
+&lt;td>A paragraph embed field that will allow us to add various flexible content modules, from the predefined list of paragraph types.&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>Content Area&lt;/strong>&lt;/td>
+&lt;td>Field group&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Content&lt;/td>
+&lt;td>field_content&lt;/td>
+&lt;td>No&lt;/td>
+&lt;td>A paragraph embed field that will allow us to add various flexible content modules, from the predefined list of paragraph types.&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>Bottom Area&lt;/strong>&lt;/td>
+&lt;td>Field group&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Content&lt;/td>
+&lt;td>field_bottom_content&lt;/td>
+&lt;td>No&lt;/td>
+&lt;td>A paragraph embed field that will allow us to add various flexible content modules, from the predefined list of paragraph types.&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h3 id="url-pattern">URL pattern&lt;/h3>
+&lt;p>Content type is using following pattern:
+&lt;code>/locations/[node:title]&lt;/code>)&lt;/p></description></item><item><title>Docs: Branch Amenities</title><link>/docs/content-structure/blocks/branch-amenities/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/content-structure/blocks/branch-amenities/</guid><description>
+&lt;h1 id="block-branch-amenities">Block Branch Amenities&lt;/h1>
+&lt;p>A block with amenities list of the current branch.&lt;/p>
+&lt;h3 id="fields">Fields&lt;/h3>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>Name&lt;/th>
+&lt;th>Machine name&lt;/th>
+&lt;th>Required&lt;/th>
+&lt;th>Description&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>Branch amenities&lt;/td>
+&lt;td>field_branch_am&lt;/td>
+&lt;td>Yes&lt;/td>
+&lt;td>Uses only Custom Formatter to display a list of amenities within Paragraph block.&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Link&lt;/td>
+&lt;td>field_sb_link&lt;/td>
+&lt;td>No&lt;/td>
+&lt;td>Link to display at the bottom of the block.&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Title&lt;/td>
+&lt;td>field_sb_title&lt;/td>
+&lt;td>No&lt;/td>
+&lt;td>Title to display at top of block.&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Icon class&lt;/td>
+&lt;td>field_icon_class&lt;/td>
+&lt;td>No&lt;/td>
+&lt;td>Provide a &amp;ldquo;Font Awesome&amp;rdquo; icon name, e.g. flag, car, info. Overrides image icon.&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table></description></item><item><title>Docs: Branches Popup (All)</title><link>/docs/content-structure/paragraphs/branches-popup-all/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/content-structure/paragraphs/branches-popup-all/</guid><description>
+&lt;h1 id="branches-popup-all">Branches Popup (All)&lt;/h1>
+&lt;p>This is dynamic paragraph that renders the locations selection popup, based on current node.&lt;/p>
+&lt;p>Relates to:&lt;/p>
+&lt;ul>
+&lt;li>[Schedule search list](Schedule search list.md)&lt;/li>
+&lt;li>[Classes Listing](Classes Listing.md)&lt;/li>
+&lt;/ul>
+&lt;h3 id="fields">Fields&lt;/h3>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>Name&lt;/th>
+&lt;th>Machine name&lt;/th>
+&lt;th>Required&lt;/th>
+&lt;th>Description&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>Block&lt;/td>
+&lt;td>field_prgf_block&lt;/td>
+&lt;td>Yes&lt;/td>
+&lt;td>Block reference to the view/block. Should have default value and should be hidden in form display.&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table></description></item><item><title>Docs: Branches Popup (Class)</title><link>/docs/content-structure/paragraphs/branches-popup-class/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/content-structure/paragraphs/branches-popup-class/</guid><description>
+&lt;h1 id="branches-popup-class">Branches Popup (Class)&lt;/h1>
+&lt;p>This is dynamic paragraph that renders the locations selection popup, based on current node.&lt;/p>
+&lt;p>Relates to:&lt;/p>
+&lt;ul>
+&lt;li>[Class Sessions](Class Sessions.md)&lt;/li>
+&lt;li>[Class Location](Class Location.md)&lt;/li>
+&lt;/ul>
+&lt;h3 id="fields">Fields&lt;/h3>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>Name&lt;/th>
+&lt;th>Machine name&lt;/th>
+&lt;th>Required&lt;/th>
+&lt;th>Description&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>Block&lt;/td>
+&lt;td>field_prgf_block&lt;/td>
+&lt;td>Yes&lt;/td>
+&lt;td>Block reference to the view/block. Should have default value and should be hidden in form display.&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table></description></item><item><title>Docs: Camp</title><link>/docs/content-structure/content-types/camp/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/content-structure/content-types/camp/</guid><description>
+&lt;h1 id="camp">Camp&lt;/h1>
+&lt;p>Camp content type is used for adding Camps on the site.&lt;/p>
+&lt;h3 id="fields">Fields&lt;/h3>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>Name&lt;/th>
+&lt;th>Machine name&lt;/th>
+&lt;th>Required&lt;/th>
+&lt;th>Description&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>Title&lt;/td>
+&lt;td>drupal&amp;rsquo;s default&lt;/td>
+&lt;td>Yes&lt;/td>
+&lt;td>Title of the camp item.&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Menu links&lt;/td>
+&lt;td>field_camp_menu_links&lt;/td>
+&lt;td>Yes&lt;/td>
+&lt;td>Link field with multiple values, that should have the Title and Link field. Based on it, we will complete the Camp Menu.&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Meta Tags&lt;/td>
+&lt;td>field_meta_tags&lt;/td>
+&lt;td>No&lt;/td>
+&lt;td>A meta tags field allows us to provide structured metadata and Graph meta tags for Facebook, Pinterest, LinkedIn and other social networking sites.&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>Contact&lt;/strong>&lt;/td>
+&lt;td>Field group&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Address&lt;/td>
+&lt;td>field_location_address&lt;/td>
+&lt;td>Yes&lt;/td>
+&lt;td>An address field that will provide the ability to add details about the locations. Details to be completed: &lt;ul>&lt;li>Address&lt;/li>&lt;li>City&lt;/li>&lt;li>State&lt;/li>&lt;li>Zip Code&lt;/li>&lt;/ul>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Camp Coordinates&lt;/td>
+&lt;td>field_location_coordinates&lt;/td>
+&lt;td>No&lt;/td>
+&lt;td>Input for providing the latitude and longitude information.&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Phone&lt;/td>
+&lt;td>field_location_phone&lt;/td>
+&lt;td>Yes&lt;/td>
+&lt;td>Input for providing the phone information.&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Fax&lt;/td>
+&lt;td>field_location_fax&lt;/td>
+&lt;td>No&lt;/td>
+&lt;td>Input for providing the fax information.&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Email&lt;/td>
+&lt;td>field_location_email&lt;/td>
+&lt;td>No&lt;/td>
+&lt;td>Input for providing the email information.&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Directions&lt;/td>
+&lt;td>field_location_directions&lt;/td>
+&lt;td>No&lt;/td>
+&lt;td>A link field for adding the directions link.&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>Header Area&lt;/strong>&lt;/td>
+&lt;td>Field group&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Content&lt;/td>
+&lt;td>field_header_content&lt;/td>
+&lt;td>No&lt;/td>
+&lt;td>A paragraph embed field that will allow us to add various flexible content modules, from the predefined list of paragraph types.&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>Content Area&lt;/strong>&lt;/td>
+&lt;td>Field group&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Content&lt;/td>
+&lt;td>field_content&lt;/td>
+&lt;td>No&lt;/td>
+&lt;td>A paragraph embed field that will allow us to add various flexible content modules, from the predefined list of paragraph types.&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>Bottom Area&lt;/strong>&lt;/td>
+&lt;td>Field group&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Content&lt;/td>
+&lt;td>field_bottom_content&lt;/td>
+&lt;td>No&lt;/td>
+&lt;td>A paragraph embed field that will allow us to add various flexible content modules, from the predefined list of paragraph types.&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h3 id="url-pattern">URL pattern&lt;/h3>
+&lt;p>Content type is using following pattern:
+&lt;code>/camps/[node:title]&lt;/code>)&lt;/p></description></item><item><title>Docs: Categories Listing</title><link>/docs/content-structure/paragraphs/categories-listing/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/content-structure/paragraphs/categories-listing/</guid><description>
+&lt;h1 id="categories-listing">Categories Listing&lt;/h1>
+&lt;p>This is dynamic paragraph that renders all published categories according to current program page.&lt;/p>
+&lt;p>It uses sticky at the top option and order items based on published date(newest at the top).&lt;/p>
+&lt;h3 id="fields">Fields&lt;/h3>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>Name&lt;/th>
+&lt;th>Machine name&lt;/th>
+&lt;th>Required&lt;/th>
+&lt;th>Description&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>Block&lt;/td>
+&lt;td>field_prgf_block&lt;/td>
+&lt;td>Yes&lt;/td>
+&lt;td>Block reference to the view/block. Should have default value and should be hidden in form display.&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table></description></item><item><title>Docs: Class</title><link>/docs/content-structure/content-types/class/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/content-structure/content-types/class/</guid><description>
+&lt;h1 id="class">Class&lt;/h1>
+&lt;p>Class content type is used for adding Classes on the site.&lt;/p>
+&lt;h3 id="fields">Fields&lt;/h3>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>Name&lt;/th>
+&lt;th>Machine name&lt;/th>
+&lt;th>Required&lt;/th>
+&lt;th>Description&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>Title&lt;/td>
+&lt;td>drupal&amp;rsquo;s default&lt;/td>
+&lt;td>Yes&lt;/td>
+&lt;td>Title of the class item.&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Activity&lt;/td>
+&lt;td>field_class_activity&lt;/td>
+&lt;td>No&lt;/td>
+&lt;td>A reference field for selecting the class.&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Meta Tags&lt;/td>
+&lt;td>field_meta_tags&lt;/td>
+&lt;td>No&lt;/td>
+&lt;td>A meta tags field allows us to provide structured metadata and Graph meta tags for Facebook, Pinterest, LinkedIn and other social networking sites.&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>Header Area&lt;/strong>&lt;/td>
+&lt;td>Field group&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Content&lt;/td>
+&lt;td>field_header_content&lt;/td>
+&lt;td>No&lt;/td>
+&lt;td>A paragraph embed field that will allow us to add various flexible content modules, from the predefined list of paragraph types.&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>Content Area&lt;/strong>&lt;/td>
+&lt;td>Field group&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Description&lt;/td>
+&lt;td>field_class_description&lt;/td>
+&lt;td>No&lt;/td>
+&lt;td>Textarea for the description/body with WYSIWYG, without summary.&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Content&lt;/td>
+&lt;td>field_content&lt;/td>
+&lt;td>No&lt;/td>
+&lt;td>A paragraph embed field that will allow us to add various flexible content modules, from the predefined list of paragraph types.&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>Sidebar Area&lt;/strong>&lt;/td>
+&lt;td>Field group&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Content&lt;/td>
+&lt;td>field_sidebar_content&lt;/td>
+&lt;td>No&lt;/td>
+&lt;td>A paragraph embed field that will allow us to add various flexible content modules, from the predefined list of paragraph types.&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>Bottom Area&lt;/strong>&lt;/td>
+&lt;td>Field group&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Content&lt;/td>
+&lt;td>field_bottom_content&lt;/td>
+&lt;td>No&lt;/td>
+&lt;td>A paragraph embed field that will allow us to add various flexible content modules, from the predefined list of paragraph types.&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h3 id="url-pattern">URL pattern&lt;/h3>
+&lt;p>Content type is using following pattern:
+&lt;code>/programs/[node:field_class_activity:entity:field_activity_category:entity:field_category_program:entity:title]/[node:field_class_activity:entity:field_activity_category:entity:title]/[node:title]/class-times&lt;/code>)&lt;/p></description></item><item><title>Docs: Class Location</title><link>/docs/content-structure/paragraphs/class-location/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/content-structure/paragraphs/class-location/</guid><description>
+&lt;h1 id="class-location">Class Location&lt;/h1>
+&lt;p>This is dynamic paragraph that renders the locations class location view mode, based on url query parameter location with a valid id.&lt;/p>
+&lt;p>Relates to [Branches Popup (Class)](Branches Popup (Class).md).&lt;/p>
+&lt;ul>
+&lt;li>When the page has a location parameter the Branches Popup paragraph will make an &amp;ldquo;Edit&amp;rdquo; link on this paragraph visible. That link triggers the Branches Popup to open.&lt;/li>
+&lt;/ul>
+&lt;h3 id="fields">Fields&lt;/h3>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>Name&lt;/th>
+&lt;th>Machine name&lt;/th>
+&lt;th>Required&lt;/th>
+&lt;th>Description&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>Block&lt;/td>
+&lt;td>field_prgf_block&lt;/td>
+&lt;td>Yes&lt;/td>
+&lt;td>Block reference to the view/block. Should have default value and should be hidden in form display.&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table></description></item><item><title>Docs: Class Sessions</title><link>/docs/content-structure/paragraphs/class-sessions/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/content-structure/paragraphs/class-sessions/</guid><description>
+&lt;h1 id="class-sessions">Class Sessions&lt;/h1>
+&lt;p>This is dynamic paragraph that renders the class session instances, based on url query parameter location with a valid id.&lt;/p>
+&lt;p>Relates to [Branches Popup (Class)](Branches Popup (Class).md).&lt;/p>
+&lt;h3 id="fields">Fields&lt;/h3>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>Name&lt;/th>
+&lt;th>Machine name&lt;/th>
+&lt;th>Required&lt;/th>
+&lt;th>Description&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>Block&lt;/td>
+&lt;td>field_prgf_block&lt;/td>
+&lt;td>Yes&lt;/td>
+&lt;td>Block reference to the view/block. Should have default value and should be hidden in form display.&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h3 id="displayed-table">Displayed table&lt;/h3>
+&lt;ul>
+&lt;li>Location(should be displayed in case if &amp;amp;location=% not in the URL. Otherwise should be hiddedn.&lt;/li>
+&lt;li>Time + date&lt;/li>
+&lt;li>Registration(link)&lt;/li>
+&lt;li>Details
+&lt;ul>
+&lt;li>Online registration&lt;/li>
+&lt;li>Ticket required&lt;/li>
+&lt;li>In membership&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Age Min - Max&lt;/li>
+&lt;/ul>
+&lt;h3 id="use-cases">Use cases&lt;/h3>
+&lt;p>&lt;em>Use case 3: Class page WITHOUT location popup&lt;/em>
+3.1 Location in specified URL&lt;/p>
+&lt;ul>
+&lt;li>When I open Class page WITHOUT location popup on page&lt;/li>
+&lt;li>And I have location=% in the URL&lt;/li>
+&lt;li>We skip cookie whether is empty or exist&lt;/li>
+&lt;li>Results should be filtered based on location from URL&lt;/li>
+&lt;li>In sidebar we should see location teaser&lt;/li>
+&lt;/ul>
+&lt;p>3.2 Preferred branch is empty and no location in URL or Preferred branch is selected and no location in URL&lt;/p>
+&lt;ul>
+&lt;li>When I open Class page WITHOUT location popup on page&lt;/li>
+&lt;li>And I don&amp;rsquo;t have a preferred branch&lt;/li>
+&lt;li>Or I have a preferred branch&lt;/li>
+&lt;li>And I don&amp;rsquo;t have location=% in the URL&lt;/li>
+&lt;li>Results should contain all branches&lt;/li>
+&lt;li>In sidebar we should see &amp;ldquo;All locations&amp;hellip;.&amp;rdquo;&lt;/li>
+&lt;/ul>
+&lt;p>&lt;em>Use case 4: Class page WITH location popup&lt;/em>
+4.1 Location in specified URL&lt;/p>
+&lt;ul>
+&lt;li>When I open Class page WITH location popup on page&lt;/li>
+&lt;li>And I have location=% in the URL&lt;/li>
+&lt;li>We skip cookie whether is empty or exist&lt;/li>
+&lt;li>Results should be filtered based on location from URL&lt;/li>
+&lt;li>In sidebar we should see location teaser&lt;/li>
+&lt;li>Location is sidebar should have &amp;ldquo;Edit&amp;rdquo; link that will open location popup&lt;/li>
+&lt;/ul>
+&lt;p>4.2 Preferred branch is empty and no location in URL or Preferred branch is selected and no location in URL&lt;/p>
+&lt;ul>
+&lt;li>When I open Class page WITH location popup on page&lt;/li>
+&lt;li>And I don&amp;rsquo;t have a preferred branch&lt;/li>
+&lt;li>Or I have a preferred branch&lt;/li>
+&lt;li>And I don&amp;rsquo;t have location=% in the URL&lt;/li>
+&lt;li>Results should contain all branches&lt;/li>
+&lt;li>In sidebar we should see &amp;ldquo;All locations&amp;hellip;.&amp;rdquo;&lt;/li>
+&lt;li>Location popup should be shown (Unless only one location is associated with the class))&lt;/li>
+&lt;/ul></description></item><item><title>Docs: Classes Listing</title><link>/docs/content-structure/paragraphs/classes-listing/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/content-structure/paragraphs/classes-listing/</guid><description>
+&lt;h1 id="classes-listing--classes-listing-filters">Classes Listing + Classes Listing Filters&lt;/h1>
+&lt;p>Classes Listing - should display all published classes grouped by activity.&lt;/p>
+&lt;p>Classes Listing Filters - this paragraph should disply filter form for &amp;ldquo;Classes Listing&amp;rdquo; with following fields:&lt;/p>
+&lt;ul>
+&lt;li>Location&lt;/li>
+&lt;li>Program&lt;/li>
+&lt;li>Sub-program&lt;/li>
+&lt;li>Activity&lt;/li>
+&lt;/ul>
+&lt;p>Relates to [Branches Popup (All)](Branches Popup (All).md).&lt;/p>
+&lt;h3 id="fields">Fields&lt;/h3>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>Name&lt;/th>
+&lt;th>Machine name&lt;/th>
+&lt;th>Required&lt;/th>
+&lt;th>Description&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>Block&lt;/td>
+&lt;td>field_prgf_block&lt;/td>
+&lt;td>Yes&lt;/td>
+&lt;td>Block reference to the view/block. Should have default value and should be hidden in form display.&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h3 id="use-cases">Use cases&lt;/h3>
+&lt;p>&lt;em>Use case 1: Classes Listing paragraph on a Program subcategory page WITHOUT location popup paragraph&lt;/em>
+1.1 Preferred branch is selected and no location in URL&lt;/p>
+&lt;ul>
+&lt;li>When I open Program subcategory page with Classes Listing WITHOUT location popup on page&lt;/li>
+&lt;li>And I have a preferred branch&lt;/li>
+&lt;li>And I don&amp;rsquo;t have location=% in the URL&lt;/li>
+&lt;li>Filter by location should be predefined based on cookie&lt;/li>
+&lt;li>Results should be filtered&lt;/li>
+&lt;/ul>
+&lt;p>1.2 Preferred branch is empty and no location in URL&lt;/p>
+&lt;ul>
+&lt;li>When I open Program subcategory page with Classes Listing WITHOUT location popup on page&lt;/li>
+&lt;li>And I don&amp;rsquo;t have a preferred branch&lt;/li>
+&lt;li>And I don&amp;rsquo;t have location=% in the URL&lt;/li>
+&lt;li>Filter by location should show &amp;ldquo;All&amp;rdquo;&lt;/li>
+&lt;li>Results should be shown for all branches&lt;/li>
+&lt;/ul>
+&lt;p>1.3 Location in specified URL&lt;/p>
+&lt;ul>
+&lt;li>When I open Program subcategory page with Classes Listing WITHOUT location popup on page&lt;/li>
+&lt;li>And I have location=% in the URL&lt;/li>
+&lt;li>We skip cookie whether is empty or exist&lt;/li>
+&lt;li>Filter by location should show branch from URL&lt;/li>
+&lt;li>Results should be filtered&lt;/li>
+&lt;/ul>
+&lt;p>&lt;em>Use case 2: Classes Listing paragraph on a Program subcategory page WITH location popup&lt;/em>
+2.1 Preferred branch is selected and no location in URL&lt;/p>
+&lt;ul>
+&lt;li>When I open Program subcategory page with Classes Listing WITH location popup on page&lt;/li>
+&lt;li>And I have a preferred branch&lt;/li>
+&lt;li>And I don&amp;rsquo;t have location=% in the URL&lt;/li>
+&lt;li>Location popup shouldn&amp;rsquo;t be shown&lt;/li>
+&lt;li>Filter by location should be predefined based on cookie&lt;/li>
+&lt;li>Results should be filtered&lt;/li>
+&lt;/ul>
+&lt;p>2.2 Preferred branch is empty and no location in URL&lt;/p>
+&lt;ul>
+&lt;li>When I open Program subcategory page with Classes Listing WITH location popup on page&lt;/li>
+&lt;li>And I don&amp;rsquo;t have a preferred branch&lt;/li>
+&lt;li>And I don&amp;rsquo;t have location=% in the URL&lt;/li>
+&lt;li>Filter by location should show &amp;ldquo;All&amp;rdquo;&lt;/li>
+&lt;li>Results should be shown for all branches&lt;/li>
+&lt;li>Location popup should be shown&lt;/li>
+&lt;/ul>
+&lt;p>2.3 Location in specified URL&lt;/p>
+&lt;ul>
+&lt;li>When I open Program subcategory page with Classes Listing WITH location popup on page&lt;/li>
+&lt;li>And I have location=% in the URL&lt;/li>
+&lt;li>We skip cookie whether is empty or exist&lt;/li>
+&lt;li>Location popup shouldn&amp;rsquo;t be shown&lt;/li>
+&lt;li>Filter by location should show branch from URL&lt;/li>
+&lt;li>Results should be filtered)&lt;/li>
+&lt;/ul></description></item><item><title>Docs: Code</title><link>/docs/content-structure/paragraphs/code/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/content-structure/paragraphs/code/</guid><description>
+&lt;h1 id="code">Code&lt;/h1>
+&lt;p>Provide paragraph containing a Code block. Can be used to embed Youtube video for instance.&lt;/p>
+&lt;h3 id="fields">Fields&lt;/h3>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>Name&lt;/th>
+&lt;th>Machine name&lt;/th>
+&lt;th>Required&lt;/th>
+&lt;th>Description&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>Code&lt;/td>
+&lt;td>field_prgf_code_block&lt;/td>
+&lt;td>Yes&lt;/td>
+&lt;td>Block reference to Code block. Create a new one or pick up an existed Code block.&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table></description></item><item><title>Docs: Color</title><link>/docs/content-structure/taxonomy/color/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/content-structure/taxonomy/color/</guid><description>
+&lt;h1 id="area-vocabulary">Area Vocabulary&lt;/h1>
+&lt;p>This is a vocabulary that will be used for adding colors on the site.&lt;/p>
+&lt;p>&lt;strong>Machine_name&lt;/strong>: color&lt;/p>
+&lt;h3 id="fields">Fields&lt;/h3>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>Name&lt;/th>
+&lt;th>Machine name&lt;/th>
+&lt;th>Required&lt;/th>
+&lt;th>Description&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>Name&lt;/td>
+&lt;td>drupal&amp;rsquo;s default&lt;/td>
+&lt;td>Yes&lt;/td>
+&lt;td>Color name.&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Color&lt;/td>
+&lt;td>field_color&lt;/td>
+&lt;td>Yes&lt;/td>
+&lt;td>Color selector.&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table></description></item><item><title>Docs: Composer</title><link>/docs/development/composer/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/development/composer/</guid><description>
+&lt;h1 id="composer">Composer&lt;/h1>
+&lt;p>Please always make sure &lt;code>composer.lock&lt;/code> file is updated after any changes in &lt;code>composer.json&lt;/code> file.
+You can use &lt;code>composer update&lt;/code> command to update any package, in this case composer will take care about updating of &lt;code>composer.lock&lt;/code> file.&lt;/p>
+&lt;pre tabindex="0">&lt;code>composer update drupal/metatag
+&lt;/code>&lt;/pre>&lt;p>Also you can use &lt;code>composer update --lock&lt;/code> command to force updating of &lt;code>composer.lock&lt;/code> file according to dependencies in &lt;code>composer.json&lt;/code>.&lt;/p>
+&lt;p>Please check official composer documentation for details: &lt;a href="https://getcomposer.org/doc/01-basic-usage.md">https://getcomposer.org/doc/01-basic-usage.md&lt;/a>)&lt;/p></description></item><item><title>Docs: Configuration for social posts import</title><link>/docs/development/configuration-for-social-posts-import/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/development/configuration-for-social-posts-import/</guid><description>
+&lt;p>Add import social posts to site (Facebook, Instagram, Twitter)&lt;/p>
+&lt;h3 id="how-configure-import-of-posts-from-the-social-networks">How configure import of posts from the social networks&lt;/h3>
+&lt;p>&lt;strong>Given:&lt;/strong>
+As an Open Y site developer, I want to be able import posts from company&amp;rsquo;s accounts form social networks (Twitter, Facebook, Instagram) and save them as content on the site.&lt;/p>
+&lt;p>&lt;strong>How to:&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>Open configuration page /admin/config/social_feed_fetcher_settings - Configuration -&amp;gt; Social Feed Settings&lt;/li>
+&lt;li>Select checkbox for needed social network and add additional settings. Every social network has their own API, please read documentation for this settings on the official pages of each social networks.&lt;/li>
+&lt;li>When all settings will be filled - click on the button - Run Cron. Import is started. )&lt;/li>
+&lt;/ul></description></item><item><title>Docs: Contributing</title><link>/docs/development/contributing/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/development/contributing/</guid><description>
+&lt;h1 id="contributing-to-open-y">Contributing to Open Y&lt;/h1>
+&lt;h1 id="issues">Issues&lt;/h1>
+&lt;p>If you have a support request, you&amp;rsquo;ve found a bug or you have a feature request:&lt;/p>
+&lt;ul>
+&lt;li>Search through known issues/requests &lt;a href="https://github.com/ymcatwincities/openy/issues">https://github.com/ymcatwincities/openy/issues&lt;/a>&lt;/li>
+&lt;li>Create new issue &lt;a href="https://github.com/ymcatwincities/openy/issues/new">https://github.com/ymcatwincities/openy/issues/new&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h1 id="pull-requests">Pull Requests&lt;/h1>
+&lt;p>If you have some time to make a contribution to the project, here are the steps that will help you:&lt;/p>
+&lt;ul>
+&lt;li>Create fork of &lt;a href="https://github.com/ymcatwincities/openy">main project&lt;/a>. &lt;a href="https://help.github.com/articles/fork-a-repo/">How to create fork&lt;/a>.&lt;/li>
+&lt;li>Commit &amp;amp; push changes into your fork&lt;/li>
+&lt;li>Create new Pull Request. &lt;a href="https://help.github.com/articles/creating-a-pull-request/">How to create Pull Request&lt;/a>.&lt;/li>
+&lt;li>Write steps for review. In this way maintainers can go through steps on build to verify your fix/feature.&lt;/li>
+&lt;li>Ensure steps for review added to README.md file in a module&amp;rsquo;s/project&amp;rsquo;s directory if it makes sence to check them on regular basis. Often this is needed for crucial parts of the system which is main business functionality of the component. Example of super simple steps for review &lt;a href="https://github.com/ymcatwincities/openy/blob/8.x-1.x/modules/custom/location_finder/README.md#quickstart">see in Quickstart section of location_finder module&lt;/a>, plese.&lt;/li>
+&lt;li>Create Drupal tour module, based on steps for review and ship it with the module which provides a functionality.&lt;/li>
+&lt;li>Wait for a CI build and ask maintainers for review.&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>Important:&lt;/strong> make sure your git email is associated with account on drupal.org, otherwise you won&amp;rsquo;t get commits there.&lt;/p>
+&lt;h1 id="drupalorg-credits">Drupal.org credits&lt;/h1>
+&lt;p>If you would like to get drupal.org credits for your contribution:&lt;/p>
+&lt;ul>
+&lt;li>Create issue on &lt;a href="https://www.drupal.org/project/issues/openy?categories=All">drupal.org&lt;/a>&lt;/li>
+&lt;li>Link drupal.org issue to GitHub Pull Request&lt;/li>
+&lt;li>Specify in GitHub Pull Request link to drupal.org issue&lt;/li>
+&lt;li>Once PR has been merged, reviewer will close drupal.org issue with appropriate credits.)&lt;/li>
+&lt;/ul></description></item><item><title>Docs: Create View Modes</title><link>/docs/development/create-view-modes/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/development/create-view-modes/</guid><description>
+&lt;h1 id="how-to-create-new-view-mode-and-use">How to Create new View mode and use&lt;/h1>
+&lt;p>As with any other entity in drupal, when it comes to render the rendering it in different contexts, you might want to have specific viewmodes.&lt;/p>
+&lt;p>Here you can find instructions how you can add new view modes into embedded entity form on Open Y distribution.&lt;/p>
+&lt;h2 id="how-to-create-new-view-mode">How-to create new View mode&lt;/h2>
+&lt;ol>
+&lt;li>Go to &amp;lsquo;View modes&amp;rsquo; page: Structure -&amp;gt; Display modes -&amp;gt; View modes (or visit the URL: /admin/structure/display-modes/view )
+&lt;img src="../assets/view_mode_in_menu.png" alt="Configuration project add/update form">&lt;/li>
+&lt;/ol>
+&lt;p>&lt;img src="../assets/view_mode_types.png" alt="Configuration project add/update form">&lt;/p>
+&lt;ol start="2">
+&lt;li>Create new view mode: click &amp;lsquo;Add view mode&amp;rsquo; button and select entity type (or visit the URL: /admin/structure/display-modes/view/add )&lt;/li>
+&lt;/ol>
+&lt;p>&lt;img src="../assets/view_mode_firt_way_to_create.png" alt="Configuration project add/update form">&lt;/p>
+&lt;p>or after each entity type you can see &amp;lsquo;Add new {Name} view mode&amp;rsquo; and click on it
+&lt;img src="../assets/view_mode_seond_way.png" alt="Configuration project add/update form">&lt;/p>
+&lt;ol start="3">
+&lt;li>Select &amp;ldquo;Media&amp;rdquo; and then give a name to your new viewmode (or visit the URL: /admin/structure/display-modes/view/add/media )
+&lt;img src="../assets/view_mode_creating.png" alt="Configuration project add/update form">&lt;/li>
+&lt;/ol>
+&lt;h2 id="how-to-use-new-view-mode">How-to use new View mode&lt;/h2>
+&lt;ol>
+&lt;li>Go to Configuration -&amp;gt; Text editor embed buttons (or visit the URL: /admin/config/content/embed )
+&lt;img src="../assets/view_mode_using.png" alt="Configuration project add/update form">&lt;/li>
+&lt;/ol>
+&lt;p>&lt;img src="../assets/view_mode_using_list.png" alt="Configuration project add/update form">&lt;/p>
+&lt;ol start="2">
+&lt;li>Then make sure you enable the new viewmode in &amp;ldquo;Allowed Entity Embed Display plugins&amp;rdquo;, and at the bottom of the page click &amp;ldquo;Save&amp;rdquo;.
+&lt;img src="../assets/view_mode_enable.png" alt="Configuration project add/update form">)&lt;/li>
+&lt;/ol></description></item><item><title>Docs: Custom Simple</title><link>/docs/content-structure/blocks/custom-simple/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/content-structure/blocks/custom-simple/</guid><description>
+&lt;h1 id="block-custom-simple">Block Custom Simple&lt;/h1>
+&lt;p>A simple block with a body.&lt;/p>
+&lt;h3 id="fields">Fields&lt;/h3>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>Name&lt;/th>
+&lt;th>Machine name&lt;/th>
+&lt;th>Required&lt;/th>
+&lt;th>Description&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>Icon&lt;/td>
+&lt;td>field_icon&lt;/td>
+&lt;td>No&lt;/td>
+&lt;td>Icon for block.&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Icon class&lt;/td>
+&lt;td>field_icon_class&lt;/td>
+&lt;td>No&lt;/td>
+&lt;td>Provide a &amp;ldquo;Font Awesome&amp;rdquo; icon name, e.g. flag, car, info. Overrides image icon.&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Body&lt;/td>
+&lt;td>field_sb_body&lt;/td>
+&lt;td>No&lt;/td>
+&lt;td>Enter body text.&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Link&lt;/td>
+&lt;td>field_sb_link&lt;/td>
+&lt;td>No&lt;/td>
+&lt;td>Add link to the block.&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Title&lt;/td>
+&lt;td>field_sb_title&lt;/td>
+&lt;td>No&lt;/td>
+&lt;td>Title to display at top of block.&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table></description></item><item><title>Docs: DataLayer</title><link>/docs/development/datalayer/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/development/datalayer/</guid><description>
+&lt;p>See also the Data Layer module readme datalayer/README.md&lt;/p>
+&lt;p>The Data Layers module output data on the page in a json format. By default it will output properties (langcode, vid, name, uid, created, status, roles) and related taxonomy for any node, user, or any route based entity.&lt;/p>
+&lt;p>A limited set of properties are available via the Data Layers configuration form at /admin/config/search/datalayer (langcode, vid, name, uid, created, status, roles).&lt;/p>
+&lt;p>Adding additional properties can be done through use of hook_datalayer_meta().&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-php" data-lang="php">&lt;span style="color:#204a87;font-weight:bold">function&lt;/span> &lt;span style="color:#000">my_module_datalayer_meta&lt;/span>&lt;span style="color:#000;font-weight:bold">()&lt;/span> &lt;span style="color:#000;font-weight:bold">{&lt;/span>
+&lt;span style="color:#204a87;font-weight:bold">return&lt;/span> &lt;span style="color:#204a87;font-weight:bold">array&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span>
+&lt;span style="color:#4e9a06">&amp;#39;property&amp;#39;&lt;/span>&lt;span style="color:#000;font-weight:bold">,&lt;/span>
+&lt;span style="color:#000;font-weight:bold">);&lt;/span>
+&lt;span style="color:#000;font-weight:bold">}&lt;/span>
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>It will be added to the page as:&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-json" data-lang="json">&lt;span style="color:#000;font-weight:bold">{&lt;/span>
+&lt;span style="color:#204a87;font-weight:bold">&amp;#34;entityProperty&amp;#34;&lt;/span>&lt;span style="color:#000;font-weight:bold">:&lt;/span> &lt;span style="color:#4e9a06">&amp;#34;whatever the value is&amp;#34;&lt;/span>
+&lt;span style="color:#000;font-weight:bold">}&lt;/span>
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>Altering which properties will be output can be done via hook_datalayer_meta_alter().&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-php" data-lang="php">&lt;span style="color:#204a87;font-weight:bold">function&lt;/span> &lt;span style="color:#000">my_module_datalayer_meta_alter&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">&amp;amp;&lt;/span>&lt;span style="color:#000">$properties&lt;/span>&lt;span style="color:#000;font-weight:bold">)&lt;/span> &lt;span style="color:#000;font-weight:bold">{&lt;/span>
+&lt;span style="color:#8f5902;font-style:italic">// Override module norm in all cases.
+&lt;/span>&lt;span style="color:#8f5902;font-style:italic">&lt;/span> &lt;span style="color:#000">unset&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#000">$properties&lt;/span>&lt;span style="color:#000;font-weight:bold">[&lt;/span>&lt;span style="color:#4e9a06">&amp;#39;entityUid&amp;#39;&lt;/span>&lt;span style="color:#000;font-weight:bold">]);&lt;/span>
+&lt;span style="color:#8f5902;font-style:italic">// Specific situation alteration...
+&lt;/span>&lt;span style="color:#8f5902;font-style:italic">&lt;/span> &lt;span style="color:#000">$type&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">=&lt;/span> &lt;span style="color:#204a87;font-weight:bold">false&lt;/span>&lt;span style="color:#000;font-weight:bold">;&lt;/span>
+&lt;span style="color:#204a87;font-weight:bold">if&lt;/span> &lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#000">$obj&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">=&lt;/span> &lt;span style="color:#000">_datalayer_menu_get_any_object&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#000">$type&lt;/span>&lt;span style="color:#000;font-weight:bold">))&lt;/span> &lt;span style="color:#000;font-weight:bold">{&lt;/span>
+&lt;span style="color:#204a87;font-weight:bold">if&lt;/span> &lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#000">$type&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">===&lt;/span> &lt;span style="color:#4e9a06">&amp;#39;node&amp;#39;&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">&amp;amp;&amp;amp;&lt;/span> &lt;span style="color:#000">in_array&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#204a87;font-weight:bold">array&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#4e9a06">&amp;#39;my_bundle&amp;#39;&lt;/span>&lt;span style="color:#000;font-weight:bold">,&lt;/span> &lt;span style="color:#4e9a06">&amp;#39;my_nodetype&amp;#39;&lt;/span>&lt;span style="color:#000;font-weight:bold">),&lt;/span> &lt;span style="color:#000">$obj&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">-&amp;gt;&lt;/span>&lt;span style="color:#c4a000">type&lt;/span>&lt;span style="color:#000;font-weight:bold">))&lt;/span> &lt;span style="color:#000;font-weight:bold">{&lt;/span>
+&lt;span style="color:#8f5902;font-style:italic">// Remove author names on some content type.
+&lt;/span>&lt;span style="color:#8f5902;font-style:italic">&lt;/span> &lt;span style="color:#204a87;font-weight:bold">if&lt;/span> &lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#000">$key&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">=&lt;/span> &lt;span style="color:#000">array_search&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#4e9a06">&amp;#39;name&amp;#39;&lt;/span>&lt;span style="color:#000;font-weight:bold">,&lt;/span> &lt;span style="color:#000">$properties&lt;/span>&lt;span style="color:#000;font-weight:bold">))&lt;/span> &lt;span style="color:#000;font-weight:bold">{&lt;/span>
+&lt;span style="color:#000">unset&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#000">$properties&lt;/span>&lt;span style="color:#000;font-weight:bold">[&lt;/span>&lt;span style="color:#000">$key&lt;/span>&lt;span style="color:#000;font-weight:bold">]);&lt;/span>
+&lt;span style="color:#000;font-weight:bold">}&lt;/span>
+&lt;span style="color:#000;font-weight:bold">}&lt;/span>
+&lt;span style="color:#204a87;font-weight:bold">elseif&lt;/span> &lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#000">$type&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">===&lt;/span> &lt;span style="color:#4e9a06">&amp;#39;my_entity_type&amp;#39;&lt;/span>&lt;span style="color:#000;font-weight:bold">)&lt;/span> &lt;span style="color:#000;font-weight:bold">{&lt;/span>
+&lt;span style="color:#8f5902;font-style:italic">// Remove some property on some entity type.
+&lt;/span>&lt;span style="color:#8f5902;font-style:italic">&lt;/span> &lt;span style="color:#204a87;font-weight:bold">if&lt;/span> &lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#000">$key&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">=&lt;/span> &lt;span style="color:#000">array_search&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#4e9a06">&amp;#39;my_property&amp;#39;&lt;/span>&lt;span style="color:#000;font-weight:bold">,&lt;/span> &lt;span style="color:#000">$properties&lt;/span>&lt;span style="color:#000;font-weight:bold">))&lt;/span> &lt;span style="color:#000;font-weight:bold">{&lt;/span>
+&lt;span style="color:#000">unset&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#000">$properties&lt;/span>&lt;span style="color:#000;font-weight:bold">[&lt;/span>&lt;span style="color:#000">$key&lt;/span>&lt;span style="color:#000;font-weight:bold">]);&lt;/span>
+&lt;span style="color:#000;font-weight:bold">}&lt;/span>
+&lt;span style="color:#000;font-weight:bold">}&lt;/span>
+&lt;span style="color:#000;font-weight:bold">}&lt;/span>
+&lt;span style="color:#000;font-weight:bold">}&lt;/span>
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>Adding additional data can be done using datalayer_add().&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-php" data-lang="php">&lt;span style="color:#204a87;font-weight:bold">function&lt;/span> &lt;span style="color:#000">_my_module_myevent_func&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#000">$argument&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">=&lt;/span> &lt;span style="color:#204a87;font-weight:bold">FALSE&lt;/span>&lt;span style="color:#000;font-weight:bold">)&lt;/span> &lt;span style="color:#000;font-weight:bold">{&lt;/span>
+&lt;span style="color:#204a87;font-weight:bold">if&lt;/span> &lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#000">$argument&lt;/span>&lt;span style="color:#000;font-weight:bold">)&lt;/span> &lt;span style="color:#000;font-weight:bold">{&lt;/span>
+&lt;span style="color:#000">datalayer_add&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#204a87;font-weight:bold">array&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span>
+&lt;span style="color:#4e9a06">&amp;#39;drupalMyProperty&amp;#39;&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">=&amp;gt;&lt;/span> &lt;span style="color:#000">$argument&lt;/span>&lt;span style="color:#000;font-weight:bold">,&lt;/span>
+&lt;span style="color:#4e9a06">&amp;#39;userAnotherProperty&amp;#39;&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">=&amp;gt;&lt;/span> &lt;span style="color:#000">_my_module_other_funct&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#000">$argument&lt;/span>&lt;span style="color:#000;font-weight:bold">),&lt;/span>
+&lt;span style="color:#000;font-weight:bold">));&lt;/span>
+&lt;span style="color:#000;font-weight:bold">}&lt;/span>
+&lt;span style="color:#000;font-weight:bold">}&lt;/span>
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>To alter the data to be output use hook_datalayer_alter().&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-php" data-lang="php">&lt;span style="color:#204a87;font-weight:bold">function&lt;/span> &lt;span style="color:#000">my_module_datalayer_alter&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">&amp;amp;&lt;/span>&lt;span style="color:#000">$data_layer&lt;/span>&lt;span style="color:#000;font-weight:bold">)&lt;/span> &lt;span style="color:#000;font-weight:bold">{&lt;/span>
+&lt;span style="color:#8f5902;font-style:italic">// Make the title lowercase on some node type.
+&lt;/span>&lt;span style="color:#8f5902;font-style:italic">&lt;/span> &lt;span style="color:#204a87;font-weight:bold">if&lt;/span> &lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#000">isset&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#000">$data_layer&lt;/span>&lt;span style="color:#000;font-weight:bold">[&lt;/span>&lt;span style="color:#4e9a06">&amp;#39;entityBundle&amp;#39;&lt;/span>&lt;span style="color:#000;font-weight:bold">])&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">&amp;amp;&amp;amp;&lt;/span> &lt;span style="color:#000">$data_layer&lt;/span>&lt;span style="color:#000;font-weight:bold">[&lt;/span>&lt;span style="color:#4e9a06">&amp;#39;entityBundle&amp;#39;&lt;/span>&lt;span style="color:#000;font-weight:bold">]&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">==&lt;/span> &lt;span style="color:#4e9a06">&amp;#39;mytype&amp;#39;&lt;/span>&lt;span style="color:#000;font-weight:bold">)&lt;/span> &lt;span style="color:#000;font-weight:bold">{&lt;/span>
+&lt;span style="color:#000">$data_layer&lt;/span>&lt;span style="color:#000;font-weight:bold">[&lt;/span>&lt;span style="color:#4e9a06">&amp;#39;entityLabel&amp;#39;&lt;/span>&lt;span style="color:#000;font-weight:bold">]&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">=&lt;/span> &lt;span style="color:#000">strtolower&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#000">$data_layer&lt;/span>&lt;span style="color:#000;font-weight:bold">[&lt;/span>&lt;span style="color:#4e9a06">&amp;#39;entityLabel&amp;#39;&lt;/span>&lt;span style="color:#000;font-weight:bold">]);&lt;/span>
+&lt;span style="color:#000;font-weight:bold">}&lt;/span>
+&lt;span style="color:#000;font-weight:bold">}&lt;/span>
+&lt;span style="color:#4e9a06">``&lt;/span>&lt;span style="color:#a40000">`&lt;/span>&lt;span style="color:#000;font-weight:bold">)&lt;/span>
+&lt;/code>&lt;/pre>&lt;/div></description></item><item><title>Docs: Daxko</title><link>/docs/development/daxko/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/development/daxko/</guid><description>
+&lt;h1 id="daxko">Daxko&lt;/h1>
+&lt;p>Relates to: [Program Registration (Daxko)](../Paragraphs/Program Registration (Daxko).md)&lt;/p>
+&lt;p>Configuration setting at /admin/config/development/daxko&lt;/p>
+&lt;p>Account configuration must be setup before the Program Registration paragraph will work.)&lt;/p></description></item><item><title>Docs: Facility</title><link>/docs/content-structure/content-types/facility/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/content-structure/content-types/facility/</guid><description>
+&lt;h1 id="facility">Facility&lt;/h1>
+&lt;p>Facility content type is used for adding facilities on the site.&lt;/p>
+&lt;h3 id="fields">Fields&lt;/h3>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>Name&lt;/th>
+&lt;th>Machine name&lt;/th>
+&lt;th>Required&lt;/th>
+&lt;th>Description&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>Title&lt;/td>
+&lt;td>drupal&amp;rsquo;s default&lt;/td>
+&lt;td>Yes&lt;/td>
+&lt;td>Title of the facility item.&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Neighborhood&lt;/td>
+&lt;td>field_location_area&lt;/td>
+&lt;td>No&lt;/td>
+&lt;td>A taxonomy reference field using the Area Vocabulary(area).&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Type&lt;/td>
+&lt;td>field_facility_type&lt;/td>
+&lt;td>No&lt;/td>
+&lt;td>A taxonomy reference field using the &amp;ldquo;Facility Type&amp;rdquo; vocabulary.&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Facility Branch&lt;/td>
+&lt;td>field_facility_loc&lt;/td>
+&lt;td>No&lt;/td>
+&lt;td>A entity reference field to reference the related Branch node.&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Meta Tags&lt;/td>
+&lt;td>field_meta_tags&lt;/td>
+&lt;td>No&lt;/td>
+&lt;td>A meta tags field allows us to provide structured metadata and Graph meta tags for Facebook, Pinterest, LinkedIn and other social networking sites.&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>Contact&lt;/strong>&lt;/td>
+&lt;td>Field group&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Address&lt;/td>
+&lt;td>field_location_address&lt;/td>
+&lt;td>Yes&lt;/td>
+&lt;td>An address field that will provide the ability to add details about the locations. Details to be completed: &lt;ul>&lt;li>Address&lt;/li>&lt;li>City&lt;/li>&lt;li>State&lt;/li>&lt;li>Zip Code&lt;/li>&lt;/ul>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Facility Coordinates&lt;/td>
+&lt;td>field_location_coordinates&lt;/td>
+&lt;td>No&lt;/td>
+&lt;td>Input for providing the latitude and longitude information.&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Phone&lt;/td>
+&lt;td>field_location_phone&lt;/td>
+&lt;td>Yes&lt;/td>
+&lt;td>Input for providing the phone information.&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Fax&lt;/td>
+&lt;td>field_location_fax&lt;/td>
+&lt;td>No&lt;/td>
+&lt;td>Input for providing the fax information.&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Email&lt;/td>
+&lt;td>field_location_email&lt;/td>
+&lt;td>No&lt;/td>
+&lt;td>Input for providing the email information.&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Directions&lt;/td>
+&lt;td>field_location_directions&lt;/td>
+&lt;td>No&lt;/td>
+&lt;td>A link field for adding the directions link.&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>Content Area&lt;/strong>&lt;/td>
+&lt;td>Field group&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Content&lt;/td>
+&lt;td>field_content&lt;/td>
+&lt;td>No&lt;/td>
+&lt;td>A paragraph embed field that will allow us to add various flexible content modules, from the predefined list of paragraph types.&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>Sidebar Area&lt;/strong>&lt;/td>
+&lt;td>Field group&lt;/td>
+&lt;td>&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Content&lt;/td>
+&lt;td>field_sidebar_content&lt;/td>
+&lt;td>No&lt;/td>
+&lt;td>A paragraph embed field that will allow us to add various flexible content modules, from the predefined list of paragraph types.&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h3 id="url-pattern">URL pattern&lt;/h3>
+&lt;p>Content type is using following pattern:
+&lt;code>/facility/[node:title]&lt;/code>)&lt;/p></description></item><item><title>Docs: Facility Type</title><link>/docs/content-structure/taxonomy/facility-type/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/content-structure/taxonomy/facility-type/</guid><description>
+&lt;h1 id="facility-type">Facility Type&lt;/h1>
+&lt;p>This is a vocabulary that will be used for adding facility type on the site. We will use this for the Facility CT.&lt;/p>
+&lt;p>&lt;strong>Machine name&lt;/strong>: facility_type)&lt;/p></description></item><item><title>Docs: Featured Blog Posts</title><link>/docs/content-structure/paragraphs/featured-blog-posts/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/content-structure/paragraphs/featured-blog-posts/</guid><description>
+&lt;h1 id="featured-blog-posts">Featured Blog Posts&lt;/h1>
+&lt;p>This is a paragraph type that will be used for the featured stories.&lt;/p>
+&lt;h3 id="fields">Fields&lt;/h3>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>Name&lt;/th>
+&lt;th>Machine name&lt;/th>
+&lt;th>Required&lt;/th>
+&lt;th>Description&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>Headline&lt;/td>
+&lt;td>field_prgf_headline&lt;/td>
+&lt;td>No&lt;/td>
+&lt;td>Headline of the banner.&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Blog Posts&lt;/td>
+&lt;td>field_fblog_posts&lt;/td>
+&lt;td>Yes&lt;/td>
+&lt;td>Multiple values. Reference field to Blog posts.&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table></description></item><item><title>Docs: Featured Content</title><link>/docs/content-structure/paragraphs/featured-content/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/content-structure/paragraphs/featured-content/</guid><description>
+&lt;h1 id="featured-content">Featured Content&lt;/h1>
+&lt;p>This is a paragraph type that will be used for the featured content.&lt;/p>
+&lt;h3 id="fields">Fields&lt;/h3>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>Name&lt;/th>
+&lt;th>Machine name&lt;/th>
+&lt;th>Required&lt;/th>
+&lt;th>Description&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>Headline&lt;/td>
+&lt;td>field_prgf_headline&lt;/td>
+&lt;td>No&lt;/td>
+&lt;td>Headline of the featured content.&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Description&lt;/td>
+&lt;td>field_prgf_description&lt;/td>
+&lt;td>No&lt;/td>
+&lt;td>Textarea for the description/body with WYSIWYG, without summary.&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Link&lt;/td>
+&lt;td>field_prgf_link&lt;/td>
+&lt;td>No&lt;/td>
+&lt;td>Link field that supports internal and external URLs.&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Style&lt;/td>
+&lt;td>field_prgf_grid_style&lt;/td>
+&lt;td>Yes&lt;/td>
+&lt;td>Select list with following values: 2:2 items per row, 3:3 items per row, 4:4 items per row&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Column description&lt;/td>
+&lt;td>field_prgf_fc_clm_description&lt;/td>
+&lt;td>No&lt;/td>
+&lt;td>Multiple values. Textarea for the column with WYSIWYG, without summary.&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table></description></item><item><title>Docs: Featured Highlights</title><link>/docs/content-structure/paragraphs/featured-highlights/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/content-structure/paragraphs/featured-highlights/</guid><description>
+&lt;h1 id="featured-highlights">Featured Highlights&lt;/h1>
+&lt;p>Provides a paragraph containing blocks of specific types positioned as 2, 3 or 4 blocks per row.&lt;/p>
+&lt;h3 id="fields">Fields&lt;/h3>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>Name&lt;/th>
+&lt;th>Machine name&lt;/th>
+&lt;th>Required&lt;/th>
+&lt;th>Description&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>Title&lt;/td>
+&lt;td>field_prgf_title&lt;/td>
+&lt;td>No&lt;/td>
+&lt;td>Paragraph title.&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Style&lt;/td>
+&lt;td>field_prgf_grid_style&lt;/td>
+&lt;td>Yes&lt;/td>
+&lt;td>Select list with following values: 2:2 items per row, 3:3 items per row, 4:4 items per row.&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Featured Highlights block&lt;/td>
+&lt;td>field_prgf_block_ref_unlim&lt;/td>
+&lt;td>Yes&lt;/td>
+&lt;td>Create a new one or pick up an existing block of given types: Featured Highlight Block, Basic Block, Simple Block, Date block.&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table></description></item><item><title>Docs: Featured News Posts</title><link>/docs/content-structure/paragraphs/featured-news-posts/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/content-structure/paragraphs/featured-news-posts/</guid><description>
+&lt;h1 id="featured-news-posts">Featured News Posts&lt;/h1>
+&lt;p>This is a paragraph type that will be used for the featured news.&lt;/p>
+&lt;h3 id="fields">Fields&lt;/h3>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>Name&lt;/th>
+&lt;th>Machine name&lt;/th>
+&lt;th>Required&lt;/th>
+&lt;th>Description&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>Headline&lt;/td>
+&lt;td>field_prgf_headline&lt;/td>
+&lt;td>No&lt;/td>
+&lt;td>Headline of the banner.&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>News Posts&lt;/td>
+&lt;td>field_fnews_posts&lt;/td>
+&lt;td>Yes&lt;/td>
+&lt;td>Multiple values. Reference field to News posts.&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table></description></item><item><title>Docs: Flexible</title><link>/docs/content-structure/blocks/flexible/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/content-structure/blocks/flexible/</guid><description>
+&lt;h1 id="block-flexible-content">Block Flexible Content&lt;/h1>
+&lt;p>A block with amenities list of the current branch.&lt;/p>
+&lt;h3 id="fields">Fields&lt;/h3>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>Name&lt;/th>
+&lt;th>Machine name&lt;/th>
+&lt;th>Required&lt;/th>
+&lt;th>Description&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>Node reference&lt;/td>
+&lt;td>field_node_ref&lt;/td>
+&lt;td>Yes&lt;/td>
+&lt;td>Provide reference to Node .&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table></description></item><item><title>Docs: Fonts</title><link>/docs/development/fonts/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/development/fonts/</guid><description>
+&lt;p>#Fonts&lt;/p>
+&lt;p>The majority of the fonts used by the Open Y distribution are freely available, except for Cachet.&lt;/p>
+&lt;p>Helvetica is used for paragraph text, with Verdana as a fallback. Page titles, headers, highlighted text, etc, use Cachet, with Ubuntu Condensed as a fallback.&lt;/p>
+&lt;p>The font definitions in the distribution&amp;rsquo;s main theme, Open Y Rose, are set to use Cachet, but fallback to Ubuntu Condensed if the font is not present.&lt;/p>
+&lt;pre>&lt;code>font-family: &amp;quot;Cachet W01 Bold&amp;quot;, 'Ubuntu Condensed', sans-serif;
+&lt;/code>&lt;/pre>
+&lt;h2 id="ubuntu-condensed">Ubuntu Condensed&lt;/h2>
+&lt;p>Ubuntu Condensed is a free font available from Google Fonts, &lt;a href="https://fonts.google.com/specimen/Ubuntu+Condensed">https://fonts.google.com/specimen/Ubuntu+Condensed&lt;/a> .&lt;/p>
+&lt;p>If you look at the openy_rose.libraries.yml file you can see Ubunutu Condensed is already linked as part of the theme.&lt;/p>
+&lt;pre>&lt;code>global-styling:
+css:
+base:
+//fonts.googleapis.com/css?family=Ubuntu+Condensed:400,700: {}
+&lt;/code>&lt;/pre>
+&lt;h2 id="cachet">Cachet&lt;/h2>
+&lt;p>Cachet, specifically &amp;ldquo;Cachet W01 Medium&amp;rdquo;, is part of the YMCA styleguide. It is a commercial font, and must be purchased for individual sites. It cannot be distributed as part of the Open Y distribution or hosted on Drupal.org.&lt;/p>
+&lt;p>The font can be purchased from fonts.com, &lt;a href="https://www.fonts.com/font/monotype/cachet/book">https://www.fonts.com/font/monotype/cachet/book&lt;/a> .&lt;/p>
+&lt;h2 id="installing-cachet">Installing Cachet&lt;/h2>
+&lt;p>There are a number of ways to get Cachet setup on your site. As long as the font gets linked in the page it should get used, since it is already part of the font declarations.&lt;/p>
+&lt;p>If you purchase Cachet from fonts.com, add the URL you are provided to the global-styling library in openy_rose.libraries.yml, right where Ubuntu Condensed is linked.&lt;/p>
+&lt;pre>&lt;code> css:
+base:
+//fast.fonts.net/cssapi/abcdef-12345-tuvwxyx-67890.css: {}
+//fonts.googleapis.com/css?family=Ubuntu+Condensed:400,700: {}
+&lt;/code>&lt;/pre>
+&lt;p>You may also need to add a JavaScript file provided by fonts.com. You can add that in the same global-styling library.&lt;/p>
+&lt;pre>&lt;code>js:
+//fast.fonts.net/jsapi/12345-abcdef-67890.js: {}
+&lt;/code>&lt;/pre>
+&lt;p>Another option is to use the @font-your-face Drupal module, &lt;a href="https://www.drupal.org/project/fontyourface">https://www.drupal.org/project/fontyourface&lt;/a> .&lt;/p>
+&lt;p>Once installed you can connect your Drupal site to your font.com account, or one of the other font providers, and have the font automatically retrieved and added to your site. Follow the directions provided by the module to connect to your font provider account.)&lt;/p></description></item><item><title>Docs: Gallery</title><link>/docs/content-structure/paragraphs/gallery/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/content-structure/paragraphs/gallery/</guid><description>
+&lt;h1 id="gallery">Gallery&lt;/h1>
+&lt;p>This is a paragraph type that will be used for the gallery content.&lt;/p>
+&lt;h3 id="fields">Fields&lt;/h3>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>Name&lt;/th>
+&lt;th>Machine name&lt;/th>
+&lt;th>Required&lt;/th>
+&lt;th>Description&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>Headline&lt;/td>
+&lt;td>field_prgf_headline&lt;/td>
+&lt;td>Yes&lt;/td>
+&lt;td>Headline of the gallery.&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Description&lt;/td>
+&lt;td>field_prgf_description&lt;/td>
+&lt;td>No&lt;/td>
+&lt;td>WYSIWYG field without summary.&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Link&lt;/td>
+&lt;td>field_prgf_link&lt;/td>
+&lt;td>No&lt;/td>
+&lt;td>Link field that should store internal and external links.&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Images&lt;/td>
+&lt;td>field_prgf_images&lt;/td>
+&lt;td>No&lt;/td>
+&lt;td>Entityreference to media image. Multiple values.&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table></description></item><item><title>Docs: Google_Analytics_Search</title><link>/docs/development/google_analytics_search/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/development/google_analytics_search/</guid><description>
+&lt;h1 id="how-to-configure-search-tracking-in-google-analytics-account">How to configure search tracking in Google Analytics account&lt;/h1>
+&lt;p>##Prerequisites
+Google Analitycs account to track you site should be created.
+Google Analitycs contrib module should be enabled and configured to use existing GA account.&lt;/p>
+&lt;p>##Steps&lt;/p>
+&lt;ol>
+&lt;li>
+&lt;p>Log in to Google Analytics account that configured to track your Open Y site.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Click Admin button in bottom right corner of main screen
+&lt;img src="../assets/ga_search_1.png" alt="Google Analytics Main Screen">&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Click View Settings
+&lt;img src="../assets/ga_search_2.png" alt="Google Analytics View Settings">&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Scroll to “Site Search Settings” section and enable “Site Search Tracking” switch
+&lt;img src="../assets/ga_search_3.png" alt="Google Analytics Site Search Settings">&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Fill query parameter field with &lt;code>q, query&lt;/code> values and click Save&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Reports about the search tracking you can find at main screen in Behavior → Site Search Section&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;p>Attention: Data processing latency for search tracking reports is 24-48 hours
+(see &lt;a href="https://support.google.com/analytics/answer/1070983?hl=en#DataProcessingLatency">https://support.google.com/analytics/answer/1070983?hl=en#DataProcessingLatency&lt;/a>))&lt;/p></description></item><item><title>Docs: GoogleCustomSearchConfiguration</title><link>/docs/development/googlecustomsearchconfiguration/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/development/googlecustomsearchconfiguration/</guid><description>
+&lt;h1 id="google-custom-search-configuration">Google Custom Search configuration&lt;/h1>
+&lt;p>The Open Y release &lt;strong>8.2.4&lt;/strong> introduces Google Custom Search for the website out of the box.&lt;/p>
+&lt;h2 id="enabling-the-module">Enabling the module&lt;/h2>
+&lt;h3 id="fresh-installations">Fresh installations&lt;/h3>
+&lt;p>The search feature is included in the &lt;code>Extended&lt;/code> installation type.
+For &lt;code>Standard&lt;/code> see the &lt;a href="#existing-websites">Existing websites&lt;/a> section.&lt;/p>
+&lt;p>If you are installing a fresh Open Y website and going through the installation process via the Web interface, on the 3rd party integration step you can specify Google Search ID. If you specify the Google Search ID in this form your site&amp;rsquo;s search feature is up.&lt;/p>
+&lt;h3 id="existing-websites">Existing websites&lt;/h3>
+&lt;p>The search feature is not automatically enabled after upgrading an Open Y website. You have to manually enable it.&lt;/p>
+&lt;p>In order to do that:&lt;/p>
+&lt;ol>
+&lt;li>Log in as an admin (or a user with the &lt;code>administrator&lt;/code> role).&lt;/li>
+&lt;li>Go to the Open Y package install page (Admin menu &amp;gt; Open Y &amp;gt; Extend &amp;gt; Install, or &lt;code>/admin/openy/extend/list&lt;/code>)&lt;/li>
+&lt;li>Find the &lt;code>SEARCH&lt;/code> package there, tick the checkbox and submit the form.&lt;/li>
+&lt;/ol>
+&lt;p>Now the search modules are enabled and the header of the website should have a search field.
+Upon installation, the modules create a Landing page for search results and point the header search form to the page.&lt;/p>
+&lt;h2 id="configuring-the-google-search-modules">Configuring the Google Search modules&lt;/h2>
+&lt;ol>
+&lt;li>Go to the Google Search settings form (Admin menu &amp;gt; Open Y &amp;gt; Settings &amp;gt; Google Search settings, or &lt;code>/admin/openy/settings/google-search&lt;/code>).&lt;/li>
+&lt;li>Set the value of the &lt;code>Google Search ID&lt;/code> field (see the following &lt;a href="#obtaining-search-engine-id">section&lt;/a> for details) and submit the form.&lt;/li>
+&lt;/ol>
+&lt;h2 id="obtaining-search-engine-id">Obtaining Search Engine ID&lt;/h2>
+&lt;ol>
+&lt;li>Go to &lt;a href="https://cse.google.com/">https://cse.google.com/&lt;/a>, register if you haven&amp;rsquo;t yet, log in if you aren&amp;rsquo;t logged in.&lt;/li>
+&lt;li>Create the Search Engine (this process is explained in Google documentation &lt;a href="https://support.google.com/customsearch/answer/4513882?hl=en&amp;amp;ref_topic=4513742)">https://support.google.com/customsearch/answer/4513882?hl=en&amp;amp;ref_topic=4513742)&lt;/a>:
+&lt;ol>
+&lt;li>Click &amp;ldquo;New Search Engine&amp;rdquo;.&lt;/li>
+&lt;li>Specify the domain of your website (e.g. &lt;code>www.openymca.org&lt;/code>).&lt;/li>
+&lt;li>Specify the name of the Search Engine (e.g. &lt;code>openymca.org&lt;/code>).&lt;/li>
+&lt;li>Click &amp;ldquo;Create&amp;rdquo;.&lt;/li>
+&lt;/ol>
+&lt;/li>
+&lt;li>On the newly created Search Engine page there is the &lt;code>Search engine ID&lt;/code> field. Use this value in the Open Y Google Search configuration form.&lt;/li>
+&lt;/ol>
+&lt;h2 id="configuring-the-search-engine-look-and-feel">Configuring the Search Engine look and feel&lt;/h2>
+&lt;ol>
+&lt;li>Go to &lt;code>Look and feel&lt;/code> section of the Search Engine&lt;/li>
+&lt;li>In the &lt;code>Layout&lt;/code> tab, select &lt;code>Full width&lt;/code> option and click &lt;code>Save&lt;/code>&lt;/li>
+&lt;/ol>
+&lt;p>If this change hasn&amp;rsquo;t made, the search results on the website are shown in a popup window.&lt;/p>
+&lt;h2 id="dealing-with-ads">Dealing with ads&lt;/h2>
+&lt;p>By default, newly created Search engines use Free Edition (with ads) of the service. As YMCAs are non-profit organizations they have the option to switch to Non-profit Edition of the CSE, where it is possible to disable ads.&lt;/p>
+&lt;p>Take a look here &lt;a href="https://support.google.com/customsearch/answer/4542102?hl=en&amp;amp;ctx=topic">https://support.google.com/customsearch/answer/4542102?hl=en&amp;amp;ctx=topic&lt;/a>&lt;/p>
+&lt;p>If you are already registered as a Non-profit in Google:&lt;/p>
+&lt;ol>
+&lt;li>From the &lt;a href="https://cse.google.com">CSE Control Panel&lt;/a>, select the search engine you want to change.&lt;/li>
+&lt;li>Click &lt;strong>Setup&lt;/strong> then &lt;strong>Make Money&lt;/strong>&lt;/li>
+&lt;li>Toggle the &lt;strong>Show Ads&lt;/strong> option to off.&lt;/li>
+&lt;/ol>
+&lt;h2 id="advanced-setup">Advanced setup&lt;/h2>
+&lt;p>Official Google documentation &lt;a href="https://support.google.com/customsearch/topic/4542213?hl=en&amp;amp;ref_topic=4513868">https://support.google.com/customsearch/topic/4542213?hl=en&amp;amp;ref_topic=4513868&lt;/a>&lt;/p>
+&lt;h3 id="mutli-site-search">Mutli-site search&lt;/h3>
+&lt;p>You can add not only your website&amp;rsquo;s domain but other domains as well if you have other websites dedicated to your Association but split from the main website.&lt;/p>
+&lt;p>You can also add not only the whole websites but their parts by specifying patterns like &lt;code>example.com/blog/*&lt;/code>.&lt;/p>
+&lt;h3 id="refinements-and-facets">Refinements and facets&lt;/h3>
+&lt;p>&lt;a href="https://support.google.com/customsearch/answer/4542637?hl=en&amp;amp;ctx=topic&amp;amp;topic=2642564&amp;amp;visit_id=637166170019174137-3540762397&amp;amp;rd=1">https://support.google.com/customsearch/answer/4542637?hl=en&amp;amp;ctx=topic&amp;amp;topic=2642564&amp;amp;visit_id=637166170019174137-3540762397&amp;amp;rd=1&lt;/a>&lt;/p>
+&lt;p>Refinements let users filter results according to categories you provide.&lt;/p>
+&lt;p>Refinements appear in the search results page as tabs. The content of each tab is configured in Search features &amp;gt; Refinement section of the Custom Search Control panel.&lt;/p>
+&lt;p>To set up a dedicated tab in search results for Blog posts do the following:&lt;/p>
+&lt;ol>
+&lt;li>In Control panel, go to &lt;code>Search features&lt;/code> &amp;gt; &lt;code>Refinements&lt;/code>&lt;/li>
+&lt;li>Click &lt;code>Add&lt;/code>
+&lt;ol>
+&lt;li>Set the name of the refinement to &lt;code>Blog&lt;/code>&lt;/li>
+&lt;li>Select &lt;code>Search only the sites with this label&lt;/code> for &lt;code>How to search sites with this label?&lt;/code>&lt;/li>
+&lt;li>Click &lt;code>Ok&lt;/code>&lt;/li>
+&lt;/ol>
+&lt;/li>
+&lt;li>Go to &lt;code>Setup&lt;/code>&lt;/li>
+&lt;li>Find &lt;code>Sites to search&lt;/code>, click &lt;code>Add&lt;/code>
+&lt;ol>
+&lt;li>Add the &lt;code>yourymcadomain.org/blog/*&lt;/code> in the text field&lt;/li>
+&lt;li>Select &lt;code>Blog&lt;/code> in the Label dropdown&lt;/li>
+&lt;li>Select &lt;code>Include just this specific page or URL pattern I have entered&lt;/code>&lt;/li>
+&lt;li>Click &lt;code>Save&lt;/code>&lt;/li>
+&lt;/ol>
+&lt;/li>
+&lt;/ol>
+&lt;p>The search results page now shows the &lt;code>Blog&lt;/code> tab that only shows blog entries relevant to the search term.&lt;/p>
+&lt;h3 id="promotions">Promotions&lt;/h3>
+&lt;p>Official Google documentation &lt;a href="https://support.google.com/customsearch/answer/4542640?hl=en&amp;amp;ref_topic=4542213">https://support.google.com/customsearch/answer/4542640?hl=en&amp;amp;ref_topic=4542213&lt;/a>&lt;/p>
+&lt;h2 id="information-for-developers">Information for developers&lt;/h2>
+&lt;p>&lt;a href="https://developers.google.com/custom-search/docs/overview">Google Custom Search Developers documentation &lt;/a>&lt;/p>
+&lt;h3 id="enabling-via-drush">Enabling via Drush&lt;/h3>
+&lt;p>Use the following snippet to enable the package on existing websites:&lt;/p>
+&lt;pre tabindex="0">&lt;code>drush en openy_google_search
+&lt;/code>&lt;/pre>&lt;h3 id="configuring-the-module-via-drush">Configuring the module via Drush&lt;/h3>
+&lt;p>Use the following snippet when you install Open Y via Drush to set the Search Engine ID:&lt;/p>
+&lt;pre tabindex="0">&lt;code>drush site-install openy \
+--account-pass=password \
+--db-url=&amp;quot;mysql://user:pass@host:3306/db&amp;quot; \
+--root=/var/www/docroot \
+openy_configure_profile.preset=extended \
+openy_theme_select.theme=openy_rose \
+openy_third_party_services.google_search_engine_id=&amp;quot;01234567890123456789:abcedefgh&amp;quot;
+&lt;/code>&lt;/pre>&lt;p>The &lt;code>openy_third_party_services.google_search_engine_id&lt;/code> parameter sets the Search Engine ID (&lt;code>01234567890123456789:abcedefgh&lt;/code> in the example).&lt;/p>
+&lt;p>Use the following snippet to set the Search Engine ID on already installed websites:&lt;/p>
+&lt;pre tabindex="0">&lt;code>drush config-set openy_google_search.settings google_engine_id &amp;quot;01234567890123456789:abcedefgh&amp;quot;
+```)
+&lt;/code>&lt;/pre></description></item><item><title>Docs: Grid columns</title><link>/docs/content-structure/paragraphs/grid-columns/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/content-structure/paragraphs/grid-columns/</guid><description>
+&lt;h1 id="grid-columns">Grid columns&lt;/h1>
+&lt;p>This is a paragraph type that will be used for field_grid_columns the in Grid Content paragraph.&lt;/p>
+&lt;h3 id="fields">Fields&lt;/h3>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>Name&lt;/th>
+&lt;th>Machine name&lt;/th>
+&lt;th>Required&lt;/th>
+&lt;th>Description&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>Description&lt;/td>
+&lt;td>field_prgf_grid_clm_description&lt;/td>
+&lt;td>No&lt;/td>
+&lt;td>Textarea for the description/body with WYSIWYG, without summary.&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Headline&lt;/td>
+&lt;td>field_prgf_clm_headline&lt;/td>
+&lt;td>No&lt;/td>
+&lt;td>Headline of the grid content.&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Icon&lt;/td>
+&lt;td>field_prgf_clm_icon&lt;/td>
+&lt;td>No&lt;/td>
+&lt;td>Entityreference to media asset. Should allow to upload svgs.&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Icon class&lt;/td>
+&lt;td>field_prgf_clm_class&lt;/td>
+&lt;td>No&lt;/td>
+&lt;td>Input field that allows to add the font-awesome icons needed. Description - &amp;ldquo;Provide a &amp;ldquo;Font Awesome&amp;rdquo; icon mane, e.g. flag, car, info. Overrides image Icon.&amp;rdquo;&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Link&lt;/td>
+&lt;td>field_prgf_clm_link&lt;/td>
+&lt;td>No&lt;/td>
+&lt;td>Link field that supports internal and external URLs.&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table></description></item><item><title>Docs: Grid Content</title><link>/docs/content-structure/paragraphs/grid-content/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/content-structure/paragraphs/grid-content/</guid><description>
+&lt;h1 id="grid-content">Grid Content&lt;/h1>
+&lt;p>This is a paragraph type that will be used for the grid content stories.&lt;/p>
+&lt;h3 id="fields">Fields&lt;/h3>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>Name&lt;/th>
+&lt;th>Machine name&lt;/th>
+&lt;th>Required&lt;/th>
+&lt;th>Description&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>Style&lt;/td>
+&lt;td>field_prgf_grid_style&lt;/td>
+&lt;td>Yes&lt;/td>
+&lt;td>Select list with following values: 2:2 items per row, 3:3 items per row, 4:4 items per row&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;strong>Content&lt;/strong>&lt;/td>
+&lt;td>field_grid_columns&lt;/td>
+&lt;td>Paragraph&lt;/td>
+&lt;td>Grid columns&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Description&lt;/td>
+&lt;td>field_prgf_grid_clm_description&lt;/td>
+&lt;td>No&lt;/td>
+&lt;td>Textarea for the description/body with WYSIWYG, without summary.&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Headline&lt;/td>
+&lt;td>field_prgf_clm_headline&lt;/td>
+&lt;td>No&lt;/td>
+&lt;td>Headline of the grid content.&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Icon&lt;/td>
+&lt;td>field_prgf_clm_icon&lt;/td>
+&lt;td>No&lt;/td>
+&lt;td>Entityreference to media asset. Should allow to upload svgs.&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Icon class&lt;/td>
+&lt;td>field_prgf_clm_class&lt;/td>
+&lt;td>No&lt;/td>
+&lt;td>Input field that allows to add the font-awesome icons needed. Description - &amp;ldquo;Provide a &amp;ldquo;Font Awesome&amp;rdquo; icon mane, e.g. flag, car, info. Overrides image Icon.&amp;rdquo;&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Link&lt;/td>
+&lt;td>field_prgf_clm_link&lt;/td>
+&lt;td>No&lt;/td>
+&lt;td>Link field that supports internal and external URLs.&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table></description></item><item><title>Docs: Group Schedules</title><link>/docs/content-structure/paragraphs/group-schedules/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/content-structure/paragraphs/group-schedules/</guid><description>
+&lt;h1 id="group-schedules">Group Schedules&lt;/h1>
+&lt;p>This is dynamic paragraph that renders the group schedules from GroupEx Pro.&lt;/p>
+&lt;h3 id="fields">Fields&lt;/h3>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>Name&lt;/th>
+&lt;th>Machine name&lt;/th>
+&lt;th>Required&lt;/th>
+&lt;th>Description&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>Block&lt;/td>
+&lt;td>field_prgf_block&lt;/td>
+&lt;td>Yes&lt;/td>
+&lt;td>Block reference to the view/block. Should have default value and is configurable in form display.&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table></description></item></channel></rss>
