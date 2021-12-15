@@ -1,4 +1,44 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Open Y – Documentation</title><link>https://froboy.github.io/openy_docs/docs/</link><description>Recent content in Documentation on Open Y</description><generator>Hugo -- gohugo.io</generator><atom:link href="https://froboy.github.io/openy_docs/docs/index.xml" rel="self" type="application/rss+xml"/><item><title>Docs: 1c</title><link>https://froboy.github.io/openy_docs/docs/content-structure/paragraphs/1c/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://froboy.github.io/openy_docs/docs/content-structure/paragraphs/1c/</guid><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Open Y – Documentation</title><link>https://froboy.github.io/openy_docs/docs/</link><description>Recent content in Documentation on Open Y</description><generator>Hugo -- gohugo.io</generator><atom:link href="https://froboy.github.io/openy_docs/docs/index.xml" rel="self" type="application/rss+xml"/><item><title>Docs:</title><link>https://froboy.github.io/openy_docs/docs/content-structure/content-types/readme/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://froboy.github.io/openy_docs/docs/content-structure/content-types/readme/</guid><description>
+&lt;p>Welcome to the Open Y Content Types documentation&lt;/p>
+&lt;p>In terms of Open Y - content types are &lt;code>bundles&lt;/code> of &lt;code>node&lt;/code> entity of the Drupal Framework.
+You can find a much more low level documentation at &lt;a href="https://www.drupal.org/docs/8">drupal.org&lt;/a>.&lt;/p>
+&lt;p>Open Y has a bunch of content types shipped for the convenience of usage the resulting site.
+We are not limiting amount of content types, could be added by developers, so the list is not final.
+The only rule we are trying to follow is to cover shipped list of content types by Open Y upgrade path.&lt;/p></description></item><item><title>Docs:</title><link>https://froboy.github.io/openy_docs/docs/content-structure/paragraphs/readme/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://froboy.github.io/openy_docs/docs/content-structure/paragraphs/readme/</guid><description>
+&lt;p>Welcome to Open Y paragraphs.&lt;/p>
+&lt;p>Paragraphs are bits of content, components, from &lt;a href="https://en.wikipedia.org/wiki/Component-based_software_engineering#Software_component">component based design&lt;/a> ideology.
+In a scope of Open Y architecture paragraphs are based on &lt;a href="https://www.drupal.org/project/paragraphs">Paragraphs Drupal module&lt;/a>.&lt;/p>
+&lt;p>The core idea of paragraphs is to have a nice looking and behaving widget for adding predefined content blocks right in place,
+without referencing external entities. Keep in mind, that paragraphs are not reusable types. For having reusable type look for
+&lt;code>blocks&lt;/code> or &lt;code>entities&lt;/code> in terms of Drupal 8.&lt;/p>
+&lt;p>Paragraphs were created for making UX better and super convenient.&lt;/p></description></item><item><title>Docs:</title><link>https://froboy.github.io/openy_docs/docs/content-structure/readme/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://froboy.github.io/openy_docs/docs/content-structure/readme/</guid><description>
+&lt;p>Welcome to the Content Structure documentation.&lt;/p>
+&lt;p>Here you can find all needed technical descriptions about content types can be used by Open Y site builders.
+The Open Y core team decided to finalize and stick to specifictions of fields,
+created naming conventions aimed to help developers to maintain and upgrade their sites alongside Open Y development timeline.&lt;/p></description></item><item><title>Docs:</title><link>https://froboy.github.io/openy_docs/docs/development/readme/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://froboy.github.io/openy_docs/docs/development/readme/</guid><description>
+&lt;p>Welcome to the development corner of the Open Y distribution.&lt;/p>
+&lt;p>Here you can find all needed documentation and how-to work with Open Y codebase from developer&amp;rsquo;s point of view.&lt;/p></description></item><item><title>Docs:</title><link>https://froboy.github.io/openy_docs/docs/readme/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://froboy.github.io/openy_docs/docs/readme/</guid><description>
+&lt;h1 id="open-y-distribution">Open Y Distribution&lt;/h1>
+&lt;p>The Open Y platform is a content management system that uses Drupal 8 functionality and useful modules from YMCAs and digital partners. It’s easy and free to use—everyone is welcome to implement Open Y and run Open Y projects.&lt;/p>
+&lt;p>In 2016 a group of YMCA digital, marketing and technology experts recognized the digital opportunities that exist if we work together as a community and established Open Y.&lt;/p>
+&lt;p>A core team led by a small group of YMCAs including the &lt;a href="http://www.ymcamn.org">Greater Twin Cities&lt;/a>, &lt;a href="http://www.seattleymca.org">Greater Seattle&lt;/a> and &lt;a href="https://www.ymcahouston.org">Greater Houston&lt;/a>:&lt;/p>
+&lt;ul>
+&lt;li>Pays for expenses associated with managing Open Y&lt;/li>
+&lt;li>Maintains the Open Y content management system&lt;/li>
+&lt;li>Ensures all basic functionality accessible from the content management system is available free of charge—those who contribute cannot charge others for what is shared&lt;/li>
+&lt;li>Strives to be aware of issues found within the Open Y content management system&lt;/li>
+&lt;li>Is not liable for bugs, crashes or performance issues of the content management system&lt;/li>
+&lt;li>Invites and approves digital partners to join&lt;/li>
+&lt;li>Offers training for Open Y Specialists—digital partners that are very familiar with the platform&lt;/li>
+&lt;li>Offers certification for Open Y Integrators—digital partners that can install and work directly on the codebase&lt;/li>
+&lt;li>Distributes communication about Open Y&lt;/li>
+&lt;li>Organizes events for the Open Y community—including an annual meeting each June&lt;/li>
+&lt;/ul>
+&lt;p>Open Y is similar to the &lt;a href="http://www.thunder.org">Thunder Coalition&lt;/a> for the publishing industry, which has generously agreed to share some of the same concepts and content that you see used on this site.&lt;/p>
+&lt;h1 id="documentation">Documentation&lt;/h1>
+&lt;p>Documentation is available at &lt;a href="https://github.com/ymcatwincities/openy/tree/8.x-1.x/docs">https://github.com/ymcatwincities/openy/tree/8.x-1.x/docs&lt;/a>&lt;/p>
+&lt;h1 id="details">Details&lt;/h1>
+&lt;p>For details please visit &lt;a href="http://www.openymca.org">http://www.openymca.org&lt;/a>&lt;/p></description></item><item><title>Docs: 1c</title><link>https://froboy.github.io/openy_docs/docs/content-structure/paragraphs/1c/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://froboy.github.io/openy_docs/docs/content-structure/paragraphs/1c/</guid><description>
 &lt;h1 id="paragraph-1-column">Paragraph 1 Column&lt;/h1>
 &lt;p>This is a paragraph type that will be used for implements a paragraph with 1 column.&lt;/p>
 &lt;h3 id="fields">Fields&lt;/h3>
@@ -292,7 +332,7 @@ request, on every CI build in the future.&lt;/p>
 &lt;/table>
 &lt;h3 id="url-pattern">URL pattern&lt;/h3>
 &lt;p>Content type is using following pattern:
-&lt;code>/programs/[node:field_activity_category:entity:field_category_program:entity:title]/[node:field_activity_category:entity:title]/[node:title]&lt;/code>)&lt;/p></description></item><item><title>Docs: AddThis</title><link>https://froboy.github.io/openy_docs/docs/development/addthis/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://froboy.github.io/openy_docs/docs/development/addthis/</guid><description>
+&lt;code>/programs/[node:field_activity_category:entity:field_category_program:entity:title]/[node:field_activity_category:entity:title]/[node:title]&lt;/code>&lt;/p></description></item><item><title>Docs: AddThis</title><link>https://froboy.github.io/openy_docs/docs/development/addthis/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://froboy.github.io/openy_docs/docs/development/addthis/</guid><description>
 &lt;h1 id="how-to-configure-addthis">How to configure AddThis&lt;/h1>
 &lt;p>Open Y AddThis module allow you easy add Social icons to any node.&lt;/p>
 &lt;ol>
@@ -383,7 +423,7 @@ request, on every CI build in the future.&lt;/p>
 &lt;/table>
 &lt;h3 id="url-pattern">URL pattern&lt;/h3>
 &lt;p>Content type is using following pattern:
-&lt;code>/alert/[node:title]&lt;/code>.)&lt;/p></description></item><item><title>Docs: All Amenities</title><link>https://froboy.github.io/openy_docs/docs/content-structure/paragraphs/all-amenities/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://froboy.github.io/openy_docs/docs/content-structure/paragraphs/all-amenities/</guid><description>
+&lt;code>/alert/[node:title]&lt;/code>.&lt;/p></description></item><item><title>Docs: All Amenities</title><link>https://froboy.github.io/openy_docs/docs/content-structure/paragraphs/all-amenities/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://froboy.github.io/openy_docs/docs/content-structure/paragraphs/all-amenities/</guid><description>
 &lt;h1 id="all-amenities">All Amenities&lt;/h1>
 &lt;p>Provide a paragraph with a table view shows list of Branches.&lt;/p>
 &lt;h3 id="fields">Fields&lt;/h3>
@@ -413,10 +453,10 @@ request, on every CI build in the future.&lt;/p>
 &lt;/table></description></item><item><title>Docs: Amenities</title><link>https://froboy.github.io/openy_docs/docs/content-structure/taxonomy/amenities/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://froboy.github.io/openy_docs/docs/content-structure/taxonomy/amenities/</guid><description>
 &lt;h1 id="amenities-vocabulary">Amenities Vocabulary&lt;/h1>
 &lt;p>This is a vocabulary that will be used for adding reference Branch amenities. We will use this for the Branch.&lt;/p>
-&lt;p>&lt;strong>Machine_name&lt;/strong>: amenities)&lt;/p></description></item><item><title>Docs: Area</title><link>https://froboy.github.io/openy_docs/docs/content-structure/taxonomy/area/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://froboy.github.io/openy_docs/docs/content-structure/taxonomy/area/</guid><description>
+&lt;p>&lt;strong>Machine_name&lt;/strong>: amenities&lt;/p></description></item><item><title>Docs: Area</title><link>https://froboy.github.io/openy_docs/docs/content-structure/taxonomy/area/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://froboy.github.io/openy_docs/docs/content-structure/taxonomy/area/</guid><description>
 &lt;h1 id="area-vocabulary">Area Vocabulary&lt;/h1>
 &lt;p>This is a vocabulary that will be used for adding location areas on the site. We will use this for the Location Branch and Facility CTs.&lt;/p>
-&lt;p>&lt;strong>Machine_name&lt;/strong>: area)&lt;/p></description></item><item><title>Docs: Banner</title><link>https://froboy.github.io/openy_docs/docs/content-structure/paragraphs/banner/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://froboy.github.io/openy_docs/docs/content-structure/paragraphs/banner/</guid><description>
+&lt;p>&lt;strong>Machine_name&lt;/strong>: area&lt;/p></description></item><item><title>Docs: Banner</title><link>https://froboy.github.io/openy_docs/docs/content-structure/paragraphs/banner/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://froboy.github.io/openy_docs/docs/content-structure/paragraphs/banner/</guid><description>
 &lt;h1 id="banner">Banner&lt;/h1>
 &lt;p>This is a paragraph type that will be used for the banner content.&lt;/p>
 &lt;h3 id="fields">Fields&lt;/h3>
@@ -629,10 +669,10 @@ request, on every CI build in the future.&lt;/p>
 &lt;/table>
 &lt;h3 id="url-pattern">URL pattern&lt;/h3>
 &lt;p>Content type is using following pattern:
-&lt;code>/blog/[node:title]&lt;/code>)&lt;/p></description></item><item><title>Docs: Blog Category</title><link>https://froboy.github.io/openy_docs/docs/content-structure/taxonomy/blog-category/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://froboy.github.io/openy_docs/docs/content-structure/taxonomy/blog-category/</guid><description>
+&lt;code>/blog/[node:title]&lt;/code>&lt;/p></description></item><item><title>Docs: Blog Category</title><link>https://froboy.github.io/openy_docs/docs/content-structure/taxonomy/blog-category/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://froboy.github.io/openy_docs/docs/content-structure/taxonomy/blog-category/</guid><description>
 &lt;h1 id="blog-category">Blog Category&lt;/h1>
 &lt;p>This is a vocabulary that will be used for adding blog categories on the site.&lt;/p>
-&lt;p>&lt;strong>Machine_name&lt;/strong>: blog_category)&lt;/p></description></item><item><title>Docs: Blog Posts Listing</title><link>https://froboy.github.io/openy_docs/docs/content-structure/paragraphs/blog-posts-listing/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://froboy.github.io/openy_docs/docs/content-structure/paragraphs/blog-posts-listing/</guid><description>
+&lt;p>&lt;strong>Machine_name&lt;/strong>: blog_category&lt;/p></description></item><item><title>Docs: Blog Posts Listing</title><link>https://froboy.github.io/openy_docs/docs/content-structure/paragraphs/blog-posts-listing/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://froboy.github.io/openy_docs/docs/content-structure/paragraphs/blog-posts-listing/</guid><description>
 &lt;h1 id="blog-posts-listing">Blog Posts Listing&lt;/h1>
 &lt;p>This is dynamic paragraph that renders the latest blog posts and utilizes exposed filters.&lt;/p>
 &lt;ul>
@@ -809,7 +849,7 @@ request, on every CI build in the future.&lt;/p>
 &lt;/table>
 &lt;h3 id="url-pattern">URL pattern&lt;/h3>
 &lt;p>Content type is using following pattern:
-&lt;code>/locations/[node:title]&lt;/code>)&lt;/p></description></item><item><title>Docs: Branch Amenities</title><link>https://froboy.github.io/openy_docs/docs/content-structure/blocks/branch-amenities/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://froboy.github.io/openy_docs/docs/content-structure/blocks/branch-amenities/</guid><description>
+&lt;code>/locations/[node:title]&lt;/code>&lt;/p></description></item><item><title>Docs: Branch Amenities</title><link>https://froboy.github.io/openy_docs/docs/content-structure/blocks/branch-amenities/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://froboy.github.io/openy_docs/docs/content-structure/blocks/branch-amenities/</guid><description>
 &lt;h1 id="block-branch-amenities">Block Branch Amenities&lt;/h1>
 &lt;p>A block with amenities list of the current branch.&lt;/p>
 &lt;h3 id="fields">Fields&lt;/h3>
@@ -1014,7 +1054,7 @@ request, on every CI build in the future.&lt;/p>
 &lt;/table>
 &lt;h3 id="url-pattern">URL pattern&lt;/h3>
 &lt;p>Content type is using following pattern:
-&lt;code>/camps/[node:title]&lt;/code>)&lt;/p></description></item><item><title>Docs: Categories Listing</title><link>https://froboy.github.io/openy_docs/docs/content-structure/paragraphs/categories-listing/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://froboy.github.io/openy_docs/docs/content-structure/paragraphs/categories-listing/</guid><description>
+&lt;code>/camps/[node:title]&lt;/code>&lt;/p></description></item><item><title>Docs: Categories Listing</title><link>https://froboy.github.io/openy_docs/docs/content-structure/paragraphs/categories-listing/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://froboy.github.io/openy_docs/docs/content-structure/paragraphs/categories-listing/</guid><description>
 &lt;h1 id="categories-listing">Categories Listing&lt;/h1>
 &lt;p>This is dynamic paragraph that renders all published categories according to current program page.&lt;/p>
 &lt;p>It uses sticky at the top option and order items based on published date(newest at the top).&lt;/p>
@@ -1126,7 +1166,7 @@ request, on every CI build in the future.&lt;/p>
 &lt;/table>
 &lt;h3 id="url-pattern">URL pattern&lt;/h3>
 &lt;p>Content type is using following pattern:
-&lt;code>/programs/[node:field_class_activity:entity:field_activity_category:entity:field_category_program:entity:title]/[node:field_class_activity:entity:field_activity_category:entity:title]/[node:title]/class-times&lt;/code>)&lt;/p></description></item><item><title>Docs: Class Location</title><link>https://froboy.github.io/openy_docs/docs/content-structure/paragraphs/class-location/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://froboy.github.io/openy_docs/docs/content-structure/paragraphs/class-location/</guid><description>
+&lt;code>/programs/[node:field_class_activity:entity:field_activity_category:entity:field_category_program:entity:title]/[node:field_class_activity:entity:field_activity_category:entity:title]/[node:title]/class-times&lt;/code>&lt;/p></description></item><item><title>Docs: Class Location</title><link>https://froboy.github.io/openy_docs/docs/content-structure/paragraphs/class-location/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://froboy.github.io/openy_docs/docs/content-structure/paragraphs/class-location/</guid><description>
 &lt;h1 id="class-location">Class Location&lt;/h1>
 &lt;p>This is dynamic paragraph that renders the locations class location view mode, based on url query parameter location with a valid id.&lt;/p>
 &lt;p>Relates to [Branches Popup (Class)](Branches Popup (Class).md).&lt;/p>
@@ -1225,7 +1265,7 @@ request, on every CI build in the future.&lt;/p>
 &lt;li>And I don&amp;rsquo;t have location=% in the URL&lt;/li>
 &lt;li>Results should contain all branches&lt;/li>
 &lt;li>In sidebar we should see &amp;ldquo;All locations&amp;hellip;.&amp;rdquo;&lt;/li>
-&lt;li>Location popup should be shown (Unless only one location is associated with the class))&lt;/li>
+&lt;li>Location popup should be shown (Unless only one location is associated with the class)&lt;/li>
 &lt;/ul></description></item><item><title>Docs: Classes Listing</title><link>https://froboy.github.io/openy_docs/docs/content-structure/paragraphs/classes-listing/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://froboy.github.io/openy_docs/docs/content-structure/paragraphs/classes-listing/</guid><description>
 &lt;h1 id="classes-listing--classes-listing-filters">Classes Listing + Classes Listing Filters&lt;/h1>
 &lt;p>Classes Listing - should display all published classes grouped by activity.&lt;/p>
@@ -1308,7 +1348,7 @@ request, on every CI build in the future.&lt;/p>
 &lt;li>We skip cookie whether is empty or exist&lt;/li>
 &lt;li>Location popup shouldn&amp;rsquo;t be shown&lt;/li>
 &lt;li>Filter by location should show branch from URL&lt;/li>
-&lt;li>Results should be filtered)&lt;/li>
+&lt;li>Results should be filtered&lt;/li>
 &lt;/ul></description></item><item><title>Docs: Code</title><link>https://froboy.github.io/openy_docs/docs/content-structure/paragraphs/code/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://froboy.github.io/openy_docs/docs/content-structure/paragraphs/code/</guid><description>
 &lt;h1 id="code">Code&lt;/h1>
 &lt;p>Provide paragraph containing a Code block. Can be used to embed Youtube video for instance.&lt;/p>
@@ -1645,10 +1685,10 @@ As an Open Y site developer, I want to be able import posts from company&amp;rsq
 &lt;/table>
 &lt;h3 id="url-pattern">URL pattern&lt;/h3>
 &lt;p>Content type is using following pattern:
-&lt;code>/facility/[node:title]&lt;/code>)&lt;/p></description></item><item><title>Docs: Facility Type</title><link>https://froboy.github.io/openy_docs/docs/content-structure/taxonomy/facility-type/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://froboy.github.io/openy_docs/docs/content-structure/taxonomy/facility-type/</guid><description>
+&lt;code>/facility/[node:title]&lt;/code>&lt;/p></description></item><item><title>Docs: Facility Type</title><link>https://froboy.github.io/openy_docs/docs/content-structure/taxonomy/facility-type/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://froboy.github.io/openy_docs/docs/content-structure/taxonomy/facility-type/</guid><description>
 &lt;h1 id="facility-type">Facility Type&lt;/h1>
 &lt;p>This is a vocabulary that will be used for adding facility type on the site. We will use this for the Facility CT.&lt;/p>
-&lt;p>&lt;strong>Machine name&lt;/strong>: facility_type)&lt;/p></description></item><item><title>Docs: Featured Blog Posts</title><link>https://froboy.github.io/openy_docs/docs/content-structure/paragraphs/featured-blog-posts/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://froboy.github.io/openy_docs/docs/content-structure/paragraphs/featured-blog-posts/</guid><description>
+&lt;p>&lt;strong>Machine name&lt;/strong>: facility_type&lt;/p></description></item><item><title>Docs: Featured Blog Posts</title><link>https://froboy.github.io/openy_docs/docs/content-structure/paragraphs/featured-blog-posts/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://froboy.github.io/openy_docs/docs/content-structure/paragraphs/featured-blog-posts/</guid><description>
 &lt;h1 id="featured-blog-posts">Featured Blog Posts&lt;/h1>
 &lt;p>This is a paragraph type that will be used for the featured stories.&lt;/p>
 &lt;h3 id="fields">Fields&lt;/h3>
@@ -1869,260 +1909,6 @@ base:
 &lt;td>field_prgf_images&lt;/td>
 &lt;td>No&lt;/td>
 &lt;td>Entityreference to media image. Multiple values.&lt;/td>
-&lt;/tr>
-&lt;/tbody>
-&lt;/table></description></item><item><title>Docs: Google_Analytics_Search</title><link>https://froboy.github.io/openy_docs/docs/development/google_analytics_search/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://froboy.github.io/openy_docs/docs/development/google_analytics_search/</guid><description>
-&lt;h1 id="how-to-configure-search-tracking-in-google-analytics-account">How to configure search tracking in Google Analytics account&lt;/h1>
-&lt;p>##Prerequisites
-Google Analitycs account to track you site should be created.
-Google Analitycs contrib module should be enabled and configured to use existing GA account.&lt;/p>
-&lt;p>##Steps&lt;/p>
-&lt;ol>
-&lt;li>
-&lt;p>Log in to Google Analytics account that configured to track your Open Y site.&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>Click Admin button in bottom right corner of main screen
-&lt;img src="../assets/ga_search_1.png" alt="Google Analytics Main Screen">&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>Click View Settings
-&lt;img src="../assets/ga_search_2.png" alt="Google Analytics View Settings">&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>Scroll to “Site Search Settings” section and enable “Site Search Tracking” switch
-&lt;img src="../assets/ga_search_3.png" alt="Google Analytics Site Search Settings">&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>Fill query parameter field with &lt;code>q, query&lt;/code> values and click Save&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>Reports about the search tracking you can find at main screen in Behavior → Site Search Section&lt;/p>
-&lt;/li>
-&lt;/ol>
-&lt;p>Attention: Data processing latency for search tracking reports is 24-48 hours
-(see &lt;a href="https://support.google.com/analytics/answer/1070983?hl=en#DataProcessingLatency">https://support.google.com/analytics/answer/1070983?hl=en#DataProcessingLatency&lt;/a>))&lt;/p></description></item><item><title>Docs: GoogleCustomSearchConfiguration</title><link>https://froboy.github.io/openy_docs/docs/development/googlecustomsearchconfiguration/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://froboy.github.io/openy_docs/docs/development/googlecustomsearchconfiguration/</guid><description>
-&lt;h1 id="google-custom-search-configuration">Google Custom Search configuration&lt;/h1>
-&lt;p>The Open Y release &lt;strong>8.2.4&lt;/strong> introduces Google Custom Search for the website out of the box.&lt;/p>
-&lt;h2 id="enabling-the-module">Enabling the module&lt;/h2>
-&lt;h3 id="fresh-installations">Fresh installations&lt;/h3>
-&lt;p>The search feature is included in the &lt;code>Extended&lt;/code> installation type.
-For &lt;code>Standard&lt;/code> see the &lt;a href="#existing-websites">Existing websites&lt;/a> section.&lt;/p>
-&lt;p>If you are installing a fresh Open Y website and going through the installation process via the Web interface, on the 3rd party integration step you can specify Google Search ID. If you specify the Google Search ID in this form your site&amp;rsquo;s search feature is up.&lt;/p>
-&lt;h3 id="existing-websites">Existing websites&lt;/h3>
-&lt;p>The search feature is not automatically enabled after upgrading an Open Y website. You have to manually enable it.&lt;/p>
-&lt;p>In order to do that:&lt;/p>
-&lt;ol>
-&lt;li>Log in as an admin (or a user with the &lt;code>administrator&lt;/code> role).&lt;/li>
-&lt;li>Go to the Open Y package install page (Admin menu &amp;gt; Open Y &amp;gt; Extend &amp;gt; Install, or &lt;code>/admin/openy/extend/list&lt;/code>)&lt;/li>
-&lt;li>Find the &lt;code>SEARCH&lt;/code> package there, tick the checkbox and submit the form.&lt;/li>
-&lt;/ol>
-&lt;p>Now the search modules are enabled and the header of the website should have a search field.
-Upon installation, the modules create a Landing page for search results and point the header search form to the page.&lt;/p>
-&lt;h2 id="configuring-the-google-search-modules">Configuring the Google Search modules&lt;/h2>
-&lt;ol>
-&lt;li>Go to the Google Search settings form (Admin menu &amp;gt; Open Y &amp;gt; Settings &amp;gt; Google Search settings, or &lt;code>/admin/openy/settings/google-search&lt;/code>).&lt;/li>
-&lt;li>Set the value of the &lt;code>Google Search ID&lt;/code> field (see the following &lt;a href="#obtaining-search-engine-id">section&lt;/a> for details) and submit the form.&lt;/li>
-&lt;/ol>
-&lt;h2 id="obtaining-search-engine-id">Obtaining Search Engine ID&lt;/h2>
-&lt;ol>
-&lt;li>Go to &lt;a href="https://cse.google.com/">https://cse.google.com/&lt;/a>, register if you haven&amp;rsquo;t yet, log in if you aren&amp;rsquo;t logged in.&lt;/li>
-&lt;li>Create the Search Engine (this process is explained in Google documentation &lt;a href="https://support.google.com/customsearch/answer/4513882?hl=en&amp;amp;ref_topic=4513742)">https://support.google.com/customsearch/answer/4513882?hl=en&amp;amp;ref_topic=4513742)&lt;/a>:
-&lt;ol>
-&lt;li>Click &amp;ldquo;New Search Engine&amp;rdquo;.&lt;/li>
-&lt;li>Specify the domain of your website (e.g. &lt;code>www.openymca.org&lt;/code>).&lt;/li>
-&lt;li>Specify the name of the Search Engine (e.g. &lt;code>openymca.org&lt;/code>).&lt;/li>
-&lt;li>Click &amp;ldquo;Create&amp;rdquo;.&lt;/li>
-&lt;/ol>
-&lt;/li>
-&lt;li>On the newly created Search Engine page there is the &lt;code>Search engine ID&lt;/code> field. Use this value in the Open Y Google Search configuration form.&lt;/li>
-&lt;/ol>
-&lt;h2 id="configuring-the-search-engine-look-and-feel">Configuring the Search Engine look and feel&lt;/h2>
-&lt;ol>
-&lt;li>Go to &lt;code>Look and feel&lt;/code> section of the Search Engine&lt;/li>
-&lt;li>In the &lt;code>Layout&lt;/code> tab, select &lt;code>Full width&lt;/code> option and click &lt;code>Save&lt;/code>&lt;/li>
-&lt;/ol>
-&lt;p>If this change hasn&amp;rsquo;t made, the search results on the website are shown in a popup window.&lt;/p>
-&lt;h2 id="dealing-with-ads">Dealing with ads&lt;/h2>
-&lt;p>By default, newly created Search engines use Free Edition (with ads) of the service. As YMCAs are non-profit organizations they have the option to switch to Non-profit Edition of the CSE, where it is possible to disable ads.&lt;/p>
-&lt;p>Take a look here &lt;a href="https://support.google.com/customsearch/answer/4542102?hl=en&amp;amp;ctx=topic">https://support.google.com/customsearch/answer/4542102?hl=en&amp;amp;ctx=topic&lt;/a>&lt;/p>
-&lt;p>If you are already registered as a Non-profit in Google:&lt;/p>
-&lt;ol>
-&lt;li>From the &lt;a href="https://cse.google.com">CSE Control Panel&lt;/a>, select the search engine you want to change.&lt;/li>
-&lt;li>Click &lt;strong>Setup&lt;/strong> then &lt;strong>Make Money&lt;/strong>&lt;/li>
-&lt;li>Toggle the &lt;strong>Show Ads&lt;/strong> option to off.&lt;/li>
-&lt;/ol>
-&lt;h2 id="advanced-setup">Advanced setup&lt;/h2>
-&lt;p>Official Google documentation &lt;a href="https://support.google.com/customsearch/topic/4542213?hl=en&amp;amp;ref_topic=4513868">https://support.google.com/customsearch/topic/4542213?hl=en&amp;amp;ref_topic=4513868&lt;/a>&lt;/p>
-&lt;h3 id="mutli-site-search">Mutli-site search&lt;/h3>
-&lt;p>You can add not only your website&amp;rsquo;s domain but other domains as well if you have other websites dedicated to your Association but split from the main website.&lt;/p>
-&lt;p>You can also add not only the whole websites but their parts by specifying patterns like &lt;code>example.com/blog/*&lt;/code>.&lt;/p>
-&lt;h3 id="refinements-and-facets">Refinements and facets&lt;/h3>
-&lt;p>&lt;a href="https://support.google.com/customsearch/answer/4542637?hl=en&amp;amp;ctx=topic&amp;amp;topic=2642564&amp;amp;visit_id=637166170019174137-3540762397&amp;amp;rd=1">https://support.google.com/customsearch/answer/4542637?hl=en&amp;amp;ctx=topic&amp;amp;topic=2642564&amp;amp;visit_id=637166170019174137-3540762397&amp;amp;rd=1&lt;/a>&lt;/p>
-&lt;p>Refinements let users filter results according to categories you provide.&lt;/p>
-&lt;p>Refinements appear in the search results page as tabs. The content of each tab is configured in Search features &amp;gt; Refinement section of the Custom Search Control panel.&lt;/p>
-&lt;p>To set up a dedicated tab in search results for Blog posts do the following:&lt;/p>
-&lt;ol>
-&lt;li>In Control panel, go to &lt;code>Search features&lt;/code> &amp;gt; &lt;code>Refinements&lt;/code>&lt;/li>
-&lt;li>Click &lt;code>Add&lt;/code>
-&lt;ol>
-&lt;li>Set the name of the refinement to &lt;code>Blog&lt;/code>&lt;/li>
-&lt;li>Select &lt;code>Search only the sites with this label&lt;/code> for &lt;code>How to search sites with this label?&lt;/code>&lt;/li>
-&lt;li>Click &lt;code>Ok&lt;/code>&lt;/li>
-&lt;/ol>
-&lt;/li>
-&lt;li>Go to &lt;code>Setup&lt;/code>&lt;/li>
-&lt;li>Find &lt;code>Sites to search&lt;/code>, click &lt;code>Add&lt;/code>
-&lt;ol>
-&lt;li>Add the &lt;code>yourymcadomain.org/blog/*&lt;/code> in the text field&lt;/li>
-&lt;li>Select &lt;code>Blog&lt;/code> in the Label dropdown&lt;/li>
-&lt;li>Select &lt;code>Include just this specific page or URL pattern I have entered&lt;/code>&lt;/li>
-&lt;li>Click &lt;code>Save&lt;/code>&lt;/li>
-&lt;/ol>
-&lt;/li>
-&lt;/ol>
-&lt;p>The search results page now shows the &lt;code>Blog&lt;/code> tab that only shows blog entries relevant to the search term.&lt;/p>
-&lt;h3 id="promotions">Promotions&lt;/h3>
-&lt;p>Official Google documentation &lt;a href="https://support.google.com/customsearch/answer/4542640?hl=en&amp;amp;ref_topic=4542213">https://support.google.com/customsearch/answer/4542640?hl=en&amp;amp;ref_topic=4542213&lt;/a>&lt;/p>
-&lt;h2 id="information-for-developers">Information for developers&lt;/h2>
-&lt;p>&lt;a href="https://developers.google.com/custom-search/docs/overview">Google Custom Search Developers documentation &lt;/a>&lt;/p>
-&lt;h3 id="enabling-via-drush">Enabling via Drush&lt;/h3>
-&lt;p>Use the following snippet to enable the package on existing websites:&lt;/p>
-&lt;pre tabindex="0">&lt;code>drush en openy_google_search
-&lt;/code>&lt;/pre>&lt;h3 id="configuring-the-module-via-drush">Configuring the module via Drush&lt;/h3>
-&lt;p>Use the following snippet when you install Open Y via Drush to set the Search Engine ID:&lt;/p>
-&lt;pre tabindex="0">&lt;code>drush site-install openy \
---account-pass=password \
---db-url=&amp;quot;mysql://user:pass@host:3306/db&amp;quot; \
---root=/var/www/docroot \
-openy_configure_profile.preset=extended \
-openy_theme_select.theme=openy_rose \
-openy_third_party_services.google_search_engine_id=&amp;quot;01234567890123456789:abcedefgh&amp;quot;
-&lt;/code>&lt;/pre>&lt;p>The &lt;code>openy_third_party_services.google_search_engine_id&lt;/code> parameter sets the Search Engine ID (&lt;code>01234567890123456789:abcedefgh&lt;/code> in the example).&lt;/p>
-&lt;p>Use the following snippet to set the Search Engine ID on already installed websites:&lt;/p>
-&lt;pre tabindex="0">&lt;code>drush config-set openy_google_search.settings google_engine_id &amp;quot;01234567890123456789:abcedefgh&amp;quot;
-```)
-&lt;/code>&lt;/pre></description></item><item><title>Docs: Grid columns</title><link>https://froboy.github.io/openy_docs/docs/content-structure/paragraphs/grid-columns/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://froboy.github.io/openy_docs/docs/content-structure/paragraphs/grid-columns/</guid><description>
-&lt;h1 id="grid-columns">Grid columns&lt;/h1>
-&lt;p>This is a paragraph type that will be used for field_grid_columns the in Grid Content paragraph.&lt;/p>
-&lt;h3 id="fields">Fields&lt;/h3>
-&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th>Name&lt;/th>
-&lt;th>Machine name&lt;/th>
-&lt;th>Required&lt;/th>
-&lt;th>Description&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td>Description&lt;/td>
-&lt;td>field_prgf_grid_clm_description&lt;/td>
-&lt;td>No&lt;/td>
-&lt;td>Textarea for the description/body with WYSIWYG, without summary.&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>Headline&lt;/td>
-&lt;td>field_prgf_clm_headline&lt;/td>
-&lt;td>No&lt;/td>
-&lt;td>Headline of the grid content.&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>Icon&lt;/td>
-&lt;td>field_prgf_clm_icon&lt;/td>
-&lt;td>No&lt;/td>
-&lt;td>Entityreference to media asset. Should allow to upload svgs.&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>Icon class&lt;/td>
-&lt;td>field_prgf_clm_class&lt;/td>
-&lt;td>No&lt;/td>
-&lt;td>Input field that allows to add the font-awesome icons needed. Description - &amp;ldquo;Provide a &amp;ldquo;Font Awesome&amp;rdquo; icon mane, e.g. flag, car, info. Overrides image Icon.&amp;rdquo;&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>Link&lt;/td>
-&lt;td>field_prgf_clm_link&lt;/td>
-&lt;td>No&lt;/td>
-&lt;td>Link field that supports internal and external URLs.&lt;/td>
-&lt;/tr>
-&lt;/tbody>
-&lt;/table></description></item><item><title>Docs: Grid Content</title><link>https://froboy.github.io/openy_docs/docs/content-structure/paragraphs/grid-content/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://froboy.github.io/openy_docs/docs/content-structure/paragraphs/grid-content/</guid><description>
-&lt;h1 id="grid-content">Grid Content&lt;/h1>
-&lt;p>This is a paragraph type that will be used for the grid content stories.&lt;/p>
-&lt;h3 id="fields">Fields&lt;/h3>
-&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th>Name&lt;/th>
-&lt;th>Machine name&lt;/th>
-&lt;th>Required&lt;/th>
-&lt;th>Description&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td>Style&lt;/td>
-&lt;td>field_prgf_grid_style&lt;/td>
-&lt;td>Yes&lt;/td>
-&lt;td>Select list with following values: 2:2 items per row, 3:3 items per row, 4:4 items per row&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>&lt;strong>Content&lt;/strong>&lt;/td>
-&lt;td>field_grid_columns&lt;/td>
-&lt;td>Paragraph&lt;/td>
-&lt;td>Grid columns&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>Description&lt;/td>
-&lt;td>field_prgf_grid_clm_description&lt;/td>
-&lt;td>No&lt;/td>
-&lt;td>Textarea for the description/body with WYSIWYG, without summary.&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>Headline&lt;/td>
-&lt;td>field_prgf_clm_headline&lt;/td>
-&lt;td>No&lt;/td>
-&lt;td>Headline of the grid content.&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>Icon&lt;/td>
-&lt;td>field_prgf_clm_icon&lt;/td>
-&lt;td>No&lt;/td>
-&lt;td>Entityreference to media asset. Should allow to upload svgs.&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>Icon class&lt;/td>
-&lt;td>field_prgf_clm_class&lt;/td>
-&lt;td>No&lt;/td>
-&lt;td>Input field that allows to add the font-awesome icons needed. Description - &amp;ldquo;Provide a &amp;ldquo;Font Awesome&amp;rdquo; icon mane, e.g. flag, car, info. Overrides image Icon.&amp;rdquo;&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>Link&lt;/td>
-&lt;td>field_prgf_clm_link&lt;/td>
-&lt;td>No&lt;/td>
-&lt;td>Link field that supports internal and external URLs.&lt;/td>
-&lt;/tr>
-&lt;/tbody>
-&lt;/table></description></item><item><title>Docs: Group Schedules</title><link>https://froboy.github.io/openy_docs/docs/content-structure/paragraphs/group-schedules/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://froboy.github.io/openy_docs/docs/content-structure/paragraphs/group-schedules/</guid><description>
-&lt;h1 id="group-schedules">Group Schedules&lt;/h1>
-&lt;p>This is dynamic paragraph that renders the group schedules from GroupEx Pro.&lt;/p>
-&lt;h3 id="fields">Fields&lt;/h3>
-&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th>Name&lt;/th>
-&lt;th>Machine name&lt;/th>
-&lt;th>Required&lt;/th>
-&lt;th>Description&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td>Block&lt;/td>
-&lt;td>field_prgf_block&lt;/td>
-&lt;td>Yes&lt;/td>
-&lt;td>Block reference to the view/block. Should have default value and is configurable in form display.&lt;/td>
 &lt;/tr>
 &lt;/tbody>
 &lt;/table></description></item></channel></rss>
