@@ -1,44 +1,4 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Open Y – Documentation</title><link>https://froboy.github.io/openy_docs/docs/</link><description>Recent content in Documentation on Open Y</description><generator>Hugo -- gohugo.io</generator><atom:link href="https://froboy.github.io/openy_docs/docs/index.xml" rel="self" type="application/rss+xml"/><item><title>Docs:</title><link>https://froboy.github.io/openy_docs/docs/content-structure/content-types/readme/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://froboy.github.io/openy_docs/docs/content-structure/content-types/readme/</guid><description>
-&lt;p>Welcome to the Open Y Content Types documentation&lt;/p>
-&lt;p>In terms of Open Y - content types are &lt;code>bundles&lt;/code> of &lt;code>node&lt;/code> entity of the Drupal Framework.
-You can find a much more low level documentation at &lt;a href="https://www.drupal.org/docs/8">drupal.org&lt;/a>.&lt;/p>
-&lt;p>Open Y has a bunch of content types shipped for the convenience of usage the resulting site.
-We are not limiting amount of content types, could be added by developers, so the list is not final.
-The only rule we are trying to follow is to cover shipped list of content types by Open Y upgrade path.&lt;/p></description></item><item><title>Docs:</title><link>https://froboy.github.io/openy_docs/docs/content-structure/paragraphs/readme/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://froboy.github.io/openy_docs/docs/content-structure/paragraphs/readme/</guid><description>
-&lt;p>Welcome to Open Y paragraphs.&lt;/p>
-&lt;p>Paragraphs are bits of content, components, from &lt;a href="https://en.wikipedia.org/wiki/Component-based_software_engineering#Software_component">component based design&lt;/a> ideology.
-In a scope of Open Y architecture paragraphs are based on &lt;a href="https://www.drupal.org/project/paragraphs">Paragraphs Drupal module&lt;/a>.&lt;/p>
-&lt;p>The core idea of paragraphs is to have a nice looking and behaving widget for adding predefined content blocks right in place,
-without referencing external entities. Keep in mind, that paragraphs are not reusable types. For having reusable type look for
-&lt;code>blocks&lt;/code> or &lt;code>entities&lt;/code> in terms of Drupal 8.&lt;/p>
-&lt;p>Paragraphs were created for making UX better and super convenient.&lt;/p></description></item><item><title>Docs:</title><link>https://froboy.github.io/openy_docs/docs/content-structure/readme/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://froboy.github.io/openy_docs/docs/content-structure/readme/</guid><description>
-&lt;p>Welcome to the Content Structure documentation.&lt;/p>
-&lt;p>Here you can find all needed technical descriptions about content types can be used by Open Y site builders.
-The Open Y core team decided to finalize and stick to specifictions of fields,
-created naming conventions aimed to help developers to maintain and upgrade their sites alongside Open Y development timeline.&lt;/p></description></item><item><title>Docs:</title><link>https://froboy.github.io/openy_docs/docs/development/readme/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://froboy.github.io/openy_docs/docs/development/readme/</guid><description>
-&lt;p>Welcome to the development corner of the Open Y distribution.&lt;/p>
-&lt;p>Here you can find all needed documentation and how-to work with Open Y codebase from developer&amp;rsquo;s point of view.&lt;/p></description></item><item><title>Docs:</title><link>https://froboy.github.io/openy_docs/docs/readme/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://froboy.github.io/openy_docs/docs/readme/</guid><description>
-&lt;h1 id="open-y-distribution">Open Y Distribution&lt;/h1>
-&lt;p>The Open Y platform is a content management system that uses Drupal 8 functionality and useful modules from YMCAs and digital partners. It’s easy and free to use—everyone is welcome to implement Open Y and run Open Y projects.&lt;/p>
-&lt;p>In 2016 a group of YMCA digital, marketing and technology experts recognized the digital opportunities that exist if we work together as a community and established Open Y.&lt;/p>
-&lt;p>A core team led by a small group of YMCAs including the &lt;a href="http://www.ymcamn.org">Greater Twin Cities&lt;/a>, &lt;a href="http://www.seattleymca.org">Greater Seattle&lt;/a> and &lt;a href="https://www.ymcahouston.org">Greater Houston&lt;/a>:&lt;/p>
-&lt;ul>
-&lt;li>Pays for expenses associated with managing Open Y&lt;/li>
-&lt;li>Maintains the Open Y content management system&lt;/li>
-&lt;li>Ensures all basic functionality accessible from the content management system is available free of charge—those who contribute cannot charge others for what is shared&lt;/li>
-&lt;li>Strives to be aware of issues found within the Open Y content management system&lt;/li>
-&lt;li>Is not liable for bugs, crashes or performance issues of the content management system&lt;/li>
-&lt;li>Invites and approves digital partners to join&lt;/li>
-&lt;li>Offers training for Open Y Specialists—digital partners that are very familiar with the platform&lt;/li>
-&lt;li>Offers certification for Open Y Integrators—digital partners that can install and work directly on the codebase&lt;/li>
-&lt;li>Distributes communication about Open Y&lt;/li>
-&lt;li>Organizes events for the Open Y community—including an annual meeting each June&lt;/li>
-&lt;/ul>
-&lt;p>Open Y is similar to the &lt;a href="http://www.thunder.org">Thunder Coalition&lt;/a> for the publishing industry, which has generously agreed to share some of the same concepts and content that you see used on this site.&lt;/p>
-&lt;h1 id="documentation">Documentation&lt;/h1>
-&lt;p>Documentation is available at &lt;a href="https://github.com/ymcatwincities/openy/tree/8.x-1.x/docs">https://github.com/ymcatwincities/openy/tree/8.x-1.x/docs&lt;/a>&lt;/p>
-&lt;h1 id="details">Details&lt;/h1>
-&lt;p>For details please visit &lt;a href="http://www.openymca.org">http://www.openymca.org&lt;/a>&lt;/p></description></item><item><title>Docs: 1c</title><link>https://froboy.github.io/openy_docs/docs/content-structure/paragraphs/1c/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://froboy.github.io/openy_docs/docs/content-structure/paragraphs/1c/</guid><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Open Y – Documentation</title><link>https://froboy.github.io/openy_docs/docs/</link><description>Recent content in Documentation on Open Y</description><generator>Hugo -- gohugo.io</generator><atom:link href="https://froboy.github.io/openy_docs/docs/index.xml" rel="self" type="application/rss+xml"/><item><title>Docs: 1c</title><link>https://froboy.github.io/openy_docs/docs/content-structure/paragraphs/1c/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://froboy.github.io/openy_docs/docs/content-structure/paragraphs/1c/</guid><description>
 &lt;h1 id="paragraph-1-column">Paragraph 1 Column&lt;/h1>
 &lt;p>This is a paragraph type that will be used for implements a paragraph with 1 column.&lt;/p>
 &lt;h3 id="fields">Fields&lt;/h3>
@@ -1370,7 +1330,174 @@ request, on every CI build in the future.&lt;/p>
 &lt;td>Block reference to Code block. Create a new one or pick up an existed Code block.&lt;/td>
 &lt;/tr>
 &lt;/tbody>
-&lt;/table></description></item><item><title>Docs: Color</title><link>https://froboy.github.io/openy_docs/docs/content-structure/taxonomy/color/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://froboy.github.io/openy_docs/docs/content-structure/taxonomy/color/</guid><description>
+&lt;/table></description></item><item><title>Docs: Code-Review-Quality-Best-Practices</title><link>https://froboy.github.io/openy_docs/docs/wiki/code-review-quality-best-practices/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://froboy.github.io/openy_docs/docs/wiki/code-review-quality-best-practices/</guid><description>
+&lt;p>This document serves as an addition to our &lt;a href="https://froboy.github.io/openy_docs/openy_docs/docs/wiki/open-y-code-of-conduct-and-best-practices/">Code of Conduct and Best Practices&lt;/a>. It is more technical and in-depth for specific cases that were discussed during code quality review processes the Open Y team has in place. During this process, all code should be reviewed by 1-2 developers before being merged into the Open Y codebase.&lt;/p>
+&lt;h1 id="general-rules">General Rules&lt;/h1>
+&lt;p>Components in Open Y (whether modules, themes, or other code structures) should be, as much as possible, reusable and atomic. All features, content types, settings, styles, etc. should be bundled together to create a cohesive component.&lt;/p>
+&lt;ol>
+&lt;li>General naming conventions
+&lt;ol>
+&lt;li>Features module naming
+&lt;ol>
+&lt;li>&lt;strong>openy_${entity_type|abbr}_${entity_bundle|abbr}_${feature|optional}&lt;/strong>
+&lt;ol>
+&lt;li>Example: &lt;strong>openy_node_blog_feature&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>openy_prgf_sc_feature&lt;/strong> -&amp;gt; OpenY Paragraph Simple Content (name within yml)&lt;/li>
+&lt;/ol>
+&lt;/li>
+&lt;/ol>
+&lt;/li>
+&lt;li>Fields naming (&amp;lt;=20 chars)
+&lt;ol>
+&lt;li>&lt;strong>field_${entity_type|abbr}_${entity_bundle|abbr}_{name|abbr}&lt;/strong>
+&lt;ol>
+&lt;li>Example: &lt;strong>field_prgf_sc_body&lt;/strong>&lt;/li>
+&lt;/ol>
+&lt;/li>
+&lt;/ol>
+&lt;/li>
+&lt;li>&lt;strong>All descriptions are mandatory!&lt;/strong>&lt;/li>
+&lt;/ol>
+&lt;/li>
+&lt;li>Module naming conventions - Depending on the context we should choose the name from this list:
+&lt;ol>
+&lt;li>&lt;strong>${project_name|abbr}_${business_name|abbr&lt;/strong>} - when the code looks like legacy and has specifics that are not ready to be open-sourced&lt;/li>
+&lt;li>&lt;strong>openy_${business_name|abbr}&lt;/strong> - when the code is ready to be ejected to OpenY package&lt;/li>
+&lt;li>&lt;strong>${business_name}&lt;/strong> - when the code is so abstract that it has no connection to OpenY and is ready to be hosted on Drupal.org as an independent project.&lt;/li>
+&lt;/ol>
+&lt;/li>
+&lt;/ol>
+&lt;h2 id="code-sharing">Code Sharing&lt;/h2>
+&lt;p>To support reuse by the community, the MODULE-NAME should relate to the business logic of the module. It is not good to create modules by abstracting them out of the business. All modules that have been shared to drupal.org from past projects were possible to share only because they represent some feature, tied to a business need. For example:&lt;/p>
+&lt;ul>
+&lt;li>personify - module for SOAP related methods for working with Personify API&lt;/li>
+&lt;li>acrypt - Asymmetric crypt algorithm&lt;/li>
+&lt;/ul>
+&lt;p>and so on.&lt;/p>
+&lt;h1 id="php">PHP&lt;/h1>
+&lt;h2 id="return-early-pattern">Return early pattern&lt;/h2>
+&lt;p>To keep readability in functions and methods, it is wise to return early if simple conditions apply that can be checked at the beginning of a method:&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-php" data-lang="php">&lt;span style="color:#ce5c00;font-weight:bold">&amp;lt;?&lt;/span>&lt;span style="color:#000">php&lt;/span>
+&lt;span style="color:#204a87;font-weight:bold">function&lt;/span> &lt;span style="color:#000">foo&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#000">$bar&lt;/span>&lt;span style="color:#000;font-weight:bold">,&lt;/span> &lt;span style="color:#000">$baz&lt;/span>&lt;span style="color:#000;font-weight:bold">)&lt;/span>
+&lt;span style="color:#000;font-weight:bold">{&lt;/span>
+&lt;span style="color:#204a87;font-weight:bold">if&lt;/span> &lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#000">$foo&lt;/span>&lt;span style="color:#000;font-weight:bold">)&lt;/span> &lt;span style="color:#000;font-weight:bold">{&lt;/span>
+&lt;span style="color:#8f5902;font-style:italic">// logic goes here
+&lt;/span>&lt;span style="color:#8f5902;font-style:italic">&lt;/span> &lt;span style="color:#204a87;font-weight:bold">return&lt;/span> &lt;span style="color:#000">$calculated_value&lt;/span>&lt;span style="color:#000;font-weight:bold">;&lt;/span>
+&lt;span style="color:#000;font-weight:bold">}&lt;/span> &lt;span style="color:#204a87;font-weight:bold">else&lt;/span> &lt;span style="color:#000;font-weight:bold">{&lt;/span>
+&lt;span style="color:#204a87;font-weight:bold">return&lt;/span> &lt;span style="color:#204a87;font-weight:bold">null&lt;/span>&lt;span style="color:#000;font-weight:bold">;&lt;/span>
+&lt;span style="color:#000;font-weight:bold">}&lt;/span>
+&lt;span style="color:#000;font-weight:bold">}&lt;/span>
+&lt;span style="color:#8f5902;font-style:italic">?&amp;gt;&lt;/span>&lt;span style="color:#a40000">
+&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>It&amp;rsquo;s better to return early, keeping indentation and brainpower needed to follow the code low.&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-php" data-lang="php">&lt;span style="color:#ce5c00;font-weight:bold">&amp;lt;?&lt;/span>&lt;span style="color:#000">php&lt;/span>
+&lt;span style="color:#204a87;font-weight:bold">function&lt;/span> &lt;span style="color:#000">foo&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#000">$bar&lt;/span>&lt;span style="color:#000;font-weight:bold">,&lt;/span> &lt;span style="color:#000">$baz&lt;/span>&lt;span style="color:#000;font-weight:bold">)&lt;/span>
+&lt;span style="color:#000;font-weight:bold">{&lt;/span>
+&lt;span style="color:#204a87;font-weight:bold">if&lt;/span> &lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">!&lt;/span>&lt;span style="color:#000">$foo&lt;/span>&lt;span style="color:#000;font-weight:bold">)&lt;/span> &lt;span style="color:#000;font-weight:bold">{&lt;/span>
+&lt;span style="color:#204a87;font-weight:bold">return&lt;/span> &lt;span style="color:#204a87;font-weight:bold">null&lt;/span>&lt;span style="color:#000;font-weight:bold">;&lt;/span>
+&lt;span style="color:#000;font-weight:bold">}&lt;/span>
+&lt;span style="color:#8f5902;font-style:italic">// logic goes here
+&lt;/span>&lt;span style="color:#8f5902;font-style:italic">&lt;/span> &lt;span style="color:#204a87;font-weight:bold">return&lt;/span> &lt;span style="color:#000">$calculated_value&lt;/span>&lt;span style="color:#000;font-weight:bold">;&lt;/span>
+&lt;span style="color:#000;font-weight:bold">}&lt;/span>
+&lt;span style="color:#8f5902;font-style:italic">?&amp;gt;&lt;/span>&lt;span style="color:#a40000">
+&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="define-early-pattern">Define early pattern&lt;/h2>
+&lt;p>When you have a condition that aims to change the value of a variable without additional logic, get rid of &lt;code>if else elseif&lt;/code> code and instead define your variable early and change it via conditions.&lt;/p>
+&lt;p>Before:&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-php" data-lang="php">&lt;span style="color:#204a87;font-weight:bold">if&lt;/span> &lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#000">$a&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">=&lt;/span> &lt;span style="color:#4e9a06">&amp;#39;hello&amp;#39;&lt;/span>&lt;span style="color:#000;font-weight:bold">)&lt;/span> &lt;span style="color:#000;font-weight:bold">{&lt;/span>
+&lt;span style="color:#000">$text&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">=&lt;/span> &lt;span style="color:#4e9a06">&amp;#39;Welcome to site&amp;#39;&lt;/span>&lt;span style="color:#000;font-weight:bold">;&lt;/span>
+&lt;span style="color:#000;font-weight:bold">}&lt;/span>
+&lt;span style="color:#204a87;font-weight:bold">else&lt;/span> &lt;span style="color:#000;font-weight:bold">{&lt;/span>
+&lt;span style="color:#000">$text&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">=&lt;/span> &lt;span style="color:#4e9a06">&amp;#39;Register please&amp;#39;&lt;/span>&lt;span style="color:#000;font-weight:bold">;&lt;/span>
+&lt;span style="color:#000;font-weight:bold">}&lt;/span>
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>After:&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-php" data-lang="php">&lt;span style="color:#000">$text&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">=&lt;/span> &lt;span style="color:#4e9a06">&amp;#39;Register please&amp;#39;&lt;/span>&lt;span style="color:#000;font-weight:bold">;&lt;/span>
+&lt;span style="color:#204a87;font-weight:bold">if&lt;/span> &lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#000">$a&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">=&lt;/span> &lt;span style="color:#4e9a06">&amp;#39;hello&amp;#39;&lt;/span>&lt;span style="color:#000;font-weight:bold">)&lt;/span> &lt;span style="color:#000;font-weight:bold">{&lt;/span>
+&lt;span style="color:#000">$text&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">=&lt;/span> &lt;span style="color:#4e9a06">&amp;#39;Welcome to site&amp;#39;&lt;/span>&lt;span style="color:#000;font-weight:bold">;&lt;/span>
+&lt;span style="color:#000;font-weight:bold">}&lt;/span>
+&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="null-checks-with-isset">Null Checks with &lt;code>isset&lt;/code>&lt;/h2>
+&lt;p>&lt;a href="https://www.php.net/manual/en/function.isset.php">&lt;code>isset()&lt;/code>&lt;/a> verifies if set and not null. There is no need to do additional verification against NULL.&lt;/p>
+&lt;p>Before:&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-php" data-lang="php">&lt;span style="color:#ce5c00;font-weight:bold">...&lt;/span>
+&lt;span style="color:#4e9a06">&amp;#39;video&amp;#39;&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">=&amp;gt;&lt;/span> &lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#000">isset&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#000">$feed&lt;/span>&lt;span style="color:#000;font-weight:bold">[&lt;/span>&lt;span style="color:#4e9a06">&amp;#39;profile_media_videos&amp;#39;&lt;/span>&lt;span style="color:#000;font-weight:bold">])&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">||&lt;/span> &lt;span style="color:#000">$feed&lt;/span>&lt;span style="color:#000;font-weight:bold">[&lt;/span>&lt;span style="color:#4e9a06">&amp;#39;profile_media_videos&amp;#39;&lt;/span>&lt;span style="color:#000;font-weight:bold">]&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">!=&lt;/span> &lt;span style="color:#204a87;font-weight:bold">NULL&lt;/span>&lt;span style="color:#000;font-weight:bold">)&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">?&lt;/span> &lt;span style="color:#000">$feed&lt;/span>&lt;span style="color:#000;font-weight:bold">[&lt;/span>&lt;span style="color:#4e9a06">&amp;#39;profile_media_videos&amp;#39;&lt;/span>&lt;span style="color:#000;font-weight:bold">]&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">:&lt;/span> &lt;span style="color:#4e9a06">&amp;#39;&amp;#39;&lt;/span>&lt;span style="color:#000;font-weight:bold">,&lt;/span>
+&lt;span style="color:#ce5c00;font-weight:bold">...&lt;/span>
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>After:&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-php" data-lang="php">&lt;span style="color:#ce5c00;font-weight:bold">...&lt;/span>
+&lt;span style="color:#4e9a06">&amp;#39;video&amp;#39;&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">=&amp;gt;&lt;/span> &lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#000">isset&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#000">$feed&lt;/span>&lt;span style="color:#000;font-weight:bold">[&lt;/span>&lt;span style="color:#4e9a06">&amp;#39;profile_media_videos&amp;#39;&lt;/span>&lt;span style="color:#000;font-weight:bold">]))&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">?&lt;/span> &lt;span style="color:#000">$feed&lt;/span>&lt;span style="color:#000;font-weight:bold">[&lt;/span>&lt;span style="color:#4e9a06">&amp;#39;profile_media_videos&amp;#39;&lt;/span>&lt;span style="color:#000;font-weight:bold">]&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">:&lt;/span> &lt;span style="color:#4e9a06">&amp;#39;&amp;#39;&lt;/span>&lt;span style="color:#000;font-weight:bold">,&lt;/span>
+&lt;span style="color:#ce5c00;font-weight:bold">...&lt;/span>
+&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="dependency-injection">Dependency Injection&lt;/h2>
+&lt;p>For the decoupled and easier to upgrade code in Drupal 8+ Dependency injection should be used instead of calling methods from services statically.&lt;/p>
+&lt;p>See the Drupal API &lt;a href="https://api.drupal.org/api/drupal/core%21core.api.php/group/container/9.3.x">Overview of the Dependency Injection Container and Services&lt;/a>.&lt;/p>
+&lt;p>Before:&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-php" data-lang="php">&lt;span style="color:#ce5c00;font-weight:bold">...&lt;/span>
+&lt;span style="color:#000">$node&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">=&lt;/span> &lt;span style="color:#000">Drupal&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">::&lt;/span>&lt;span style="color:#c4a000">entityTypeManager&lt;/span>&lt;span style="color:#000;font-weight:bold">()&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">-&amp;gt;&lt;/span>&lt;span style="color:#c4a000">getStorage&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#4e9a06">&amp;#39;node&amp;#39;&lt;/span>&lt;span style="color:#000;font-weight:bold">)&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">-&amp;gt;&lt;/span>&lt;span style="color:#c4a000">load&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#000">$result&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">-&amp;gt;&lt;/span>&lt;span style="color:#c4a000">getField&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#4e9a06">&amp;#39;nid&amp;#39;&lt;/span>&lt;span style="color:#000;font-weight:bold">)&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">-&amp;gt;&lt;/span>&lt;span style="color:#c4a000">getValues&lt;/span>&lt;span style="color:#000;font-weight:bold">()[&lt;/span>&lt;span style="color:#0000cf;font-weight:bold">0&lt;/span>&lt;span style="color:#000;font-weight:bold">]);&lt;/span>
+&lt;span style="color:#ce5c00;font-weight:bold">...&lt;/span>
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>After:&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-php" data-lang="php">&lt;span style="color:#ce5c00;font-weight:bold">...&lt;/span>
+&lt;span style="color:#000">$node&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">=&lt;/span> &lt;span style="color:#000">$this&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">-&amp;gt;&lt;/span>&lt;span style="color:#c4a000">entityTypeManager&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">-&amp;gt;&lt;/span>&lt;span style="color:#c4a000">getStorage&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#4e9a06">&amp;#39;node&amp;#39;&lt;/span>&lt;span style="color:#000;font-weight:bold">)&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">-&amp;gt;&lt;/span>&lt;span style="color:#c4a000">load&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#000">$result&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">-&amp;gt;&lt;/span>&lt;span style="color:#c4a000">getField&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#4e9a06">&amp;#39;nid&amp;#39;&lt;/span>&lt;span style="color:#000;font-weight:bold">)&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">-&amp;gt;&lt;/span>&lt;span style="color:#c4a000">getValues&lt;/span>&lt;span style="color:#000;font-weight:bold">()[&lt;/span>&lt;span style="color:#0000cf;font-weight:bold">0&lt;/span>&lt;span style="color:#000;font-weight:bold">]);&lt;/span>
+&lt;span style="color:#ce5c00;font-weight:bold">...&lt;/span>
+&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="creating-meaningful-log-messages">Creating meaningful log messages&lt;/h2>
+&lt;p>To provide useful logging for site managers, we need to write meaningful log messages with a proper context.&lt;/p>
+&lt;p>Before:&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-php" data-lang="php">&lt;span style="color:#ce5c00;font-weight:bold">...&lt;/span>
+&lt;span style="color:#204a87;font-weight:bold">if&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#000">$type&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">==&lt;/span> &lt;span style="color:#4e9a06">&amp;#39;program&amp;#39;&lt;/span>&lt;span style="color:#000;font-weight:bold">)&lt;/span> &lt;span style="color:#000;font-weight:bold">{&lt;/span>
+&lt;span style="color:#204a87;font-weight:bold">if&lt;/span> &lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#000">$feed&lt;/span>&lt;span style="color:#000;font-weight:bold">[&lt;/span>&lt;span style="color:#4e9a06">&amp;#39;profile_media_videos&amp;#39;&lt;/span>&lt;span style="color:#000;font-weight:bold">]&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">!=&lt;/span> &lt;span style="color:#204a87;font-weight:bold">NULL&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">||&lt;/span> &lt;span style="color:#000">$feed&lt;/span>&lt;span style="color:#000;font-weight:bold">[&lt;/span>&lt;span style="color:#4e9a06">&amp;#39;profile_media_images&amp;#39;&lt;/span>&lt;span style="color:#000;font-weight:bold">]&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">!=&lt;/span> &lt;span style="color:#204a87;font-weight:bold">NULL&lt;/span>&lt;span style="color:#000;font-weight:bold">)&lt;/span> &lt;span style="color:#000;font-weight:bold">{&lt;/span>
+&lt;span style="color:#000">\Drupal&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">::&lt;/span>&lt;span style="color:#c4a000">logger&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#4e9a06">&amp;#39;272&amp;#39;&lt;/span>&lt;span style="color:#000;font-weight:bold">)&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">-&amp;gt;&lt;/span>&lt;span style="color:#c4a000">notice&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#000">$type&lt;/span>&lt;span style="color:#000;font-weight:bold">);&lt;/span>
+&lt;span style="color:#ce5c00;font-weight:bold">...&lt;/span>
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>After:&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-php" data-lang="php">&lt;span style="color:#ce5c00;font-weight:bold">...&lt;/span>
+&lt;span style="color:#204a87;font-weight:bold">if&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#000">$type&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">==&lt;/span> &lt;span style="color:#4e9a06">&amp;#39;program&amp;#39;&lt;/span>&lt;span style="color:#000;font-weight:bold">)&lt;/span> &lt;span style="color:#000;font-weight:bold">{&lt;/span>
+&lt;span style="color:#204a87;font-weight:bold">if&lt;/span> &lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#000">$feed&lt;/span>&lt;span style="color:#000;font-weight:bold">[&lt;/span>&lt;span style="color:#4e9a06">&amp;#39;profile_media_videos&amp;#39;&lt;/span>&lt;span style="color:#000;font-weight:bold">]&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">!=&lt;/span> &lt;span style="color:#204a87;font-weight:bold">NULL&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">||&lt;/span> &lt;span style="color:#000">$feed&lt;/span>&lt;span style="color:#000;font-weight:bold">[&lt;/span>&lt;span style="color:#4e9a06">&amp;#39;profile_media_images&amp;#39;&lt;/span>&lt;span style="color:#000;font-weight:bold">]&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">!=&lt;/span> &lt;span style="color:#204a87;font-weight:bold">NULL&lt;/span>&lt;span style="color:#000;font-weight:bold">)&lt;/span> &lt;span style="color:#000;font-weight:bold">{&lt;/span>
+&lt;span style="color:#000">\Drupal&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">::&lt;/span>&lt;span style="color:#c4a000">logger&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#4e9a06">&amp;#39;form_import&amp;#39;&lt;/span>&lt;span style="color:#000;font-weight:bold">)&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">-&amp;gt;&lt;/span>&lt;span style="color:#c4a000">notice&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#4e9a06">&amp;#34;FORM IMPORT: type is &lt;/span>&lt;span style="color:#4e9a06">$type&lt;/span>&lt;span style="color:#4e9a06">&amp;#34;&lt;/span>&lt;span style="color:#000;font-weight:bold">);&lt;/span>
+&lt;span style="color:#ce5c00;font-weight:bold">...&lt;/span>
+&lt;/code>&lt;/pre>&lt;/div>&lt;h1 id="maintaining-an-upgrade-path">Maintaining an Upgrade Path&lt;/h1>
+&lt;p>All changes in configurations should be added to appropriate hook_update_N to update already existing environments. We suggest using the &lt;a href="https://www.drupal.org/project/confi">Config Importer and Tools
+&lt;/a> package for working with hook_update_N.&lt;/p>
+&lt;h2 id="install-files">Install files&lt;/h2>
+&lt;h3 id="openyinstall-in-profile">&lt;code>openy.install&lt;/code> in profile&lt;/h3>
+&lt;p>In this file, we should put updates that are related to the distribution in general and don&amp;rsquo;t fit into any feature.&lt;/p>
+&lt;ul>
+&lt;li>Enable/Disable module&lt;/li>
+&lt;li>General configs&lt;/li>
+&lt;/ul>
+&lt;h3 id="openy_install-in-modules">&lt;code>openy_*.install&lt;/code> in modules&lt;/h3>
+&lt;p>If you update some configuration for a specific feature, make sure that you put updates into this file in the appropriate module.&lt;/p>
+&lt;h2 id="config-management">Config Management&lt;/h2>
+&lt;h3 id="revert-only-specific-property-from-config">Revert only specific property from config&lt;/h3>
+&lt;p>This is the preferred method of updating configs as it will result in fewer conflicts for upgrading customized Open Y instances.&lt;/p>
+&lt;p>With &lt;a href="https://www.drupal.org/project/confi">config_import module&lt;/a> we can update only part of the full config.&lt;/p>
+&lt;p>For updating specific property in config use the &lt;code>openy_upgrade_tool.param_updater&lt;/code> service:&lt;/p>
+&lt;ol>
+&lt;li>Find the module where your config lives.&lt;/li>
+&lt;li>Create a new &lt;code>hook_update_N&lt;/code> in the &lt;code>openy_*.install&lt;/code> file.&lt;/li>
+&lt;li>In that hook add the update code (for example):&lt;/li>
+&lt;/ol>
+&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-php" data-lang="php">&lt;span style="color:#000">$config&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">=&lt;/span> &lt;span style="color:#000">drupal_get_path&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#4e9a06">&amp;#39;module&amp;#39;&lt;/span>&lt;span style="color:#000;font-weight:bold">,&lt;/span> &lt;span style="color:#4e9a06">&amp;#39;openy_media_image&amp;#39;&lt;/span>&lt;span style="color:#000;font-weight:bold">)&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">.&lt;/span> &lt;span style="color:#4e9a06">&amp;#39;/config/install/views.view.images_library.yml&amp;#39;&lt;/span>&lt;span style="color:#000;font-weight:bold">;&lt;/span>
+&lt;span style="color:#000">$config_importer&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">=&lt;/span> &lt;span style="color:#000">\Drupal&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">::&lt;/span>&lt;span style="color:#c4a000">service&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#4e9a06">&amp;#39;openy_upgrade_tool.param_updater&amp;#39;&lt;/span>&lt;span style="color:#000;font-weight:bold">);&lt;/span>
+&lt;span style="color:#000">$config_importer&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">-&amp;gt;&lt;/span>&lt;span style="color:#c4a000">update&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#000">$config&lt;/span>&lt;span style="color:#000;font-weight:bold">,&lt;/span> &lt;span style="color:#4e9a06">&amp;#39;views.view.images_library&amp;#39;&lt;/span>&lt;span style="color:#000;font-weight:bold">,&lt;/span> &lt;span style="color:#4e9a06">&amp;#39;display.default.display_options.pager&amp;#39;&lt;/span>&lt;span style="color:#000;font-weight:bold">);&lt;/span>
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>Where:&lt;/p>
+&lt;ul>
+&lt;li>&lt;code>$config&lt;/code> variable contains path to config with config name, like:&lt;/li>
+&lt;li>&lt;code>views.view.images_library&lt;/code> - config name&lt;/li>
+&lt;li>&lt;code>display.default.display_options.pager&lt;/code> - config specific property (you can set value from a nested array with variable depth)&lt;/li>
+&lt;/ul>
+&lt;h3 id="revert-full-configs">Revert full configs&lt;/h3>
+&lt;p>This variant uses extensive config file manipulation and increases the time for an upgrade.&lt;/p>
+&lt;p>For updating full config or several configs from directory use the &lt;code>openy_upgrade_tool.importer&lt;/code> service:&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-php" data-lang="php">&lt;span style="color:#000">$config_dir&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">=&lt;/span> &lt;span style="color:#000">drupal_get_path&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#4e9a06">&amp;#39;module&amp;#39;&lt;/span>&lt;span style="color:#000;font-weight:bold">,&lt;/span> &lt;span style="color:#4e9a06">&amp;#39;openy_media_image&amp;#39;&lt;/span>&lt;span style="color:#000;font-weight:bold">)&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">.&lt;/span> &lt;span style="color:#4e9a06">&amp;#39;/config/install&amp;#39;&lt;/span>&lt;span style="color:#000;font-weight:bold">;&lt;/span>
+&lt;span style="color:#000">$config_importer&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">=&lt;/span> &lt;span style="color:#000">\Drupal&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">::&lt;/span>&lt;span style="color:#c4a000">service&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#4e9a06">&amp;#39;openy_upgrade_tool.importer&amp;#39;&lt;/span>&lt;span style="color:#000;font-weight:bold">);&lt;/span>
+&lt;span style="color:#000">$config_importer&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">-&amp;gt;&lt;/span>&lt;span style="color:#c4a000">setDirectory&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#000">$config_dir&lt;/span>&lt;span style="color:#000;font-weight:bold">);&lt;/span>
+&lt;span style="color:#000">$config_importer&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">-&amp;gt;&lt;/span>&lt;span style="color:#c4a000">importConfigs&lt;/span>&lt;span style="color:#000;font-weight:bold">([&lt;/span>&lt;span style="color:#4e9a06">&amp;#39;views.view.images_library&amp;#39;&lt;/span>&lt;span style="color:#000;font-weight:bold">]);&lt;/span>
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>Where:&lt;/p>
+&lt;ul>
+&lt;li>&lt;code>$config_dir&lt;/code> - path to directory with config&lt;/li>
+&lt;li>&lt;code>views.view.images_library&lt;/code> - config name&lt;/li>
+&lt;/ul>
+&lt;p>Also you can update several configs from a directory:&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-php" data-lang="php">&lt;span style="color:#000">$config_importer&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">-&amp;gt;&lt;/span>&lt;span style="color:#c4a000">importConfigs&lt;/span>&lt;span style="color:#000;font-weight:bold">([&lt;/span>
+&lt;span style="color:#4e9a06">&amp;#39;views.view.images_library&amp;#39;&lt;/span>&lt;span style="color:#000;font-weight:bold">,&lt;/span>
+&lt;span style="color:#4e9a06">&amp;#39;views.view.example_view&amp;#39;&lt;/span>&lt;span style="color:#000;font-weight:bold">,&lt;/span>
+&lt;span style="color:#000;font-weight:bold">]);&lt;/span>
+&lt;/code>&lt;/pre>&lt;/div>&lt;h1 id="javascript-includes">JavaScript includes&lt;/h1>
+&lt;p>&lt;img src="https://user-images.githubusercontent.com/563412/122801945-6f28b700-d2cd-11eb-8d0c-694432e8cbf0.png" alt="image">&lt;/p></description></item><item><title>Docs: Color</title><link>https://froboy.github.io/openy_docs/docs/content-structure/taxonomy/color/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://froboy.github.io/openy_docs/docs/content-structure/taxonomy/color/</guid><description>
 &lt;h1 id="area-vocabulary">Area Vocabulary&lt;/h1>
 &lt;p>This is a vocabulary that will be used for adding colors on the site.&lt;/p>
 &lt;p>&lt;strong>Machine_name&lt;/strong>: color&lt;/p>
@@ -1402,9 +1529,27 @@ request, on every CI build in the future.&lt;/p>
 &lt;h1 id="composer">Composer&lt;/h1>
 &lt;p>Please always make sure &lt;code>composer.lock&lt;/code> file is updated after any changes in &lt;code>composer.json&lt;/code> file.
 You can use &lt;code>composer update&lt;/code> command to update any package, in this case composer will take care about updating of &lt;code>composer.lock&lt;/code> file.&lt;/p>
-&lt;pre tabindex="0">&lt;code>composer update drupal/metatag
-&lt;/code>&lt;/pre>&lt;p>Also you can use &lt;code>composer update --lock&lt;/code> command to force updating of &lt;code>composer.lock&lt;/code> file according to dependencies in &lt;code>composer.json&lt;/code>.&lt;/p>
-&lt;p>Please check official composer documentation for details: &lt;a href="https://getcomposer.org/doc/01-basic-usage.md">https://getcomposer.org/doc/01-basic-usage.md&lt;/a>)&lt;/p></description></item><item><title>Docs: Configuration for social posts import</title><link>https://froboy.github.io/openy_docs/docs/development/configuration-for-social-posts-import/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://froboy.github.io/openy_docs/docs/development/configuration-for-social-posts-import/</guid><description>
+&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-fallback" data-lang="fallback">composer update drupal/metatag
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>Also you can use &lt;code>composer update --lock&lt;/code> command to force updating of &lt;code>composer.lock&lt;/code> file according to dependencies in &lt;code>composer.json&lt;/code>.&lt;/p>
+&lt;p>Please check official composer documentation for details: &lt;a href="https://getcomposer.org/doc/01-basic-usage.md">https://getcomposer.org/doc/01-basic-usage.md&lt;/a>)&lt;/p></description></item><item><title>Docs: Composer-version-constraints-for-Open-Y</title><link>https://froboy.github.io/openy_docs/docs/wiki/composer-version-constraints-for-open-y/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://froboy.github.io/openy_docs/docs/wiki/composer-version-constraints-for-open-y/</guid><description>
+&lt;p>In 2020, due to changes in Drupal core release management and demand from Open Y customers to improve upgrade path flexibility and stability, the Open Y team added extended composer version constraints to our &lt;code>composer.json&lt;/code>.&lt;/p>
+&lt;p>Examples from &lt;a href="https://github.com/ymcatwincities/openy/blob/9.x-2.x/composer.json">composer.json&lt;/a>:&lt;/p>
+&lt;ul>
+&lt;li>&lt;code>&amp;quot;drupal/ckeditor_bootstrap_buttons&amp;quot;: &amp;quot;^1.2 || ^2.0.0&amp;quot;,&lt;/code> - this line means previous version was 1.2 or any 1.x starting from 1.2, and latest tested - 2.0.0 with allowed any stable 2.x starting from 2.0.0&lt;/li>
+&lt;li>&lt;code>&amp;quot;drupal/custom_formatters&amp;quot;: &amp;quot;^3.0 || ^3.0@beta&amp;quot;,&lt;/code> - tested with 3.0 beta of custom_formatters and allowed any 3.x starting from 3.0 (when it will be released)&lt;/li>
+&lt;/ul>
+&lt;p>By having multiple OR (&lt;code>||&lt;/code>) conditions we are providing information for developers on which versions could be used for upgrades. There are cases when the latest, even stable version of dependency could be incompatible with some other functionality and it makes sense to keep the version older while functionality is in the process of upgrading.&lt;/p>
+&lt;p>For example, if, for some reason, &lt;code>custom_formatters&lt;/code> 3.0 won&amp;rsquo;t be compatible with any of Open Y dependencies at the time of release, a developer can select an older beta version in order to proceed with the upgrade.&lt;/p>
+&lt;p>To select a specific version of a dependency when you do an upgrade of Open Y, add a dependency and its version alongside Open Y at the &lt;code>composer require...&lt;/code> step.&lt;/p>
+&lt;p>For example:&lt;/p>
+&lt;p>from &lt;a href="https://froboy.github.io/openy_docs/openy_docs/docs/wiki/openy-upgrade-how-to-for-developers/">upgrade doc&lt;/a>&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-bash" data-lang="bash">composer require ymcatwincities/openy:NEW_VERSION_HERE --no-update
+composer update --prefer-dist --with-dependencies --prefer-stable --no-suggest
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>then change the dependency version&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-bash" data-lang="bash">composer require ymcatwincities/openy:NEW_VERSION_HERE --no-update
+composer require drupal/custom_formatters:3.0@beta1
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>You can change any of the dependency versions without upgrading Open Y by running only the &lt;code>composer require...&lt;/code> command for specific dependencies and Drupal Update DB routines afterward.&lt;/p>
+&lt;p>Check &lt;a href="https://getcomposer.org/doc/articles/versions.md">official Composer documentation about version constraints&lt;/a> and &lt;a href="https://www.drupal.org/docs/updating-drupal/updating-modules-and-themes-using-composer">updating Drupal modules with Composer&lt;/a>.&lt;/p></description></item><item><title>Docs: Configuration for social posts import</title><link>https://froboy.github.io/openy_docs/docs/development/configuration-for-social-posts-import/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://froboy.github.io/openy_docs/docs/development/configuration-for-social-posts-import/</guid><description>
 &lt;p>Add import social posts to site (Facebook, Instagram, Twitter)&lt;/p>
 &lt;h3 id="how-configure-import-of-posts-from-the-social-networks">How configure import of posts from the social networks&lt;/h3>
 &lt;p>&lt;strong>Given:&lt;/strong>
@@ -1571,7 +1716,202 @@ As an Open Y site developer, I want to be able import posts from company&amp;rsq
 &lt;h1 id="daxko">Daxko&lt;/h1>
 &lt;p>Relates to: [Program Registration (Daxko)](../Paragraphs/Program Registration (Daxko).md)&lt;/p>
 &lt;p>Configuration setting at /admin/config/development/daxko&lt;/p>
-&lt;p>Account configuration must be setup before the Program Registration paragraph will work.)&lt;/p></description></item><item><title>Docs: Facility</title><link>https://froboy.github.io/openy_docs/docs/content-structure/content-types/facility/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://froboy.github.io/openy_docs/docs/content-structure/content-types/facility/</guid><description>
+&lt;p>Account configuration must be setup before the Program Registration paragraph will work.)&lt;/p></description></item><item><title>Docs: Decouple-component-from-Open-Y-as-independent-module-project</title><link>https://froboy.github.io/openy_docs/docs/wiki/decouple-component-from-open-y-as-independent-module-project/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://froboy.github.io/openy_docs/docs/wiki/decouple-component-from-open-y-as-independent-module-project/</guid><description>
+&lt;h2 id="history">History&lt;/h2>
+&lt;p>In 2019 the Open Y team started decoupling major components to streamline the distribution and simplify support.&lt;/p>
+&lt;p>Communication started in the &lt;a href="https://community.openymca.org/t/ejecting-modules-from-openy-distro-as-independent-projects/513">Community Board - Ejecting modules from OpenY distro as independent projects&lt;/a>.&lt;/p>
+&lt;p>The decoupling process is ongoing. See &lt;a href="https://froboy.github.io/openy_docs/openy_docs/docs/wiki/decoupled-external-projects-of-openy/">the index of decoupled projects&lt;/a>.&lt;/p>
+&lt;p>In 2021 the Open Y core team faced coupling blockers in the distribution during &lt;a href="https://github.com/ymcatwincities/openy/milestone/21">the upgrade from Drupal 8 to Drupal 9&lt;/a>&lt;/p>
+&lt;p>To formalize the ongoing development and maintenance strategy, the Open Y core team &lt;a href="https://docs.google.com/presentation/d/1H09GsUsSdt3RoN7rbKpNv4eihCNos74Y2KCbJBJXRqc/edit?usp=sharing">shared its decoupling plan with the wider community&lt;/a> in mid-2021.&lt;/p>
+&lt;p>This document elaborates on those processes.&lt;/p>
+&lt;h2 id="policy">Policy&lt;/h2>
+&lt;ul>
+&lt;li>Every new component or sub-project of Open Y should be developed in its own repository - either on GitHub or Drupal.org.
+&lt;ul>
+&lt;li>Drupal.org example: &lt;a href="https://www.drupal.org/project/paragraph_skins">paragraph_skins&lt;/a>&lt;/li>
+&lt;li>GitHub Example: &lt;a href="https://github.com/ymcatwincities/openy_activity_finder">openy_activity_finder&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>The decoupled project could be
+&lt;ul>
+&lt;li>&lt;strong>part of Open Y core&lt;/strong> - e.g. &lt;a href="https://github.com/ymcatwincities/openy_activity_finder">Activity Finder&lt;/a> and &lt;a href="https://github.com/ymcatwincities/openy/blob/9.2.8.0/composer.json#L112">added to Open Y profile by default&lt;/a>, or&lt;/li>
+&lt;li>&lt;strong>not part of the core&lt;/strong>, e.g. &lt;a href="https://github.com/ymcatwincities/openy_memberships">Open Y Membership Framework&lt;/a> which could be &lt;a href="https://github.com/ymcatwincities/openy_memberships/blob/master/README.md#installation">installed later&lt;/a>.&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;strong>GitHub&lt;/strong> should be used when there is no strategy to make a component or project available for the wider Drupal community - that is, when it is tied to YMCA business and unlikely to be leveraged by somebody else.&lt;/li>
+&lt;li>&lt;strong>Drupal.org&lt;/strong> should be used when the component could be useful to projects outside of Open Y.&lt;/li>
+&lt;/ul>
+&lt;h2 id="process">Process&lt;/h2>
+&lt;h3 id="for-creating-a-new-decoupled-component">for creating a new decoupled component&lt;/h3>
+&lt;ol>
+&lt;li>Create a new GitHub/Drupal.org repository.&lt;/li>
+&lt;li>Work on getting an initial release with at least &lt;code>beta&lt;/code> version stability.&lt;/li>
+&lt;li>Create a composer.json file for the component in order to be able to start using it via &lt;code>composer&lt;/code>. See &lt;a href="https://github.com/ymcatwincities/openy_gated_content/blob/master/composer.json">Virtual Y&lt;/a> for an example.&lt;/li>
+&lt;li>Make it available for the public via packagist.org or drupal.org as a release. Ensure &lt;code>podarok&lt;/code> is added as a co-maintainer to the respective system.&lt;/li>
+&lt;li>Suggest adding to Open Y by &lt;a href="https://github.com/ymcatwincities/openy/issues">opening an issue&lt;/a>.&lt;/li>
+&lt;li>If approved, create a Pull Request adding it as a dependency in &lt;a href="https://github.com/ymcatwincities/openy/blob/9.x-2.x/composer.json">composer.json&lt;/a>.&lt;/li>
+&lt;li>Ensure this component is enabled in any of the packages maintained in the &lt;a href="https://github.com/ymcatwincities/openy/blob/9.x-2.x/openy.packages.yml">Open Y profile installation&lt;/a>&lt;/li>
+&lt;li>Ask for review and release, according to the &lt;a href="https://froboy.github.io/openy_docs/openy_docs/docs/wiki/how-we-release-openy-distribution-from-code-perspective/">release plan&lt;/a>.&lt;/li>
+&lt;/ol>
+&lt;h3 id="for-decoupling-an-existing-component-of-open-y">for decoupling an existing component of Open Y&lt;/h3>
+&lt;p>Follow the steps above, but:&lt;/p>
+&lt;ul>
+&lt;li>After creating the repo, filter the selected component by running &lt;code>git filter-branch --subdirectory-filter ...&lt;/code> from the latest development branch of the Open Y profile. This keeps credits of work done for this component as a part of the &lt;a href="https://froboy.github.io/openy_docs/openy_docs/docs/wiki/open-y-code-of-conduct-and-best-practices/">Code of Conduct&lt;/a>.&lt;/li>
+&lt;li>After separating the code, ensure the ejected code is not duplicated in the Open Y profile. Remove duplicated code in the same Pull Request in which you add the new dependency.&lt;/li>
+&lt;/ul>
+&lt;h2 id="examples">Examples&lt;/h2>
+&lt;h3 id="how-to-update-module-on-drupalorg">How to update module on Drupal.org&lt;/h3>
+&lt;ul>
+&lt;li>Git filter-branch to get a history of changes.&lt;/li>
+&lt;li>Change git origin to Drupal.org project.&lt;/li>
+&lt;li>Create a new branch and push the code to Drupal.org.&lt;/li>
+&lt;li>Create and push tag to Drupal.org. Create a release on drupal.org.&lt;/li>
+&lt;li>Update composer.json in this distribution with a new tag.&lt;/li>
+&lt;/ul>
+&lt;h3 id="how-to-decouple-module-from-yn-to-drupalorg">How to decouple module from YN to Drupal.org&lt;/h3>
+&lt;p>Example: &lt;a href="https://www.drupal.org/project/paragraph_skins">paragraph_skins&lt;/a>&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-sh" data-lang="sh">git clone git@github.com:ymcatwincities/openy.git decouple
+rm -rf decouple_copy &lt;span style="color:#ce5c00;font-weight:bold">&amp;amp;&amp;amp;&lt;/span> cp -a decouple decouple_copy
+&lt;span style="color:#204a87">cd&lt;/span> decouple_copy
+git filter-branch --subdirectory-filter docroot/modules/contrib/paragraph_skins
+git clean -dfx
+git remote remove origin &lt;span style="color:#ce5c00;font-weight:bold">&amp;amp;&amp;amp;&lt;/span> git remote add origin git@git.drupal.org:project/paragraph_skins.git
+git pull origin 8.x-1.x --allow-unrelated-histories
+&lt;span style="color:#8f5902;font-style:italic"># Resolve conflicts if applicable.&lt;/span>
+git push origin production:8.x-1.x
+&lt;span style="color:#8f5902;font-style:italic"># Create tags and release on Drupal.org&lt;/span>
+&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="how-to-decouple-module-from-open-y-to-open-y-subprojectshttpsgithubcomopen-y-subprojects">How to decouple module from Open Y to &lt;a href="https://github.com/Open-Y-subprojects">Open Y Subprojects&lt;/a>&lt;/h3>
+&lt;p>Request a repository for the module. Example: &lt;a href="https://github.com/Open-Y-subprojects/shared_content_server">shared_content_server&lt;/a>&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-sh" data-lang="sh">git clone git@github.com:ymcatwincities/openy.git decouple
+rm -rf decouple_copy &lt;span style="color:#ce5c00;font-weight:bold">&amp;amp;&amp;amp;&lt;/span> cp -a decouple decouple_copy
+&lt;span style="color:#204a87">cd&lt;/span> decouple_copy
+git filter-branch --subdirectory-filter docroot/profiles/contrib/openy/modules/custom/SOME_MODULE_HERE
+git clean -dfx
+git remote remove origin &lt;span style="color:#ce5c00;font-weight:bold">&amp;amp;&amp;amp;&lt;/span> git remote add origin git@github.com:Open-Y-subprojects/SOME_MODULE_HERE.git
+git push origin production
+&lt;span style="color:#8f5902;font-style:italic"># Create composer.json on the decoupled repository. Example: https://github.com/ymcatwincities/openy_activity_finder/blob/4.x/composer.json&lt;/span>
+git clone git@github.com:ynorth-projects/distribution.git yn-distribution
+&lt;span style="color:#8f5902;font-style:italic"># Update composer json for distrubution. See below&lt;/span>
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>&lt;a href="https://github.com/ymcatwincities/openy/pull/2288/files#diff-d2ab9925cad7eac58e0ff4cc0d251a937ecf49e4b6bf57f8b95aab76648a9d34R111">Example for Activity Finder&lt;/a>&lt;/p>
+&lt;h1 id="references">References&lt;/h1>
+&lt;ul>
+&lt;li>A useful article for future decoupling - &lt;a href="https://medium.com/@ayushya/move-directory-from-one-repository-to-another-preserving-git-history-d210fa049d4b">Move files from one repository to another, preserving git history&lt;/a>&lt;/li>
+&lt;/ul></description></item><item><title>Docs: Decoupled-(-external-)-projects-of-OpenY</title><link>https://froboy.github.io/openy_docs/docs/wiki/decoupled-external-projects-of-openy/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://froboy.github.io/openy_docs/docs/wiki/decoupled-external-projects-of-openy/</guid><description>
+&lt;h1 id="inventory-of-external-modules-available-via-composer">Inventory of external modules available via Composer&lt;/h1>
+&lt;p>Check all GitHub for the tag &lt;a href="https://github.com/topics/openy-decoupled">&lt;code>openy-decoupled&lt;/code>&lt;/a>&lt;/p>
+&lt;h2 id="github-hosted">GitHub hosted&lt;/h2>
+&lt;ol>
+&lt;li>&lt;a href="https://github.com/ymcatwincities/openy_block_modal">&lt;code>ymcatwincities/openy_block_modal&lt;/code>&lt;/a> - Implements a simple block with a body and title that will be used to display modal windows.&lt;/li>
+&lt;li>&lt;a href="https://github.com/ymcatwincities/openy_memberships">&lt;code>ymcatwincities/openy_memberships&lt;/code>&lt;/a> - Membership Framework for OpenY and Drupal.&lt;/li>
+&lt;li>&lt;a href="https://github.com/ymcatwincities/openy_prgf_sidebar_menu">&lt;code>ymcatwincities/openy_prgf_sidebar_menu&lt;/code>&lt;/a> - SideBar menu for referencing menu blocks and using in SideBars across different pages.&lt;/li>
+&lt;li>&lt;a href="https://github.com/ymcatwincities/openy_loc_filter">&lt;code>ymcatwincities/openy_loc_finder&lt;/code>&lt;/a> - Extended Location Finder&lt;/li>
+&lt;li>&lt;a href="https://github.com/Open-Y-subprojects/reqclique_gxp_sync">&lt;code>Open-Y-subprojects/reqclique_gxp_sync&lt;/code>&lt;/a> - Reqclique Group Exercise Sync&lt;/li>
+&lt;li>&lt;a href="https://github.com/open-y-subprojects/virtual_y_signaling_server">&lt;code>open-y-subprojects/virtual_y_signaling_server&lt;/code>&lt;/a> - Signalling server for Virtual Y&lt;/li>
+&lt;li>&lt;a href="https://github.com/open-y-subprojects/openy_daxko_gxp_syncer">&lt;code>open-y-subprojects/openy_daxko_gxp_syncer&lt;/code>&lt;/a> - Daxko GroupEx PRO v1 API Syncer into Program Event Framework&lt;/li>
+&lt;li>&lt;a href="https://github.com/open-y-subprojects/ynorth_gxp_spots_proxy">&lt;code>open-y-subprojects/ynorth_gxp_spots_proxy&lt;/code>&lt;/a> - Availability Spots Cache Proxy for Groupex PRO embed API Syncer into PEF&lt;/li>
+&lt;li>&lt;a href="https://github.com/open-y-subprojects/openy_node_alert">&lt;code>open-y-subprojects/openy_node_alert&lt;/code>&lt;/a> - Alerts APP for Open Y&lt;/li>
+&lt;li>&lt;a href="https://github.com/open-y-subprojects/openy_focal_point">&lt;code>open-y-subprojects/openy_focal_point&lt;/code>&lt;/a> - Open Y Focal Point routines&lt;/li>
+&lt;li>&lt;a href="https://github.com/open-y-subprojects/shared_content_server">&lt;code>open-y-subprojects/shared_content_server&lt;/code>&lt;/a> - Shared Content Server&lt;/li>
+&lt;li>&lt;a href="https://github.com/ynorth-projects/openy_node_session">&lt;code>ynorth-projects/openy_node_session&lt;/code>&lt;/a> - Open Y Node Session&lt;/li>
+&lt;li>&lt;a href="https://github.com/ynorth-projects/openy_repeat">&lt;code>ynorth-projects/openy_repeat&lt;/code>&lt;/a> - Repeat API for PEF. Schedules APP built in Vue.js&lt;/li>
+&lt;li>&lt;a href="https://github.com/ynorth-projects/openy_pef_gxp_sync">&lt;code>ynorth-projects/openy_pef_gxp_sync&lt;/code>&lt;/a> - Groupex Pro Embed/OpenY Syncer into PEF&lt;/li>
+&lt;li>&lt;a href="https://github.com/ymcatwincities/ymca_sync">&lt;code>ymcatwincities/ymca_sync&lt;/code>&lt;/a> - Syncer backend core&lt;/li>
+&lt;li>&lt;a href="https://github.com/ymcatwincities/openy_activity_finder">&lt;code>ymcatwincities/openy_activity_finder&lt;/code>&lt;/a> - Activity Finder app&lt;/li>
+&lt;li>&lt;a href="https://github.com/ymcatwincities/media_entity_document">&lt;code>ymcatwincities/media_entity_document&lt;/code>&lt;/a> - Media Entity Document&lt;/li>
+&lt;li>&lt;a href="https://github.com/ynorth-projects/openy_prgf_session_table">&lt;code>ynorth-projects/openy_prgf_session_table&lt;/code>&lt;/a> - if you need to present couple of Sessions in a table view without using any complex app like Schedules or Activity Finder&lt;/li>
+&lt;/ol>
+&lt;h2 id="drupalorg-hosted">Drupal.org hosted&lt;/h2>
+&lt;ol>
+&lt;li>&lt;a href="https://www.drupal.org/project/upgrade_tool">&lt;code>drupal/upgrade_tool&lt;/code>&lt;/a> - Open Y Upgrade Tool&lt;/li>
+&lt;li>&lt;a href="https://github.com/ymcatwincities/paragraph_skins">&lt;code>ymcatwincities/paragraph_skins&lt;/code>&lt;/a> - Skins component from OpenY. Decoupled to &lt;a href="https://www.drupal.org/project/paragraph_skins">&lt;code>drupal/paragraph_skins&lt;/code>&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.drupal.org/project/openy_autocomplete_path">&lt;code>drupal/openy_autocomplete_path&lt;/code>&lt;/a> - Open Y Autocomplete Path. Works in Drupal 8 only. Removed from &lt;code>9.*&lt;/code> Open Y releases.&lt;/li>
+&lt;/ol>
+&lt;h2 id="decoupling-mind-map">Decoupling mind-map&lt;/h2>
+&lt;p>&lt;img src="https://user-images.githubusercontent.com/563412/123959435-d540c880-d9b6-11eb-89ed-8af3f21095dd.png" alt="Open Y decoupling">&lt;/p></description></item><item><title>Docs: Dependencies-in-drupal-info.yml</title><link>https://froboy.github.io/openy_docs/docs/wiki/dependencies-in-drupal-info.yml/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://froboy.github.io/openy_docs/docs/wiki/dependencies-in-drupal-info.yml/</guid><description>
+&lt;p>In order to generate &lt;code>composer.json&lt;/code>, Drupal.org defines specific rules in the modules &lt;code>info.yml&lt;/code> file&lt;/p>
+&lt;p>If you need to add a dependency to the Drupal.org module you should provide a format:&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-yml" data-lang="yml">&lt;span style="color:#204a87;font-weight:bold">dependencies&lt;/span>&lt;span style="color:#000;font-weight:bold">:&lt;/span>&lt;span style="color:#f8f8f8;text-decoration:underline">
+&lt;/span>&lt;span style="color:#f8f8f8;text-decoration:underline"> &lt;/span>- &lt;span style="color:#000">drupal:webform&lt;/span>&lt;span style="color:#f8f8f8;text-decoration:underline">
+&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>In this case, your module will have composer dependency to &lt;a href="https://dgo.to/webform">drupal/webform&lt;/a>&lt;/p>
+&lt;p>If you make it:&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-yml" data-lang="yml">&lt;span style="color:#204a87;font-weight:bold">dependencies&lt;/span>&lt;span style="color:#000;font-weight:bold">:&lt;/span>&lt;span style="color:#f8f8f8;text-decoration:underline">
+&lt;/span>&lt;span style="color:#f8f8f8;text-decoration:underline"> &lt;/span>- &lt;span style="color:#000">whatevernameyouwish:webform&lt;/span>&lt;span style="color:#f8f8f8;text-decoration:underline">
+&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>the Drupal.org packaging routine will replace it with &lt;code>drupal:webform&lt;/code> on the fly.&lt;/p>
+&lt;p>In order to break the dependency on composer level but still tell Drupal core to have module dependency while resolving dependencies during the process of enabling the module, you should use the simplified format:&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-yml" data-lang="yml">&lt;span style="color:#204a87;font-weight:bold">dependencies&lt;/span>&lt;span style="color:#000;font-weight:bold">:&lt;/span>&lt;span style="color:#f8f8f8;text-decoration:underline">
+&lt;/span>&lt;span style="color:#f8f8f8;text-decoration:underline"> &lt;/span>- &lt;span style="color:#000">webform&lt;/span>&lt;span style="color:#f8f8f8;text-decoration:underline">
+&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>In the above case, composer won&amp;rsquo;t have any dependencies, but your module will require that the webform module be available in the codebase in order to be enabled by Drupal core.&lt;/p></description></item><item><title>Docs: Deprecate-and-remove-components-from-Open-Y</title><link>https://froboy.github.io/openy_docs/docs/wiki/deprecate-and-remove-components-from-open-y/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://froboy.github.io/openy_docs/docs/wiki/deprecate-and-remove-components-from-open-y/</guid><description>
+&lt;p>Occasionally old code is deprecated from the Open Y codebase. In order to minimize disruption to existing sites, we use the following process:&lt;/p>
+&lt;ol>
+&lt;li>&lt;strong>Decide&lt;/strong> - Before removing components from the distribution we gather feedback from the community to protect active projects from having components accidentally removed. This is accomplished via messaging in the Open Y Slack and discussion on Monthly calls.&lt;/li>
+&lt;li>&lt;strong>Deprecate&lt;/strong> - Once a decision is made, we notify users that the feature will be removed soon. The deprecated component is moved from the &lt;code>Open Y&lt;/code> package group to the &lt;code>Open Y ( Deprecated )&lt;/code> package group. For example: &lt;a href="https://github.com/open-y-subprojects/openy_features/pull/15/files">Deprecate Daxko Program Registration Paragraph&lt;/a>. Deprecation notices are posted in point and quarterly releases of Open Y.&lt;/li>
+&lt;li>&lt;strong>Uninstall&lt;/strong> - Before removing code, components should be uninstalled via an update hook in the distribution and any hard dependencies should be removed. Uninstalls must occur &lt;em>at least one point (fix) release&lt;/em> after the deprecation notice.&lt;/li>
+&lt;li>&lt;strong>Remove&lt;/strong> - Complete removal of the component from the codebase or &lt;code>composer.json&lt;/code> should happen &lt;em>at least one quarterly (feature) release&lt;/em> after the deprecation notice.&lt;/li>
+&lt;/ol>
+&lt;p>Additionally, the following housekeeping steps should be taken when deprecating a component:&lt;/p>
+&lt;ol>
+&lt;li>The release where the deprecated component has been uninstalled should be added to the &lt;a href="https://github.com/ymcatwincities/openy/wiki/Important-versions-for-upgrade-path">important versions document&lt;/a> in the Wiki.&lt;/li>
+&lt;li>Code should be decoupled to external GitHub repositories with all history of commits, marked as &lt;code>openy-decoupled&lt;/code>, and archived.&lt;/li>
+&lt;/ol></description></item><item><title>Docs: Development-FAQ</title><link>https://froboy.github.io/openy_docs/docs/wiki/development-faq/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://froboy.github.io/openy_docs/docs/wiki/development-faq/</guid><description>
+&lt;h1 id="open-y-developer-faq">Open Y Developer FAQ&lt;/h1>
+&lt;h2 id="local-development">Local Development&lt;/h2>
+&lt;h3 id="getting-started-with-a-local-environment">Getting started with a local environment&lt;/h3>
+&lt;p>To start developing you need to obtain the latest Open Y codebase. See the &lt;a href="https://github.com/ymcatwincities/openy-project#latest-development-version-drupal-9-2x">&lt;code>openy-project&lt;/code> repository&lt;/a> for the full process.&lt;/p>
+&lt;p>&lt;a href="https://www.youtube.com/watch?v=jRlinjpTl0c">This video tutorial&lt;/a> will walk you through how to initiate a local development environment.&lt;/p>
+&lt;p>The Open Y team has pre-built environments and walkthroughs using either &lt;a href="https://github.com/ymcatwincities/openy-cibox-vm#drupal-vagrant-dev-box-for-openy-support">Vagrant and VirtualBox&lt;/a> or &lt;a href="https://github.com/ymcatwincities/openy-docksal#get-started">Docker and Docksal&lt;/a>. Choose the method that you&amp;rsquo;re most comfortable with and get started!&lt;/p>
+&lt;h3 id="gathering-information-about-your-local-environment">Gathering information about your local environment&lt;/h3>
+&lt;p>To best troubleshoot issues, it&amp;rsquo;s helpful for the Open Y team to have as much information about your environment as possible. Before you ask for help, watch this tutorial on &lt;a href="https://www.youtube.com/watch?v=01y617maeBE">how to gather that information&lt;/a>.&lt;/p>
+&lt;h3 id="debugging-with-xdebug-in-your-local">Debugging with Xdebug in your local&lt;/h3>
+&lt;p>The Docksal project maintains detailed information for &lt;a href="https://docs.docksal.io/tools/xdebug/">using Xdebug with VSCode, PHPStorm, and more&lt;/a>.&lt;/p>
+&lt;h2 id="contributing">Contributing&lt;/h2>
+&lt;h3 id="who-should-i-specify-for-review">Who should I specify for review?&lt;/h3>
+&lt;p>We have a best practice to get at least 2 independent reviews before merging code. Please request a review from the Open Y Lead Technical Architect (Andrii Podanenko, &lt;code>@podarok&lt;/code>) and somebody else (from your team or another Open Y partner).&lt;/p>
+&lt;h3 id="who-is-responsible-for-merging">Who is responsible for merging?&lt;/h3>
+&lt;p>The Open Y Lead Technical Architect (Andrii Podanenko, &lt;code>@podarok&lt;/code>) is responsible for final approval, merging, and release management on the Open Y project.&lt;/p>
+&lt;h3 id="what-labels-in-prs-should-i-use">What labels in PRs should I use?&lt;/h3>
+&lt;h3 id="what-milestone-should-i-specify">What milestone should I specify?&lt;/h3>
+&lt;h3 id="why-i-cant-add-labels-or-specify-milestones">Why I can&amp;rsquo;t add labels or specify milestones?&lt;/h3>
+&lt;p>All of these require you to be granted Contributor access to the Open Y GitHub repository. Contact the Open Y Lead Technical Architect (Andrii Podanenko, &lt;code>@podarok&lt;/code>) to get access. Labels are usually set by the Open Y Core Team.&lt;/p>
+&lt;h3 id="why-are-the-steps-for-review-in-pull-requests-so-important">Why are the steps for review in Pull Requests so important?&lt;/h3>
+&lt;p>When you send your code for review our team must know both how to review the code and what to test to verify the functionality. You are the only source of truth for how to check functionality. Adding steps for review will help the reviewer and QA team to verify that the issue is resolved.&lt;/p>
+&lt;h3 id="why-should-i-add-a-reference-to-the-github-issue-in-my-pr-description">Why should I add a reference to the GitHub issue in my PR description?&lt;/h3>
+&lt;p>As we are a community-led project, there may be a long time between creating an issue and resolving it in a Pull Request. The reviewer should be able to understand the context and possible discussion around the issue to be resolved with your PR. The more context we have, the better and faster we can review the request.&lt;/p>
+&lt;h3 id="in-what-format-should-i-add-commits-should-i-add-internal-jira-task-id-or-github-issue">In what format should I add commits, should I add internal Jira task ID or GitHub issue?&lt;/h3>
+&lt;p>It is important to make commit messages with some sort of sense for the human to read them when digging back in history. Adding any task identifications from the project management system is allowed.&lt;/p>
+&lt;h3 id="what-is-the-deepcode-bot">What is the &amp;ldquo;DeepCode&amp;rdquo; bot?&lt;/h3>
+&lt;p>DeepCode bot is the automated, machine learning code review system that analyses huge amounts of GitHub repositories and is sometimes useful to find common issues before humans do reviews. It is helpful, but not always necessary to fix issues found by the DeepCode bot because sometimes it fails. If you see a comment be sure to read the report. If the report makes sense, then fix the issue suggested by the bot.&lt;/p>
+&lt;h2 id="build-automation--ci">Build Automation &amp;amp; CI&lt;/h2>
+&lt;h3 id="what-ci-processes-does-open-y-have-in-place">What CI processes does Open Y have in place?&lt;/h3>
+&lt;p>To get a fully working Open Y site for the code change you are about to push for review there is a build generating system installed for the Open Y GitHub repository that automatically generates a dedicated temporary website with your changes applied.&lt;/p>
+&lt;h2 id="why-are-some-builds-created-automatically-and-some-not">Why are some builds created automatically and some not?&lt;/h2>
+&lt;p>By default, builds are configured for trusted users, so if you are getting a message from the bot like&lt;/p>
+&lt;blockquote>
+&lt;p>&amp;ldquo;Can one of the admins verify this patch? Use &amp;ldquo;o+k to test&amp;rdquo; or &amp;lsquo;&amp;rsquo;t+est this please&amp;rdquo; for manual build execution.&amp;quot;&lt;/p>
+&lt;/blockquote>
+&lt;p>then your username is not in the allowlist and somebody from the Open Y Core Team can comment to initiate a build for you. Contact &lt;code>@podarok&lt;/code> to get your build generated or your name added to the allowlist.&lt;/p>
+&lt;h3 id="how-do-i-create-a-build-for-my-pr">How do I create a build for my PR?&lt;/h3>
+&lt;p>If you are on the allowlist then simply create a Pull Request from your fork to the Open Y repository. After up to 30 minutes you&amp;rsquo;ll receive comments with links to the generated site builds.&lt;/p>
+&lt;h3 id="when-are-builds-deleted-from-the-server">When are builds deleted from the server?&lt;/h3>
+&lt;p>Usually, you have a day for the build to be wiped out from the server. If there is an upcoming deadline and many PRs are coming in, the lifetime could be significantly shorter, down to a couple of hours.&lt;/p>
+&lt;h3 id="who-should-i-contact-to-get-logs-from-the-build-server">Who should I contact to get logs from the build server?&lt;/h3>
+&lt;p>Andrii Podanenko &lt;code>@podarok&lt;/code> or Dima Danylevskyi &lt;code>@danylevskyi&lt;/code>&lt;/p>
+&lt;h3 id="what-should-i-do-if-tests-fail">What should I do if tests fail?&lt;/h3>
+&lt;p>If you have any concerns with reports generated by the code checkers that are used in Open Y ask Open Y Lead Technical Architect Andrii Podanenko to get them resolved. The majority of these systems are works-in-progress and it is helpful to have feedback on them.&lt;/p>
+&lt;h2 id="how-do-i-install-open-y-on-pantheon-hosting">How do I install Open Y on Pantheon hosting&lt;/h2>
+&lt;p>See &lt;a href="https://github.com/ymcatwincities/openy/issues/2004">request from a community&lt;/a>. The solution is described in &lt;a href="https://pantheon.io/docs/nested-docroot">Pantheon&amp;rsquo;s documentation on nested docroots&lt;/a>. We suggest that you maintain your own &lt;code>composer.json&lt;/code> with the specified web-root directory, as described in the &lt;a href="https://github.com/pantheon-systems/example-drops-8-composer/blob/master/composer.json#L94">Pantheon examples&lt;/a>.&lt;/p></description></item><item><title>Docs: Drupal-9-core-dependencies-version-flexibility</title><link>https://froboy.github.io/openy_docs/docs/wiki/drupal-9-core-dependencies-version-flexibility/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://froboy.github.io/openy_docs/docs/wiki/drupal-9-core-dependencies-version-flexibility/</guid><description>
+&lt;p>This document is no longer updated.&lt;/p>
+&lt;p>To update the version of Drupal being used on your site independent of Open Y see &lt;a href="https://www.drupal.org/docs/updating-drupal/updating-drupal-core-via-composer">Updating Drupal Core via Composer&lt;/a>. Be aware that &lt;code>openy/composer.json&lt;/code> may set &lt;a href="https://github.com/ymcatwincities/openy/blob/9.x-2.x/composer.json#:~:text=%22drupal/-,core%2Drecommended,-%22%3A%20%22%3E%3D9.1%2C%20%3C9.3%22%2C">Drupal core version constraints&lt;/a>.&lt;/p>
+&lt;hr>
+&lt;p>February 2021 release tagged Drupal core both 9.0.x and 9.1.x as allowed to be used.&lt;/p>
+&lt;p>Composer by default is installing the latest stable version, so a command&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-bash" data-lang="bash">composer create-project ymcatwincities/openy-project:dev-9.2.x-development OPENY --no-interaction
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>will install Open Y on latest 9.1.x Drupal core.&lt;/p>
+&lt;p>If there is a need to stay on Drupal 9.0.x stable core please use&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-bash" data-lang="bash">composer create-project ymcatwincities/openy-project:dev-9.2.x-development OPENY --no-interaction
+&lt;span style="color:#204a87">cd&lt;/span> OPENY
+composer require drupal/core:~9.0.7
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>where 9.0.7 - is a needed version for your Open Y instance&lt;/p>
+&lt;p>For modules see &lt;a href="https://froboy.github.io/openy_docs/openy_docs/docs/wiki/composer-version-constraints-for-open-y/">Composer-version-constraints-for-Open-Y&lt;/a>&lt;/p></description></item><item><title>Docs: Facility</title><link>https://froboy.github.io/openy_docs/docs/content-structure/content-types/facility/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://froboy.github.io/openy_docs/docs/content-structure/content-types/facility/</guid><description>
 &lt;h1 id="facility">Facility&lt;/h1>
 &lt;p>Facility content type is used for adding facilities on the site.&lt;/p>
 &lt;h3 id="fields">Fields&lt;/h3>
@@ -1818,97 +2158,6 @@ As an Open Y site developer, I want to be able import posts from company&amp;rsq
 &lt;td>field_fnews_posts&lt;/td>
 &lt;td>Yes&lt;/td>
 &lt;td>Multiple values. Reference field to News posts.&lt;/td>
-&lt;/tr>
-&lt;/tbody>
-&lt;/table></description></item><item><title>Docs: Flexible</title><link>https://froboy.github.io/openy_docs/docs/content-structure/blocks/flexible/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://froboy.github.io/openy_docs/docs/content-structure/blocks/flexible/</guid><description>
-&lt;h1 id="block-flexible-content">Block Flexible Content&lt;/h1>
-&lt;p>A block with amenities list of the current branch.&lt;/p>
-&lt;h3 id="fields">Fields&lt;/h3>
-&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th>Name&lt;/th>
-&lt;th>Machine name&lt;/th>
-&lt;th>Required&lt;/th>
-&lt;th>Description&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td>Node reference&lt;/td>
-&lt;td>field_node_ref&lt;/td>
-&lt;td>Yes&lt;/td>
-&lt;td>Provide reference to Node .&lt;/td>
-&lt;/tr>
-&lt;/tbody>
-&lt;/table></description></item><item><title>Docs: Fonts</title><link>https://froboy.github.io/openy_docs/docs/development/fonts/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://froboy.github.io/openy_docs/docs/development/fonts/</guid><description>
-&lt;p>#Fonts&lt;/p>
-&lt;p>The majority of the fonts used by the Open Y distribution are freely available, except for Cachet.&lt;/p>
-&lt;p>Helvetica is used for paragraph text, with Verdana as a fallback. Page titles, headers, highlighted text, etc, use Cachet, with Ubuntu Condensed as a fallback.&lt;/p>
-&lt;p>The font definitions in the distribution&amp;rsquo;s main theme, Open Y Rose, are set to use Cachet, but fallback to Ubuntu Condensed if the font is not present.&lt;/p>
-&lt;pre>&lt;code>font-family: &amp;quot;Cachet W01 Bold&amp;quot;, 'Ubuntu Condensed', sans-serif;
-&lt;/code>&lt;/pre>
-&lt;h2 id="ubuntu-condensed">Ubuntu Condensed&lt;/h2>
-&lt;p>Ubuntu Condensed is a free font available from Google Fonts, &lt;a href="https://fonts.google.com/specimen/Ubuntu+Condensed">https://fonts.google.com/specimen/Ubuntu+Condensed&lt;/a> .&lt;/p>
-&lt;p>If you look at the openy_rose.libraries.yml file you can see Ubunutu Condensed is already linked as part of the theme.&lt;/p>
-&lt;pre>&lt;code>global-styling:
-css:
-base:
-//fonts.googleapis.com/css?family=Ubuntu+Condensed:400,700: {}
-&lt;/code>&lt;/pre>
-&lt;h2 id="cachet">Cachet&lt;/h2>
-&lt;p>Cachet, specifically &amp;ldquo;Cachet W01 Medium&amp;rdquo;, is part of the YMCA styleguide. It is a commercial font, and must be purchased for individual sites. It cannot be distributed as part of the Open Y distribution or hosted on Drupal.org.&lt;/p>
-&lt;p>The font can be purchased from fonts.com, &lt;a href="https://www.fonts.com/font/monotype/cachet/book">https://www.fonts.com/font/monotype/cachet/book&lt;/a> .&lt;/p>
-&lt;h2 id="installing-cachet">Installing Cachet&lt;/h2>
-&lt;p>There are a number of ways to get Cachet setup on your site. As long as the font gets linked in the page it should get used, since it is already part of the font declarations.&lt;/p>
-&lt;p>If you purchase Cachet from fonts.com, add the URL you are provided to the global-styling library in openy_rose.libraries.yml, right where Ubuntu Condensed is linked.&lt;/p>
-&lt;pre>&lt;code> css:
-base:
-//fast.fonts.net/cssapi/abcdef-12345-tuvwxyx-67890.css: {}
-//fonts.googleapis.com/css?family=Ubuntu+Condensed:400,700: {}
-&lt;/code>&lt;/pre>
-&lt;p>You may also need to add a JavaScript file provided by fonts.com. You can add that in the same global-styling library.&lt;/p>
-&lt;pre>&lt;code>js:
-//fast.fonts.net/jsapi/12345-abcdef-67890.js: {}
-&lt;/code>&lt;/pre>
-&lt;p>Another option is to use the @font-your-face Drupal module, &lt;a href="https://www.drupal.org/project/fontyourface">https://www.drupal.org/project/fontyourface&lt;/a> .&lt;/p>
-&lt;p>Once installed you can connect your Drupal site to your font.com account, or one of the other font providers, and have the font automatically retrieved and added to your site. Follow the directions provided by the module to connect to your font provider account.)&lt;/p></description></item><item><title>Docs: Gallery</title><link>https://froboy.github.io/openy_docs/docs/content-structure/paragraphs/gallery/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://froboy.github.io/openy_docs/docs/content-structure/paragraphs/gallery/</guid><description>
-&lt;h1 id="gallery">Gallery&lt;/h1>
-&lt;p>This is a paragraph type that will be used for the gallery content.&lt;/p>
-&lt;h3 id="fields">Fields&lt;/h3>
-&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th>Name&lt;/th>
-&lt;th>Machine name&lt;/th>
-&lt;th>Required&lt;/th>
-&lt;th>Description&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td>Headline&lt;/td>
-&lt;td>field_prgf_headline&lt;/td>
-&lt;td>Yes&lt;/td>
-&lt;td>Headline of the gallery.&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>Description&lt;/td>
-&lt;td>field_prgf_description&lt;/td>
-&lt;td>No&lt;/td>
-&lt;td>WYSIWYG field without summary.&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>Link&lt;/td>
-&lt;td>field_prgf_link&lt;/td>
-&lt;td>No&lt;/td>
-&lt;td>Link field that should store internal and external links.&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>Images&lt;/td>
-&lt;td>field_prgf_images&lt;/td>
-&lt;td>No&lt;/td>
-&lt;td>Entityreference to media image. Multiple values.&lt;/td>
 &lt;/tr>
 &lt;/tbody>
 &lt;/table></description></item></channel></rss>

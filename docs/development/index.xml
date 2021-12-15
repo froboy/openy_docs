@@ -1,6 +1,4 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Open Y – Development</title><link>https://froboy.github.io/openy_docs/docs/development/</link><description>Recent content in Development on Open Y</description><generator>Hugo -- gohugo.io</generator><atom:link href="https://froboy.github.io/openy_docs/docs/development/index.xml" rel="self" type="application/rss+xml"/><item><title>Docs:</title><link>https://froboy.github.io/openy_docs/docs/development/readme/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://froboy.github.io/openy_docs/docs/development/readme/</guid><description>
-&lt;p>Welcome to the development corner of the Open Y distribution.&lt;/p>
-&lt;p>Here you can find all needed documentation and how-to work with Open Y codebase from developer&amp;rsquo;s point of view.&lt;/p></description></item><item><title>Docs: AcceptanceTesting</title><link>https://froboy.github.io/openy_docs/docs/development/acceptancetesting/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://froboy.github.io/openy_docs/docs/development/acceptancetesting/</guid><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Open Y – Development</title><link>https://froboy.github.io/openy_docs/docs/development/</link><description>Recent content in Development on Open Y</description><generator>Hugo -- gohugo.io</generator><atom:link href="https://froboy.github.io/openy_docs/docs/development/index.xml" rel="self" type="application/rss+xml"/><item><title>Docs: AcceptanceTesting</title><link>https://froboy.github.io/openy_docs/docs/development/acceptancetesting/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://froboy.github.io/openy_docs/docs/development/acceptancetesting/</guid><description>
 &lt;h3 id="open-y-acceptance-testing-best-practices">Open Y Acceptance testing best practices&lt;/h3>
 &lt;p>Open Y is a big distribution with a large amount of modules, components, subsystems, and business
 processes, therefore we have to take appropriate steps to ensure the stability of major functionality during development.&lt;/p>
@@ -77,8 +75,8 @@ request, on every CI build in the future.&lt;/p>
 &lt;h1 id="composer">Composer&lt;/h1>
 &lt;p>Please always make sure &lt;code>composer.lock&lt;/code> file is updated after any changes in &lt;code>composer.json&lt;/code> file.
 You can use &lt;code>composer update&lt;/code> command to update any package, in this case composer will take care about updating of &lt;code>composer.lock&lt;/code> file.&lt;/p>
-&lt;pre tabindex="0">&lt;code>composer update drupal/metatag
-&lt;/code>&lt;/pre>&lt;p>Also you can use &lt;code>composer update --lock&lt;/code> command to force updating of &lt;code>composer.lock&lt;/code> file according to dependencies in &lt;code>composer.json&lt;/code>.&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-fallback" data-lang="fallback">composer update drupal/metatag
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>Also you can use &lt;code>composer update --lock&lt;/code> command to force updating of &lt;code>composer.lock&lt;/code> file according to dependencies in &lt;code>composer.json&lt;/code>.&lt;/p>
 &lt;p>Please check official composer documentation for details: &lt;a href="https://getcomposer.org/doc/01-basic-usage.md">https://getcomposer.org/doc/01-basic-usage.md&lt;/a>)&lt;/p></description></item><item><title>Docs: Configuration for social posts import</title><link>https://froboy.github.io/openy_docs/docs/development/configuration-for-social-posts-import/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://froboy.github.io/openy_docs/docs/development/configuration-for-social-posts-import/</guid><description>
 &lt;p>Add import social posts to site (Facebook, Instagram, Twitter)&lt;/p>
 &lt;h3 id="how-configure-import-of-posts-from-the-social-networks">How configure import of posts from the social networks&lt;/h3>
@@ -349,31 +347,31 @@ Upon installation, the modules create a Landing page for search results and poin
 &lt;p>&lt;a href="https://developers.google.com/custom-search/docs/overview">Google Custom Search Developers documentation &lt;/a>&lt;/p>
 &lt;h3 id="enabling-via-drush">Enabling via Drush&lt;/h3>
 &lt;p>Use the following snippet to enable the package on existing websites:&lt;/p>
-&lt;pre tabindex="0">&lt;code>drush en openy_google_search
-&lt;/code>&lt;/pre>&lt;h3 id="configuring-the-module-via-drush">Configuring the module via Drush&lt;/h3>
+&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-fallback" data-lang="fallback">drush en openy_google_search
+&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="configuring-the-module-via-drush">Configuring the module via Drush&lt;/h3>
 &lt;p>Use the following snippet when you install Open Y via Drush to set the Search Engine ID:&lt;/p>
-&lt;pre tabindex="0">&lt;code>drush site-install openy \
+&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-fallback" data-lang="fallback">drush site-install openy \
 --account-pass=password \
---db-url=&amp;quot;mysql://user:pass@host:3306/db&amp;quot; \
+--db-url=&amp;#34;mysql://user:pass@host:3306/db&amp;#34; \
 --root=/var/www/docroot \
 openy_configure_profile.preset=extended \
 openy_theme_select.theme=openy_rose \
-openy_third_party_services.google_search_engine_id=&amp;quot;01234567890123456789:abcedefgh&amp;quot;
-&lt;/code>&lt;/pre>&lt;p>The &lt;code>openy_third_party_services.google_search_engine_id&lt;/code> parameter sets the Search Engine ID (&lt;code>01234567890123456789:abcedefgh&lt;/code> in the example).&lt;/p>
+openy_third_party_services.google_search_engine_id=&amp;#34;01234567890123456789:abcedefgh&amp;#34;
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>The &lt;code>openy_third_party_services.google_search_engine_id&lt;/code> parameter sets the Search Engine ID (&lt;code>01234567890123456789:abcedefgh&lt;/code> in the example).&lt;/p>
 &lt;p>Use the following snippet to set the Search Engine ID on already installed websites:&lt;/p>
-&lt;pre tabindex="0">&lt;code>drush config-set openy_google_search.settings google_engine_id &amp;quot;01234567890123456789:abcedefgh&amp;quot;
+&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-fallback" data-lang="fallback">drush config-set openy_google_search.settings google_engine_id &amp;#34;01234567890123456789:abcedefgh&amp;#34;
 ```)
-&lt;/code>&lt;/pre></description></item><item><title>Docs: InstallationWithDrush</title><link>https://froboy.github.io/openy_docs/docs/development/installationwithdrush/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://froboy.github.io/openy_docs/docs/development/installationwithdrush/</guid><description>
+&lt;/code>&lt;/pre>&lt;/div></description></item><item><title>Docs: InstallationWithDrush</title><link>https://froboy.github.io/openy_docs/docs/development/installationwithdrush/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://froboy.github.io/openy_docs/docs/development/installationwithdrush/</guid><description>
 &lt;h3 id="site-installation-with-drush">Site installation with drush&lt;/h3>
 &lt;p>Use &lt;a href="https://drushcommands.com/drush-8x/core/site-install/">drush site-install&lt;/a> command.&lt;/p>
 &lt;p>Basically you use something like this:&lt;/p>
-&lt;pre tabindex="0">&lt;code>drush site-install openy --account-pass=password --db-url=&amp;quot;mysql://user:pass@host:3306/db&amp;quot; --root=/var/www/docroot
-&lt;/code>&lt;/pre>&lt;p>Complete Open Y profile preset and Open Y Rose theme is used in this case.&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-fallback" data-lang="fallback">drush site-install openy --account-pass=password --db-url=&amp;#34;mysql://user:pass@host:3306/db&amp;#34; --root=/var/www/docroot
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>Complete Open Y profile preset and Open Y Rose theme is used in this case.&lt;/p>
 &lt;p>You can set which preset must be installed by specifying it with &lt;code>openy_configure_profile.preset&lt;/code> variable, and theme with
 &lt;code>openy_theme_select.theme&lt;/code>variable e.g.:&lt;/p>
-&lt;pre tabindex="0">&lt;code>drush site-install openy --account-pass=password --db-url=&amp;quot;mysql://user:pass@host:3306/db&amp;quot; --root=/var/www/docroot openy_configure_profile.preset=extended openy_theme_select.theme=openy_rose
+&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-fallback" data-lang="fallback">drush site-install openy --account-pass=password --db-url=&amp;#34;mysql://user:pass@host:3306/db&amp;#34; --root=/var/www/docroot openy_configure_profile.preset=extended openy_theme_select.theme=openy_rose
 ```)
-&lt;/code>&lt;/pre></description></item><item><title>Docs: Module Develompent</title><link>https://froboy.github.io/openy_docs/docs/development/module-develompent/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://froboy.github.io/openy_docs/docs/development/module-develompent/</guid><description>
+&lt;/code>&lt;/pre>&lt;/div></description></item><item><title>Docs: Module Develompent</title><link>https://froboy.github.io/openy_docs/docs/development/module-develompent/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://froboy.github.io/openy_docs/docs/development/module-develompent/</guid><description>
 &lt;h3 id="module-content-removal">Module content removal&lt;/h3>
 &lt;p>When deleting an entity, where plugins or services of removing module are used,
 then content removal should be done in the hook_uninstall() of that module.
@@ -393,25 +391,25 @@ Open Y release.&lt;/li>
 and you have configured &lt;code>composer.json&lt;/code> you need just to do a few simple steps:&lt;/p>
 &lt;ol>
 &lt;li>Build a link to a patch using pull request ID
-&lt;pre tabindex="0">&lt;code>https://patch-diff.githubusercontent.com/raw/ymcatwincities/openy/pull/XXX.patch
-&lt;/code>&lt;/pre>&lt;/li>
+&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-fallback" data-lang="fallback">https://patch-diff.githubusercontent.com/raw/ymcatwincities/openy/pull/XXX.patch
+&lt;/code>&lt;/pre>&lt;/div>&lt;/li>
 &lt;/ol>
 &lt;p>Where XXX is a number of pull request you want to use.&lt;/p>
 &lt;ol start="2">
 &lt;li>Add a new section &lt;code>patches&lt;/code> to the section &lt;code>extra&lt;/code> and add a patch to Open Y
 repository, as on this example:
-&lt;pre tabindex="0">&lt;code>&amp;quot;extra&amp;quot;: {
-&amp;quot;installer-paths&amp;quot;: {
+&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-fallback" data-lang="fallback">&amp;#34;extra&amp;#34;: {
+&amp;#34;installer-paths&amp;#34;: {
 ...
 },
-&amp;quot;enable-patching&amp;quot;: true,
-&amp;quot;patches&amp;quot;: {
-&amp;quot;ymcatwincities/openy&amp;quot;: {
-&amp;quot;Patch description&amp;quot;: &amp;quot;https://patch-diff.githubusercontent.com/raw/ymcatwincities/openy/pull/XXX.patch&amp;quot;
+&amp;#34;enable-patching&amp;#34;: true,
+&amp;#34;patches&amp;#34;: {
+&amp;#34;ymcatwincities/openy&amp;#34;: {
+&amp;#34;Patch description&amp;#34;: &amp;#34;https://patch-diff.githubusercontent.com/raw/ymcatwincities/openy/pull/XXX.patch&amp;#34;
 }
 }
 }
-&lt;/code>&lt;/pre>&lt;/li>
+&lt;/code>&lt;/pre>&lt;/div>&lt;/li>
 &lt;li>After adding a patch execute command &lt;code>composer update&lt;/code>&lt;/li>
 &lt;li>Verify you can see added changes in Open Y&lt;/li>
 &lt;li>Enjoy!)&lt;/li>
@@ -476,192 +474,192 @@ repository, as on this example:
 &lt;p>Please take a look at the full &lt;code>composer.json&lt;/code> file below that you should eventually get.&lt;/p>
 &lt;details>
  &lt;summary>&lt;strong>Example composer.json (Drupal 8.3.2 + Open Y 1.2)&lt;/strong>&lt;/summary>
-&lt;pre tabindex="0">&lt;code>{
-&amp;quot;name&amp;quot;: &amp;quot;drupal/drupal&amp;quot;,
-&amp;quot;description&amp;quot;: &amp;quot;Drupal is an open source content management platform powering millions of websites and applications.&amp;quot;,
-&amp;quot;type&amp;quot;: &amp;quot;project&amp;quot;,
-&amp;quot;license&amp;quot;: &amp;quot;GPL-2.0+&amp;quot;,
-&amp;quot;require&amp;quot;: {
-&amp;quot;composer/installers&amp;quot;: &amp;quot;^1.0.24&amp;quot;,
-&amp;quot;wikimedia/composer-merge-plugin&amp;quot;: &amp;quot;~1.4&amp;quot;,
-&amp;quot;ymcatwincities/openy&amp;quot;: &amp;quot;8.*.*&amp;quot;,
-&amp;quot;cweagans/composer-patches&amp;quot;: &amp;quot;~1.0&amp;quot;
+&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-fallback" data-lang="fallback">{
+&amp;#34;name&amp;#34;: &amp;#34;drupal/drupal&amp;#34;,
+&amp;#34;description&amp;#34;: &amp;#34;Drupal is an open source content management platform powering millions of websites and applications.&amp;#34;,
+&amp;#34;type&amp;#34;: &amp;#34;project&amp;#34;,
+&amp;#34;license&amp;#34;: &amp;#34;GPL-2.0+&amp;#34;,
+&amp;#34;require&amp;#34;: {
+&amp;#34;composer/installers&amp;#34;: &amp;#34;^1.0.24&amp;#34;,
+&amp;#34;wikimedia/composer-merge-plugin&amp;#34;: &amp;#34;~1.4&amp;#34;,
+&amp;#34;ymcatwincities/openy&amp;#34;: &amp;#34;8.*.*&amp;#34;,
+&amp;#34;cweagans/composer-patches&amp;#34;: &amp;#34;~1.0&amp;#34;
 },
-&amp;quot;minimum-stability&amp;quot;: &amp;quot;dev&amp;quot;,
-&amp;quot;prefer-stable&amp;quot;: true,
-&amp;quot;config&amp;quot;: {
-&amp;quot;preferred-install&amp;quot;: &amp;quot;dist&amp;quot;,
-&amp;quot;autoloader-suffix&amp;quot;: &amp;quot;Drupal8&amp;quot;,
-&amp;quot;secure-http&amp;quot;: false
+&amp;#34;minimum-stability&amp;#34;: &amp;#34;dev&amp;#34;,
+&amp;#34;prefer-stable&amp;#34;: true,
+&amp;#34;config&amp;#34;: {
+&amp;#34;preferred-install&amp;#34;: &amp;#34;dist&amp;#34;,
+&amp;#34;autoloader-suffix&amp;#34;: &amp;#34;Drupal8&amp;#34;,
+&amp;#34;secure-http&amp;#34;: false
 },
-&amp;quot;extra&amp;quot;: {
-&amp;quot;_readme&amp;quot;: [
-&amp;quot;By default Drupal loads the autoloader from ./vendor/autoload.php.&amp;quot;,
-&amp;quot;To change the autoloader you can edit ./autoload.php.&amp;quot;,
-&amp;quot;This file specifies the packages.drupal.org repository.&amp;quot;,
-&amp;quot;You can read more about this composer repository at:&amp;quot;,
-&amp;quot;https://www.drupal.org/node/2718229&amp;quot;
+&amp;#34;extra&amp;#34;: {
+&amp;#34;_readme&amp;#34;: [
+&amp;#34;By default Drupal loads the autoloader from ./vendor/autoload.php.&amp;#34;,
+&amp;#34;To change the autoloader you can edit ./autoload.php.&amp;#34;,
+&amp;#34;This file specifies the packages.drupal.org repository.&amp;#34;,
+&amp;#34;You can read more about this composer repository at:&amp;#34;,
+&amp;#34;https://www.drupal.org/node/2718229&amp;#34;
 ],
-&amp;quot;merge-plugin&amp;quot;: {
-&amp;quot;include&amp;quot;: [
-&amp;quot;core/composer.json&amp;quot;
+&amp;#34;merge-plugin&amp;#34;: {
+&amp;#34;include&amp;#34;: [
+&amp;#34;core/composer.json&amp;#34;
 ],
-&amp;quot;recurse&amp;quot;: false,
-&amp;quot;replace&amp;quot;: false,
-&amp;quot;merge-extra&amp;quot;: false
+&amp;#34;recurse&amp;#34;: false,
+&amp;#34;replace&amp;#34;: false,
+&amp;#34;merge-extra&amp;#34;: false
 },
-&amp;quot;installer-paths&amp;quot;: {
-&amp;quot;core&amp;quot;: [&amp;quot;type:drupal-core&amp;quot;],
-&amp;quot;libraries/{$name}&amp;quot;: [&amp;quot;type:drupal-library&amp;quot;],
-&amp;quot;modules/contrib/{$name}&amp;quot;: [&amp;quot;type:drupal-module&amp;quot;],
-&amp;quot;profiles/contrib/{$name}&amp;quot;: [&amp;quot;type:drupal-profile&amp;quot;],
-&amp;quot;themes/contrib/{$name}&amp;quot;: [&amp;quot;type:drupal-theme&amp;quot;],
-&amp;quot;drush/contrib/{$name}&amp;quot;: [&amp;quot;type:drupal-drush&amp;quot;],
-&amp;quot;modules/custom/{$name}&amp;quot;: [&amp;quot;type:drupal-custom-module&amp;quot;],
-&amp;quot;themes/custom/{$name}&amp;quot;: [&amp;quot;type:drupal-custom-theme&amp;quot;]
+&amp;#34;installer-paths&amp;#34;: {
+&amp;#34;core&amp;#34;: [&amp;#34;type:drupal-core&amp;#34;],
+&amp;#34;libraries/{$name}&amp;#34;: [&amp;#34;type:drupal-library&amp;#34;],
+&amp;#34;modules/contrib/{$name}&amp;#34;: [&amp;#34;type:drupal-module&amp;#34;],
+&amp;#34;profiles/contrib/{$name}&amp;#34;: [&amp;#34;type:drupal-profile&amp;#34;],
+&amp;#34;themes/contrib/{$name}&amp;#34;: [&amp;#34;type:drupal-theme&amp;#34;],
+&amp;#34;drush/contrib/{$name}&amp;#34;: [&amp;#34;type:drupal-drush&amp;#34;],
+&amp;#34;modules/custom/{$name}&amp;#34;: [&amp;#34;type:drupal-custom-module&amp;#34;],
+&amp;#34;themes/custom/{$name}&amp;#34;: [&amp;#34;type:drupal-custom-theme&amp;#34;]
 },
-&amp;quot;enable-patching&amp;quot;: true
+&amp;#34;enable-patching&amp;#34;: true
 },
-&amp;quot;autoload&amp;quot;: {
-&amp;quot;psr-4&amp;quot;: {
-&amp;quot;Drupal\Core\Composer\&amp;quot;: &amp;quot;core/lib/Drupal/Core/Composer&amp;quot;
+&amp;#34;autoload&amp;#34;: {
+&amp;#34;psr-4&amp;#34;: {
+&amp;#34;Drupal\Core\Composer\&amp;#34;: &amp;#34;core/lib/Drupal/Core/Composer&amp;#34;
 }
 },
-&amp;quot;scripts&amp;quot;: {
-&amp;quot;pre-autoload-dump&amp;quot;: &amp;quot;Drupal\Core\Composer\Composer::preAutoloadDump&amp;quot;,
-&amp;quot;post-autoload-dump&amp;quot;: [
-&amp;quot;Drupal\Core\Composer\Composer::ensureHtaccess&amp;quot;
+&amp;#34;scripts&amp;#34;: {
+&amp;#34;pre-autoload-dump&amp;#34;: &amp;#34;Drupal\Core\Composer\Composer::preAutoloadDump&amp;#34;,
+&amp;#34;post-autoload-dump&amp;#34;: [
+&amp;#34;Drupal\Core\Composer\Composer::ensureHtaccess&amp;#34;
 ],
-&amp;quot;post-package-install&amp;quot;: &amp;quot;Drupal\Core\Composer\Composer::vendorTestCodeCleanup&amp;quot;,
-&amp;quot;post-package-update&amp;quot;: &amp;quot;Drupal\Core\Composer\Composer::vendorTestCodeCleanup&amp;quot;,
-&amp;quot;post-install-cmd&amp;quot;: [
-&amp;quot;bash scripts/remove_vendor_git_folders.sh || :&amp;quot;
+&amp;#34;post-package-install&amp;#34;: &amp;#34;Drupal\Core\Composer\Composer::vendorTestCodeCleanup&amp;#34;,
+&amp;#34;post-package-update&amp;#34;: &amp;#34;Drupal\Core\Composer\Composer::vendorTestCodeCleanup&amp;#34;,
+&amp;#34;post-install-cmd&amp;#34;: [
+&amp;#34;bash scripts/remove_vendor_git_folders.sh || :&amp;#34;
 ],
-&amp;quot;post-update-cmd&amp;quot;: [
-&amp;quot;bash scripts/remove_vendor_git_folders.sh || :&amp;quot;
+&amp;#34;post-update-cmd&amp;#34;: [
+&amp;#34;bash scripts/remove_vendor_git_folders.sh || :&amp;#34;
 ]
 },
-&amp;quot;repositories&amp;quot;: [
+&amp;#34;repositories&amp;#34;: [
 {
-&amp;quot;type&amp;quot;: &amp;quot;composer&amp;quot;,
-&amp;quot;url&amp;quot;: &amp;quot;https://packages.drupal.org/8&amp;quot;
+&amp;#34;type&amp;#34;: &amp;#34;composer&amp;#34;,
+&amp;#34;url&amp;#34;: &amp;#34;https://packages.drupal.org/8&amp;#34;
 },
 {
-&amp;quot;type&amp;quot;: &amp;quot;package&amp;quot;,
-&amp;quot;package&amp;quot;: {
-&amp;quot;name&amp;quot;: &amp;quot;library-kenwheeler/slick&amp;quot;,
-&amp;quot;version&amp;quot;: &amp;quot;1.6.0&amp;quot;,
-&amp;quot;type&amp;quot;: &amp;quot;drupal-library&amp;quot;,
-&amp;quot;source&amp;quot;: {
-&amp;quot;url&amp;quot;: &amp;quot;https://github.com/kenwheeler/slick&amp;quot;,
-&amp;quot;type&amp;quot;: &amp;quot;git&amp;quot;,
-&amp;quot;reference&amp;quot;: &amp;quot;1.6.0&amp;quot;
-}
-}
-},
-{
-&amp;quot;type&amp;quot;: &amp;quot;package&amp;quot;,
-&amp;quot;package&amp;quot;: {
-&amp;quot;name&amp;quot;: &amp;quot;library-dinbror/blazy&amp;quot;,
-&amp;quot;version&amp;quot;: &amp;quot;1.8.2&amp;quot;,
-&amp;quot;type&amp;quot;: &amp;quot;drupal-library&amp;quot;,
-&amp;quot;source&amp;quot;: {
-&amp;quot;url&amp;quot;: &amp;quot;https://github.com/dinbror/blazy&amp;quot;,
-&amp;quot;type&amp;quot;: &amp;quot;git&amp;quot;,
-&amp;quot;reference&amp;quot;: &amp;quot;1.8.2&amp;quot;
+&amp;#34;type&amp;#34;: &amp;#34;package&amp;#34;,
+&amp;#34;package&amp;#34;: {
+&amp;#34;name&amp;#34;: &amp;#34;library-kenwheeler/slick&amp;#34;,
+&amp;#34;version&amp;#34;: &amp;#34;1.6.0&amp;#34;,
+&amp;#34;type&amp;#34;: &amp;#34;drupal-library&amp;#34;,
+&amp;#34;source&amp;#34;: {
+&amp;#34;url&amp;#34;: &amp;#34;https://github.com/kenwheeler/slick&amp;#34;,
+&amp;#34;type&amp;#34;: &amp;#34;git&amp;#34;,
+&amp;#34;reference&amp;#34;: &amp;#34;1.6.0&amp;#34;
 }
 }
 },
 {
-&amp;quot;type&amp;quot;: &amp;quot;package&amp;quot;,
-&amp;quot;package&amp;quot;: {
-&amp;quot;name&amp;quot;: &amp;quot;library-gdsmith/jquery.easing&amp;quot;,
-&amp;quot;version&amp;quot;: &amp;quot;1.4.1&amp;quot;,
-&amp;quot;type&amp;quot;: &amp;quot;drupal-library&amp;quot;,
-&amp;quot;source&amp;quot;: {
-&amp;quot;url&amp;quot;: &amp;quot;https://github.com/gdsmith/jquery.easing&amp;quot;,
-&amp;quot;type&amp;quot;: &amp;quot;git&amp;quot;,
-&amp;quot;reference&amp;quot;: &amp;quot;1.4.1&amp;quot;
+&amp;#34;type&amp;#34;: &amp;#34;package&amp;#34;,
+&amp;#34;package&amp;#34;: {
+&amp;#34;name&amp;#34;: &amp;#34;library-dinbror/blazy&amp;#34;,
+&amp;#34;version&amp;#34;: &amp;#34;1.8.2&amp;#34;,
+&amp;#34;type&amp;#34;: &amp;#34;drupal-library&amp;#34;,
+&amp;#34;source&amp;#34;: {
+&amp;#34;url&amp;#34;: &amp;#34;https://github.com/dinbror/blazy&amp;#34;,
+&amp;#34;type&amp;#34;: &amp;#34;git&amp;#34;,
+&amp;#34;reference&amp;#34;: &amp;#34;1.8.2&amp;#34;
 }
 }
 },
 {
-&amp;quot;type&amp;quot;: &amp;quot;package&amp;quot;,
-&amp;quot;package&amp;quot;: {
-&amp;quot;name&amp;quot;: &amp;quot;library-enyo/dropzone&amp;quot;,
-&amp;quot;version&amp;quot;: &amp;quot;4.3.0&amp;quot;,
-&amp;quot;type&amp;quot;: &amp;quot;drupal-library&amp;quot;,
-&amp;quot;source&amp;quot;: {
-&amp;quot;url&amp;quot;: &amp;quot;https://github.com/enyo/dropzone&amp;quot;,
-&amp;quot;type&amp;quot;: &amp;quot;git&amp;quot;,
-&amp;quot;reference&amp;quot;: &amp;quot;v4.3.0&amp;quot;
+&amp;#34;type&amp;#34;: &amp;#34;package&amp;#34;,
+&amp;#34;package&amp;#34;: {
+&amp;#34;name&amp;#34;: &amp;#34;library-gdsmith/jquery.easing&amp;#34;,
+&amp;#34;version&amp;#34;: &amp;#34;1.4.1&amp;#34;,
+&amp;#34;type&amp;#34;: &amp;#34;drupal-library&amp;#34;,
+&amp;#34;source&amp;#34;: {
+&amp;#34;url&amp;#34;: &amp;#34;https://github.com/gdsmith/jquery.easing&amp;#34;,
+&amp;#34;type&amp;#34;: &amp;#34;git&amp;#34;,
+&amp;#34;reference&amp;#34;: &amp;#34;1.4.1&amp;#34;
 }
 }
 },
 {
-&amp;quot;type&amp;quot;: &amp;quot;package&amp;quot;,
-&amp;quot;package&amp;quot;: {
-&amp;quot;name&amp;quot;: &amp;quot;library-jaypan/jquery_colorpicker&amp;quot;,
-&amp;quot;version&amp;quot;: &amp;quot;1.0.1&amp;quot;,
-&amp;quot;type&amp;quot;: &amp;quot;drupal-library&amp;quot;,
-&amp;quot;source&amp;quot;: {
-&amp;quot;url&amp;quot;: &amp;quot;https://github.com/jaypan/jquery_colorpicker&amp;quot;,
-&amp;quot;type&amp;quot;: &amp;quot;git&amp;quot;,
-&amp;quot;reference&amp;quot;: &amp;quot;da978ae124c57817021b3166a31881876882f5f9&amp;quot;
+&amp;#34;type&amp;#34;: &amp;#34;package&amp;#34;,
+&amp;#34;package&amp;#34;: {
+&amp;#34;name&amp;#34;: &amp;#34;library-enyo/dropzone&amp;#34;,
+&amp;#34;version&amp;#34;: &amp;#34;4.3.0&amp;#34;,
+&amp;#34;type&amp;#34;: &amp;#34;drupal-library&amp;#34;,
+&amp;#34;source&amp;#34;: {
+&amp;#34;url&amp;#34;: &amp;#34;https://github.com/enyo/dropzone&amp;#34;,
+&amp;#34;type&amp;#34;: &amp;#34;git&amp;#34;,
+&amp;#34;reference&amp;#34;: &amp;#34;v4.3.0&amp;#34;
 }
 }
 },
 {
-&amp;quot;type&amp;quot;: &amp;quot;package&amp;quot;,
-&amp;quot;package&amp;quot;: {
-&amp;quot;name&amp;quot;: &amp;quot;library-ckeditor/panelbutton&amp;quot;,
-&amp;quot;version&amp;quot;: &amp;quot;4.7.0&amp;quot;,
-&amp;quot;type&amp;quot;: &amp;quot;drupal-library&amp;quot;,
-&amp;quot;dist&amp;quot;: {
-&amp;quot;url&amp;quot;: &amp;quot;http://download.ckeditor.com/panelbutton/releases/panelbutton_4.7.0.zip&amp;quot;,
-&amp;quot;type&amp;quot;: &amp;quot;zip&amp;quot;
+&amp;#34;type&amp;#34;: &amp;#34;package&amp;#34;,
+&amp;#34;package&amp;#34;: {
+&amp;#34;name&amp;#34;: &amp;#34;library-jaypan/jquery_colorpicker&amp;#34;,
+&amp;#34;version&amp;#34;: &amp;#34;1.0.1&amp;#34;,
+&amp;#34;type&amp;#34;: &amp;#34;drupal-library&amp;#34;,
+&amp;#34;source&amp;#34;: {
+&amp;#34;url&amp;#34;: &amp;#34;https://github.com/jaypan/jquery_colorpicker&amp;#34;,
+&amp;#34;type&amp;#34;: &amp;#34;git&amp;#34;,
+&amp;#34;reference&amp;#34;: &amp;#34;da978ae124c57817021b3166a31881876882f5f9&amp;#34;
 }
 }
 },
 {
-&amp;quot;type&amp;quot;: &amp;quot;package&amp;quot;,
-&amp;quot;package&amp;quot;: {
-&amp;quot;name&amp;quot;: &amp;quot;library-ckeditor/colorbutton&amp;quot;,
-&amp;quot;version&amp;quot;: &amp;quot;4.7.0&amp;quot;,
-&amp;quot;type&amp;quot;: &amp;quot;drupal-library&amp;quot;,
-&amp;quot;dist&amp;quot;: {
-&amp;quot;url&amp;quot;: &amp;quot;http://download.ckeditor.com/colorbutton/releases/colorbutton_4.7.0.zip&amp;quot;,
-&amp;quot;type&amp;quot;: &amp;quot;zip&amp;quot;
+&amp;#34;type&amp;#34;: &amp;#34;package&amp;#34;,
+&amp;#34;package&amp;#34;: {
+&amp;#34;name&amp;#34;: &amp;#34;library-ckeditor/panelbutton&amp;#34;,
+&amp;#34;version&amp;#34;: &amp;#34;4.7.0&amp;#34;,
+&amp;#34;type&amp;#34;: &amp;#34;drupal-library&amp;#34;,
+&amp;#34;dist&amp;#34;: {
+&amp;#34;url&amp;#34;: &amp;#34;http://download.ckeditor.com/panelbutton/releases/panelbutton_4.7.0.zip&amp;#34;,
+&amp;#34;type&amp;#34;: &amp;#34;zip&amp;#34;
 }
 }
 },
 {
-&amp;quot;type&amp;quot;: &amp;quot;package&amp;quot;,
-&amp;quot;package&amp;quot;: {
-&amp;quot;name&amp;quot;: &amp;quot;library-ckeditor/colordialog&amp;quot;,
-&amp;quot;version&amp;quot;: &amp;quot;4.7.0&amp;quot;,
-&amp;quot;type&amp;quot;: &amp;quot;drupal-library&amp;quot;,
-&amp;quot;dist&amp;quot;: {
-&amp;quot;url&amp;quot;: &amp;quot;http://download.ckeditor.com/colordialog/releases/colordialog_4.7.0.zip&amp;quot;,
-&amp;quot;type&amp;quot;: &amp;quot;zip&amp;quot;
+&amp;#34;type&amp;#34;: &amp;#34;package&amp;#34;,
+&amp;#34;package&amp;#34;: {
+&amp;#34;name&amp;#34;: &amp;#34;library-ckeditor/colorbutton&amp;#34;,
+&amp;#34;version&amp;#34;: &amp;#34;4.7.0&amp;#34;,
+&amp;#34;type&amp;#34;: &amp;#34;drupal-library&amp;#34;,
+&amp;#34;dist&amp;#34;: {
+&amp;#34;url&amp;#34;: &amp;#34;http://download.ckeditor.com/colorbutton/releases/colorbutton_4.7.0.zip&amp;#34;,
+&amp;#34;type&amp;#34;: &amp;#34;zip&amp;#34;
 }
 }
 },
 {
-&amp;quot;type&amp;quot;: &amp;quot;package&amp;quot;,
-&amp;quot;package&amp;quot;: {
-&amp;quot;name&amp;quot;: &amp;quot;library-ckeditor/glyphicons&amp;quot;,
-&amp;quot;version&amp;quot;: &amp;quot;2.2&amp;quot;,
-&amp;quot;type&amp;quot;: &amp;quot;drupal-library&amp;quot;,
-&amp;quot;dist&amp;quot;: {
-&amp;quot;url&amp;quot;: &amp;quot;http://download.ckeditor.com/glyphicons/releases/glyphicons_2.2.zip&amp;quot;,
-&amp;quot;type&amp;quot;: &amp;quot;zip&amp;quot;
+&amp;#34;type&amp;#34;: &amp;#34;package&amp;#34;,
+&amp;#34;package&amp;#34;: {
+&amp;#34;name&amp;#34;: &amp;#34;library-ckeditor/colordialog&amp;#34;,
+&amp;#34;version&amp;#34;: &amp;#34;4.7.0&amp;#34;,
+&amp;#34;type&amp;#34;: &amp;#34;drupal-library&amp;#34;,
+&amp;#34;dist&amp;#34;: {
+&amp;#34;url&amp;#34;: &amp;#34;http://download.ckeditor.com/colordialog/releases/colordialog_4.7.0.zip&amp;#34;,
+&amp;#34;type&amp;#34;: &amp;#34;zip&amp;#34;
+}
+}
+},
+{
+&amp;#34;type&amp;#34;: &amp;#34;package&amp;#34;,
+&amp;#34;package&amp;#34;: {
+&amp;#34;name&amp;#34;: &amp;#34;library-ckeditor/glyphicons&amp;#34;,
+&amp;#34;version&amp;#34;: &amp;#34;2.2&amp;#34;,
+&amp;#34;type&amp;#34;: &amp;#34;drupal-library&amp;#34;,
+&amp;#34;dist&amp;#34;: {
+&amp;#34;url&amp;#34;: &amp;#34;http://download.ckeditor.com/glyphicons/releases/glyphicons_2.2.zip&amp;#34;,
+&amp;#34;type&amp;#34;: &amp;#34;zip&amp;#34;
 }
 }
 }
 ]
 }
-&lt;/code>&lt;/pre>&lt;/details>
+&lt;/code>&lt;/pre>&lt;/div>&lt;/details>
 &lt;ol>
 &lt;li>
 &lt;p>Add &lt;code>&amp;quot;ymcatwincities/openy&amp;quot;: &amp;quot;8.*.*&amp;quot;&lt;/code> to the &lt;code>require&lt;/code> section in your &lt;code>composer.json&lt;/code>, like &lt;a href="https://github.com/ymcatwincities/openy-project/blob/8.1.x/composer.json#L7">here&lt;/a>&lt;/p>
@@ -677,31 +675,31 @@ repository, as on this example:
 &lt;li>
 &lt;p>&lt;code>composer.json&lt;/code> &lt;strong>inside&lt;/strong> of docroot
 Installer path will look like this:&lt;/p>
-&lt;pre tabindex="0">&lt;code>&amp;quot;installer-paths&amp;quot;: {
-&amp;quot;core&amp;quot;: [&amp;quot;type:drupal-core&amp;quot;],
-&amp;quot;libraries/{$name}&amp;quot;: [&amp;quot;type:drupal-library&amp;quot;],
-&amp;quot;modules/contrib/{$name}&amp;quot;: [&amp;quot;type:drupal-module&amp;quot;],
-&amp;quot;profiles/contrib/{$name}&amp;quot;: [&amp;quot;type:drupal-profile&amp;quot;],
-&amp;quot;themes/contrib/{$name}&amp;quot;: [&amp;quot;type:drupal-theme&amp;quot;],
-&amp;quot;drush/contrib/{$name}&amp;quot;: [&amp;quot;type:drupal-drush&amp;quot;],
-&amp;quot;modules/custom/{$name}&amp;quot;: [&amp;quot;type:drupal-custom-module&amp;quot;],
-&amp;quot;themes/custom/{$name}&amp;quot;: [&amp;quot;type:drupal-custom-theme&amp;quot;]
+&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-fallback" data-lang="fallback">&amp;#34;installer-paths&amp;#34;: {
+&amp;#34;core&amp;#34;: [&amp;#34;type:drupal-core&amp;#34;],
+&amp;#34;libraries/{$name}&amp;#34;: [&amp;#34;type:drupal-library&amp;#34;],
+&amp;#34;modules/contrib/{$name}&amp;#34;: [&amp;#34;type:drupal-module&amp;#34;],
+&amp;#34;profiles/contrib/{$name}&amp;#34;: [&amp;#34;type:drupal-profile&amp;#34;],
+&amp;#34;themes/contrib/{$name}&amp;#34;: [&amp;#34;type:drupal-theme&amp;#34;],
+&amp;#34;drush/contrib/{$name}&amp;#34;: [&amp;#34;type:drupal-drush&amp;#34;],
+&amp;#34;modules/custom/{$name}&amp;#34;: [&amp;#34;type:drupal-custom-module&amp;#34;],
+&amp;#34;themes/custom/{$name}&amp;#34;: [&amp;#34;type:drupal-custom-theme&amp;#34;]
 }
-&lt;/code>&lt;/pre>&lt;/li>
+&lt;/code>&lt;/pre>&lt;/div>&lt;/li>
 &lt;li>
 &lt;p>&lt;code>composer.json&lt;/code> &lt;strong>outside&lt;/strong> of docroot
 Installer path will look like this:&lt;/p>
-&lt;pre tabindex="0">&lt;code>&amp;quot;installer-paths&amp;quot;: {
-&amp;quot;docroot/core&amp;quot;: [&amp;quot;type:drupal-core&amp;quot;],
-&amp;quot;docroot/libraries/{$name}&amp;quot;: [&amp;quot;type:drupal-library&amp;quot;],
-&amp;quot;docroot/modules/contrib/{$name}&amp;quot;: [&amp;quot;type:drupal-module&amp;quot;],
-&amp;quot;docroot/profiles/contrib/{$name}&amp;quot;: [&amp;quot;type:drupal-profile&amp;quot;],
-&amp;quot;docroot/themes/contrib/{$name}&amp;quot;: [&amp;quot;type:drupal-theme&amp;quot;],
-&amp;quot;drush/contrib/{$name}&amp;quot;: [&amp;quot;type:drupal-drush&amp;quot;],
-&amp;quot;docroot/modules/custom/{$name}&amp;quot;: [&amp;quot;type:drupal-custom-module&amp;quot;],
-&amp;quot;docroot/themes/custom/{$name}&amp;quot;: [&amp;quot;type:drupal-custom-theme&amp;quot;]
+&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-fallback" data-lang="fallback">&amp;#34;installer-paths&amp;#34;: {
+&amp;#34;docroot/core&amp;#34;: [&amp;#34;type:drupal-core&amp;#34;],
+&amp;#34;docroot/libraries/{$name}&amp;#34;: [&amp;#34;type:drupal-library&amp;#34;],
+&amp;#34;docroot/modules/contrib/{$name}&amp;#34;: [&amp;#34;type:drupal-module&amp;#34;],
+&amp;#34;docroot/profiles/contrib/{$name}&amp;#34;: [&amp;#34;type:drupal-profile&amp;#34;],
+&amp;#34;docroot/themes/contrib/{$name}&amp;#34;: [&amp;#34;type:drupal-theme&amp;#34;],
+&amp;#34;drush/contrib/{$name}&amp;#34;: [&amp;#34;type:drupal-drush&amp;#34;],
+&amp;#34;docroot/modules/custom/{$name}&amp;#34;: [&amp;#34;type:drupal-custom-module&amp;#34;],
+&amp;#34;docroot/themes/custom/{$name}&amp;#34;: [&amp;#34;type:drupal-custom-theme&amp;#34;]
 }
-&lt;/code>&lt;/pre>&lt;/li>
+&lt;/code>&lt;/pre>&lt;/div>&lt;/li>
 &lt;/ul>
 &lt;ol start="4">
 &lt;li>
@@ -732,13 +730,13 @@ Installer path will look like this:&lt;/p>
 &lt;/li>
 &lt;li>
 &lt;p>Execute it in &lt;code>post-install-cmd&lt;/code> and &lt;code>post-update-cmd&lt;/code>:&lt;/p>
-&lt;pre tabindex="0">&lt;code>&amp;quot;post-install-cmd&amp;quot;: [
-&amp;quot;bash scripts/remove_vendor_git_folders.sh || :&amp;quot;
+&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-fallback" data-lang="fallback">&amp;#34;post-install-cmd&amp;#34;: [
+&amp;#34;bash scripts/remove_vendor_git_folders.sh || :&amp;#34;
 ],
-&amp;quot;post-update-cmd&amp;quot;: [
-&amp;quot;bash scripts/remove_vendor_git_folders.sh || :&amp;quot;
+&amp;#34;post-update-cmd&amp;#34;: [
+&amp;#34;bash scripts/remove_vendor_git_folders.sh || :&amp;#34;
 ]
-&lt;/code>&lt;/pre>&lt;/li>
+&lt;/code>&lt;/pre>&lt;/div>&lt;/li>
 &lt;/ul>
 &lt;ol start="9">
 &lt;li>Run &lt;code>composer install&lt;/code>&lt;/li>
@@ -800,32 +798,32 @@ git push -u origin master
 &lt;ol>
 &lt;li>
 &lt;p>Execute command&lt;/p>
-&lt;pre tabindex="0">&lt;code>$ cd profiles/contrib/openy
+&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-fallback" data-lang="fallback">$ cd profiles/contrib/openy
 $ sh runtests.sh
-&lt;/code>&lt;/pre>&lt;/li>
+&lt;/code>&lt;/pre>&lt;/div>&lt;/li>
 &lt;li>
 &lt;p>Open &lt;a href="http://site.com/profiles/contrib/openy/build/reports/behat">http://site.com/profiles/contrib/openy/build/reports/behat&lt;/a> in browser.&lt;/p>
 &lt;/li>
 &lt;/ol>
 &lt;h3 id="run-selenium-container--behat-tests-in-usual-way">Run selenium container + Behat tests in usual way&lt;/h3>
 &lt;p>In order to run only selenium container + behat in usual way:&lt;/p>
-&lt;pre tabindex="0">&lt;code>$ cd profiles/contrib/openy
+&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-fallback" data-lang="fallback">$ cd profiles/contrib/openy
 $ sh runtests.sh --tags run_selenium
 $ bin/behat
-&lt;/code>&lt;/pre>&lt;h3 id="stop-selenium-container">Stop selenium container&lt;/h3>
+&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="stop-selenium-container">Stop selenium container&lt;/h3>
 &lt;p>In order to stop selenium container:&lt;/p>
-&lt;pre tabindex="0">&lt;code>$ cd profiles/contrib/openy
+&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-fallback" data-lang="fallback">$ cd profiles/contrib/openy
 $ sh runtests.sh --tags stop_selenium
-&lt;/code>&lt;/pre>&lt;p>If necessary, edit behat.local.yml to match your environment.&lt;/p>
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>If necessary, edit behat.local.yml to match your environment.&lt;/p>
 &lt;h3 id="visual-debugging---videohttpsyoutubeqytpia1clvc">Visual debugging - &lt;a href="https://youtu.be/qYtpiA1ClVc">Video&lt;/a>&lt;/h3>
 &lt;p>When you develop JS tests, it&amp;rsquo;s important to see what&amp;rsquo;s going on the Selenium screen. You can easily see this during development.&lt;/p>
 &lt;ol>
 &lt;li>Install &lt;a href="https://www.realvnc.com/download/viewer">https://www.realvnc.com/download/viewer&lt;/a>&lt;/li>
 &lt;li>Run selenium using command&lt;/li>
 &lt;/ol>
-&lt;pre tabindex="0">&lt;code>$ cd profiles/contrib/openy
+&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-fallback" data-lang="fallback">$ cd profiles/contrib/openy
 $ sh runtests.sh --tags run_selenium
-&lt;/code>&lt;/pre>&lt;ol start="3">
+&lt;/code>&lt;/pre>&lt;/div>&lt;ol start="3">
 &lt;li>Open installed VNC Viewer and connect to the server with IP &lt;code>192.168.56.132:5901&lt;/code>&lt;/li>
 &lt;/ol>
 &lt;ul>
@@ -834,62 +832,62 @@ $ sh runtests.sh --tags run_selenium
 &lt;ol start="4">
 &lt;li>Run tests and you should see everything that is performed by behat tests in VNC client&lt;/li>
 &lt;/ol>
-&lt;pre tabindex="0">&lt;code>$ bin/behat
-&lt;/code>&lt;/pre>&lt;p>&lt;a href="https://youtu.be/RSsQLVVhldc">&lt;img src="https://img.youtube.com/vi/RSsQLVVhldc/0.jpg" alt="Debugging JavaScript Behat tests">&lt;/a>&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-fallback" data-lang="fallback">$ bin/behat
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>&lt;a href="https://youtu.be/RSsQLVVhldc">&lt;img src="https://img.youtube.com/vi/RSsQLVVhldc/0.jpg" alt="Debugging JavaScript Behat tests">&lt;/a>&lt;/p>
 &lt;h3 id="custom-behat-functionality">Custom Behat functionality&lt;/h3>
 &lt;ul>
 &lt;li>Create entities in table forms, with key to use in reference and reference entities by key.
 &lt;ul>
 &lt;li>KEY is optional, and &lt;strong>must be all CAPS&lt;/strong>.&lt;/li>
 &lt;li>Taxonomy
-&lt;pre tabindex="0">&lt;code>Given I create &amp;quot;taxonomy_term&amp;quot; of type &amp;quot;color&amp;quot; with key for reference:
+&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-fallback" data-lang="fallback">Given I create &amp;#34;taxonomy_term&amp;#34; of type &amp;#34;color&amp;#34; with key for reference:
 | KEY | name | field_color |
 | Blue | Blue | 0000FF |
 | Red | Red | FF0000 |
-&lt;/code>&lt;/pre>&lt;/li>
+&lt;/code>&lt;/pre>&lt;/div>&lt;/li>
 &lt;li>Paragraphs
-&lt;pre tabindex="0">&lt;code>Given I create &amp;quot;paragraph&amp;quot; of type &amp;quot;small_banner&amp;quot; with key for reference:
+&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-fallback" data-lang="fallback">Given I create &amp;#34;paragraph&amp;#34; of type &amp;#34;small_banner&amp;#34; with key for reference:
 | KEY | field_prgf_headline | field_prgf_color |
 | banner1 | Headline 1 | Blue |
 | banner2 | Headline 2 | Red |
-&lt;/code>&lt;/pre>&lt;/li>
+&lt;/code>&lt;/pre>&lt;/div>&lt;/li>
 &lt;li>Media entities
-&lt;pre tabindex="0">&lt;code>Given I create &amp;quot;media&amp;quot; of type &amp;quot;image&amp;quot; with key for reference:
+&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-fallback" data-lang="fallback">Given I create &amp;#34;media&amp;#34; of type &amp;#34;image&amp;#34; with key for reference:
 | KEY | name | file |
 | gallery_1 | Gallery image 1 | gallery.png |
 | gallery_2 | Gallery image 2 | gallery2.png |
 | gallery_3 | Gallery image 3 | gallery3.png |
-&lt;/code>&lt;/pre>&lt;/li>
+&lt;/code>&lt;/pre>&lt;/div>&lt;/li>
 &lt;/ul>
 &lt;/li>
 &lt;li>Create nodes in table forms, with key to use in reference and reference entities by key.
 &lt;ul>
 &lt;li>KEY is optional, and &lt;strong>must be all CAPS&lt;/strong>.&lt;/li>
 &lt;li>Basic create
-&lt;pre tabindex="0">&lt;code>Given I create &amp;quot;landing_page&amp;quot; content:
+&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-fallback" data-lang="fallback">Given I create &amp;#34;landing_page&amp;#34; content:
 | KEY | title | field_lp_layout | field_content |
 | landing_1 | Test Landing 01 | one_column | banner1 |
 | landing_2 | Test Landing 02 | one_column | banner2 |
-&lt;/code>&lt;/pre>&lt;/li>
+&lt;/code>&lt;/pre>&lt;/div>&lt;/li>
 &lt;li>Vertical field table
-&lt;pre tabindex="0">&lt;code>Given I create large &amp;quot;landing_page&amp;quot; content:
+&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-fallback" data-lang="fallback">Given I create large &amp;#34;landing_page&amp;#34; content:
 | KEY | landing_3 | landing_4 |
 | title | Test Landing 03 | Test Landing 04 |
 | field_lp_layout | one_column | one_column |
 | field_content | banner1 | banner2 |
-&lt;/code>&lt;/pre>&lt;/li>
+&lt;/code>&lt;/pre>&lt;/div>&lt;/li>
 &lt;li>Create &amp;amp; view immediately
-&lt;pre tabindex="0">&lt;code>Given I view a &amp;quot;landing_page&amp;quot; content:
+&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-fallback" data-lang="fallback">Given I view a &amp;#34;landing_page&amp;#34; content:
 | KEY | landing_5 |
 | title | Test Landing 05 |
 | field_lp_layout | one_column |
 | field_content | banner1 |
-&lt;/code>&lt;/pre>&lt;/li>
+&lt;/code>&lt;/pre>&lt;/div>&lt;/li>
 &lt;li>Multiple referenced entities by key on a field.
-&lt;pre tabindex="0">&lt;code>Given I create &amp;quot;landing_page&amp;quot; content:
+&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-fallback" data-lang="fallback">Given I create &amp;#34;landing_page&amp;#34; content:
 | KEY | title | field_lp_layout | field_content |
 | landing_6 | Test Landing 06 | one_column | banner1, banner2 |
-&lt;/code>&lt;/pre>&lt;/li>
+&lt;/code>&lt;/pre>&lt;/div>&lt;/li>
 &lt;/ul>
 &lt;/li>
 &lt;/ul>
@@ -900,22 +898,22 @@ The machine name and columns can be found in the form markup in the field name p
 The first portion, &lt;code>field_location_address&lt;/code> represents the Drupal field machine name, while the second array key &lt;code>address_line1&lt;/code> represents the column.&lt;/p>
 &lt;ul>
 &lt;li>Add Address
-&lt;pre tabindex="0">&lt;code>Given I view a &amp;quot;branch&amp;quot; content:
+&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-fallback" data-lang="fallback">Given I view a &amp;#34;branch&amp;#34; content:
 | title | Branch Example |
 | field_location_address:country_code | US |
 | :address_line1 | Main road 10 |
 | :locality | Seattle |
 | :administrative_area | WA |
 | :postal_code | 98101 |
-&lt;/code>&lt;/pre>&lt;/li>
+&lt;/code>&lt;/pre>&lt;/div>&lt;/li>
 &lt;li>Add Latitude and Longitude
-&lt;pre tabindex="0">&lt;code>Given I view a &amp;quot;branch&amp;quot; content:
+&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-fallback" data-lang="fallback">Given I view a &amp;#34;branch&amp;#34; content:
 | title | Branch Example 2 |
 | field_location_coordinates:lat | 47.293433 |
 | :lng | -122.238717 |
 | field_location_phone | +1234567890 |
 ```)
-&lt;/code>&lt;/pre>&lt;/li>
+&lt;/code>&lt;/pre>&lt;/div>&lt;/li>
 &lt;/ul></description></item><item><title>Docs: Theming_and_Design</title><link>https://froboy.github.io/openy_docs/docs/development/theming_and_design/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://froboy.github.io/openy_docs/docs/development/theming_and_design/</guid><description>
 &lt;p>Welcome to Open Y Theming and Design documentation.&lt;/p>
 &lt;h3 id="how-to-change-styles-on-content-type-level">How to change styles on content type level&lt;/h3>
@@ -952,8 +950,8 @@ the theme configuration page - Custom CSS - check &amp;ldquo;Enable or disable c
 &lt;/li>
 &lt;/ol>
 &lt;h4 id="token-components">Token components:&lt;/h4>
-&lt;pre tabindex="0">&lt;code>[openy_tour:click:button_name:selector]*
-&lt;/code>&lt;/pre>&lt;p>openy_tour - token name;&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-fallback" data-lang="fallback">[openy_tour:click:button_name:selector]*
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>openy_tour - token name;&lt;/p>
 &lt;p>click - command in the token;&lt;/p>
 &lt;p>button_name - name of button when show in a tip;&lt;/p>
 &lt;p>selector - selector to be clicked.&lt;/p>
@@ -982,10 +980,10 @@ the theme configuration page - Custom CSS - check &amp;ldquo;Enable or disable c
 &lt;p>in update add next code (this is example):&lt;/p>
 &lt;/li>
 &lt;/ol>
-&lt;pre tabindex="0">&lt;code>$config = drupal_get_path('module', 'openy_media_image') . '/config/install/views.view.images_library.yml';
-$config_importer = \Drupal::service('openy_upgrade_tool.param_updater');
-$config_importer-&amp;gt;update($config, 'views.view.images_library', 'display.default.display_options.pager');
-&lt;/code>&lt;/pre>&lt;p>Where:&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-fallback" data-lang="fallback">$config = drupal_get_path(&amp;#39;module&amp;#39;, &amp;#39;openy_media_image&amp;#39;) . &amp;#39;/config/install/views.view.images_library.yml&amp;#39;;
+$config_importer = \Drupal::service(&amp;#39;openy_upgrade_tool.param_updater&amp;#39;);
+$config_importer-&amp;gt;update($config, &amp;#39;views.view.images_library&amp;#39;, &amp;#39;display.default.display_options.pager&amp;#39;);
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>Where:&lt;/p>
 &lt;ul>
 &lt;li>$config variable contains path to config with config name&lt;/li>
 &lt;li>&amp;ldquo;views.view.images_library&amp;rdquo; - config name&lt;/li>
@@ -993,19 +991,19 @@ $config_importer-&amp;gt;update($config, 'views.view.images_library', 'display.d
 &lt;/ul>
 &lt;h3 id="revert-full-configs">Revert full configs&lt;/h3>
 &lt;p>For updating full config or several configs from directory use service &amp;lsquo;openy_upgrade_tool.importer&amp;rsquo;.&lt;/p>
-&lt;pre tabindex="0">&lt;code>$config_dir = drupal_get_path('module', 'openy_media_image') . '/config/install';
-$config_importer = \Drupal::service('openy_upgrade_tool.importer');
+&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-fallback" data-lang="fallback">$config_dir = drupal_get_path(&amp;#39;module&amp;#39;, &amp;#39;openy_media_image&amp;#39;) . &amp;#39;/config/install&amp;#39;;
+$config_importer = \Drupal::service(&amp;#39;openy_upgrade_tool.importer&amp;#39;);
 $config_importer-&amp;gt;setDirectory($config_dir);
-$config_importer-&amp;gt;importConfigs(['views.view.images_library']);
-&lt;/code>&lt;/pre>&lt;p>Where:&lt;/p>
+$config_importer-&amp;gt;importConfigs([&amp;#39;views.view.images_library&amp;#39;]);
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>Where:&lt;/p>
 &lt;ul>
 &lt;li>$config_dir - path to directory with config&lt;/li>
 &lt;li>&amp;ldquo;views.view.images_library&amp;rdquo; - config name&lt;/li>
 &lt;/ul>
 &lt;p>Also you can update several configs from directory:&lt;/p>
-&lt;pre tabindex="0">&lt;code>$config_importer-&amp;gt;importConfigs([
-'views.view.images_library',
-'views.view.example_view',
+&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-fallback" data-lang="fallback">$config_importer-&amp;gt;importConfigs([
+&amp;#39;views.view.images_library&amp;#39;,
+&amp;#39;views.view.example_view&amp;#39;,
 ]);
 ```)
-&lt;/code>&lt;/pre></description></item></channel></rss>
+&lt;/code>&lt;/pre>&lt;/div></description></item></channel></rss>
