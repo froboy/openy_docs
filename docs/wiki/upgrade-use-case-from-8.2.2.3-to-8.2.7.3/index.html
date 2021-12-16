@@ -11,29 +11,28 @@
 <link rel=icon type=image/png href=/openy_docs/favicons/favicon-32x32.png sizes=32x32>
 <link rel=icon type=image/png href=/openy_docs/favicons/android-192x192.png sizes=192x192>
 <title>Upgrade-use-case-from-8.2.2.3-to-8.2.7.3 | Open Y</title>
-<meta name=description content="1 uninstall lndr and optimizely modules before running composer update commands
-2 config to remove
-
-drush cdel image.style.browser_thumbnail
-3 enable …">
+<meta name=description content="This document is archived but may contain useful information for troubleshooting future updates. For updated update steps, visit How to upgrade Open Y …">
 <meta property="og:title" content="Upgrade-use-case-from-8.2.2.3-to-8.2.7.3">
-<meta property="og:description" content="1 uninstall lndr and optimizely modules before running composer update commands
+<meta property="og:description" content="This document is archived but may contain useful information for troubleshooting future updates. For updated update steps, visit How to upgrade Open Y.
+ 1 uninstall lndr and optimizely modules before running composer update commands
 2 config to remove
 drush cdel image.style.browser_thumbnail 3 enable openy_focal_point and media_directories_ui should be enabled when upgrade from 8.2.2.3 to 8.2.7.3
 4 - run drush updatedb and next steps from tutorial">
 <meta property="og:type" content="article">
 <meta property="og:url" content="https://froboy.github.io/openy_docs/docs/wiki/upgrade-use-case-from-8.2.2.3-to-8.2.7.3/"><meta property="article:section" content="docs">
-<meta property="article:modified_time" content="2021-12-15T17:08:41-06:00"><meta property="og:site_name" content="Open Y">
+<meta property="article:modified_time" content="2021-12-16T08:46:20-06:00"><meta property="og:site_name" content="Open Y">
 <meta itemprop=name content="Upgrade-use-case-from-8.2.2.3-to-8.2.7.3">
-<meta itemprop=description content="1 uninstall lndr and optimizely modules before running composer update commands
+<meta itemprop=description content="This document is archived but may contain useful information for troubleshooting future updates. For updated update steps, visit How to upgrade Open Y.
+ 1 uninstall lndr and optimizely modules before running composer update commands
 2 config to remove
 drush cdel image.style.browser_thumbnail 3 enable openy_focal_point and media_directories_ui should be enabled when upgrade from 8.2.2.3 to 8.2.7.3
 4 - run drush updatedb and next steps from tutorial">
-<meta itemprop=dateModified content="2021-12-15T17:08:41-06:00">
-<meta itemprop=wordCount content="42">
+<meta itemprop=dateModified content="2021-12-16T08:46:20-06:00">
+<meta itemprop=wordCount content="65">
 <meta itemprop=keywords content><meta name=twitter:card content="summary">
 <meta name=twitter:title content="Upgrade-use-case-from-8.2.2.3-to-8.2.7.3">
-<meta name=twitter:description content="1 uninstall lndr and optimizely modules before running composer update commands
+<meta name=twitter:description content="This document is archived but may contain useful information for troubleshooting future updates. For updated update steps, visit How to upgrade Open Y.
+ 1 uninstall lndr and optimizely modules before running composer update commands
 2 config to remove
 drush cdel image.style.browser_thumbnail 3 enable openy_focal_point and media_directories_ui should be enabled when upgrade from 8.2.2.3 to 8.2.7.3
 4 - run drush updatedb and next steps from tutorial">
@@ -60,7 +59,7 @@ drush cdel image.style.browser_thumbnail 3 enable openy_focal_point and media_di
 </li>
 </ul>
 </div>
-<div class="navbar-nav d-none d-lg-block"><input type=search class="form-control td-search-input" placeholder="&#xf002; Search this site…" aria-label="Search this site…" autocomplete=off data-offline-search-index-json-src=/openy_docs/offline-search-index.c074b0053999a073797b7b8055b8bc3a.json data-offline-search-base-href=/ data-offline-search-max-results=10>
+<div class="navbar-nav d-none d-lg-block"><input type=search class="form-control td-search-input" placeholder="&#xf002; Search this site…" aria-label="Search this site…" autocomplete=off data-offline-search-index-json-src=/openy_docs/offline-search-index.d5af834fc0071eead9c74cf5a3ea57c1.json data-offline-search-base-href=/ data-offline-search-max-results=10>
 </div>
 </nav>
 </header>
@@ -70,7 +69,7 @@ drush cdel image.style.browser_thumbnail 3 enable openy_focal_point and media_di
 <aside class="col-12 col-md-3 col-xl-2 td-sidebar d-print-none">
 <div id=td-sidebar-menu class=td-sidebar__inner>
 <form class="td-sidebar__search d-flex align-items-center">
-<input type=search class="form-control td-search-input" placeholder="&#xf002; Search this site…" aria-label="Search this site…" autocomplete=off data-offline-search-index-json-src=/openy_docs/offline-search-index.c074b0053999a073797b7b8055b8bc3a.json data-offline-search-base-href=/ data-offline-search-max-results=10>
+<input type=search class="form-control td-search-input" placeholder="&#xf002; Search this site…" aria-label="Search this site…" autocomplete=off data-offline-search-index-json-src=/openy_docs/offline-search-index.d5af834fc0071eead9c74cf5a3ea57c1.json data-offline-search-base-href=/ data-offline-search-max-results=10>
 <button class="btn btn-link td-sidebar__toggle d-md-none p-0 ml-3 fas fa-bars" type=button data-toggle=collapse data-target=#td-section-nav aria-controls=td-docs-nav aria-expanded=false aria-label="Toggle section navigation">
 </button>
 </form>
@@ -558,6 +557,8 @@ drush cdel image.style.browser_thumbnail 3 enable openy_focal_point and media_di
 <h1>Upgrade-use-case-from-8.2.2.3-to-8.2.7.3</h1>
 <header class=article-meta>
 </header>
+<p>This document is archived but may contain useful information for troubleshooting future updates. For updated update steps, visit <a href=/openy_docs/docs/wiki/openy-upgrade-how-to-for-developers/>How to upgrade Open Y</a>.</p>
+<hr>
 <p>1 uninstall <code>lndr</code> and <code>optimizely</code> modules before running <a href=/openy_docs/docs/wiki/openy-upgrade-how-to-for-developers/#run-command-with-next-never-version--replace-new_version_here-with-the-version-you-are-upgrading-to-eg-8207->composer update commands</a></p>
 <p>2 config to remove</p>
 <div class=highlight><pre tabindex=0 style=background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-sh data-lang=sh>
@@ -565,7 +566,7 @@ drush cdel image.style.browser_thumbnail
 </code></pre></div><p>3 enable <code>openy_focal_point</code> and <code>media_directories_ui</code> should be enabled when upgrade from 8.2.2.3 to 8.2.7.3</p>
 <p>4 - run drush updatedb <a href=/openy_docs/docs/wiki/openy-upgrade-how-to-for-developers/#update-the-site>and next steps from tutorial</a></p>
 <div class="text-muted mt-5 pt-3 border-top">
-Last modified December 15, 2021: <a href=https://github.com/froboy/openy_docs/commit/9a67645a977f153606aad6c1748e80e9222ef1a0>Fix all the links (9a67645)</a>
+Last modified December 16, 2021: <a href=https://github.com/froboy/openy_docs/commit/c07130c8b5256655dce4fadd6b0261062e990e07>add deprecations (c07130c)</a>
 </div>
 </div>
 </main>

@@ -47,7 +47,7 @@ For YMCA …">
 </li>
 </ul>
 </div>
-<div class="navbar-nav d-none d-lg-block"><input type=search class="form-control td-search-input" placeholder="&#xf002; Search this site…" aria-label="Search this site…" autocomplete=off data-offline-search-index-json-src=/openy_docs/offline-search-index.c074b0053999a073797b7b8055b8bc3a.json data-offline-search-base-href=/ data-offline-search-max-results=10>
+<div class="navbar-nav d-none d-lg-block"><input type=search class="form-control td-search-input" placeholder="&#xf002; Search this site…" aria-label="Search this site…" autocomplete=off data-offline-search-index-json-src=/openy_docs/offline-search-index.d5af834fc0071eead9c74cf5a3ea57c1.json data-offline-search-base-href=/ data-offline-search-max-results=10>
 </div>
 </nav>
 </header>
@@ -1215,6 +1215,8 @@ This Agreement shall be governed by, and construed in accordance with, the laws 
 </div>
 <div class=td-content style=page-break-before:always>
 <h1 id=pg-e7539c80e915adf10aebfab5f1c72921>28 - OpenY-security---Drupal-SA-CORE-2018-004</h1>
+<p>This document is archived but may contain useful information for troubleshooting future updates. For updated update steps, visit <a href=/openy_docs/docs/wiki/openy-upgrade-how-to-for-developers/>How to upgrade Open Y</a>.</p>
+<hr>
 <p>To update your OpenY site with security fix from Drupal core <a href=https://www.drupal.org/SA-CORE-2018-004>https://www.drupal.org/SA-CORE-2018-004</a>
 OpenY team is suggesting 2 options- via patch and via Drupal core upgrade(or OpenY upgrade).
 Drupal core upgrade or OpenY upgrade is not always possible, but security issue should be fixed asap.
@@ -1241,7 +1243,7 @@ sudo cp docroot/core/modules/file/src/Element/ManagedFile.php /var/backups/Manag
 </code></pre></div><p>To patch your site run the command to test if the patch can be applied:</p>
 <div class=highlight><pre tabindex=0 style=background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-sh data-lang=sh>patch -p1 --dry-run &lt; SA-CORE-2018-004.patch
 </code></pre></div><p>You should see a result</p>
-<div class=highlight><pre tabindex=0 style=background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-sh data-lang=sh><span style=color:#8f5902;font-style:italic># patch -p1 --dry-run &lt; SA-CORE-2018-004.patch </span>
+<div class=highlight><pre tabindex=0 style=background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-sh data-lang=sh><span style=color:#8f5902;font-style:italic># patch -p1 --dry-run &lt; SA-CORE-2018-004.patch</span>
 checking file core/lib/Drupal/Core/Security/RequestSanitizer.php
 checking file core/modules/file/src/Element/ManagedFile.php
 </code></pre></div><p>In case if result different - stop on this step and let us know you have issue.
@@ -1268,6 +1270,8 @@ You should see <code>OpenY was patched</code> message.</p>
 </div>
 <div class=td-content style=page-break-before:always>
 <h1 id=pg-448b5d40a1380ae865b82bbbad5d918e>29 - OpenY-security-update-how-to.-Update-Drupal-core-only</h1>
+<p>This document is archived but may contain useful information for troubleshooting future updates. For updated update steps, visit <a href=/openy_docs/docs/wiki/openy-upgrade-how-to-for-developers/>How to upgrade Open Y</a>.</p>
+<hr>
 <p>To update your OpenY site with security fix from Drupal core <a href=https://www.drupal.org/sa-core-2018-002>https://www.drupal.org/sa-core-2018-002</a>
 OpenY team is suggesting 2 options- via patch and via Drupal core upgrade(or OpenY upgrade).
 Drupal core upgrade or OpenY upgrade is not always possible, but security issue should be fixed asap.
@@ -1286,7 +1290,7 @@ wget https://raw.githubusercontent.com/ymcatwincities/openy-project/8.1.x/script
 </code></pre></div><p>To patch your site run the command to test if the patch can be applied:</p>
 <div class=highlight><pre tabindex=0 style=background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-sh data-lang=sh>patch -p1 --dry-run &lt; 8.2.x.patch
 </code></pre></div><p>You should see a result</p>
-<div class=highlight><pre tabindex=0 style=background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-sh data-lang=sh><span style=color:#8f5902;font-style:italic># patch -p1 --dry-run &lt; 8.2.x.patch </span>
+<div class=highlight><pre tabindex=0 style=background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-sh data-lang=sh><span style=color:#8f5902;font-style:italic># patch -p1 --dry-run &lt; 8.2.x.patch</span>
 checking file docroot/core/lib/Drupal/Core/DrupalKernel.php
 checking file docroot/core/lib/Drupal/Core/Security/RequestSanitizer.php
 </code></pre></div><p>In case if result different - stop on this step and let us know you have issue.
@@ -1309,7 +1313,7 @@ wget https://raw.githubusercontent.com/ymcatwincities/openy-project/8.1.x/script
 </code></pre></div><p>To patch your site run the command to test if the patch can be applied:</p>
 <div class=highlight><pre tabindex=0 style=background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-sh data-lang=sh>patch -p1 --dry-run &lt; 8.3.x.patch
 </code></pre></div><p>You should see a result</p>
-<div class=highlight><pre tabindex=0 style=background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-sh data-lang=sh><span style=color:#8f5902;font-style:italic># patch -p1 --dry-run &lt; 8.3.x.patch </span>
+<div class=highlight><pre tabindex=0 style=background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-sh data-lang=sh><span style=color:#8f5902;font-style:italic># patch -p1 --dry-run &lt; 8.3.x.patch</span>
 checking file docroot/core/lib/Drupal/Core/DrupalKernel.php
 checking file docroot/core/lib/Drupal/Core/Security/RequestSanitizer.php
 </code></pre></div><p>In case if result different - stop on this step and let us know you have issue.
@@ -1332,7 +1336,7 @@ wget https://raw.githubusercontent.com/ymcatwincities/openy-project/8.1.x/script
 </code></pre></div><p>To patch your site run the command to test if the patch can be applied:</p>
 <div class=highlight><pre tabindex=0 style=background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-sh data-lang=sh>patch -p1 --dry-run &lt; 8.4.x.patch
 </code></pre></div><p>You should see a result</p>
-<div class=highlight><pre tabindex=0 style=background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-sh data-lang=sh><span style=color:#8f5902;font-style:italic># patch -p1 --dry-run &lt; 8.4.x.patch </span>
+<div class=highlight><pre tabindex=0 style=background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-sh data-lang=sh><span style=color:#8f5902;font-style:italic># patch -p1 --dry-run &lt; 8.4.x.patch</span>
 checking file docroot/core/lib/Drupal/Core/DrupalKernel.php
 checking file docroot/core/lib/Drupal/Core/Security/RequestSanitizer.php
 </code></pre></div><p>In case if result different - stop on this step and let us know you have issue.
@@ -1370,6 +1374,8 @@ You should see <code>OpenY was patched</code> message.</p>
 </div>
 <div class=td-content style=page-break-before:always>
 <h1 id=pg-b6a58c65aaf47d99271374408b87f2cf>30 - OpenY-upgrade-for-developers.-Upgrade-to-old-OpenY-1.x-version</h1>
+<p>This document is archived but may contain useful information for troubleshooting future updates. For updated update steps, visit <a href=/openy_docs/docs/wiki/openy-upgrade-how-to-for-developers/>How to upgrade Open Y</a>.</p>
+<hr>
 <h1 id=upgrade-to-old-open-y-1x-version--tested-on-upgrading-802-to-81114->Upgrade to old, Open Y 1.x version ( tested on upgrading 8.0.2 to 8.1.1.14 )</h1>
 <p>See <a href=/openy_docs/docs/wiki/upgrade-openy-8.1.3-to-8.2.2.1/>upgrade from 8.1.3 to 8.2.2.1</a></p>
 <p>We found the oldest OpenY instance working on 8.0.2 version of OpenY so this document should cover all the way of updating it to the latest version.</p>
@@ -1715,6 +1721,8 @@ composer require --dev phpcompatibility/php-compatibility
 </div>
 <div class=td-content style=page-break-before:always>
 <h1 id=pg-e1ae818a1c683fdb6957c0684c7abc61>35 - Upgrade-OpenY-8.1.3-to-8.2.2.1</h1>
+<p>This document is archived but may contain useful information for troubleshooting future updates. For updated update steps, visit <a href=/openy_docs/docs/wiki/openy-upgrade-how-to-for-developers/>How to upgrade Open Y</a>.</p>
+<hr>
 <h3 id=video-tutorials>Video tutorials</h3>
 <p>Upgrade OpenY from 8.0.7 to 8.2.2.1 - <a href="https://www.youtube.com/watch?v=U_mg0-yKGOI">https://www.youtube.com/watch?v=U_mg0-yKGOI</a></p>
 <h3 id=document-is-work-in-progress>Document is work in progress</h3>
@@ -1736,7 +1744,7 @@ Zend Engine v3.1.0, Copyright <span style=color:#ce5c00;font-weight:700>(</span>
     with Zend OPcache v7.1.31-1+ubuntu18.04.1+deb.sury.org+1, Copyright <span style=color:#ce5c00;font-weight:700>(</span>c<span style=color:#ce5c00;font-weight:700>)</span> 1999-2018, by Zend Technologies
     with Xdebug v2.7.2, Copyright <span style=color:#ce5c00;font-weight:700>(</span>c<span style=color:#ce5c00;font-weight:700>)</span> 2002-2019, by Derick Rethans
 vagrant@vagrant:/var/www/docroot$ drush --version
- **Drush Version   :  8.2.3** 
+ **Drush Version   :  8.2.3**
 vagrant@vagrant:/var/www/docroot$ composer --version
 **Composer version 1.7.2** 2018-08-16 16:57:12
 </code></pre></div><h1 id=step-by-step-guide-for-update>Step by step guide for update</h1>
@@ -1766,6 +1774,8 @@ vagrant@vagrant:/var/www/docroot$ composer --version
 </div>
 <div class=td-content style=page-break-before:always>
 <h1 id=pg-13121a0edaf11b6dc42fec78965d2feb>36 - Upgrade-use-case-from-8.2.2.3-to-8.2.7.3</h1>
+<p>This document is archived but may contain useful information for troubleshooting future updates. For updated update steps, visit <a href=/openy_docs/docs/wiki/openy-upgrade-how-to-for-developers/>How to upgrade Open Y</a>.</p>
+<hr>
 <p>1 uninstall <code>lndr</code> and <code>optimizely</code> modules before running <a href=/openy_docs/docs/wiki/openy-upgrade-how-to-for-developers/#run-command-with-next-never-version--replace-new_version_here-with-the-version-you-are-upgrading-to-eg-8207->composer update commands</a></p>
 <p>2 config to remove</p>
 <div class=highlight><pre tabindex=0 style=background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-sh data-lang=sh>
