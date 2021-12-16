@@ -1,11 +1,10 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Open Y – Development</title><link>/docs/development/</link><description>Recent content in Development on Open Y</description><generator>Hugo -- gohugo.io</generator><atom:link href="/docs/development/index.xml" rel="self" type="application/rss+xml"/><item><title>Docs: AcceptanceTesting</title><link>/docs/development/acceptancetesting/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/development/acceptancetesting/</guid><description>
-&lt;h3 id="open-y-acceptance-testing-best-practices">Open Y Acceptance testing best practices&lt;/h3>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Open Y – Development</title><link>/docs/development/</link><description>Recent content in Development on Open Y</description><generator>Hugo -- gohugo.io</generator><atom:link href="/docs/development/index.xml" rel="self" type="application/rss+xml"/><item><title>Docs: Acceptance Testing</title><link>/docs/development/acceptancetesting/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/development/acceptancetesting/</guid><description>
 &lt;p>Open Y is a big distribution with a large amount of modules, components, subsystems, and business
 processes, therefore we have to take appropriate steps to ensure the stability of major functionality during development.&lt;/p>
-&lt;p>For the automated tests we have created &lt;a href="https://github.com/ymcatwincities/openy/blob/8.x-1.x/.github/PULL_REQUEST_TEMPLATE.md">General Checks template&lt;/a>
+&lt;p>For the automated tests we have created &lt;a href="https://github.com/ymcatwincities/openy/blob/9.x-2.x/.github/PULL_REQUEST_TEMPLATE.md">General Checks template&lt;/a>
 on GitHub every developer should follow to get review approval from Open Y core team.
 However, General Checks are for testing functionality for the current proposed change only, not for Regression Testing.&lt;/p>
-&lt;p>For regression testing, &lt;a href="https://github.com/ymcatwincities/openy/blob/8.x-1.x/docs/Development/Tests.md#behat">Behat tests&lt;/a> in this flow are provided automatically on each build by Open Y community.&lt;/p>
+&lt;p>For regression testing, &lt;a href="/docs/development/tests/#behat">Behat tests&lt;/a> in this flow are provided automatically on each build by Open Y community.&lt;/p>
 &lt;p>Every pull request should include a testing plan prior to release into Open Y. This plan should cover the testing of all workflows and functionality to ensure that they continue to work with any new code or change implemented. This is because it is possible for conflicts to occur between elements of Open Y, Drupal Modules, and Drupal Core. These pull request testing plans will increase productivity and decrease effort for manual Acceptance Testing of upcoming Releases. This testing plan should cover specific features and functionality that is likely to cause regression issues post-release or post-upgrade to the latest version of Open Y once this new code is implemented.&lt;/p>
 &lt;p>Example of testing plan: If the Drupal core is updated it is important to gather all Drupal core Release Notes since last release
 core upgrade for Open Y and analyze important issues fixed.
@@ -26,27 +25,27 @@ Example - in case if you are doing upgrade from latest 8.4.0 to 8.4.4:&lt;/p>
 &lt;li>composer&lt;/li>
 &lt;/ul>
 &lt;p>This list could be extended by analyzing some highly important parts of Open Y distributions that depends from the above
-subsystems. It is not required to spend time on every module that has a dependency taxonomy, but it is important to test at least one impacted module to ensure it is still working post-implementation. In case if there is a Behat test already created for the subsystem in a list then a manual test could be skipped as long as the build is not failing due to the module or element covered in the associatied Behat test.&lt;/p>
+subsystems. It is not required to spend time on every module that has a dependency taxonomy, but it is important to test at least one impacted module to ensure it is still working post-implementation. In case if there is a Behat test already created for the subsystem in a list then a manual test could be skipped as long as the build is not failing due to the module or element covered in the associated Behat test.&lt;/p>
 &lt;p>How to choose which modules to test: These can be a random selection from the list of systems impacted, or one of the oldest modules in a system impacted. This is because there is a higher chance that a minor change could cause a regression issue for the modules that have not received recent or regular updates.&lt;/p>
 &lt;p>The oldest modules(contrib modules) that have dependencies from the above list should also be updated, but
 to improve productivity, these updates should only be initiated if there is a security issue or a module stopped working because of
 the subsystems getting updated within an upcoming release. In case if a respective module update creates more issues
 that the older version of said module - then it is better to keep the old module and fix an associated regression bug.
-Tip: usually a new version of the module already contains a bug fix, so adding a patch from the drupal.org to composer.json of the Open Y distribution is preffered to get distribution
+Tip: usually a new version of the module already contains a bug fix, so adding a patch from the drupal.org to composer.json of the Open Y distribution is preferred to get distribution
 released. Keep in mind, you will need to create a follow-up task for the module to be updated after release.&lt;/p>
 &lt;p>After creating list of modules that could introduce regression issues it is highly recommended to follow
-Quickstart section of the module&amp;rsquo;s readme files, that usually is shipped with modules. &lt;a href="https://github.com/ymcatwincities/openy/blob/8.x-1.x/modules/custom/location_finder/README.md#quickstart">Example for the location_finder&lt;/a>.
-In case if a module has no Quickstart of Acceptance testing section in readme - it is important to test at least one place
+Quick-start section of the module&amp;rsquo;s readme files, that usually is shipped with modules. &lt;a href="https://github.com/ymcatwincities/openy/blob/8.x-1.x/modules/custom/location_finder/README.md#quickstart">Example for the location_finder&lt;/a>.
+In case if a module has no Quick-start or Acceptance testing section in readme - it is important to test at least one place
 where functionality of the module should be working. It is highly recommended to add this manual test steps as
 a follow-up task, &lt;a href="https://github.com/ymcatwincities/openy/issues/new">new issue&lt;/a> or even better - create Pull Request
 with changes to readme into Open Y repository. For the sake of performance, adding step by step how-to to the respective
 module&amp;rsquo;s README.md file is highly recommended. It takes only a few minutes to write a couple of lines of documentation which will greatly help others with future contributions and changes.&lt;/p>
-&lt;p>Optional, but grately appreciated: Add a Drupal tour for the how-to, created in README will benefit future Open Y users and developers.
+&lt;p>Optional, but greatly appreciated: Add a Drupal tour for the how-to, created in README will benefit future Open Y users and developers.
 Having a tour for the business functionality is highly recommended to ship with the component - it creates an in-site visual guided documentation and helps to decrease time for the Acceptance testing.&lt;/p>
 &lt;p>And last, but not the lease - adding Behat tests to the system will ensure functionality is tested on every pull
 request, on every CI build in the future.&lt;/p>
 &lt;h3 id="rule">Rule&lt;/h3>
-&lt;p>Every release of Open Y since 8.1.9 should include list of subsystems, changed in release for the community to be aware of the possible regressions on their end.)&lt;/p></description></item><item><title>Docs: AddThis</title><link>/docs/development/addthis/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/development/addthis/</guid><description>
+&lt;p>Every release of Open Y since 8.1.9 should include list of subsystems, changed in release for the community to be aware of the possible regressions on their end.&lt;/p></description></item><item><title>Docs: AddThis</title><link>/docs/development/addthis/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/development/addthis/</guid><description>
 &lt;h1 id="how-to-configure-addthis">How to configure AddThis&lt;/h1>
 &lt;p>Open Y AddThis module allow you easy add Social icons to any node.&lt;/p>
 &lt;ol>
@@ -55,7 +54,7 @@ request, on every CI build in the future.&lt;/p>
 &lt;/li>
 &lt;li>
 &lt;p>Go to &lt;code>admin/openy/settings/openy-addthis&lt;/code> add public id
-&lt;img src="../assets/addthis.png" alt="Enter Public id">&lt;/p>
+&lt;img src="../../assets/addthis.png" alt="Enter Public id">&lt;/p>
 &lt;/li>
 &lt;li>
 &lt;p>Select the content type for which to show the social icons and save.&lt;/p>
@@ -69,84 +68,81 @@ request, on every CI build in the future.&lt;/p>
 &lt;/li>
 &lt;li>
 &lt;p>After content add &amp;lsquo;Social share icons&amp;rsquo; paragraph
-&lt;img src="../assets/addthis_paragraph.png" alt="Enter Public id">)&lt;/p>
+&lt;img src="../../assets/addthis_paragraph.png" alt="Enter Public id">&lt;/p>
 &lt;/li>
 &lt;/ol></description></item><item><title>Docs: Composer</title><link>/docs/development/composer/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/development/composer/</guid><description>
-&lt;h1 id="composer">Composer&lt;/h1>
 &lt;p>Please always make sure &lt;code>composer.lock&lt;/code> file is updated after any changes in &lt;code>composer.json&lt;/code> file.
 You can use &lt;code>composer update&lt;/code> command to update any package, in this case composer will take care about updating of &lt;code>composer.lock&lt;/code> file.&lt;/p>
 &lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-fallback" data-lang="fallback">composer update drupal/metatag
 &lt;/code>&lt;/pre>&lt;/div>&lt;p>Also you can use &lt;code>composer update --lock&lt;/code> command to force updating of &lt;code>composer.lock&lt;/code> file according to dependencies in &lt;code>composer.json&lt;/code>.&lt;/p>
-&lt;p>Please check official composer documentation for details: &lt;a href="https://getcomposer.org/doc/01-basic-usage.md">https://getcomposer.org/doc/01-basic-usage.md&lt;/a>)&lt;/p></description></item><item><title>Docs: Configuration for social posts import</title><link>/docs/development/configuration-for-social-posts-import/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/development/configuration-for-social-posts-import/</guid><description>
+&lt;p>Please check official composer documentation for details: &lt;a href="https://getcomposer.org/doc/01-basic-usage.md">https://getcomposer.org/doc/01-basic-usage.md&lt;/a>&lt;/p></description></item><item><title>Docs: Configuration for social posts import</title><link>/docs/development/configuration-for-social-posts-import/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/development/configuration-for-social-posts-import/</guid><description>
 &lt;p>Add import social posts to site (Facebook, Instagram, Twitter)&lt;/p>
-&lt;h3 id="how-configure-import-of-posts-from-the-social-networks">How configure import of posts from the social networks&lt;/h3>
+&lt;h2 id="how-configure-import-of-posts-from-the-social-networks">How configure import of posts from the social networks&lt;/h2>
 &lt;p>&lt;strong>Given:&lt;/strong>
 As an Open Y site developer, I want to be able import posts from company&amp;rsquo;s accounts form social networks (Twitter, Facebook, Instagram) and save them as content on the site.&lt;/p>
 &lt;p>&lt;strong>How to:&lt;/strong>&lt;/p>
 &lt;ul>
 &lt;li>Open configuration page /admin/config/social_feed_fetcher_settings - Configuration -&amp;gt; Social Feed Settings&lt;/li>
 &lt;li>Select checkbox for needed social network and add additional settings. Every social network has their own API, please read documentation for this settings on the official pages of each social networks.&lt;/li>
-&lt;li>When all settings will be filled - click on the button - Run Cron. Import is started. )&lt;/li>
+&lt;li>When all settings will be filled - click on the button - Run Cron. Import is started.&lt;/li>
 &lt;/ul></description></item><item><title>Docs: Contributing</title><link>/docs/development/contributing/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/development/contributing/</guid><description>
-&lt;h1 id="contributing-to-open-y">Contributing to Open Y&lt;/h1>
-&lt;h1 id="issues">Issues&lt;/h1>
+&lt;h2 id="issues">Issues&lt;/h2>
 &lt;p>If you have a support request, you&amp;rsquo;ve found a bug or you have a feature request:&lt;/p>
 &lt;ul>
 &lt;li>Search through known issues/requests &lt;a href="https://github.com/ymcatwincities/openy/issues">https://github.com/ymcatwincities/openy/issues&lt;/a>&lt;/li>
 &lt;li>Create new issue &lt;a href="https://github.com/ymcatwincities/openy/issues/new">https://github.com/ymcatwincities/openy/issues/new&lt;/a>&lt;/li>
 &lt;/ul>
-&lt;h1 id="pull-requests">Pull Requests&lt;/h1>
+&lt;h2 id="pull-requests">Pull Requests&lt;/h2>
 &lt;p>If you have some time to make a contribution to the project, here are the steps that will help you:&lt;/p>
 &lt;ul>
 &lt;li>Create fork of &lt;a href="https://github.com/ymcatwincities/openy">main project&lt;/a>. &lt;a href="https://help.github.com/articles/fork-a-repo/">How to create fork&lt;/a>.&lt;/li>
 &lt;li>Commit &amp;amp; push changes into your fork&lt;/li>
 &lt;li>Create new Pull Request. &lt;a href="https://help.github.com/articles/creating-a-pull-request/">How to create Pull Request&lt;/a>.&lt;/li>
 &lt;li>Write steps for review. In this way maintainers can go through steps on build to verify your fix/feature.&lt;/li>
-&lt;li>Ensure steps for review added to README.md file in a module&amp;rsquo;s/project&amp;rsquo;s directory if it makes sence to check them on regular basis. Often this is needed for crucial parts of the system which is main business functionality of the component. Example of super simple steps for review &lt;a href="https://github.com/ymcatwincities/openy/blob/8.x-1.x/modules/custom/location_finder/README.md#quickstart">see in Quickstart section of location_finder module&lt;/a>, plese.&lt;/li>
+&lt;li>Ensure steps for review added to README.md file in a module&amp;rsquo;s/project&amp;rsquo;s directory if it makes sense to check them on regular basis. Often this is needed for crucial parts of the system which is main business functionality of the component. Example of super simple steps for review &lt;a href="https://github.com/ymcatwincities/openy/blob/8.x-1.x/modules/custom/location_finder/README.md#quickstart">see in Quickstart section of location_finder module&lt;/a>, please.&lt;/li>
 &lt;li>Create Drupal tour module, based on steps for review and ship it with the module which provides a functionality.&lt;/li>
 &lt;li>Wait for a CI build and ask maintainers for review.&lt;/li>
 &lt;/ul>
 &lt;p>&lt;strong>Important:&lt;/strong> make sure your git email is associated with account on drupal.org, otherwise you won&amp;rsquo;t get commits there.&lt;/p>
-&lt;h1 id="drupalorg-credits">Drupal.org credits&lt;/h1>
+&lt;h2 id="drupalorg-credits">Drupal.org credits&lt;/h2>
 &lt;p>If you would like to get drupal.org credits for your contribution:&lt;/p>
 &lt;ul>
 &lt;li>Create issue on &lt;a href="https://www.drupal.org/project/issues/openy?categories=All">drupal.org&lt;/a>&lt;/li>
 &lt;li>Link drupal.org issue to GitHub Pull Request&lt;/li>
 &lt;li>Specify in GitHub Pull Request link to drupal.org issue&lt;/li>
-&lt;li>Once PR has been merged, reviewer will close drupal.org issue with appropriate credits.)&lt;/li>
-&lt;/ul></description></item><item><title>Docs: Create View Modes</title><link>/docs/development/create-view-modes/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/development/create-view-modes/</guid><description>
-&lt;h1 id="how-to-create-new-view-mode-and-use">How to Create new View mode and use&lt;/h1>
-&lt;p>As with any other entity in drupal, when it comes to render the rendering it in different contexts, you might want to have specific viewmodes.&lt;/p>
+&lt;li>Once PR has been merged, reviewer will close drupal.org issue with appropriate credits.&lt;/li>
+&lt;/ul></description></item><item><title>Docs: Create &amp; Use New View Modes</title><link>/docs/development/create-view-modes/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/development/create-view-modes/</guid><description>
+&lt;p>As with any other entity in Drupal, when it comes to render the rendering it in different contexts, you might want to have specific view modes.&lt;/p>
 &lt;p>Here you can find instructions how you can add new view modes into embedded entity form on Open Y distribution.&lt;/p>
-&lt;h2 id="how-to-create-new-view-mode">How-to create new View mode&lt;/h2>
+&lt;h3 id="create-a-new-view-mode">Create a new View Mode&lt;/h3>
 &lt;ol>
-&lt;li>Go to &amp;lsquo;View modes&amp;rsquo; page: Structure -&amp;gt; Display modes -&amp;gt; View modes (or visit the URL: /admin/structure/display-modes/view )
-&lt;img src="../assets/view_mode_in_menu.png" alt="Configuration project add/update form">&lt;/li>
+&lt;li>Go to &amp;lsquo;View modes&amp;rsquo; page: Structure -&amp;gt; Display modes -&amp;gt; View modes (or visit the URL: &lt;code>/admin/structure/display-modes/view&lt;/code>
+&lt;img src="../../assets/view_mode_in_menu.png" alt="Configuration project add/update form">&lt;/li>
 &lt;/ol>
-&lt;p>&lt;img src="../assets/view_mode_types.png" alt="Configuration project add/update form">&lt;/p>
+&lt;p>&lt;img src="../../assets/view_mode_types.png" alt="Configuration project add/update form">&lt;/p>
 &lt;ol start="2">
-&lt;li>Create new view mode: click &amp;lsquo;Add view mode&amp;rsquo; button and select entity type (or visit the URL: /admin/structure/display-modes/view/add )&lt;/li>
+&lt;li>Create new view mode: click &amp;lsquo;Add view mode&amp;rsquo; button and select entity type (or visit the URL: &lt;code>/admin/structure/display-modes/view/add&lt;/code>&lt;/li>
 &lt;/ol>
-&lt;p>&lt;img src="../assets/view_mode_firt_way_to_create.png" alt="Configuration project add/update form">&lt;/p>
+&lt;p>&lt;img src="../../assets/view_mode_firt_way_to_create.png" alt="Configuration project add/update form">&lt;/p>
 &lt;p>or after each entity type you can see &amp;lsquo;Add new {Name} view mode&amp;rsquo; and click on it
-&lt;img src="../assets/view_mode_seond_way.png" alt="Configuration project add/update form">&lt;/p>
+&lt;img src="../../assets/view_mode_seond_way.png" alt="Configuration project add/update form">&lt;/p>
 &lt;ol start="3">
-&lt;li>Select &amp;ldquo;Media&amp;rdquo; and then give a name to your new viewmode (or visit the URL: /admin/structure/display-modes/view/add/media )
-&lt;img src="../assets/view_mode_creating.png" alt="Configuration project add/update form">&lt;/li>
+&lt;li>Select &amp;ldquo;Media&amp;rdquo; and then give a name to your new view mode (or visit the URL: /&lt;code>admin/structure/display-modes/view/add/media&lt;/code>
+&lt;img src="../../assets/view_mode_creating.png" alt="Configuration project add/update form">&lt;/li>
 &lt;/ol>
-&lt;h2 id="how-to-use-new-view-mode">How-to use new View mode&lt;/h2>
+&lt;h3 id="use-the-view-mode">Use the View Mode&lt;/h3>
 &lt;ol>
-&lt;li>Go to Configuration -&amp;gt; Text editor embed buttons (or visit the URL: /admin/config/content/embed )
-&lt;img src="../assets/view_mode_using.png" alt="Configuration project add/update form">&lt;/li>
+&lt;li>Go to Configuration -&amp;gt; Text editor embed buttons (or visit the URL: &lt;code>/admin/config/content/embed&lt;/code>
+&lt;img src="../../assets/view_mode_using.png" alt="Configuration project add/update form">&lt;/li>
 &lt;/ol>
-&lt;p>&lt;img src="../assets/view_mode_using_list.png" alt="Configuration project add/update form">&lt;/p>
+&lt;p>&lt;img src="../../assets/view_mode_using_list.png" alt="Configuration project add/update form">&lt;/p>
 &lt;ol start="2">
-&lt;li>Then make sure you enable the new viewmode in &amp;ldquo;Allowed Entity Embed Display plugins&amp;rdquo;, and at the bottom of the page click &amp;ldquo;Save&amp;rdquo;.
-&lt;img src="../assets/view_mode_enable.png" alt="Configuration project add/update form">)&lt;/li>
-&lt;/ol></description></item><item><title>Docs: DataLayer</title><link>/docs/development/datalayer/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/development/datalayer/</guid><description>
-&lt;p>See also the Data Layer module readme datalayer/README.md&lt;/p>
+&lt;li>Then make sure you enable the new view mode in &amp;ldquo;Allowed Entity Embed Display plugins&amp;rdquo;, and at the bottom of the page click &amp;ldquo;Save&amp;rdquo;.
+&lt;img src="../../assets/view_mode_enable.png" alt="Configuration project add/update form">&lt;/li>
+&lt;/ol></description></item><item><title>Docs: Data Layer</title><link>/docs/development/datalayer/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/development/datalayer/</guid><description>
+&lt;p>See also the &lt;a href="https://git.drupalcode.org/project/datalayer/-/blob/8.x-1.x/README.md">Data Layer module README&lt;/a>.&lt;/p>
 &lt;p>The Data Layers module output data on the page in a json format. By default it will output properties (langcode, vid, name, uid, created, status, roles) and related taxonomy for any node, user, or any route based entity.&lt;/p>
-&lt;p>A limited set of properties are available via the Data Layers configuration form at /admin/config/search/datalayer (langcode, vid, name, uid, created, status, roles).&lt;/p>
+&lt;p>A limited set of properties are available via the Data Layers configuration form at &lt;code>/admin/config/search/datalayer&lt;/code> (langcode, vid, name, uid, created, status, roles).&lt;/p>
 &lt;p>Adding additional properties can be done through use of hook_datalayer_meta().&lt;/p>
 &lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-php" data-lang="php">&lt;span style="color:#204a87;font-weight:bold">function&lt;/span> &lt;span style="color:#000">my_module_datalayer_meta&lt;/span>&lt;span style="color:#000;font-weight:bold">()&lt;/span> &lt;span style="color:#000;font-weight:bold">{&lt;/span>
 &lt;span style="color:#204a87;font-weight:bold">return&lt;/span> &lt;span style="color:#204a87;font-weight:bold">array&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span>
@@ -194,74 +190,80 @@ As an Open Y site developer, I want to be able import posts from company&amp;rsq
 &lt;span style="color:#000">$data_layer&lt;/span>&lt;span style="color:#000;font-weight:bold">[&lt;/span>&lt;span style="color:#4e9a06">&amp;#39;entityLabel&amp;#39;&lt;/span>&lt;span style="color:#000;font-weight:bold">]&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">=&lt;/span> &lt;span style="color:#000">strtolower&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#000">$data_layer&lt;/span>&lt;span style="color:#000;font-weight:bold">[&lt;/span>&lt;span style="color:#4e9a06">&amp;#39;entityLabel&amp;#39;&lt;/span>&lt;span style="color:#000;font-weight:bold">]);&lt;/span>
 &lt;span style="color:#000;font-weight:bold">}&lt;/span>
 &lt;span style="color:#000;font-weight:bold">}&lt;/span>
-&lt;span style="color:#4e9a06">``&lt;/span>&lt;span style="color:#a40000">`&lt;/span>&lt;span style="color:#000;font-weight:bold">)&lt;/span>
 &lt;/code>&lt;/pre>&lt;/div></description></item><item><title>Docs: Daxko</title><link>/docs/development/daxko/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/development/daxko/</guid><description>
-&lt;h1 id="daxko">Daxko&lt;/h1>
-&lt;p>Relates to: [Program Registration (Daxko)](../Paragraphs/Program Registration (Daxko).md)&lt;/p>
-&lt;p>Configuration setting at /admin/config/development/daxko&lt;/p>
-&lt;p>Account configuration must be setup before the Program Registration paragraph will work.)&lt;/p></description></item><item><title>Docs: Fonts</title><link>/docs/development/fonts/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/development/fonts/</guid><description>
-&lt;p>#Fonts&lt;/p>
-&lt;p>The majority of the fonts used by the Open Y distribution are freely available, except for Cachet.&lt;/p>
-&lt;p>Helvetica is used for paragraph text, with Verdana as a fallback. Page titles, headers, highlighted text, etc, use Cachet, with Ubuntu Condensed as a fallback.&lt;/p>
-&lt;p>The font definitions in the distribution&amp;rsquo;s main theme, Open Y Rose, are set to use Cachet, but fallback to Ubuntu Condensed if the font is not present.&lt;/p>
-&lt;pre>&lt;code>font-family: &amp;quot;Cachet W01 Bold&amp;quot;, 'Ubuntu Condensed', sans-serif;
-&lt;/code>&lt;/pre>
-&lt;h2 id="ubuntu-condensed">Ubuntu Condensed&lt;/h2>
-&lt;p>Ubuntu Condensed is a free font available from Google Fonts, &lt;a href="https://fonts.google.com/specimen/Ubuntu+Condensed">https://fonts.google.com/specimen/Ubuntu+Condensed&lt;/a> .&lt;/p>
-&lt;p>If you look at the openy_rose.libraries.yml file you can see Ubunutu Condensed is already linked as part of the theme.&lt;/p>
-&lt;pre>&lt;code>global-styling:
-css:
-base:
-//fonts.googleapis.com/css?family=Ubuntu+Condensed:400,700: {}
-&lt;/code>&lt;/pre>
-&lt;h2 id="cachet">Cachet&lt;/h2>
-&lt;p>Cachet, specifically &amp;ldquo;Cachet W01 Medium&amp;rdquo;, is part of the YMCA styleguide. It is a commercial font, and must be purchased for individual sites. It cannot be distributed as part of the Open Y distribution or hosted on Drupal.org.&lt;/p>
-&lt;p>The font can be purchased from fonts.com, &lt;a href="https://www.fonts.com/font/monotype/cachet/book">https://www.fonts.com/font/monotype/cachet/book&lt;/a> .&lt;/p>
-&lt;h2 id="installing-cachet">Installing Cachet&lt;/h2>
-&lt;p>There are a number of ways to get Cachet setup on your site. As long as the font gets linked in the page it should get used, since it is already part of the font declarations.&lt;/p>
-&lt;p>If you purchase Cachet from fonts.com, add the URL you are provided to the global-styling library in openy_rose.libraries.yml, right where Ubuntu Condensed is linked.&lt;/p>
-&lt;pre>&lt;code> css:
-base:
-//fast.fonts.net/cssapi/abcdef-12345-tuvwxyx-67890.css: {}
-//fonts.googleapis.com/css?family=Ubuntu+Condensed:400,700: {}
-&lt;/code>&lt;/pre>
-&lt;p>You may also need to add a JavaScript file provided by fonts.com. You can add that in the same global-styling library.&lt;/p>
-&lt;pre>&lt;code>js:
-//fast.fonts.net/jsapi/12345-abcdef-67890.js: {}
-&lt;/code>&lt;/pre>
-&lt;p>Another option is to use the @font-your-face Drupal module, &lt;a href="https://www.drupal.org/project/fontyourface">https://www.drupal.org/project/fontyourface&lt;/a> .&lt;/p>
-&lt;p>Once installed you can connect your Drupal site to your font.com account, or one of the other font providers, and have the font automatically retrieved and added to your site. Follow the directions provided by the module to connect to your font provider account.)&lt;/p></description></item><item><title>Docs: Google_Analytics_Search</title><link>/docs/development/google_analytics_search/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/development/google_analytics_search/</guid><description>
-&lt;h1 id="how-to-configure-search-tracking-in-google-analytics-account">How to configure search tracking in Google Analytics account&lt;/h1>
-&lt;p>##Prerequisites
-Google Analitycs account to track you site should be created.
-Google Analitycs contrib module should be enabled and configured to use existing GA account.&lt;/p>
-&lt;p>##Steps&lt;/p>
-&lt;ol>
-&lt;li>
-&lt;p>Log in to Google Analytics account that configured to track your Open Y site.&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>Click Admin button in bottom right corner of main screen
-&lt;img src="../assets/ga_search_1.png" alt="Google Analytics Main Screen">&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>Click View Settings
-&lt;img src="../assets/ga_search_2.png" alt="Google Analytics View Settings">&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>Scroll to “Site Search Settings” section and enable “Site Search Tracking” switch
-&lt;img src="../assets/ga_search_3.png" alt="Google Analytics Site Search Settings">&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>Fill query parameter field with &lt;code>q, query&lt;/code> values and click Save&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>Reports about the search tracking you can find at main screen in Behavior → Site Search Section&lt;/p>
-&lt;/li>
-&lt;/ol>
-&lt;p>Attention: Data processing latency for search tracking reports is 24-48 hours
-(see &lt;a href="https://support.google.com/analytics/answer/1070983?hl=en#DataProcessingLatency">https://support.google.com/analytics/answer/1070983?hl=en#DataProcessingLatency&lt;/a>))&lt;/p></description></item><item><title>Docs: GoogleCustomSearchConfiguration</title><link>/docs/development/googlecustomsearchconfiguration/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/development/googlecustomsearchconfiguration/</guid><description>
-&lt;h1 id="google-custom-search-configuration">Google Custom Search configuration&lt;/h1>
+&lt;p>Relates to: &lt;a href="/docs/content-structure/paragraphs/program-registration-daxko/">Program Registration (Daxko)&lt;/a>&lt;/p>
+&lt;p>Configuration setting at &lt;code>/admin/config/development/daxko&lt;/code>&lt;/p>
+&lt;p>Account configuration must be setup before the Program Registration paragraph will work.&lt;/p></description></item><item><title>Docs: Fonts</title><link>/docs/development/fonts/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/development/fonts/</guid><description>
+&lt;p>From &lt;a href="https://link.ymca.net/mlink/post/ODI2MA">YMCA Link&lt;/a>:&lt;/p>
+&lt;blockquote>
+&lt;p>Typography is an important element of our brand identity. Cachet and Verdana, the only two fonts used on YMCA collateral, help provide our words with a distinctive look and welcoming feel. And Cachet, as our primary font, should be used for all internal and external materials whenever possible.&lt;/p>
+&lt;p>To help Ys incorporate the Cachet font into their online applications, &lt;strong>Y-USA is now licensing the web font version of Cachet for all YMCAs.&lt;/strong> Previously, Ys could only access the desktop version of the font from the Brand Resource Center (BRC).&lt;/p>
+&lt;p>Visit the BRC to:&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://theybrand.org/wordpress/cachet">Download Cachet as a Web Font &lt;/a> (requires YMCA Link login)&lt;/li>
+&lt;/ul>
+&lt;/blockquote>
+&lt;p>Once you&amp;rsquo;ve downloaded the WOFF files, you&amp;rsquo;ll need to add them to your site. These instructions mirror the &lt;a href="https://www.youtube.com/watch?v=Kl1lwYSg3ww&amp;amp;feature=youtu.be">walkthrough in this video&lt;/a>.&lt;/p>
+&lt;ul>
+&lt;li>Visit &lt;strong>Admin&lt;/strong> &amp;gt; &lt;strong>Extend&lt;/strong> and ensure the &amp;ldquo;@fontyourface&amp;rdquo; and &amp;ldquo;@fontyourface - Local Fonts&amp;rdquo; modules are enabled.&lt;/li>
+&lt;li>Visit &lt;strong>Admin&lt;/strong> &amp;gt; &lt;strong>Appearance&lt;/strong> &amp;gt; &lt;strong>@font-your-face&lt;/strong> &amp;gt; &lt;strong>Custom Fonts&lt;/strong>&lt;/li>
+&lt;li>Click &lt;strong>+ Add Custom Font&lt;/strong> and add each of the Cachet font files you downloaded above with the following settings:&lt;/li>
+&lt;/ul>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>Label&lt;/th>
+&lt;th>Font Family&lt;/th>
+&lt;th>Font Style&lt;/th>
+&lt;th>Font Weight&lt;/th>
+&lt;th>Font Classification&lt;/th>
+&lt;th>Font File&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>Cachet Extra Light&lt;/td>
+&lt;td>Cachet&lt;/td>
+&lt;td>Normal&lt;/td>
+&lt;td>300&lt;/td>
+&lt;td>Sans Serif&lt;/td>
+&lt;td>CachetW05-ExtraLight.woff&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Cachet Book&lt;/td>
+&lt;td>Cachet&lt;/td>
+&lt;td>Normal&lt;/td>
+&lt;td>400&lt;/td>
+&lt;td>Sans Serif&lt;/td>
+&lt;td>CachetW05-Book.woff&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Cachet Medium&lt;/td>
+&lt;td>Cachet&lt;/td>
+&lt;td>Normal&lt;/td>
+&lt;td>500&lt;/td>
+&lt;td>Sans Serif&lt;/td>
+&lt;td>CachetW05-Medium.woff&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Cachet Bold&lt;/td>
+&lt;td>Cachet&lt;/td>
+&lt;td>Normal&lt;/td>
+&lt;td>700&lt;/td>
+&lt;td>Sans Serif&lt;/td>
+&lt;td>CachetW05-Bold.woff&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;p>&lt;img src="../../assets/Add_custom_font.png" alt="Add_custom_font|591x500">&lt;/p>
+&lt;ul>
+&lt;li>After you&amp;rsquo;ve added each font, &lt;strong>Enable&lt;/strong> them.&lt;/li>
+&lt;/ul>
+&lt;p>&lt;img src="../../assets/Custom_Font.png" alt="Custom_Font|690x156, 100%">&lt;/p>
+&lt;ul>
+&lt;li>Your site should now use the Cachet font in headers and other areas. Usage is dependent on the Open Y theme you choose.&lt;/li>
+&lt;/ul>
+&lt;p>This content was originally &lt;a href="https://community.openymca.org/t/using-the-latest-2020-cachet-web-fonts-on-your-open-y-or-virtual-y-site/894">published on the Open Y Message Board&lt;/a>.&lt;/p></description></item><item><title>Docs: Google Custom Search Configuration</title><link>/docs/development/googlecustomsearchconfiguration/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/development/googlecustomsearchconfiguration/</guid><description>
 &lt;p>The Open Y release &lt;strong>8.2.4&lt;/strong> introduces Google Custom Search for the website out of the box.&lt;/p>
 &lt;h2 id="enabling-the-module">Enabling the module&lt;/h2>
 &lt;h3 id="fresh-installations">Fresh installations&lt;/h3>
@@ -283,7 +285,7 @@ Upon installation, the modules create a Landing page for search results and poin
 &lt;li>Go to the Google Search settings form (Admin menu &amp;gt; Open Y &amp;gt; Settings &amp;gt; Google Search settings, or &lt;code>/admin/openy/settings/google-search&lt;/code>).&lt;/li>
 &lt;li>Set the value of the &lt;code>Google Search ID&lt;/code> field (see the following &lt;a href="#obtaining-search-engine-id">section&lt;/a> for details) and submit the form.&lt;/li>
 &lt;/ol>
-&lt;h2 id="obtaining-search-engine-id">Obtaining Search Engine ID&lt;/h2>
+&lt;h3 id="obtaining-search-engine-id">Obtaining Search Engine ID&lt;/h3>
 &lt;ol>
 &lt;li>Go to &lt;a href="https://cse.google.com/">https://cse.google.com/&lt;/a>, register if you haven&amp;rsquo;t yet, log in if you aren&amp;rsquo;t logged in.&lt;/li>
 &lt;li>Create the Search Engine (this process is explained in Google documentation &lt;a href="https://support.google.com/customsearch/answer/4513882?hl=en&amp;amp;ref_topic=4513742)">https://support.google.com/customsearch/answer/4513882?hl=en&amp;amp;ref_topic=4513742)&lt;/a>:
@@ -302,7 +304,7 @@ Upon installation, the modules create a Landing page for search results and poin
 &lt;li>In the &lt;code>Layout&lt;/code> tab, select &lt;code>Full width&lt;/code> option and click &lt;code>Save&lt;/code>&lt;/li>
 &lt;/ol>
 &lt;p>If this change hasn&amp;rsquo;t made, the search results on the website are shown in a popup window.&lt;/p>
-&lt;h2 id="dealing-with-ads">Dealing with ads&lt;/h2>
+&lt;h3 id="dealing-with-ads">Dealing with ads&lt;/h3>
 &lt;p>By default, newly created Search engines use Free Edition (with ads) of the service. As YMCAs are non-profit organizations they have the option to switch to Non-profit Edition of the CSE, where it is possible to disable ads.&lt;/p>
 &lt;p>Take a look here &lt;a href="https://support.google.com/customsearch/answer/4542102?hl=en&amp;amp;ctx=topic">https://support.google.com/customsearch/answer/4542102?hl=en&amp;amp;ctx=topic&lt;/a>&lt;/p>
 &lt;p>If you are already registered as a Non-profit in Google:&lt;/p>
@@ -360,9 +362,7 @@ openy_third_party_services.google_search_engine_id=&amp;#34;01234567890123456789
 &lt;/code>&lt;/pre>&lt;/div>&lt;p>The &lt;code>openy_third_party_services.google_search_engine_id&lt;/code> parameter sets the Search Engine ID (&lt;code>01234567890123456789:abcedefgh&lt;/code> in the example).&lt;/p>
 &lt;p>Use the following snippet to set the Search Engine ID on already installed websites:&lt;/p>
 &lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-fallback" data-lang="fallback">drush config-set openy_google_search.settings google_engine_id &amp;#34;01234567890123456789:abcedefgh&amp;#34;
-```)
-&lt;/code>&lt;/pre>&lt;/div></description></item><item><title>Docs: InstallationWithDrush</title><link>/docs/development/installationwithdrush/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/development/installationwithdrush/</guid><description>
-&lt;h3 id="site-installation-with-drush">Site installation with drush&lt;/h3>
+&lt;/code>&lt;/pre>&lt;/div></description></item><item><title>Docs: Installation With Drush</title><link>/docs/development/installationwithdrush/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/development/installationwithdrush/</guid><description>
 &lt;p>Use &lt;a href="https://drushcommands.com/drush-8x/core/site-install/">drush site-install&lt;/a> command.&lt;/p>
 &lt;p>Basically you use something like this:&lt;/p>
 &lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-fallback" data-lang="fallback">drush site-install openy --account-pass=password --db-url=&amp;#34;mysql://user:pass@host:3306/db&amp;#34; --root=/var/www/docroot
@@ -370,15 +370,14 @@ openy_third_party_services.google_search_engine_id=&amp;#34;01234567890123456789
 &lt;p>You can set which preset must be installed by specifying it with &lt;code>openy_configure_profile.preset&lt;/code> variable, and theme with
 &lt;code>openy_theme_select.theme&lt;/code>variable e.g.:&lt;/p>
 &lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-fallback" data-lang="fallback">drush site-install openy --account-pass=password --db-url=&amp;#34;mysql://user:pass@host:3306/db&amp;#34; --root=/var/www/docroot openy_configure_profile.preset=extended openy_theme_select.theme=openy_rose
-```)
-&lt;/code>&lt;/pre>&lt;/div></description></item><item><title>Docs: Module Develompent</title><link>/docs/development/module-develompent/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/development/module-develompent/</guid><description>
+&lt;/code>&lt;/pre>&lt;/div></description></item><item><title>Docs: Module Development</title><link>/docs/development/module-develompent/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/development/module-develompent/</guid><description>
 &lt;h3 id="module-content-removal">Module content removal&lt;/h3>
 &lt;p>When deleting an entity, where plugins or services of removing module are used,
 then content removal should be done in the hook_uninstall() of that module.
-See openy_prgf_camp_menu.install as example.)&lt;/p></description></item><item><title>Docs: Patch OpenY</title><link>/docs/development/patch-openy/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/development/patch-openy/</guid><description>
+See openy_prgf_camp_menu.install as example.&lt;/p></description></item><item><title>Docs: Patch Open Y</title><link>/docs/development/patch-openy/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/development/patch-openy/</guid><description>
 &lt;p>Here you can find instructions how you can patch Open Y distribution used on
 your project.&lt;/p>
-&lt;h1 id="when-you-need-to-patch-open-y">When you need to patch Open Y&lt;/h1>
+&lt;h2 id="when-you-need-to-patch-open-y">When you need to patch Open Y&lt;/h2>
 &lt;ul>
 &lt;li>In case you found a bug and prepared a patch for Open Y on github.&lt;/li>
 &lt;li>In case you developed a new feature that will be good to have in Open Y and
@@ -386,18 +385,20 @@ created Pull Request to Open Y repository&lt;/li>
 &lt;li>In case you want to add a feature that added to Open Y but not included yet to
 Open Y release.&lt;/li>
 &lt;/ul>
-&lt;h1 id="how-to-patch-open-y-via-composer">How to patch Open Y via composer?&lt;/h1>
+&lt;h3 id="how-to-patch-open-y-via-composer">How to patch Open Y via composer?&lt;/h3>
 &lt;p>If you followed instructions &lt;a href="https://github.com/ymcatwincities/openy/blob/8.x-1.x/docs/Development/Start%20new%20OpenY%20project.md">docs/Development/Start new Open Y project&lt;/a>
 and you have configured &lt;code>composer.json&lt;/code> you need just to do a few simple steps:&lt;/p>
 &lt;ol>
-&lt;li>Build a link to a patch using pull request ID
+&lt;li>
+&lt;p>Build a link to a patch using pull request ID&lt;/p>
 &lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-fallback" data-lang="fallback">https://patch-diff.githubusercontent.com/raw/ymcatwincities/openy/pull/XXX.patch
 &lt;/code>&lt;/pre>&lt;/div>&lt;/li>
 &lt;/ol>
 &lt;p>Where XXX is a number of pull request you want to use.&lt;/p>
 &lt;ol start="2">
-&lt;li>Add a new section &lt;code>patches&lt;/code> to the section &lt;code>extra&lt;/code> and add a patch to Open Y
-repository, as on this example:
+&lt;li>
+&lt;p>Add a new section &lt;code>patches&lt;/code> to the section &lt;code>extra&lt;/code> and add a patch to Open Y
+repository, as on this example:&lt;/p>
 &lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-fallback" data-lang="fallback">&amp;#34;extra&amp;#34;: {
 &amp;#34;installer-paths&amp;#34;: {
 ...
@@ -410,10 +411,47 @@ repository, as on this example:
 }
 }
 &lt;/code>&lt;/pre>&lt;/div>&lt;/li>
-&lt;li>After adding a patch execute command &lt;code>composer update&lt;/code>&lt;/li>
-&lt;li>Verify you can see added changes in Open Y&lt;/li>
-&lt;li>Enjoy!)&lt;/li>
-&lt;/ol></description></item><item><title>Docs: Server Requirements</title><link>/docs/development/server-requirements/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/development/server-requirements/</guid><description>
+&lt;li>
+&lt;p>After adding a patch execute command &lt;code>composer update&lt;/code>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Verify you can see added changes in Open Y&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Enjoy!&lt;/p>
+&lt;/li>
+&lt;/ol></description></item><item><title>Docs: Search Tracking with Google Analytics</title><link>/docs/development/google_analytics_search/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/development/google_analytics_search/</guid><description>
+&lt;h2 id="prerequisites">Prerequisites&lt;/h2>
+&lt;ul>
+&lt;li>Google Analytics account to track you site should be created.&lt;/li>
+&lt;li>Google Analytics contrib module should be enabled and configured to use existing GA account.&lt;/li>
+&lt;/ul>
+&lt;h2 id="steps">Steps&lt;/h2>
+&lt;ol>
+&lt;li>
+&lt;p>Log in to Google Analytics account that configured to track your Open Y site.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Click Admin button in bottom right corner of main screen
+&lt;img src="../../assets/ga_search_1.png" alt="Google Analytics Main Screen">&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Click View Settings
+&lt;img src="../../assets/ga_search_2.png" alt="Google Analytics View Settings">&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Scroll to “Site Search Settings” section and enable “Site Search Tracking” switch
+&lt;img src="../../assets/ga_search_3.png" alt="Google Analytics Site Search Settings">&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Fill query parameter field with &lt;code>q, query&lt;/code> values and click Save&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Reports about the search tracking you can find at main screen in Behavior → Site Search Section&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;p>Attention: Data processing latency for search tracking reports is 24-48 hours
+(see &lt;a href="https://support.google.com/analytics/answer/1070983?hl=en#DataProcessingLatency">Google&amp;rsquo;s support doc&lt;/a>).&lt;/p></description></item><item><title>Docs: Server Requirements</title><link>/docs/development/server-requirements/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/development/server-requirements/</guid><description>
 &lt;p>If you need to prepare server for the Open Y instance, here below you should find all needed software to meet its requirements.&lt;/p>
 &lt;h3 id="list-of-requirements">List of requirements&lt;/h3>
 &lt;ol>
@@ -465,12 +503,12 @@ repository, as on this example:
 &lt;li>Ansible (optional)&lt;/li>
 &lt;li>Docker (optional)&lt;/li>
 &lt;li>SOLR 4.x (if there will be requirement for SOLR search support)&lt;/li>
-&lt;li>Varnish (optional))&lt;/li>
-&lt;/ul></description></item><item><title>Docs: Start new OpenY project</title><link>/docs/development/start-new-openy-project/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/development/start-new-openy-project/</guid><description>
+&lt;li>Varnish (optional)&lt;/li>
+&lt;/ul></description></item><item><title>Docs: Start new Open Y project</title><link>/docs/development/start-new-openy-project/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/development/start-new-openy-project/</guid><description>
 &lt;p>Here you can find instructions how you can start project based on Open Y distribution.&lt;/p>
-&lt;h1 id="new-project-from-scratch-based-on-open-y">New project from scratch based on Open Y&lt;/h1>
+&lt;h2 id="new-project-from-scratch-based-on-open-y">New project from scratch based on Open Y&lt;/h2>
 &lt;p>In order to start new project from scratch, you can use &lt;a href="https://github.com/ymcatwincities/openy-project#installation">installation instructions&lt;/a> that will build your project and even add development environment.&lt;/p>
-&lt;h1 id="add-open-y-to-existing-drupal-8-project">Add Open Y to existing Drupal 8 project&lt;/h1>
+&lt;h2 id="add-open-y-to-existing-drupal-8-project">Add Open Y to existing Drupal 8 project&lt;/h2>
 &lt;p>Please take a look at the full &lt;code>composer.json&lt;/code> file below that you should eventually get.&lt;/p>
 &lt;details>
  &lt;summary>&lt;strong>Example composer.json (Drupal 8.3.2 + Open Y 1.2)&lt;/strong>&lt;/summary>
@@ -785,8 +823,7 @@ git push -u origin master
 &lt;h2 id="video-tutorial">Video tutorial&lt;/h2>
 &lt;p>&lt;a href="https://youtu.be/RCvsLANsbm8">&lt;img src="https://img.youtube.com/vi/RCvsLANsbm8/0.jpg" alt="Open Y v1.0b - Install Tutorial">&lt;/a>&lt;/p>
 &lt;h2 id="end-to-end-installation">End to end installation&lt;/h2>
-&lt;p>&lt;a href="https://youtu.be/RT6kC38zgvo">&lt;img src="https://img.youtube.com/vi/RT6kC38zgvo/0.jpg" alt="Open Y install - in 16 minutes end to end, no tutorial">&lt;/a>)&lt;/p></description></item><item><title>Docs: Tests</title><link>/docs/development/tests/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/development/tests/</guid><description>
-&lt;h1 id="running-tests">Running Tests&lt;/h1>
+&lt;p>&lt;a href="https://youtu.be/RT6kC38zgvo">&lt;img src="https://img.youtube.com/vi/RT6kC38zgvo/0.jpg" alt="Open Y install - in 16 minutes end to end, no tutorial">&lt;/a>&lt;/p></description></item><item><title>Docs: Tests</title><link>/docs/development/tests/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/development/tests/</guid><description>
 &lt;p>These instructions explain how you can run tests.&lt;/p>
 &lt;h2 id="behat">Behat&lt;/h2>
 &lt;h3 id="requirements">Requirements&lt;/h3>
@@ -894,7 +931,7 @@ $ sh runtests.sh --tags run_selenium
 &lt;h4 id="example-address-and-latitude--longitude">Example Address and Latitude + Longitude&lt;/h4>
 &lt;p>Fields with sub field/columns:
 The machine name and columns can be found in the form markup in the field name property.
-&lt;img src="../assets/complex_field_machine_names.png" alt="Inspect form field name depicted">
+&lt;img src="../../assets/complex_field_machine_names.png" alt="Inspect form field name depicted">
 The first portion, &lt;code>field_location_address&lt;/code> represents the Drupal field machine name, while the second array key &lt;code>address_line1&lt;/code> represents the column.&lt;/p>
 &lt;ul>
 &lt;li>Add Address
@@ -912,9 +949,8 @@ The first portion, &lt;code>field_location_address&lt;/code> represents the Drup
 | field_location_coordinates:lat | 47.293433 |
 | :lng | -122.238717 |
 | field_location_phone | +1234567890 |
-```)
 &lt;/code>&lt;/pre>&lt;/div>&lt;/li>
-&lt;/ul></description></item><item><title>Docs: Theming_and_Design</title><link>/docs/development/theming_and_design/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/development/theming_and_design/</guid><description>
+&lt;/ul></description></item><item><title>Docs: Theming and Design</title><link>/docs/development/theming_and_design/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/development/theming_and_design/</guid><description>
 &lt;p>Welcome to Open Y Theming and Design documentation.&lt;/p>
 &lt;h3 id="how-to-change-styles-on-content-type-level">How to change styles on content type level&lt;/h3>
 &lt;p>&lt;strong>Given:&lt;/strong>
@@ -932,18 +968,17 @@ the theme configuration page - Custom CSS - check &amp;ldquo;Enable or disable c
 &lt;li>.node-id-{node ID};&lt;/li>
 &lt;li>.path-frontpage.&lt;/li>
 &lt;/ul>
-&lt;p>The existing node types are: &lt;em>activity&lt;/em>, &lt;em>alert&lt;/em>, &lt;em>blog&lt;/em>, &lt;em>branch&lt;/em>, &lt;em>camp&lt;/em>, &lt;em>class&lt;/em>, &lt;em>facility&lt;/em>, &lt;em>landing-page&lt;/em>, &lt;em>membership&lt;/em>, &lt;em>news&lt;/em>, &lt;em>program&lt;/em>, &lt;em>program-subcategory&lt;/em>, &lt;em>session&lt;/em>.)&lt;/p></description></item><item><title>Docs: Tour</title><link>/docs/development/tour/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/development/tour/</guid><description>
-&lt;h1 id="how-to-use-tour-for-modules">How to use Tour for modules&lt;/h1>
+&lt;p>The existing node types are: &lt;em>activity&lt;/em>, &lt;em>alert&lt;/em>, &lt;em>blog&lt;/em>, &lt;em>branch&lt;/em>, &lt;em>camp&lt;/em>, &lt;em>class&lt;/em>, &lt;em>facility&lt;/em>, &lt;em>landing-page&lt;/em>, &lt;em>membership&lt;/em>, &lt;em>news&lt;/em>, &lt;em>program&lt;/em>, &lt;em>program-subcategory&lt;/em>, &lt;em>session&lt;/em>.&lt;/p></description></item><item><title>Docs: Tour</title><link>/docs/development/tour/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/development/tour/</guid><description>
 &lt;h3 id="how-to-use-open-y-tour-token-with-tour">How to use Open Y Tour Token with Tour&lt;/h3>
 &lt;p>In someone modules have tour tips and for more interactivity, you can add a token with a click to any selector.&lt;/p>
 &lt;ol>
 &lt;li>
 &lt;p>In the module open tour yml file.
-&lt;img src="../assets/openy_tour_place.png" alt="Configuration project add/update form">&lt;/p>
+&lt;img src="../../assets/openy_tour_place.png" alt="Configuration project add/update form">&lt;/p>
 &lt;/li>
 &lt;li>
 &lt;p>Select the tip for edit and in body add token like this [openy_tour:click:button_name:selector]
-&lt;img src="../assets/openy_tour_add_to_tip.png" alt="Configuration project add/update form">&lt;/p>
+&lt;img src="../../assets/openy_tour_add_to_tip.png" alt="Configuration project add/update form">&lt;/p>
 &lt;/li>
 &lt;li>
 &lt;p>Create hook update for you changes and in command line run drush updb -y&lt;/p>
@@ -955,8 +990,7 @@ the theme configuration page - Custom CSS - check &amp;ldquo;Enable or disable c
 &lt;p>click - command in the token;&lt;/p>
 &lt;p>button_name - name of button when show in a tip;&lt;/p>
 &lt;p>selector - selector to be clicked.&lt;/p>
-&lt;p>Please see and use &lt;a href="https://www.w3schools.com/jquery/jquery_ref_selectors.asp">jQuery selectors&lt;/a>.)&lt;/p></description></item><item><title>Docs: Upgrade path</title><link>/docs/development/upgrade-path/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/development/upgrade-path/</guid><description>
-&lt;h1 id="how-to-support-upgrade-path">How to support upgrade path&lt;/h1>
+&lt;p>Please see and use &lt;a href="https://www.w3schools.com/jquery/jquery_ref_selectors.asp">jQuery selectors&lt;/a>.&lt;/p></description></item><item><title>Docs: Upgrade path</title><link>/docs/development/upgrade-path/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/development/upgrade-path/</guid><description>
 &lt;p>All changes in configurations should be added to appropriate hook_update_N in order to update already existing environments. We suggest to use &lt;a href="https://www.drupal.org/project/confi">https://www.drupal.org/project/confi&lt;/a> for working with hook_update_N.&lt;/p>
 &lt;h3 id="openyinstall-in-profile">&lt;code>openy.install&lt;/code> in profile&lt;/h3>
 &lt;p>In this file we should put updates that are related to the distribution in general and don&amp;rsquo;t fit into any feature.&lt;/p>
@@ -1005,5 +1039,4 @@ $config_importer-&amp;gt;importConfigs([&amp;#39;views.view.images_library&amp;#
 &amp;#39;views.view.images_library&amp;#39;,
 &amp;#39;views.view.example_view&amp;#39;,
 ]);
-```)
 &lt;/code>&lt;/pre>&lt;/div></description></item></channel></rss>

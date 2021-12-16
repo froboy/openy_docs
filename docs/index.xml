@@ -202,14 +202,13 @@
 &lt;td>&lt;/td>
 &lt;/tr>
 &lt;/tbody>
-&lt;/table></description></item><item><title>Docs: AcceptanceTesting</title><link>/docs/development/acceptancetesting/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/development/acceptancetesting/</guid><description>
-&lt;h3 id="open-y-acceptance-testing-best-practices">Open Y Acceptance testing best practices&lt;/h3>
+&lt;/table></description></item><item><title>Docs: Acceptance Testing</title><link>/docs/development/acceptancetesting/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/development/acceptancetesting/</guid><description>
 &lt;p>Open Y is a big distribution with a large amount of modules, components, subsystems, and business
 processes, therefore we have to take appropriate steps to ensure the stability of major functionality during development.&lt;/p>
-&lt;p>For the automated tests we have created &lt;a href="https://github.com/ymcatwincities/openy/blob/8.x-1.x/.github/PULL_REQUEST_TEMPLATE.md">General Checks template&lt;/a>
+&lt;p>For the automated tests we have created &lt;a href="https://github.com/ymcatwincities/openy/blob/9.x-2.x/.github/PULL_REQUEST_TEMPLATE.md">General Checks template&lt;/a>
 on GitHub every developer should follow to get review approval from Open Y core team.
 However, General Checks are for testing functionality for the current proposed change only, not for Regression Testing.&lt;/p>
-&lt;p>For regression testing, &lt;a href="https://github.com/ymcatwincities/openy/blob/8.x-1.x/docs/Development/Tests.md#behat">Behat tests&lt;/a> in this flow are provided automatically on each build by Open Y community.&lt;/p>
+&lt;p>For regression testing, &lt;a href="/docs/development/tests/#behat">Behat tests&lt;/a> in this flow are provided automatically on each build by Open Y community.&lt;/p>
 &lt;p>Every pull request should include a testing plan prior to release into Open Y. This plan should cover the testing of all workflows and functionality to ensure that they continue to work with any new code or change implemented. This is because it is possible for conflicts to occur between elements of Open Y, Drupal Modules, and Drupal Core. These pull request testing plans will increase productivity and decrease effort for manual Acceptance Testing of upcoming Releases. This testing plan should cover specific features and functionality that is likely to cause regression issues post-release or post-upgrade to the latest version of Open Y once this new code is implemented.&lt;/p>
 &lt;p>Example of testing plan: If the Drupal core is updated it is important to gather all Drupal core Release Notes since last release
 core upgrade for Open Y and analyze important issues fixed.
@@ -230,27 +229,27 @@ Example - in case if you are doing upgrade from latest 8.4.0 to 8.4.4:&lt;/p>
 &lt;li>composer&lt;/li>
 &lt;/ul>
 &lt;p>This list could be extended by analyzing some highly important parts of Open Y distributions that depends from the above
-subsystems. It is not required to spend time on every module that has a dependency taxonomy, but it is important to test at least one impacted module to ensure it is still working post-implementation. In case if there is a Behat test already created for the subsystem in a list then a manual test could be skipped as long as the build is not failing due to the module or element covered in the associatied Behat test.&lt;/p>
+subsystems. It is not required to spend time on every module that has a dependency taxonomy, but it is important to test at least one impacted module to ensure it is still working post-implementation. In case if there is a Behat test already created for the subsystem in a list then a manual test could be skipped as long as the build is not failing due to the module or element covered in the associated Behat test.&lt;/p>
 &lt;p>How to choose which modules to test: These can be a random selection from the list of systems impacted, or one of the oldest modules in a system impacted. This is because there is a higher chance that a minor change could cause a regression issue for the modules that have not received recent or regular updates.&lt;/p>
 &lt;p>The oldest modules(contrib modules) that have dependencies from the above list should also be updated, but
 to improve productivity, these updates should only be initiated if there is a security issue or a module stopped working because of
 the subsystems getting updated within an upcoming release. In case if a respective module update creates more issues
 that the older version of said module - then it is better to keep the old module and fix an associated regression bug.
-Tip: usually a new version of the module already contains a bug fix, so adding a patch from the drupal.org to composer.json of the Open Y distribution is preffered to get distribution
+Tip: usually a new version of the module already contains a bug fix, so adding a patch from the drupal.org to composer.json of the Open Y distribution is preferred to get distribution
 released. Keep in mind, you will need to create a follow-up task for the module to be updated after release.&lt;/p>
 &lt;p>After creating list of modules that could introduce regression issues it is highly recommended to follow
-Quickstart section of the module&amp;rsquo;s readme files, that usually is shipped with modules. &lt;a href="https://github.com/ymcatwincities/openy/blob/8.x-1.x/modules/custom/location_finder/README.md#quickstart">Example for the location_finder&lt;/a>.
-In case if a module has no Quickstart of Acceptance testing section in readme - it is important to test at least one place
+Quick-start section of the module&amp;rsquo;s readme files, that usually is shipped with modules. &lt;a href="https://github.com/ymcatwincities/openy/blob/8.x-1.x/modules/custom/location_finder/README.md#quickstart">Example for the location_finder&lt;/a>.
+In case if a module has no Quick-start or Acceptance testing section in readme - it is important to test at least one place
 where functionality of the module should be working. It is highly recommended to add this manual test steps as
 a follow-up task, &lt;a href="https://github.com/ymcatwincities/openy/issues/new">new issue&lt;/a> or even better - create Pull Request
 with changes to readme into Open Y repository. For the sake of performance, adding step by step how-to to the respective
 module&amp;rsquo;s README.md file is highly recommended. It takes only a few minutes to write a couple of lines of documentation which will greatly help others with future contributions and changes.&lt;/p>
-&lt;p>Optional, but grately appreciated: Add a Drupal tour for the how-to, created in README will benefit future Open Y users and developers.
+&lt;p>Optional, but greatly appreciated: Add a Drupal tour for the how-to, created in README will benefit future Open Y users and developers.
 Having a tour for the business functionality is highly recommended to ship with the component - it creates an in-site visual guided documentation and helps to decrease time for the Acceptance testing.&lt;/p>
 &lt;p>And last, but not the lease - adding Behat tests to the system will ensure functionality is tested on every pull
 request, on every CI build in the future.&lt;/p>
 &lt;h3 id="rule">Rule&lt;/h3>
-&lt;p>Every release of Open Y since 8.1.9 should include list of subsystems, changed in release for the community to be aware of the possible regressions on their end.)&lt;/p></description></item><item><title>Docs: Activity</title><link>/docs/content-structure/content-types/activity/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/content-structure/content-types/activity/</guid><description>
+&lt;p>Every release of Open Y since 8.1.9 should include list of subsystems, changed in release for the community to be aware of the possible regressions on their end.&lt;/p></description></item><item><title>Docs: Activity</title><link>/docs/content-structure/content-types/activity/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/content-structure/content-types/activity/</guid><description>
 &lt;h1 id="activity">Activity&lt;/h1>
 &lt;p>Activity content type is used for adding Activities on the site.&lt;/p>
 &lt;h3 id="fields">Fields&lt;/h3>
@@ -301,7 +300,7 @@ request, on every CI build in the future.&lt;/p>
 &lt;/li>
 &lt;li>
 &lt;p>Go to &lt;code>admin/openy/settings/openy-addthis&lt;/code> add public id
-&lt;img src="../assets/addthis.png" alt="Enter Public id">&lt;/p>
+&lt;img src="../../assets/addthis.png" alt="Enter Public id">&lt;/p>
 &lt;/li>
 &lt;li>
 &lt;p>Select the content type for which to show the social icons and save.&lt;/p>
@@ -315,7 +314,7 @@ request, on every CI build in the future.&lt;/p>
 &lt;/li>
 &lt;li>
 &lt;p>After content add &amp;lsquo;Social share icons&amp;rsquo; paragraph
-&lt;img src="../assets/addthis_paragraph.png" alt="Enter Public id">)&lt;/p>
+&lt;img src="../../assets/addthis_paragraph.png" alt="Enter Public id">&lt;/p>
 &lt;/li>
 &lt;/ol></description></item><item><title>Docs: Alert</title><link>/docs/content-structure/content-types/alert/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/content-structure/content-types/alert/</guid><description>
 &lt;h1 id="alert">Alert&lt;/h1>
@@ -1526,12 +1525,11 @@ request, on every CI build in the future.&lt;/p>
 &lt;/tr>
 &lt;/tbody>
 &lt;/table></description></item><item><title>Docs: Composer</title><link>/docs/development/composer/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/development/composer/</guid><description>
-&lt;h1 id="composer">Composer&lt;/h1>
 &lt;p>Please always make sure &lt;code>composer.lock&lt;/code> file is updated after any changes in &lt;code>composer.json&lt;/code> file.
 You can use &lt;code>composer update&lt;/code> command to update any package, in this case composer will take care about updating of &lt;code>composer.lock&lt;/code> file.&lt;/p>
 &lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-fallback" data-lang="fallback">composer update drupal/metatag
 &lt;/code>&lt;/pre>&lt;/div>&lt;p>Also you can use &lt;code>composer update --lock&lt;/code> command to force updating of &lt;code>composer.lock&lt;/code> file according to dependencies in &lt;code>composer.json&lt;/code>.&lt;/p>
-&lt;p>Please check official composer documentation for details: &lt;a href="https://getcomposer.org/doc/01-basic-usage.md">https://getcomposer.org/doc/01-basic-usage.md&lt;/a>)&lt;/p></description></item><item><title>Docs: Composer-version-constraints-for-Open-Y</title><link>/docs/wiki/composer-version-constraints-for-open-y/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/wiki/composer-version-constraints-for-open-y/</guid><description>
+&lt;p>Please check official composer documentation for details: &lt;a href="https://getcomposer.org/doc/01-basic-usage.md">https://getcomposer.org/doc/01-basic-usage.md&lt;/a>&lt;/p></description></item><item><title>Docs: Composer-version-constraints-for-Open-Y</title><link>/docs/wiki/composer-version-constraints-for-open-y/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/wiki/composer-version-constraints-for-open-y/</guid><description>
 &lt;p>In 2020, due to changes in Drupal core release management and demand from Open Y customers to improve upgrade path flexibility and stability, the Open Y team added extended composer version constraints to our &lt;code>composer.json&lt;/code>.&lt;/p>
 &lt;p>Examples from &lt;a href="https://github.com/ymcatwincities/openy/blob/9.x-2.x/composer.json">composer.json&lt;/a>:&lt;/p>
 &lt;ul>
@@ -1551,70 +1549,68 @@ composer require drupal/custom_formatters:3.0@beta1
 &lt;/code>&lt;/pre>&lt;/div>&lt;p>You can change any of the dependency versions without upgrading Open Y by running only the &lt;code>composer require...&lt;/code> command for specific dependencies and Drupal Update DB routines afterward.&lt;/p>
 &lt;p>Check &lt;a href="https://getcomposer.org/doc/articles/versions.md">official Composer documentation about version constraints&lt;/a> and &lt;a href="https://www.drupal.org/docs/updating-drupal/updating-modules-and-themes-using-composer">updating Drupal modules with Composer&lt;/a>.&lt;/p></description></item><item><title>Docs: Configuration for social posts import</title><link>/docs/development/configuration-for-social-posts-import/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/development/configuration-for-social-posts-import/</guid><description>
 &lt;p>Add import social posts to site (Facebook, Instagram, Twitter)&lt;/p>
-&lt;h3 id="how-configure-import-of-posts-from-the-social-networks">How configure import of posts from the social networks&lt;/h3>
+&lt;h2 id="how-configure-import-of-posts-from-the-social-networks">How configure import of posts from the social networks&lt;/h2>
 &lt;p>&lt;strong>Given:&lt;/strong>
 As an Open Y site developer, I want to be able import posts from company&amp;rsquo;s accounts form social networks (Twitter, Facebook, Instagram) and save them as content on the site.&lt;/p>
 &lt;p>&lt;strong>How to:&lt;/strong>&lt;/p>
 &lt;ul>
 &lt;li>Open configuration page /admin/config/social_feed_fetcher_settings - Configuration -&amp;gt; Social Feed Settings&lt;/li>
 &lt;li>Select checkbox for needed social network and add additional settings. Every social network has their own API, please read documentation for this settings on the official pages of each social networks.&lt;/li>
-&lt;li>When all settings will be filled - click on the button - Run Cron. Import is started. )&lt;/li>
+&lt;li>When all settings will be filled - click on the button - Run Cron. Import is started.&lt;/li>
 &lt;/ul></description></item><item><title>Docs: Contributing</title><link>/docs/development/contributing/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/development/contributing/</guid><description>
-&lt;h1 id="contributing-to-open-y">Contributing to Open Y&lt;/h1>
-&lt;h1 id="issues">Issues&lt;/h1>
+&lt;h2 id="issues">Issues&lt;/h2>
 &lt;p>If you have a support request, you&amp;rsquo;ve found a bug or you have a feature request:&lt;/p>
 &lt;ul>
 &lt;li>Search through known issues/requests &lt;a href="https://github.com/ymcatwincities/openy/issues">https://github.com/ymcatwincities/openy/issues&lt;/a>&lt;/li>
 &lt;li>Create new issue &lt;a href="https://github.com/ymcatwincities/openy/issues/new">https://github.com/ymcatwincities/openy/issues/new&lt;/a>&lt;/li>
 &lt;/ul>
-&lt;h1 id="pull-requests">Pull Requests&lt;/h1>
+&lt;h2 id="pull-requests">Pull Requests&lt;/h2>
 &lt;p>If you have some time to make a contribution to the project, here are the steps that will help you:&lt;/p>
 &lt;ul>
 &lt;li>Create fork of &lt;a href="https://github.com/ymcatwincities/openy">main project&lt;/a>. &lt;a href="https://help.github.com/articles/fork-a-repo/">How to create fork&lt;/a>.&lt;/li>
 &lt;li>Commit &amp;amp; push changes into your fork&lt;/li>
 &lt;li>Create new Pull Request. &lt;a href="https://help.github.com/articles/creating-a-pull-request/">How to create Pull Request&lt;/a>.&lt;/li>
 &lt;li>Write steps for review. In this way maintainers can go through steps on build to verify your fix/feature.&lt;/li>
-&lt;li>Ensure steps for review added to README.md file in a module&amp;rsquo;s/project&amp;rsquo;s directory if it makes sence to check them on regular basis. Often this is needed for crucial parts of the system which is main business functionality of the component. Example of super simple steps for review &lt;a href="https://github.com/ymcatwincities/openy/blob/8.x-1.x/modules/custom/location_finder/README.md#quickstart">see in Quickstart section of location_finder module&lt;/a>, plese.&lt;/li>
+&lt;li>Ensure steps for review added to README.md file in a module&amp;rsquo;s/project&amp;rsquo;s directory if it makes sense to check them on regular basis. Often this is needed for crucial parts of the system which is main business functionality of the component. Example of super simple steps for review &lt;a href="https://github.com/ymcatwincities/openy/blob/8.x-1.x/modules/custom/location_finder/README.md#quickstart">see in Quickstart section of location_finder module&lt;/a>, please.&lt;/li>
 &lt;li>Create Drupal tour module, based on steps for review and ship it with the module which provides a functionality.&lt;/li>
 &lt;li>Wait for a CI build and ask maintainers for review.&lt;/li>
 &lt;/ul>
 &lt;p>&lt;strong>Important:&lt;/strong> make sure your git email is associated with account on drupal.org, otherwise you won&amp;rsquo;t get commits there.&lt;/p>
-&lt;h1 id="drupalorg-credits">Drupal.org credits&lt;/h1>
+&lt;h2 id="drupalorg-credits">Drupal.org credits&lt;/h2>
 &lt;p>If you would like to get drupal.org credits for your contribution:&lt;/p>
 &lt;ul>
 &lt;li>Create issue on &lt;a href="https://www.drupal.org/project/issues/openy?categories=All">drupal.org&lt;/a>&lt;/li>
 &lt;li>Link drupal.org issue to GitHub Pull Request&lt;/li>
 &lt;li>Specify in GitHub Pull Request link to drupal.org issue&lt;/li>
-&lt;li>Once PR has been merged, reviewer will close drupal.org issue with appropriate credits.)&lt;/li>
-&lt;/ul></description></item><item><title>Docs: Create View Modes</title><link>/docs/development/create-view-modes/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/development/create-view-modes/</guid><description>
-&lt;h1 id="how-to-create-new-view-mode-and-use">How to Create new View mode and use&lt;/h1>
-&lt;p>As with any other entity in drupal, when it comes to render the rendering it in different contexts, you might want to have specific viewmodes.&lt;/p>
+&lt;li>Once PR has been merged, reviewer will close drupal.org issue with appropriate credits.&lt;/li>
+&lt;/ul></description></item><item><title>Docs: Create &amp; Use New View Modes</title><link>/docs/development/create-view-modes/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/development/create-view-modes/</guid><description>
+&lt;p>As with any other entity in Drupal, when it comes to render the rendering it in different contexts, you might want to have specific view modes.&lt;/p>
 &lt;p>Here you can find instructions how you can add new view modes into embedded entity form on Open Y distribution.&lt;/p>
-&lt;h2 id="how-to-create-new-view-mode">How-to create new View mode&lt;/h2>
+&lt;h3 id="create-a-new-view-mode">Create a new View Mode&lt;/h3>
 &lt;ol>
-&lt;li>Go to &amp;lsquo;View modes&amp;rsquo; page: Structure -&amp;gt; Display modes -&amp;gt; View modes (or visit the URL: /admin/structure/display-modes/view )
-&lt;img src="../assets/view_mode_in_menu.png" alt="Configuration project add/update form">&lt;/li>
+&lt;li>Go to &amp;lsquo;View modes&amp;rsquo; page: Structure -&amp;gt; Display modes -&amp;gt; View modes (or visit the URL: &lt;code>/admin/structure/display-modes/view&lt;/code>
+&lt;img src="../../assets/view_mode_in_menu.png" alt="Configuration project add/update form">&lt;/li>
 &lt;/ol>
-&lt;p>&lt;img src="../assets/view_mode_types.png" alt="Configuration project add/update form">&lt;/p>
+&lt;p>&lt;img src="../../assets/view_mode_types.png" alt="Configuration project add/update form">&lt;/p>
 &lt;ol start="2">
-&lt;li>Create new view mode: click &amp;lsquo;Add view mode&amp;rsquo; button and select entity type (or visit the URL: /admin/structure/display-modes/view/add )&lt;/li>
+&lt;li>Create new view mode: click &amp;lsquo;Add view mode&amp;rsquo; button and select entity type (or visit the URL: &lt;code>/admin/structure/display-modes/view/add&lt;/code>&lt;/li>
 &lt;/ol>
-&lt;p>&lt;img src="../assets/view_mode_firt_way_to_create.png" alt="Configuration project add/update form">&lt;/p>
+&lt;p>&lt;img src="../../assets/view_mode_firt_way_to_create.png" alt="Configuration project add/update form">&lt;/p>
 &lt;p>or after each entity type you can see &amp;lsquo;Add new {Name} view mode&amp;rsquo; and click on it
-&lt;img src="../assets/view_mode_seond_way.png" alt="Configuration project add/update form">&lt;/p>
+&lt;img src="../../assets/view_mode_seond_way.png" alt="Configuration project add/update form">&lt;/p>
 &lt;ol start="3">
-&lt;li>Select &amp;ldquo;Media&amp;rdquo; and then give a name to your new viewmode (or visit the URL: /admin/structure/display-modes/view/add/media )
-&lt;img src="../assets/view_mode_creating.png" alt="Configuration project add/update form">&lt;/li>
+&lt;li>Select &amp;ldquo;Media&amp;rdquo; and then give a name to your new view mode (or visit the URL: /&lt;code>admin/structure/display-modes/view/add/media&lt;/code>
+&lt;img src="../../assets/view_mode_creating.png" alt="Configuration project add/update form">&lt;/li>
 &lt;/ol>
-&lt;h2 id="how-to-use-new-view-mode">How-to use new View mode&lt;/h2>
+&lt;h3 id="use-the-view-mode">Use the View Mode&lt;/h3>
 &lt;ol>
-&lt;li>Go to Configuration -&amp;gt; Text editor embed buttons (or visit the URL: /admin/config/content/embed )
-&lt;img src="../assets/view_mode_using.png" alt="Configuration project add/update form">&lt;/li>
+&lt;li>Go to Configuration -&amp;gt; Text editor embed buttons (or visit the URL: &lt;code>/admin/config/content/embed&lt;/code>
+&lt;img src="../../assets/view_mode_using.png" alt="Configuration project add/update form">&lt;/li>
 &lt;/ol>
-&lt;p>&lt;img src="../assets/view_mode_using_list.png" alt="Configuration project add/update form">&lt;/p>
+&lt;p>&lt;img src="../../assets/view_mode_using_list.png" alt="Configuration project add/update form">&lt;/p>
 &lt;ol start="2">
-&lt;li>Then make sure you enable the new viewmode in &amp;ldquo;Allowed Entity Embed Display plugins&amp;rdquo;, and at the bottom of the page click &amp;ldquo;Save&amp;rdquo;.
-&lt;img src="../assets/view_mode_enable.png" alt="Configuration project add/update form">)&lt;/li>
+&lt;li>Then make sure you enable the new view mode in &amp;ldquo;Allowed Entity Embed Display plugins&amp;rdquo;, and at the bottom of the page click &amp;ldquo;Save&amp;rdquo;.
+&lt;img src="../../assets/view_mode_enable.png" alt="Configuration project add/update form">&lt;/li>
 &lt;/ol></description></item><item><title>Docs: Custom Simple</title><link>/docs/content-structure/blocks/custom-simple/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/content-structure/blocks/custom-simple/</guid><description>
 &lt;h1 id="block-custom-simple">Block Custom Simple&lt;/h1>
 &lt;p>A simple block with a body.&lt;/p>
@@ -1660,10 +1656,10 @@ As an Open Y site developer, I want to be able import posts from company&amp;rsq
 &lt;td>Title to display at top of block.&lt;/td>
 &lt;/tr>
 &lt;/tbody>
-&lt;/table></description></item><item><title>Docs: DataLayer</title><link>/docs/development/datalayer/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/development/datalayer/</guid><description>
-&lt;p>See also the Data Layer module readme datalayer/README.md&lt;/p>
+&lt;/table></description></item><item><title>Docs: Data Layer</title><link>/docs/development/datalayer/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/development/datalayer/</guid><description>
+&lt;p>See also the &lt;a href="https://git.drupalcode.org/project/datalayer/-/blob/8.x-1.x/README.md">Data Layer module README&lt;/a>.&lt;/p>
 &lt;p>The Data Layers module output data on the page in a json format. By default it will output properties (langcode, vid, name, uid, created, status, roles) and related taxonomy for any node, user, or any route based entity.&lt;/p>
-&lt;p>A limited set of properties are available via the Data Layers configuration form at /admin/config/search/datalayer (langcode, vid, name, uid, created, status, roles).&lt;/p>
+&lt;p>A limited set of properties are available via the Data Layers configuration form at &lt;code>/admin/config/search/datalayer&lt;/code> (langcode, vid, name, uid, created, status, roles).&lt;/p>
 &lt;p>Adding additional properties can be done through use of hook_datalayer_meta().&lt;/p>
 &lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-php" data-lang="php">&lt;span style="color:#204a87;font-weight:bold">function&lt;/span> &lt;span style="color:#000">my_module_datalayer_meta&lt;/span>&lt;span style="color:#000;font-weight:bold">()&lt;/span> &lt;span style="color:#000;font-weight:bold">{&lt;/span>
 &lt;span style="color:#204a87;font-weight:bold">return&lt;/span> &lt;span style="color:#204a87;font-weight:bold">array&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span>
@@ -1711,12 +1707,10 @@ As an Open Y site developer, I want to be able import posts from company&amp;rsq
 &lt;span style="color:#000">$data_layer&lt;/span>&lt;span style="color:#000;font-weight:bold">[&lt;/span>&lt;span style="color:#4e9a06">&amp;#39;entityLabel&amp;#39;&lt;/span>&lt;span style="color:#000;font-weight:bold">]&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">=&lt;/span> &lt;span style="color:#000">strtolower&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#000">$data_layer&lt;/span>&lt;span style="color:#000;font-weight:bold">[&lt;/span>&lt;span style="color:#4e9a06">&amp;#39;entityLabel&amp;#39;&lt;/span>&lt;span style="color:#000;font-weight:bold">]);&lt;/span>
 &lt;span style="color:#000;font-weight:bold">}&lt;/span>
 &lt;span style="color:#000;font-weight:bold">}&lt;/span>
-&lt;span style="color:#4e9a06">``&lt;/span>&lt;span style="color:#a40000">`&lt;/span>&lt;span style="color:#000;font-weight:bold">)&lt;/span>
 &lt;/code>&lt;/pre>&lt;/div></description></item><item><title>Docs: Daxko</title><link>/docs/development/daxko/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/development/daxko/</guid><description>
-&lt;h1 id="daxko">Daxko&lt;/h1>
-&lt;p>Relates to: [Program Registration (Daxko)](../Paragraphs/Program Registration (Daxko).md)&lt;/p>
-&lt;p>Configuration setting at /admin/config/development/daxko&lt;/p>
-&lt;p>Account configuration must be setup before the Program Registration paragraph will work.)&lt;/p></description></item><item><title>Docs: Decouple-component-from-Open-Y-as-independent-module-project</title><link>/docs/wiki/decouple-component-from-open-y-as-independent-module-project/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/wiki/decouple-component-from-open-y-as-independent-module-project/</guid><description>
+&lt;p>Relates to: &lt;a href="/docs/content-structure/paragraphs/program-registration-daxko/">Program Registration (Daxko)&lt;/a>&lt;/p>
+&lt;p>Configuration setting at &lt;code>/admin/config/development/daxko&lt;/code>&lt;/p>
+&lt;p>Account configuration must be setup before the Program Registration paragraph will work.&lt;/p></description></item><item><title>Docs: Decouple-component-from-Open-Y-as-independent-module-project</title><link>/docs/wiki/decouple-component-from-open-y-as-independent-module-project/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/wiki/decouple-component-from-open-y-as-independent-module-project/</guid><description>
 &lt;h2 id="history">History&lt;/h2>
 &lt;p>In 2019 the Open Y team started decoupling major components to streamline the distribution and simplify support.&lt;/p>
 &lt;p>Communication started in the &lt;a href="https://community.openymca.org/t/ejecting-modules-from-openy-distro-as-independent-projects/513">Community Board - Ejecting modules from OpenY distro as independent projects&lt;/a>.&lt;/p>
