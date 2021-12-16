@@ -1,4 +1,4 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Open Y – Content Types</title><link>https://froboy.github.io/openy_docs/docs/content-structure/content-types/</link><description>Recent content in Content Types on Open Y</description><generator>Hugo -- gohugo.io</generator><atom:link href="https://froboy.github.io/openy_docs/docs/content-structure/content-types/index.xml" rel="self" type="application/rss+xml"/><item><title>Docs: Activity</title><link>https://froboy.github.io/openy_docs/docs/content-structure/content-types/activity/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://froboy.github.io/openy_docs/docs/content-structure/content-types/activity/</guid><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Open Y – Content Types</title><link>/docs/content-structure/content-types/</link><description>Recent content in Content Types on Open Y</description><generator>Hugo -- gohugo.io</generator><atom:link href="/docs/content-structure/content-types/index.xml" rel="self" type="application/rss+xml"/><item><title>Docs: Activity</title><link>/docs/content-structure/content-types/activity/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/content-structure/content-types/activity/</guid><description>
 &lt;h1 id="activity">Activity&lt;/h1>
 &lt;p>Activity content type is used for adding Activities on the site.&lt;/p>
 &lt;h3 id="fields">Fields&lt;/h3>
@@ -40,7 +40,7 @@
 &lt;/table>
 &lt;h3 id="url-pattern">URL pattern&lt;/h3>
 &lt;p>Content type is using following pattern:
-&lt;code>/programs/[node:field_activity_category:entity:field_category_program:entity:title]/[node:field_activity_category:entity:title]/[node:title]&lt;/code>&lt;/p></description></item><item><title>Docs: Alert</title><link>https://froboy.github.io/openy_docs/docs/content-structure/content-types/alert/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://froboy.github.io/openy_docs/docs/content-structure/content-types/alert/</guid><description>
+&lt;code>/programs/[node:field_activity_category:entity:field_category_program:entity:title]/[node:field_activity_category:entity:title]/[node:title]&lt;/code>&lt;/p></description></item><item><title>Docs: Alert</title><link>/docs/content-structure/content-types/alert/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/content-structure/content-types/alert/</guid><description>
 &lt;h1 id="alert">Alert&lt;/h1>
 &lt;p>Alert content type is used for adding alerts on the site.&lt;/p>
 &lt;h3 id="fields">Fields&lt;/h3>
@@ -106,7 +106,7 @@
 &lt;/table>
 &lt;h3 id="url-pattern">URL pattern&lt;/h3>
 &lt;p>Content type is using following pattern:
-&lt;code>/alert/[node:title]&lt;/code>.&lt;/p></description></item><item><title>Docs: Blog</title><link>https://froboy.github.io/openy_docs/docs/content-structure/content-types/blog/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://froboy.github.io/openy_docs/docs/content-structure/content-types/blog/</guid><description>
+&lt;code>/alert/[node:title]&lt;/code>.&lt;/p></description></item><item><title>Docs: Blog</title><link>/docs/content-structure/content-types/blog/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/content-structure/content-types/blog/</guid><description>
 &lt;h1 id="blog">Blog&lt;/h1>
 &lt;p>Blog Post content type is used for adding blog posts on the site.&lt;/p>
 &lt;h3 id="fields">Fields&lt;/h3>
@@ -214,7 +214,7 @@
 &lt;/table>
 &lt;h3 id="url-pattern">URL pattern&lt;/h3>
 &lt;p>Content type is using following pattern:
-&lt;code>/blog/[node:title]&lt;/code>&lt;/p></description></item><item><title>Docs: Branch</title><link>https://froboy.github.io/openy_docs/docs/content-structure/content-types/branch/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://froboy.github.io/openy_docs/docs/content-structure/content-types/branch/</guid><description>
+&lt;code>/blog/[node:title]&lt;/code>&lt;/p></description></item><item><title>Docs: Branch</title><link>/docs/content-structure/content-types/branch/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/content-structure/content-types/branch/</guid><description>
 &lt;h1 id="branch">Branch&lt;/h1>
 &lt;p>Branch content type is used for adding Branches on the site.&lt;/p>
 &lt;h3 id="fields">Fields&lt;/h3>
@@ -364,7 +364,7 @@
 &lt;/table>
 &lt;h3 id="url-pattern">URL pattern&lt;/h3>
 &lt;p>Content type is using following pattern:
-&lt;code>/locations/[node:title]&lt;/code>&lt;/p></description></item><item><title>Docs: Camp</title><link>https://froboy.github.io/openy_docs/docs/content-structure/content-types/camp/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://froboy.github.io/openy_docs/docs/content-structure/content-types/camp/</guid><description>
+&lt;code>/locations/[node:title]&lt;/code>&lt;/p></description></item><item><title>Docs: Camp</title><link>/docs/content-structure/content-types/camp/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/content-structure/content-types/camp/</guid><description>
 &lt;h1 id="camp">Camp&lt;/h1>
 &lt;p>Camp content type is used for adding Camps on the site.&lt;/p>
 &lt;h3 id="fields">Fields&lt;/h3>
@@ -478,7 +478,7 @@
 &lt;/table>
 &lt;h3 id="url-pattern">URL pattern&lt;/h3>
 &lt;p>Content type is using following pattern:
-&lt;code>/camps/[node:title]&lt;/code>&lt;/p></description></item><item><title>Docs: Class</title><link>https://froboy.github.io/openy_docs/docs/content-structure/content-types/class/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://froboy.github.io/openy_docs/docs/content-structure/content-types/class/</guid><description>
+&lt;code>/camps/[node:title]&lt;/code>&lt;/p></description></item><item><title>Docs: Class</title><link>/docs/content-structure/content-types/class/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/content-structure/content-types/class/</guid><description>
 &lt;h1 id="class">Class&lt;/h1>
 &lt;p>Class content type is used for adding Classes on the site.&lt;/p>
 &lt;h3 id="fields">Fields&lt;/h3>
@@ -568,7 +568,7 @@
 &lt;/table>
 &lt;h3 id="url-pattern">URL pattern&lt;/h3>
 &lt;p>Content type is using following pattern:
-&lt;code>/programs/[node:field_class_activity:entity:field_activity_category:entity:field_category_program:entity:title]/[node:field_class_activity:entity:field_activity_category:entity:title]/[node:title]/class-times&lt;/code>&lt;/p></description></item><item><title>Docs: Facility</title><link>https://froboy.github.io/openy_docs/docs/content-structure/content-types/facility/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://froboy.github.io/openy_docs/docs/content-structure/content-types/facility/</guid><description>
+&lt;code>/programs/[node:field_class_activity:entity:field_activity_category:entity:field_category_program:entity:title]/[node:field_class_activity:entity:field_activity_category:entity:title]/[node:title]/class-times&lt;/code>&lt;/p></description></item><item><title>Docs: Facility</title><link>/docs/content-structure/content-types/facility/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/content-structure/content-types/facility/</guid><description>
 &lt;h1 id="facility">Facility&lt;/h1>
 &lt;p>Facility content type is used for adding facilities on the site.&lt;/p>
 &lt;h3 id="fields">Fields&lt;/h3>
@@ -682,7 +682,7 @@
 &lt;/table>
 &lt;h3 id="url-pattern">URL pattern&lt;/h3>
 &lt;p>Content type is using following pattern:
-&lt;code>/facility/[node:title]&lt;/code>&lt;/p></description></item><item><title>Docs: Landing Page</title><link>https://froboy.github.io/openy_docs/docs/content-structure/content-types/landing-page/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://froboy.github.io/openy_docs/docs/content-structure/content-types/landing-page/</guid><description>
+&lt;code>/facility/[node:title]&lt;/code>&lt;/p></description></item><item><title>Docs: Landing Page</title><link>/docs/content-structure/content-types/landing-page/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/content-structure/content-types/landing-page/</guid><description>
 &lt;h1 id="landing-page">Landing Page&lt;/h1>
 &lt;p>Landing Page content type is used for adding landing pages on the site.&lt;/p>
 &lt;h3 id="fields">Fields&lt;/h3>
@@ -766,7 +766,7 @@
 &lt;/table>
 &lt;h3 id="url-pattern">URL pattern&lt;/h3>
 &lt;p>Content type is using following pattern:
-&lt;code>[node:title]&lt;/code>&lt;/p></description></item><item><title>Docs: Membership</title><link>https://froboy.github.io/openy_docs/docs/content-structure/content-types/membership/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://froboy.github.io/openy_docs/docs/content-structure/content-types/membership/</guid><description>
+&lt;code>[node:title]&lt;/code>&lt;/p></description></item><item><title>Docs: Membership</title><link>/docs/content-structure/content-types/membership/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/content-structure/content-types/membership/</guid><description>
 &lt;h1 id="membership">Membership&lt;/h1>
 &lt;p>Membership content type is used for adding membership on the site.&lt;/p>
 &lt;h3 id="fields">Fields&lt;/h3>
@@ -832,7 +832,7 @@
 &lt;/table>
 &lt;h3 id="url-pattern">URL pattern&lt;/h3>
 &lt;p>Content type is using following pattern:
-&lt;code>/membership/[node:title]&lt;/code>&lt;/p></description></item><item><title>Docs: News</title><link>https://froboy.github.io/openy_docs/docs/content-structure/content-types/news/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://froboy.github.io/openy_docs/docs/content-structure/content-types/news/</guid><description>
+&lt;code>/membership/[node:title]&lt;/code>&lt;/p></description></item><item><title>Docs: News</title><link>/docs/content-structure/content-types/news/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/content-structure/content-types/news/</guid><description>
 &lt;h1 id="news">News&lt;/h1>
 &lt;p>News Post content type is used for adding news posts on the site.&lt;/p>
 &lt;h3 id="fields">Fields&lt;/h3>
@@ -916,7 +916,7 @@
 &lt;/table>
 &lt;h3 id="url-pattern">URL pattern&lt;/h3>
 &lt;p>Content type is using following pattern:
-&lt;code>/news/[node:title]&lt;/code>&lt;/p></description></item><item><title>Docs: Program</title><link>https://froboy.github.io/openy_docs/docs/content-structure/content-types/program/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://froboy.github.io/openy_docs/docs/content-structure/content-types/program/</guid><description>
+&lt;code>/news/[node:title]&lt;/code>&lt;/p></description></item><item><title>Docs: Program</title><link>/docs/content-structure/content-types/program/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/content-structure/content-types/program/</guid><description>
 &lt;h1 id="program">Program&lt;/h1>
 &lt;p>Program content type is used for adding Programs on the site.&lt;/p>
 &lt;h3 id="fields">Fields&lt;/h3>
@@ -1006,7 +1006,7 @@
 &lt;/table>
 &lt;h3 id="url-pattern">URL pattern&lt;/h3>
 &lt;p>Content type is using following pattern:
-&lt;code>/programs/[node:title]&lt;/code>&lt;/p></description></item><item><title>Docs: Program Subcategory</title><link>https://froboy.github.io/openy_docs/docs/content-structure/content-types/program-subcategory/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://froboy.github.io/openy_docs/docs/content-structure/content-types/program-subcategory/</guid><description>
+&lt;code>/programs/[node:title]&lt;/code>&lt;/p></description></item><item><title>Docs: Program Subcategory</title><link>/docs/content-structure/content-types/program-subcategory/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/content-structure/content-types/program-subcategory/</guid><description>
 &lt;h1 id="program-subcategory">Program Subcategory&lt;/h1>
 &lt;p>Program Subcategory content type is used for adding program subcategories on the site.&lt;/p>
 &lt;h3 id="fields">Fields&lt;/h3>
@@ -1108,7 +1108,7 @@
 &lt;/table>
 &lt;h3 id="url-pattern">URL pattern&lt;/h3>
 &lt;p>Content type is using following pattern:
-&lt;code>/programs/[node:field_category_program:entity:title]/[node:title]&lt;/code>&lt;/p></description></item><item><title>Docs: Session</title><link>https://froboy.github.io/openy_docs/docs/content-structure/content-types/session/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://froboy.github.io/openy_docs/docs/content-structure/content-types/session/</guid><description>
+&lt;code>/programs/[node:field_category_program:entity:title]/[node:title]&lt;/code>&lt;/p></description></item><item><title>Docs: Session</title><link>/docs/content-structure/content-types/session/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/content-structure/content-types/session/</guid><description>
 &lt;h1 id="session">Session&lt;/h1>
 &lt;p>Session content type is used for adding Sessions on the site.&lt;/p>
 &lt;h3 id="fields">Fields&lt;/h3>
@@ -1257,7 +1257,7 @@
 &lt;/tbody>
 &lt;/table>
 &lt;h3 id="url-pattern">URL pattern&lt;/h3>
-&lt;p>No URL pattern. Eventually this content type shouldn&amp;rsquo;t be available for end users.&lt;/p></description></item><item><title>Docs: Social Post</title><link>https://froboy.github.io/openy_docs/docs/content-structure/content-types/social-post/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://froboy.github.io/openy_docs/docs/content-structure/content-types/social-post/</guid><description>
+&lt;p>No URL pattern. Eventually this content type shouldn&amp;rsquo;t be available for end users.&lt;/p></description></item><item><title>Docs: Social Post</title><link>/docs/content-structure/content-types/social-post/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/content-structure/content-types/social-post/</guid><description>
 &lt;h1 id="social-post">Social Post&lt;/h1>
 &lt;p>Social Post content type is used for adding Social Posts on the site. Social Posts are grabbed from social networks.&lt;/p>
 &lt;h3 id="fields">Fields&lt;/h3>

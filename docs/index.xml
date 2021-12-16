@@ -1,4 +1,4 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Open Y – Documentation</title><link>https://froboy.github.io/openy_docs/docs/</link><description>Recent content in Documentation on Open Y</description><generator>Hugo -- gohugo.io</generator><atom:link href="https://froboy.github.io/openy_docs/docs/index.xml" rel="self" type="application/rss+xml"/><item><title>Docs: 1c</title><link>https://froboy.github.io/openy_docs/docs/content-structure/paragraphs/1c/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://froboy.github.io/openy_docs/docs/content-structure/paragraphs/1c/</guid><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Open Y – Documentation</title><link>/docs/</link><description>Recent content in Documentation on Open Y</description><generator>Hugo -- gohugo.io</generator><atom:link href="/docs/index.xml" rel="self" type="application/rss+xml"/><item><title>Docs: 1c</title><link>/docs/content-structure/paragraphs/1c/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/content-structure/paragraphs/1c/</guid><description>
 &lt;h1 id="paragraph-1-column">Paragraph 1 Column&lt;/h1>
 &lt;p>This is a paragraph type that will be used for implements a paragraph with 1 column.&lt;/p>
 &lt;h3 id="fields">Fields&lt;/h3>
@@ -42,7 +42,7 @@
 &lt;td>&lt;/td>
 &lt;/tr>
 &lt;/tbody>
-&lt;/table></description></item><item><title>Docs: 2c</title><link>https://froboy.github.io/openy_docs/docs/content-structure/paragraphs/2c/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://froboy.github.io/openy_docs/docs/content-structure/paragraphs/2c/</guid><description>
+&lt;/table></description></item><item><title>Docs: 2c</title><link>/docs/content-structure/paragraphs/2c/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/content-structure/paragraphs/2c/</guid><description>
 &lt;h1 id="paragraph-2-column">Paragraph 2 Column&lt;/h1>
 &lt;p>This is a paragraph type that will be used for implements a paragraph with 2 column.&lt;/p>
 &lt;h3 id="fields">Fields&lt;/h3>
@@ -79,7 +79,7 @@
 &lt;td>&lt;/td>
 &lt;/tr>
 &lt;/tbody>
-&lt;/table></description></item><item><title>Docs: 3c</title><link>https://froboy.github.io/openy_docs/docs/content-structure/paragraphs/3c/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://froboy.github.io/openy_docs/docs/content-structure/paragraphs/3c/</guid><description>
+&lt;/table></description></item><item><title>Docs: 3c</title><link>/docs/content-structure/paragraphs/3c/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/content-structure/paragraphs/3c/</guid><description>
 &lt;h1 id="paragraph-3-column">Paragraph 3 Column&lt;/h1>
 &lt;p>This is a paragraph type that will be used for implements a paragraph with 3 column.&lt;/p>
 &lt;h3 id="fields">Fields&lt;/h3>
@@ -130,7 +130,7 @@
 &lt;td>&lt;/td>
 &lt;/tr>
 &lt;/tbody>
-&lt;/table></description></item><item><title>Docs: 4c</title><link>https://froboy.github.io/openy_docs/docs/content-structure/paragraphs/4c/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://froboy.github.io/openy_docs/docs/content-structure/paragraphs/4c/</guid><description>
+&lt;/table></description></item><item><title>Docs: 4c</title><link>/docs/content-structure/paragraphs/4c/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/content-structure/paragraphs/4c/</guid><description>
 &lt;h1 id="paragraph-4-column">Paragraph 4 Column&lt;/h1>
 &lt;p>This is a paragraph type that will be used for implements a paragraph with 4 column.&lt;/p>
 &lt;h3 id="fields">Fields&lt;/h3>
@@ -202,7 +202,7 @@
 &lt;td>&lt;/td>
 &lt;/tr>
 &lt;/tbody>
-&lt;/table></description></item><item><title>Docs: AcceptanceTesting</title><link>https://froboy.github.io/openy_docs/docs/development/acceptancetesting/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://froboy.github.io/openy_docs/docs/development/acceptancetesting/</guid><description>
+&lt;/table></description></item><item><title>Docs: AcceptanceTesting</title><link>/docs/development/acceptancetesting/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/development/acceptancetesting/</guid><description>
 &lt;h3 id="open-y-acceptance-testing-best-practices">Open Y Acceptance testing best practices&lt;/h3>
 &lt;p>Open Y is a big distribution with a large amount of modules, components, subsystems, and business
 processes, therefore we have to take appropriate steps to ensure the stability of major functionality during development.&lt;/p>
@@ -250,7 +250,7 @@ Having a tour for the business functionality is highly recommended to ship with 
 &lt;p>And last, but not the lease - adding Behat tests to the system will ensure functionality is tested on every pull
 request, on every CI build in the future.&lt;/p>
 &lt;h3 id="rule">Rule&lt;/h3>
-&lt;p>Every release of Open Y since 8.1.9 should include list of subsystems, changed in release for the community to be aware of the possible regressions on their end.)&lt;/p></description></item><item><title>Docs: Activity</title><link>https://froboy.github.io/openy_docs/docs/content-structure/content-types/activity/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://froboy.github.io/openy_docs/docs/content-structure/content-types/activity/</guid><description>
+&lt;p>Every release of Open Y since 8.1.9 should include list of subsystems, changed in release for the community to be aware of the possible regressions on their end.)&lt;/p></description></item><item><title>Docs: Activity</title><link>/docs/content-structure/content-types/activity/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/content-structure/content-types/activity/</guid><description>
 &lt;h1 id="activity">Activity&lt;/h1>
 &lt;p>Activity content type is used for adding Activities on the site.&lt;/p>
 &lt;h3 id="fields">Fields&lt;/h3>
@@ -292,7 +292,7 @@ request, on every CI build in the future.&lt;/p>
 &lt;/table>
 &lt;h3 id="url-pattern">URL pattern&lt;/h3>
 &lt;p>Content type is using following pattern:
-&lt;code>/programs/[node:field_activity_category:entity:field_category_program:entity:title]/[node:field_activity_category:entity:title]/[node:title]&lt;/code>&lt;/p></description></item><item><title>Docs: AddThis</title><link>https://froboy.github.io/openy_docs/docs/development/addthis/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://froboy.github.io/openy_docs/docs/development/addthis/</guid><description>
+&lt;code>/programs/[node:field_activity_category:entity:field_category_program:entity:title]/[node:field_activity_category:entity:title]/[node:title]&lt;/code>&lt;/p></description></item><item><title>Docs: AddThis</title><link>/docs/development/addthis/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/development/addthis/</guid><description>
 &lt;h1 id="how-to-configure-addthis">How to configure AddThis&lt;/h1>
 &lt;p>Open Y AddThis module allow you easy add Social icons to any node.&lt;/p>
 &lt;ol>
@@ -317,7 +317,7 @@ request, on every CI build in the future.&lt;/p>
 &lt;p>After content add &amp;lsquo;Social share icons&amp;rsquo; paragraph
 &lt;img src="../assets/addthis_paragraph.png" alt="Enter Public id">)&lt;/p>
 &lt;/li>
-&lt;/ol></description></item><item><title>Docs: Alert</title><link>https://froboy.github.io/openy_docs/docs/content-structure/content-types/alert/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://froboy.github.io/openy_docs/docs/content-structure/content-types/alert/</guid><description>
+&lt;/ol></description></item><item><title>Docs: Alert</title><link>/docs/content-structure/content-types/alert/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/content-structure/content-types/alert/</guid><description>
 &lt;h1 id="alert">Alert&lt;/h1>
 &lt;p>Alert content type is used for adding alerts on the site.&lt;/p>
 &lt;h3 id="fields">Fields&lt;/h3>
@@ -383,7 +383,7 @@ request, on every CI build in the future.&lt;/p>
 &lt;/table>
 &lt;h3 id="url-pattern">URL pattern&lt;/h3>
 &lt;p>Content type is using following pattern:
-&lt;code>/alert/[node:title]&lt;/code>.&lt;/p></description></item><item><title>Docs: All Amenities</title><link>https://froboy.github.io/openy_docs/docs/content-structure/paragraphs/all-amenities/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://froboy.github.io/openy_docs/docs/content-structure/paragraphs/all-amenities/</guid><description>
+&lt;code>/alert/[node:title]&lt;/code>.&lt;/p></description></item><item><title>Docs: All Amenities</title><link>/docs/content-structure/paragraphs/all-amenities/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/content-structure/paragraphs/all-amenities/</guid><description>
 &lt;h1 id="all-amenities">All Amenities&lt;/h1>
 &lt;p>Provide a paragraph with a table view shows list of Branches.&lt;/p>
 &lt;h3 id="fields">Fields&lt;/h3>
@@ -410,13 +410,13 @@ request, on every CI build in the future.&lt;/p>
 &lt;td>Enter title which is going to be displayed on top of the paragraph.&lt;/td>
 &lt;/tr>
 &lt;/tbody>
-&lt;/table></description></item><item><title>Docs: Amenities</title><link>https://froboy.github.io/openy_docs/docs/content-structure/taxonomy/amenities/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://froboy.github.io/openy_docs/docs/content-structure/taxonomy/amenities/</guid><description>
+&lt;/table></description></item><item><title>Docs: Amenities</title><link>/docs/content-structure/taxonomy/amenities/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/content-structure/taxonomy/amenities/</guid><description>
 &lt;h1 id="amenities-vocabulary">Amenities Vocabulary&lt;/h1>
 &lt;p>This is a vocabulary that will be used for adding reference Branch amenities. We will use this for the Branch.&lt;/p>
-&lt;p>&lt;strong>Machine_name&lt;/strong>: amenities&lt;/p></description></item><item><title>Docs: Area</title><link>https://froboy.github.io/openy_docs/docs/content-structure/taxonomy/area/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://froboy.github.io/openy_docs/docs/content-structure/taxonomy/area/</guid><description>
+&lt;p>&lt;strong>Machine_name&lt;/strong>: amenities&lt;/p></description></item><item><title>Docs: Area</title><link>/docs/content-structure/taxonomy/area/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/content-structure/taxonomy/area/</guid><description>
 &lt;h1 id="area-vocabulary">Area Vocabulary&lt;/h1>
 &lt;p>This is a vocabulary that will be used for adding location areas on the site. We will use this for the Location Branch and Facility CTs.&lt;/p>
-&lt;p>&lt;strong>Machine_name&lt;/strong>: area&lt;/p></description></item><item><title>Docs: Banner</title><link>https://froboy.github.io/openy_docs/docs/content-structure/paragraphs/banner/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://froboy.github.io/openy_docs/docs/content-structure/paragraphs/banner/</guid><description>
+&lt;p>&lt;strong>Machine_name&lt;/strong>: area&lt;/p></description></item><item><title>Docs: Banner</title><link>/docs/content-structure/paragraphs/banner/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/content-structure/paragraphs/banner/</guid><description>
 &lt;h1 id="banner">Banner&lt;/h1>
 &lt;p>This is a paragraph type that will be used for the banner content.&lt;/p>
 &lt;h3 id="fields">Fields&lt;/h3>
@@ -467,7 +467,7 @@ request, on every CI build in the future.&lt;/p>
 &lt;td>&lt;/td>
 &lt;/tr>
 &lt;/tbody>
-&lt;/table></description></item><item><title>Docs: Basic</title><link>https://froboy.github.io/openy_docs/docs/content-structure/blocks/basic/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://froboy.github.io/openy_docs/docs/content-structure/blocks/basic/</guid><description>
+&lt;/table></description></item><item><title>Docs: Basic</title><link>/docs/content-structure/blocks/basic/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/content-structure/blocks/basic/</guid><description>
 &lt;h1 id="basic-block">Basic Block&lt;/h1>
 &lt;p>A simple block with a description.&lt;/p>
 &lt;h3 id="fields">Fields&lt;/h3>
@@ -488,7 +488,7 @@ request, on every CI build in the future.&lt;/p>
 &lt;td>WYSIWYG field without summary.&lt;/td>
 &lt;/tr>
 &lt;/tbody>
-&lt;/table></description></item><item><title>Docs: Block Menu</title><link>https://froboy.github.io/openy_docs/docs/content-structure/blocks/block-menu/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://froboy.github.io/openy_docs/docs/content-structure/blocks/block-menu/</guid><description>
+&lt;/table></description></item><item><title>Docs: Block Menu</title><link>/docs/content-structure/blocks/block-menu/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/content-structure/blocks/block-menu/</guid><description>
 &lt;h1 id="block-menu">Block Menu&lt;/h1>
 &lt;p>Implements custom block type with a links.&lt;/p>
 &lt;h3 id="fields">Fields&lt;/h3>
@@ -521,7 +521,7 @@ request, on every CI build in the future.&lt;/p>
 &lt;td>Select text color of the menu block.&lt;/td>
 &lt;/tr>
 &lt;/tbody>
-&lt;/table></description></item><item><title>Docs: Blog</title><link>https://froboy.github.io/openy_docs/docs/content-structure/content-types/blog/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://froboy.github.io/openy_docs/docs/content-structure/content-types/blog/</guid><description>
+&lt;/table></description></item><item><title>Docs: Blog</title><link>/docs/content-structure/content-types/blog/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/content-structure/content-types/blog/</guid><description>
 &lt;h1 id="blog">Blog&lt;/h1>
 &lt;p>Blog Post content type is used for adding blog posts on the site.&lt;/p>
 &lt;h3 id="fields">Fields&lt;/h3>
@@ -629,10 +629,10 @@ request, on every CI build in the future.&lt;/p>
 &lt;/table>
 &lt;h3 id="url-pattern">URL pattern&lt;/h3>
 &lt;p>Content type is using following pattern:
-&lt;code>/blog/[node:title]&lt;/code>&lt;/p></description></item><item><title>Docs: Blog Category</title><link>https://froboy.github.io/openy_docs/docs/content-structure/taxonomy/blog-category/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://froboy.github.io/openy_docs/docs/content-structure/taxonomy/blog-category/</guid><description>
+&lt;code>/blog/[node:title]&lt;/code>&lt;/p></description></item><item><title>Docs: Blog Category</title><link>/docs/content-structure/taxonomy/blog-category/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/content-structure/taxonomy/blog-category/</guid><description>
 &lt;h1 id="blog-category">Blog Category&lt;/h1>
 &lt;p>This is a vocabulary that will be used for adding blog categories on the site.&lt;/p>
-&lt;p>&lt;strong>Machine_name&lt;/strong>: blog_category&lt;/p></description></item><item><title>Docs: Blog Posts Listing</title><link>https://froboy.github.io/openy_docs/docs/content-structure/paragraphs/blog-posts-listing/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://froboy.github.io/openy_docs/docs/content-structure/paragraphs/blog-posts-listing/</guid><description>
+&lt;p>&lt;strong>Machine_name&lt;/strong>: blog_category&lt;/p></description></item><item><title>Docs: Blog Posts Listing</title><link>/docs/content-structure/paragraphs/blog-posts-listing/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/content-structure/paragraphs/blog-posts-listing/</guid><description>
 &lt;h1 id="blog-posts-listing">Blog Posts Listing&lt;/h1>
 &lt;p>This is dynamic paragraph that renders the latest blog posts and utilizes exposed filters.&lt;/p>
 &lt;ul>
@@ -659,7 +659,7 @@ request, on every CI build in the future.&lt;/p>
 &lt;td>Block reference to the view/block. Should have default value and should be hidden in form display.&lt;/td>
 &lt;/tr>
 &lt;/tbody>
-&lt;/table></description></item><item><title>Docs: Branch</title><link>https://froboy.github.io/openy_docs/docs/content-structure/content-types/branch/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://froboy.github.io/openy_docs/docs/content-structure/content-types/branch/</guid><description>
+&lt;/table></description></item><item><title>Docs: Branch</title><link>/docs/content-structure/content-types/branch/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/content-structure/content-types/branch/</guid><description>
 &lt;h1 id="branch">Branch&lt;/h1>
 &lt;p>Branch content type is used for adding Branches on the site.&lt;/p>
 &lt;h3 id="fields">Fields&lt;/h3>
@@ -809,7 +809,7 @@ request, on every CI build in the future.&lt;/p>
 &lt;/table>
 &lt;h3 id="url-pattern">URL pattern&lt;/h3>
 &lt;p>Content type is using following pattern:
-&lt;code>/locations/[node:title]&lt;/code>&lt;/p></description></item><item><title>Docs: Branch Amenities</title><link>https://froboy.github.io/openy_docs/docs/content-structure/blocks/branch-amenities/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://froboy.github.io/openy_docs/docs/content-structure/blocks/branch-amenities/</guid><description>
+&lt;code>/locations/[node:title]&lt;/code>&lt;/p></description></item><item><title>Docs: Branch Amenities</title><link>/docs/content-structure/blocks/branch-amenities/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/content-structure/blocks/branch-amenities/</guid><description>
 &lt;h1 id="block-branch-amenities">Block Branch Amenities&lt;/h1>
 &lt;p>A block with amenities list of the current branch.&lt;/p>
 &lt;h3 id="fields">Fields&lt;/h3>
@@ -848,7 +848,7 @@ request, on every CI build in the future.&lt;/p>
 &lt;td>Provide a &amp;ldquo;Font Awesome&amp;rdquo; icon name, e.g. flag, car, info. Overrides image icon.&lt;/td>
 &lt;/tr>
 &lt;/tbody>
-&lt;/table></description></item><item><title>Docs: Branches Popup (All)</title><link>https://froboy.github.io/openy_docs/docs/content-structure/paragraphs/branches-popup-all/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://froboy.github.io/openy_docs/docs/content-structure/paragraphs/branches-popup-all/</guid><description>
+&lt;/table></description></item><item><title>Docs: Branches Popup (All)</title><link>/docs/content-structure/paragraphs/branches-popup-all/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/content-structure/paragraphs/branches-popup-all/</guid><description>
 &lt;h1 id="branches-popup-all">Branches Popup (All)&lt;/h1>
 &lt;p>This is dynamic paragraph that renders the locations selection popup, based on current node.&lt;/p>
 &lt;p>Relates to:&lt;/p>
@@ -874,7 +874,7 @@ request, on every CI build in the future.&lt;/p>
 &lt;td>Block reference to the view/block. Should have default value and should be hidden in form display.&lt;/td>
 &lt;/tr>
 &lt;/tbody>
-&lt;/table></description></item><item><title>Docs: Branches Popup (Class)</title><link>https://froboy.github.io/openy_docs/docs/content-structure/paragraphs/branches-popup-class/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://froboy.github.io/openy_docs/docs/content-structure/paragraphs/branches-popup-class/</guid><description>
+&lt;/table></description></item><item><title>Docs: Branches Popup (Class)</title><link>/docs/content-structure/paragraphs/branches-popup-class/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/content-structure/paragraphs/branches-popup-class/</guid><description>
 &lt;h1 id="branches-popup-class">Branches Popup (Class)&lt;/h1>
 &lt;p>This is dynamic paragraph that renders the locations selection popup, based on current node.&lt;/p>
 &lt;p>Relates to:&lt;/p>
@@ -900,7 +900,7 @@ request, on every CI build in the future.&lt;/p>
 &lt;td>Block reference to the view/block. Should have default value and should be hidden in form display.&lt;/td>
 &lt;/tr>
 &lt;/tbody>
-&lt;/table></description></item><item><title>Docs: Camp</title><link>https://froboy.github.io/openy_docs/docs/content-structure/content-types/camp/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://froboy.github.io/openy_docs/docs/content-structure/content-types/camp/</guid><description>
+&lt;/table></description></item><item><title>Docs: Camp</title><link>/docs/content-structure/content-types/camp/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/content-structure/content-types/camp/</guid><description>
 &lt;h1 id="camp">Camp&lt;/h1>
 &lt;p>Camp content type is used for adding Camps on the site.&lt;/p>
 &lt;h3 id="fields">Fields&lt;/h3>
@@ -1014,7 +1014,7 @@ request, on every CI build in the future.&lt;/p>
 &lt;/table>
 &lt;h3 id="url-pattern">URL pattern&lt;/h3>
 &lt;p>Content type is using following pattern:
-&lt;code>/camps/[node:title]&lt;/code>&lt;/p></description></item><item><title>Docs: Categories Listing</title><link>https://froboy.github.io/openy_docs/docs/content-structure/paragraphs/categories-listing/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://froboy.github.io/openy_docs/docs/content-structure/paragraphs/categories-listing/</guid><description>
+&lt;code>/camps/[node:title]&lt;/code>&lt;/p></description></item><item><title>Docs: Categories Listing</title><link>/docs/content-structure/paragraphs/categories-listing/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/content-structure/paragraphs/categories-listing/</guid><description>
 &lt;h1 id="categories-listing">Categories Listing&lt;/h1>
 &lt;p>This is dynamic paragraph that renders all published categories according to current program page.&lt;/p>
 &lt;p>It uses sticky at the top option and order items based on published date(newest at the top).&lt;/p>
@@ -1036,7 +1036,7 @@ request, on every CI build in the future.&lt;/p>
 &lt;td>Block reference to the view/block. Should have default value and should be hidden in form display.&lt;/td>
 &lt;/tr>
 &lt;/tbody>
-&lt;/table></description></item><item><title>Docs: Class</title><link>https://froboy.github.io/openy_docs/docs/content-structure/content-types/class/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://froboy.github.io/openy_docs/docs/content-structure/content-types/class/</guid><description>
+&lt;/table></description></item><item><title>Docs: Class</title><link>/docs/content-structure/content-types/class/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/content-structure/content-types/class/</guid><description>
 &lt;h1 id="class">Class&lt;/h1>
 &lt;p>Class content type is used for adding Classes on the site.&lt;/p>
 &lt;h3 id="fields">Fields&lt;/h3>
@@ -1126,7 +1126,7 @@ request, on every CI build in the future.&lt;/p>
 &lt;/table>
 &lt;h3 id="url-pattern">URL pattern&lt;/h3>
 &lt;p>Content type is using following pattern:
-&lt;code>/programs/[node:field_class_activity:entity:field_activity_category:entity:field_category_program:entity:title]/[node:field_class_activity:entity:field_activity_category:entity:title]/[node:title]/class-times&lt;/code>&lt;/p></description></item><item><title>Docs: Class Location</title><link>https://froboy.github.io/openy_docs/docs/content-structure/paragraphs/class-location/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://froboy.github.io/openy_docs/docs/content-structure/paragraphs/class-location/</guid><description>
+&lt;code>/programs/[node:field_class_activity:entity:field_activity_category:entity:field_category_program:entity:title]/[node:field_class_activity:entity:field_activity_category:entity:title]/[node:title]/class-times&lt;/code>&lt;/p></description></item><item><title>Docs: Class Location</title><link>/docs/content-structure/paragraphs/class-location/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/content-structure/paragraphs/class-location/</guid><description>
 &lt;h1 id="class-location">Class Location&lt;/h1>
 &lt;p>This is dynamic paragraph that renders the locations class location view mode, based on url query parameter location with a valid id.&lt;/p>
 &lt;p>Relates to [Branches Popup (Class)](Branches Popup (Class).md).&lt;/p>
@@ -1151,7 +1151,7 @@ request, on every CI build in the future.&lt;/p>
 &lt;td>Block reference to the view/block. Should have default value and should be hidden in form display.&lt;/td>
 &lt;/tr>
 &lt;/tbody>
-&lt;/table></description></item><item><title>Docs: Class Sessions</title><link>https://froboy.github.io/openy_docs/docs/content-structure/paragraphs/class-sessions/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://froboy.github.io/openy_docs/docs/content-structure/paragraphs/class-sessions/</guid><description>
+&lt;/table></description></item><item><title>Docs: Class Sessions</title><link>/docs/content-structure/paragraphs/class-sessions/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/content-structure/paragraphs/class-sessions/</guid><description>
 &lt;h1 id="class-sessions">Class Sessions&lt;/h1>
 &lt;p>This is dynamic paragraph that renders the class session instances, based on url query parameter location with a valid id.&lt;/p>
 &lt;p>Relates to [Branches Popup (Class)](Branches Popup (Class).md).&lt;/p>
@@ -1226,7 +1226,7 @@ request, on every CI build in the future.&lt;/p>
 &lt;li>Results should contain all branches&lt;/li>
 &lt;li>In sidebar we should see &amp;ldquo;All locations&amp;hellip;.&amp;rdquo;&lt;/li>
 &lt;li>Location popup should be shown (Unless only one location is associated with the class)&lt;/li>
-&lt;/ul></description></item><item><title>Docs: Classes Listing</title><link>https://froboy.github.io/openy_docs/docs/content-structure/paragraphs/classes-listing/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://froboy.github.io/openy_docs/docs/content-structure/paragraphs/classes-listing/</guid><description>
+&lt;/ul></description></item><item><title>Docs: Classes Listing</title><link>/docs/content-structure/paragraphs/classes-listing/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/content-structure/paragraphs/classes-listing/</guid><description>
 &lt;h1 id="classes-listing--classes-listing-filters">Classes Listing + Classes Listing Filters&lt;/h1>
 &lt;p>Classes Listing - should display all published classes grouped by activity.&lt;/p>
 &lt;p>Classes Listing Filters - this paragraph should disply filter form for &amp;ldquo;Classes Listing&amp;rdquo; with following fields:&lt;/p>
@@ -1309,7 +1309,7 @@ request, on every CI build in the future.&lt;/p>
 &lt;li>Location popup shouldn&amp;rsquo;t be shown&lt;/li>
 &lt;li>Filter by location should show branch from URL&lt;/li>
 &lt;li>Results should be filtered&lt;/li>
-&lt;/ul></description></item><item><title>Docs: Code</title><link>https://froboy.github.io/openy_docs/docs/content-structure/paragraphs/code/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://froboy.github.io/openy_docs/docs/content-structure/paragraphs/code/</guid><description>
+&lt;/ul></description></item><item><title>Docs: Code</title><link>/docs/content-structure/paragraphs/code/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/content-structure/paragraphs/code/</guid><description>
 &lt;h1 id="code">Code&lt;/h1>
 &lt;p>Provide paragraph containing a Code block. Can be used to embed Youtube video for instance.&lt;/p>
 &lt;h3 id="fields">Fields&lt;/h3>
@@ -1330,8 +1330,8 @@ request, on every CI build in the future.&lt;/p>
 &lt;td>Block reference to Code block. Create a new one or pick up an existed Code block.&lt;/td>
 &lt;/tr>
 &lt;/tbody>
-&lt;/table></description></item><item><title>Docs: Code-Review-Quality-Best-Practices</title><link>https://froboy.github.io/openy_docs/docs/wiki/code-review-quality-best-practices/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://froboy.github.io/openy_docs/docs/wiki/code-review-quality-best-practices/</guid><description>
-&lt;p>This document serves as an addition to our &lt;a href="https://froboy.github.io/openy_docs/openy_docs/docs/wiki/open-y-code-of-conduct-and-best-practices/">Code of Conduct and Best Practices&lt;/a>. It is more technical and in-depth for specific cases that were discussed during code quality review processes the Open Y team has in place. During this process, all code should be reviewed by 1-2 developers before being merged into the Open Y codebase.&lt;/p>
+&lt;/table></description></item><item><title>Docs: Code-Review-Quality-Best-Practices</title><link>/docs/wiki/code-review-quality-best-practices/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/wiki/code-review-quality-best-practices/</guid><description>
+&lt;p>This document serves as an addition to our &lt;a href="/docs/wiki/open-y-code-of-conduct-and-best-practices/">Code of Conduct and Best Practices&lt;/a>. It is more technical and in-depth for specific cases that were discussed during code quality review processes the Open Y team has in place. During this process, all code should be reviewed by 1-2 developers before being merged into the Open Y codebase.&lt;/p>
 &lt;h1 id="general-rules">General Rules&lt;/h1>
 &lt;p>Components in Open Y (whether modules, themes, or other code structures) should be, as much as possible, reusable and atomic. All features, content types, settings, styles, etc. should be bundled together to create a cohesive component.&lt;/p>
 &lt;ol>
@@ -1497,7 +1497,7 @@ request, on every CI build in the future.&lt;/p>
 &lt;span style="color:#4e9a06">&amp;#39;views.view.example_view&amp;#39;&lt;/span>&lt;span style="color:#000;font-weight:bold">,&lt;/span>
 &lt;span style="color:#000;font-weight:bold">]);&lt;/span>
 &lt;/code>&lt;/pre>&lt;/div>&lt;h1 id="javascript-includes">JavaScript includes&lt;/h1>
-&lt;p>&lt;img src="https://user-images.githubusercontent.com/563412/122801945-6f28b700-d2cd-11eb-8d0c-694432e8cbf0.png" alt="image">&lt;/p></description></item><item><title>Docs: Color</title><link>https://froboy.github.io/openy_docs/docs/content-structure/taxonomy/color/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://froboy.github.io/openy_docs/docs/content-structure/taxonomy/color/</guid><description>
+&lt;p>&lt;img src="https://user-images.githubusercontent.com/563412/122801945-6f28b700-d2cd-11eb-8d0c-694432e8cbf0.png" alt="image">&lt;/p></description></item><item><title>Docs: Color</title><link>/docs/content-structure/taxonomy/color/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/content-structure/taxonomy/color/</guid><description>
 &lt;h1 id="area-vocabulary">Area Vocabulary&lt;/h1>
 &lt;p>This is a vocabulary that will be used for adding colors on the site.&lt;/p>
 &lt;p>&lt;strong>Machine_name&lt;/strong>: color&lt;/p>
@@ -1525,13 +1525,13 @@ request, on every CI build in the future.&lt;/p>
 &lt;td>Color selector.&lt;/td>
 &lt;/tr>
 &lt;/tbody>
-&lt;/table></description></item><item><title>Docs: Composer</title><link>https://froboy.github.io/openy_docs/docs/development/composer/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://froboy.github.io/openy_docs/docs/development/composer/</guid><description>
+&lt;/table></description></item><item><title>Docs: Composer</title><link>/docs/development/composer/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/development/composer/</guid><description>
 &lt;h1 id="composer">Composer&lt;/h1>
 &lt;p>Please always make sure &lt;code>composer.lock&lt;/code> file is updated after any changes in &lt;code>composer.json&lt;/code> file.
 You can use &lt;code>composer update&lt;/code> command to update any package, in this case composer will take care about updating of &lt;code>composer.lock&lt;/code> file.&lt;/p>
 &lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-fallback" data-lang="fallback">composer update drupal/metatag
 &lt;/code>&lt;/pre>&lt;/div>&lt;p>Also you can use &lt;code>composer update --lock&lt;/code> command to force updating of &lt;code>composer.lock&lt;/code> file according to dependencies in &lt;code>composer.json&lt;/code>.&lt;/p>
-&lt;p>Please check official composer documentation for details: &lt;a href="https://getcomposer.org/doc/01-basic-usage.md">https://getcomposer.org/doc/01-basic-usage.md&lt;/a>)&lt;/p></description></item><item><title>Docs: Composer-version-constraints-for-Open-Y</title><link>https://froboy.github.io/openy_docs/docs/wiki/composer-version-constraints-for-open-y/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://froboy.github.io/openy_docs/docs/wiki/composer-version-constraints-for-open-y/</guid><description>
+&lt;p>Please check official composer documentation for details: &lt;a href="https://getcomposer.org/doc/01-basic-usage.md">https://getcomposer.org/doc/01-basic-usage.md&lt;/a>)&lt;/p></description></item><item><title>Docs: Composer-version-constraints-for-Open-Y</title><link>/docs/wiki/composer-version-constraints-for-open-y/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/wiki/composer-version-constraints-for-open-y/</guid><description>
 &lt;p>In 2020, due to changes in Drupal core release management and demand from Open Y customers to improve upgrade path flexibility and stability, the Open Y team added extended composer version constraints to our &lt;code>composer.json&lt;/code>.&lt;/p>
 &lt;p>Examples from &lt;a href="https://github.com/ymcatwincities/openy/blob/9.x-2.x/composer.json">composer.json&lt;/a>:&lt;/p>
 &lt;ul>
@@ -1542,14 +1542,14 @@ You can use &lt;code>composer update&lt;/code> command to update any package, in
 &lt;p>For example, if, for some reason, &lt;code>custom_formatters&lt;/code> 3.0 won&amp;rsquo;t be compatible with any of Open Y dependencies at the time of release, a developer can select an older beta version in order to proceed with the upgrade.&lt;/p>
 &lt;p>To select a specific version of a dependency when you do an upgrade of Open Y, add a dependency and its version alongside Open Y at the &lt;code>composer require...&lt;/code> step.&lt;/p>
 &lt;p>For example:&lt;/p>
-&lt;p>from &lt;a href="https://froboy.github.io/openy_docs/openy_docs/docs/wiki/openy-upgrade-how-to-for-developers/">upgrade doc&lt;/a>&lt;/p>
+&lt;p>from &lt;a href="/docs/wiki/openy-upgrade-how-to-for-developers/">upgrade doc&lt;/a>&lt;/p>
 &lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-bash" data-lang="bash">composer require ymcatwincities/openy:NEW_VERSION_HERE --no-update
 composer update --prefer-dist --with-dependencies --prefer-stable --no-suggest
 &lt;/code>&lt;/pre>&lt;/div>&lt;p>then change the dependency version&lt;/p>
 &lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-bash" data-lang="bash">composer require ymcatwincities/openy:NEW_VERSION_HERE --no-update
 composer require drupal/custom_formatters:3.0@beta1
 &lt;/code>&lt;/pre>&lt;/div>&lt;p>You can change any of the dependency versions without upgrading Open Y by running only the &lt;code>composer require...&lt;/code> command for specific dependencies and Drupal Update DB routines afterward.&lt;/p>
-&lt;p>Check &lt;a href="https://getcomposer.org/doc/articles/versions.md">official Composer documentation about version constraints&lt;/a> and &lt;a href="https://www.drupal.org/docs/updating-drupal/updating-modules-and-themes-using-composer">updating Drupal modules with Composer&lt;/a>.&lt;/p></description></item><item><title>Docs: Configuration for social posts import</title><link>https://froboy.github.io/openy_docs/docs/development/configuration-for-social-posts-import/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://froboy.github.io/openy_docs/docs/development/configuration-for-social-posts-import/</guid><description>
+&lt;p>Check &lt;a href="https://getcomposer.org/doc/articles/versions.md">official Composer documentation about version constraints&lt;/a> and &lt;a href="https://www.drupal.org/docs/updating-drupal/updating-modules-and-themes-using-composer">updating Drupal modules with Composer&lt;/a>.&lt;/p></description></item><item><title>Docs: Configuration for social posts import</title><link>/docs/development/configuration-for-social-posts-import/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/development/configuration-for-social-posts-import/</guid><description>
 &lt;p>Add import social posts to site (Facebook, Instagram, Twitter)&lt;/p>
 &lt;h3 id="how-configure-import-of-posts-from-the-social-networks">How configure import of posts from the social networks&lt;/h3>
 &lt;p>&lt;strong>Given:&lt;/strong>
@@ -1559,7 +1559,7 @@ As an Open Y site developer, I want to be able import posts from company&amp;rsq
 &lt;li>Open configuration page /admin/config/social_feed_fetcher_settings - Configuration -&amp;gt; Social Feed Settings&lt;/li>
 &lt;li>Select checkbox for needed social network and add additional settings. Every social network has their own API, please read documentation for this settings on the official pages of each social networks.&lt;/li>
 &lt;li>When all settings will be filled - click on the button - Run Cron. Import is started. )&lt;/li>
-&lt;/ul></description></item><item><title>Docs: Contributing</title><link>https://froboy.github.io/openy_docs/docs/development/contributing/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://froboy.github.io/openy_docs/docs/development/contributing/</guid><description>
+&lt;/ul></description></item><item><title>Docs: Contributing</title><link>/docs/development/contributing/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/development/contributing/</guid><description>
 &lt;h1 id="contributing-to-open-y">Contributing to Open Y&lt;/h1>
 &lt;h1 id="issues">Issues&lt;/h1>
 &lt;p>If you have a support request, you&amp;rsquo;ve found a bug or you have a feature request:&lt;/p>
@@ -1586,7 +1586,7 @@ As an Open Y site developer, I want to be able import posts from company&amp;rsq
 &lt;li>Link drupal.org issue to GitHub Pull Request&lt;/li>
 &lt;li>Specify in GitHub Pull Request link to drupal.org issue&lt;/li>
 &lt;li>Once PR has been merged, reviewer will close drupal.org issue with appropriate credits.)&lt;/li>
-&lt;/ul></description></item><item><title>Docs: Create View Modes</title><link>https://froboy.github.io/openy_docs/docs/development/create-view-modes/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://froboy.github.io/openy_docs/docs/development/create-view-modes/</guid><description>
+&lt;/ul></description></item><item><title>Docs: Create View Modes</title><link>/docs/development/create-view-modes/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/development/create-view-modes/</guid><description>
 &lt;h1 id="how-to-create-new-view-mode-and-use">How to Create new View mode and use&lt;/h1>
 &lt;p>As with any other entity in drupal, when it comes to render the rendering it in different contexts, you might want to have specific viewmodes.&lt;/p>
 &lt;p>Here you can find instructions how you can add new view modes into embedded entity form on Open Y distribution.&lt;/p>
@@ -1615,7 +1615,7 @@ As an Open Y site developer, I want to be able import posts from company&amp;rsq
 &lt;ol start="2">
 &lt;li>Then make sure you enable the new viewmode in &amp;ldquo;Allowed Entity Embed Display plugins&amp;rdquo;, and at the bottom of the page click &amp;ldquo;Save&amp;rdquo;.
 &lt;img src="../assets/view_mode_enable.png" alt="Configuration project add/update form">)&lt;/li>
-&lt;/ol></description></item><item><title>Docs: Custom Simple</title><link>https://froboy.github.io/openy_docs/docs/content-structure/blocks/custom-simple/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://froboy.github.io/openy_docs/docs/content-structure/blocks/custom-simple/</guid><description>
+&lt;/ol></description></item><item><title>Docs: Custom Simple</title><link>/docs/content-structure/blocks/custom-simple/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/content-structure/blocks/custom-simple/</guid><description>
 &lt;h1 id="block-custom-simple">Block Custom Simple&lt;/h1>
 &lt;p>A simple block with a body.&lt;/p>
 &lt;h3 id="fields">Fields&lt;/h3>
@@ -1660,7 +1660,7 @@ As an Open Y site developer, I want to be able import posts from company&amp;rsq
 &lt;td>Title to display at top of block.&lt;/td>
 &lt;/tr>
 &lt;/tbody>
-&lt;/table></description></item><item><title>Docs: DataLayer</title><link>https://froboy.github.io/openy_docs/docs/development/datalayer/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://froboy.github.io/openy_docs/docs/development/datalayer/</guid><description>
+&lt;/table></description></item><item><title>Docs: DataLayer</title><link>/docs/development/datalayer/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/development/datalayer/</guid><description>
 &lt;p>See also the Data Layer module readme datalayer/README.md&lt;/p>
 &lt;p>The Data Layers module output data on the page in a json format. By default it will output properties (langcode, vid, name, uid, created, status, roles) and related taxonomy for any node, user, or any route based entity.&lt;/p>
 &lt;p>A limited set of properties are available via the Data Layers configuration form at /admin/config/search/datalayer (langcode, vid, name, uid, created, status, roles).&lt;/p>
@@ -1712,15 +1712,15 @@ As an Open Y site developer, I want to be able import posts from company&amp;rsq
 &lt;span style="color:#000;font-weight:bold">}&lt;/span>
 &lt;span style="color:#000;font-weight:bold">}&lt;/span>
 &lt;span style="color:#4e9a06">``&lt;/span>&lt;span style="color:#a40000">`&lt;/span>&lt;span style="color:#000;font-weight:bold">)&lt;/span>
-&lt;/code>&lt;/pre>&lt;/div></description></item><item><title>Docs: Daxko</title><link>https://froboy.github.io/openy_docs/docs/development/daxko/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://froboy.github.io/openy_docs/docs/development/daxko/</guid><description>
+&lt;/code>&lt;/pre>&lt;/div></description></item><item><title>Docs: Daxko</title><link>/docs/development/daxko/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/development/daxko/</guid><description>
 &lt;h1 id="daxko">Daxko&lt;/h1>
 &lt;p>Relates to: [Program Registration (Daxko)](../Paragraphs/Program Registration (Daxko).md)&lt;/p>
 &lt;p>Configuration setting at /admin/config/development/daxko&lt;/p>
-&lt;p>Account configuration must be setup before the Program Registration paragraph will work.)&lt;/p></description></item><item><title>Docs: Decouple-component-from-Open-Y-as-independent-module-project</title><link>https://froboy.github.io/openy_docs/docs/wiki/decouple-component-from-open-y-as-independent-module-project/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://froboy.github.io/openy_docs/docs/wiki/decouple-component-from-open-y-as-independent-module-project/</guid><description>
+&lt;p>Account configuration must be setup before the Program Registration paragraph will work.)&lt;/p></description></item><item><title>Docs: Decouple-component-from-Open-Y-as-independent-module-project</title><link>/docs/wiki/decouple-component-from-open-y-as-independent-module-project/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/wiki/decouple-component-from-open-y-as-independent-module-project/</guid><description>
 &lt;h2 id="history">History&lt;/h2>
 &lt;p>In 2019 the Open Y team started decoupling major components to streamline the distribution and simplify support.&lt;/p>
 &lt;p>Communication started in the &lt;a href="https://community.openymca.org/t/ejecting-modules-from-openy-distro-as-independent-projects/513">Community Board - Ejecting modules from OpenY distro as independent projects&lt;/a>.&lt;/p>
-&lt;p>The decoupling process is ongoing. See &lt;a href="https://froboy.github.io/openy_docs/openy_docs/docs/wiki/decoupled-external-projects-of-openy/">the index of decoupled projects&lt;/a>.&lt;/p>
+&lt;p>The decoupling process is ongoing. See &lt;a href="/docs/wiki/decoupled-external-projects-of-openy/">the index of decoupled projects&lt;/a>.&lt;/p>
 &lt;p>In 2021 the Open Y core team faced coupling blockers in the distribution during &lt;a href="https://github.com/ymcatwincities/openy/milestone/21">the upgrade from Drupal 8 to Drupal 9&lt;/a>&lt;/p>
 &lt;p>To formalize the ongoing development and maintenance strategy, the Open Y core team &lt;a href="https://docs.google.com/presentation/d/1H09GsUsSdt3RoN7rbKpNv4eihCNos74Y2KCbJBJXRqc/edit?usp=sharing">shared its decoupling plan with the wider community&lt;/a> in mid-2021.&lt;/p>
 &lt;p>This document elaborates on those processes.&lt;/p>
@@ -1751,12 +1751,12 @@ As an Open Y site developer, I want to be able import posts from company&amp;rsq
 &lt;li>Suggest adding to Open Y by &lt;a href="https://github.com/ymcatwincities/openy/issues">opening an issue&lt;/a>.&lt;/li>
 &lt;li>If approved, create a Pull Request adding it as a dependency in &lt;a href="https://github.com/ymcatwincities/openy/blob/9.x-2.x/composer.json">composer.json&lt;/a>.&lt;/li>
 &lt;li>Ensure this component is enabled in any of the packages maintained in the &lt;a href="https://github.com/ymcatwincities/openy/blob/9.x-2.x/openy.packages.yml">Open Y profile installation&lt;/a>&lt;/li>
-&lt;li>Ask for review and release, according to the &lt;a href="https://froboy.github.io/openy_docs/openy_docs/docs/wiki/how-we-release-openy-distribution-from-code-perspective/">release plan&lt;/a>.&lt;/li>
+&lt;li>Ask for review and release, according to the &lt;a href="/docs/wiki/how-we-release-openy-distribution-from-code-perspective/">release plan&lt;/a>.&lt;/li>
 &lt;/ol>
 &lt;h3 id="for-decoupling-an-existing-component-of-open-y">for decoupling an existing component of Open Y&lt;/h3>
 &lt;p>Follow the steps above, but:&lt;/p>
 &lt;ul>
-&lt;li>After creating the repo, filter the selected component by running &lt;code>git filter-branch --subdirectory-filter ...&lt;/code> from the latest development branch of the Open Y profile. This keeps credits of work done for this component as a part of the &lt;a href="https://froboy.github.io/openy_docs/openy_docs/docs/wiki/open-y-code-of-conduct-and-best-practices/">Code of Conduct&lt;/a>.&lt;/li>
+&lt;li>After creating the repo, filter the selected component by running &lt;code>git filter-branch --subdirectory-filter ...&lt;/code> from the latest development branch of the Open Y profile. This keeps credits of work done for this component as a part of the &lt;a href="/docs/wiki/open-y-code-of-conduct-and-best-practices/">Code of Conduct&lt;/a>.&lt;/li>
 &lt;li>After separating the code, ensure the ejected code is not duplicated in the Open Y profile. Remove duplicated code in the same Pull Request in which you add the new dependency.&lt;/li>
 &lt;/ul>
 &lt;h2 id="examples">Examples&lt;/h2>
@@ -1796,7 +1796,7 @@ git clone git@github.com:ynorth-projects/distribution.git yn-distribution
 &lt;h1 id="references">References&lt;/h1>
 &lt;ul>
 &lt;li>A useful article for future decoupling - &lt;a href="https://medium.com/@ayushya/move-directory-from-one-repository-to-another-preserving-git-history-d210fa049d4b">Move files from one repository to another, preserving git history&lt;/a>&lt;/li>
-&lt;/ul></description></item><item><title>Docs: Decoupled-(-external-)-projects-of-OpenY</title><link>https://froboy.github.io/openy_docs/docs/wiki/decoupled-external-projects-of-openy/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://froboy.github.io/openy_docs/docs/wiki/decoupled-external-projects-of-openy/</guid><description>
+&lt;/ul></description></item><item><title>Docs: Decoupled-(-external-)-projects-of-OpenY</title><link>/docs/wiki/decoupled-external-projects-of-openy/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/wiki/decoupled-external-projects-of-openy/</guid><description>
 &lt;h1 id="inventory-of-external-modules-available-via-composer">Inventory of external modules available via Composer&lt;/h1>
 &lt;p>Check all GitHub for the tag &lt;a href="https://github.com/topics/openy-decoupled">&lt;code>openy-decoupled&lt;/code>&lt;/a>&lt;/p>
 &lt;h2 id="github-hosted">GitHub hosted&lt;/h2>
@@ -1827,7 +1827,7 @@ git clone git@github.com:ynorth-projects/distribution.git yn-distribution
 &lt;li>&lt;a href="https://www.drupal.org/project/openy_autocomplete_path">&lt;code>drupal/openy_autocomplete_path&lt;/code>&lt;/a> - Open Y Autocomplete Path. Works in Drupal 8 only. Removed from &lt;code>9.*&lt;/code> Open Y releases.&lt;/li>
 &lt;/ol>
 &lt;h2 id="decoupling-mind-map">Decoupling mind-map&lt;/h2>
-&lt;p>&lt;img src="https://user-images.githubusercontent.com/563412/123959435-d540c880-d9b6-11eb-89ed-8af3f21095dd.png" alt="Open Y decoupling">&lt;/p></description></item><item><title>Docs: Dependencies-in-drupal-info.yml</title><link>https://froboy.github.io/openy_docs/docs/wiki/dependencies-in-drupal-info.yml/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://froboy.github.io/openy_docs/docs/wiki/dependencies-in-drupal-info.yml/</guid><description>
+&lt;p>&lt;img src="https://user-images.githubusercontent.com/563412/123959435-d540c880-d9b6-11eb-89ed-8af3f21095dd.png" alt="Open Y decoupling">&lt;/p></description></item><item><title>Docs: Dependencies-in-drupal-info.yml</title><link>/docs/wiki/dependencies-in-drupal-info.yml/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/wiki/dependencies-in-drupal-info.yml/</guid><description>
 &lt;p>In order to generate &lt;code>composer.json&lt;/code>, Drupal.org defines specific rules in the modules &lt;code>info.yml&lt;/code> file&lt;/p>
 &lt;p>If you need to add a dependency to the Drupal.org module you should provide a format:&lt;/p>
 &lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-yml" data-lang="yml">&lt;span style="color:#204a87;font-weight:bold">dependencies&lt;/span>&lt;span style="color:#000;font-weight:bold">:&lt;/span>&lt;span style="color:#f8f8f8;text-decoration:underline">
@@ -1840,7 +1840,7 @@ git clone git@github.com:ynorth-projects/distribution.git yn-distribution
 &lt;p>In order to break the dependency on composer level but still tell Drupal core to have module dependency while resolving dependencies during the process of enabling the module, you should use the simplified format:&lt;/p>
 &lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-yml" data-lang="yml">&lt;span style="color:#204a87;font-weight:bold">dependencies&lt;/span>&lt;span style="color:#000;font-weight:bold">:&lt;/span>&lt;span style="color:#f8f8f8;text-decoration:underline">
 &lt;/span>&lt;span style="color:#f8f8f8;text-decoration:underline"> &lt;/span>- &lt;span style="color:#000">webform&lt;/span>&lt;span style="color:#f8f8f8;text-decoration:underline">
-&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>In the above case, composer won&amp;rsquo;t have any dependencies, but your module will require that the webform module be available in the codebase in order to be enabled by Drupal core.&lt;/p></description></item><item><title>Docs: Deprecate-and-remove-components-from-Open-Y</title><link>https://froboy.github.io/openy_docs/docs/wiki/deprecate-and-remove-components-from-open-y/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://froboy.github.io/openy_docs/docs/wiki/deprecate-and-remove-components-from-open-y/</guid><description>
+&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>In the above case, composer won&amp;rsquo;t have any dependencies, but your module will require that the webform module be available in the codebase in order to be enabled by Drupal core.&lt;/p></description></item><item><title>Docs: Deprecate-and-remove-components-from-Open-Y</title><link>/docs/wiki/deprecate-and-remove-components-from-open-y/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/wiki/deprecate-and-remove-components-from-open-y/</guid><description>
 &lt;p>Occasionally old code is deprecated from the Open Y codebase. In order to minimize disruption to existing sites, we use the following process:&lt;/p>
 &lt;ol>
 &lt;li>&lt;strong>Decide&lt;/strong> - Before removing components from the distribution we gather feedback from the community to protect active projects from having components accidentally removed. This is accomplished via messaging in the Open Y Slack and discussion on Monthly calls.&lt;/li>
@@ -1852,7 +1852,7 @@ git clone git@github.com:ynorth-projects/distribution.git yn-distribution
 &lt;ol>
 &lt;li>The release where the deprecated component has been uninstalled should be added to the &lt;a href="https://github.com/ymcatwincities/openy/wiki/Important-versions-for-upgrade-path">important versions document&lt;/a> in the Wiki.&lt;/li>
 &lt;li>Code should be decoupled to external GitHub repositories with all history of commits, marked as &lt;code>openy-decoupled&lt;/code>, and archived.&lt;/li>
-&lt;/ol></description></item><item><title>Docs: Development-FAQ</title><link>https://froboy.github.io/openy_docs/docs/wiki/development-faq/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://froboy.github.io/openy_docs/docs/wiki/development-faq/</guid><description>
+&lt;/ol></description></item><item><title>Docs: Development-FAQ</title><link>/docs/wiki/development-faq/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/wiki/development-faq/</guid><description>
 &lt;h1 id="open-y-developer-faq">Open Y Developer FAQ&lt;/h1>
 &lt;h2 id="local-development">Local Development&lt;/h2>
 &lt;h3 id="getting-started-with-a-local-environment">Getting started with a local environment&lt;/h3>
@@ -1898,7 +1898,7 @@ git clone git@github.com:ynorth-projects/distribution.git yn-distribution
 &lt;h3 id="what-should-i-do-if-tests-fail">What should I do if tests fail?&lt;/h3>
 &lt;p>If you have any concerns with reports generated by the code checkers that are used in Open Y ask Open Y Lead Technical Architect Andrii Podanenko to get them resolved. The majority of these systems are works-in-progress and it is helpful to have feedback on them.&lt;/p>
 &lt;h2 id="how-do-i-install-open-y-on-pantheon-hosting">How do I install Open Y on Pantheon hosting&lt;/h2>
-&lt;p>See &lt;a href="https://github.com/ymcatwincities/openy/issues/2004">request from a community&lt;/a>. The solution is described in &lt;a href="https://pantheon.io/docs/nested-docroot">Pantheon&amp;rsquo;s documentation on nested docroots&lt;/a>. We suggest that you maintain your own &lt;code>composer.json&lt;/code> with the specified web-root directory, as described in the &lt;a href="https://github.com/pantheon-systems/example-drops-8-composer/blob/master/composer.json#L94">Pantheon examples&lt;/a>.&lt;/p></description></item><item><title>Docs: Drupal-9-core-dependencies-version-flexibility</title><link>https://froboy.github.io/openy_docs/docs/wiki/drupal-9-core-dependencies-version-flexibility/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://froboy.github.io/openy_docs/docs/wiki/drupal-9-core-dependencies-version-flexibility/</guid><description>
+&lt;p>See &lt;a href="https://github.com/ymcatwincities/openy/issues/2004">request from a community&lt;/a>. The solution is described in &lt;a href="https://pantheon.io/docs/nested-docroot">Pantheon&amp;rsquo;s documentation on nested docroots&lt;/a>. We suggest that you maintain your own &lt;code>composer.json&lt;/code> with the specified web-root directory, as described in the &lt;a href="https://github.com/pantheon-systems/example-drops-8-composer/blob/master/composer.json#L94">Pantheon examples&lt;/a>.&lt;/p></description></item><item><title>Docs: Drupal-9-core-dependencies-version-flexibility</title><link>/docs/wiki/drupal-9-core-dependencies-version-flexibility/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/wiki/drupal-9-core-dependencies-version-flexibility/</guid><description>
 &lt;p>This document is no longer updated.&lt;/p>
 &lt;p>To update the version of Drupal being used on your site independent of Open Y see &lt;a href="https://www.drupal.org/docs/updating-drupal/updating-drupal-core-via-composer">Updating Drupal Core via Composer&lt;/a>. Be aware that &lt;code>openy/composer.json&lt;/code> may set &lt;a href="https://github.com/ymcatwincities/openy/blob/9.x-2.x/composer.json#:~:text=%22drupal/-,core%2Drecommended,-%22%3A%20%22%3E%3D9.1%2C%20%3C9.3%22%2C">Drupal core version constraints&lt;/a>.&lt;/p>
 &lt;hr>
@@ -1911,7 +1911,7 @@ git clone git@github.com:ynorth-projects/distribution.git yn-distribution
 &lt;span style="color:#204a87">cd&lt;/span> OPENY
 composer require drupal/core:~9.0.7
 &lt;/code>&lt;/pre>&lt;/div>&lt;p>where 9.0.7 - is a needed version for your Open Y instance&lt;/p>
-&lt;p>For modules see &lt;a href="https://froboy.github.io/openy_docs/openy_docs/docs/wiki/composer-version-constraints-for-open-y/">Composer-version-constraints-for-Open-Y&lt;/a>&lt;/p></description></item><item><title>Docs: Facility</title><link>https://froboy.github.io/openy_docs/docs/content-structure/content-types/facility/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://froboy.github.io/openy_docs/docs/content-structure/content-types/facility/</guid><description>
+&lt;p>For modules see &lt;a href="/docs/wiki/composer-version-constraints-for-open-y/">Composer-version-constraints-for-Open-Y&lt;/a>&lt;/p></description></item><item><title>Docs: Facility</title><link>/docs/content-structure/content-types/facility/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/content-structure/content-types/facility/</guid><description>
 &lt;h1 id="facility">Facility&lt;/h1>
 &lt;p>Facility content type is used for adding facilities on the site.&lt;/p>
 &lt;h3 id="fields">Fields&lt;/h3>
@@ -2025,10 +2025,10 @@ composer require drupal/core:~9.0.7
 &lt;/table>
 &lt;h3 id="url-pattern">URL pattern&lt;/h3>
 &lt;p>Content type is using following pattern:
-&lt;code>/facility/[node:title]&lt;/code>&lt;/p></description></item><item><title>Docs: Facility Type</title><link>https://froboy.github.io/openy_docs/docs/content-structure/taxonomy/facility-type/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://froboy.github.io/openy_docs/docs/content-structure/taxonomy/facility-type/</guid><description>
+&lt;code>/facility/[node:title]&lt;/code>&lt;/p></description></item><item><title>Docs: Facility Type</title><link>/docs/content-structure/taxonomy/facility-type/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/content-structure/taxonomy/facility-type/</guid><description>
 &lt;h1 id="facility-type">Facility Type&lt;/h1>
 &lt;p>This is a vocabulary that will be used for adding facility type on the site. We will use this for the Facility CT.&lt;/p>
-&lt;p>&lt;strong>Machine name&lt;/strong>: facility_type&lt;/p></description></item><item><title>Docs: Featured Blog Posts</title><link>https://froboy.github.io/openy_docs/docs/content-structure/paragraphs/featured-blog-posts/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://froboy.github.io/openy_docs/docs/content-structure/paragraphs/featured-blog-posts/</guid><description>
+&lt;p>&lt;strong>Machine name&lt;/strong>: facility_type&lt;/p></description></item><item><title>Docs: Featured Blog Posts</title><link>/docs/content-structure/paragraphs/featured-blog-posts/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/content-structure/paragraphs/featured-blog-posts/</guid><description>
 &lt;h1 id="featured-blog-posts">Featured Blog Posts&lt;/h1>
 &lt;p>This is a paragraph type that will be used for the featured stories.&lt;/p>
 &lt;h3 id="fields">Fields&lt;/h3>
@@ -2055,7 +2055,7 @@ composer require drupal/core:~9.0.7
 &lt;td>Multiple values. Reference field to Blog posts.&lt;/td>
 &lt;/tr>
 &lt;/tbody>
-&lt;/table></description></item><item><title>Docs: Featured Content</title><link>https://froboy.github.io/openy_docs/docs/content-structure/paragraphs/featured-content/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://froboy.github.io/openy_docs/docs/content-structure/paragraphs/featured-content/</guid><description>
+&lt;/table></description></item><item><title>Docs: Featured Content</title><link>/docs/content-structure/paragraphs/featured-content/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/content-structure/paragraphs/featured-content/</guid><description>
 &lt;h1 id="featured-content">Featured Content&lt;/h1>
 &lt;p>This is a paragraph type that will be used for the featured content.&lt;/p>
 &lt;h3 id="fields">Fields&lt;/h3>
@@ -2100,7 +2100,7 @@ composer require drupal/core:~9.0.7
 &lt;td>Multiple values. Textarea for the column with WYSIWYG, without summary.&lt;/td>
 &lt;/tr>
 &lt;/tbody>
-&lt;/table></description></item><item><title>Docs: Featured Highlights</title><link>https://froboy.github.io/openy_docs/docs/content-structure/paragraphs/featured-highlights/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://froboy.github.io/openy_docs/docs/content-structure/paragraphs/featured-highlights/</guid><description>
+&lt;/table></description></item><item><title>Docs: Featured Highlights</title><link>/docs/content-structure/paragraphs/featured-highlights/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/content-structure/paragraphs/featured-highlights/</guid><description>
 &lt;h1 id="featured-highlights">Featured Highlights&lt;/h1>
 &lt;p>Provides a paragraph containing blocks of specific types positioned as 2, 3 or 4 blocks per row.&lt;/p>
 &lt;h3 id="fields">Fields&lt;/h3>
@@ -2133,7 +2133,7 @@ composer require drupal/core:~9.0.7
 &lt;td>Create a new one or pick up an existing block of given types: Featured Highlight Block, Basic Block, Simple Block, Date block.&lt;/td>
 &lt;/tr>
 &lt;/tbody>
-&lt;/table></description></item><item><title>Docs: Featured News Posts</title><link>https://froboy.github.io/openy_docs/docs/content-structure/paragraphs/featured-news-posts/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://froboy.github.io/openy_docs/docs/content-structure/paragraphs/featured-news-posts/</guid><description>
+&lt;/table></description></item><item><title>Docs: Featured News Posts</title><link>/docs/content-structure/paragraphs/featured-news-posts/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/content-structure/paragraphs/featured-news-posts/</guid><description>
 &lt;h1 id="featured-news-posts">Featured News Posts&lt;/h1>
 &lt;p>This is a paragraph type that will be used for the featured news.&lt;/p>
 &lt;h3 id="fields">Fields&lt;/h3>

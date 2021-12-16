@@ -1,5 +1,5 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Open Y – Wiki</title><link>https://froboy.github.io/openy_docs/docs/wiki/</link><description>Recent content in Wiki on Open Y</description><generator>Hugo -- gohugo.io</generator><atom:link href="https://froboy.github.io/openy_docs/docs/wiki/index.xml" rel="self" type="application/rss+xml"/><item><title>Docs: Code-Review-Quality-Best-Practices</title><link>https://froboy.github.io/openy_docs/docs/wiki/code-review-quality-best-practices/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://froboy.github.io/openy_docs/docs/wiki/code-review-quality-best-practices/</guid><description>
-&lt;p>This document serves as an addition to our &lt;a href="https://froboy.github.io/openy_docs/openy_docs/docs/wiki/open-y-code-of-conduct-and-best-practices/">Code of Conduct and Best Practices&lt;/a>. It is more technical and in-depth for specific cases that were discussed during code quality review processes the Open Y team has in place. During this process, all code should be reviewed by 1-2 developers before being merged into the Open Y codebase.&lt;/p>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Open Y – Wiki</title><link>/docs/wiki/</link><description>Recent content in Wiki on Open Y</description><generator>Hugo -- gohugo.io</generator><atom:link href="/docs/wiki/index.xml" rel="self" type="application/rss+xml"/><item><title>Docs: Code-Review-Quality-Best-Practices</title><link>/docs/wiki/code-review-quality-best-practices/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/wiki/code-review-quality-best-practices/</guid><description>
+&lt;p>This document serves as an addition to our &lt;a href="/docs/wiki/open-y-code-of-conduct-and-best-practices/">Code of Conduct and Best Practices&lt;/a>. It is more technical and in-depth for specific cases that were discussed during code quality review processes the Open Y team has in place. During this process, all code should be reviewed by 1-2 developers before being merged into the Open Y codebase.&lt;/p>
 &lt;h1 id="general-rules">General Rules&lt;/h1>
 &lt;p>Components in Open Y (whether modules, themes, or other code structures) should be, as much as possible, reusable and atomic. All features, content types, settings, styles, etc. should be bundled together to create a cohesive component.&lt;/p>
 &lt;ol>
@@ -165,7 +165,7 @@
 &lt;span style="color:#4e9a06">&amp;#39;views.view.example_view&amp;#39;&lt;/span>&lt;span style="color:#000;font-weight:bold">,&lt;/span>
 &lt;span style="color:#000;font-weight:bold">]);&lt;/span>
 &lt;/code>&lt;/pre>&lt;/div>&lt;h1 id="javascript-includes">JavaScript includes&lt;/h1>
-&lt;p>&lt;img src="https://user-images.githubusercontent.com/563412/122801945-6f28b700-d2cd-11eb-8d0c-694432e8cbf0.png" alt="image">&lt;/p></description></item><item><title>Docs: Composer-version-constraints-for-Open-Y</title><link>https://froboy.github.io/openy_docs/docs/wiki/composer-version-constraints-for-open-y/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://froboy.github.io/openy_docs/docs/wiki/composer-version-constraints-for-open-y/</guid><description>
+&lt;p>&lt;img src="https://user-images.githubusercontent.com/563412/122801945-6f28b700-d2cd-11eb-8d0c-694432e8cbf0.png" alt="image">&lt;/p></description></item><item><title>Docs: Composer-version-constraints-for-Open-Y</title><link>/docs/wiki/composer-version-constraints-for-open-y/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/wiki/composer-version-constraints-for-open-y/</guid><description>
 &lt;p>In 2020, due to changes in Drupal core release management and demand from Open Y customers to improve upgrade path flexibility and stability, the Open Y team added extended composer version constraints to our &lt;code>composer.json&lt;/code>.&lt;/p>
 &lt;p>Examples from &lt;a href="https://github.com/ymcatwincities/openy/blob/9.x-2.x/composer.json">composer.json&lt;/a>:&lt;/p>
 &lt;ul>
@@ -176,18 +176,18 @@
 &lt;p>For example, if, for some reason, &lt;code>custom_formatters&lt;/code> 3.0 won&amp;rsquo;t be compatible with any of Open Y dependencies at the time of release, a developer can select an older beta version in order to proceed with the upgrade.&lt;/p>
 &lt;p>To select a specific version of a dependency when you do an upgrade of Open Y, add a dependency and its version alongside Open Y at the &lt;code>composer require...&lt;/code> step.&lt;/p>
 &lt;p>For example:&lt;/p>
-&lt;p>from &lt;a href="https://froboy.github.io/openy_docs/openy_docs/docs/wiki/openy-upgrade-how-to-for-developers/">upgrade doc&lt;/a>&lt;/p>
+&lt;p>from &lt;a href="/docs/wiki/openy-upgrade-how-to-for-developers/">upgrade doc&lt;/a>&lt;/p>
 &lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-bash" data-lang="bash">composer require ymcatwincities/openy:NEW_VERSION_HERE --no-update
 composer update --prefer-dist --with-dependencies --prefer-stable --no-suggest
 &lt;/code>&lt;/pre>&lt;/div>&lt;p>then change the dependency version&lt;/p>
 &lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-bash" data-lang="bash">composer require ymcatwincities/openy:NEW_VERSION_HERE --no-update
 composer require drupal/custom_formatters:3.0@beta1
 &lt;/code>&lt;/pre>&lt;/div>&lt;p>You can change any of the dependency versions without upgrading Open Y by running only the &lt;code>composer require...&lt;/code> command for specific dependencies and Drupal Update DB routines afterward.&lt;/p>
-&lt;p>Check &lt;a href="https://getcomposer.org/doc/articles/versions.md">official Composer documentation about version constraints&lt;/a> and &lt;a href="https://www.drupal.org/docs/updating-drupal/updating-modules-and-themes-using-composer">updating Drupal modules with Composer&lt;/a>.&lt;/p></description></item><item><title>Docs: Decouple-component-from-Open-Y-as-independent-module-project</title><link>https://froboy.github.io/openy_docs/docs/wiki/decouple-component-from-open-y-as-independent-module-project/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://froboy.github.io/openy_docs/docs/wiki/decouple-component-from-open-y-as-independent-module-project/</guid><description>
+&lt;p>Check &lt;a href="https://getcomposer.org/doc/articles/versions.md">official Composer documentation about version constraints&lt;/a> and &lt;a href="https://www.drupal.org/docs/updating-drupal/updating-modules-and-themes-using-composer">updating Drupal modules with Composer&lt;/a>.&lt;/p></description></item><item><title>Docs: Decouple-component-from-Open-Y-as-independent-module-project</title><link>/docs/wiki/decouple-component-from-open-y-as-independent-module-project/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/wiki/decouple-component-from-open-y-as-independent-module-project/</guid><description>
 &lt;h2 id="history">History&lt;/h2>
 &lt;p>In 2019 the Open Y team started decoupling major components to streamline the distribution and simplify support.&lt;/p>
 &lt;p>Communication started in the &lt;a href="https://community.openymca.org/t/ejecting-modules-from-openy-distro-as-independent-projects/513">Community Board - Ejecting modules from OpenY distro as independent projects&lt;/a>.&lt;/p>
-&lt;p>The decoupling process is ongoing. See &lt;a href="https://froboy.github.io/openy_docs/openy_docs/docs/wiki/decoupled-external-projects-of-openy/">the index of decoupled projects&lt;/a>.&lt;/p>
+&lt;p>The decoupling process is ongoing. See &lt;a href="/docs/wiki/decoupled-external-projects-of-openy/">the index of decoupled projects&lt;/a>.&lt;/p>
 &lt;p>In 2021 the Open Y core team faced coupling blockers in the distribution during &lt;a href="https://github.com/ymcatwincities/openy/milestone/21">the upgrade from Drupal 8 to Drupal 9&lt;/a>&lt;/p>
 &lt;p>To formalize the ongoing development and maintenance strategy, the Open Y core team &lt;a href="https://docs.google.com/presentation/d/1H09GsUsSdt3RoN7rbKpNv4eihCNos74Y2KCbJBJXRqc/edit?usp=sharing">shared its decoupling plan with the wider community&lt;/a> in mid-2021.&lt;/p>
 &lt;p>This document elaborates on those processes.&lt;/p>
@@ -218,12 +218,12 @@ composer require drupal/custom_formatters:3.0@beta1
 &lt;li>Suggest adding to Open Y by &lt;a href="https://github.com/ymcatwincities/openy/issues">opening an issue&lt;/a>.&lt;/li>
 &lt;li>If approved, create a Pull Request adding it as a dependency in &lt;a href="https://github.com/ymcatwincities/openy/blob/9.x-2.x/composer.json">composer.json&lt;/a>.&lt;/li>
 &lt;li>Ensure this component is enabled in any of the packages maintained in the &lt;a href="https://github.com/ymcatwincities/openy/blob/9.x-2.x/openy.packages.yml">Open Y profile installation&lt;/a>&lt;/li>
-&lt;li>Ask for review and release, according to the &lt;a href="https://froboy.github.io/openy_docs/openy_docs/docs/wiki/how-we-release-openy-distribution-from-code-perspective/">release plan&lt;/a>.&lt;/li>
+&lt;li>Ask for review and release, according to the &lt;a href="/docs/wiki/how-we-release-openy-distribution-from-code-perspective/">release plan&lt;/a>.&lt;/li>
 &lt;/ol>
 &lt;h3 id="for-decoupling-an-existing-component-of-open-y">for decoupling an existing component of Open Y&lt;/h3>
 &lt;p>Follow the steps above, but:&lt;/p>
 &lt;ul>
-&lt;li>After creating the repo, filter the selected component by running &lt;code>git filter-branch --subdirectory-filter ...&lt;/code> from the latest development branch of the Open Y profile. This keeps credits of work done for this component as a part of the &lt;a href="https://froboy.github.io/openy_docs/openy_docs/docs/wiki/open-y-code-of-conduct-and-best-practices/">Code of Conduct&lt;/a>.&lt;/li>
+&lt;li>After creating the repo, filter the selected component by running &lt;code>git filter-branch --subdirectory-filter ...&lt;/code> from the latest development branch of the Open Y profile. This keeps credits of work done for this component as a part of the &lt;a href="/docs/wiki/open-y-code-of-conduct-and-best-practices/">Code of Conduct&lt;/a>.&lt;/li>
 &lt;li>After separating the code, ensure the ejected code is not duplicated in the Open Y profile. Remove duplicated code in the same Pull Request in which you add the new dependency.&lt;/li>
 &lt;/ul>
 &lt;h2 id="examples">Examples&lt;/h2>
@@ -263,7 +263,7 @@ git clone git@github.com:ynorth-projects/distribution.git yn-distribution
 &lt;h1 id="references">References&lt;/h1>
 &lt;ul>
 &lt;li>A useful article for future decoupling - &lt;a href="https://medium.com/@ayushya/move-directory-from-one-repository-to-another-preserving-git-history-d210fa049d4b">Move files from one repository to another, preserving git history&lt;/a>&lt;/li>
-&lt;/ul></description></item><item><title>Docs: Decoupled-(-external-)-projects-of-OpenY</title><link>https://froboy.github.io/openy_docs/docs/wiki/decoupled-external-projects-of-openy/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://froboy.github.io/openy_docs/docs/wiki/decoupled-external-projects-of-openy/</guid><description>
+&lt;/ul></description></item><item><title>Docs: Decoupled-(-external-)-projects-of-OpenY</title><link>/docs/wiki/decoupled-external-projects-of-openy/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/wiki/decoupled-external-projects-of-openy/</guid><description>
 &lt;h1 id="inventory-of-external-modules-available-via-composer">Inventory of external modules available via Composer&lt;/h1>
 &lt;p>Check all GitHub for the tag &lt;a href="https://github.com/topics/openy-decoupled">&lt;code>openy-decoupled&lt;/code>&lt;/a>&lt;/p>
 &lt;h2 id="github-hosted">GitHub hosted&lt;/h2>
@@ -294,7 +294,7 @@ git clone git@github.com:ynorth-projects/distribution.git yn-distribution
 &lt;li>&lt;a href="https://www.drupal.org/project/openy_autocomplete_path">&lt;code>drupal/openy_autocomplete_path&lt;/code>&lt;/a> - Open Y Autocomplete Path. Works in Drupal 8 only. Removed from &lt;code>9.*&lt;/code> Open Y releases.&lt;/li>
 &lt;/ol>
 &lt;h2 id="decoupling-mind-map">Decoupling mind-map&lt;/h2>
-&lt;p>&lt;img src="https://user-images.githubusercontent.com/563412/123959435-d540c880-d9b6-11eb-89ed-8af3f21095dd.png" alt="Open Y decoupling">&lt;/p></description></item><item><title>Docs: Dependencies-in-drupal-info.yml</title><link>https://froboy.github.io/openy_docs/docs/wiki/dependencies-in-drupal-info.yml/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://froboy.github.io/openy_docs/docs/wiki/dependencies-in-drupal-info.yml/</guid><description>
+&lt;p>&lt;img src="https://user-images.githubusercontent.com/563412/123959435-d540c880-d9b6-11eb-89ed-8af3f21095dd.png" alt="Open Y decoupling">&lt;/p></description></item><item><title>Docs: Dependencies-in-drupal-info.yml</title><link>/docs/wiki/dependencies-in-drupal-info.yml/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/wiki/dependencies-in-drupal-info.yml/</guid><description>
 &lt;p>In order to generate &lt;code>composer.json&lt;/code>, Drupal.org defines specific rules in the modules &lt;code>info.yml&lt;/code> file&lt;/p>
 &lt;p>If you need to add a dependency to the Drupal.org module you should provide a format:&lt;/p>
 &lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-yml" data-lang="yml">&lt;span style="color:#204a87;font-weight:bold">dependencies&lt;/span>&lt;span style="color:#000;font-weight:bold">:&lt;/span>&lt;span style="color:#f8f8f8;text-decoration:underline">
@@ -307,7 +307,7 @@ git clone git@github.com:ynorth-projects/distribution.git yn-distribution
 &lt;p>In order to break the dependency on composer level but still tell Drupal core to have module dependency while resolving dependencies during the process of enabling the module, you should use the simplified format:&lt;/p>
 &lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-yml" data-lang="yml">&lt;span style="color:#204a87;font-weight:bold">dependencies&lt;/span>&lt;span style="color:#000;font-weight:bold">:&lt;/span>&lt;span style="color:#f8f8f8;text-decoration:underline">
 &lt;/span>&lt;span style="color:#f8f8f8;text-decoration:underline"> &lt;/span>- &lt;span style="color:#000">webform&lt;/span>&lt;span style="color:#f8f8f8;text-decoration:underline">
-&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>In the above case, composer won&amp;rsquo;t have any dependencies, but your module will require that the webform module be available in the codebase in order to be enabled by Drupal core.&lt;/p></description></item><item><title>Docs: Deprecate-and-remove-components-from-Open-Y</title><link>https://froboy.github.io/openy_docs/docs/wiki/deprecate-and-remove-components-from-open-y/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://froboy.github.io/openy_docs/docs/wiki/deprecate-and-remove-components-from-open-y/</guid><description>
+&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>In the above case, composer won&amp;rsquo;t have any dependencies, but your module will require that the webform module be available in the codebase in order to be enabled by Drupal core.&lt;/p></description></item><item><title>Docs: Deprecate-and-remove-components-from-Open-Y</title><link>/docs/wiki/deprecate-and-remove-components-from-open-y/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/wiki/deprecate-and-remove-components-from-open-y/</guid><description>
 &lt;p>Occasionally old code is deprecated from the Open Y codebase. In order to minimize disruption to existing sites, we use the following process:&lt;/p>
 &lt;ol>
 &lt;li>&lt;strong>Decide&lt;/strong> - Before removing components from the distribution we gather feedback from the community to protect active projects from having components accidentally removed. This is accomplished via messaging in the Open Y Slack and discussion on Monthly calls.&lt;/li>
@@ -319,7 +319,7 @@ git clone git@github.com:ynorth-projects/distribution.git yn-distribution
 &lt;ol>
 &lt;li>The release where the deprecated component has been uninstalled should be added to the &lt;a href="https://github.com/ymcatwincities/openy/wiki/Important-versions-for-upgrade-path">important versions document&lt;/a> in the Wiki.&lt;/li>
 &lt;li>Code should be decoupled to external GitHub repositories with all history of commits, marked as &lt;code>openy-decoupled&lt;/code>, and archived.&lt;/li>
-&lt;/ol></description></item><item><title>Docs: Development-FAQ</title><link>https://froboy.github.io/openy_docs/docs/wiki/development-faq/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://froboy.github.io/openy_docs/docs/wiki/development-faq/</guid><description>
+&lt;/ol></description></item><item><title>Docs: Development-FAQ</title><link>/docs/wiki/development-faq/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/wiki/development-faq/</guid><description>
 &lt;h1 id="open-y-developer-faq">Open Y Developer FAQ&lt;/h1>
 &lt;h2 id="local-development">Local Development&lt;/h2>
 &lt;h3 id="getting-started-with-a-local-environment">Getting started with a local environment&lt;/h3>
@@ -365,7 +365,7 @@ git clone git@github.com:ynorth-projects/distribution.git yn-distribution
 &lt;h3 id="what-should-i-do-if-tests-fail">What should I do if tests fail?&lt;/h3>
 &lt;p>If you have any concerns with reports generated by the code checkers that are used in Open Y ask Open Y Lead Technical Architect Andrii Podanenko to get them resolved. The majority of these systems are works-in-progress and it is helpful to have feedback on them.&lt;/p>
 &lt;h2 id="how-do-i-install-open-y-on-pantheon-hosting">How do I install Open Y on Pantheon hosting&lt;/h2>
-&lt;p>See &lt;a href="https://github.com/ymcatwincities/openy/issues/2004">request from a community&lt;/a>. The solution is described in &lt;a href="https://pantheon.io/docs/nested-docroot">Pantheon&amp;rsquo;s documentation on nested docroots&lt;/a>. We suggest that you maintain your own &lt;code>composer.json&lt;/code> with the specified web-root directory, as described in the &lt;a href="https://github.com/pantheon-systems/example-drops-8-composer/blob/master/composer.json#L94">Pantheon examples&lt;/a>.&lt;/p></description></item><item><title>Docs: Drupal-9-core-dependencies-version-flexibility</title><link>https://froboy.github.io/openy_docs/docs/wiki/drupal-9-core-dependencies-version-flexibility/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://froboy.github.io/openy_docs/docs/wiki/drupal-9-core-dependencies-version-flexibility/</guid><description>
+&lt;p>See &lt;a href="https://github.com/ymcatwincities/openy/issues/2004">request from a community&lt;/a>. The solution is described in &lt;a href="https://pantheon.io/docs/nested-docroot">Pantheon&amp;rsquo;s documentation on nested docroots&lt;/a>. We suggest that you maintain your own &lt;code>composer.json&lt;/code> with the specified web-root directory, as described in the &lt;a href="https://github.com/pantheon-systems/example-drops-8-composer/blob/master/composer.json#L94">Pantheon examples&lt;/a>.&lt;/p></description></item><item><title>Docs: Drupal-9-core-dependencies-version-flexibility</title><link>/docs/wiki/drupal-9-core-dependencies-version-flexibility/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/wiki/drupal-9-core-dependencies-version-flexibility/</guid><description>
 &lt;p>This document is no longer updated.&lt;/p>
 &lt;p>To update the version of Drupal being used on your site independent of Open Y see &lt;a href="https://www.drupal.org/docs/updating-drupal/updating-drupal-core-via-composer">Updating Drupal Core via Composer&lt;/a>. Be aware that &lt;code>openy/composer.json&lt;/code> may set &lt;a href="https://github.com/ymcatwincities/openy/blob/9.x-2.x/composer.json#:~:text=%22drupal/-,core%2Drecommended,-%22%3A%20%22%3E%3D9.1%2C%20%3C9.3%22%2C">Drupal core version constraints&lt;/a>.&lt;/p>
 &lt;hr>
@@ -378,11 +378,11 @@ git clone git@github.com:ynorth-projects/distribution.git yn-distribution
 &lt;span style="color:#204a87">cd&lt;/span> OPENY
 composer require drupal/core:~9.0.7
 &lt;/code>&lt;/pre>&lt;/div>&lt;p>where 9.0.7 - is a needed version for your Open Y instance&lt;/p>
-&lt;p>For modules see &lt;a href="https://froboy.github.io/openy_docs/openy_docs/docs/wiki/composer-version-constraints-for-open-y/">Composer-version-constraints-for-Open-Y&lt;/a>&lt;/p></description></item><item><title>Docs: GroupEx-PRO-quick-start</title><link>https://froboy.github.io/openy_docs/docs/wiki/groupex-pro-quick-start/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://froboy.github.io/openy_docs/docs/wiki/groupex-pro-quick-start/</guid><description>
-&lt;p>This document has been moved to &lt;a href="https://github.com/ynorth-projects/openy_pef_gxp_sync#readme">ynorth-projects/openy_pef_gxp_sync&lt;/a>.&lt;/p></description></item><item><title>Docs: How-to-contribute-large-features-into-Open-Y-(backporting,-etc)</title><link>https://froboy.github.io/openy_docs/docs/wiki/how-to-contribute-large-features-into-open-y-backporting-etc/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://froboy.github.io/openy_docs/docs/wiki/how-to-contribute-large-features-into-open-y-backporting-etc/</guid><description>
-&lt;p>Our best practices for backporting large features into Open Y, contributing code for others to use, can be found on &lt;a href="https://community.openymca.org/t/i-made-some-customizations-to-my-site-that-i-want-to-contribute-back-to-open-y-what-are-the-best-practices-for-backporting-my-features/435">this Open Y message board post&lt;/a>.&lt;/p></description></item><item><title>Docs: How-to-develop-themes-in-Open-Y</title><link>https://froboy.github.io/openy_docs/docs/wiki/how-to-develop-themes-in-open-y/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://froboy.github.io/openy_docs/docs/wiki/how-to-develop-themes-in-open-y/</guid><description>
+&lt;p>For modules see &lt;a href="/docs/wiki/composer-version-constraints-for-open-y/">Composer-version-constraints-for-Open-Y&lt;/a>&lt;/p></description></item><item><title>Docs: GroupEx-PRO-quick-start</title><link>/docs/wiki/groupex-pro-quick-start/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/wiki/groupex-pro-quick-start/</guid><description>
+&lt;p>This document has been moved to &lt;a href="https://github.com/ynorth-projects/openy_pef_gxp_sync#readme">ynorth-projects/openy_pef_gxp_sync&lt;/a>.&lt;/p></description></item><item><title>Docs: How-to-contribute-large-features-into-Open-Y-(backporting,-etc)</title><link>/docs/wiki/how-to-contribute-large-features-into-open-y-backporting-etc/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/wiki/how-to-contribute-large-features-into-open-y-backporting-etc/</guid><description>
+&lt;p>Our best practices for backporting large features into Open Y, contributing code for others to use, can be found on &lt;a href="https://community.openymca.org/t/i-made-some-customizations-to-my-site-that-i-want-to-contribute-back-to-open-y-what-are-the-best-practices-for-backporting-my-features/435">this Open Y message board post&lt;/a>.&lt;/p></description></item><item><title>Docs: How-to-develop-themes-in-Open-Y</title><link>/docs/wiki/how-to-develop-themes-in-open-y/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/wiki/how-to-develop-themes-in-open-y/</guid><description>
 &lt;h1 id="working-with-themes">Working with Themes&lt;/h1>
-&lt;p>Each Open Y theme was developed independently, either by the Open Y Core Team or by a partner for one specific Y and then contributed back. You can see demos of each theme on the &lt;a href="https://froboy.github.io/openy_docs/openy_docs/docs/wiki/sandboxes/">Sandboxes&lt;/a>.&lt;/p>
+&lt;p>Each Open Y theme was developed independently, either by the Open Y Core Team or by a partner for one specific Y and then contributed back. You can see demos of each theme on the &lt;a href="/docs/wiki/sandboxes/">Sandboxes&lt;/a>.&lt;/p>
 &lt;p>Each theme has its own dependencies and build processes. Please read the steps in each &lt;code>README&lt;/code> for details.&lt;/p>
 &lt;h2 id="inventory-of-themes">Inventory of themes&lt;/h2>
 &lt;p>As of December 2021, themes &lt;a href="https://github.com/ymcatwincities/openy/pull/2595">have been decoupled&lt;/a> from the Open Y profile to independent projects on Drupal.org.&lt;/p>
@@ -400,7 +400,7 @@ composer require drupal/core:~9.0.7
 &lt;ul>
 &lt;li>&lt;a href="https://www.drupal.org/project/openy_rose">openy_rose project&lt;/a> on Drupal.org&lt;/li>
 &lt;li>&lt;a href="https://git.drupalcode.org/project/openy_rose">README&lt;/a> for getting started with development&lt;/li>
-&lt;/ul></description></item><item><title>Docs: How-we-release-OpenY-distribution-from-code-perspective</title><link>https://froboy.github.io/openy_docs/docs/wiki/how-we-release-openy-distribution-from-code-perspective/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://froboy.github.io/openy_docs/docs/wiki/how-we-release-openy-distribution-from-code-perspective/</guid><description>
+&lt;/ul></description></item><item><title>Docs: How-we-release-OpenY-distribution-from-code-perspective</title><link>/docs/wiki/how-we-release-openy-distribution-from-code-perspective/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/wiki/how-we-release-openy-distribution-from-code-perspective/</guid><description>
 &lt;h3 id="repos-involved-in-releases">Repos involved in releases&lt;/h3>
 &lt;ol>
 &lt;li>Open Y Drupal Profile Distribution &lt;a href="https://github.com/ymcatwincities/openy">ymcatwincities/openy&lt;/a>&lt;/li>
@@ -424,7 +424,7 @@ composer require drupal/core:~9.0.7
 &lt;li>Check that the &lt;a href="https://github.com/ymcatwincities/openy-project/blob/8.2.x/scripts/openyonclickinstall.sh">one-click install&lt;/a> is working on a fresh DigitalOcean instance ($10: 1CPU 2Gb RAM). Ensure the version of Open Y is the proper one in site info (&lt;code>admin/reports/status&lt;/code>).&lt;/li>
 &lt;li>Publish announcement in #developers Open Y Slack channel.&lt;/li>
 &lt;li>Publish announcement in #general Open Y Slack channel.&lt;/li>
-&lt;/ol></description></item><item><title>Docs: Important-versions-for-upgrade-path</title><link>https://froboy.github.io/openy_docs/docs/wiki/important-versions-for-upgrade-path/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://froboy.github.io/openy_docs/docs/wiki/important-versions-for-upgrade-path/</guid><description>
+&lt;/ol></description></item><item><title>Docs: Important-versions-for-upgrade-path</title><link>/docs/wiki/important-versions-for-upgrade-path/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/wiki/important-versions-for-upgrade-path/</guid><description>
 &lt;p>Open Y development moves quickly and in this document, we flag important versions that should not be skipped while you upgrade your sites.&lt;/p>
 &lt;h2 id="determining-your-upgrade-path">Determining your upgrade path&lt;/h2>
 &lt;p>For example: If you are on Open Y 8.1.2 and want to upgrade to Open Y 8.2.8.5 you should make it in a couple of steps&lt;/p>
@@ -436,9 +436,9 @@ composer require drupal/core:~9.0.7
 &lt;/ol>
 &lt;p>These supplemental documents elaborate on a few specific cases:&lt;/p>
 &lt;ul>
-&lt;li>&lt;a href="https://froboy.github.io/openy_docs/openy_docs/docs/wiki/openy-upgrade-for-developers.-upgrade-to-old-openy-1.x-version/">Upgrade from Open Y &amp;lt;8.1.3&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://froboy.github.io/openy_docs/openy_docs/docs/wiki/upgrade-openy-8.1.3-to-8.2.2.1/">Upgrade from 8.1.3 to 8.2.2.1&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://froboy.github.io/openy_docs/openy_docs/docs/wiki/upgrade-use-case-from-8.2.2.3-to-8.2.7.3/">Upgrade from 8.2.2.3 to 8.2.7.3&lt;/a>&lt;/li>
+&lt;li>&lt;a href="/docs/wiki/openy-upgrade-for-developers.-upgrade-to-old-openy-1.x-version/">Upgrade from Open Y &amp;lt;8.1.3&lt;/a>&lt;/li>
+&lt;li>&lt;a href="/docs/wiki/upgrade-openy-8.1.3-to-8.2.2.1/">Upgrade from 8.1.3 to 8.2.2.1&lt;/a>&lt;/li>
+&lt;li>&lt;a href="/docs/wiki/upgrade-use-case-from-8.2.2.3-to-8.2.7.3/">Upgrade from 8.2.2.3 to 8.2.7.3&lt;/a>&lt;/li>
 &lt;/ul>
 &lt;h3 id="important-versions">Important versions&lt;/h3>
 &lt;ul>
@@ -448,11 +448,11 @@ composer require drupal/core:~9.0.7
 &lt;li>&lt;code>9.2.8.0&lt;/code> - Drupal 9 version which must be used in the upgrade path before going to 9.2.8.1+. This version added 9.0-9.1 Drupal Core and disabled deprecated components.&lt;/li>
 &lt;li>&lt;code>9.2.10.0&lt;/code> - Removed a bunch of unused modules from distribution.&lt;/li>
 &lt;/ul>
-&lt;p>See &lt;a href="https://froboy.github.io/openy_docs/openy_docs/docs/wiki/composer-version-constraints-for-open-y/">Version Constraints practices for Open Y&lt;/a>&lt;/p>
+&lt;p>See &lt;a href="/docs/wiki/composer-version-constraints-for-open-y/">Version Constraints practices for Open Y&lt;/a>&lt;/p>
 &lt;h2 id="known-issues">Known issues&lt;/h2>
 &lt;p>If you are faced with an issue when &lt;code>composer&lt;/code> installs an improper version of &lt;code>drupal/core&lt;/code> for the chosen version of Open Y from the list above, please use this trick in order to downgrade:&lt;/p>
 &lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-sh" data-lang="sh">composer require drupal/core-recommended:9.2.8
-&lt;/code>&lt;/pre>&lt;/div>&lt;p>Run the above command where your &lt;code>docroot&lt;/code> is. Use the current core version instead of &lt;code>9.2.8&lt;/code>.&lt;/p></description></item><item><title>Docs: Install-Solr-site-search-for-Open-Y</title><link>https://froboy.github.io/openy_docs/docs/wiki/install-solr-site-search-for-open-y/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://froboy.github.io/openy_docs/docs/wiki/install-solr-site-search-for-open-y/</guid><description>
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>Run the above command where your &lt;code>docroot&lt;/code> is. Use the current core version instead of &lt;code>9.2.8&lt;/code>.&lt;/p></description></item><item><title>Docs: Install-Solr-site-search-for-Open-Y</title><link>/docs/wiki/install-solr-site-search-for-open-y/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/wiki/install-solr-site-search-for-open-y/</guid><description>
 &lt;p>Open Y leverages &lt;a href="https://solr.apache.org/">Apache Solr&lt;/a> for a few features:&lt;/p>
 &lt;ul>
 &lt;li>&lt;a href="https://github.com/ymcatwincities/openy_activity_finder/wiki">Activity Finder&lt;/a> requires Solr&lt;/li>
@@ -531,12 +531,12 @@ composer require drupal/core:~9.0.7
 &lt;li>Save the server and observe that Search API has successfully connected to your server.&lt;/li>
 &lt;li>Edit the &amp;ldquo;Search content&amp;rdquo; index and change the &amp;ldquo;Server&amp;rdquo; field to the newly configured &amp;ldquo;Solr Search&amp;rdquo; index.&lt;/li>
 &lt;li>Visit the &amp;ldquo;Search content&amp;rdquo; index and click &amp;ldquo;Index now&amp;rdquo; to re-index the content.&lt;/li>
-&lt;/ul></description></item><item><title>Docs: Install-SSL-certificate-for-the-OpenY-site</title><link>https://froboy.github.io/openy_docs/docs/wiki/install-ssl-certificate-for-the-openy-site/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://froboy.github.io/openy_docs/docs/wiki/install-ssl-certificate-for-the-openy-site/</guid><description>
+&lt;/ul></description></item><item><title>Docs: Install-SSL-certificate-for-the-OpenY-site</title><link>/docs/wiki/install-ssl-certificate-for-the-openy-site/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/wiki/install-ssl-certificate-for-the-openy-site/</guid><description>
 &lt;h2 id="web-security-and-open-y">Web Security and Open Y&lt;/h2>
 &lt;p>As many parties have moved to &lt;a href="https://www.eff.org/encrypt-the-web">Encrypt the Web&lt;/a>, &lt;code>https&lt;/code> sites and SSL certificates have shifted from &amp;ldquo;nice to have&amp;rdquo; to necessities.&lt;/p>
 &lt;p>If you&amp;rsquo;re running Open Y on a managed platform you most likely have SSL already configured. If you choose to manage Open Y on your own, you&amp;rsquo;ll have to install a certificate.&lt;/p>
 &lt;p>&lt;a href="https://letsencrypt.org/">Let&amp;rsquo;s Encrypt&lt;/a> is &amp;ldquo;a free, automated, and open certificate authority (CA), run for the public’s benefit. It is a service provided by the &lt;a href="https://www.abetterinternet.org/">Internet Security Research Group (ISRG)&lt;/a>.&amp;rdquo; &lt;a href="https://certbot.eff.org/">Certbot&lt;/a> is &amp;ldquo;a free, open source software tool for automatically using Let’s Encrypt certificates on manually-administrated websites to enable HTTPS.&amp;rdquo;&lt;/p>
-&lt;p>Certbot maintains detailed documentation for installing SSL certificates on a variety of systems. Simply &lt;a href="https://certbot.eff.org/instructions">visit Certbot&amp;rsquo;s instructions wizard&lt;/a> and follow the instructions to configure your server.&lt;/p></description></item><item><title>Docs: Open-Y-2.0-root-YAML-files</title><link>https://froboy.github.io/openy_docs/docs/wiki/open-y-2.0-root-yaml-files/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://froboy.github.io/openy_docs/docs/wiki/open-y-2.0-root-yaml-files/</guid><description>
+&lt;p>Certbot maintains detailed documentation for installing SSL certificates on a variety of systems. Simply &lt;a href="https://certbot.eff.org/instructions">visit Certbot&amp;rsquo;s instructions wizard&lt;/a> and follow the instructions to configure your server.&lt;/p></description></item><item><title>Docs: Open-Y-2.0-root-YAML-files</title><link>/docs/wiki/open-y-2.0-root-yaml-files/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/wiki/open-y-2.0-root-yaml-files/</guid><description>
 &lt;p>There are plenty of &lt;a href="http://en.wikipedia.org/wiki/YAML">YAML&lt;/a> configuration files at the root of the profile. Some of them are standard Drupal configuration and others are Open Y specific.&lt;/p>
 &lt;h2 id="basic-yml-files">Basic .yml files&lt;/h2>
 &lt;p>The following ones are very common and can be found in many Drupal modules:&lt;/p>
@@ -671,7 +671,7 @@ openy_configure_profile.preset=extended
 --root=/docroot \
 openy_configure_profile.preset=extended \
 openy_theme_select.theme=openy_rose
-&lt;/code>&lt;/pre>&lt;/div></description></item><item><title>Docs: Open-Y-3rd-party-dependencies</title><link>https://froboy.github.io/openy_docs/docs/wiki/open-y-3rd-party-dependencies/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://froboy.github.io/openy_docs/docs/wiki/open-y-3rd-party-dependencies/</guid><description>
+&lt;/code>&lt;/pre>&lt;/div></description></item><item><title>Docs: Open-Y-3rd-party-dependencies</title><link>/docs/wiki/open-y-3rd-party-dependencies/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/wiki/open-y-3rd-party-dependencies/</guid><description>
 &lt;p>Open Y&amp;rsquo;s system requirements generally track &lt;a href="https://www.drupal.org/docs/system-requirements">those of Drupal&lt;/a> with some occasional more opinionated recommendations.&lt;/p>
 &lt;h2 id="general-requirements">General Requirements&lt;/h2>
 &lt;p>Supported versions may differ based on your Drupal version.&lt;/p>
@@ -728,28 +728,28 @@ openy_theme_select.theme=openy_rose
 &lt;li>&lt;a href="https://vuejs.org/">Vue.js&lt;/a>&lt;/li>
 &lt;li>&lt;a href="https://www.google.com/recaptcha/intro/v3.html">Google reCAPTCHA&lt;/a>&lt;/li>
 &lt;li>&lt;a href="https://nodejs.org/en/">NodeJS&lt;/a>&lt;/li>
-&lt;/ul></description></item><item><title>Docs: Open-Y-Code-of-Conduct-and-Best-Practices</title><link>https://froboy.github.io/openy_docs/docs/wiki/open-y-code-of-conduct-and-best-practices/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://froboy.github.io/openy_docs/docs/wiki/open-y-code-of-conduct-and-best-practices/</guid><description>
+&lt;/ul></description></item><item><title>Docs: Open-Y-Code-of-Conduct-and-Best-Practices</title><link>/docs/wiki/open-y-code-of-conduct-and-best-practices/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/wiki/open-y-code-of-conduct-and-best-practices/</guid><description>
 &lt;p>The Open Y community aims to build from the methods and best practices of other open-source projects, such as the &lt;a href="https://drupal.org">Drupal community&lt;/a> and the &lt;a href="http://drupal.ua">Drupal Ukrainian community&lt;/a>.&lt;/p>
 &lt;h1 id="bylaws">Bylaws&lt;/h1>
-&lt;p>For the OpenY distribution we have &lt;a href="https://froboy.github.io/openy_docs/openy_docs/docs/wiki/open-y-terms-of-use/">Terms of Use&lt;/a> and &lt;a href="https://froboy.github.io/openy_docs/openy_docs/docs/wiki/open-y-participant-agreement/">Participant Agreement&lt;/a>.&lt;/p>
+&lt;p>For the OpenY distribution we have &lt;a href="/docs/wiki/open-y-terms-of-use/">Terms of Use&lt;/a> and &lt;a href="/docs/wiki/open-y-participant-agreement/">Participant Agreement&lt;/a>.&lt;/p>
 &lt;h1 id="development">Development&lt;/h1>
 &lt;p>To understand how we use and develop technologies, refer to the documents below:&lt;/p>
 &lt;ul>
 &lt;li>&lt;a href="https://www.drupal.org/dcoc">Drupal Code of Conduct&lt;/a>&lt;/li>
 &lt;li>&lt;a href="https://www.conventionalcommits.org/en/v1.0.0/">Conventional commits policy&lt;/a>&lt;/li>
 &lt;li>&lt;a href="https://www.drupal.org/docs/develop/standards">Drupal Coding Standards&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://froboy.github.io/openy_docs/openy_docs/docs/wiki/development-faq/">Open Y Development FAQ&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://froboy.github.io/openy_docs/openy_docs/docs/wiki/code-review-quality-best-practices/">Open Y Development Best Practices&lt;/a>&lt;/li>
+&lt;li>&lt;a href="/docs/wiki/development-faq/">Open Y Development FAQ&lt;/a>&lt;/li>
+&lt;li>&lt;a href="/docs/wiki/code-review-quality-best-practices/">Open Y Development Best Practices&lt;/a>&lt;/li>
 &lt;/ul>
 &lt;p>JavaScript Code Standards&lt;/p>
 &lt;ul>
 &lt;li>&lt;a href="https://github.com/airbnb/javascript/tree/master/react">Airbnb React/JSX Style Guide&lt;/a> (for reviewing JavaScript ES5/ES6)&lt;/li>
 &lt;li>&lt;a href="https://vuejs.org/v2/style-guide/">Vue.js code style guide&lt;/a> (for Vue.js components)&lt;/li>
-&lt;/ul></description></item><item><title>Docs: Open-Y-one-click-install-how-to</title><link>https://froboy.github.io/openy_docs/docs/wiki/open-y-one-click-install-how-to/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://froboy.github.io/openy_docs/docs/wiki/open-y-one-click-install-how-to/</guid><description>
+&lt;/ul></description></item><item><title>Docs: Open-Y-one-click-install-how-to</title><link>/docs/wiki/open-y-one-click-install-how-to/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/wiki/open-y-one-click-install-how-to/</guid><description>
 &lt;p>This walk-through is outdated and is in the process of being updated. Instead, try:&lt;/p>
 &lt;ul>
 &lt;li>A &lt;a href="https://www.youtube.com/watch?v=nGyMJCwMsqM">video walk-through of installing Open Y for tech novices&lt;/a>&lt;/li>
-&lt;li>An overview of the &lt;a href="https://froboy.github.io/openy_docs/openy_docs/docs/wiki/sandboxes/">Open Y Sandboxes&lt;/a>&lt;/li>
+&lt;li>An overview of the &lt;a href="/docs/wiki/sandboxes/">Open Y Sandboxes&lt;/a>&lt;/li>
 &lt;/ul>
 &lt;h3 id="installing-open-y-on-digitalocean-droplet">Installing Open Y on DigitalOcean droplet&lt;/h3>
 &lt;ol>
@@ -774,7 +774,7 @@ Basically - run a command under root&lt;/li>
 &lt;p>In order to install the latest beta release of Open Y 2.0 change the command on step 3:&lt;/p>
 &lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-sh" data-lang="sh">curl -Ls http://bit.ly/initopeny &lt;span style="color:#000;font-weight:bold">|&lt;/span> bash -s beta
 &lt;/code>&lt;/pre>&lt;/div>&lt;hr>
-&lt;p>If you find any issues please post a message to the issue queue &lt;a href="https://github.com/ymcatwincities/openy/issues">https://github.com/ymcatwincities/openy/issues&lt;/a>&lt;/p></description></item><item><title>Docs: Open-Y-Participant-Agreement</title><link>https://froboy.github.io/openy_docs/docs/wiki/open-y-participant-agreement/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://froboy.github.io/openy_docs/docs/wiki/open-y-participant-agreement/</guid><description>
+&lt;p>If you find any issues please post a message to the issue queue &lt;a href="https://github.com/ymcatwincities/openy/issues">https://github.com/ymcatwincities/openy/issues&lt;/a>&lt;/p></description></item><item><title>Docs: Open-Y-Participant-Agreement</title><link>/docs/wiki/open-y-participant-agreement/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/wiki/open-y-participant-agreement/</guid><description>
 &lt;p>&lt;strong>OPEN Y PARTICIPATION AGREEMENT&lt;/strong>&lt;/p>
 &lt;p>This Open Y Participation Agreement (this “&lt;strong>Agreement&lt;/strong>”) is between Open Y, LLC, and participating YMCA member associations in the United States (“&lt;strong>Member Associations&lt;/strong>”). Open Y, LLC has received license rights from the National Council of Young Men’s Christian Associations of the United States of America, an Illinois not-for-profit corporation (“&lt;strong>YUSA&lt;/strong>”) to provide the Platform (as defined below) to you. Open Y is not a part of YUSA; Open Y is a part of the YMCA of the Greater Twin Cities.&lt;/p>
 &lt;p>The purpose of the Open Y community is to collectively advance YMCA web and online experiences to better serve the YMCA mission. The terms of this Agreement govern your use of Open Y’s open-source digital content management system, which facilitates the sharing of YUSA brand-compliant website templates, tools, applications, and related digital assets (“&lt;strong>Platform&lt;/strong>”). The community provides a collaborative environment for individuals to positively interact and participate in the Platform. These guidelines address the standards and expectations of those contributing to and participating in the Open Y community and are meant to help our YMCA community grow and thrive. Your participation in Open Y means that you agree to the following guidelines and to the Open Y Terms of Use.&lt;/p>
@@ -788,8 +788,8 @@ Basically - run a command under root&lt;/li>
 &lt;p>&lt;em>Transparency&lt;/em>: Customizations of code provided by Open Y for your website will likely increase the initial fees, support, and upgrade costs for your website. When modifying or redistributing code, you must include a notice giving credit to Open Y for the portion of the Open Y code you use.&lt;/p>
 &lt;p>&lt;em>Promotion&lt;/em>: Open Y encourages Members to share their expertise and Open Y experience to expand its reach and accessibility to experienced and new members alike. There will be many opportunities for members to support Open Y and its marketing and messaging initiatives.&lt;/p>
 &lt;p>&lt;strong>Reporting Problems&lt;/strong>&lt;/p>
-&lt;p>If you believe someone has violated the Open Y Community Guidelines, or have any questions or concerns, please contact Open Y, LLC at &lt;a href="http://openy.org">http://openy.org&lt;/a>.&lt;/p></description></item><item><title>Docs: Open-Y-Pull-Requests-review-standard</title><link>https://froboy.github.io/openy_docs/docs/wiki/open-y-pull-requests-review-standard/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://froboy.github.io/openy_docs/docs/wiki/open-y-pull-requests-review-standard/</guid><description>
-&lt;p>Check more &lt;a href="https://froboy.github.io/openy_docs/openy_docs/docs/wiki/code-review-quality-best-practices/">technical guidelines about our best practices for code quality&lt;/a>.&lt;/p>
+&lt;p>If you believe someone has violated the Open Y Community Guidelines, or have any questions or concerns, please contact Open Y, LLC at &lt;a href="http://openy.org">http://openy.org&lt;/a>.&lt;/p></description></item><item><title>Docs: Open-Y-Pull-Requests-review-standard</title><link>/docs/wiki/open-y-pull-requests-review-standard/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/wiki/open-y-pull-requests-review-standard/</guid><description>
+&lt;p>Check more &lt;a href="/docs/wiki/code-review-quality-best-practices/">technical guidelines about our best practices for code quality&lt;/a>.&lt;/p>
 &lt;h1 id="adherence-to-standards">Adherence to Standards&lt;/h1>
 &lt;p>The Open Y Core Team will adhere to the same standards we set for the community for all areas of development and technologies as per the Open Y documentation.&lt;/p>
 &lt;p>The Open Y Core Team reserves the right to break these standards only in the following scenarios:&lt;/p>
@@ -800,7 +800,7 @@ Basically - run a command under root&lt;/li>
 &lt;/ul>
 &lt;h2 id="requirements-for-pull-requests">Requirements for Pull Requests&lt;/h2>
 &lt;ul>
-&lt;li>Code in Pull Requests should follow our established &lt;a href="https://froboy.github.io/openy_docs/openy_docs/docs/wiki/code-review-quality-best-practices/">best practices&lt;/a>&lt;/li>
+&lt;li>Code in Pull Requests should follow our established &lt;a href="/docs/wiki/code-review-quality-best-practices/">best practices&lt;/a>&lt;/li>
 &lt;li>Submitters' profiles on GitHub or Drupal.org should be up to date and contain at least a name and organization.&lt;/li>
 &lt;/ul>
 &lt;h2 id="template-for-the-pr">Template for the PR&lt;/h2>
@@ -808,13 +808,13 @@ Basically - run a command under root&lt;/li>
 &lt;p>List of requirements from the template:&lt;/p>
 &lt;ul>
 &lt;li>Provide a link to the original issue, which is going to be fixed by the PR you are creating.&lt;/li>
-&lt;li>All coding styles are fulfilled and there are no issues reported by CodeSniffer. See &lt;a href="https://froboy.github.io/openy_docs/openy_docs/docs/wiki/open-y-code-of-conduct-and-best-practices/">Code of Conduct&lt;/a>.&lt;/li>
+&lt;li>All coding styles are fulfilled and there are no issues reported by CodeSniffer. See &lt;a href="/docs/wiki/open-y-code-of-conduct-and-best-practices/">Code of Conduct&lt;/a>.&lt;/li>
 &lt;li>&lt;a href="https://github.com/ymcatwincities/openy/tree/9.x-2.x/docs">Documentation&lt;/a> have been updated according to PR changes.&lt;/li>
 &lt;li>&lt;a href="https://github.com/ymcatwincities/openy/pull/94#issue-204580200">Steps for review&lt;/a> have been provided according to PR changes. &lt;br/>&lt;img src="https://raw.githubusercontent.com/ymcatwincities/openy/8.x-1.x/.github/assets/steps-for-review.png" width="200" alt="Steps for review"/>&lt;/li>
 &lt;li>Make sure you&amp;rsquo;ve provided all necessary hook_update_N to &lt;a href="https://github.com/ymcatwincities/openy/blob/9.x-2.x/docs/Development/Upgrade%20path.md">support upgrade path&lt;/a>.&lt;/li>
 &lt;li>Make sure your git email is associated with an account on drupal.org, otherwise you won&amp;rsquo;t get commits there. &lt;br/>&lt;img src="https://raw.githubusercontent.com/ymcatwincities/openy/8.x-1.x/.github/assets/drupalorg-email.png" width="200" alt="drupal.org email"/>&lt;/li>
 &lt;li>If you would like to get credits on drupal.org, &lt;a href="https://github.com/ymcatwincities/openy/blob/9.x-2.x/docs/Development/Contributing.md#drupalorg-credits">check documentation&lt;/a>.&lt;/li>
-&lt;/ul></description></item><item><title>Docs: Open-Y-Release-Schedule-and-Guidelines</title><link>https://froboy.github.io/openy_docs/docs/wiki/open-y-release-schedule-and-guidelines/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://froboy.github.io/openy_docs/docs/wiki/open-y-release-schedule-and-guidelines/</guid><description>
+&lt;/ul></description></item><item><title>Docs: Open-Y-Release-Schedule-and-Guidelines</title><link>/docs/wiki/open-y-release-schedule-and-guidelines/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/wiki/open-y-release-schedule-and-guidelines/</guid><description>
 &lt;h2 id="open-y-release-guidelines">Open Y Release Guidelines&lt;/h2>
 &lt;p>Open Y releases major releases of the base project &lt;a href="https://github.com/ymcatwincities/openy">Open Y&lt;/a> and &lt;a href="https://github.com/ymcatwincities/openy_gated_content">Virtual Y&lt;/a> quarterly. Minor releases and sub-project releases occur as needed.&lt;/p>
 &lt;h3 id="major-releases-quarterly">Major releases (Quarterly)&lt;/h3>
@@ -836,7 +836,7 @@ Basically - run a command under root&lt;/li>
 &lt;h4 id="prior-years">Prior years&lt;/h4>
 &lt;ul>
 &lt;li>&lt;a href="https://user-images.githubusercontent.com/238201/146017405-10f28823-5af7-4498-9384-5502cbf5adaf.png">Open Y releases for 2018-2019&lt;/a>&lt;/li>
-&lt;/ul></description></item><item><title>Docs: Open-Y-Smoke-Tests-Index</title><link>https://froboy.github.io/openy_docs/docs/wiki/open-y-smoke-tests-index/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://froboy.github.io/openy_docs/docs/wiki/open-y-smoke-tests-index/</guid><description>
+&lt;/ul></description></item><item><title>Docs: Open-Y-Smoke-Tests-Index</title><link>/docs/wiki/open-y-smoke-tests-index/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/wiki/open-y-smoke-tests-index/</guid><description>
 &lt;h2 id="smoke-tests-in-core-and-dependencies">Smoke tests in core and dependencies&lt;/h2>
 &lt;ul>
 &lt;li>&lt;a href="https://github.com/ymcatwincities/openy/blob/9.x-2.x/SMOKE_TESTS.md">Open Y core tests and dependencies&lt;/a>&lt;/li>
@@ -853,23 +853,23 @@ Basically - run a command under root&lt;/li>
 &lt;li>&lt;a href="https://github.com/open-y-subprojects/openy_features/blob/main/openy_prgf/modules/openy_prgf_grid_content/SMOKE_TESTS.md">Grid Content&lt;/a>&lt;/li>
 &lt;li>&lt;a href="https://git.drupalcode.org/project/groupexpro/-/blob/main/modules/embedded_groupexpro_schedule/SMOKE_TESTS.md">Embedded GroupEx Pro Schedule&lt;/a>&lt;/li>
 &lt;li>&lt;a href="https://github.com/ymcatwincities/openy/blob/9.x-2.x/modules/custom/openy_search/SMOKE_TESTS.md">Open Y Search&lt;/a>&lt;/li>
-&lt;/ul></description></item><item><title>Docs: Open-Y-technology-pipeline</title><link>https://froboy.github.io/openy_docs/docs/wiki/open-y-technology-pipeline/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://froboy.github.io/openy_docs/docs/wiki/open-y-technology-pipeline/</guid><description>
+&lt;/ul></description></item><item><title>Docs: Open-Y-technology-pipeline</title><link>/docs/wiki/open-y-technology-pipeline/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/wiki/open-y-technology-pipeline/</guid><description>
 &lt;p>To deliver the best technologies for the YMCA movement, the Open Y development community maintains the following documents and best practices:&lt;/p>
 &lt;ol>
-&lt;li>&lt;a href="https://froboy.github.io/openy_docs/openy_docs/docs/wiki/development-faq/">Development FAQ&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://froboy.github.io/openy_docs/openy_docs/docs/wiki/code-review-quality-best-practices/">Open Y Coding Standards&lt;/a>&lt;/li>
+&lt;li>&lt;a href="/docs/wiki/development-faq/">Development FAQ&lt;/a>&lt;/li>
+&lt;li>&lt;a href="/docs/wiki/code-review-quality-best-practices/">Open Y Coding Standards&lt;/a>&lt;/li>
 &lt;li>&lt;a href="https://community.openymca.org/t/i-made-some-customizations-to-my-site-that-i-want-to-co%5B%E2%80%A6%5Dat-are-the-best-practices-for-backporting-my-features/435">How new technologies and features are added to Open Y&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://froboy.github.io/openy_docs/openy_docs/docs/wiki/sandboxes/">Sandboxes&lt;/a>&lt;/li>
+&lt;li>&lt;a href="/docs/wiki/sandboxes/">Sandboxes&lt;/a>&lt;/li>
 &lt;li>Smoke Tests
 &lt;ul>
 &lt;li>&lt;a href="https://www.youtube.com/watch?v=MH4BwMowlic&amp;amp;list=PL_QVggMcFfKYfV1cnistny2L-Sp55SoMg">Smoke Tests YouTube Playlist&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://froboy.github.io/openy_docs/openy_docs/docs/wiki/open-y-smoke-tests-index/">Open-Y-Smoke-Tests-Index&lt;/a>&lt;/li>
+&lt;li>&lt;a href="/docs/wiki/open-y-smoke-tests-index/">Open-Y-Smoke-Tests-Index&lt;/a>&lt;/li>
 &lt;/ul>
 &lt;/li>
 &lt;li>A Slack Team &lt;a href="https://openy.org/contact/slack_access_request">by invite&lt;/a> with an #architects_support channel where we discuss technical issues with our partners and YUSA.&lt;/li>
 &lt;li>A &lt;a href="https://www.youtube.com/watch?v=RSsQLVVhldc&amp;amp;list=PL_QVggMcFfKZp05THV3dYlYOG3MsJ8xSf">YouTube playlist for Developers&lt;/a>&lt;/li>
-&lt;li>A list of &lt;a href="https://froboy.github.io/openy_docs/openy_docs/docs/wiki/open-y-3rd-party-dependencies/">3rd party dependencies&lt;/a> which are reviewed periodically for new features and deprecations.&lt;/li>
-&lt;/ol></description></item><item><title>Docs: Open-Y-Terms-of-Use</title><link>https://froboy.github.io/openy_docs/docs/wiki/open-y-terms-of-use/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://froboy.github.io/openy_docs/docs/wiki/open-y-terms-of-use/</guid><description>
+&lt;li>A list of &lt;a href="/docs/wiki/open-y-3rd-party-dependencies/">3rd party dependencies&lt;/a> which are reviewed periodically for new features and deprecations.&lt;/li>
+&lt;/ol></description></item><item><title>Docs: Open-Y-Terms-of-Use</title><link>/docs/wiki/open-y-terms-of-use/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/wiki/open-y-terms-of-use/</guid><description>
 &lt;p>Version 2.0, May 2018&lt;/p>
 &lt;p>This is a free service provided by Open Y, LLC (“&lt;strong>we&lt;/strong>,” “&lt;strong>us&lt;/strong>,” and “&lt;strong>our&lt;/strong>”) for users in the YMCA community (“&lt;strong>users&lt;/strong>,” “&lt;strong>you&lt;/strong>,” and “&lt;strong>your&lt;/strong>”). &lt;strong>By using the Open Y repository, you agree to these Terms of Use.&lt;/strong>&lt;/p>
 &lt;p>We reserve the right to modify or discontinue, temporarily or permanently any services or the Terms of Use at any time, with or without prior notice to users. Open Y, LLC is not liable for any damage to any user or other third party that may result from any such modification, suspension or discontinuance of the service or of the Terms of Use.&lt;/p>
@@ -904,7 +904,7 @@ Basically - run a command under root&lt;/li>
 &lt;p>If a user or other third party believes that its content has been copied in a way that constitutes copyright infringement, that user or third party should provide Open Y, LLC with the following information: (a) an electronic or physical signature of the person authorized to act on behalf of the owner of the copyright&lt;/p>
 &lt;p>interest; (b) a description of the copyrighted work that has been infringed; (c) a description of where the allegedly infringing material is located; (d) the affected user or third party&amp;rsquo;s address, telephone number and email address; (e) a statement by the affected user or third party that he or she has a good faith belief that the disputed use is not authorized by the copyright owner, its agent or the law; and (f) a statement by the affected user or third party, under penalty of perjury, that the above information is accurate and that such user or third party is the copyright owner or is otherwise authorized to act on the copyright owner&amp;rsquo;s behalf. Please report any alleged copyright infringements to &lt;a href="http://openy.org">http://openy.org&lt;/a>.&lt;/p>
 &lt;p>&lt;strong>Venue and Governing Law&lt;/strong>
-This Agreement shall be governed by, and construed in accordance with, the laws of the State of Minnesota, without reference to conflicts of laws principles. The parties agree that the federal and state courts in the county of Hennepin, Minnesota will have exclusive jurisdiction and venue under this Agreement, and each party hereby agrees to submit to such jurisdiction exclusively.&lt;/p></description></item><item><title>Docs: Open-Y-update-sunset---opt-out-tutorial</title><link>https://froboy.github.io/openy_docs/docs/wiki/open-y-update-sunset-opt-out-tutorial/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://froboy.github.io/openy_docs/docs/wiki/open-y-update-sunset-opt-out-tutorial/</guid><description>
+This Agreement shall be governed by, and construed in accordance with, the laws of the State of Minnesota, without reference to conflicts of laws principles. The parties agree that the federal and state courts in the county of Hennepin, Minnesota will have exclusive jurisdiction and venue under this Agreement, and each party hereby agrees to submit to such jurisdiction exclusively.&lt;/p></description></item><item><title>Docs: Open-Y-update-sunset---opt-out-tutorial</title><link>/docs/wiki/open-y-update-sunset-opt-out-tutorial/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/wiki/open-y-update-sunset-opt-out-tutorial/</guid><description>
 &lt;h2 id="preamble">Preamble&lt;/h2>
 &lt;p>Back on 28 Jan 2020 Open Y decided to add an anonymous analytics module &lt;a href="https://github.com/ymcatwincities/openy/tree/9.x-2.x/modules/custom/openy_analytics">&lt;code>openy_analytics&lt;/code>&lt;/a> which was a free opt-in/opt-out solution for the Core team to gather stats from Open Y sites about the frequency of components used.&lt;/p>
 &lt;p>The idea behind this was to gather data in order to understand the demand for the components in Open Y and use the data to make better decisions.&lt;/p>
@@ -915,7 +915,7 @@ This Agreement shall be governed by, and construed in accordance with, the laws 
 &lt;p>After submitting this form your site will stop sending anonymous data.&lt;/p>
 &lt;p>If the checkbox was not enabled just disregard it, you didn&amp;rsquo;t opt-in earlier.&lt;/p>
 &lt;h2 id="deprecation-action">Deprecation action&lt;/h2>
-&lt;p>Uninstall and deprecation was done in &lt;a href="https://github.com/ymcatwincities/openy/pull/2537">#2537&lt;/a>&lt;/p></description></item><item><title>Docs: OpenY-anti-spam-protection</title><link>https://froboy.github.io/openy_docs/docs/wiki/openy-anti-spam-protection/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://froboy.github.io/openy_docs/docs/wiki/openy-anti-spam-protection/</guid><description>
+&lt;p>Uninstall and deprecation was done in &lt;a href="https://github.com/ymcatwincities/openy/pull/2537">#2537&lt;/a>&lt;/p></description></item><item><title>Docs: OpenY-anti-spam-protection</title><link>/docs/wiki/openy-anti-spam-protection/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/wiki/openy-anti-spam-protection/</guid><description>
 &lt;p>In order to protect Open Y customers, we have added anti-spam protection based on CAPTCHA and Google reCAPTCHA out of the box in Open Y core&lt;/p>
 &lt;p>You can check &lt;a href="https://www.youtube.com/watch?v=nHo2uL-bPyM">the tutorial for how to install and configure reCaptcha on your site&lt;/a>.&lt;/p>
 &lt;p>In the majority of cases having the above configuration in place will protect you from 99% of spam, unless there is human-entered spam that has no protection. To overcome some human-based spam you should use blacklist logic for blocking email domains, used in spam messages.&lt;/p>
@@ -923,8 +923,8 @@ This Agreement shall be governed by, and construed in accordance with, the laws 
 &lt;h2 id="virtual-y-use-case">Virtual Y use case&lt;/h2>
 &lt;p>In order to overcome caching issues, Virtual Y uses the &lt;a href="https://www.drupal.org/project/simple_recaptcha">simple_recaptcha&lt;/a> module which could be used in similar cases.&lt;/p>
 &lt;p>The CAPTCHA + reCAPTCHA module solution has presented some reliability issues. The most recent &lt;a href="https://www.drupal.org/project/captcha/issues/3089263">discussion and fix from drupal.org&lt;/a> has also not reliably resolved issues for some clients.&lt;/p>
-&lt;p>At some point, the “Simple reCaptcha” module was used on a project and had no issues, so we’ve started to replace the “CAPTCHA” + “reCAPTCHA” modules with “Simple reCAPTCHA”.&lt;/p></description></item><item><title>Docs: OpenY-security---Drupal-SA-CORE-2018-004</title><link>https://froboy.github.io/openy_docs/docs/wiki/openy-security-drupal-sa-core-2018-004/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://froboy.github.io/openy_docs/docs/wiki/openy-security-drupal-sa-core-2018-004/</guid><description>
-&lt;p>This document is archived but may contain useful information for troubleshooting future updates. For updated update steps, visit &lt;a href="https://froboy.github.io/openy_docs/openy_docs/docs/wiki/openy-upgrade-how-to-for-developers/">How to upgrade Open Y&lt;/a>.&lt;/p>
+&lt;p>At some point, the “Simple reCaptcha” module was used on a project and had no issues, so we’ve started to replace the “CAPTCHA” + “reCAPTCHA” modules with “Simple reCAPTCHA”.&lt;/p></description></item><item><title>Docs: OpenY-security---Drupal-SA-CORE-2018-004</title><link>/docs/wiki/openy-security-drupal-sa-core-2018-004/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/wiki/openy-security-drupal-sa-core-2018-004/</guid><description>
+&lt;p>This document is archived but may contain useful information for troubleshooting future updates. For updated update steps, visit &lt;a href="/docs/wiki/openy-upgrade-how-to-for-developers/">How to upgrade Open Y&lt;/a>.&lt;/p>
 &lt;hr>
 &lt;p>To update your OpenY site with security fix from Drupal core &lt;a href="https://www.drupal.org/SA-CORE-2018-004">https://www.drupal.org/SA-CORE-2018-004&lt;/a>
 OpenY team is suggesting 2 options- via patch and via Drupal core upgrade(or OpenY upgrade).
@@ -973,8 +973,8 @@ In case if all good proceed with a command below, which will patch your site:&lt
 &lt;p>Type manually exact line&lt;/p>
 &lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-sh" data-lang="sh">bash &amp;lt; &amp;lt;&lt;span style="color:#ce5c00;font-weight:bold">(&lt;/span>curl -s https://raw.githubusercontent.com/ymcatwincities/openy-project/8.1.x/scripts/patches/runSA-CORE-2018-004.sh&lt;span style="color:#ce5c00;font-weight:bold">)&lt;/span>
 &lt;/code>&lt;/pre>&lt;/div>&lt;p>and hit Enter.
-You should see &lt;code>OpenY was patched&lt;/code> message.&lt;/p></description></item><item><title>Docs: OpenY-security-update-how-to.-Update-Drupal-core-only</title><link>https://froboy.github.io/openy_docs/docs/wiki/openy-security-update-how-to.-update-drupal-core-only/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://froboy.github.io/openy_docs/docs/wiki/openy-security-update-how-to.-update-drupal-core-only/</guid><description>
-&lt;p>This document is archived but may contain useful information for troubleshooting future updates. For updated update steps, visit &lt;a href="https://froboy.github.io/openy_docs/openy_docs/docs/wiki/openy-upgrade-how-to-for-developers/">How to upgrade Open Y&lt;/a>.&lt;/p>
+You should see &lt;code>OpenY was patched&lt;/code> message.&lt;/p></description></item><item><title>Docs: OpenY-security-update-how-to.-Update-Drupal-core-only</title><link>/docs/wiki/openy-security-update-how-to.-update-drupal-core-only/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/wiki/openy-security-update-how-to.-update-drupal-core-only/</guid><description>
+&lt;p>This document is archived but may contain useful information for troubleshooting future updates. For updated update steps, visit &lt;a href="/docs/wiki/openy-upgrade-how-to-for-developers/">How to upgrade Open Y&lt;/a>.&lt;/p>
 &lt;hr>
 &lt;p>To update your OpenY site with security fix from Drupal core &lt;a href="https://www.drupal.org/sa-core-2018-002">https://www.drupal.org/sa-core-2018-002&lt;/a>
 OpenY team is suggesting 2 options- via patch and via Drupal core upgrade(or OpenY upgrade).
@@ -1074,11 +1074,11 @@ You should see &lt;code>OpenY was patched&lt;/code> message.&lt;/p>
 &lt;p>Type manually exact line&lt;/p>
 &lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-sh" data-lang="sh">bash &amp;lt; &amp;lt;&lt;span style="color:#ce5c00;font-weight:bold">(&lt;/span>curl -s https://raw.githubusercontent.com/ymcatwincities/openy-project/8.1.x/scripts/patches/run8.2.x.sh&lt;span style="color:#ce5c00;font-weight:bold">)&lt;/span>
 &lt;/code>&lt;/pre>&lt;/div>&lt;p>and hit Enter.
-You should see &lt;code>OpenY was patched&lt;/code> message.&lt;/p></description></item><item><title>Docs: OpenY-upgrade-for-developers.-Upgrade-to-old-OpenY-1.x-version</title><link>https://froboy.github.io/openy_docs/docs/wiki/openy-upgrade-for-developers.-upgrade-to-old-openy-1.x-version/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://froboy.github.io/openy_docs/docs/wiki/openy-upgrade-for-developers.-upgrade-to-old-openy-1.x-version/</guid><description>
-&lt;p>This document is archived but may contain useful information for troubleshooting future updates. For updated update steps, visit &lt;a href="https://froboy.github.io/openy_docs/openy_docs/docs/wiki/openy-upgrade-how-to-for-developers/">How to upgrade Open Y&lt;/a>.&lt;/p>
+You should see &lt;code>OpenY was patched&lt;/code> message.&lt;/p></description></item><item><title>Docs: OpenY-upgrade-for-developers.-Upgrade-to-old-OpenY-1.x-version</title><link>/docs/wiki/openy-upgrade-for-developers.-upgrade-to-old-openy-1.x-version/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/wiki/openy-upgrade-for-developers.-upgrade-to-old-openy-1.x-version/</guid><description>
+&lt;p>This document is archived but may contain useful information for troubleshooting future updates. For updated update steps, visit &lt;a href="/docs/wiki/openy-upgrade-how-to-for-developers/">How to upgrade Open Y&lt;/a>.&lt;/p>
 &lt;hr>
 &lt;h1 id="upgrade-to-old-open-y-1x-version--tested-on-upgrading-802-to-81114-">Upgrade to old, Open Y 1.x version ( tested on upgrading 8.0.2 to 8.1.1.14 )&lt;/h1>
-&lt;p>See &lt;a href="https://froboy.github.io/openy_docs/openy_docs/docs/wiki/upgrade-openy-8.1.3-to-8.2.2.1/">upgrade from 8.1.3 to 8.2.2.1&lt;/a>&lt;/p>
+&lt;p>See &lt;a href="/docs/wiki/upgrade-openy-8.1.3-to-8.2.2.1/">upgrade from 8.1.3 to 8.2.2.1&lt;/a>&lt;/p>
 &lt;p>We found the oldest OpenY instance working on 8.0.2 version of OpenY so this document should cover all the way of updating it to the latest version.&lt;/p>
 &lt;h3 id="prepare-dedicated-environment-for-upgrade-testing">Prepare dedicated environment for upgrade testing&lt;/h3>
 &lt;p>Ensure you have working computer or virtual machine with&lt;/p>
@@ -1156,9 +1156,9 @@ No entity schema updates required &lt;span style="color:#ce5c00;font-weight:bold
 &lt;h3 id="proceed-with-an-update-to-next-version-until-succeeded-start-from-item-1">Proceed with an update to next version until succeeded (Start from item 1)&lt;/h3>
 &lt;/li>
 &lt;/ol>
-&lt;p>&amp;hellip;&lt;/p></description></item><item><title>Docs: OpenY-upgrade-how-to-for-Developers</title><link>https://froboy.github.io/openy_docs/docs/wiki/openy-upgrade-how-to-for-developers/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://froboy.github.io/openy_docs/docs/wiki/openy-upgrade-how-to-for-developers/</guid><description>
+&lt;p>&amp;hellip;&lt;/p></description></item><item><title>Docs: OpenY-upgrade-how-to-for-Developers</title><link>/docs/wiki/openy-upgrade-how-to-for-developers/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/wiki/openy-upgrade-how-to-for-developers/</guid><description>
 &lt;p>Review a &lt;a href="https://youtu.be/RGfYLjYpi4Q">video about this document&lt;/a>.&lt;/p>
-&lt;p>Before upgrading, please review these &lt;a href="https://froboy.github.io/openy_docs/openy_docs/docs/wiki/important-versions-for-upgrade-path/">required version steps for your upgrade path&lt;/a>.&lt;/p>
+&lt;p>Before upgrading, please review these &lt;a href="/docs/wiki/important-versions-for-upgrade-path/">required version steps for your upgrade path&lt;/a>.&lt;/p>
 &lt;h2 id="overview">Overview&lt;/h2>
 &lt;ul>
 &lt;li>&lt;a href="#prepare-dedicated-environment-for-upgrade-testing">Prepare a dedicated environment for upgrade testing&lt;/a>&lt;/li>
@@ -1262,7 +1262,7 @@ No entity schema updates required &lt;span style="color:#ce5c00;font-weight:bold
 &lt;p>Use &lt;a href="https://www.drush.org/latest/commands/sql_dump/">&lt;code>drush sql-dump&lt;/code>&lt;/a> or another backup tool to take a backup of the site in its current state.&lt;/p>
 &lt;h3 id="proceed-with-an-update-to-next-version-until-succeeded-start-from-item-1">Proceed with an update to next version until succeeded (Start from item 1)&lt;/h3>
 &lt;p>DISCLAIMER: If you have an old 1.x version it makes sense to update to the latest 1.x before going OpenY 2.0 upgrade
-See &lt;a href="https://froboy.github.io/openy_docs/openy_docs/docs/wiki/openy-upgrade-for-developers.-upgrade-to-old-openy-1.x-version/">OpenY-upgrade-for-developers.-Upgrade-to-old-OpenY-1.x-version&lt;/a>&lt;/p></description></item><item><title>Docs: Sandboxes</title><link>https://froboy.github.io/openy_docs/docs/wiki/sandboxes/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://froboy.github.io/openy_docs/docs/wiki/sandboxes/</guid><description>
+See &lt;a href="/docs/wiki/openy-upgrade-for-developers.-upgrade-to-old-openy-1.x-version/">OpenY-upgrade-for-developers.-Upgrade-to-old-OpenY-1.x-version&lt;/a>&lt;/p></description></item><item><title>Docs: Sandboxes</title><link>/docs/wiki/sandboxes/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/wiki/sandboxes/</guid><description>
 &lt;h1 id="open-y-sandboxes-for-evaluation-and-qa">Open Y Sandboxes for Evaluation and QA&lt;/h1>
 &lt;p>The Open Y core team manages sandboxes for stable and development versions of Open Y to facilitate the evaluation of the product, to help with QA, and enable investigation of issues.&lt;/p>
 &lt;p>To learn more:&lt;/p>
@@ -1356,7 +1356,7 @@ drush sapi-i &lt;span style="color:#ce5c00;font-weight:bold">||&lt;/span> &lt;sp
 drush en -dvy openy_prgf_af4_demo &lt;span style="color:#ce5c00;font-weight:bold">||&lt;/span> &lt;span style="color:#204a87">true&lt;/span>
 &lt;span style="color:#8f5902;font-style:italic"># Solr 4.5-4.9, Activity Finder v4, Carnation theme, bootstrap v4&lt;/span>
 drush cset -y openy_activity_finder.settings bs_version &lt;span style="color:#0000cf;font-weight:bold">4&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">||&lt;/span> &lt;span style="color:#204a87">true&lt;/span>
-&lt;/code>&lt;/pre>&lt;/div></description></item><item><title>Docs: Secure-devops-for-composer-2-release</title><link>https://froboy.github.io/openy_docs/docs/wiki/secure-devops-for-composer-2-release/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://froboy.github.io/openy_docs/docs/wiki/secure-devops-for-composer-2-release/</guid><description>
+&lt;/code>&lt;/pre>&lt;/div></description></item><item><title>Docs: Secure-devops-for-composer-2-release</title><link>/docs/wiki/secure-devops-for-composer-2-release/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/wiki/secure-devops-for-composer-2-release/</guid><description>
 &lt;p>This article only applies to long-term users of Open Y. Open Y supports Composer 2 &lt;a href="https://github.com/ymcatwincities/openy/releases/tag/8.2.7">as of version 8.2.7 in November 2020&lt;/a> and new installs use Composer 2 by default.&lt;/p>
 &lt;hr>
 &lt;p>Composer was upgraded to &lt;code>2.x&lt;/code> on October 30, 2020. This could cause instability when your older composer &lt;code>1.x&lt;/code> accidentally auto-updates to the &lt;code>2.x&lt;/code> version. Issues could include: composer fails to run any commands and blocks OpenY upgrade/maintenance. The instability would be in the developer environment, not Open Y/Drupal.&lt;/p>
@@ -1376,7 +1376,7 @@ Composer version 1.10.15 2020-10-13 15:59:09
 &lt;h3 id="if-you-do-not-upgrade-to-the-latest-1x-version-before-october-30-2020-ie-if-you-accidentally-upgrade-to-composer-2x">If you do not upgrade to the latest 1.x version before October 30, 2020. i.e. if you accidentally upgrade to Composer 2.x&lt;/h3>
 &lt;p>If your composer updated to version 2 and you have issues with this upgrade, the solution is to downgrade Composer to the latest &lt;code>1.x&lt;/code> version by running:&lt;/p>
 &lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-sh" data-lang="sh">composer selfupdate --1
-&lt;/code>&lt;/pre>&lt;/div>&lt;p>If you are faced with any issues connect with the Open Y team on GitHub (&lt;a href="https://github.com/ymcatwincities/openy/issues/new">create issue&lt;/a>) and the #developers channel &lt;a href="https://openy.org/contact">on Slack&lt;/a>.&lt;/p></description></item><item><title>Docs: Testing-Open-Y-for-PHP-7.4-version-support</title><link>https://froboy.github.io/openy_docs/docs/wiki/testing-open-y-for-php-7.4-version-support/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://froboy.github.io/openy_docs/docs/wiki/testing-open-y-for-php-7.4-version-support/</guid><description>
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>If you are faced with any issues connect with the Open Y team on GitHub (&lt;a href="https://github.com/ymcatwincities/openy/issues/new">create issue&lt;/a>) and the #developers channel &lt;a href="https://openy.org/contact">on Slack&lt;/a>.&lt;/p></description></item><item><title>Docs: Testing-Open-Y-for-PHP-7.4-version-support</title><link>/docs/wiki/testing-open-y-for-php-7.4-version-support/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/wiki/testing-open-y-for-php-7.4-version-support/</guid><description>
 &lt;h2 id="requirements">Requirements&lt;/h2>
 &lt;ul>
 &lt;li>php-cli 7.4 ( memory_limit value should be large ( 2000M ) or unlimiter ( -1 ) in order to not fail&lt;/li>
@@ -1399,8 +1399,8 @@ composer require --dev phpcompatibility/php-compatibility
 &lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-fallback" data-lang="fallback">./vendor/bin/phpcs -p . --standard=PHPCompatibility --runtime-set testVersion 7.4 --report-file=report.txt
 &lt;/code>&lt;/pre>&lt;/div>&lt;p>or if you need to skip warnings&lt;/p>
 &lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-fallback" data-lang="fallback">./vendor/bin/phpcs -p . --standard=PHPCompatibility --runtime-set testVersion 7.4 --report-file=report.txt -n
-&lt;/code>&lt;/pre>&lt;/div>&lt;p>In report.txt you&amp;rsquo;d find a full list of findings to be resolved in order to pass compatibility&lt;/p></description></item><item><title>Docs: Upgrade-OpenY-8.1.3-to-8.2.2.1</title><link>https://froboy.github.io/openy_docs/docs/wiki/upgrade-openy-8.1.3-to-8.2.2.1/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://froboy.github.io/openy_docs/docs/wiki/upgrade-openy-8.1.3-to-8.2.2.1/</guid><description>
-&lt;p>This document is archived but may contain useful information for troubleshooting future updates. For updated update steps, visit &lt;a href="https://froboy.github.io/openy_docs/openy_docs/docs/wiki/openy-upgrade-how-to-for-developers/">How to upgrade Open Y&lt;/a>.&lt;/p>
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>In report.txt you&amp;rsquo;d find a full list of findings to be resolved in order to pass compatibility&lt;/p></description></item><item><title>Docs: Upgrade-OpenY-8.1.3-to-8.2.2.1</title><link>/docs/wiki/upgrade-openy-8.1.3-to-8.2.2.1/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/wiki/upgrade-openy-8.1.3-to-8.2.2.1/</guid><description>
+&lt;p>This document is archived but may contain useful information for troubleshooting future updates. For updated update steps, visit &lt;a href="/docs/wiki/openy-upgrade-how-to-for-developers/">How to upgrade Open Y&lt;/a>.&lt;/p>
 &lt;hr>
 &lt;h3 id="video-tutorials">Video tutorials&lt;/h3>
 &lt;p>Upgrade OpenY from 8.0.7 to 8.2.2.1 - &lt;a href="https://www.youtube.com/watch?v=U_mg0-yKGOI">https://www.youtube.com/watch?v=U_mg0-yKGOI&lt;/a>&lt;/p>
@@ -1449,15 +1449,15 @@ vagrant@vagrant:/var/www/docroot$ composer --version
 &lt;li>run &lt;code>drush updatedb -y&lt;/code> &amp;lt;- this will fail for the first time ( Media not installed yet ), disregard&lt;/li>
 &lt;li>run &lt;code>drush updatedb -y&lt;/code> &amp;lt;- this should run properly.&lt;/li>
 &lt;li>run &lt;code>drush entup&lt;/code>&lt;/li>
-&lt;/ul></description></item><item><title>Docs: Upgrade-use-case-from-8.2.2.3-to-8.2.7.3</title><link>https://froboy.github.io/openy_docs/docs/wiki/upgrade-use-case-from-8.2.2.3-to-8.2.7.3/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://froboy.github.io/openy_docs/docs/wiki/upgrade-use-case-from-8.2.2.3-to-8.2.7.3/</guid><description>
-&lt;p>This document is archived but may contain useful information for troubleshooting future updates. For updated update steps, visit &lt;a href="https://froboy.github.io/openy_docs/openy_docs/docs/wiki/openy-upgrade-how-to-for-developers/">How to upgrade Open Y&lt;/a>.&lt;/p>
+&lt;/ul></description></item><item><title>Docs: Upgrade-use-case-from-8.2.2.3-to-8.2.7.3</title><link>/docs/wiki/upgrade-use-case-from-8.2.2.3-to-8.2.7.3/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/wiki/upgrade-use-case-from-8.2.2.3-to-8.2.7.3/</guid><description>
+&lt;p>This document is archived but may contain useful information for troubleshooting future updates. For updated update steps, visit &lt;a href="/docs/wiki/openy-upgrade-how-to-for-developers/">How to upgrade Open Y&lt;/a>.&lt;/p>
 &lt;hr>
-&lt;p>1 uninstall &lt;code>lndr&lt;/code> and &lt;code>optimizely&lt;/code> modules before running &lt;a href="https://froboy.github.io/openy_docs/openy_docs/docs/wiki/openy-upgrade-how-to-for-developers/#run-command-with-next-never-version--replace-new_version_here-with-the-version-you-are-upgrading-to-eg-8207-">composer update commands&lt;/a>&lt;/p>
+&lt;p>1 uninstall &lt;code>lndr&lt;/code> and &lt;code>optimizely&lt;/code> modules before running &lt;a href="/docs/wiki/openy-upgrade-how-to-for-developers/#run-command-with-next-never-version--replace-new_version_here-with-the-version-you-are-upgrading-to-eg-8207-">composer update commands&lt;/a>&lt;/p>
 &lt;p>2 config to remove&lt;/p>
 &lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-sh" data-lang="sh">
 drush cdel image.style.browser_thumbnail
 &lt;/code>&lt;/pre>&lt;/div>&lt;p>3 enable &lt;code>openy_focal_point&lt;/code> and &lt;code>media_directories_ui&lt;/code> should be enabled when upgrade from 8.2.2.3 to 8.2.7.3&lt;/p>
-&lt;p>4 - run drush updatedb &lt;a href="https://froboy.github.io/openy_docs/openy_docs/docs/wiki/openy-upgrade-how-to-for-developers/#update-the-site">and next steps from tutorial&lt;/a>&lt;/p></description></item><item><title>Docs: Videos</title><link>https://froboy.github.io/openy_docs/docs/wiki/videos/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://froboy.github.io/openy_docs/docs/wiki/videos/</guid><description>
+&lt;p>4 - run drush updatedb &lt;a href="/docs/wiki/openy-upgrade-how-to-for-developers/#update-the-site">and next steps from tutorial&lt;/a>&lt;/p></description></item><item><title>Docs: Videos</title><link>/docs/wiki/videos/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/wiki/videos/</guid><description>
 &lt;h1 id="video-tutorials">Video Tutorials&lt;/h1>
 &lt;p>The Open Y team maintains a &lt;a href="https://www.youtube.com/c/OpenY/featured">YouTube channel&lt;/a> with video tutorials for developers, content editors, evaluators, and more. Visit YouTube for the full list of content.&lt;/p>
 &lt;h2 id="playlists">Playlists&lt;/h2>

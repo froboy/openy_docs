@@ -1,4 +1,4 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Open Y – Development</title><link>https://froboy.github.io/openy_docs/docs/development/</link><description>Recent content in Development on Open Y</description><generator>Hugo -- gohugo.io</generator><atom:link href="https://froboy.github.io/openy_docs/docs/development/index.xml" rel="self" type="application/rss+xml"/><item><title>Docs: AcceptanceTesting</title><link>https://froboy.github.io/openy_docs/docs/development/acceptancetesting/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://froboy.github.io/openy_docs/docs/development/acceptancetesting/</guid><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Open Y – Development</title><link>/docs/development/</link><description>Recent content in Development on Open Y</description><generator>Hugo -- gohugo.io</generator><atom:link href="/docs/development/index.xml" rel="self" type="application/rss+xml"/><item><title>Docs: AcceptanceTesting</title><link>/docs/development/acceptancetesting/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/development/acceptancetesting/</guid><description>
 &lt;h3 id="open-y-acceptance-testing-best-practices">Open Y Acceptance testing best practices&lt;/h3>
 &lt;p>Open Y is a big distribution with a large amount of modules, components, subsystems, and business
 processes, therefore we have to take appropriate steps to ensure the stability of major functionality during development.&lt;/p>
@@ -46,7 +46,7 @@ Having a tour for the business functionality is highly recommended to ship with 
 &lt;p>And last, but not the lease - adding Behat tests to the system will ensure functionality is tested on every pull
 request, on every CI build in the future.&lt;/p>
 &lt;h3 id="rule">Rule&lt;/h3>
-&lt;p>Every release of Open Y since 8.1.9 should include list of subsystems, changed in release for the community to be aware of the possible regressions on their end.)&lt;/p></description></item><item><title>Docs: AddThis</title><link>https://froboy.github.io/openy_docs/docs/development/addthis/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://froboy.github.io/openy_docs/docs/development/addthis/</guid><description>
+&lt;p>Every release of Open Y since 8.1.9 should include list of subsystems, changed in release for the community to be aware of the possible regressions on their end.)&lt;/p></description></item><item><title>Docs: AddThis</title><link>/docs/development/addthis/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/development/addthis/</guid><description>
 &lt;h1 id="how-to-configure-addthis">How to configure AddThis&lt;/h1>
 &lt;p>Open Y AddThis module allow you easy add Social icons to any node.&lt;/p>
 &lt;ol>
@@ -71,13 +71,13 @@ request, on every CI build in the future.&lt;/p>
 &lt;p>After content add &amp;lsquo;Social share icons&amp;rsquo; paragraph
 &lt;img src="../assets/addthis_paragraph.png" alt="Enter Public id">)&lt;/p>
 &lt;/li>
-&lt;/ol></description></item><item><title>Docs: Composer</title><link>https://froboy.github.io/openy_docs/docs/development/composer/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://froboy.github.io/openy_docs/docs/development/composer/</guid><description>
+&lt;/ol></description></item><item><title>Docs: Composer</title><link>/docs/development/composer/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/development/composer/</guid><description>
 &lt;h1 id="composer">Composer&lt;/h1>
 &lt;p>Please always make sure &lt;code>composer.lock&lt;/code> file is updated after any changes in &lt;code>composer.json&lt;/code> file.
 You can use &lt;code>composer update&lt;/code> command to update any package, in this case composer will take care about updating of &lt;code>composer.lock&lt;/code> file.&lt;/p>
 &lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-fallback" data-lang="fallback">composer update drupal/metatag
 &lt;/code>&lt;/pre>&lt;/div>&lt;p>Also you can use &lt;code>composer update --lock&lt;/code> command to force updating of &lt;code>composer.lock&lt;/code> file according to dependencies in &lt;code>composer.json&lt;/code>.&lt;/p>
-&lt;p>Please check official composer documentation for details: &lt;a href="https://getcomposer.org/doc/01-basic-usage.md">https://getcomposer.org/doc/01-basic-usage.md&lt;/a>)&lt;/p></description></item><item><title>Docs: Configuration for social posts import</title><link>https://froboy.github.io/openy_docs/docs/development/configuration-for-social-posts-import/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://froboy.github.io/openy_docs/docs/development/configuration-for-social-posts-import/</guid><description>
+&lt;p>Please check official composer documentation for details: &lt;a href="https://getcomposer.org/doc/01-basic-usage.md">https://getcomposer.org/doc/01-basic-usage.md&lt;/a>)&lt;/p></description></item><item><title>Docs: Configuration for social posts import</title><link>/docs/development/configuration-for-social-posts-import/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/development/configuration-for-social-posts-import/</guid><description>
 &lt;p>Add import social posts to site (Facebook, Instagram, Twitter)&lt;/p>
 &lt;h3 id="how-configure-import-of-posts-from-the-social-networks">How configure import of posts from the social networks&lt;/h3>
 &lt;p>&lt;strong>Given:&lt;/strong>
@@ -87,7 +87,7 @@ As an Open Y site developer, I want to be able import posts from company&amp;rsq
 &lt;li>Open configuration page /admin/config/social_feed_fetcher_settings - Configuration -&amp;gt; Social Feed Settings&lt;/li>
 &lt;li>Select checkbox for needed social network and add additional settings. Every social network has their own API, please read documentation for this settings on the official pages of each social networks.&lt;/li>
 &lt;li>When all settings will be filled - click on the button - Run Cron. Import is started. )&lt;/li>
-&lt;/ul></description></item><item><title>Docs: Contributing</title><link>https://froboy.github.io/openy_docs/docs/development/contributing/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://froboy.github.io/openy_docs/docs/development/contributing/</guid><description>
+&lt;/ul></description></item><item><title>Docs: Contributing</title><link>/docs/development/contributing/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/development/contributing/</guid><description>
 &lt;h1 id="contributing-to-open-y">Contributing to Open Y&lt;/h1>
 &lt;h1 id="issues">Issues&lt;/h1>
 &lt;p>If you have a support request, you&amp;rsquo;ve found a bug or you have a feature request:&lt;/p>
@@ -114,7 +114,7 @@ As an Open Y site developer, I want to be able import posts from company&amp;rsq
 &lt;li>Link drupal.org issue to GitHub Pull Request&lt;/li>
 &lt;li>Specify in GitHub Pull Request link to drupal.org issue&lt;/li>
 &lt;li>Once PR has been merged, reviewer will close drupal.org issue with appropriate credits.)&lt;/li>
-&lt;/ul></description></item><item><title>Docs: Create View Modes</title><link>https://froboy.github.io/openy_docs/docs/development/create-view-modes/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://froboy.github.io/openy_docs/docs/development/create-view-modes/</guid><description>
+&lt;/ul></description></item><item><title>Docs: Create View Modes</title><link>/docs/development/create-view-modes/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/development/create-view-modes/</guid><description>
 &lt;h1 id="how-to-create-new-view-mode-and-use">How to Create new View mode and use&lt;/h1>
 &lt;p>As with any other entity in drupal, when it comes to render the rendering it in different contexts, you might want to have specific viewmodes.&lt;/p>
 &lt;p>Here you can find instructions how you can add new view modes into embedded entity form on Open Y distribution.&lt;/p>
@@ -143,7 +143,7 @@ As an Open Y site developer, I want to be able import posts from company&amp;rsq
 &lt;ol start="2">
 &lt;li>Then make sure you enable the new viewmode in &amp;ldquo;Allowed Entity Embed Display plugins&amp;rdquo;, and at the bottom of the page click &amp;ldquo;Save&amp;rdquo;.
 &lt;img src="../assets/view_mode_enable.png" alt="Configuration project add/update form">)&lt;/li>
-&lt;/ol></description></item><item><title>Docs: DataLayer</title><link>https://froboy.github.io/openy_docs/docs/development/datalayer/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://froboy.github.io/openy_docs/docs/development/datalayer/</guid><description>
+&lt;/ol></description></item><item><title>Docs: DataLayer</title><link>/docs/development/datalayer/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/development/datalayer/</guid><description>
 &lt;p>See also the Data Layer module readme datalayer/README.md&lt;/p>
 &lt;p>The Data Layers module output data on the page in a json format. By default it will output properties (langcode, vid, name, uid, created, status, roles) and related taxonomy for any node, user, or any route based entity.&lt;/p>
 &lt;p>A limited set of properties are available via the Data Layers configuration form at /admin/config/search/datalayer (langcode, vid, name, uid, created, status, roles).&lt;/p>
@@ -195,11 +195,11 @@ As an Open Y site developer, I want to be able import posts from company&amp;rsq
 &lt;span style="color:#000;font-weight:bold">}&lt;/span>
 &lt;span style="color:#000;font-weight:bold">}&lt;/span>
 &lt;span style="color:#4e9a06">``&lt;/span>&lt;span style="color:#a40000">`&lt;/span>&lt;span style="color:#000;font-weight:bold">)&lt;/span>
-&lt;/code>&lt;/pre>&lt;/div></description></item><item><title>Docs: Daxko</title><link>https://froboy.github.io/openy_docs/docs/development/daxko/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://froboy.github.io/openy_docs/docs/development/daxko/</guid><description>
+&lt;/code>&lt;/pre>&lt;/div></description></item><item><title>Docs: Daxko</title><link>/docs/development/daxko/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/development/daxko/</guid><description>
 &lt;h1 id="daxko">Daxko&lt;/h1>
 &lt;p>Relates to: [Program Registration (Daxko)](../Paragraphs/Program Registration (Daxko).md)&lt;/p>
 &lt;p>Configuration setting at /admin/config/development/daxko&lt;/p>
-&lt;p>Account configuration must be setup before the Program Registration paragraph will work.)&lt;/p></description></item><item><title>Docs: Fonts</title><link>https://froboy.github.io/openy_docs/docs/development/fonts/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://froboy.github.io/openy_docs/docs/development/fonts/</guid><description>
+&lt;p>Account configuration must be setup before the Program Registration paragraph will work.)&lt;/p></description></item><item><title>Docs: Fonts</title><link>/docs/development/fonts/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/development/fonts/</guid><description>
 &lt;p>#Fonts&lt;/p>
 &lt;p>The majority of the fonts used by the Open Y distribution are freely available, except for Cachet.&lt;/p>
 &lt;p>Helvetica is used for paragraph text, with Verdana as a fallback. Page titles, headers, highlighted text, etc, use Cachet, with Ubuntu Condensed as a fallback.&lt;/p>
@@ -230,7 +230,7 @@ base:
 //fast.fonts.net/jsapi/12345-abcdef-67890.js: {}
 &lt;/code>&lt;/pre>
 &lt;p>Another option is to use the @font-your-face Drupal module, &lt;a href="https://www.drupal.org/project/fontyourface">https://www.drupal.org/project/fontyourface&lt;/a> .&lt;/p>
-&lt;p>Once installed you can connect your Drupal site to your font.com account, or one of the other font providers, and have the font automatically retrieved and added to your site. Follow the directions provided by the module to connect to your font provider account.)&lt;/p></description></item><item><title>Docs: Google_Analytics_Search</title><link>https://froboy.github.io/openy_docs/docs/development/google_analytics_search/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://froboy.github.io/openy_docs/docs/development/google_analytics_search/</guid><description>
+&lt;p>Once installed you can connect your Drupal site to your font.com account, or one of the other font providers, and have the font automatically retrieved and added to your site. Follow the directions provided by the module to connect to your font provider account.)&lt;/p></description></item><item><title>Docs: Google_Analytics_Search</title><link>/docs/development/google_analytics_search/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/development/google_analytics_search/</guid><description>
 &lt;h1 id="how-to-configure-search-tracking-in-google-analytics-account">How to configure search tracking in Google Analytics account&lt;/h1>
 &lt;p>##Prerequisites
 Google Analitycs account to track you site should be created.
@@ -260,7 +260,7 @@ Google Analitycs contrib module should be enabled and configured to use existing
 &lt;/li>
 &lt;/ol>
 &lt;p>Attention: Data processing latency for search tracking reports is 24-48 hours
-(see &lt;a href="https://support.google.com/analytics/answer/1070983?hl=en#DataProcessingLatency">https://support.google.com/analytics/answer/1070983?hl=en#DataProcessingLatency&lt;/a>))&lt;/p></description></item><item><title>Docs: GoogleCustomSearchConfiguration</title><link>https://froboy.github.io/openy_docs/docs/development/googlecustomsearchconfiguration/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://froboy.github.io/openy_docs/docs/development/googlecustomsearchconfiguration/</guid><description>
+(see &lt;a href="https://support.google.com/analytics/answer/1070983?hl=en#DataProcessingLatency">https://support.google.com/analytics/answer/1070983?hl=en#DataProcessingLatency&lt;/a>))&lt;/p></description></item><item><title>Docs: GoogleCustomSearchConfiguration</title><link>/docs/development/googlecustomsearchconfiguration/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/development/googlecustomsearchconfiguration/</guid><description>
 &lt;h1 id="google-custom-search-configuration">Google Custom Search configuration&lt;/h1>
 &lt;p>The Open Y release &lt;strong>8.2.4&lt;/strong> introduces Google Custom Search for the website out of the box.&lt;/p>
 &lt;h2 id="enabling-the-module">Enabling the module&lt;/h2>
@@ -361,7 +361,7 @@ openy_third_party_services.google_search_engine_id=&amp;#34;01234567890123456789
 &lt;p>Use the following snippet to set the Search Engine ID on already installed websites:&lt;/p>
 &lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-fallback" data-lang="fallback">drush config-set openy_google_search.settings google_engine_id &amp;#34;01234567890123456789:abcedefgh&amp;#34;
 ```)
-&lt;/code>&lt;/pre>&lt;/div></description></item><item><title>Docs: InstallationWithDrush</title><link>https://froboy.github.io/openy_docs/docs/development/installationwithdrush/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://froboy.github.io/openy_docs/docs/development/installationwithdrush/</guid><description>
+&lt;/code>&lt;/pre>&lt;/div></description></item><item><title>Docs: InstallationWithDrush</title><link>/docs/development/installationwithdrush/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/development/installationwithdrush/</guid><description>
 &lt;h3 id="site-installation-with-drush">Site installation with drush&lt;/h3>
 &lt;p>Use &lt;a href="https://drushcommands.com/drush-8x/core/site-install/">drush site-install&lt;/a> command.&lt;/p>
 &lt;p>Basically you use something like this:&lt;/p>
@@ -371,11 +371,11 @@ openy_third_party_services.google_search_engine_id=&amp;#34;01234567890123456789
 &lt;code>openy_theme_select.theme&lt;/code>variable e.g.:&lt;/p>
 &lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-fallback" data-lang="fallback">drush site-install openy --account-pass=password --db-url=&amp;#34;mysql://user:pass@host:3306/db&amp;#34; --root=/var/www/docroot openy_configure_profile.preset=extended openy_theme_select.theme=openy_rose
 ```)
-&lt;/code>&lt;/pre>&lt;/div></description></item><item><title>Docs: Module Develompent</title><link>https://froboy.github.io/openy_docs/docs/development/module-develompent/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://froboy.github.io/openy_docs/docs/development/module-develompent/</guid><description>
+&lt;/code>&lt;/pre>&lt;/div></description></item><item><title>Docs: Module Develompent</title><link>/docs/development/module-develompent/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/development/module-develompent/</guid><description>
 &lt;h3 id="module-content-removal">Module content removal&lt;/h3>
 &lt;p>When deleting an entity, where plugins or services of removing module are used,
 then content removal should be done in the hook_uninstall() of that module.
-See openy_prgf_camp_menu.install as example.)&lt;/p></description></item><item><title>Docs: Patch OpenY</title><link>https://froboy.github.io/openy_docs/docs/development/patch-openy/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://froboy.github.io/openy_docs/docs/development/patch-openy/</guid><description>
+See openy_prgf_camp_menu.install as example.)&lt;/p></description></item><item><title>Docs: Patch OpenY</title><link>/docs/development/patch-openy/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/development/patch-openy/</guid><description>
 &lt;p>Here you can find instructions how you can patch Open Y distribution used on
 your project.&lt;/p>
 &lt;h1 id="when-you-need-to-patch-open-y">When you need to patch Open Y&lt;/h1>
@@ -413,7 +413,7 @@ repository, as on this example:
 &lt;li>After adding a patch execute command &lt;code>composer update&lt;/code>&lt;/li>
 &lt;li>Verify you can see added changes in Open Y&lt;/li>
 &lt;li>Enjoy!)&lt;/li>
-&lt;/ol></description></item><item><title>Docs: Server Requirements</title><link>https://froboy.github.io/openy_docs/docs/development/server-requirements/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://froboy.github.io/openy_docs/docs/development/server-requirements/</guid><description>
+&lt;/ol></description></item><item><title>Docs: Server Requirements</title><link>/docs/development/server-requirements/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/development/server-requirements/</guid><description>
 &lt;p>If you need to prepare server for the Open Y instance, here below you should find all needed software to meet its requirements.&lt;/p>
 &lt;h3 id="list-of-requirements">List of requirements&lt;/h3>
 &lt;ol>
@@ -466,7 +466,7 @@ repository, as on this example:
 &lt;li>Docker (optional)&lt;/li>
 &lt;li>SOLR 4.x (if there will be requirement for SOLR search support)&lt;/li>
 &lt;li>Varnish (optional))&lt;/li>
-&lt;/ul></description></item><item><title>Docs: Start new OpenY project</title><link>https://froboy.github.io/openy_docs/docs/development/start-new-openy-project/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://froboy.github.io/openy_docs/docs/development/start-new-openy-project/</guid><description>
+&lt;/ul></description></item><item><title>Docs: Start new OpenY project</title><link>/docs/development/start-new-openy-project/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/development/start-new-openy-project/</guid><description>
 &lt;p>Here you can find instructions how you can start project based on Open Y distribution.&lt;/p>
 &lt;h1 id="new-project-from-scratch-based-on-open-y">New project from scratch based on Open Y&lt;/h1>
 &lt;p>In order to start new project from scratch, you can use &lt;a href="https://github.com/ymcatwincities/openy-project#installation">installation instructions&lt;/a> that will build your project and even add development environment.&lt;/p>
@@ -785,7 +785,7 @@ git push -u origin master
 &lt;h2 id="video-tutorial">Video tutorial&lt;/h2>
 &lt;p>&lt;a href="https://youtu.be/RCvsLANsbm8">&lt;img src="https://img.youtube.com/vi/RCvsLANsbm8/0.jpg" alt="Open Y v1.0b - Install Tutorial">&lt;/a>&lt;/p>
 &lt;h2 id="end-to-end-installation">End to end installation&lt;/h2>
-&lt;p>&lt;a href="https://youtu.be/RT6kC38zgvo">&lt;img src="https://img.youtube.com/vi/RT6kC38zgvo/0.jpg" alt="Open Y install - in 16 minutes end to end, no tutorial">&lt;/a>)&lt;/p></description></item><item><title>Docs: Tests</title><link>https://froboy.github.io/openy_docs/docs/development/tests/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://froboy.github.io/openy_docs/docs/development/tests/</guid><description>
+&lt;p>&lt;a href="https://youtu.be/RT6kC38zgvo">&lt;img src="https://img.youtube.com/vi/RT6kC38zgvo/0.jpg" alt="Open Y install - in 16 minutes end to end, no tutorial">&lt;/a>)&lt;/p></description></item><item><title>Docs: Tests</title><link>/docs/development/tests/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/development/tests/</guid><description>
 &lt;h1 id="running-tests">Running Tests&lt;/h1>
 &lt;p>These instructions explain how you can run tests.&lt;/p>
 &lt;h2 id="behat">Behat&lt;/h2>
@@ -914,7 +914,7 @@ The first portion, &lt;code>field_location_address&lt;/code> represents the Drup
 | field_location_phone | +1234567890 |
 ```)
 &lt;/code>&lt;/pre>&lt;/div>&lt;/li>
-&lt;/ul></description></item><item><title>Docs: Theming_and_Design</title><link>https://froboy.github.io/openy_docs/docs/development/theming_and_design/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://froboy.github.io/openy_docs/docs/development/theming_and_design/</guid><description>
+&lt;/ul></description></item><item><title>Docs: Theming_and_Design</title><link>/docs/development/theming_and_design/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/development/theming_and_design/</guid><description>
 &lt;p>Welcome to Open Y Theming and Design documentation.&lt;/p>
 &lt;h3 id="how-to-change-styles-on-content-type-level">How to change styles on content type level&lt;/h3>
 &lt;p>&lt;strong>Given:&lt;/strong>
@@ -932,7 +932,7 @@ the theme configuration page - Custom CSS - check &amp;ldquo;Enable or disable c
 &lt;li>.node-id-{node ID};&lt;/li>
 &lt;li>.path-frontpage.&lt;/li>
 &lt;/ul>
-&lt;p>The existing node types are: &lt;em>activity&lt;/em>, &lt;em>alert&lt;/em>, &lt;em>blog&lt;/em>, &lt;em>branch&lt;/em>, &lt;em>camp&lt;/em>, &lt;em>class&lt;/em>, &lt;em>facility&lt;/em>, &lt;em>landing-page&lt;/em>, &lt;em>membership&lt;/em>, &lt;em>news&lt;/em>, &lt;em>program&lt;/em>, &lt;em>program-subcategory&lt;/em>, &lt;em>session&lt;/em>.)&lt;/p></description></item><item><title>Docs: Tour</title><link>https://froboy.github.io/openy_docs/docs/development/tour/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://froboy.github.io/openy_docs/docs/development/tour/</guid><description>
+&lt;p>The existing node types are: &lt;em>activity&lt;/em>, &lt;em>alert&lt;/em>, &lt;em>blog&lt;/em>, &lt;em>branch&lt;/em>, &lt;em>camp&lt;/em>, &lt;em>class&lt;/em>, &lt;em>facility&lt;/em>, &lt;em>landing-page&lt;/em>, &lt;em>membership&lt;/em>, &lt;em>news&lt;/em>, &lt;em>program&lt;/em>, &lt;em>program-subcategory&lt;/em>, &lt;em>session&lt;/em>.)&lt;/p></description></item><item><title>Docs: Tour</title><link>/docs/development/tour/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/development/tour/</guid><description>
 &lt;h1 id="how-to-use-tour-for-modules">How to use Tour for modules&lt;/h1>
 &lt;h3 id="how-to-use-open-y-tour-token-with-tour">How to use Open Y Tour Token with Tour&lt;/h3>
 &lt;p>In someone modules have tour tips and for more interactivity, you can add a token with a click to any selector.&lt;/p>
@@ -955,7 +955,7 @@ the theme configuration page - Custom CSS - check &amp;ldquo;Enable or disable c
 &lt;p>click - command in the token;&lt;/p>
 &lt;p>button_name - name of button when show in a tip;&lt;/p>
 &lt;p>selector - selector to be clicked.&lt;/p>
-&lt;p>Please see and use &lt;a href="https://www.w3schools.com/jquery/jquery_ref_selectors.asp">jQuery selectors&lt;/a>.)&lt;/p></description></item><item><title>Docs: Upgrade path</title><link>https://froboy.github.io/openy_docs/docs/development/upgrade-path/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://froboy.github.io/openy_docs/docs/development/upgrade-path/</guid><description>
+&lt;p>Please see and use &lt;a href="https://www.w3schools.com/jquery/jquery_ref_selectors.asp">jQuery selectors&lt;/a>.)&lt;/p></description></item><item><title>Docs: Upgrade path</title><link>/docs/development/upgrade-path/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/development/upgrade-path/</guid><description>
 &lt;h1 id="how-to-support-upgrade-path">How to support upgrade path&lt;/h1>
 &lt;p>All changes in configurations should be added to appropriate hook_update_N in order to update already existing environments. We suggest to use &lt;a href="https://www.drupal.org/project/confi">https://www.drupal.org/project/confi&lt;/a> for working with hook_update_N.&lt;/p>
 &lt;h3 id="openyinstall-in-profile">&lt;code>openy.install&lt;/code> in profile&lt;/h3>
