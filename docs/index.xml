@@ -1,5 +1,4 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Open Y – Open Y Distribution Documentation</title><link>/docs/</link><description>Recent content in Open Y Distribution Documentation on Open Y</description><generator>Hugo -- gohugo.io</generator><atom:link href="/docs/index.xml" rel="self" type="application/rss+xml"/><item><title>Docs: 1c</title><link>/docs/content-structure/paragraphs/1c/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/content-structure/paragraphs/1c/</guid><description>
-&lt;h1 id="paragraph-1-column">Paragraph 1 Column&lt;/h1>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Open Y – Open Y Distribution Documentation</title><link>/docs/</link><description>Recent content in Open Y Distribution Documentation on Open Y</description><generator>Hugo -- gohugo.io</generator><atom:link href="/docs/index.xml" rel="self" type="application/rss+xml"/><item><title>Docs: 1 Column</title><link>/docs/content-structure/paragraphs/1c/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/content-structure/paragraphs/1c/</guid><description>
 &lt;p>This is a paragraph type that will be used for implements a paragraph with 1 column.&lt;/p>
 &lt;h3 id="fields">Fields&lt;/h3>
 &lt;table>
@@ -42,8 +41,7 @@
 &lt;td>&lt;/td>
 &lt;/tr>
 &lt;/tbody>
-&lt;/table></description></item><item><title>Docs: 2c</title><link>/docs/content-structure/paragraphs/2c/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/content-structure/paragraphs/2c/</guid><description>
-&lt;h1 id="paragraph-2-column">Paragraph 2 Column&lt;/h1>
+&lt;/table></description></item><item><title>Docs: 2 Columns</title><link>/docs/content-structure/paragraphs/2c/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/content-structure/paragraphs/2c/</guid><description>
 &lt;p>This is a paragraph type that will be used for implements a paragraph with 2 column.&lt;/p>
 &lt;h3 id="fields">Fields&lt;/h3>
 &lt;table>
@@ -79,8 +77,7 @@
 &lt;td>&lt;/td>
 &lt;/tr>
 &lt;/tbody>
-&lt;/table></description></item><item><title>Docs: 3c</title><link>/docs/content-structure/paragraphs/3c/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/content-structure/paragraphs/3c/</guid><description>
-&lt;h1 id="paragraph-3-column">Paragraph 3 Column&lt;/h1>
+&lt;/table></description></item><item><title>Docs: 3 Columns</title><link>/docs/content-structure/paragraphs/3c/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/content-structure/paragraphs/3c/</guid><description>
 &lt;p>This is a paragraph type that will be used for implements a paragraph with 3 column.&lt;/p>
 &lt;h3 id="fields">Fields&lt;/h3>
 &lt;table>
@@ -130,8 +127,7 @@
 &lt;td>&lt;/td>
 &lt;/tr>
 &lt;/tbody>
-&lt;/table></description></item><item><title>Docs: 4c</title><link>/docs/content-structure/paragraphs/4c/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/content-structure/paragraphs/4c/</guid><description>
-&lt;h1 id="paragraph-4-column">Paragraph 4 Column&lt;/h1>
+&lt;/table></description></item><item><title>Docs: 4 Columns</title><link>/docs/content-structure/paragraphs/4c/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/content-structure/paragraphs/4c/</guid><description>
 &lt;p>This is a paragraph type that will be used for implements a paragraph with 4 column.&lt;/p>
 &lt;h3 id="fields">Fields&lt;/h3>
 &lt;table>
@@ -250,7 +246,6 @@ Having a tour for the business functionality is highly recommended to ship with 
 request, on every CI build in the future.&lt;/p>
 &lt;h3 id="rule">Rule&lt;/h3>
 &lt;p>Every release of Open Y since 8.1.9 should include list of subsystems, changed in release for the community to be aware of the possible regressions on their end.&lt;/p></description></item><item><title>Docs: Activity</title><link>/docs/content-structure/content-types/activity/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/content-structure/content-types/activity/</guid><description>
-&lt;h1 id="activity">Activity&lt;/h1>
 &lt;p>Activity content type is used for adding Activities on the site.&lt;/p>
 &lt;h3 id="fields">Fields&lt;/h3>
 &lt;table>
@@ -317,7 +312,6 @@ request, on every CI build in the future.&lt;/p>
 &lt;img src="../../assets/addthis_paragraph.png" alt="Enter Public id">&lt;/p>
 &lt;/li>
 &lt;/ol></description></item><item><title>Docs: Alert</title><link>/docs/content-structure/content-types/alert/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/content-structure/content-types/alert/</guid><description>
-&lt;h1 id="alert">Alert&lt;/h1>
 &lt;p>Alert content type is used for adding alerts on the site.&lt;/p>
 &lt;h3 id="fields">Fields&lt;/h3>
 &lt;table>
@@ -383,7 +377,6 @@ request, on every CI build in the future.&lt;/p>
 &lt;h3 id="url-pattern">URL pattern&lt;/h3>
 &lt;p>Content type is using following pattern:
 &lt;code>/alert/[node:title]&lt;/code>.&lt;/p></description></item><item><title>Docs: All Amenities</title><link>/docs/content-structure/paragraphs/all-amenities/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/content-structure/paragraphs/all-amenities/</guid><description>
-&lt;h1 id="all-amenities">All Amenities&lt;/h1>
 &lt;p>Provide a paragraph with a table view shows list of Branches.&lt;/p>
 &lt;h3 id="fields">Fields&lt;/h3>
 &lt;table>
@@ -410,13 +403,10 @@ request, on every CI build in the future.&lt;/p>
 &lt;/tr>
 &lt;/tbody>
 &lt;/table></description></item><item><title>Docs: Amenities</title><link>/docs/content-structure/taxonomy/amenities/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/content-structure/taxonomy/amenities/</guid><description>
-&lt;h1 id="amenities-vocabulary">Amenities Vocabulary&lt;/h1>
 &lt;p>This is a vocabulary that will be used for adding reference Branch amenities. We will use this for the Branch.&lt;/p>
 &lt;p>&lt;strong>Machine_name&lt;/strong>: amenities&lt;/p></description></item><item><title>Docs: Area</title><link>/docs/content-structure/taxonomy/area/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/content-structure/taxonomy/area/</guid><description>
-&lt;h1 id="area-vocabulary">Area Vocabulary&lt;/h1>
 &lt;p>This is a vocabulary that will be used for adding location areas on the site. We will use this for the Location Branch and Facility CTs.&lt;/p>
 &lt;p>&lt;strong>Machine_name&lt;/strong>: area&lt;/p></description></item><item><title>Docs: Banner</title><link>/docs/content-structure/paragraphs/banner/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/content-structure/paragraphs/banner/</guid><description>
-&lt;h1 id="banner">Banner&lt;/h1>
 &lt;p>This is a paragraph type that will be used for the banner content.&lt;/p>
 &lt;h3 id="fields">Fields&lt;/h3>
 &lt;table>
@@ -521,7 +511,6 @@ request, on every CI build in the future.&lt;/p>
 &lt;/tr>
 &lt;/tbody>
 &lt;/table></description></item><item><title>Docs: Blog</title><link>/docs/content-structure/content-types/blog/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/content-structure/content-types/blog/</guid><description>
-&lt;h1 id="blog">Blog&lt;/h1>
 &lt;p>Blog Post content type is used for adding blog posts on the site.&lt;/p>
 &lt;h3 id="fields">Fields&lt;/h3>
 &lt;table>
@@ -629,10 +618,8 @@ request, on every CI build in the future.&lt;/p>
 &lt;h3 id="url-pattern">URL pattern&lt;/h3>
 &lt;p>Content type is using following pattern:
 &lt;code>/blog/[node:title]&lt;/code>&lt;/p></description></item><item><title>Docs: Blog Category</title><link>/docs/content-structure/taxonomy/blog-category/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/content-structure/taxonomy/blog-category/</guid><description>
-&lt;h1 id="blog-category">Blog Category&lt;/h1>
 &lt;p>This is a vocabulary that will be used for adding blog categories on the site.&lt;/p>
 &lt;p>&lt;strong>Machine_name&lt;/strong>: blog_category&lt;/p></description></item><item><title>Docs: Blog Posts Listing</title><link>/docs/content-structure/paragraphs/blog-posts-listing/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/content-structure/paragraphs/blog-posts-listing/</guid><description>
-&lt;h1 id="blog-posts-listing">Blog Posts Listing&lt;/h1>
 &lt;p>This is dynamic paragraph that renders the latest blog posts and utilizes exposed filters.&lt;/p>
 &lt;ul>
 &lt;li>Location&lt;/li>
@@ -659,7 +646,6 @@ request, on every CI build in the future.&lt;/p>
 &lt;/tr>
 &lt;/tbody>
 &lt;/table></description></item><item><title>Docs: Branch</title><link>/docs/content-structure/content-types/branch/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/content-structure/content-types/branch/</guid><description>
-&lt;h1 id="branch">Branch&lt;/h1>
 &lt;p>Branch content type is used for adding Branches on the site.&lt;/p>
 &lt;h3 id="fields">Fields&lt;/h3>
 &lt;table>
@@ -694,7 +680,7 @@ request, on every CI build in the future.&lt;/p>
 &lt;td>Temporary URL&lt;/td>
 &lt;td>field_location_temp_url&lt;/td>
 &lt;td>No&lt;/td>
-&lt;td>A link field to provide a temporary page URL (a blog post, or smth else) if the branch is coming soon.&lt;/td>
+&lt;td>A link field to provide a temporary page URL (a blog post, or something else) if the branch is coming soon.&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>Meta Tags&lt;/td>
@@ -848,7 +834,6 @@ request, on every CI build in the future.&lt;/p>
 &lt;/tr>
 &lt;/tbody>
 &lt;/table></description></item><item><title>Docs: Branches Popup (All)</title><link>/docs/content-structure/paragraphs/branches-popup-all/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/content-structure/paragraphs/branches-popup-all/</guid><description>
-&lt;h1 id="branches-popup-all">Branches Popup (All)&lt;/h1>
 &lt;p>This is dynamic paragraph that renders the locations selection popup, based on current node.&lt;/p>
 &lt;p>Relates to:&lt;/p>
 &lt;ul>
@@ -874,7 +859,6 @@ request, on every CI build in the future.&lt;/p>
 &lt;/tr>
 &lt;/tbody>
 &lt;/table></description></item><item><title>Docs: Branches Popup (Class)</title><link>/docs/content-structure/paragraphs/branches-popup-class/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/content-structure/paragraphs/branches-popup-class/</guid><description>
-&lt;h1 id="branches-popup-class">Branches Popup (Class)&lt;/h1>
 &lt;p>This is dynamic paragraph that renders the locations selection popup, based on current node.&lt;/p>
 &lt;p>Relates to:&lt;/p>
 &lt;ul>
@@ -900,7 +884,6 @@ request, on every CI build in the future.&lt;/p>
 &lt;/tr>
 &lt;/tbody>
 &lt;/table></description></item><item><title>Docs: Camp</title><link>/docs/content-structure/content-types/camp/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/content-structure/content-types/camp/</guid><description>
-&lt;h1 id="camp">Camp&lt;/h1>
 &lt;p>Camp content type is used for adding Camps on the site.&lt;/p>
 &lt;h3 id="fields">Fields&lt;/h3>
 &lt;table>
@@ -1014,7 +997,6 @@ request, on every CI build in the future.&lt;/p>
 &lt;h3 id="url-pattern">URL pattern&lt;/h3>
 &lt;p>Content type is using following pattern:
 &lt;code>/camps/[node:title]&lt;/code>&lt;/p></description></item><item><title>Docs: Categories Listing</title><link>/docs/content-structure/paragraphs/categories-listing/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/content-structure/paragraphs/categories-listing/</guid><description>
-&lt;h1 id="categories-listing">Categories Listing&lt;/h1>
 &lt;p>This is dynamic paragraph that renders all published categories according to current program page.&lt;/p>
 &lt;p>It uses sticky at the top option and order items based on published date(newest at the top).&lt;/p>
 &lt;h3 id="fields">Fields&lt;/h3>
@@ -1036,7 +1018,6 @@ request, on every CI build in the future.&lt;/p>
 &lt;/tr>
 &lt;/tbody>
 &lt;/table></description></item><item><title>Docs: Class</title><link>/docs/content-structure/content-types/class/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/content-structure/content-types/class/</guid><description>
-&lt;h1 id="class">Class&lt;/h1>
 &lt;p>Class content type is used for adding Classes on the site.&lt;/p>
 &lt;h3 id="fields">Fields&lt;/h3>
 &lt;table>
@@ -1126,7 +1107,6 @@ request, on every CI build in the future.&lt;/p>
 &lt;h3 id="url-pattern">URL pattern&lt;/h3>
 &lt;p>Content type is using following pattern:
 &lt;code>/programs/[node:field_class_activity:entity:field_activity_category:entity:field_category_program:entity:title]/[node:field_class_activity:entity:field_activity_category:entity:title]/[node:title]/class-times&lt;/code>&lt;/p></description></item><item><title>Docs: Class Location</title><link>/docs/content-structure/paragraphs/class-location/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/content-structure/paragraphs/class-location/</guid><description>
-&lt;h1 id="class-location">Class Location&lt;/h1>
 &lt;p>This is dynamic paragraph that renders the locations class location view mode, based on url query parameter location with a valid id.&lt;/p>
 &lt;p>Relates to [Branches Popup (Class)](Branches Popup (Class).md).&lt;/p>
 &lt;ul>
@@ -1151,7 +1131,6 @@ request, on every CI build in the future.&lt;/p>
 &lt;/tr>
 &lt;/tbody>
 &lt;/table></description></item><item><title>Docs: Class Sessions</title><link>/docs/content-structure/paragraphs/class-sessions/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/content-structure/paragraphs/class-sessions/</guid><description>
-&lt;h1 id="class-sessions">Class Sessions&lt;/h1>
 &lt;p>This is dynamic paragraph that renders the class session instances, based on url query parameter location with a valid id.&lt;/p>
 &lt;p>Relates to [Branches Popup (Class)](Branches Popup (Class).md).&lt;/p>
 &lt;h3 id="fields">Fields&lt;/h3>
@@ -1226,7 +1205,6 @@ request, on every CI build in the future.&lt;/p>
 &lt;li>In sidebar we should see &amp;ldquo;All locations&amp;hellip;.&amp;rdquo;&lt;/li>
 &lt;li>Location popup should be shown (Unless only one location is associated with the class)&lt;/li>
 &lt;/ul></description></item><item><title>Docs: Classes Listing</title><link>/docs/content-structure/paragraphs/classes-listing/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/content-structure/paragraphs/classes-listing/</guid><description>
-&lt;h1 id="classes-listing--classes-listing-filters">Classes Listing + Classes Listing Filters&lt;/h1>
 &lt;p>Classes Listing - should display all published classes grouped by activity.&lt;/p>
 &lt;p>Classes Listing Filters - this paragraph should disply filter form for &amp;ldquo;Classes Listing&amp;rdquo; with following fields:&lt;/p>
 &lt;ul>
@@ -1309,7 +1287,6 @@ request, on every CI build in the future.&lt;/p>
 &lt;li>Filter by location should show branch from URL&lt;/li>
 &lt;li>Results should be filtered&lt;/li>
 &lt;/ul></description></item><item><title>Docs: Code</title><link>/docs/content-structure/paragraphs/code/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/content-structure/paragraphs/code/</guid><description>
-&lt;h1 id="code">Code&lt;/h1>
 &lt;p>Provide paragraph containing a Code block. Can be used to embed Youtube video for instance.&lt;/p>
 &lt;h3 id="fields">Fields&lt;/h3>
 &lt;table>
@@ -1497,7 +1474,6 @@ request, on every CI build in the future.&lt;/p>
 &lt;span style="color:#000;font-weight:bold">]);&lt;/span>
 &lt;/code>&lt;/pre>&lt;/div>&lt;h1 id="javascript-includes">JavaScript includes&lt;/h1>
 &lt;p>&lt;img src="https://user-images.githubusercontent.com/563412/122801945-6f28b700-d2cd-11eb-8d0c-694432e8cbf0.png" alt="image">&lt;/p></description></item><item><title>Docs: Color</title><link>/docs/content-structure/taxonomy/color/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/content-structure/taxonomy/color/</guid><description>
-&lt;h1 id="area-vocabulary">Area Vocabulary&lt;/h1>
 &lt;p>This is a vocabulary that will be used for adding colors on the site.&lt;/p>
 &lt;p>&lt;strong>Machine_name&lt;/strong>: color&lt;/p>
 &lt;h3 id="fields">Fields&lt;/h3>
@@ -1906,7 +1882,6 @@ git clone git@github.com:ynorth-projects/distribution.git yn-distribution
 composer require drupal/core:~9.0.7
 &lt;/code>&lt;/pre>&lt;/div>&lt;p>where 9.0.7 - is a needed version for your Open Y instance&lt;/p>
 &lt;p>For modules see &lt;a href="/docs/wiki/composer-version-constraints-for-open-y/">Composer-version-constraints-for-Open-Y&lt;/a>&lt;/p></description></item><item><title>Docs: Facility</title><link>/docs/content-structure/content-types/facility/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/content-structure/content-types/facility/</guid><description>
-&lt;h1 id="facility">Facility&lt;/h1>
 &lt;p>Facility content type is used for adding facilities on the site.&lt;/p>
 &lt;h3 id="fields">Fields&lt;/h3>
 &lt;table>
@@ -2020,10 +1995,8 @@ composer require drupal/core:~9.0.7
 &lt;h3 id="url-pattern">URL pattern&lt;/h3>
 &lt;p>Content type is using following pattern:
 &lt;code>/facility/[node:title]&lt;/code>&lt;/p></description></item><item><title>Docs: Facility Type</title><link>/docs/content-structure/taxonomy/facility-type/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/content-structure/taxonomy/facility-type/</guid><description>
-&lt;h1 id="facility-type">Facility Type&lt;/h1>
 &lt;p>This is a vocabulary that will be used for adding facility type on the site. We will use this for the Facility CT.&lt;/p>
 &lt;p>&lt;strong>Machine name&lt;/strong>: facility_type&lt;/p></description></item><item><title>Docs: Featured Blog Posts</title><link>/docs/content-structure/paragraphs/featured-blog-posts/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/content-structure/paragraphs/featured-blog-posts/</guid><description>
-&lt;h1 id="featured-blog-posts">Featured Blog Posts&lt;/h1>
 &lt;p>This is a paragraph type that will be used for the featured stories.&lt;/p>
 &lt;h3 id="fields">Fields&lt;/h3>
 &lt;table>
@@ -2050,7 +2023,6 @@ composer require drupal/core:~9.0.7
 &lt;/tr>
 &lt;/tbody>
 &lt;/table></description></item><item><title>Docs: Featured Content</title><link>/docs/content-structure/paragraphs/featured-content/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/content-structure/paragraphs/featured-content/</guid><description>
-&lt;h1 id="featured-content">Featured Content&lt;/h1>
 &lt;p>This is a paragraph type that will be used for the featured content.&lt;/p>
 &lt;h3 id="fields">Fields&lt;/h3>
 &lt;table>
@@ -2095,7 +2067,6 @@ composer require drupal/core:~9.0.7
 &lt;/tr>
 &lt;/tbody>
 &lt;/table></description></item><item><title>Docs: Featured Highlights</title><link>/docs/content-structure/paragraphs/featured-highlights/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/content-structure/paragraphs/featured-highlights/</guid><description>
-&lt;h1 id="featured-highlights">Featured Highlights&lt;/h1>
 &lt;p>Provides a paragraph containing blocks of specific types positioned as 2, 3 or 4 blocks per row.&lt;/p>
 &lt;h3 id="fields">Fields&lt;/h3>
 &lt;table>
@@ -2128,7 +2099,6 @@ composer require drupal/core:~9.0.7
 &lt;/tr>
 &lt;/tbody>
 &lt;/table></description></item><item><title>Docs: Featured News Posts</title><link>/docs/content-structure/paragraphs/featured-news-posts/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/content-structure/paragraphs/featured-news-posts/</guid><description>
-&lt;h1 id="featured-news-posts">Featured News Posts&lt;/h1>
 &lt;p>This is a paragraph type that will be used for the featured news.&lt;/p>
 &lt;h3 id="fields">Fields&lt;/h3>
 &lt;table>

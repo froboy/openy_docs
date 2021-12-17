@@ -1,5 +1,4 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Open Y – Media</title><link>/docs/content-structure/media/</link><description>Recent content in Media on Open Y</description><generator>Hugo -- gohugo.io</generator><atom:link href="/docs/content-structure/media/index.xml" rel="self" type="application/rss+xml"/><item><title>Docs: WYSIWYG View Modes</title><link>/docs/content-structure/media/wysiwyg-view-modes/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/content-structure/media/wysiwyg-view-modes/</guid><description>
-&lt;h1 id="media-wysiwyg-view-modes">Media WYSIWYG View Modes&lt;/h1>
 &lt;p>Listed view modes are available for embedding in WYSIWYG editor.&lt;/p>
 &lt;h3 id="view-modes">View Modes&lt;/h3>
 &lt;table>
@@ -19,7 +18,7 @@
 &lt;tr>
 &lt;td>Half&lt;/td>
 &lt;td>embedded_half&lt;/td>
-&lt;td>This view mode displays media asset with half width and uses alingment.&lt;/td>
+&lt;td>This view mode displays media asset with half width and uses alignment.&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>Link&lt;/td>
@@ -36,6 +35,6 @@ Link - should lead to the original image with &lt;code>target=blank&lt;/code>.&l
 &lt;p>In &amp;ldquo;Full&amp;rdquo; and &amp;ldquo;Half&amp;rdquo; view modes should be displayed embedded video with appropriate classes.
 Link - should lead to the original video with &lt;code>target=blank&lt;/code>.&lt;/p>
 &lt;h4 id="document">Document&lt;/h4>
-&lt;p>In &amp;ldquo;Full&amp;rdquo; and &amp;ldquo;Half&amp;rdquo; view modes document should be displayed as iframe, where &lt;code>URL&lt;/code> is URL to the document. Also it should have appripriate classes.&lt;/p>
+&lt;p>In &amp;ldquo;Full&amp;rdquo; and &amp;ldquo;Half&amp;rdquo; view modes document should be displayed as iframe, where &lt;code>URL&lt;/code> is URL to the document. Also it should have appropriate classes.&lt;/p>
 &lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-html" data-lang="html">&lt;span style="color:#000;font-weight:bold">&amp;lt;&lt;/span>&lt;span style="color:#204a87;font-weight:bold">iframe&lt;/span> &lt;span style="color:#c4a000">src&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">=&lt;/span>&lt;span style="color:#4e9a06">&amp;#34;//docs.google.com/gview?url=URL&amp;amp;embedded=true&amp;#34;&lt;/span> &lt;span style="color:#c4a000">frameborder&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">=&lt;/span>&lt;span style="color:#4e9a06">&amp;#34;0&amp;#34;&lt;/span>&lt;span style="color:#000;font-weight:bold">&amp;gt;&amp;lt;/&lt;/span>&lt;span style="color:#204a87;font-weight:bold">iframe&lt;/span>&lt;span style="color:#000;font-weight:bold">&amp;gt;&lt;/span>
 &lt;/code>&lt;/pre>&lt;/div>&lt;p>Link - should lead to the original document with &lt;code>target=blank&lt;/code>.&lt;/p></description></item></channel></rss>
