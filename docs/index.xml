@@ -457,7 +457,6 @@ request, on every CI build in the future.&lt;/p>
 &lt;/tr>
 &lt;/tbody>
 &lt;/table></description></item><item><title>Docs: Basic</title><link>/docs/content-structure/blocks/basic/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/content-structure/blocks/basic/</guid><description>
-&lt;h1 id="basic-block">Basic Block&lt;/h1>
 &lt;p>A simple block with a description.&lt;/p>
 &lt;h3 id="fields">Fields&lt;/h3>
 &lt;table>
@@ -478,7 +477,6 @@ request, on every CI build in the future.&lt;/p>
 &lt;/tr>
 &lt;/tbody>
 &lt;/table></description></item><item><title>Docs: Block Menu</title><link>/docs/content-structure/blocks/block-menu/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/content-structure/blocks/block-menu/</guid><description>
-&lt;h1 id="block-menu">Block Menu&lt;/h1>
 &lt;p>Implements custom block type with a links.&lt;/p>
 &lt;h3 id="fields">Fields&lt;/h3>
 &lt;table>
@@ -795,7 +793,6 @@ request, on every CI build in the future.&lt;/p>
 &lt;h3 id="url-pattern">URL pattern&lt;/h3>
 &lt;p>Content type is using following pattern:
 &lt;code>/locations/[node:title]&lt;/code>&lt;/p></description></item><item><title>Docs: Branch Amenities</title><link>/docs/content-structure/blocks/branch-amenities/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/content-structure/blocks/branch-amenities/</guid><description>
-&lt;h1 id="block-branch-amenities">Block Branch Amenities&lt;/h1>
 &lt;p>A block with amenities list of the current branch.&lt;/p>
 &lt;h3 id="fields">Fields&lt;/h3>
 &lt;table>
@@ -1588,7 +1585,6 @@ As an Open Y site developer, I want to be able import posts from company&amp;rsq
 &lt;li>Then make sure you enable the new view mode in &amp;ldquo;Allowed Entity Embed Display plugins&amp;rdquo;, and at the bottom of the page click &amp;ldquo;Save&amp;rdquo;.
 &lt;img src="../../assets/view_mode_enable.png" alt="Configuration project add/update form">&lt;/li>
 &lt;/ol></description></item><item><title>Docs: Custom Simple</title><link>/docs/content-structure/blocks/custom-simple/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/content-structure/blocks/custom-simple/</guid><description>
-&lt;h1 id="block-custom-simple">Block Custom Simple&lt;/h1>
 &lt;p>A simple block with a body.&lt;/p>
 &lt;h3 id="fields">Fields&lt;/h3>
 &lt;table>
