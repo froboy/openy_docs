@@ -45,7 +45,7 @@
 </li>
 </ul>
 </div>
-<div class="navbar-nav d-none d-lg-block"><input type=search class="form-control td-search-input" placeholder="&#xf002; Search this site…" aria-label="Search this site…" autocomplete=off data-offline-search-index-json-src=/offline-search-index.625faa214a1d26ab5352ec6ae4e5b6aa.json data-offline-search-base-href=/ data-offline-search-max-results=10>
+<div class="navbar-nav d-none d-lg-block"><input type=search class="form-control td-search-input" placeholder="&#xf002; Search this site…" aria-label="Search this site…" autocomplete=off data-offline-search-index-json-src=/offline-search-index.22cb2e6be8ab64726ed0f73f776b4060.json data-offline-search-base-href=/ data-offline-search-max-results=10>
 </div>
 </nav>
 </header>
@@ -170,17 +170,18 @@ This is the multi-page printable view of this section.
 <li>3.7: <a href=#pg-992b93a807a2cdb5efb93976645bd2d9>Data Layer</a></li>
 <li>3.8: <a href=#pg-2183f8e7e804aeab9b106faf2b9b5cf0>Daxko</a></li>
 <li>3.9: <a href=#pg-ac9fe1438b6fece4084a918ef804fdef>Fonts</a></li>
-<li>3.10: <a href=#pg-4e445b1dc3b8e4a6fe7f40c7eea63d13>Google Custom Search Configuration</a></li>
-<li>3.11: <a href=#pg-dfadc0dc4b83c0702a8ab3496bb175b7>Installation With Drush</a></li>
-<li>3.12: <a href=#pg-52713f92f14258afce6084b4bded4ac2>Module Development</a></li>
-<li>3.13: <a href=#pg-e7d7619da79e00b4a474600152ead1d8>Patch Open Y</a></li>
-<li>3.14: <a href=#pg-d2740a1b582387655d445cb589514e8b>Search Tracking with Google Analytics</a></li>
-<li>3.15: <a href=#pg-75b76d5f58b6888788723f7b0c0374f3>Server Requirements</a></li>
-<li>3.16: <a href=#pg-01d48e4d8306af3b3d644918cda7458b>Start new Open Y project</a></li>
-<li>3.17: <a href=#pg-46a42c95597cdf9bf22eb859dd5c4384>Tests</a></li>
-<li>3.18: <a href=#pg-ca82c8889851559493511fc02340ca48>Theming and Design</a></li>
-<li>3.19: <a href=#pg-979c1626d9f3498e9da9efb153df39e3>Tour</a></li>
-<li>3.20: <a href=#pg-d70d83351441d48c021acb48ec7dd49e>Upgrade path</a></li>
+<li>3.10: <a href=#pg-33b21c738c87192d4b47e0bdde06b2b3>Google Analytics</a></li>
+<li>3.11: <a href=#pg-4e445b1dc3b8e4a6fe7f40c7eea63d13>Google Custom Search Configuration</a></li>
+<li>3.12: <a href=#pg-dfadc0dc4b83c0702a8ab3496bb175b7>Installation With Drush</a></li>
+<li>3.13: <a href=#pg-52713f92f14258afce6084b4bded4ac2>Module Development</a></li>
+<li>3.14: <a href=#pg-e7d7619da79e00b4a474600152ead1d8>Patch Open Y</a></li>
+<li>3.15: <a href=#pg-d2740a1b582387655d445cb589514e8b>Search Tracking with Google Analytics</a></li>
+<li>3.16: <a href=#pg-75b76d5f58b6888788723f7b0c0374f3>Server Requirements</a></li>
+<li>3.17: <a href=#pg-01d48e4d8306af3b3d644918cda7458b>Start new Open Y project</a></li>
+<li>3.18: <a href=#pg-46a42c95597cdf9bf22eb859dd5c4384>Tests</a></li>
+<li>3.19: <a href=#pg-ca82c8889851559493511fc02340ca48>Theming and Design</a></li>
+<li>3.20: <a href=#pg-979c1626d9f3498e9da9efb153df39e3>Tour</a></li>
+<li>3.21: <a href=#pg-d70d83351441d48c021acb48ec7dd49e>Upgrade path</a></li>
 </ul>
 <li>4: <a href=#pg-cdffc9f7d521f997f2219e61d9598532>Wiki</a></li>
 <ul>
@@ -3959,7 +3960,18 @@ As an Open Y site developer, I want to be able import posts from company&rsquo;s
 <p>This content was originally <a href=https://community.openymca.org/t/using-the-latest-2020-cachet-web-fonts-on-your-open-y-or-virtual-y-site/894>published on the Open Y Message Board</a>.</p>
 </div>
 <div class=td-content style=page-break-before:always>
-<h1 id=pg-4e445b1dc3b8e4a6fe7f40c7eea63d13>3.10 - Google Custom Search Configuration</h1>
+<h1 id=pg-33b21c738c87192d4b47e0bdde06b2b3>3.10 - Google Analytics</h1>
+<h2 id=introduction>Introduction</h2>
+<p>Open Y uses the Drupal contrib <a href=https://www.drupal.org/project/google_analytics>Google Analytics module</a> to enable <a href=https://marketingplatform.google.com/about/analytics/>Google Analytics</a> tracking on your Open Y site.</p>
+<p>To get started, you should first create a GA property. Use the <a href="https://support.google.com/analytics/#topic=10737980">Analytics Help</a> for assistance.</p>
+<h2 id=configuration>Configuration</h2>
+<p>Configuration is done at the standard module configuration page: <code>/admin/config/services/google-analytics</code>.</p>
+<h3 id=google-analytics-version-compatibility>Google Analytics Version Compatibility</h3>
+<p>In the <a href=https://github.com/ymcatwincities/openy/releases/tag/9.2.11>9.2.11</a> release in November 2021, Open Y <a href=https://github.com/ymcatwincities/openy/pull/2400>added support for Google Analytics 4</a>. If your site has been updated to Open Y 9.2.11 or greater AND the <code>google_analytics</code> module has been updated to 4.x you should be able to use GA4. Otherwise you&rsquo;ll need to stick with GA3.</p>
+<p>See this <a href=https://community.openymca.org/t/about-google-analytics-compatibility/917>community post</a> for more information.</p>
+</div>
+<div class=td-content style=page-break-before:always>
+<h1 id=pg-4e445b1dc3b8e4a6fe7f40c7eea63d13>3.11 - Google Custom Search Configuration</h1>
 <p>The Open Y release <strong>8.2.4</strong> introduces Google Custom Search for the website out of the box.</p>
 <h2 id=enabling-the-module>Enabling the module</h2>
 <h3 id=fresh-installations>Fresh installations</h3>
@@ -4061,7 +4073,7 @@ Upon installation, the modules create a Landing page for search results and poin
 </code></pre></div>
 </div>
 <div class=td-content style=page-break-before:always>
-<h1 id=pg-dfadc0dc4b83c0702a8ab3496bb175b7>3.11 - Installation With Drush</h1>
+<h1 id=pg-dfadc0dc4b83c0702a8ab3496bb175b7>3.12 - Installation With Drush</h1>
 <p>Use <a href=https://drushcommands.com/drush-8x/core/site-install/>drush site-install</a> command.</p>
 <p>Basically you use something like this:</p>
 <div class=highlight><pre tabindex=0 style=background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-fallback data-lang=fallback>drush site-install openy --account-pass=password --db-url=&#34;mysql://user:pass@host:3306/db&#34; --root=/var/www/docroot
@@ -4072,14 +4084,14 @@ Upon installation, the modules create a Landing page for search results and poin
 </code></pre></div>
 </div>
 <div class=td-content style=page-break-before:always>
-<h1 id=pg-52713f92f14258afce6084b4bded4ac2>3.12 - Module Development</h1>
+<h1 id=pg-52713f92f14258afce6084b4bded4ac2>3.13 - Module Development</h1>
 <h3 id=module-content-removal>Module content removal</h3>
 <p>When deleting an entity, where plugins or services of removing module are used,
 then content removal should be done in the hook_uninstall() of that module.
 See openy_prgf_camp_menu.install as example.</p>
 </div>
 <div class=td-content style=page-break-before:always>
-<h1 id=pg-e7d7619da79e00b4a474600152ead1d8>3.13 - Patch Open Y</h1>
+<h1 id=pg-e7d7619da79e00b4a474600152ead1d8>3.14 - Patch Open Y</h1>
 <p>Here you can find instructions how you can patch Open Y distribution used on
 your project.</p>
 <h2 id=when-you-need-to-patch-open-y>When you need to patch Open Y</h2>
@@ -4128,7 +4140,7 @@ repository, as on this example:</p>
 </ol>
 </div>
 <div class=td-content style=page-break-before:always>
-<h1 id=pg-d2740a1b582387655d445cb589514e8b>3.14 - Search Tracking with Google Analytics</h1>
+<h1 id=pg-d2740a1b582387655d445cb589514e8b>3.15 - Search Tracking with Google Analytics</h1>
 <h2 id=prerequisites>Prerequisites</h2>
 <ul>
 <li>Google Analytics account to track you site should be created.</li>
@@ -4162,7 +4174,7 @@ repository, as on this example:</p>
 (see <a href="https://support.google.com/analytics/answer/1070983?hl=en#DataProcessingLatency">Google&rsquo;s support doc</a>).</p>
 </div>
 <div class=td-content style=page-break-before:always>
-<h1 id=pg-75b76d5f58b6888788723f7b0c0374f3>3.15 - Server Requirements</h1>
+<h1 id=pg-75b76d5f58b6888788723f7b0c0374f3>3.16 - Server Requirements</h1>
 <p>If you need to prepare server for the Open Y instance, here below you should find all needed software to meet its requirements.</p>
 <h3 id=list-of-requirements>List of requirements</h3>
 <ol>
@@ -4218,7 +4230,7 @@ repository, as on this example:</p>
 </ul>
 </div>
 <div class=td-content style=page-break-before:always>
-<h1 id=pg-01d48e4d8306af3b3d644918cda7458b>3.16 - Start new Open Y project</h1>
+<h1 id=pg-01d48e4d8306af3b3d644918cda7458b>3.17 - Start new Open Y project</h1>
 <p>Here you can find instructions how you can start project based on Open Y distribution.</p>
 <h2 id=new-project-from-scratch-based-on-open-y>New project from scratch based on Open Y</h2>
 <p>In order to start new project from scratch, you can use <a href=https://github.com/ymcatwincities/openy-project#installation>installation instructions</a> that will build your project and even add development environment.</p>
@@ -4540,7 +4552,7 @@ git push -u origin master
 <p><a href=https://youtu.be/RT6kC38zgvo><img src=https://img.youtube.com/vi/RT6kC38zgvo/0.jpg alt="Open Y install - in 16 minutes end to end, no tutorial"></a></p>
 </div>
 <div class=td-content style=page-break-before:always>
-<h1 id=pg-46a42c95597cdf9bf22eb859dd5c4384>3.17 - Tests</h1>
+<h1 id=pg-46a42c95597cdf9bf22eb859dd5c4384>3.18 - Tests</h1>
 <p>These instructions explain how you can run tests.</p>
 <h2 id=behat>Behat</h2>
 <h3 id=requirements>Requirements</h3>
@@ -4670,7 +4682,7 @@ The first portion, <code>field_location_address</code> represents the Drupal fie
 </ul>
 </div>
 <div class=td-content style=page-break-before:always>
-<h1 id=pg-ca82c8889851559493511fc02340ca48>3.18 - Theming and Design</h1>
+<h1 id=pg-ca82c8889851559493511fc02340ca48>3.19 - Theming and Design</h1>
 <p>Welcome to Open Y Theming and Design documentation.</p>
 <h3 id=how-to-change-styles-on-content-type-level>How to change styles on content type level</h3>
 <p><strong>Given:</strong>
@@ -4691,7 +4703,7 @@ the theme configuration page - Custom CSS - check &ldquo;Enable or disable custo
 <p>The existing node types are: <em>activity</em>, <em>alert</em>, <em>blog</em>, <em>branch</em>, <em>camp</em>, <em>class</em>, <em>facility</em>, <em>landing-page</em>, <em>membership</em>, <em>news</em>, <em>program</em>, <em>program-subcategory</em>, <em>session</em>.</p>
 </div>
 <div class=td-content style=page-break-before:always>
-<h1 id=pg-979c1626d9f3498e9da9efb153df39e3>3.19 - Tour</h1>
+<h1 id=pg-979c1626d9f3498e9da9efb153df39e3>3.20 - Tour</h1>
 <h3 id=how-to-use-open-y-tour-token-with-tour>How to use Open Y Tour Token with Tour</h3>
 <p>In someone modules have tour tips and for more interactivity, you can add a token with a click to any selector.</p>
 <ol>
@@ -4716,7 +4728,7 @@ the theme configuration page - Custom CSS - check &ldquo;Enable or disable custo
 <p>Please see and use <a href=https://www.w3schools.com/jquery/jquery_ref_selectors.asp>jQuery selectors</a>.</p>
 </div>
 <div class=td-content style=page-break-before:always>
-<h1 id=pg-d70d83351441d48c021acb48ec7dd49e>3.20 - Upgrade path</h1>
+<h1 id=pg-d70d83351441d48c021acb48ec7dd49e>3.21 - Upgrade path</h1>
 <p>All changes in configurations should be added to appropriate hook_update_N in order to update already existing environments. We suggest to use <a href=https://www.drupal.org/project/confi>https://www.drupal.org/project/confi</a> for working with hook_update_N.</p>
 <h3 id=openyinstall-in-profile><code>openy.install</code> in profile</h3>
 <p>In this file we should put updates that are related to the distribution in general and don&rsquo;t fit into any feature.</p>

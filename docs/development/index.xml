@@ -263,7 +263,15 @@ As an Open Y site developer, I want to be able import posts from company&amp;rsq
 &lt;ul>
 &lt;li>Your site should now use the Cachet font in headers and other areas. Usage is dependent on the Open Y theme you choose.&lt;/li>
 &lt;/ul>
-&lt;p>This content was originally &lt;a href="https://community.openymca.org/t/using-the-latest-2020-cachet-web-fonts-on-your-open-y-or-virtual-y-site/894">published on the Open Y Message Board&lt;/a>.&lt;/p></description></item><item><title>Docs: Google Custom Search Configuration</title><link>/docs/development/googlecustomsearchconfiguration/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/development/googlecustomsearchconfiguration/</guid><description>
+&lt;p>This content was originally &lt;a href="https://community.openymca.org/t/using-the-latest-2020-cachet-web-fonts-on-your-open-y-or-virtual-y-site/894">published on the Open Y Message Board&lt;/a>.&lt;/p></description></item><item><title>Docs: Google Analytics</title><link>/docs/development/google_analytics/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/development/google_analytics/</guid><description>
+&lt;h2 id="introduction">Introduction&lt;/h2>
+&lt;p>Open Y uses the Drupal contrib &lt;a href="https://www.drupal.org/project/google_analytics">Google Analytics module&lt;/a> to enable &lt;a href="https://marketingplatform.google.com/about/analytics/">Google Analytics&lt;/a> tracking on your Open Y site.&lt;/p>
+&lt;p>To get started, you should first create a GA property. Use the &lt;a href="https://support.google.com/analytics/#topic=10737980">Analytics Help&lt;/a> for assistance.&lt;/p>
+&lt;h2 id="configuration">Configuration&lt;/h2>
+&lt;p>Configuration is done at the standard module configuration page: &lt;code>/admin/config/services/google-analytics&lt;/code>.&lt;/p>
+&lt;h3 id="google-analytics-version-compatibility">Google Analytics Version Compatibility&lt;/h3>
+&lt;p>In the &lt;a href="https://github.com/ymcatwincities/openy/releases/tag/9.2.11">9.2.11&lt;/a> release in November 2021, Open Y &lt;a href="https://github.com/ymcatwincities/openy/pull/2400">added support for Google Analytics 4&lt;/a>. If your site has been updated to Open Y 9.2.11 or greater AND the &lt;code>google_analytics&lt;/code> module has been updated to 4.x you should be able to use GA4. Otherwise you&amp;rsquo;ll need to stick with GA3.&lt;/p>
+&lt;p>See this &lt;a href="https://community.openymca.org/t/about-google-analytics-compatibility/917">community post&lt;/a> for more information.&lt;/p></description></item><item><title>Docs: Google Custom Search Configuration</title><link>/docs/development/googlecustomsearchconfiguration/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/development/googlecustomsearchconfiguration/</guid><description>
 &lt;p>The Open Y release &lt;strong>8.2.4&lt;/strong> introduces Google Custom Search for the website out of the box.&lt;/p>
 &lt;h2 id="enabling-the-module">Enabling the module&lt;/h2>
 &lt;h3 id="fresh-installations">Fresh installations&lt;/h3>
