@@ -45,7 +45,7 @@
 </li>
 </ul>
 </div>
-<div class="navbar-nav d-none d-lg-block"><input type=search class="form-control td-search-input" placeholder="&#xf002; Search this site…" aria-label="Search this site…" autocomplete=off data-offline-search-index-json-src=/offline-search-index.403b8b9154f711a78c17dd63c76058e8.json data-offline-search-base-href=/ data-offline-search-max-results=10>
+<div class="navbar-nav d-none d-lg-block"><input type=search class="form-control td-search-input" placeholder="&#xf002; Search this site…" aria-label="Search this site…" autocomplete=off data-offline-search-index-json-src=/offline-search-index.0a1a4b5c5b690aed003334d3ffdc8516.json data-offline-search-base-href=/ data-offline-search-max-results=10>
 </div>
 </nav>
 </header>
@@ -5453,6 +5453,12 @@ composer require drupal/core:~9.0.7
 <li>Edit the &ldquo;Search content&rdquo; index and change the &ldquo;Server&rdquo; field to the newly configured &ldquo;Solr Search&rdquo; index.</li>
 <li>Visit the &ldquo;Search content&rdquo; index and click &ldquo;Index now&rdquo; to re-index the content.</li>
 </ul>
+<h2 id=legacy-solr-support>Legacy Solr Support</h2>
+<p>The contrib <a href=https://www.drupal.org/project/search_api_solr>Search API Solr</a> module supports a broad swath of Solr versions, but occasionally old versions are dropped from support in the main module. If, when enabling Open Y Search API, you encounter errors that your version of Solr is out of date, you may need to enable the [Search API Solr Legacy module](<a href=https://git.drupalcode.org/project/search_api_solr/-/blob/4.x/modules/search_api_solr_legacy/README.md%5D>https://git.drupalcode.org/project/search_api_solr/-/blob/4.x/modules/search_api_solr_legacy/README.md]</a>. As of January 2022, Search API Solr Legacy supports Solr 3.6 through 6.4.</p>
+<p>The error message may look something like this:</p>
+<blockquote>
+<p>Notice: Undefined index: 4.x in Drupal\search_api_solr\Controller\SolrConfigSetController->getConfigFiles()</p>
+</blockquote>
 </div>
 <div class=td-content style=page-break-before:always>
 <h1 id=pg-fe7f101aa30d8661a2ecd3ccac43b716>4.15 - Install SSL certificate for the OpenY site</h1>

@@ -531,7 +531,13 @@ composer require drupal/core:~9.0.7
 &lt;li>Save the server and observe that Search API has successfully connected to your server.&lt;/li>
 &lt;li>Edit the &amp;ldquo;Search content&amp;rdquo; index and change the &amp;ldquo;Server&amp;rdquo; field to the newly configured &amp;ldquo;Solr Search&amp;rdquo; index.&lt;/li>
 &lt;li>Visit the &amp;ldquo;Search content&amp;rdquo; index and click &amp;ldquo;Index now&amp;rdquo; to re-index the content.&lt;/li>
-&lt;/ul></description></item><item><title>Docs: Install SSL certificate for the OpenY site</title><link>/docs/wiki/install-ssl-certificate-for-the-openy-site/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/wiki/install-ssl-certificate-for-the-openy-site/</guid><description>
+&lt;/ul>
+&lt;h2 id="legacy-solr-support">Legacy Solr Support&lt;/h2>
+&lt;p>The contrib &lt;a href="https://www.drupal.org/project/search_api_solr">Search API Solr&lt;/a> module supports a broad swath of Solr versions, but occasionally old versions are dropped from support in the main module. If, when enabling Open Y Search API, you encounter errors that your version of Solr is out of date, you may need to enable the [Search API Solr Legacy module](&lt;a href="https://git.drupalcode.org/project/search_api_solr/-/blob/4.x/modules/search_api_solr_legacy/README.md%5D">https://git.drupalcode.org/project/search_api_solr/-/blob/4.x/modules/search_api_solr_legacy/README.md]&lt;/a>. As of January 2022, Search API Solr Legacy supports Solr 3.6 through 6.4.&lt;/p>
+&lt;p>The error message may look something like this:&lt;/p>
+&lt;blockquote>
+&lt;p>Notice: Undefined index: 4.x in Drupal\search_api_solr\Controller\SolrConfigSetController-&amp;gt;getConfigFiles()&lt;/p>
+&lt;/blockquote></description></item><item><title>Docs: Install SSL certificate for the OpenY site</title><link>/docs/wiki/install-ssl-certificate-for-the-openy-site/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/wiki/install-ssl-certificate-for-the-openy-site/</guid><description>
 &lt;h2 id="web-security-and-open-y">Web Security and Open Y&lt;/h2>
 &lt;p>As many parties have moved to &lt;a href="https://www.eff.org/encrypt-the-web">Encrypt the Web&lt;/a>, &lt;code>https&lt;/code> sites and SSL certificates have shifted from &amp;ldquo;nice to have&amp;rdquo; to necessities.&lt;/p>
 &lt;p>If you&amp;rsquo;re running Open Y on a managed platform you most likely have SSL already configured. If you choose to manage Open Y on your own, you&amp;rsquo;ll have to install a certificate.&lt;/p>
