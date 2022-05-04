@@ -73,8 +73,8 @@ request, on every CI build in the future.&lt;/p>
 &lt;/ol></description></item><item><title>Docs: Composer</title><link>/docs/development/composer/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/development/composer/</guid><description>
 &lt;p>Please always make sure &lt;code>composer.lock&lt;/code> file is updated after any changes in &lt;code>composer.json&lt;/code> file.
 You can use &lt;code>composer update&lt;/code> command to update any package, in this case composer will take care about updating of &lt;code>composer.lock&lt;/code> file.&lt;/p>
-&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-fallback" data-lang="fallback">composer update drupal/metatag
-&lt;/code>&lt;/pre>&lt;/div>&lt;p>Also you can use &lt;code>composer update --lock&lt;/code> command to force updating of &lt;code>composer.lock&lt;/code> file according to dependencies in &lt;code>composer.json&lt;/code>.&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-fallback" data-lang="fallback">&lt;span style="display:flex;">&lt;span>composer update drupal/metatag
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>Also you can use &lt;code>composer update --lock&lt;/code> command to force updating of &lt;code>composer.lock&lt;/code> file according to dependencies in &lt;code>composer.json&lt;/code>.&lt;/p>
 &lt;p>Please check official composer documentation for details: &lt;a href="https://getcomposer.org/doc/01-basic-usage.md">https://getcomposer.org/doc/01-basic-usage.md&lt;/a>&lt;/p></description></item><item><title>Docs: Configuration for social posts import</title><link>/docs/development/configuration-for-social-posts-import/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/development/configuration-for-social-posts-import/</guid><description>
 &lt;p>Add import social posts to site (Facebook, Instagram, Twitter)&lt;/p>
 &lt;h2 id="how-configure-import-of-posts-from-the-social-networks">How configure import of posts from the social networks&lt;/h2>
@@ -144,53 +144,54 @@ As an Open Y site developer, I want to be able import posts from company&amp;rsq
 &lt;p>The Data Layers module output data on the page in a json format. By default it will output properties (langcode, vid, name, uid, created, status, roles) and related taxonomy for any node, user, or any route based entity.&lt;/p>
 &lt;p>A limited set of properties are available via the Data Layers configuration form at &lt;code>/admin/config/search/datalayer&lt;/code> (langcode, vid, name, uid, created, status, roles).&lt;/p>
 &lt;p>Adding additional properties can be done through use of hook_datalayer_meta().&lt;/p>
-&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-php" data-lang="php">&lt;span style="color:#204a87;font-weight:bold">function&lt;/span> &lt;span style="color:#000">my_module_datalayer_meta&lt;/span>&lt;span style="color:#000;font-weight:bold">()&lt;/span> &lt;span style="color:#000;font-weight:bold">{&lt;/span>
-&lt;span style="color:#204a87;font-weight:bold">return&lt;/span> &lt;span style="color:#204a87;font-weight:bold">array&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span>
-&lt;span style="color:#4e9a06">&amp;#39;property&amp;#39;&lt;/span>&lt;span style="color:#000;font-weight:bold">,&lt;/span>
-&lt;span style="color:#000;font-weight:bold">);&lt;/span>
-&lt;span style="color:#000;font-weight:bold">}&lt;/span>
-&lt;/code>&lt;/pre>&lt;/div>&lt;p>It will be added to the page as:&lt;/p>
-&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-json" data-lang="json">&lt;span style="color:#000;font-weight:bold">{&lt;/span>
-&lt;span style="color:#204a87;font-weight:bold">&amp;#34;entityProperty&amp;#34;&lt;/span>&lt;span style="color:#000;font-weight:bold">:&lt;/span> &lt;span style="color:#4e9a06">&amp;#34;whatever the value is&amp;#34;&lt;/span>
-&lt;span style="color:#000;font-weight:bold">}&lt;/span>
-&lt;/code>&lt;/pre>&lt;/div>&lt;p>Altering which properties will be output can be done via hook_datalayer_meta_alter().&lt;/p>
-&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-php" data-lang="php">&lt;span style="color:#204a87;font-weight:bold">function&lt;/span> &lt;span style="color:#000">my_module_datalayer_meta_alter&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">&amp;amp;&lt;/span>&lt;span style="color:#000">$properties&lt;/span>&lt;span style="color:#000;font-weight:bold">)&lt;/span> &lt;span style="color:#000;font-weight:bold">{&lt;/span>
-&lt;span style="color:#8f5902;font-style:italic">// Override module norm in all cases.
-&lt;/span>&lt;span style="color:#8f5902;font-style:italic">&lt;/span> &lt;span style="color:#000">unset&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#000">$properties&lt;/span>&lt;span style="color:#000;font-weight:bold">[&lt;/span>&lt;span style="color:#4e9a06">&amp;#39;entityUid&amp;#39;&lt;/span>&lt;span style="color:#000;font-weight:bold">]);&lt;/span>
-&lt;span style="color:#8f5902;font-style:italic">// Specific situation alteration...
-&lt;/span>&lt;span style="color:#8f5902;font-style:italic">&lt;/span> &lt;span style="color:#000">$type&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">=&lt;/span> &lt;span style="color:#204a87;font-weight:bold">false&lt;/span>&lt;span style="color:#000;font-weight:bold">;&lt;/span>
-&lt;span style="color:#204a87;font-weight:bold">if&lt;/span> &lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#000">$obj&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">=&lt;/span> &lt;span style="color:#000">_datalayer_menu_get_any_object&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#000">$type&lt;/span>&lt;span style="color:#000;font-weight:bold">))&lt;/span> &lt;span style="color:#000;font-weight:bold">{&lt;/span>
-&lt;span style="color:#204a87;font-weight:bold">if&lt;/span> &lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#000">$type&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">===&lt;/span> &lt;span style="color:#4e9a06">&amp;#39;node&amp;#39;&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">&amp;amp;&amp;amp;&lt;/span> &lt;span style="color:#000">in_array&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#204a87;font-weight:bold">array&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#4e9a06">&amp;#39;my_bundle&amp;#39;&lt;/span>&lt;span style="color:#000;font-weight:bold">,&lt;/span> &lt;span style="color:#4e9a06">&amp;#39;my_nodetype&amp;#39;&lt;/span>&lt;span style="color:#000;font-weight:bold">),&lt;/span> &lt;span style="color:#000">$obj&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">-&amp;gt;&lt;/span>&lt;span style="color:#c4a000">type&lt;/span>&lt;span style="color:#000;font-weight:bold">))&lt;/span> &lt;span style="color:#000;font-weight:bold">{&lt;/span>
-&lt;span style="color:#8f5902;font-style:italic">// Remove author names on some content type.
-&lt;/span>&lt;span style="color:#8f5902;font-style:italic">&lt;/span> &lt;span style="color:#204a87;font-weight:bold">if&lt;/span> &lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#000">$key&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">=&lt;/span> &lt;span style="color:#000">array_search&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#4e9a06">&amp;#39;name&amp;#39;&lt;/span>&lt;span style="color:#000;font-weight:bold">,&lt;/span> &lt;span style="color:#000">$properties&lt;/span>&lt;span style="color:#000;font-weight:bold">))&lt;/span> &lt;span style="color:#000;font-weight:bold">{&lt;/span>
-&lt;span style="color:#000">unset&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#000">$properties&lt;/span>&lt;span style="color:#000;font-weight:bold">[&lt;/span>&lt;span style="color:#000">$key&lt;/span>&lt;span style="color:#000;font-weight:bold">]);&lt;/span>
-&lt;span style="color:#000;font-weight:bold">}&lt;/span>
-&lt;span style="color:#000;font-weight:bold">}&lt;/span>
-&lt;span style="color:#204a87;font-weight:bold">elseif&lt;/span> &lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#000">$type&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">===&lt;/span> &lt;span style="color:#4e9a06">&amp;#39;my_entity_type&amp;#39;&lt;/span>&lt;span style="color:#000;font-weight:bold">)&lt;/span> &lt;span style="color:#000;font-weight:bold">{&lt;/span>
-&lt;span style="color:#8f5902;font-style:italic">// Remove some property on some entity type.
-&lt;/span>&lt;span style="color:#8f5902;font-style:italic">&lt;/span> &lt;span style="color:#204a87;font-weight:bold">if&lt;/span> &lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#000">$key&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">=&lt;/span> &lt;span style="color:#000">array_search&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#4e9a06">&amp;#39;my_property&amp;#39;&lt;/span>&lt;span style="color:#000;font-weight:bold">,&lt;/span> &lt;span style="color:#000">$properties&lt;/span>&lt;span style="color:#000;font-weight:bold">))&lt;/span> &lt;span style="color:#000;font-weight:bold">{&lt;/span>
-&lt;span style="color:#000">unset&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#000">$properties&lt;/span>&lt;span style="color:#000;font-weight:bold">[&lt;/span>&lt;span style="color:#000">$key&lt;/span>&lt;span style="color:#000;font-weight:bold">]);&lt;/span>
-&lt;span style="color:#000;font-weight:bold">}&lt;/span>
-&lt;span style="color:#000;font-weight:bold">}&lt;/span>
-&lt;span style="color:#000;font-weight:bold">}&lt;/span>
-&lt;span style="color:#000;font-weight:bold">}&lt;/span>
-&lt;/code>&lt;/pre>&lt;/div>&lt;p>Adding additional data can be done using datalayer_add().&lt;/p>
-&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-php" data-lang="php">&lt;span style="color:#204a87;font-weight:bold">function&lt;/span> &lt;span style="color:#000">_my_module_myevent_func&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#000">$argument&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">=&lt;/span> &lt;span style="color:#204a87;font-weight:bold">FALSE&lt;/span>&lt;span style="color:#000;font-weight:bold">)&lt;/span> &lt;span style="color:#000;font-weight:bold">{&lt;/span>
-&lt;span style="color:#204a87;font-weight:bold">if&lt;/span> &lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#000">$argument&lt;/span>&lt;span style="color:#000;font-weight:bold">)&lt;/span> &lt;span style="color:#000;font-weight:bold">{&lt;/span>
-&lt;span style="color:#000">datalayer_add&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#204a87;font-weight:bold">array&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span>
-&lt;span style="color:#4e9a06">&amp;#39;drupalMyProperty&amp;#39;&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">=&amp;gt;&lt;/span> &lt;span style="color:#000">$argument&lt;/span>&lt;span style="color:#000;font-weight:bold">,&lt;/span>
-&lt;span style="color:#4e9a06">&amp;#39;userAnotherProperty&amp;#39;&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">=&amp;gt;&lt;/span> &lt;span style="color:#000">_my_module_other_funct&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#000">$argument&lt;/span>&lt;span style="color:#000;font-weight:bold">),&lt;/span>
-&lt;span style="color:#000;font-weight:bold">));&lt;/span>
-&lt;span style="color:#000;font-weight:bold">}&lt;/span>
-&lt;span style="color:#000;font-weight:bold">}&lt;/span>
-&lt;/code>&lt;/pre>&lt;/div>&lt;p>To alter the data to be output use hook_datalayer_alter().&lt;/p>
-&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-php" data-lang="php">&lt;span style="color:#204a87;font-weight:bold">function&lt;/span> &lt;span style="color:#000">my_module_datalayer_alter&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">&amp;amp;&lt;/span>&lt;span style="color:#000">$data_layer&lt;/span>&lt;span style="color:#000;font-weight:bold">)&lt;/span> &lt;span style="color:#000;font-weight:bold">{&lt;/span>
-&lt;span style="color:#8f5902;font-style:italic">// Make the title lowercase on some node type.
-&lt;/span>&lt;span style="color:#8f5902;font-style:italic">&lt;/span> &lt;span style="color:#204a87;font-weight:bold">if&lt;/span> &lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#000">isset&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#000">$data_layer&lt;/span>&lt;span style="color:#000;font-weight:bold">[&lt;/span>&lt;span style="color:#4e9a06">&amp;#39;entityBundle&amp;#39;&lt;/span>&lt;span style="color:#000;font-weight:bold">])&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">&amp;amp;&amp;amp;&lt;/span> &lt;span style="color:#000">$data_layer&lt;/span>&lt;span style="color:#000;font-weight:bold">[&lt;/span>&lt;span style="color:#4e9a06">&amp;#39;entityBundle&amp;#39;&lt;/span>&lt;span style="color:#000;font-weight:bold">]&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">==&lt;/span> &lt;span style="color:#4e9a06">&amp;#39;mytype&amp;#39;&lt;/span>&lt;span style="color:#000;font-weight:bold">)&lt;/span> &lt;span style="color:#000;font-weight:bold">{&lt;/span>
-&lt;span style="color:#000">$data_layer&lt;/span>&lt;span style="color:#000;font-weight:bold">[&lt;/span>&lt;span style="color:#4e9a06">&amp;#39;entityLabel&amp;#39;&lt;/span>&lt;span style="color:#000;font-weight:bold">]&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">=&lt;/span> &lt;span style="color:#000">strtolower&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#000">$data_layer&lt;/span>&lt;span style="color:#000;font-weight:bold">[&lt;/span>&lt;span style="color:#4e9a06">&amp;#39;entityLabel&amp;#39;&lt;/span>&lt;span style="color:#000;font-weight:bold">]);&lt;/span>
-&lt;span style="color:#000;font-weight:bold">}&lt;/span>
-&lt;span style="color:#000;font-weight:bold">}&lt;/span>
-&lt;/code>&lt;/pre>&lt;/div></description></item><item><title>Docs: Daxko</title><link>/docs/development/daxko/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/development/daxko/</guid><description>
+&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-php" data-lang="php">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#204a87;font-weight:bold">function&lt;/span> &lt;span style="color:#000">my_module_datalayer_meta&lt;/span>&lt;span style="color:#000;font-weight:bold">()&lt;/span> &lt;span style="color:#000;font-weight:bold">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#204a87;font-weight:bold">return&lt;/span> &lt;span style="color:#204a87;font-weight:bold">array&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#4e9a06">&amp;#39;property&amp;#39;&lt;/span>&lt;span style="color:#000;font-weight:bold">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#000;font-weight:bold">);&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#000;font-weight:bold">}&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>It will be added to the page as:&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-json" data-lang="json">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#000;font-weight:bold">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#204a87;font-weight:bold">&amp;#34;entityProperty&amp;#34;&lt;/span>&lt;span style="color:#000;font-weight:bold">:&lt;/span> &lt;span style="color:#4e9a06">&amp;#34;whatever the value is&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#000;font-weight:bold">}&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>Altering which properties will be output can be done via hook_datalayer_meta_alter().&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-php" data-lang="php">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#204a87;font-weight:bold">function&lt;/span> &lt;span style="color:#000">my_module_datalayer_meta_alter&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">&amp;amp;&lt;/span>&lt;span style="color:#000">$properties&lt;/span>&lt;span style="color:#000;font-weight:bold">)&lt;/span> &lt;span style="color:#000;font-weight:bold">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#8f5902;font-style:italic">// Override module norm in all cases.
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#8f5902;font-style:italic">&lt;/span> &lt;span style="color:#000">unset&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#000">$properties&lt;/span>&lt;span style="color:#000;font-weight:bold">[&lt;/span>&lt;span style="color:#4e9a06">&amp;#39;entityUid&amp;#39;&lt;/span>&lt;span style="color:#000;font-weight:bold">]);&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#8f5902;font-style:italic">// Specific situation alteration...
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#8f5902;font-style:italic">&lt;/span> &lt;span style="color:#000">$type&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">=&lt;/span> &lt;span style="color:#204a87;font-weight:bold">false&lt;/span>&lt;span style="color:#000;font-weight:bold">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#204a87;font-weight:bold">if&lt;/span> &lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#000">$obj&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">=&lt;/span> &lt;span style="color:#000">_datalayer_menu_get_any_object&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#000">$type&lt;/span>&lt;span style="color:#000;font-weight:bold">))&lt;/span> &lt;span style="color:#000;font-weight:bold">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#204a87;font-weight:bold">if&lt;/span> &lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#000">$type&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">===&lt;/span> &lt;span style="color:#4e9a06">&amp;#39;node&amp;#39;&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">&amp;amp;&amp;amp;&lt;/span> &lt;span style="color:#000">in_array&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#204a87;font-weight:bold">array&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#4e9a06">&amp;#39;my_bundle&amp;#39;&lt;/span>&lt;span style="color:#000;font-weight:bold">,&lt;/span> &lt;span style="color:#4e9a06">&amp;#39;my_nodetype&amp;#39;&lt;/span>&lt;span style="color:#000;font-weight:bold">),&lt;/span> &lt;span style="color:#000">$obj&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">-&amp;gt;&lt;/span>&lt;span style="color:#c4a000">type&lt;/span>&lt;span style="color:#000;font-weight:bold">))&lt;/span> &lt;span style="color:#000;font-weight:bold">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#8f5902;font-style:italic">// Remove author names on some content type.
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#8f5902;font-style:italic">&lt;/span> &lt;span style="color:#204a87;font-weight:bold">if&lt;/span> &lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#000">$key&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">=&lt;/span> &lt;span style="color:#000">array_search&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#4e9a06">&amp;#39;name&amp;#39;&lt;/span>&lt;span style="color:#000;font-weight:bold">,&lt;/span> &lt;span style="color:#000">$properties&lt;/span>&lt;span style="color:#000;font-weight:bold">))&lt;/span> &lt;span style="color:#000;font-weight:bold">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#000">unset&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#000">$properties&lt;/span>&lt;span style="color:#000;font-weight:bold">[&lt;/span>&lt;span style="color:#000">$key&lt;/span>&lt;span style="color:#000;font-weight:bold">]);&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#000;font-weight:bold">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#000;font-weight:bold">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#204a87;font-weight:bold">elseif&lt;/span> &lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#000">$type&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">===&lt;/span> &lt;span style="color:#4e9a06">&amp;#39;my_entity_type&amp;#39;&lt;/span>&lt;span style="color:#000;font-weight:bold">)&lt;/span> &lt;span style="color:#000;font-weight:bold">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#8f5902;font-style:italic">// Remove some property on some entity type.
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#8f5902;font-style:italic">&lt;/span> &lt;span style="color:#204a87;font-weight:bold">if&lt;/span> &lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#000">$key&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">=&lt;/span> &lt;span style="color:#000">array_search&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#4e9a06">&amp;#39;my_property&amp;#39;&lt;/span>&lt;span style="color:#000;font-weight:bold">,&lt;/span> &lt;span style="color:#000">$properties&lt;/span>&lt;span style="color:#000;font-weight:bold">))&lt;/span> &lt;span style="color:#000;font-weight:bold">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#000">unset&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#000">$properties&lt;/span>&lt;span style="color:#000;font-weight:bold">[&lt;/span>&lt;span style="color:#000">$key&lt;/span>&lt;span style="color:#000;font-weight:bold">]);&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#000;font-weight:bold">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#000;font-weight:bold">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#000;font-weight:bold">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#000;font-weight:bold">}&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>Adding additional data can be done using datalayer_add().&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-php" data-lang="php">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#204a87;font-weight:bold">function&lt;/span> &lt;span style="color:#000">_my_module_myevent_func&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#000">$argument&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">=&lt;/span> &lt;span style="color:#204a87;font-weight:bold">FALSE&lt;/span>&lt;span style="color:#000;font-weight:bold">)&lt;/span> &lt;span style="color:#000;font-weight:bold">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#204a87;font-weight:bold">if&lt;/span> &lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#000">$argument&lt;/span>&lt;span style="color:#000;font-weight:bold">)&lt;/span> &lt;span style="color:#000;font-weight:bold">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#000">datalayer_add&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#204a87;font-weight:bold">array&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#4e9a06">&amp;#39;drupalMyProperty&amp;#39;&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">=&amp;gt;&lt;/span> &lt;span style="color:#000">$argument&lt;/span>&lt;span style="color:#000;font-weight:bold">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#4e9a06">&amp;#39;userAnotherProperty&amp;#39;&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">=&amp;gt;&lt;/span> &lt;span style="color:#000">_my_module_other_funct&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#000">$argument&lt;/span>&lt;span style="color:#000;font-weight:bold">),&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#000;font-weight:bold">));&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#000;font-weight:bold">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#000;font-weight:bold">}&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>To alter the data to be output use hook_datalayer_alter().&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-php" data-lang="php">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#204a87;font-weight:bold">function&lt;/span> &lt;span style="color:#000">my_module_datalayer_alter&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">&amp;amp;&lt;/span>&lt;span style="color:#000">$data_layer&lt;/span>&lt;span style="color:#000;font-weight:bold">)&lt;/span> &lt;span style="color:#000;font-weight:bold">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#8f5902;font-style:italic">// Make the title lowercase on some node type.
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#8f5902;font-style:italic">&lt;/span> &lt;span style="color:#204a87;font-weight:bold">if&lt;/span> &lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#000">isset&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#000">$data_layer&lt;/span>&lt;span style="color:#000;font-weight:bold">[&lt;/span>&lt;span style="color:#4e9a06">&amp;#39;entityBundle&amp;#39;&lt;/span>&lt;span style="color:#000;font-weight:bold">])&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">&amp;amp;&amp;amp;&lt;/span> &lt;span style="color:#000">$data_layer&lt;/span>&lt;span style="color:#000;font-weight:bold">[&lt;/span>&lt;span style="color:#4e9a06">&amp;#39;entityBundle&amp;#39;&lt;/span>&lt;span style="color:#000;font-weight:bold">]&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">==&lt;/span> &lt;span style="color:#4e9a06">&amp;#39;mytype&amp;#39;&lt;/span>&lt;span style="color:#000;font-weight:bold">)&lt;/span> &lt;span style="color:#000;font-weight:bold">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#000">$data_layer&lt;/span>&lt;span style="color:#000;font-weight:bold">[&lt;/span>&lt;span style="color:#4e9a06">&amp;#39;entityLabel&amp;#39;&lt;/span>&lt;span style="color:#000;font-weight:bold">]&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">=&lt;/span> &lt;span style="color:#000">strtolower&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#000">$data_layer&lt;/span>&lt;span style="color:#000;font-weight:bold">[&lt;/span>&lt;span style="color:#4e9a06">&amp;#39;entityLabel&amp;#39;&lt;/span>&lt;span style="color:#000;font-weight:bold">]);&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#000;font-weight:bold">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#000;font-weight:bold">}&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div></description></item><item><title>Docs: Daxko</title><link>/docs/development/daxko/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/development/daxko/</guid><description>
 &lt;p>Relates to: &lt;a href="/docs/content-structure/paragraphs/program-registration-daxko/">Program Registration (Daxko)&lt;/a>&lt;/p>
 &lt;p>Configuration setting at &lt;code>/admin/config/development/daxko&lt;/code>&lt;/p>
 &lt;p>Account configuration must be setup before the Program Registration paragraph will work.&lt;/p></description></item><item><title>Docs: Fonts</title><link>/docs/development/fonts/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/development/fonts/</guid><description>
@@ -357,28 +358,28 @@ Upon installation, the modules create a Landing page for search results and poin
 &lt;p>&lt;a href="https://developers.google.com/custom-search/docs/overview">Google Custom Search Developers documentation &lt;/a>&lt;/p>
 &lt;h3 id="enabling-via-drush">Enabling via Drush&lt;/h3>
 &lt;p>Use the following snippet to enable the package on existing websites:&lt;/p>
-&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-fallback" data-lang="fallback">drush en openy_google_search
-&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="configuring-the-module-via-drush">Configuring the module via Drush&lt;/h3>
+&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-fallback" data-lang="fallback">&lt;span style="display:flex;">&lt;span>drush en openy_google_search
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="configuring-the-module-via-drush">Configuring the module via Drush&lt;/h3>
 &lt;p>Use the following snippet when you install Open Y via Drush to set the Search Engine ID:&lt;/p>
-&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-fallback" data-lang="fallback">drush site-install openy \
---account-pass=password \
---db-url=&amp;#34;mysql://user:pass@host:3306/db&amp;#34; \
---root=/var/www/docroot \
-openy_configure_profile.preset=extended \
-openy_theme_select.theme=openy_rose \
-openy_third_party_services.google_search_engine_id=&amp;#34;01234567890123456789:abcedefgh&amp;#34;
-&lt;/code>&lt;/pre>&lt;/div>&lt;p>The &lt;code>openy_third_party_services.google_search_engine_id&lt;/code> parameter sets the Search Engine ID (&lt;code>01234567890123456789:abcedefgh&lt;/code> in the example).&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-fallback" data-lang="fallback">&lt;span style="display:flex;">&lt;span>drush site-install openy \
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> --account-pass=password \
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> --db-url=&amp;#34;mysql://user:pass@host:3306/db&amp;#34; \
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> --root=/var/www/docroot \
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> openy_configure_profile.preset=extended \
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> openy_theme_select.theme=openy_rose \
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> openy_third_party_services.google_search_engine_id=&amp;#34;01234567890123456789:abcedefgh&amp;#34;
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>The &lt;code>openy_third_party_services.google_search_engine_id&lt;/code> parameter sets the Search Engine ID (&lt;code>01234567890123456789:abcedefgh&lt;/code> in the example).&lt;/p>
 &lt;p>Use the following snippet to set the Search Engine ID on already installed websites:&lt;/p>
-&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-fallback" data-lang="fallback">drush config-set openy_google_search.settings google_engine_id &amp;#34;01234567890123456789:abcedefgh&amp;#34;
-&lt;/code>&lt;/pre>&lt;/div></description></item><item><title>Docs: Installation With Drush</title><link>/docs/development/installationwithdrush/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/development/installationwithdrush/</guid><description>
+&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-fallback" data-lang="fallback">&lt;span style="display:flex;">&lt;span>drush config-set openy_google_search.settings google_engine_id &amp;#34;01234567890123456789:abcedefgh&amp;#34;
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div></description></item><item><title>Docs: Installation With Drush</title><link>/docs/development/installationwithdrush/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/development/installationwithdrush/</guid><description>
 &lt;p>Use &lt;a href="https://drushcommands.com/drush-8x/core/site-install/">drush site-install&lt;/a> command.&lt;/p>
 &lt;p>Basically you use something like this:&lt;/p>
-&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-fallback" data-lang="fallback">drush site-install openy --account-pass=password --db-url=&amp;#34;mysql://user:pass@host:3306/db&amp;#34; --root=/var/www/docroot
-&lt;/code>&lt;/pre>&lt;/div>&lt;p>Complete Open Y profile preset and Open Y Rose theme is used in this case.&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-fallback" data-lang="fallback">&lt;span style="display:flex;">&lt;span>drush site-install openy --account-pass=password --db-url=&amp;#34;mysql://user:pass@host:3306/db&amp;#34; --root=/var/www/docroot
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>Complete Open Y profile preset and Open Y Rose theme is used in this case.&lt;/p>
 &lt;p>You can set which preset must be installed by specifying it with &lt;code>openy_configure_profile.preset&lt;/code> variable, and theme with
 &lt;code>openy_theme_select.theme&lt;/code>variable e.g.:&lt;/p>
-&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-fallback" data-lang="fallback">drush site-install openy --account-pass=password --db-url=&amp;#34;mysql://user:pass@host:3306/db&amp;#34; --root=/var/www/docroot openy_configure_profile.preset=extended openy_theme_select.theme=openy_rose
-&lt;/code>&lt;/pre>&lt;/div></description></item><item><title>Docs: Module Development</title><link>/docs/development/module-develompent/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/development/module-develompent/</guid><description>
+&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-fallback" data-lang="fallback">&lt;span style="display:flex;">&lt;span>drush site-install openy --account-pass=password --db-url=&amp;#34;mysql://user:pass@host:3306/db&amp;#34; --root=/var/www/docroot openy_configure_profile.preset=extended openy_theme_select.theme=openy_rose
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div></description></item><item><title>Docs: Module Development</title><link>/docs/development/module-develompent/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/development/module-develompent/</guid><description>
 &lt;h3 id="module-content-removal">Module content removal&lt;/h3>
 &lt;p>When deleting an entity, where plugins or services of removing module are used,
 then content removal should be done in the hook_uninstall() of that module.
@@ -399,26 +400,26 @@ and you have configured &lt;code>composer.json&lt;/code> you need just to do a f
 &lt;ol>
 &lt;li>
 &lt;p>Build a link to a patch using pull request ID&lt;/p>
-&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-fallback" data-lang="fallback">https://patch-diff.githubusercontent.com/raw/ymcatwincities/openy/pull/XXX.patch
-&lt;/code>&lt;/pre>&lt;/div>&lt;/li>
+&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-fallback" data-lang="fallback">&lt;span style="display:flex;">&lt;span>https://patch-diff.githubusercontent.com/raw/ymcatwincities/openy/pull/XXX.patch
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;/li>
 &lt;/ol>
 &lt;p>Where XXX is a number of pull request you want to use.&lt;/p>
 &lt;ol start="2">
 &lt;li>
 &lt;p>Add a new section &lt;code>patches&lt;/code> to the section &lt;code>extra&lt;/code> and add a patch to Open Y
 repository, as on this example:&lt;/p>
-&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-fallback" data-lang="fallback">&amp;#34;extra&amp;#34;: {
-&amp;#34;installer-paths&amp;#34;: {
-...
-},
-&amp;#34;enable-patching&amp;#34;: true,
-&amp;#34;patches&amp;#34;: {
-&amp;#34;ymcatwincities/openy&amp;#34;: {
-&amp;#34;Patch description&amp;#34;: &amp;#34;https://patch-diff.githubusercontent.com/raw/ymcatwincities/openy/pull/XXX.patch&amp;#34;
-}
-}
-}
-&lt;/code>&lt;/pre>&lt;/div>&lt;/li>
+&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-fallback" data-lang="fallback">&lt;span style="display:flex;">&lt;span>&amp;#34;extra&amp;#34;: {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;#34;installer-paths&amp;#34;: {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> ...
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> },
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;#34;enable-patching&amp;#34;: true,
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;#34;patches&amp;#34;: {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;#34;ymcatwincities/openy&amp;#34;: {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;#34;Patch description&amp;#34;: &amp;#34;https://patch-diff.githubusercontent.com/raw/ymcatwincities/openy/pull/XXX.patch&amp;#34;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> }
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> }
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>}
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;/li>
 &lt;li>
 &lt;p>After adding a patch execute command &lt;code>composer update&lt;/code>&lt;/p>
 &lt;/li>
@@ -520,192 +521,192 @@ repository, as on this example:&lt;/p>
 &lt;p>Please take a look at the full &lt;code>composer.json&lt;/code> file below that you should eventually get.&lt;/p>
 &lt;details>
  &lt;summary>&lt;strong>Example composer.json (Drupal 8.3.2 + Open Y 1.2)&lt;/strong>&lt;/summary>
-&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-fallback" data-lang="fallback">{
-&amp;#34;name&amp;#34;: &amp;#34;drupal/drupal&amp;#34;,
-&amp;#34;description&amp;#34;: &amp;#34;Drupal is an open source content management platform powering millions of websites and applications.&amp;#34;,
-&amp;#34;type&amp;#34;: &amp;#34;project&amp;#34;,
-&amp;#34;license&amp;#34;: &amp;#34;GPL-2.0+&amp;#34;,
-&amp;#34;require&amp;#34;: {
-&amp;#34;composer/installers&amp;#34;: &amp;#34;^1.0.24&amp;#34;,
-&amp;#34;wikimedia/composer-merge-plugin&amp;#34;: &amp;#34;~1.4&amp;#34;,
-&amp;#34;ymcatwincities/openy&amp;#34;: &amp;#34;8.*.*&amp;#34;,
-&amp;#34;cweagans/composer-patches&amp;#34;: &amp;#34;~1.0&amp;#34;
-},
-&amp;#34;minimum-stability&amp;#34;: &amp;#34;dev&amp;#34;,
-&amp;#34;prefer-stable&amp;#34;: true,
-&amp;#34;config&amp;#34;: {
-&amp;#34;preferred-install&amp;#34;: &amp;#34;dist&amp;#34;,
-&amp;#34;autoloader-suffix&amp;#34;: &amp;#34;Drupal8&amp;#34;,
-&amp;#34;secure-http&amp;#34;: false
-},
-&amp;#34;extra&amp;#34;: {
-&amp;#34;_readme&amp;#34;: [
-&amp;#34;By default Drupal loads the autoloader from ./vendor/autoload.php.&amp;#34;,
-&amp;#34;To change the autoloader you can edit ./autoload.php.&amp;#34;,
-&amp;#34;This file specifies the packages.drupal.org repository.&amp;#34;,
-&amp;#34;You can read more about this composer repository at:&amp;#34;,
-&amp;#34;https://www.drupal.org/node/2718229&amp;#34;
-],
-&amp;#34;merge-plugin&amp;#34;: {
-&amp;#34;include&amp;#34;: [
-&amp;#34;core/composer.json&amp;#34;
-],
-&amp;#34;recurse&amp;#34;: false,
-&amp;#34;replace&amp;#34;: false,
-&amp;#34;merge-extra&amp;#34;: false
-},
-&amp;#34;installer-paths&amp;#34;: {
-&amp;#34;core&amp;#34;: [&amp;#34;type:drupal-core&amp;#34;],
-&amp;#34;libraries/{$name}&amp;#34;: [&amp;#34;type:drupal-library&amp;#34;],
-&amp;#34;modules/contrib/{$name}&amp;#34;: [&amp;#34;type:drupal-module&amp;#34;],
-&amp;#34;profiles/contrib/{$name}&amp;#34;: [&amp;#34;type:drupal-profile&amp;#34;],
-&amp;#34;themes/contrib/{$name}&amp;#34;: [&amp;#34;type:drupal-theme&amp;#34;],
-&amp;#34;drush/contrib/{$name}&amp;#34;: [&amp;#34;type:drupal-drush&amp;#34;],
-&amp;#34;modules/custom/{$name}&amp;#34;: [&amp;#34;type:drupal-custom-module&amp;#34;],
-&amp;#34;themes/custom/{$name}&amp;#34;: [&amp;#34;type:drupal-custom-theme&amp;#34;]
-},
-&amp;#34;enable-patching&amp;#34;: true
-},
-&amp;#34;autoload&amp;#34;: {
-&amp;#34;psr-4&amp;#34;: {
-&amp;#34;Drupal\Core\Composer\&amp;#34;: &amp;#34;core/lib/Drupal/Core/Composer&amp;#34;
-}
-},
-&amp;#34;scripts&amp;#34;: {
-&amp;#34;pre-autoload-dump&amp;#34;: &amp;#34;Drupal\Core\Composer\Composer::preAutoloadDump&amp;#34;,
-&amp;#34;post-autoload-dump&amp;#34;: [
-&amp;#34;Drupal\Core\Composer\Composer::ensureHtaccess&amp;#34;
-],
-&amp;#34;post-package-install&amp;#34;: &amp;#34;Drupal\Core\Composer\Composer::vendorTestCodeCleanup&amp;#34;,
-&amp;#34;post-package-update&amp;#34;: &amp;#34;Drupal\Core\Composer\Composer::vendorTestCodeCleanup&amp;#34;,
-&amp;#34;post-install-cmd&amp;#34;: [
-&amp;#34;bash scripts/remove_vendor_git_folders.sh || :&amp;#34;
-],
-&amp;#34;post-update-cmd&amp;#34;: [
-&amp;#34;bash scripts/remove_vendor_git_folders.sh || :&amp;#34;
-]
-},
-&amp;#34;repositories&amp;#34;: [
-{
-&amp;#34;type&amp;#34;: &amp;#34;composer&amp;#34;,
-&amp;#34;url&amp;#34;: &amp;#34;https://packages.drupal.org/8&amp;#34;
-},
-{
-&amp;#34;type&amp;#34;: &amp;#34;package&amp;#34;,
-&amp;#34;package&amp;#34;: {
-&amp;#34;name&amp;#34;: &amp;#34;library-kenwheeler/slick&amp;#34;,
-&amp;#34;version&amp;#34;: &amp;#34;1.6.0&amp;#34;,
-&amp;#34;type&amp;#34;: &amp;#34;drupal-library&amp;#34;,
-&amp;#34;source&amp;#34;: {
-&amp;#34;url&amp;#34;: &amp;#34;https://github.com/kenwheeler/slick&amp;#34;,
-&amp;#34;type&amp;#34;: &amp;#34;git&amp;#34;,
-&amp;#34;reference&amp;#34;: &amp;#34;1.6.0&amp;#34;
-}
-}
-},
-{
-&amp;#34;type&amp;#34;: &amp;#34;package&amp;#34;,
-&amp;#34;package&amp;#34;: {
-&amp;#34;name&amp;#34;: &amp;#34;library-dinbror/blazy&amp;#34;,
-&amp;#34;version&amp;#34;: &amp;#34;1.8.2&amp;#34;,
-&amp;#34;type&amp;#34;: &amp;#34;drupal-library&amp;#34;,
-&amp;#34;source&amp;#34;: {
-&amp;#34;url&amp;#34;: &amp;#34;https://github.com/dinbror/blazy&amp;#34;,
-&amp;#34;type&amp;#34;: &amp;#34;git&amp;#34;,
-&amp;#34;reference&amp;#34;: &amp;#34;1.8.2&amp;#34;
-}
-}
-},
-{
-&amp;#34;type&amp;#34;: &amp;#34;package&amp;#34;,
-&amp;#34;package&amp;#34;: {
-&amp;#34;name&amp;#34;: &amp;#34;library-gdsmith/jquery.easing&amp;#34;,
-&amp;#34;version&amp;#34;: &amp;#34;1.4.1&amp;#34;,
-&amp;#34;type&amp;#34;: &amp;#34;drupal-library&amp;#34;,
-&amp;#34;source&amp;#34;: {
-&amp;#34;url&amp;#34;: &amp;#34;https://github.com/gdsmith/jquery.easing&amp;#34;,
-&amp;#34;type&amp;#34;: &amp;#34;git&amp;#34;,
-&amp;#34;reference&amp;#34;: &amp;#34;1.4.1&amp;#34;
-}
-}
-},
-{
-&amp;#34;type&amp;#34;: &amp;#34;package&amp;#34;,
-&amp;#34;package&amp;#34;: {
-&amp;#34;name&amp;#34;: &amp;#34;library-enyo/dropzone&amp;#34;,
-&amp;#34;version&amp;#34;: &amp;#34;4.3.0&amp;#34;,
-&amp;#34;type&amp;#34;: &amp;#34;drupal-library&amp;#34;,
-&amp;#34;source&amp;#34;: {
-&amp;#34;url&amp;#34;: &amp;#34;https://github.com/enyo/dropzone&amp;#34;,
-&amp;#34;type&amp;#34;: &amp;#34;git&amp;#34;,
-&amp;#34;reference&amp;#34;: &amp;#34;v4.3.0&amp;#34;
-}
-}
-},
-{
-&amp;#34;type&amp;#34;: &amp;#34;package&amp;#34;,
-&amp;#34;package&amp;#34;: {
-&amp;#34;name&amp;#34;: &amp;#34;library-jaypan/jquery_colorpicker&amp;#34;,
-&amp;#34;version&amp;#34;: &amp;#34;1.0.1&amp;#34;,
-&amp;#34;type&amp;#34;: &amp;#34;drupal-library&amp;#34;,
-&amp;#34;source&amp;#34;: {
-&amp;#34;url&amp;#34;: &amp;#34;https://github.com/jaypan/jquery_colorpicker&amp;#34;,
-&amp;#34;type&amp;#34;: &amp;#34;git&amp;#34;,
-&amp;#34;reference&amp;#34;: &amp;#34;da978ae124c57817021b3166a31881876882f5f9&amp;#34;
-}
-}
-},
-{
-&amp;#34;type&amp;#34;: &amp;#34;package&amp;#34;,
-&amp;#34;package&amp;#34;: {
-&amp;#34;name&amp;#34;: &amp;#34;library-ckeditor/panelbutton&amp;#34;,
-&amp;#34;version&amp;#34;: &amp;#34;4.7.0&amp;#34;,
-&amp;#34;type&amp;#34;: &amp;#34;drupal-library&amp;#34;,
-&amp;#34;dist&amp;#34;: {
-&amp;#34;url&amp;#34;: &amp;#34;http://download.ckeditor.com/panelbutton/releases/panelbutton_4.7.0.zip&amp;#34;,
-&amp;#34;type&amp;#34;: &amp;#34;zip&amp;#34;
-}
-}
-},
-{
-&amp;#34;type&amp;#34;: &amp;#34;package&amp;#34;,
-&amp;#34;package&amp;#34;: {
-&amp;#34;name&amp;#34;: &amp;#34;library-ckeditor/colorbutton&amp;#34;,
-&amp;#34;version&amp;#34;: &amp;#34;4.7.0&amp;#34;,
-&amp;#34;type&amp;#34;: &amp;#34;drupal-library&amp;#34;,
-&amp;#34;dist&amp;#34;: {
-&amp;#34;url&amp;#34;: &amp;#34;http://download.ckeditor.com/colorbutton/releases/colorbutton_4.7.0.zip&amp;#34;,
-&amp;#34;type&amp;#34;: &amp;#34;zip&amp;#34;
-}
-}
-},
-{
-&amp;#34;type&amp;#34;: &amp;#34;package&amp;#34;,
-&amp;#34;package&amp;#34;: {
-&amp;#34;name&amp;#34;: &amp;#34;library-ckeditor/colordialog&amp;#34;,
-&amp;#34;version&amp;#34;: &amp;#34;4.7.0&amp;#34;,
-&amp;#34;type&amp;#34;: &amp;#34;drupal-library&amp;#34;,
-&amp;#34;dist&amp;#34;: {
-&amp;#34;url&amp;#34;: &amp;#34;http://download.ckeditor.com/colordialog/releases/colordialog_4.7.0.zip&amp;#34;,
-&amp;#34;type&amp;#34;: &amp;#34;zip&amp;#34;
-}
-}
-},
-{
-&amp;#34;type&amp;#34;: &amp;#34;package&amp;#34;,
-&amp;#34;package&amp;#34;: {
-&amp;#34;name&amp;#34;: &amp;#34;library-ckeditor/glyphicons&amp;#34;,
-&amp;#34;version&amp;#34;: &amp;#34;2.2&amp;#34;,
-&amp;#34;type&amp;#34;: &amp;#34;drupal-library&amp;#34;,
-&amp;#34;dist&amp;#34;: {
-&amp;#34;url&amp;#34;: &amp;#34;http://download.ckeditor.com/glyphicons/releases/glyphicons_2.2.zip&amp;#34;,
-&amp;#34;type&amp;#34;: &amp;#34;zip&amp;#34;
-}
-}
-}
-]
-}
-&lt;/code>&lt;/pre>&lt;/div>&lt;/details>
+&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-fallback" data-lang="fallback">&lt;span style="display:flex;">&lt;span>{
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;#34;name&amp;#34;: &amp;#34;drupal/drupal&amp;#34;,
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;#34;description&amp;#34;: &amp;#34;Drupal is an open source content management platform powering millions of websites and applications.&amp;#34;,
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;#34;type&amp;#34;: &amp;#34;project&amp;#34;,
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;#34;license&amp;#34;: &amp;#34;GPL-2.0+&amp;#34;,
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;#34;require&amp;#34;: {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;#34;composer/installers&amp;#34;: &amp;#34;^1.0.24&amp;#34;,
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;#34;wikimedia/composer-merge-plugin&amp;#34;: &amp;#34;~1.4&amp;#34;,
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;#34;ymcatwincities/openy&amp;#34;: &amp;#34;8.*.*&amp;#34;,
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;#34;cweagans/composer-patches&amp;#34;: &amp;#34;~1.0&amp;#34;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> },
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;#34;minimum-stability&amp;#34;: &amp;#34;dev&amp;#34;,
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;#34;prefer-stable&amp;#34;: true,
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;#34;config&amp;#34;: {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;#34;preferred-install&amp;#34;: &amp;#34;dist&amp;#34;,
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;#34;autoloader-suffix&amp;#34;: &amp;#34;Drupal8&amp;#34;,
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;#34;secure-http&amp;#34;: false
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> },
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;#34;extra&amp;#34;: {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;#34;_readme&amp;#34;: [
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;#34;By default Drupal loads the autoloader from ./vendor/autoload.php.&amp;#34;,
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;#34;To change the autoloader you can edit ./autoload.php.&amp;#34;,
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;#34;This file specifies the packages.drupal.org repository.&amp;#34;,
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;#34;You can read more about this composer repository at:&amp;#34;,
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;#34;https://www.drupal.org/node/2718229&amp;#34;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> ],
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;#34;merge-plugin&amp;#34;: {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;#34;include&amp;#34;: [
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;#34;core/composer.json&amp;#34;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> ],
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;#34;recurse&amp;#34;: false,
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;#34;replace&amp;#34;: false,
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;#34;merge-extra&amp;#34;: false
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> },
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;#34;installer-paths&amp;#34;: {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;#34;core&amp;#34;: [&amp;#34;type:drupal-core&amp;#34;],
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;#34;libraries/{$name}&amp;#34;: [&amp;#34;type:drupal-library&amp;#34;],
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;#34;modules/contrib/{$name}&amp;#34;: [&amp;#34;type:drupal-module&amp;#34;],
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;#34;profiles/contrib/{$name}&amp;#34;: [&amp;#34;type:drupal-profile&amp;#34;],
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;#34;themes/contrib/{$name}&amp;#34;: [&amp;#34;type:drupal-theme&amp;#34;],
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;#34;drush/contrib/{$name}&amp;#34;: [&amp;#34;type:drupal-drush&amp;#34;],
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;#34;modules/custom/{$name}&amp;#34;: [&amp;#34;type:drupal-custom-module&amp;#34;],
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;#34;themes/custom/{$name}&amp;#34;: [&amp;#34;type:drupal-custom-theme&amp;#34;]
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> },
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;#34;enable-patching&amp;#34;: true
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> },
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;#34;autoload&amp;#34;: {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;#34;psr-4&amp;#34;: {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;#34;Drupal\Core\Composer\&amp;#34;: &amp;#34;core/lib/Drupal/Core/Composer&amp;#34;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> }
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> },
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;#34;scripts&amp;#34;: {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;#34;pre-autoload-dump&amp;#34;: &amp;#34;Drupal\Core\Composer\Composer::preAutoloadDump&amp;#34;,
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;#34;post-autoload-dump&amp;#34;: [
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;#34;Drupal\Core\Composer\Composer::ensureHtaccess&amp;#34;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> ],
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;#34;post-package-install&amp;#34;: &amp;#34;Drupal\Core\Composer\Composer::vendorTestCodeCleanup&amp;#34;,
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;#34;post-package-update&amp;#34;: &amp;#34;Drupal\Core\Composer\Composer::vendorTestCodeCleanup&amp;#34;,
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;#34;post-install-cmd&amp;#34;: [
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;#34;bash scripts/remove_vendor_git_folders.sh || :&amp;#34;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> ],
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;#34;post-update-cmd&amp;#34;: [
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;#34;bash scripts/remove_vendor_git_folders.sh || :&amp;#34;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> ]
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> },
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;#34;repositories&amp;#34;: [
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;#34;type&amp;#34;: &amp;#34;composer&amp;#34;,
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;#34;url&amp;#34;: &amp;#34;https://packages.drupal.org/8&amp;#34;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> },
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;#34;type&amp;#34;: &amp;#34;package&amp;#34;,
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;#34;package&amp;#34;: {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;#34;name&amp;#34;: &amp;#34;library-kenwheeler/slick&amp;#34;,
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;#34;version&amp;#34;: &amp;#34;1.6.0&amp;#34;,
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;#34;type&amp;#34;: &amp;#34;drupal-library&amp;#34;,
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;#34;source&amp;#34;: {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;#34;url&amp;#34;: &amp;#34;https://github.com/kenwheeler/slick&amp;#34;,
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;#34;type&amp;#34;: &amp;#34;git&amp;#34;,
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;#34;reference&amp;#34;: &amp;#34;1.6.0&amp;#34;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> }
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> }
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> },
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;#34;type&amp;#34;: &amp;#34;package&amp;#34;,
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;#34;package&amp;#34;: {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;#34;name&amp;#34;: &amp;#34;library-dinbror/blazy&amp;#34;,
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;#34;version&amp;#34;: &amp;#34;1.8.2&amp;#34;,
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;#34;type&amp;#34;: &amp;#34;drupal-library&amp;#34;,
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;#34;source&amp;#34;: {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;#34;url&amp;#34;: &amp;#34;https://github.com/dinbror/blazy&amp;#34;,
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;#34;type&amp;#34;: &amp;#34;git&amp;#34;,
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;#34;reference&amp;#34;: &amp;#34;1.8.2&amp;#34;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> }
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> }
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> },
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;#34;type&amp;#34;: &amp;#34;package&amp;#34;,
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;#34;package&amp;#34;: {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;#34;name&amp;#34;: &amp;#34;library-gdsmith/jquery.easing&amp;#34;,
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;#34;version&amp;#34;: &amp;#34;1.4.1&amp;#34;,
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;#34;type&amp;#34;: &amp;#34;drupal-library&amp;#34;,
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;#34;source&amp;#34;: {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;#34;url&amp;#34;: &amp;#34;https://github.com/gdsmith/jquery.easing&amp;#34;,
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;#34;type&amp;#34;: &amp;#34;git&amp;#34;,
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;#34;reference&amp;#34;: &amp;#34;1.4.1&amp;#34;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> }
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> }
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> },
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;#34;type&amp;#34;: &amp;#34;package&amp;#34;,
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;#34;package&amp;#34;: {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;#34;name&amp;#34;: &amp;#34;library-enyo/dropzone&amp;#34;,
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;#34;version&amp;#34;: &amp;#34;4.3.0&amp;#34;,
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;#34;type&amp;#34;: &amp;#34;drupal-library&amp;#34;,
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;#34;source&amp;#34;: {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;#34;url&amp;#34;: &amp;#34;https://github.com/enyo/dropzone&amp;#34;,
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;#34;type&amp;#34;: &amp;#34;git&amp;#34;,
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;#34;reference&amp;#34;: &amp;#34;v4.3.0&amp;#34;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> }
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> }
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> },
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;#34;type&amp;#34;: &amp;#34;package&amp;#34;,
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;#34;package&amp;#34;: {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;#34;name&amp;#34;: &amp;#34;library-jaypan/jquery_colorpicker&amp;#34;,
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;#34;version&amp;#34;: &amp;#34;1.0.1&amp;#34;,
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;#34;type&amp;#34;: &amp;#34;drupal-library&amp;#34;,
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;#34;source&amp;#34;: {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;#34;url&amp;#34;: &amp;#34;https://github.com/jaypan/jquery_colorpicker&amp;#34;,
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;#34;type&amp;#34;: &amp;#34;git&amp;#34;,
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;#34;reference&amp;#34;: &amp;#34;da978ae124c57817021b3166a31881876882f5f9&amp;#34;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> }
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> }
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> },
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;#34;type&amp;#34;: &amp;#34;package&amp;#34;,
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;#34;package&amp;#34;: {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;#34;name&amp;#34;: &amp;#34;library-ckeditor/panelbutton&amp;#34;,
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;#34;version&amp;#34;: &amp;#34;4.7.0&amp;#34;,
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;#34;type&amp;#34;: &amp;#34;drupal-library&amp;#34;,
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;#34;dist&amp;#34;: {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;#34;url&amp;#34;: &amp;#34;http://download.ckeditor.com/panelbutton/releases/panelbutton_4.7.0.zip&amp;#34;,
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;#34;type&amp;#34;: &amp;#34;zip&amp;#34;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> }
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> }
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> },
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;#34;type&amp;#34;: &amp;#34;package&amp;#34;,
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;#34;package&amp;#34;: {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;#34;name&amp;#34;: &amp;#34;library-ckeditor/colorbutton&amp;#34;,
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;#34;version&amp;#34;: &amp;#34;4.7.0&amp;#34;,
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;#34;type&amp;#34;: &amp;#34;drupal-library&amp;#34;,
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;#34;dist&amp;#34;: {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;#34;url&amp;#34;: &amp;#34;http://download.ckeditor.com/colorbutton/releases/colorbutton_4.7.0.zip&amp;#34;,
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;#34;type&amp;#34;: &amp;#34;zip&amp;#34;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> }
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> }
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> },
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;#34;type&amp;#34;: &amp;#34;package&amp;#34;,
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;#34;package&amp;#34;: {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;#34;name&amp;#34;: &amp;#34;library-ckeditor/colordialog&amp;#34;,
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;#34;version&amp;#34;: &amp;#34;4.7.0&amp;#34;,
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;#34;type&amp;#34;: &amp;#34;drupal-library&amp;#34;,
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;#34;dist&amp;#34;: {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;#34;url&amp;#34;: &amp;#34;http://download.ckeditor.com/colordialog/releases/colordialog_4.7.0.zip&amp;#34;,
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;#34;type&amp;#34;: &amp;#34;zip&amp;#34;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> }
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> }
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> },
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;#34;type&amp;#34;: &amp;#34;package&amp;#34;,
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;#34;package&amp;#34;: {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;#34;name&amp;#34;: &amp;#34;library-ckeditor/glyphicons&amp;#34;,
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;#34;version&amp;#34;: &amp;#34;2.2&amp;#34;,
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;#34;type&amp;#34;: &amp;#34;drupal-library&amp;#34;,
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;#34;dist&amp;#34;: {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;#34;url&amp;#34;: &amp;#34;http://download.ckeditor.com/glyphicons/releases/glyphicons_2.2.zip&amp;#34;,
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;#34;type&amp;#34;: &amp;#34;zip&amp;#34;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> }
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> }
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> }
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> ]
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>}
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;/details>
 &lt;ol>
 &lt;li>
 &lt;p>Add &lt;code>&amp;quot;ymcatwincities/openy&amp;quot;: &amp;quot;8.*.*&amp;quot;&lt;/code> to the &lt;code>require&lt;/code> section in your &lt;code>composer.json&lt;/code>, like &lt;a href="https://github.com/ymcatwincities/openy-project/blob/8.1.x/composer.json#L7">here&lt;/a>&lt;/p>
@@ -721,31 +722,31 @@ repository, as on this example:&lt;/p>
 &lt;li>
 &lt;p>&lt;code>composer.json&lt;/code> &lt;strong>inside&lt;/strong> of docroot
 Installer path will look like this:&lt;/p>
-&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-fallback" data-lang="fallback">&amp;#34;installer-paths&amp;#34;: {
-&amp;#34;core&amp;#34;: [&amp;#34;type:drupal-core&amp;#34;],
-&amp;#34;libraries/{$name}&amp;#34;: [&amp;#34;type:drupal-library&amp;#34;],
-&amp;#34;modules/contrib/{$name}&amp;#34;: [&amp;#34;type:drupal-module&amp;#34;],
-&amp;#34;profiles/contrib/{$name}&amp;#34;: [&amp;#34;type:drupal-profile&amp;#34;],
-&amp;#34;themes/contrib/{$name}&amp;#34;: [&amp;#34;type:drupal-theme&amp;#34;],
-&amp;#34;drush/contrib/{$name}&amp;#34;: [&amp;#34;type:drupal-drush&amp;#34;],
-&amp;#34;modules/custom/{$name}&amp;#34;: [&amp;#34;type:drupal-custom-module&amp;#34;],
-&amp;#34;themes/custom/{$name}&amp;#34;: [&amp;#34;type:drupal-custom-theme&amp;#34;]
-}
-&lt;/code>&lt;/pre>&lt;/div>&lt;/li>
+&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-fallback" data-lang="fallback">&lt;span style="display:flex;">&lt;span>&amp;#34;installer-paths&amp;#34;: {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;#34;core&amp;#34;: [&amp;#34;type:drupal-core&amp;#34;],
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;#34;libraries/{$name}&amp;#34;: [&amp;#34;type:drupal-library&amp;#34;],
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;#34;modules/contrib/{$name}&amp;#34;: [&amp;#34;type:drupal-module&amp;#34;],
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;#34;profiles/contrib/{$name}&amp;#34;: [&amp;#34;type:drupal-profile&amp;#34;],
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;#34;themes/contrib/{$name}&amp;#34;: [&amp;#34;type:drupal-theme&amp;#34;],
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;#34;drush/contrib/{$name}&amp;#34;: [&amp;#34;type:drupal-drush&amp;#34;],
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;#34;modules/custom/{$name}&amp;#34;: [&amp;#34;type:drupal-custom-module&amp;#34;],
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;#34;themes/custom/{$name}&amp;#34;: [&amp;#34;type:drupal-custom-theme&amp;#34;]
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>}
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;/li>
 &lt;li>
 &lt;p>&lt;code>composer.json&lt;/code> &lt;strong>outside&lt;/strong> of docroot
 Installer path will look like this:&lt;/p>
-&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-fallback" data-lang="fallback">&amp;#34;installer-paths&amp;#34;: {
-&amp;#34;docroot/core&amp;#34;: [&amp;#34;type:drupal-core&amp;#34;],
-&amp;#34;docroot/libraries/{$name}&amp;#34;: [&amp;#34;type:drupal-library&amp;#34;],
-&amp;#34;docroot/modules/contrib/{$name}&amp;#34;: [&amp;#34;type:drupal-module&amp;#34;],
-&amp;#34;docroot/profiles/contrib/{$name}&amp;#34;: [&amp;#34;type:drupal-profile&amp;#34;],
-&amp;#34;docroot/themes/contrib/{$name}&amp;#34;: [&amp;#34;type:drupal-theme&amp;#34;],
-&amp;#34;drush/contrib/{$name}&amp;#34;: [&amp;#34;type:drupal-drush&amp;#34;],
-&amp;#34;docroot/modules/custom/{$name}&amp;#34;: [&amp;#34;type:drupal-custom-module&amp;#34;],
-&amp;#34;docroot/themes/custom/{$name}&amp;#34;: [&amp;#34;type:drupal-custom-theme&amp;#34;]
-}
-&lt;/code>&lt;/pre>&lt;/div>&lt;/li>
+&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-fallback" data-lang="fallback">&lt;span style="display:flex;">&lt;span>&amp;#34;installer-paths&amp;#34;: {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;#34;docroot/core&amp;#34;: [&amp;#34;type:drupal-core&amp;#34;],
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;#34;docroot/libraries/{$name}&amp;#34;: [&amp;#34;type:drupal-library&amp;#34;],
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;#34;docroot/modules/contrib/{$name}&amp;#34;: [&amp;#34;type:drupal-module&amp;#34;],
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;#34;docroot/profiles/contrib/{$name}&amp;#34;: [&amp;#34;type:drupal-profile&amp;#34;],
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;#34;docroot/themes/contrib/{$name}&amp;#34;: [&amp;#34;type:drupal-theme&amp;#34;],
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;#34;drush/contrib/{$name}&amp;#34;: [&amp;#34;type:drupal-drush&amp;#34;],
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;#34;docroot/modules/custom/{$name}&amp;#34;: [&amp;#34;type:drupal-custom-module&amp;#34;],
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;#34;docroot/themes/custom/{$name}&amp;#34;: [&amp;#34;type:drupal-custom-theme&amp;#34;]
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>}
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;/li>
 &lt;/ul>
 &lt;ol start="4">
 &lt;li>
@@ -776,13 +777,13 @@ Installer path will look like this:&lt;/p>
 &lt;/li>
 &lt;li>
 &lt;p>Execute it in &lt;code>post-install-cmd&lt;/code> and &lt;code>post-update-cmd&lt;/code>:&lt;/p>
-&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-fallback" data-lang="fallback">&amp;#34;post-install-cmd&amp;#34;: [
-&amp;#34;bash scripts/remove_vendor_git_folders.sh || :&amp;#34;
-],
-&amp;#34;post-update-cmd&amp;#34;: [
-&amp;#34;bash scripts/remove_vendor_git_folders.sh || :&amp;#34;
-]
-&lt;/code>&lt;/pre>&lt;/div>&lt;/li>
+&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-fallback" data-lang="fallback">&lt;span style="display:flex;">&lt;span>&amp;#34;post-install-cmd&amp;#34;: [
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;#34;bash scripts/remove_vendor_git_folders.sh || :&amp;#34;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>],
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&amp;#34;post-update-cmd&amp;#34;: [
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;#34;bash scripts/remove_vendor_git_folders.sh || :&amp;#34;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>]
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;/li>
 &lt;/ul>
 &lt;ol start="9">
 &lt;li>Run &lt;code>composer install&lt;/code>&lt;/li>
@@ -801,16 +802,16 @@ Installer path will look like this:&lt;/p>
 &lt;p>Init git and add initial commit&lt;/p>
 &lt;/li>
 &lt;/ol>
-&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-bash" data-lang="bash">&lt;span style="color:#204a87">cd&lt;/span> OPENY_PROJECT
-git init
-git commit -m &lt;span style="color:#4e9a06">&amp;#34;Init Open Y project&amp;#34;&lt;/span>
-git remote add origin git@github.com:NAMESPACE/PROJECT.git
-git push -u origin master
-&lt;/code>&lt;/pre>&lt;/div>&lt;ol start="4">
+&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#204a87">cd&lt;/span> OPENY_PROJECT
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>git init
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>git commit -m &lt;span style="color:#4e9a06">&amp;#34;Init Open Y project&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>git remote add origin git@github.com:NAMESPACE/PROJECT.git
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>git push -u origin master
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;ol start="4">
 &lt;li>Spin up your local vagrant machine&lt;/li>
 &lt;/ol>
-&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-bash" data-lang="bash">vagrant up --provision
-&lt;/code>&lt;/pre>&lt;/div>&lt;ol start="5">
+&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>vagrant up --provision
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;ol start="5">
 &lt;li>Setup CI server for new project based on &lt;a href="https://github.com/cibox/cibox#provision-new-ci-server">CIBox documentation&lt;/a>.&lt;/li>
 &lt;/ol>
 &lt;ul>
@@ -824,8 +825,8 @@ git push -u origin master
 &lt;li>Login to server &lt;a href="https://www.digitalocean.com/community/tutorials/how-to-connect-to-your-droplet-with-ssh">via SSH&lt;/a> or &lt;a href="https://www.digitalocean.com/community/tutorials/how-to-use-the-digitalocean-console-to-access-your-droplet">web console&lt;/a>&lt;/li>
 &lt;li>Run command&lt;/li>
 &lt;/ol>
-&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-bash" data-lang="bash">bash &amp;lt;&lt;span style="color:#ce5c00;font-weight:bold">(&lt;/span>curl -s https://raw.githubusercontent.com/ymcatwincities/openy/8.x-1.x/build/openy-digital-ocean.sh&lt;span style="color:#ce5c00;font-weight:bold">)&lt;/span>
-&lt;/code>&lt;/pre>&lt;/div>&lt;ol start="4">
+&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>bash &amp;lt;&lt;span style="color:#ce5c00;font-weight:bold">(&lt;/span>curl -s https://raw.githubusercontent.com/ymcatwincities/openy/8.x-1.x/build/openy-digital-ocean.sh&lt;span style="color:#ce5c00;font-weight:bold">)&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;ol start="4">
 &lt;li>Open link(e.g. http://IP/core/install.php) from console output and finish Open Y installation&lt;/li>
 &lt;/ol>
 &lt;h2 id="video-tutorial">Video tutorial&lt;/h2>
@@ -843,32 +844,32 @@ git push -u origin master
 &lt;ol>
 &lt;li>
 &lt;p>Execute command&lt;/p>
-&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-fallback" data-lang="fallback">$ cd profiles/contrib/openy
-$ sh runtests.sh
-&lt;/code>&lt;/pre>&lt;/div>&lt;/li>
+&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-fallback" data-lang="fallback">&lt;span style="display:flex;">&lt;span>$ cd profiles/contrib/openy
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>$ sh runtests.sh
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;/li>
 &lt;li>
 &lt;p>Open &lt;a href="http://site.com/profiles/contrib/openy/build/reports/behat">http://site.com/profiles/contrib/openy/build/reports/behat&lt;/a> in browser.&lt;/p>
 &lt;/li>
 &lt;/ol>
 &lt;h3 id="run-selenium-container--behat-tests-in-usual-way">Run selenium container + Behat tests in usual way&lt;/h3>
 &lt;p>In order to run only selenium container + behat in usual way:&lt;/p>
-&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-fallback" data-lang="fallback">$ cd profiles/contrib/openy
-$ sh runtests.sh --tags run_selenium
-$ bin/behat
-&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="stop-selenium-container">Stop selenium container&lt;/h3>
+&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-fallback" data-lang="fallback">&lt;span style="display:flex;">&lt;span>$ cd profiles/contrib/openy
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>$ sh runtests.sh --tags run_selenium
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>$ bin/behat
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="stop-selenium-container">Stop selenium container&lt;/h3>
 &lt;p>In order to stop selenium container:&lt;/p>
-&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-fallback" data-lang="fallback">$ cd profiles/contrib/openy
-$ sh runtests.sh --tags stop_selenium
-&lt;/code>&lt;/pre>&lt;/div>&lt;p>If necessary, edit behat.local.yml to match your environment.&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-fallback" data-lang="fallback">&lt;span style="display:flex;">&lt;span>$ cd profiles/contrib/openy
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>$ sh runtests.sh --tags stop_selenium
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>If necessary, edit behat.local.yml to match your environment.&lt;/p>
 &lt;h3 id="visual-debugging---videohttpsyoutubeqytpia1clvc">Visual debugging - &lt;a href="https://youtu.be/qYtpiA1ClVc">Video&lt;/a>&lt;/h3>
 &lt;p>When you develop JS tests, it&amp;rsquo;s important to see what&amp;rsquo;s going on the Selenium screen. You can easily see this during development.&lt;/p>
 &lt;ol>
 &lt;li>Install &lt;a href="https://www.realvnc.com/download/viewer">https://www.realvnc.com/download/viewer&lt;/a>&lt;/li>
 &lt;li>Run selenium using command&lt;/li>
 &lt;/ol>
-&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-fallback" data-lang="fallback">$ cd profiles/contrib/openy
-$ sh runtests.sh --tags run_selenium
-&lt;/code>&lt;/pre>&lt;/div>&lt;ol start="3">
+&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-fallback" data-lang="fallback">&lt;span style="display:flex;">&lt;span>$ cd profiles/contrib/openy
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>$ sh runtests.sh --tags run_selenium
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;ol start="3">
 &lt;li>Open installed VNC Viewer and connect to the server with IP &lt;code>192.168.56.132:5901&lt;/code>&lt;/li>
 &lt;/ol>
 &lt;ul>
@@ -877,62 +878,62 @@ $ sh runtests.sh --tags run_selenium
 &lt;ol start="4">
 &lt;li>Run tests and you should see everything that is performed by behat tests in VNC client&lt;/li>
 &lt;/ol>
-&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-fallback" data-lang="fallback">$ bin/behat
-&lt;/code>&lt;/pre>&lt;/div>&lt;p>&lt;a href="https://youtu.be/RSsQLVVhldc">&lt;img src="https://img.youtube.com/vi/RSsQLVVhldc/0.jpg" alt="Debugging JavaScript Behat tests">&lt;/a>&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-fallback" data-lang="fallback">&lt;span style="display:flex;">&lt;span>$ bin/behat
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>&lt;a href="https://youtu.be/RSsQLVVhldc">&lt;img src="https://img.youtube.com/vi/RSsQLVVhldc/0.jpg" alt="Debugging JavaScript Behat tests">&lt;/a>&lt;/p>
 &lt;h3 id="custom-behat-functionality">Custom Behat functionality&lt;/h3>
 &lt;ul>
 &lt;li>Create entities in table forms, with key to use in reference and reference entities by key.
 &lt;ul>
 &lt;li>KEY is optional, and &lt;strong>must be all CAPS&lt;/strong>.&lt;/li>
 &lt;li>Taxonomy
-&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-fallback" data-lang="fallback">Given I create &amp;#34;taxonomy_term&amp;#34; of type &amp;#34;color&amp;#34; with key for reference:
-| KEY | name | field_color |
-| Blue | Blue | 0000FF |
-| Red | Red | FF0000 |
-&lt;/code>&lt;/pre>&lt;/div>&lt;/li>
+&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-fallback" data-lang="fallback">&lt;span style="display:flex;">&lt;span>Given I create &amp;#34;taxonomy_term&amp;#34; of type &amp;#34;color&amp;#34; with key for reference:
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> | KEY | name | field_color |
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> | Blue | Blue | 0000FF |
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> | Red | Red | FF0000 |
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;/li>
 &lt;li>Paragraphs
-&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-fallback" data-lang="fallback">Given I create &amp;#34;paragraph&amp;#34; of type &amp;#34;small_banner&amp;#34; with key for reference:
-| KEY | field_prgf_headline | field_prgf_color |
-| banner1 | Headline 1 | Blue |
-| banner2 | Headline 2 | Red |
-&lt;/code>&lt;/pre>&lt;/div>&lt;/li>
+&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-fallback" data-lang="fallback">&lt;span style="display:flex;">&lt;span>Given I create &amp;#34;paragraph&amp;#34; of type &amp;#34;small_banner&amp;#34; with key for reference:
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> | KEY | field_prgf_headline | field_prgf_color |
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> | banner1 | Headline 1 | Blue |
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> | banner2 | Headline 2 | Red |
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;/li>
 &lt;li>Media entities
-&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-fallback" data-lang="fallback">Given I create &amp;#34;media&amp;#34; of type &amp;#34;image&amp;#34; with key for reference:
-| KEY | name | file |
-| gallery_1 | Gallery image 1 | gallery.png |
-| gallery_2 | Gallery image 2 | gallery2.png |
-| gallery_3 | Gallery image 3 | gallery3.png |
-&lt;/code>&lt;/pre>&lt;/div>&lt;/li>
+&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-fallback" data-lang="fallback">&lt;span style="display:flex;">&lt;span>Given I create &amp;#34;media&amp;#34; of type &amp;#34;image&amp;#34; with key for reference:
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> | KEY | name | file |
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> | gallery_1 | Gallery image 1 | gallery.png |
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> | gallery_2 | Gallery image 2 | gallery2.png |
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> | gallery_3 | Gallery image 3 | gallery3.png |
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;/li>
 &lt;/ul>
 &lt;/li>
 &lt;li>Create nodes in table forms, with key to use in reference and reference entities by key.
 &lt;ul>
 &lt;li>KEY is optional, and &lt;strong>must be all CAPS&lt;/strong>.&lt;/li>
 &lt;li>Basic create
-&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-fallback" data-lang="fallback">Given I create &amp;#34;landing_page&amp;#34; content:
-| KEY | title | field_lp_layout | field_content |
-| landing_1 | Test Landing 01 | one_column | banner1 |
-| landing_2 | Test Landing 02 | one_column | banner2 |
-&lt;/code>&lt;/pre>&lt;/div>&lt;/li>
+&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-fallback" data-lang="fallback">&lt;span style="display:flex;">&lt;span>Given I create &amp;#34;landing_page&amp;#34; content:
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> | KEY | title | field_lp_layout | field_content |
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> | landing_1 | Test Landing 01 | one_column | banner1 |
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> | landing_2 | Test Landing 02 | one_column | banner2 |
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;/li>
 &lt;li>Vertical field table
-&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-fallback" data-lang="fallback">Given I create large &amp;#34;landing_page&amp;#34; content:
-| KEY | landing_3 | landing_4 |
-| title | Test Landing 03 | Test Landing 04 |
-| field_lp_layout | one_column | one_column |
-| field_content | banner1 | banner2 |
-&lt;/code>&lt;/pre>&lt;/div>&lt;/li>
+&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-fallback" data-lang="fallback">&lt;span style="display:flex;">&lt;span>Given I create large &amp;#34;landing_page&amp;#34; content:
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> | KEY | landing_3 | landing_4 |
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> | title | Test Landing 03 | Test Landing 04 |
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> | field_lp_layout | one_column | one_column |
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> | field_content | banner1 | banner2 |
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;/li>
 &lt;li>Create &amp;amp; view immediately
-&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-fallback" data-lang="fallback">Given I view a &amp;#34;landing_page&amp;#34; content:
-| KEY | landing_5 |
-| title | Test Landing 05 |
-| field_lp_layout | one_column |
-| field_content | banner1 |
-&lt;/code>&lt;/pre>&lt;/div>&lt;/li>
+&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-fallback" data-lang="fallback">&lt;span style="display:flex;">&lt;span>Given I view a &amp;#34;landing_page&amp;#34; content:
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> | KEY | landing_5 |
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> | title | Test Landing 05 |
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> | field_lp_layout | one_column |
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> | field_content | banner1 |
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;/li>
 &lt;li>Multiple referenced entities by key on a field.
-&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-fallback" data-lang="fallback">Given I create &amp;#34;landing_page&amp;#34; content:
-| KEY | title | field_lp_layout | field_content |
-| landing_6 | Test Landing 06 | one_column | banner1, banner2 |
-&lt;/code>&lt;/pre>&lt;/div>&lt;/li>
+&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-fallback" data-lang="fallback">&lt;span style="display:flex;">&lt;span>Given I create &amp;#34;landing_page&amp;#34; content:
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> | KEY | title | field_lp_layout | field_content |
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> | landing_6 | Test Landing 06 | one_column | banner1, banner2 |
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;/li>
 &lt;/ul>
 &lt;/li>
 &lt;/ul>
@@ -943,21 +944,21 @@ The machine name and columns can be found in the form markup in the field name p
 The first portion, &lt;code>field_location_address&lt;/code> represents the Drupal field machine name, while the second array key &lt;code>address_line1&lt;/code> represents the column.&lt;/p>
 &lt;ul>
 &lt;li>Add Address
-&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-fallback" data-lang="fallback">Given I view a &amp;#34;branch&amp;#34; content:
-| title | Branch Example |
-| field_location_address:country_code | US |
-| :address_line1 | Main road 10 |
-| :locality | Seattle |
-| :administrative_area | WA |
-| :postal_code | 98101 |
-&lt;/code>&lt;/pre>&lt;/div>&lt;/li>
+&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-fallback" data-lang="fallback">&lt;span style="display:flex;">&lt;span>Given I view a &amp;#34;branch&amp;#34; content:
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> | title | Branch Example |
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> | field_location_address:country_code | US |
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> | :address_line1 | Main road 10 |
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> | :locality | Seattle |
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> | :administrative_area | WA |
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> | :postal_code | 98101 |
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;/li>
 &lt;li>Add Latitude and Longitude
-&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-fallback" data-lang="fallback">Given I view a &amp;#34;branch&amp;#34; content:
-| title | Branch Example 2 |
-| field_location_coordinates:lat | 47.293433 |
-| :lng | -122.238717 |
-| field_location_phone | +1234567890 |
-&lt;/code>&lt;/pre>&lt;/div>&lt;/li>
+&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-fallback" data-lang="fallback">&lt;span style="display:flex;">&lt;span>Given I view a &amp;#34;branch&amp;#34; content:
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> | title | Branch Example 2 |
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> | field_location_coordinates:lat | 47.293433 |
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> | :lng | -122.238717 |
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> | field_location_phone | +1234567890 |
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;/li>
 &lt;/ul></description></item><item><title>Docs: Theming and Design</title><link>/docs/development/theming_and_design/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/development/theming_and_design/</guid><description>
 &lt;p>Welcome to Open Y Theming and Design documentation.&lt;/p>
 &lt;h3 id="how-to-change-styles-on-content-type-level">How to change styles on content type level&lt;/h3>
@@ -993,8 +994,8 @@ the theme configuration page - Custom CSS - check &amp;ldquo;Enable or disable c
 &lt;/li>
 &lt;/ol>
 &lt;h4 id="token-components">Token components:&lt;/h4>
-&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-fallback" data-lang="fallback">[openy_tour:click:button_name:selector]*
-&lt;/code>&lt;/pre>&lt;/div>&lt;p>openy_tour - token name;&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-fallback" data-lang="fallback">&lt;span style="display:flex;">&lt;span>[openy_tour:click:button_name:selector]*
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>openy_tour - token name;&lt;/p>
 &lt;p>click - command in the token;&lt;/p>
 &lt;p>button_name - name of button when show in a tip;&lt;/p>
 &lt;p>selector - selector to be clicked.&lt;/p>
@@ -1022,10 +1023,10 @@ the theme configuration page - Custom CSS - check &amp;ldquo;Enable or disable c
 &lt;p>in update add next code (this is example):&lt;/p>
 &lt;/li>
 &lt;/ol>
-&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-fallback" data-lang="fallback">$config = drupal_get_path(&amp;#39;module&amp;#39;, &amp;#39;openy_media_image&amp;#39;) . &amp;#39;/config/install/views.view.images_library.yml&amp;#39;;
-$config_importer = \Drupal::service(&amp;#39;openy_upgrade_tool.param_updater&amp;#39;);
-$config_importer-&amp;gt;update($config, &amp;#39;views.view.images_library&amp;#39;, &amp;#39;display.default.display_options.pager&amp;#39;);
-&lt;/code>&lt;/pre>&lt;/div>&lt;p>Where:&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-fallback" data-lang="fallback">&lt;span style="display:flex;">&lt;span>$config = drupal_get_path(&amp;#39;module&amp;#39;, &amp;#39;openy_media_image&amp;#39;) . &amp;#39;/config/install/views.view.images_library.yml&amp;#39;;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>$config_importer = \Drupal::service(&amp;#39;openy_upgrade_tool.param_updater&amp;#39;);
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>$config_importer-&amp;gt;update($config, &amp;#39;views.view.images_library&amp;#39;, &amp;#39;display.default.display_options.pager&amp;#39;);
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>Where:&lt;/p>
 &lt;ul>
 &lt;li>$config variable contains path to config with config name&lt;/li>
 &lt;li>&amp;ldquo;views.view.images_library&amp;rdquo; - config name&lt;/li>
@@ -1033,18 +1034,18 @@ $config_importer-&amp;gt;update($config, &amp;#39;views.view.images_library&amp;
 &lt;/ul>
 &lt;h3 id="revert-full-configs">Revert full configs&lt;/h3>
 &lt;p>For updating full config or several configs from directory use service &amp;lsquo;openy_upgrade_tool.importer&amp;rsquo;.&lt;/p>
-&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-fallback" data-lang="fallback">$config_dir = drupal_get_path(&amp;#39;module&amp;#39;, &amp;#39;openy_media_image&amp;#39;) . &amp;#39;/config/install&amp;#39;;
-$config_importer = \Drupal::service(&amp;#39;openy_upgrade_tool.importer&amp;#39;);
-$config_importer-&amp;gt;setDirectory($config_dir);
-$config_importer-&amp;gt;importConfigs([&amp;#39;views.view.images_library&amp;#39;]);
-&lt;/code>&lt;/pre>&lt;/div>&lt;p>Where:&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-fallback" data-lang="fallback">&lt;span style="display:flex;">&lt;span>$config_dir = drupal_get_path(&amp;#39;module&amp;#39;, &amp;#39;openy_media_image&amp;#39;) . &amp;#39;/config/install&amp;#39;;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>$config_importer = \Drupal::service(&amp;#39;openy_upgrade_tool.importer&amp;#39;);
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>$config_importer-&amp;gt;setDirectory($config_dir);
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>$config_importer-&amp;gt;importConfigs([&amp;#39;views.view.images_library&amp;#39;]);
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>Where:&lt;/p>
 &lt;ul>
 &lt;li>$config_dir - path to directory with config&lt;/li>
 &lt;li>&amp;ldquo;views.view.images_library&amp;rdquo; - config name&lt;/li>
 &lt;/ul>
 &lt;p>Also you can update several configs from directory:&lt;/p>
-&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-fallback" data-lang="fallback">$config_importer-&amp;gt;importConfigs([
-&amp;#39;views.view.images_library&amp;#39;,
-&amp;#39;views.view.example_view&amp;#39;,
-]);
-&lt;/code>&lt;/pre>&lt;/div></description></item></channel></rss>
+&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-fallback" data-lang="fallback">&lt;span style="display:flex;">&lt;span>$config_importer-&amp;gt;importConfigs([
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;#39;views.view.images_library&amp;#39;,
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &amp;#39;views.view.example_view&amp;#39;,
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>]);
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div></description></item></channel></rss>

@@ -1221,7 +1221,7 @@
 &lt;td>Exclusions&lt;/td>
 &lt;td>field_session_exclusions&lt;/td>
 &lt;td>No&lt;/td>
-&lt;td>A date field that identifies dates that would normally have an instance of the session but won’t. Needs to be able to have multiple exclusions. Supports multiple values. Should be handled by a single date field with &amp;lsquo;end date&amp;rsquo; option enabled. Its widget should be adjust to not to show period end date, but show period end time (to keep period start/end date equal).&lt;/td>
+&lt;td>A date field that identifies dates that would normally have an instance of the session but won’t. Needs to be able to have multiple exclusions. Supports multiple values. Should be handled by a single date field with &amp;rsquo;end date&amp;rsquo; option enabled. Its widget should be adjust to not to show period end date, but show period end time (to keep period start/end date equal).&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>&lt;strong>Time&lt;/strong>&lt;/td>
@@ -1233,7 +1233,7 @@
 &lt;td>Date &amp;amp; Time&lt;/td>
 &lt;td>field_session_time_date&lt;/td>
 &lt;td>No&lt;/td>
-&lt;td>This will use Drupal date/time fields &amp;amp; should be a single date field with &amp;lsquo;end date&amp;rsquo; and &amp;lsquo;end time&amp;rsquo; option enabled.&lt;/td>
+&lt;td>This will use Drupal date/time fields &amp;amp; should be a single date field with &amp;rsquo;end date&amp;rsquo; and &amp;rsquo;end time&amp;rsquo; option enabled.&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>Days&lt;/td>

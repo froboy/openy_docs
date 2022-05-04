@@ -1352,7 +1352,7 @@
 &lt;td>Date &amp;amp; Time&lt;/td>
 &lt;td>field_session_time_date&lt;/td>
 &lt;td>No&lt;/td>
-&lt;td>This will use Drupal date/time fields &amp;amp; should be a single date field with &amp;lsquo;end date&amp;rsquo; and &amp;lsquo;end time&amp;rsquo; option enabled.&lt;/td>
+&lt;td>This will use Drupal date/time fields &amp;amp; should be a single date field with &amp;rsquo;end date&amp;rsquo; and &amp;rsquo;end time&amp;rsquo; option enabled.&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>Days&lt;/td>
