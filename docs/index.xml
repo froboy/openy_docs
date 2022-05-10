@@ -286,7 +286,7 @@ request, on every CI build in the future.&lt;/p>
 &lt;/table>
 &lt;h3 id="url-pattern">URL pattern&lt;/h3>
 &lt;p>Content type is using following pattern:
-&lt;code>/programs/[node:field_activity_category:entity:field_category_program:entity:title]/[node:field_activity_category:entity:title]/[node:title]&lt;/code>&lt;/p></description></item><item><title>Docs: Adding and Embedding Videos</title><link>/docs/user-documentation/content-management/text-editor/adding-embedding-videos/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/user-documentation/content-management/text-editor/adding-embedding-videos/</guid><description>
+&lt;code>/programs/[node:field_activity_category:entity:field_category_program:entity:title]/[node:field_activity_category:entity:title]/[node:title]&lt;/code>&lt;/p></description></item><item><title>Docs: Adding and Embedding Videos</title><link>/docs/user-documentation/text-editor/adding-embedding-videos/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/user-documentation/text-editor/adding-embedding-videos/</guid><description>
 &lt;h1 id="addingembedding-videos-with-the-open-y-text-editor">Adding/Embedding Videos with the Open Y Text Editor&lt;/h1>
 &lt;p>Open Y allows you to upload and embed images directly into a block of text, either from your computer or from the Open Y media library and browser.&lt;/p>
 &lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
@@ -325,7 +325,7 @@ request, on every CI build in the future.&lt;/p>
 &lt;p>When you&amp;rsquo;re ready to embed the video, just click &amp;ldquo;Embed.&amp;rdquo; You can also click the back button on the bottom to choose a different video.&lt;/p>
 &lt;blockquote>
 &lt;p>*If you want to make changes to the video you just embedded after you&amp;rsquo;ve added it, double click on the icon, and the &amp;ldquo;Embed media&amp;rdquo; dialogue will appear.&lt;/p>
-&lt;/blockquote></description></item><item><title>Docs: Adding Images</title><link>/docs/user-documentation/content-management/text-editor/adding-images/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/user-documentation/content-management/text-editor/adding-images/</guid><description>
+&lt;/blockquote></description></item><item><title>Docs: Adding Images</title><link>/docs/user-documentation/text-editor/adding-images/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/user-documentation/text-editor/adding-images/</guid><description>
 &lt;h3 id="note-to-users-of-open-y-24">NOTE TO USERS OF OPEN Y 2.4+&lt;/h3>
 &lt;blockquote>
 &lt;p>This documentation is not up-to-date if you are using &lt;a href="https://community.openymca.org/t/version-2-4-released-q1-2020-major-release/624">Open Y 2.4&lt;/a> and later.&lt;/p>
@@ -374,7 +374,7 @@ request, on every CI build in the future.&lt;/p>
 &lt;ul>
 &lt;li>&lt;a href="https://community.openymca.org/t/video-tutorials-for-images-and-documents/738">View all image tutorial videos ⇒&lt;/a>&lt;/li>
 &lt;li>&lt;a href="https://community.openymca.org/t/taxonomy-vocabularies-and-terms-website-structure-open-y-user-docs/734">Learn how to create media tags and folders with Taxonomies ⇒&lt;/a>&lt;/li>
-&lt;/ul></description></item><item><title>Docs: Adding Links</title><link>/docs/user-documentation/content-management/text-editor/adding-links/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/user-documentation/content-management/text-editor/adding-links/</guid><description>
+&lt;/ul></description></item><item><title>Docs: Adding Links</title><link>/docs/user-documentation/text-editor/adding-links/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/user-documentation/text-editor/adding-links/</guid><description>
 &lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
 &lt;iframe src="https://www.youtube.com/embed/-AJLwiKC3oE" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video">&lt;/iframe>
 &lt;/div>
@@ -405,7 +405,7 @@ Links are simple in Open Y - just highlight your text and click the link icon or
 &lt;p>To remove a link, highlight the link text and click the unlink icon.&lt;/p>
 &lt;blockquote>
 &lt;p>&lt;strong>Pro Tip:&lt;/strong> The link button doesn’t support opening links in a new window or tab, such as with a &lt;code>&amp;quot;target='_blank'&amp;quot;&lt;/code> You can either use HTML or the &lt;a href="https://community.openymca.org/t/building-buttons-in-the-text-editor/646">WYSIWYG button tool to create links&lt;/a> in new tabs.&lt;/p>
-&lt;/blockquote></description></item><item><title>Docs: Adding/Embedding Documents</title><link>/docs/user-documentation/content-management/text-editor/adding-documents/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/user-documentation/content-management/text-editor/adding-documents/</guid><description>
+&lt;/blockquote></description></item><item><title>Docs: Adding/Embedding Documents</title><link>/docs/user-documentation/text-editor/adding-documents/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/user-documentation/text-editor/adding-documents/</guid><description>
 &lt;p>Open Y allows you to upload and embed documents directly into a block of text, either from your computer or from the Open Y media library and browser.&lt;/p>
 &lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
 &lt;iframe src="https://www.youtube.com/embed/5w-_bpHtTLI" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video">&lt;/iframe>
@@ -632,7 +632,7 @@ Links are simple in Open Y - just highlight your text and click the link icon or
 &lt;td>WYSIWYG field without summary.&lt;/td>
 &lt;/tr>
 &lt;/tbody>
-&lt;/table></description></item><item><title>Docs: Basic Text Formatting</title><link>/docs/user-documentation/content-management/text-editor/basic-text-formatting/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/user-documentation/content-management/text-editor/basic-text-formatting/</guid><description>
+&lt;/table></description></item><item><title>Docs: Basic Text Formatting</title><link>/docs/user-documentation/text-editor/basic-text-formatting/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/user-documentation/text-editor/basic-text-formatting/</guid><description>
 &lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
 &lt;iframe src="https://www.youtube.com/embed/bmqFQYLAa1c" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video">&lt;/iframe>
 &lt;/div>
@@ -1066,7 +1066,7 @@ Links are simple in Open Y - just highlight your text and click the link icon or
 &lt;td>Block reference to the view/block. Should have default value and should be hidden in form display.&lt;/td>
 &lt;/tr>
 &lt;/tbody>
-&lt;/table></description></item><item><title>Docs: Building Buttons</title><link>/docs/user-documentation/content-management/text-editor/building-buttons/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/user-documentation/content-management/text-editor/building-buttons/</guid><description>
+&lt;/table></description></item><item><title>Docs: Building Buttons</title><link>/docs/user-documentation/text-editor/building-buttons/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/user-documentation/text-editor/building-buttons/</guid><description>
 &lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
 &lt;iframe src="https://www.youtube.com/embed/lJmhRo99uuM" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video">&lt;/iframe>
 &lt;/div>
@@ -1130,7 +1130,7 @@ Links are simple in Open Y - just highlight your text and click the link icon or
 &lt;blockquote>
 &lt;p>&lt;strong>Note:&lt;/strong> The left field makes reference to the Bootstrap Glyphicons library. As of this documentation, this icon library has been deprecated, and the Glyphicons fields will not work in Open Y.&lt;/p>
 &lt;p>Because the button embed is an open-source tool developed by a third party, these fields will go away once the code’s maintainer updates the code.&lt;/p>
-&lt;/blockquote></description></item><item><title>Docs: Building Tables</title><link>/docs/user-documentation/content-management/text-editor/building-tables/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/user-documentation/content-management/text-editor/building-tables/</guid><description>
+&lt;/blockquote></description></item><item><title>Docs: Building Tables</title><link>/docs/user-documentation/text-editor/building-tables/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/user-documentation/text-editor/building-tables/</guid><description>
 &lt;blockquote>
 &lt;p>The tables tool in the Open Y text editor provides the ability to create flexible tables for a number of different use cases, including displaying contact information, pricing tables, and more.&lt;/p>
 &lt;/blockquote>
