@@ -1155,7 +1155,8 @@
 &lt;/table></description></item><item><title>Docs: Program Registration (Daxko)</title><link>/docs/content-structure/paragraphs/program-registration-daxko/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/content-structure/paragraphs/program-registration-daxko/</guid><description>
 &lt;p>This is paragraph that renders the Programs Search Block.&lt;/p>
 &lt;p>Programs Search Block provides a form to search programs from Daxko.&lt;/p>
-&lt;p>Relates to: &lt;a href="../Development/Daxko.md">Daxko&lt;/a>&lt;/p>
+&lt;p>Relates to:
+&lt;a href="../Development/Daxko.md">Daxko&lt;/a>&lt;/p>
 &lt;p>Daxko &amp;amp; Program Registration (Daxko) configuration must be setup before the Program Registration paragraph will work.&lt;/p>
 &lt;p>Configuration setting at /admin/config/development/daxko/programs-search&lt;/p>
 &lt;h3 id="fields">Fields&lt;/h3>
@@ -1458,7 +1459,8 @@
 &lt;/tbody>
 &lt;/table></description></item><item><title>Docs: Social Share Icons</title><link>/docs/content-structure/paragraphs/social_share_icons/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/content-structure/paragraphs/social_share_icons/</guid><description>
 &lt;p>This is a paragraph type that will be used for the add social media share.
-See more &lt;a href="../../Development/AddThis.md">How to configure AddThis&lt;/a>&lt;/p>
+See more
+&lt;a href="/docs/development/addthis/">How to configure AddThis&lt;/a>&lt;/p>
 &lt;h3 id="fields">Fields&lt;/h3>
 &lt;table>
 &lt;thead>

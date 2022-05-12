@@ -41,7 +41,73 @@
 &lt;td>&lt;/td>
 &lt;/tr>
 &lt;/tbody>
-&lt;/table></description></item><item><title>Docs: 2 Columns</title><link>/docs/content-structure/paragraphs/2c/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/content-structure/paragraphs/2c/</guid><description>
+&lt;/table></description></item><item><title>Docs: 1 Column</title><link>/docs/user-documentation/paragraphs/1c/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/user-documentation/paragraphs/1c/</guid><description>
+&lt;blockquote>
+&lt;p>1 Column embeds a single column of content into an area/container on a page, with an option to embed reusable content. Similar to the code paragraph, this paragraph comes out of the box with styles and a text editor.&lt;/p>
+&lt;/blockquote>
+&lt;h2 id="examples">Examples&lt;/h2>
+&lt;h3 id="rose---without-block">Rose - Without Block&lt;/h3>
+&lt;p>&lt;img src="upload://19gwcxdsp4g4PHXFDDGHeW1rZVy.png" alt="rose&amp;amp;ndash;landing-page_1-column-no-block|690x171, 75%" />&lt;/p>
+&lt;h3 id="rose---with-block">Rose - With Block&lt;/h3>
+&lt;p>&lt;img src="upload://2FCFow9jwiwvHOyG9k2XkerjNJ9.png" alt="rose&amp;amp;ndash;landing-page__1-column-with-block|690x186" />&lt;/p>
+&lt;h3 id="carnation---with-custom-block">Carnation - With Custom Block&lt;/h3>
+&lt;p>&lt;img src="upload://jOGLkK7ItZy0i5pzFmUPBuMfkh3.png" alt="carnation&amp;amp;ndash;landing-page_1-column-with-block|690x186" />&lt;/p>
+&lt;hr>
+&lt;h2 id="areas-1-column-should-be-used">Areas 1 Column Should Be Used&lt;/h2>
+&lt;ul>
+&lt;li>Content Area&lt;/li>
+&lt;li>Sidebar Area&lt;/li>
+&lt;li>Bottom Area&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h2 id="how-to-use-1-column">How to Use 1 Column&lt;/h2>
+&lt;p>&lt;img src="upload://j3rf2kiL9RTWYhAjFl8gyBIypQt.gif" alt="landing-page__1-column-demo|690x431, 75%" />&lt;/p>
+&lt;p>After selecting “1 Column” from the paragraphs dropdown, you will notice paragraph title field, a checkbox, and a required description.&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>Paragraph title&lt;/strong> adds an all-caps heading at the top of your paragraph. This is optional.&lt;/li>
+&lt;li>&lt;strong>The checkbox&lt;/strong> adds dual horizontal rules. Check this only if you’re planning on using the paragraph title&lt;/li>
+&lt;li>&lt;strong>Description (required)&lt;/strong> - Adds simple text
+&lt;a href="https://community.openymca.org/t/introduction-text-editor-open-y-user-docs/643" target="_blank">through a text editor.&lt;/a> Font color defaults to purple in Lily and Rose.&lt;/li>
+&lt;/ul>
+&lt;p>
+&lt;a href="https://community.openymca.org/t/introduction-text-editor-open-y-user-docs/643" target="_blank">https://community.openymca.org/t/introduction-text-editor-open-y-user-docs/643&lt;/a>&lt;/p>
+&lt;h3 id="custom-block-feature">Custom Block Feature&lt;/h3>
+&lt;p>While the paragraph be used only with the fields above, 1 column also supports custom blocks of content. For this paragraph type, it’s recommended that users stick with “Simple block” types.&lt;/p>
+&lt;p>&lt;img src="upload://8ztiCyU8UuDvYi6E3SjEthQEFQ.gif" alt="landing-page__1-column-demo-block|690x474, 75%" />&lt;/p>
+&lt;p>When adding your custom block, use the font-awesome icon class instead of the custom icon image field. In Carnation, the image option tends to get too large.&lt;/p>
+&lt;p>
+&lt;a href="https://community.openymca.org/t/blocks-website-structure-open-y-user-docs/733" target="_blank">Learn more about custom blocks ⇒&lt;/a>&lt;/p>
+&lt;p>
+&lt;a href="https://fontawesome.com/cheatsheet?from=io" target="_blank">Read about the Font Awesome icon library ⇒&lt;/a>&lt;/p>
+&lt;h2 id="advanced">Advanced&lt;/h2>
+&lt;p>The purple font color for paragraph descriptions can be overridden in Lily and Rose by targeting .paragraph-1c-wrapper .field-prgf-1c-description.&lt;/p>
+&lt;p>&lt;strong>Example:&lt;/strong>&lt;/p>
+&lt;pre>&lt;code>.paragraph-1c-wrapper .field-prgf-1c-description {
+color: inherit;
+}
+&lt;/code>&lt;/pre>
+&lt;p>Content editors who want to edit this CSS can ask their developers to install the &lt;strong>CSS Editor module&lt;/strong> and edit their styles directly from the User Interface.&lt;/p>
+&lt;p>
+&lt;a href="https://www.drupal.org/project/css_editor" target="_blank">https://www.drupal.org/project/css_editor&lt;/a>&lt;/p>
+&lt;h2 id="content-types-that-support-this-paragraph">Content Types that Support This Paragraph&lt;/h2>
+&lt;ul>
+&lt;li>
+&lt;a href="https://community.openymca.org/t/landing-page-content-types-open-y-user-docs/667" target="_blank">Landing Page&lt;/a>&lt;/li>
+&lt;li>
+&lt;a href="https://community.openymca.org/t/branch-content-types-open-y-user-docs/685" target="_blank">Branch&lt;/a>&lt;/li>
+&lt;li>
+&lt;a href="https://community.openymca.org/t/camp-content-types-user-docs/690" target="_blank">Camp&lt;/a>&lt;/li>
+&lt;li>Facility&lt;/li>
+&lt;li>
+&lt;a href="https://community.openymca.org/t/blog-post-content-types-open-y-user-docs/693" target="_blank">Blog Post&lt;/a>&lt;/li>
+&lt;li>
+&lt;a href="https://community.openymca.org/t/news-post-content-types-open-y-user-docs/694" target="_blank">News Post&lt;/a>&lt;/li>
+&lt;li>Event&lt;/li>
+&lt;li>
+&lt;a href="https://community.openymca.org/t/program-content-types-open-y-user-docs/691" target="_blank">Program&lt;/a>&lt;/li>
+&lt;li>
+&lt;a href="https://community.openymca.org/t/landing-page-content-types-open-y-user-docs/667" target="_blank">Program Subcategory&lt;/a>&lt;/li>
+&lt;/ul></description></item><item><title>Docs: 2 Columns</title><link>/docs/content-structure/paragraphs/2c/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/content-structure/paragraphs/2c/</guid><description>
 &lt;p>This is a paragraph type that will be used for implements a paragraph with 2 column.&lt;/p>
 &lt;h3 id="fields">Fields&lt;/h3>
 &lt;table>
@@ -77,7 +143,63 @@
 &lt;td>&lt;/td>
 &lt;/tr>
 &lt;/tbody>
-&lt;/table></description></item><item><title>Docs: 3 Columns</title><link>/docs/content-structure/paragraphs/3c/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/content-structure/paragraphs/3c/</guid><description>
+&lt;/table></description></item><item><title>Docs: 2 Columns</title><link>/docs/user-documentation/paragraphs/2c/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/user-documentation/paragraphs/2c/</guid><description>
+&lt;blockquote>
+&lt;p>2 Columns adds two equal-width, reusable blocks of content, side-by-side. The left side stacks on top of the right side for mobile.&lt;/p>
+&lt;/blockquote>
+&lt;h2 id="examples">Examples&lt;/h2>
+&lt;h3 id="carnation">Carnation&lt;/h3>
+&lt;p>&lt;img src="upload://dkzxUqrsfBxqvPnivluX5HzHuhA.png" alt="carnation&amp;amp;ndash;landing-page__2-columns|690x268, 75%" />&lt;/p>
+&lt;h3 id="lily">Lily&lt;/h3>
+&lt;p>&lt;img src="upload://wqxqkbzAzZ1JtBrs4RZGcU7nPX2.png" alt="lily&amp;amp;ndash;landing-page__2-columns|690x208, 75%" />&lt;/p>
+&lt;h3 id="rose">Rose&lt;/h3>
+&lt;p>&lt;img src="upload://nRt57PAn1C33zFd8BXarNcSLrT6.png" alt="rose&amp;amp;ndash;landing-page__2-columns|690x268, 75%" />&lt;/p>
+&lt;hr>
+&lt;h2 id="areas-it-can-be-used">Areas it Can Be Used:&lt;/h2>
+&lt;ul>
+&lt;li>Content Area&lt;/li>
+&lt;li>Bottom Area&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h2 id="how-it-works">How it Works&lt;/h2>
+&lt;ul>
+&lt;li>Select &amp;ldquo;Two Columns&amp;rdquo; from the paragraphs dropdown.&lt;/li>
+&lt;li>Insert a custom block into the Left and Right Column&lt;/li>
+&lt;/ul>
+&lt;p>
+&lt;a href="https://community.openymca.org/t/blocks-website-structure-open-y-user-docs/733" target="_blank">Learn more about custom blocks ⇒&lt;/a>&lt;/p>
+&lt;blockquote>
+&lt;p>Unlike similar paragraphs (such as
+&lt;a href="https://community.openymca.org/t/1-column-paragraphs-open-y-user-docs/698" target="_blank">1 column paragraph&lt;/a> and
+&lt;a href="https://community.openymca.org/t/grid-content-paragraphs-open-y-user-docs/716" target="_blank">Grid Content&lt;/a>), there is no title field. To add a Title,
+&lt;a href="https://community.openymca.org/t/simple-content-paragraphs-open-y-user-docs/724" target="_blank">insert a &lt;em>Simple Content&lt;/em> paragraph&lt;/a> above your 2 columns paragraph.&lt;/p>
+&lt;/blockquote>
+&lt;hr>
+&lt;p>There is an optional checkbox to display a horizontal rule above the two columns.&lt;/p>
+&lt;p>&lt;img src="upload://rsZNPIOPtpILPC1XRQEGBb2FFTV.png" alt="landing-page__2-columns-line-above|616x186, 50%" />&lt;/p>
+&lt;hr>
+&lt;p>If you want to add multiple rows of content with 2 columns, add a new 2 columns paragraph for each set of two you want (e.g., if you have five blocks of content, add three 2 columns paragraphs).&lt;/p>
+&lt;p>&lt;img src="upload://gJ2vO2DWTfWm7zi11C9csfMZZK1.gif" alt="landing-page__2-columns-multi-row|320x189" />&lt;/p>
+&lt;hr>
+&lt;h2 id="content-types-that-support-this-paragraph">Content Types That Support this Paragraph&lt;/h2>
+&lt;ul>
+&lt;li>
+&lt;a href="https://community.openymca.org/t/landing-page-content-types-open-y-user-docs/667" target="_blank">Landing Page&lt;/a>&lt;/li>
+&lt;li>
+&lt;a href="https://community.openymca.org/t/branch-content-types-open-y-user-docs/685" target="_blank">Branch (Not Supported in Carnation)&lt;/a>&lt;/li>
+&lt;li>
+&lt;a href="https://community.openymca.org/t/camp-content-types-user-docs/690" target="_blank">Camp&lt;/a>&lt;/li>
+&lt;li>Facility&lt;/li>
+&lt;li>
+&lt;a href="https://community.openymca.org/t/program-content-types-open-y-user-docs/691" target="_blank">Program&lt;/a>&lt;/li>
+&lt;li>
+&lt;a href="https://community.openymca.org/t/landing-page-content-types-open-y-user-docs/667" target="_blank">Program Subcategory&lt;/a>&lt;/li>
+&lt;li>
+&lt;a href="https://community.openymca.org/t/blog-post-content-types-open-y-user-docs/693" target="_blank">Blog Post&lt;/a>&lt;/li>
+&lt;li>Event&lt;/li>
+&lt;li>
+&lt;a href="https://community.openymca.org/t/news-post-content-types-open-y-user-docs/694" target="_blank">News Post&lt;/a>&lt;/li>
+&lt;/ul></description></item><item><title>Docs: 3 Columns</title><link>/docs/content-structure/paragraphs/3c/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/content-structure/paragraphs/3c/</guid><description>
 &lt;p>This is a paragraph type that will be used for implements a paragraph with 3 column.&lt;/p>
 &lt;h3 id="fields">Fields&lt;/h3>
 &lt;table>
@@ -127,7 +249,54 @@
 &lt;td>&lt;/td>
 &lt;/tr>
 &lt;/tbody>
-&lt;/table></description></item><item><title>Docs: 4 Columns</title><link>/docs/content-structure/paragraphs/4c/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/content-structure/paragraphs/4c/</guid><description>
+&lt;/table></description></item><item><title>Docs: 3 Columns</title><link>/docs/user-documentation/paragraphs/3c/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/user-documentation/paragraphs/3c/</guid><description>
+&lt;blockquote>
+&lt;p>3 Columns adds three equal-width, reusable blocks of content, side-by-side. The leftmost columns stack on top of columns to their right.&lt;/p>
+&lt;/blockquote>
+&lt;h2 id="examples">Examples&lt;/h2>
+&lt;h3 id="carnation">Carnation&lt;/h3>
+&lt;p>&lt;img src="upload://np6mLmb2jkFwsL3ow2XXYZdQU6g.png" alt="carnation&amp;amp;ndash;landing-page__3-columns|690x402, 75%" />&lt;/p>
+&lt;h3 id="lily">Lily&lt;/h3>
+&lt;p>&lt;img src="upload://w3bMgpC2xgUyaHHrWstb1mSMHlX.png" alt="lily&amp;amp;ndash;landing-page__3-columns|690x402, 75%" />&lt;/p>
+&lt;h3 id="rose">Rose&lt;/h3>
+&lt;h2 id="rose--landing-page__3-columns690x402-75uploaddkhsffvh4lp43jqtgi0tgoobyawpng">&lt;img src="upload://dkhSffVh4lP43JQTGi0TGoObYAW.png" alt="rose&amp;amp;ndash;landing-page__3-columns|690x402, 75%" />&lt;/h2>
+&lt;h2 id="areas-it-can-be-used">Areas it Can Be Used:&lt;/h2>
+&lt;ul>
+&lt;li>Content Area&lt;/li>
+&lt;li>Bottom Area&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h2 id="how-it-works">How it Works&lt;/h2>
+&lt;p>&lt;img src="upload://9af9E5y5FrDdJ97QTY97bFQKSNy.png" alt="landing-page__3-columns-dropdown|644x500, 50%" />&lt;/p>
+&lt;ul>
+&lt;li>Select 3 Columns from the Paragraphs dropdown.&lt;/li>
+&lt;li>&lt;strong>Title&lt;/strong>: Optional large, all caps title at the top.&lt;/li>
+&lt;li>Add custom blocks to the &lt;em>Left Column&lt;/em>, &lt;em>Center Column&lt;/em>, and &lt;em>Right Column&lt;/em> fields.&lt;/li>
+&lt;/ul>
+&lt;p>
+&lt;a href="https://community.openymca.org/t/blocks-website-structure-open-y-user-docs/733" target="_blank">Learn more about custom blocks ⇒&lt;/a>&lt;/p>
+&lt;p>&lt;img src="upload://qM1IaFTQvMqc1MD11pO4ZhJQT3q.png" alt="landing-page__3-columns-options|544x500, 75%" />&lt;/p>
+&lt;p>If you want to add multiple rows of content with 3 columns, add a new 3 columns paragraph for each set of two you want (e.g., if you have seven blocks of content, add three 3 columns paragraphs).&lt;/p>
+&lt;hr>
+&lt;h2 id="content-types-that-support-this-paragraph">Content Types That Support this Paragraph&lt;/h2>
+&lt;ul>
+&lt;li>
+&lt;a href="https://community.openymca.org/t/landing-page-content-types-open-y-user-docs/667" target="_blank">Landing Page&lt;/a>&lt;/li>
+&lt;li>
+&lt;a href="https://community.openymca.org/t/branch-content-types-open-y-user-docs/685" target="_blank">Branch&lt;/a>&lt;/li>
+&lt;li>
+&lt;a href="https://community.openymca.org/t/camp-content-types-user-docs/690" target="_blank">Camp&lt;/a>&lt;/li>
+&lt;li>Facility&lt;/li>
+&lt;li>
+&lt;a href="https://community.openymca.org/t/program-content-types-open-y-user-docs/691" target="_blank">Program&lt;/a>&lt;/li>
+&lt;li>
+&lt;a href="https://community.openymca.org/t/landing-page-content-types-open-y-user-docs/667" target="_blank">Program Subcategory&lt;/a>&lt;/li>
+&lt;li>
+&lt;a href="https://community.openymca.org/t/blog-post-content-types-open-y-user-docs/693" target="_blank">Blog Post (Not Supported in Carnation)&lt;/a>&lt;/li>
+&lt;li>Event&lt;/li>
+&lt;li>
+&lt;a href="https://community.openymca.org/t/news-post-content-types-open-y-user-docs/694" target="_blank">News Post&lt;/a>&lt;/li>
+&lt;/ul></description></item><item><title>Docs: 4 Columns</title><link>/docs/content-structure/paragraphs/4c/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/content-structure/paragraphs/4c/</guid><description>
 &lt;p>This is a paragraph type that will be used for implements a paragraph with 4 column.&lt;/p>
 &lt;h3 id="fields">Fields&lt;/h3>
 &lt;table>
@@ -198,22 +367,97 @@
 &lt;td>&lt;/td>
 &lt;/tr>
 &lt;/tbody>
-&lt;/table></description></item><item><title>Docs: Acceptance Testing</title><link>/docs/development/acceptancetesting/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/development/acceptancetesting/</guid><description>
+&lt;/table></description></item><item><title>Docs: 4 Columns</title><link>/docs/user-documentation/paragraphs/4c/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/user-documentation/paragraphs/4c/</guid><description>
+&lt;blockquote>
+&lt;p>Adds four equal-width, reusable blocks of content, side-by-side. The leftmost columns stacks on top of columns to their right.&lt;/p>
+&lt;/blockquote>
+&lt;h2 id="examples">Examples&lt;/h2>
+&lt;blockquote>
+&lt;p>&lt;strong>This paragraph does not work out of the box in Carnation (see Advanced).&lt;/strong>&lt;/p>
+&lt;p>Content editors can use
+&lt;a href="https://community.openymca.org/t/grid-content-paragraphs-open-y-user-docs/716" target="_blank">Grid Content&lt;/a> or
+&lt;a href="https://community.openymca.org/t/featured-content-paragraphs-open-y-user-docs/713" target="_blank">Featured Content&lt;/a> paragraphs to achieve a similar layout.&lt;/p>
+&lt;/blockquote>
+&lt;h3 id="lily">Lily&lt;/h3>
+&lt;p>&lt;img src="upload://qDbiXOcJTlITS35qmjkpcL468jV.png" alt="lily&amp;amp;ndash;landing-page__4-columns|690x346, 75%" />&lt;/p>
+&lt;h3 id="rose">Rose&lt;/h3>
+&lt;p>&lt;img src="upload://5a76MKBOZX0ESRqTTaPnXhTADve.png" alt="rose&amp;amp;ndash;landing-page__4-columns|690x216, 75%" />&lt;/p>
+&lt;hr>
+&lt;h2 id="areas-it-can-be-used">Areas it Can Be Used:&lt;/h2>
+&lt;ul>
+&lt;li>Content Area&lt;/li>
+&lt;li>Bottom Area&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h2 id="how-it-works">How it Works&lt;/h2>
+&lt;ul>
+&lt;li>Select 4 Columns from the Paragraphs dropdown&lt;/li>
+&lt;li>&lt;strong>Title&lt;/strong>: Optional large, all-caps title at the top&lt;/li>
+&lt;li>&lt;strong>Line Above&lt;/strong>: Adds a horizontal rule above each column.&lt;/li>
+&lt;/ul>
+&lt;p>&lt;img src="upload://nvaYHUXy4C2JTaLL9d0hxlGVdJv.png" alt="landing-page__line-above|615x120, 50%" />&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>Description&lt;/strong>: A subheader/section description embedded below the title and above your titles.
+&lt;a href="https://community.openymca.org/c/Resources-and-training-for-content-editors/Learn-how-to-use-the-basic-text-editing-functions-available-to-content-editors" target="_blank">Uses the text editor&lt;/a> for styling.&lt;/li>
+&lt;li>Add custom blocks to the First Column, Second Column, Third Column, Fourth Column.&lt;/li>
+&lt;/ul>
+&lt;p>&lt;img src="upload://5w09U86JkdvGcMYRLRLyMD6lwKw.png" alt="Screen Shot 2020-03-26 at 2.43.58 PM|580x500, 75%" />&lt;/p>
+&lt;p>
+&lt;a href="https://community.openymca.org/t/blocks-website-structure-open-y-user-docs/733" target="_blank">Learn more about custom blocks ⇒&lt;/a>&lt;/p>
+&lt;blockquote>
+&lt;p>&lt;strong>Adding Headers to Individual Blocks&lt;/strong>
+Out of the box, the &lt;em>Title field&lt;/em> in each &lt;em>custom block&lt;/em> renders as plain text. To work around this, add your headers in the text editor.&lt;/p>
+&lt;p>See &lt;em>Advanced&lt;/em> below for details about how to fix this with CSS.&lt;/p>
+&lt;/blockquote>
+&lt;p>If you want to add multiple rows of content with 4 columns, add a new 4 columns paragraph for each set of two you want (e.g., if you have seven blocks of content, add two 4 columns paragraphs).&lt;/p>
+&lt;p>
+&lt;a href="https://community.openymca.org/t/content-editing-basics-open-y-user-docs/732/2" target="_blank">Learn more about the link field ⇒&lt;/a>&lt;/p>
+&lt;h2 id="advanced">Advanced&lt;/h2>
+&lt;h3 id="title-field-styling">Title Field Styling&lt;/h3>
+&lt;p>In all three themes currently in Open Y, the Title field displays in a font-size and color nearly identical to the body copy. To override, target &lt;code>.field-sb-title&lt;/code>.&lt;/p>
+&lt;h3 id="carnation---columns-stack-in-desktop">Carnation -&amp;gt; Columns stack in desktop&lt;/h3>
+&lt;p>In order for this to work in Carnation, the &lt;code>.wrapper&lt;/code> containing the column elements needs to be changed to &lt;code>.row&lt;/code>; otherwise, each of the four columns expands to the full width of the Area it’s embedded in.&lt;/p>
+&lt;p>&lt;img src="upload://e5PN69yzVeeS8Svoco5QFXb7Qhy.png" alt="carnation&amp;amp;ndash;landing-page__4-columns|690x346, 75%" />&lt;/p>
+&lt;h2 id="content-types-that-support-this-paragraph">Content Types That Support this Paragraph&lt;/h2>
+&lt;ul>
+&lt;li>
+&lt;a href="https://community.openymca.org/t/landing-page-content-types-open-y-user-docs/667" target="_blank">Landing Page&lt;/a>&lt;/li>
+&lt;li>
+&lt;a href="https://community.openymca.org/t/branch-content-types-open-y-user-docs/685" target="_blank">Branch&lt;/a>&lt;/li>
+&lt;li>
+&lt;a href="https://community.openymca.org/t/camp-content-types-user-docs/690" target="_blank">Camp&lt;/a>&lt;/li>
+&lt;li>Facility&lt;/li>
+&lt;li>
+&lt;a href="https://community.openymca.org/t/program-content-types-open-y-user-docs/691" target="_blank">Program&lt;/a>&lt;/li>
+&lt;li>
+&lt;a href="https://community.openymca.org/t/landing-page-content-types-open-y-user-docs/667" target="_blank">Program Subcategory&lt;/a>&lt;/li>
+&lt;li>
+&lt;a href="https://community.openymca.org/t/blog-post-content-types-open-y-user-docs/693" target="_blank">Blog Post (Not Supported in Carnation)&lt;/a>&lt;/li>
+&lt;li>Event&lt;/li>
+&lt;li>
+&lt;a href="https://community.openymca.org/t/news-post-content-types-open-y-user-docs/694" target="_blank">News Post&lt;/a>&lt;/li>
+&lt;/ul></description></item><item><title>Docs: Acceptance Testing</title><link>/docs/development/acceptancetesting/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/development/acceptancetesting/</guid><description>
 &lt;p>Open Y is a big distribution with a large amount of modules, components, subsystems, and business
 processes, therefore we have to take appropriate steps to ensure the stability of major functionality during development.&lt;/p>
-&lt;p>For the automated tests we have created &lt;a href="https://github.com/ymcatwincities/openy/blob/9.x-2.x/.github/PULL_REQUEST_TEMPLATE.md">General Checks template&lt;/a>
+&lt;p>For the automated tests we have created
+&lt;a href="https://github.com/ymcatwincities/openy/blob/9.x-2.x/.github/PULL_REQUEST_TEMPLATE.md" target="_blank">General Checks template&lt;/a>
 on GitHub every developer should follow to get review approval from Open Y core team.
 However, General Checks are for testing functionality for the current proposed change only, not for Regression Testing.&lt;/p>
-&lt;p>For regression testing, &lt;a href="/docs/development/tests/#behat">Behat tests&lt;/a> in this flow are provided automatically on each build by Open Y community.&lt;/p>
+&lt;p>For regression testing,
+&lt;a href="/docs/development/tests/#behat">Behat tests&lt;/a> in this flow are provided automatically on each build by Open Y community.&lt;/p>
 &lt;p>Every pull request should include a testing plan prior to release into Open Y. This plan should cover the testing of all workflows and functionality to ensure that they continue to work with any new code or change implemented. This is because it is possible for conflicts to occur between elements of Open Y, Drupal Modules, and Drupal Core. These pull request testing plans will increase productivity and decrease effort for manual Acceptance Testing of upcoming Releases. This testing plan should cover specific features and functionality that is likely to cause regression issues post-release or post-upgrade to the latest version of Open Y once this new code is implemented.&lt;/p>
 &lt;p>Example of testing plan: If the Drupal core is updated it is important to gather all Drupal core Release Notes since last release
 core upgrade for Open Y and analyze important issues fixed.
 Example - in case if you are doing upgrade from latest 8.4.0 to 8.4.4:&lt;/p>
 &lt;ul>
-&lt;li>&lt;a href="https://www.drupal.org/project/drupal/releases/8.4.4">https://www.drupal.org/project/drupal/releases/8.4.4&lt;/a> (translations)&lt;/li>
-&lt;li>&lt;a href="https://www.drupal.org/project/drupal/releases/8.4.3">https://www.drupal.org/project/drupal/releases/8.4.3&lt;/a> (postgreSQL and migration)&lt;/li>
-&lt;li>&lt;a href="https://www.drupal.org/project/drupal/releases/8.4.2">https://www.drupal.org/project/drupal/releases/8.4.2&lt;/a> (migrations, taxonomy, ckeditor)&lt;/li>
-&lt;li>&lt;a href="https://www.drupal.org/project/drupal/releases/8.4.1">https://www.drupal.org/project/drupal/releases/8.4.1&lt;/a> (composer)&lt;/li>
+&lt;li>
+&lt;a href="https://www.drupal.org/project/drupal/releases/8.4.4" target="_blank">https://www.drupal.org/project/drupal/releases/8.4.4&lt;/a> (translations)&lt;/li>
+&lt;li>
+&lt;a href="https://www.drupal.org/project/drupal/releases/8.4.3" target="_blank">https://www.drupal.org/project/drupal/releases/8.4.3&lt;/a> (postgreSQL and migration)&lt;/li>
+&lt;li>
+&lt;a href="https://www.drupal.org/project/drupal/releases/8.4.2" target="_blank">https://www.drupal.org/project/drupal/releases/8.4.2&lt;/a> (migrations, taxonomy, ckeditor)&lt;/li>
+&lt;li>
+&lt;a href="https://www.drupal.org/project/drupal/releases/8.4.1" target="_blank">https://www.drupal.org/project/drupal/releases/8.4.1&lt;/a> (composer)&lt;/li>
 &lt;/ul>
 &lt;p>This means the list of systems should be tested are&lt;/p>
 &lt;ul>
@@ -234,10 +478,12 @@ that the older version of said module - then it is better to keep the old module
 Tip: usually a new version of the module already contains a bug fix, so adding a patch from the drupal.org to composer.json of the Open Y distribution is preferred to get distribution
 released. Keep in mind, you will need to create a follow-up task for the module to be updated after release.&lt;/p>
 &lt;p>After creating list of modules that could introduce regression issues it is highly recommended to follow
-Quick-start section of the module&amp;rsquo;s readme files, that usually is shipped with modules. &lt;a href="https://github.com/ymcatwincities/openy/blob/8.x-1.x/modules/custom/location_finder/README.md#quickstart">Example for the location_finder&lt;/a>.
+Quick-start section of the module&amp;rsquo;s readme files, that usually is shipped with modules.
+&lt;a href="https://github.com/ymcatwincities/openy/blob/8.x-1.x/modules/custom/location_finder/README.md#quickstart" target="_blank">Example for the location_finder&lt;/a>.
 In case if a module has no Quick-start or Acceptance testing section in readme - it is important to test at least one place
 where functionality of the module should be working. It is highly recommended to add this manual test steps as
-a follow-up task, &lt;a href="https://github.com/ymcatwincities/openy/issues/new">new issue&lt;/a> or even better - create Pull Request
+a follow-up task,
+&lt;a href="https://github.com/ymcatwincities/openy/issues/new" target="_blank">new issue&lt;/a> or even better - create Pull Request
 with changes to readme into Open Y repository. For the sake of performance, adding step by step how-to to the respective
 module&amp;rsquo;s README.md file is highly recommended. It takes only a few minutes to write a couple of lines of documentation which will greatly help others with future contributions and changes.&lt;/p>
 &lt;p>Optional, but greatly appreciated: Add a Drupal tour for the how-to, created in README will benefit future Open Y users and developers.
@@ -286,7 +532,31 @@ request, on every CI build in the future.&lt;/p>
 &lt;/table>
 &lt;h3 id="url-pattern">URL pattern&lt;/h3>
 &lt;p>Content type is using following pattern:
-&lt;code>/programs/[node:field_activity_category:entity:field_category_program:entity:title]/[node:field_activity_category:entity:title]/[node:title]&lt;/code>&lt;/p></description></item><item><title>Docs: Adding and Embedding Videos</title><link>/docs/user-documentation/text-editor/adding-embedding-videos/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/user-documentation/text-editor/adding-embedding-videos/</guid><description>
+&lt;code>/programs/[node:field_activity_category:entity:field_category_program:entity:title]/[node:field_activity_category:entity:title]/[node:title]&lt;/code>&lt;/p></description></item><item><title>Docs: Activity Finder</title><link>/docs/user-documentation/paragraphs/activity-finder/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/user-documentation/paragraphs/activity-finder/</guid><description>
+&lt;h2 id="documentation-in-progress">&lt;strong>Documentation in Progress&lt;/strong>&lt;/h2>
+&lt;p>Activity Finder&lt;/p>
+&lt;p>What It Does: Embeds the Activity Finder program search experience on your website, which helps users pre-filter the activities they want to search for.&lt;/p>
+&lt;p>Areas It Should Be Used&lt;/p>
+&lt;ul>
+&lt;li>Content Area&lt;/li>
+&lt;li>Bottom Area&lt;/li>
+&lt;/ul>
+&lt;p>How it Works&lt;/p>
+&lt;p>This paragraph type requires an integration into a CRM. Out-of-the-box, Open Y’s Activity Finder integrates with Daxko, ActiveNet, and Personify. Any other CRM will require custom developer work.&lt;/p>
+&lt;p>Read more about the Activity Finder feature &amp;gt;&lt;/p>
+&lt;p>How you use these paragraphs will depend on how your Association has structured its program data on the CRM and on how you decide to get people to program results.&lt;/p>
+&lt;p>There are three primary approaches to setting this up: a standard approach, a results-only approach, and a targeted approach.&lt;/p>
+&lt;p>Standard Approach&lt;/p>
+&lt;p>Create two Landing Pages. Title one “Find a Program” and the other “Program Search.”&lt;/p>
+&lt;p>On the “Find a Program” page, add the “Activity Finder” paragraph. Type in “Program Search” and select your Program Search in the “Activity Finder Search Results Page Reference” field.&lt;/p>
+&lt;p>At the bottom, you will see a field called “Title.” Change the title to “Find a Program.” Save the page.&lt;/p>
+&lt;p>Next, on the “Program Search” page, add the “Activity Finder Search Results” paragraph into the Content Area. Type in “Find a Program” on the “Activity Finder Page Reference” page.&lt;/p>
+&lt;p>Results-Only Approach&lt;/p>
+&lt;p>If you plan on using deep-linking or want to forgo the guided search experience, you can use the “Activity Finder Search Results.” Create a Landing Page called “Program Search” using the One Column (Full Width) layout.&lt;/p>
+&lt;p>Add the “Activity Finder Search Results” paragraph into your content area and leave the “Activity Finder Page Reference” field blank. Save your page.&lt;/p>
+&lt;p>Read: Deep-linking to an Activity Finder Program Search results page &amp;gt;&lt;/p>
+&lt;p>Targeted Approach&lt;/p>
+&lt;p>Activity Finder can also be used on multiple pages on your site, specifically on your Program Subcategory pages. On a Subcategory page, add the “Activity Finder” paragraph&lt;/p></description></item><item><title>Docs: Activity, Class, and Session</title><link>/docs/user-documentation/content-types/activity-class-session/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/user-documentation/content-types/activity-class-session/</guid><description/></item><item><title>Docs: Adding and Embedding Videos</title><link>/docs/user-documentation/text-editor/adding-embedding-videos/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/user-documentation/text-editor/adding-embedding-videos/</guid><description>
 &lt;h1 id="addingembedding-videos-with-the-open-y-text-editor">Adding/Embedding Videos with the Open Y Text Editor&lt;/h1>
 &lt;p>Open Y allows you to upload and embed images directly into a block of text, either from your computer or from the Open Y media library and browser.&lt;/p>
 &lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
@@ -328,8 +598,10 @@ request, on every CI build in the future.&lt;/p>
 &lt;/blockquote></description></item><item><title>Docs: Adding Images</title><link>/docs/user-documentation/text-editor/adding-images/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/user-documentation/text-editor/adding-images/</guid><description>
 &lt;h3 id="note-to-users-of-open-y-24">NOTE TO USERS OF OPEN Y 2.4+&lt;/h3>
 &lt;blockquote>
-&lt;p>This documentation is not up-to-date if you are using &lt;a href="https://community.openymca.org/t/version-2-4-released-q1-2020-major-release/624">Open Y 2.4&lt;/a> and later.&lt;/p>
-&lt;p>&lt;a href="https://www.youtube.com/watch?v=gcaBlhyPZEY">View video tutorial for Open 2.4 and later ⇒&lt;/a>&lt;/p>
+&lt;p>This documentation is not up-to-date if you are using
+&lt;a href="https://community.openymca.org/t/version-2-4-released-q1-2020-major-release/624" target="_blank">Open Y 2.4&lt;/a> and later.&lt;/p>
+&lt;p>
+&lt;a href="https://www.youtube.com/watch?v=gcaBlhyPZEY" target="_blank">View video tutorial for Open 2.4 and later ⇒&lt;/a>&lt;/p>
 &lt;/blockquote>
 &lt;h1 id="adding-images-with-the-open-y-text-editor">Adding Images with the Open Y Text Editor&lt;/h1>
 &lt;p>Open Y allows you to upload and embed images directly into a block of text, either from your computer or from the Open Y media library and browser.&lt;/p>
@@ -372,21 +644,25 @@ request, on every CI build in the future.&lt;/p>
 &lt;/blockquote>
 &lt;h2 id="more-on-images">More on Images&lt;/h2>
 &lt;ul>
-&lt;li>&lt;a href="https://community.openymca.org/t/video-tutorials-for-images-and-documents/738">View all image tutorial videos ⇒&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://community.openymca.org/t/taxonomy-vocabularies-and-terms-website-structure-open-y-user-docs/734">Learn how to create media tags and folders with Taxonomies ⇒&lt;/a>&lt;/li>
+&lt;li>
+&lt;a href="https://community.openymca.org/t/video-tutorials-for-images-and-documents/738" target="_blank">View all image tutorial videos ⇒&lt;/a>&lt;/li>
+&lt;li>
+&lt;a href="https://community.openymca.org/t/taxonomy-vocabularies-and-terms-website-structure-open-y-user-docs/734" target="_blank">Learn how to create media tags and folders with Taxonomies ⇒&lt;/a>&lt;/li>
 &lt;/ul></description></item><item><title>Docs: Adding Links</title><link>/docs/user-documentation/text-editor/adding-links/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/user-documentation/text-editor/adding-links/</guid><description>
 &lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
 &lt;iframe src="https://www.youtube.com/embed/-AJLwiKC3oE" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video">&lt;/iframe>
 &lt;/div>
 &lt;p>&lt;strong>Using Links with the Text Editor&lt;/strong>
 Links are simple in Open Y - just highlight your text and click the link icon or type Ctrl+K (Windows)/Command(⌘)+K (Mac). Once the pop-up appears, type your URL into the field and click “Save.”&lt;/p>
-&lt;p>&lt;img src="/img/23616117608ee734ee7496acf8f0ee1c958995f6.png" alt="blog-description_text-editor-links|690x78">&lt;/p>
-&lt;p>&lt;img src="/img/a9e9f2c859caedce4a81dfccbf091dff33936e43.png" alt="blog-description__text-editor-link-popup|690x335, 50%">&lt;/p>
-&lt;p>&lt;em>&lt;a href="https://ckeditor.com/ckeditor-4/demo/">Demo this on CKEditor Site &amp;gt;&lt;/a>&lt;/em>&lt;/p>
+&lt;p>&lt;img src="/img/23616117608ee734ee7496acf8f0ee1c958995f6.png" alt="blog-description_text-editor-links|690x78" />&lt;/p>
+&lt;p>&lt;img src="/img/a9e9f2c859caedce4a81dfccbf091dff33936e43.png" alt="blog-description__text-editor-link-popup|690x335, 50%" />&lt;/p>
+&lt;p>&lt;em>
+&lt;a href="https://ckeditor.com/ckeditor-4/demo/" target="_blank">Demo this on CKEditor Site &amp;gt;&lt;/a>&lt;/em>&lt;/p>
 &lt;hr />
 &lt;p>&lt;strong>Open Y 2.5 and later&lt;/strong>&lt;/p>
-&lt;p>Ys with newer versions of Open Y can add attributes to their links, including a title (&lt;a href="https://en.wikipedia.org/wiki/Tooltip">for tooltips&lt;/a>) HTML ID, HTML rel and CSS classes. You can also opt to have your link open in a new window/tab.&lt;/p>
-&lt;p>&lt;img src="/img/780e5a6d9c2b4f7a0bff8606f40807800d9f28fe.png" alt="landing-page_text-editor-link-and-title-popup|690x300, 50%"> &lt;img src="/img/6bbc2313b7b75f269c895aba35df2b9595304375.png" alt="landing-page_text-editor-link-attributes-popup|628x500, 50%">&lt;/p>
+&lt;p>Ys with newer versions of Open Y can add attributes to their links, including a title (
+&lt;a href="https://en.wikipedia.org/wiki/Tooltip" target="_blank">for tooltips&lt;/a>) HTML ID, HTML rel and CSS classes. You can also opt to have your link open in a new window/tab.&lt;/p>
+&lt;p>&lt;img src="/img/780e5a6d9c2b4f7a0bff8606f40807800d9f28fe.png" alt="landing-page_text-editor-link-and-title-popup|690x300, 50%" /> &lt;img src="/img/6bbc2313b7b75f269c895aba35df2b9595304375.png" alt="landing-page_text-editor-link-attributes-popup|628x500, 50%" />&lt;/p>
 &lt;p>&lt;strong>Linking Tips&lt;/strong>&lt;/p>
 &lt;ul>
 &lt;li>For links on your website, don’t use the full URL. Highlight everything beginning with the &lt;code>/&lt;/code> after your &lt;code>.com&lt;/code>, &lt;code>.org&lt;/code>, etc.
@@ -396,7 +672,8 @@ Links are simple in Open Y - just highlight your text and click the link icon or
 &lt;/li>
 &lt;li>For links on other websites, grab the full URL, including the &lt;code>https://&lt;/code>.
 &lt;ul>
-&lt;li>For example, for openy.org/about, you would choose &lt;a href="https://openy.org/about">https://openy.org/about&lt;/a>.&lt;/li>
+&lt;li>For example, for openy.org/about, you would choose
+&lt;a href="https://openy.org/about" target="_blank">https://openy.org/about&lt;/a>.&lt;/li>
 &lt;/ul>
 &lt;/li>
 &lt;li>For email links, add &lt;code>&amp;quot;mailto:example@exampleymca.org.&amp;quot;&lt;/code>&lt;/li>
@@ -404,7 +681,8 @@ Links are simple in Open Y - just highlight your text and click the link icon or
 &lt;p>To update/change a link, highlight the link text and click the link icon or Ctrl+K (Windows) /Command(⌘)+K (Mac).&lt;/p>
 &lt;p>To remove a link, highlight the link text and click the unlink icon.&lt;/p>
 &lt;blockquote>
-&lt;p>&lt;strong>Pro Tip:&lt;/strong> The link button doesn’t support opening links in a new window or tab, such as with a &lt;code>&amp;quot;target='_blank'&amp;quot;&lt;/code> You can either use HTML or the &lt;a href="https://community.openymca.org/t/building-buttons-in-the-text-editor/646">WYSIWYG button tool to create links&lt;/a> in new tabs.&lt;/p>
+&lt;p>&lt;strong>Pro Tip:&lt;/strong> The link button doesn’t support opening links in a new window or tab, such as with a &lt;code>&amp;quot;target='_blank'&amp;quot;&lt;/code> You can either use HTML or the
+&lt;a href="https://community.openymca.org/t/building-buttons-in-the-text-editor/646" target="_blank">WYSIWYG button tool to create links&lt;/a> in new tabs.&lt;/p>
 &lt;/blockquote></description></item><item><title>Docs: Adding/Embedding Documents</title><link>/docs/user-documentation/text-editor/adding-documents/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/user-documentation/text-editor/adding-documents/</guid><description>
 &lt;p>Open Y allows you to upload and embed documents directly into a block of text, either from your computer or from the Open Y media library and browser.&lt;/p>
 &lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
@@ -451,7 +729,7 @@ Links are simple in Open Y - just highlight your text and click the link icon or
 &lt;/li>
 &lt;li>
 &lt;p>Go to &lt;code>admin/openy/settings/openy-addthis&lt;/code> add public id
-&lt;img src="../../assets/addthis.png" alt="Enter Public id">&lt;/p>
+&lt;img src="../../assets/addthis.png" alt="Enter Public id" />&lt;/p>
 &lt;/li>
 &lt;li>
 &lt;p>Select the content type for which to show the social icons and save.&lt;/p>
@@ -465,7 +743,7 @@ Links are simple in Open Y - just highlight your text and click the link icon or
 &lt;/li>
 &lt;li>
 &lt;p>After content add &amp;lsquo;Social share icons&amp;rsquo; paragraph
-&lt;img src="../../assets/addthis_paragraph.png" alt="Enter Public id">&lt;/p>
+&lt;img src="../../assets/addthis_paragraph.png" alt="Enter Public id" />&lt;/p>
 &lt;/li>
 &lt;/ol></description></item><item><title>Docs: Alert</title><link>/docs/content-structure/content-types/alert/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/content-structure/content-types/alert/</guid><description>
 &lt;p>Alert content type is used for adding alerts on the site.&lt;/p>
@@ -532,7 +810,7 @@ Links are simple in Open Y - just highlight your text and click the link icon or
 &lt;/table>
 &lt;h3 id="url-pattern">URL pattern&lt;/h3>
 &lt;p>Content type is using following pattern:
-&lt;code>/alert/[node:title]&lt;/code>.&lt;/p></description></item><item><title>Docs: All Amenities</title><link>/docs/content-structure/paragraphs/all-amenities/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/content-structure/paragraphs/all-amenities/</guid><description>
+&lt;code>/alert/[node:title]&lt;/code>.&lt;/p></description></item><item><title>Docs: Alert</title><link>/docs/user-documentation/content-types/alert/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/user-documentation/content-types/alert/</guid><description/></item><item><title>Docs: All Amenities</title><link>/docs/content-structure/paragraphs/all-amenities/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/content-structure/paragraphs/all-amenities/</guid><description>
 &lt;p>Provide a paragraph with a table view shows list of Branches.&lt;/p>
 &lt;h3 id="fields">Fields&lt;/h3>
 &lt;table>
@@ -558,7 +836,28 @@ Links are simple in Open Y - just highlight your text and click the link icon or
 &lt;td>Enter title which is going to be displayed on top of the paragraph.&lt;/td>
 &lt;/tr>
 &lt;/tbody>
-&lt;/table></description></item><item><title>Docs: Amenities</title><link>/docs/content-structure/taxonomy/amenities/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/content-structure/taxonomy/amenities/</guid><description>
+&lt;/table></description></item><item><title>Docs: All Amenities</title><link>/docs/user-documentation/paragraphs/all-amenities/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/user-documentation/paragraphs/all-amenities/</guid><description>
+&lt;h2 id="documentation-in-progress">&lt;strong>Documentation in Progress&lt;/strong>&lt;/h2>
+&lt;p>All Amenities (deprecated)&lt;/p>
+&lt;p>What It Does: Shows a list of branches with icons indicating, at a glance, which amenities are available at each branch. Includes a checkbox field to filter branches by amenities.&lt;/p>
+&lt;p>Areas Where it Should Be Used:&lt;/p>
+&lt;ul>
+&lt;li>Content Area&lt;/li>
+&lt;li>Bottom Area&lt;/li>
+&lt;/ul>
+&lt;p>How to Use It&lt;/p>
+&lt;p>NOTE: This paragraph provides similar functionality to the Location filter by amenities, and is no longer recommended for use by the Open Y Core Team.&lt;/p>
+&lt;p>After selecting “All Amenities” from the paragraphs list, you can change the title that displays above the search checkboxes by entering text in the Title field.&lt;/p>
+&lt;p>Styling will differ greatly based on the theme. Use of this paragraph in Rose is not recommended.&lt;/p>
+&lt;p>Supported Content Types&lt;/p>
+&lt;ul>
+&lt;li>Landing Page&lt;/li>
+&lt;/ul>
+&lt;p>Related Paragraphs&lt;/p>
+&lt;ul>
+&lt;li>Location filter by amenities&lt;/li>
+&lt;li>Locations&lt;/li>
+&lt;/ul></description></item><item><title>Docs: Amenities</title><link>/docs/content-structure/taxonomy/amenities/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/content-structure/taxonomy/amenities/</guid><description>
 &lt;p>This is a vocabulary that will be used for adding reference Branch amenities. We will use this for the Branch.&lt;/p>
 &lt;p>&lt;strong>Machine_name&lt;/strong>: amenities&lt;/p></description></item><item><title>Docs: Area</title><link>/docs/content-structure/taxonomy/area/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/content-structure/taxonomy/area/</guid><description>
 &lt;p>This is a vocabulary that will be used for adding location areas on the site. We will use this for the Location Branch and Facility CTs.&lt;/p>
@@ -612,7 +911,55 @@ Links are simple in Open Y - just highlight your text and click the link icon or
 &lt;td>&lt;/td>
 &lt;/tr>
 &lt;/tbody>
-&lt;/table></description></item><item><title>Docs: Basic</title><link>/docs/content-structure/blocks/basic/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/content-structure/blocks/basic/</guid><description>
+&lt;/table></description></item><item><title>Docs: Banner</title><link>/docs/user-documentation/paragraphs/banner/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/user-documentation/paragraphs/banner/</guid><description>
+&lt;blockquote>
+&lt;p>Banners add large, full width images to the top of your page, along with a title, optional description and optional link.&lt;/p>
+&lt;/blockquote>
+&lt;p>&lt;img src="upload://dXgFCQyM5QmNRf3C8Hlg66Btbxc.jpeg" alt="Landing page in Carnation on desktop" />&lt;/p>
+&lt;h3 id="how-to-use-a-banner">How to Use a Banner:&lt;/h3>
+&lt;p>In the Header Area of your content, select “Add Banner” from the dropdown. Then, fill out the following fields:&lt;/p>
+&lt;p>&lt;img src="upload://xUbANfl6Ye5jocluuwBTiQyW5R8.gif" alt="landing-page__banner-fields|690x431" />&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;strong>Title (required):&lt;/strong> This field adds a headline to your banner. The placement of the title will depend on your theme and customization, but it will typically appear as large, all-caps text.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>Color (required):&lt;/strong> The background color for your banner. You typically will not see this color in Lily or Carnation, but in Rose, it will display behind your text. Choose from the list of available options.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>Description (optional):&lt;/strong> Displays beneath your Title. You have the option to style your text using the text editor, but it’s not as consistent as other places where you typically see the editor.&lt;/p>
+&lt;blockquote>
+&lt;p>[b]Recommendation -&amp;gt;[/b] Just enter basic text and don’t do anything beyond basic styling, such as bold or underline.&lt;/p>
+&lt;/blockquote>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>Image:&lt;/strong>&lt;/p>
+&lt;p>&lt;img src="upload://3sSzX2tN1MLavjpM1pDSK3gsFEC.gif" alt="landing-page__banner-image-select|480x94" />&lt;/p>
+&lt;p>Use the image library to embed an image. You can upload a new image from your computer or reuse an existing image from your library. The image field is optional, but recommended.&lt;/p>
+&lt;p>For recommended image sizes for your Open Y site, talk to your agency partner.&lt;/p>
+&lt;p>&lt;strong>How to add/edit images &amp;gt;&lt;/strong>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>Link/Button:&lt;/strong> Add a URL and a link to the button on the page. The button on your banner cannot be styled without custom CSS/code.
+&lt;a href="https://community.openymca.org/t/video-tutorials-for-images-and-documents/738" target="_blank">Using link/button fields ⇒&lt;/a>&lt;/p>
+&lt;blockquote>
+&lt;p>&lt;strong>Note:&lt;/strong> If you know a little CSS, you can have your agency partner
+&lt;a href="https://www.drupal.org/project/css_editor" target="_blank">install the CSS Editor &lt;/a>module, and you can target &lt;code>.btn.banner-btn&lt;/code> to change the default button.&lt;/p>
+&lt;/blockquote>
+&lt;/li>
+&lt;/ul>
+&lt;h3 id="content-types-that-support-banner">Content Types that Support Banner&lt;/h3>
+&lt;ul>
+&lt;li>
+&lt;a href="/docs/user-documentation/content-types/landing-page/">Landing Page&lt;/a>&lt;/li>
+&lt;li>
+&lt;a href="/docs/user-documentation/content-types/program/">Program (Works better in Carnation/Lily)&lt;/a>&lt;/li>
+&lt;li>
+&lt;a href="/docs/user-documentation/content-types/branch/">Branch&lt;/a>&lt;/li>
+&lt;li>
+&lt;a href="/docs/user-documentation/content-types/camp/">Camp&lt;/a>&lt;/li>
+&lt;li>Facility&lt;/li>
+&lt;/ul></description></item><item><title>Docs: Basic</title><link>/docs/content-structure/blocks/basic/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/content-structure/blocks/basic/</guid><description>
 &lt;p>A simple block with a description.&lt;/p>
 &lt;h3 id="fields">Fields&lt;/h3>
 &lt;table>
@@ -638,8 +985,9 @@ Links are simple in Open Y - just highlight your text and click the link icon or
 &lt;/div>
 &lt;h2 id="basic-text-formatting-in-text-editor">Basic Text Formatting in Text Editor&lt;/h2>
 &lt;p>Choose any of the options for your text below by clicking on the icon/performing the keyboard shortcut indicated. To format text you’ve previously typed, just highlight the text and then click on the button in the editor.&lt;/p>
-&lt;p>&lt;img src="/img/005bb7b2eb3fb5e7558f3b2d95462b797903decb.png" alt="blog-description__text-editor-buttons|690x56">&lt;/p>
-&lt;p>&lt;a href="https://ckeditor.com/ckeditor-4/demo/#article">Demo Basic Text Formatting on CKEditor 4 &amp;gt;&lt;/a>&lt;/p>
+&lt;p>&lt;img src="/img/005bb7b2eb3fb5e7558f3b2d95462b797903decb.png" alt="blog-description__text-editor-buttons|690x56" />&lt;/p>
+&lt;p>
+&lt;a href="https://ckeditor.com/ckeditor-4/demo/#article" target="_blank">Demo Basic Text Formatting on CKEditor 4 &amp;gt;&lt;/a>&lt;/p>
 &lt;p>&lt;em>Text Formatting/Styling Buttons&lt;/em>&lt;/p>
 &lt;ol>
 &lt;li>&lt;strong>Bold Text&lt;/strong> - Ctrl+B (Windows) or Command(⌘)+B (Mac) or clicking/unclicking the B icon&lt;/li>
@@ -803,7 +1151,7 @@ Links are simple in Open Y - just highlight your text and click the link icon or
 &lt;p>Content type is using following pattern:
 &lt;code>/blog/[node:title]&lt;/code>&lt;/p></description></item><item><title>Docs: Blog Category</title><link>/docs/content-structure/taxonomy/blog-category/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/content-structure/taxonomy/blog-category/</guid><description>
 &lt;p>This is a vocabulary that will be used for adding blog categories on the site.&lt;/p>
-&lt;p>&lt;strong>Machine_name&lt;/strong>: blog_category&lt;/p></description></item><item><title>Docs: Blog Posts Listing</title><link>/docs/content-structure/paragraphs/blog-posts-listing/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/content-structure/paragraphs/blog-posts-listing/</guid><description>
+&lt;p>&lt;strong>Machine_name&lt;/strong>: blog_category&lt;/p></description></item><item><title>Docs: Blog Post</title><link>/docs/user-documentation/content-types/blog-post/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/user-documentation/content-types/blog-post/</guid><description/></item><item><title>Docs: Blog Posts Listing</title><link>/docs/content-structure/paragraphs/blog-posts-listing/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/content-structure/paragraphs/blog-posts-listing/</guid><description>
 &lt;p>This is dynamic paragraph that renders the latest blog posts and utilizes exposed filters.&lt;/p>
 &lt;ul>
 &lt;li>Location&lt;/li>
@@ -829,7 +1177,47 @@ Links are simple in Open Y - just highlight your text and click the link icon or
 &lt;td>Block reference to the view/block. Should have default value and should be hidden in form display.&lt;/td>
 &lt;/tr>
 &lt;/tbody>
-&lt;/table></description></item><item><title>Docs: Branch</title><link>/docs/content-structure/content-types/branch/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/content-structure/content-types/branch/</guid><description>
+&lt;/table></description></item><item><title>Docs: Blog Posts Listing</title><link>/docs/user-documentation/paragraphs/blog-posts-listing/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/user-documentation/paragraphs/blog-posts-listing/</guid><description>
+&lt;blockquote>
+&lt;p>This paragraph adds a section teaser cards that link to blog posts and dropdown search fields for users to search for blogs they want to read.&lt;/p>
+&lt;/blockquote>
+&lt;h2 id="examples">Examples&lt;/h2>
+&lt;h3 id="carnation">Carnation&lt;/h3>
+&lt;p>&lt;img src="upload://1itw6gKGtnEw3GBx0HOTpMIPJjP.jpeg" alt="carnation&amp;amp;ndash;landing-page__blog-listing|690x403, 75%" />&lt;/p>
+&lt;h3 id="lily">Lily&lt;/h3>
+&lt;p>&lt;img src="upload://cSNmLCLfccdudScYx3rSIcXyNXI.jpeg" alt="lily-landing-page__blog-listing|690x456, 75%" />&lt;/p>
+&lt;h3 id="rose">Rose&lt;/h3>
+&lt;p>&lt;img src="upload://9XsjHUvqHi9hIuWp5ZcVRh6ZAtV.jpeg" alt="rose&amp;amp;ndash;landing-page__blog-listing|690x403, 75%" />&lt;/p>
+&lt;h2 id="areas-it-should-be-used">Areas it Should Be Used&lt;/h2>
+&lt;ul>
+&lt;li>Content Area&lt;/li>
+&lt;li>Bottom Area&lt;/li>
+&lt;/ul>
+&lt;h2 id="how-to-use-blog-posts">How to Use Blog Posts&lt;/h2>
+&lt;p>From the paragraphs dropdown, add &lt;em>Blog Posts Listing&lt;/em>. Enter a header title for the section in the text field and hit &lt;em>Save&lt;/em>.&lt;/p>
+&lt;p>&lt;img src="upload://tXW9m7SRrSXpseb2rIzuybXKOju.png" alt="landing-page__blog-posts-listing-admin|690x193, 75%" />&lt;/p>
+&lt;h2 id="advanced">Advanced&lt;/h2>
+&lt;p>Advanced users can make changes to the exposed fields using the Views module and the paragraphs settings.&lt;/p>
+&lt;p>
+&lt;a href="https://www.youtube.com/watch?v=h39RyuMzfBU" target="_blank">https://www.youtube.com/watch?v=h39RyuMzfBU&lt;/a>&lt;/p>
+&lt;p>The view for the Blog Listings paragraph is not available for editing in the
+&lt;a href="https://sandbox.openymca.org" target="_blank">Open Y sandbox&lt;/a>, but you can edit the View
+&lt;a href="https://www.youtube.com/watch?v=GpknEXv1IfA" target="_blank">using your own dedicated instance&lt;/a>. Doing so through the UI, however, could have implications for future upgrades.&lt;/p>
+&lt;h2 id="content-types-that-support-blog-posts">Content Types that Support Blog Posts&lt;/h2>
+&lt;ul>
+&lt;li>
+&lt;a href="https://community.openymca.org/t/landing-page-content-types-open-y-user-docs/667" target="_blank">Landing Page&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="relatedalternative-paragraphs">Related/Alternative Paragraphs&lt;/h2>
+&lt;ul>
+&lt;li>Event Posts Listing&lt;/li>
+&lt;li>
+&lt;a href="https://community.openymca.org/t/latest-blog-posts-including-camp-branch-paragraphs-open-y-user-docs/717" target="_blank">Latest Blog Posts/(Camp)/(Branch)&lt;/a>&lt;/li>
+&lt;li>
+&lt;a href="https://community.openymca.org/t/latest-news-branch-including-camp-branch-paragraphs-open-y-user-docs/718" target="_blank">Latest News Posts/(Camp)/(Branch)&lt;/a>&lt;/li>
+&lt;li>
+&lt;a href="https://community.openymca.org/t/news-posts-listing-paragraphs-open-y-user-docs/721" target="_blank">News Posts Listing&lt;/a>&lt;/li>
+&lt;/ul></description></item><item><title>Docs: Branch</title><link>/docs/content-structure/content-types/branch/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/content-structure/content-types/branch/</guid><description>
 &lt;p>Branch content type is used for adding Branches on the site.&lt;/p>
 &lt;h3 id="fields">Fields&lt;/h3>
 &lt;table>
@@ -978,7 +1366,7 @@ Links are simple in Open Y - just highlight your text and click the link icon or
 &lt;/table>
 &lt;h3 id="url-pattern">URL pattern&lt;/h3>
 &lt;p>Content type is using following pattern:
-&lt;code>/locations/[node:title]&lt;/code>&lt;/p></description></item><item><title>Docs: Branch Amenities</title><link>/docs/content-structure/blocks/branch-amenities/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/content-structure/blocks/branch-amenities/</guid><description>
+&lt;code>/locations/[node:title]&lt;/code>&lt;/p></description></item><item><title>Docs: Branch</title><link>/docs/user-documentation/content-types/branch/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/user-documentation/content-types/branch/</guid><description/></item><item><title>Docs: Branch Amenities</title><link>/docs/content-structure/blocks/branch-amenities/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/content-structure/blocks/branch-amenities/</guid><description>
 &lt;p>A block with amenities list of the current branch.&lt;/p>
 &lt;h3 id="fields">Fields&lt;/h3>
 &lt;table>
@@ -1070,14 +1458,15 @@ Links are simple in Open Y - just highlight your text and click the link icon or
 &lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
 &lt;iframe src="https://www.youtube.com/embed/lJmhRo99uuM" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video">&lt;/iframe>
 &lt;/div>
-&lt;p>&lt;a href="https://community.openymca.org/t/adding-links-in-the-text-editor/645">As an alternate to using the link tool&lt;/a>, you can easily create buttons with Open Y using the button editor. When you click on the button icon, it will open a pop-up.&lt;/p>
-&lt;p>&lt;img src="/img/d5736f5507428b99030d5c88620d3f226f154cfc.png" alt="WYSIWYG Editor options with the button tab highlighted in green.">&lt;/p>
+&lt;p>
+&lt;a href="https://community.openymca.org/t/adding-links-in-the-text-editor/645" target="_blank">As an alternate to using the link tool&lt;/a>, you can easily create buttons with Open Y using the button editor. When you click on the button icon, it will open a pop-up.&lt;/p>
+&lt;p>&lt;img src="/img/d5736f5507428b99030d5c88620d3f226f154cfc.png" alt="WYSIWYG Editor options with the button tab highlighted in green." />&lt;/p>
 &lt;blockquote>
 &lt;p>You can also edit a button you&amp;rsquo;ve created previously by clicking on the link in the text editor.&lt;/p>
 &lt;/blockquote>
-&lt;p>&lt;img src="/img/6930bf01e47b767579dcde7536d2f3353947e310.gif" alt="blog-description__text-editor-edit-button|640x295,75%">&lt;/p>
+&lt;p>&lt;img src="/img/6930bf01e47b767579dcde7536d2f3353947e310.gif" alt="blog-description__text-editor-edit-button|640x295,75%" />&lt;/p>
 &lt;p>There are three tabs for creating your button: an info tab, a target tab, and an icon tab.&lt;/p>
-&lt;p>&lt;img src="/img/2564a2a399f57c0b0a1cffd8e69b4e4174a9fbaf.png" alt="blog-description__text-editor-button-tabs|690x137,50%">&lt;/p>
+&lt;p>&lt;img src="/img/2564a2a399f57c0b0a1cffd8e69b4e4174a9fbaf.png" alt="blog-description__text-editor-button-tabs|690x137,50%" />&lt;/p>
 &lt;hr>
 &lt;h2 id="info-tab">Info Tab&lt;/h2>
 &lt;p>This screen gives you basic options to style your link or button. On the top left “Style Option,” you will have several options to style your button or output it as a link.&lt;/p>
@@ -1089,11 +1478,12 @@ Links are simple in Open Y - just highlight your text and click the link icon or
 &lt;/ul>
 &lt;h3 id="button-guide-example">Button Guide Example:&lt;/h3>
 &lt;blockquote>
-&lt;p>@mlefler From the YMCA of Lincoln, NE, &lt;a href="https://www.ymcalincoln.org/buttons">built this guide to provide examples&lt;/a> of possible styles for buttons. Ask your developer partner to provide you a style guide for your site.&lt;/p>
+&lt;p>@mlefler From the YMCA of Lincoln, NE,
+&lt;a href="https://www.ymcalincoln.org/buttons" target="_blank">built this guide to provide examples&lt;/a> of possible styles for buttons. Ask your developer partner to provide you a style guide for your site.&lt;/p>
 &lt;/blockquote>
 &lt;p>The top right “Size” dropdown four options for your button size. If you chose “Link” style option, the Size option will not affect your link.&lt;/p>
-&lt;p>&lt;img src="/img/450d40d931e05bc00fe0d3b6d15d951b0062793d.png" alt="blog-destiption__text-editor-button_style|166x500,50%">&lt;br>
-&lt;img src="/img/a27170cb92cff52b1a9bd2590993d413b62350c7.png" alt="blog-destiption__text-editor-button_size|282x200,50%">&lt;/p>
+&lt;p>&lt;img src="/img/450d40d931e05bc00fe0d3b6d15d951b0062793d.png" alt="blog-destiption__text-editor-button_style|166x500,50%" />&lt;br>
+&lt;img src="/img/a27170cb92cff52b1a9bd2590993d413b62350c7.png" alt="blog-destiption__text-editor-button_size|282x200,50%" />&lt;/p>
 &lt;p>Add the text for your link/button in the bottom left. Enter your link in the URL field on the bottom right.&lt;/p>
 &lt;ul>
 &lt;li>For links on your website, don’t use the full URL. Highlight everything beginning with the &lt;code>/&lt;/code> after your &lt;code>.com&lt;/code>, &lt;code>.org&lt;/code>, etc.
@@ -1103,12 +1493,14 @@ Links are simple in Open Y - just highlight your text and click the link icon or
 &lt;/li>
 &lt;li>For links on other websites, grab the full URL, including the &lt;code>https://&lt;/code>.
 &lt;ul>
-&lt;li>For example, for openy.org/about, you would choose &lt;a href="https://openy.org/about">https://openy.org/about&lt;/a>.&lt;/li>
+&lt;li>For example, for openy.org/about, you would choose
+&lt;a href="https://openy.org/about" target="_blank">https://openy.org/about&lt;/a>.&lt;/li>
 &lt;/ul>
 &lt;/li>
 &lt;li>For email links, add &lt;code>mailto:example@exampleymca.org.&lt;/code>&lt;/li>
 &lt;/ul>
-&lt;p>&lt;a href="https://www.coffeecup.com/help/articles/absolute-vs-relative-pathslinks/">https://www.coffeecup.com/help/articles/absolute-vs-relative-pathslinks/&lt;/a>&lt;/p>
+&lt;p>
+&lt;a href="https://www.coffeecup.com/help/articles/absolute-vs-relative-pathslinks/" target="_blank">https://www.coffeecup.com/help/articles/absolute-vs-relative-pathslinks/&lt;/a>&lt;/p>
 &lt;hr>
 &lt;h2 id="target-tab">Target Tab&lt;/h2>
 &lt;p>This tab gives you the ability to change the behavior of your link. By default, all links will have a “not set” behavior, which means the link will open in the same active tab. The other options include…&lt;/p>
@@ -1120,10 +1512,11 @@ Links are simple in Open Y - just highlight your text and click the link icon or
 &lt;li>Same Window&lt;/li>
 &lt;li>Parent Window&lt;/li>
 &lt;/ul>
-&lt;p>&lt;strong>&lt;a href="http://www.tagindex.net/html/frame/a_target.html">» Learn about link targets&lt;/a>&lt;/strong>&lt;/p>
+&lt;p>&lt;strong>
+&lt;a href="http://www.tagindex.net/html/frame/a_target.html" target="_blank">» Learn about link targets&lt;/a>&lt;/strong>&lt;/p>
 &lt;hr>
 &lt;h2 id="icons-tab">Icons Tab&lt;/h2>
-&lt;p>&lt;img src="/img/4a18583fc355305c5175fe6333e5a5a4638bd07e.png" alt="blog-destiption__text-editor-button_icons|388x500,50%">&lt;/p>
+&lt;p>&lt;img src="/img/4a18583fc355305c5175fe6333e5a5a4638bd07e.png" alt="blog-destiption__text-editor-button_icons|388x500,50%" />&lt;/p>
 &lt;p>You can add icons to your buttons or links in the icons tab. On the right, you will have fields that integrate with the Font Awesome library. To have an icon show up on the left, use the Left Icon text field. For the right, use the Right Icon text field.&lt;/p>
 &lt;p>&lt;em>Example:&lt;/em> For a Right Chevron, type &lt;code>fa-chevron-right&lt;/code>.&lt;/p>
 &lt;p>&lt;strong>View free font awesome icons at fontawesome.com&lt;/strong>&lt;/p>
@@ -1140,7 +1533,7 @@ Links are simple in Open Y - just highlight your text and click the link icon or
 &lt;hr>
 &lt;h2 id="adding-a-new-table">Adding a New Table&lt;/h2>
 &lt;p>To add a table, click on the table icon. A popup will appear with your initial setup options:&lt;/p>
-&lt;p>&lt;img src="/img/4f4624d31c5ac550174bb49165287c9d93698ead.png" alt="landing-page-simple-content__table|586x176, 50%"> &lt;img src="/img/29d8b4d51f19d6ddcb056a169c597a9e2901d53f.gif" alt="paragraph-simple-content__table-options|320x469, 50%">&lt;/p>
+&lt;p>&lt;img src="/img/4f4624d31c5ac550174bb49165287c9d93698ead.png" alt="landing-page-simple-content__table|586x176, 50%" /> &lt;img src="/img/29d8b4d51f19d6ddcb056a169c597a9e2901d53f.gif" alt="paragraph-simple-content__table-options|320x469, 50%" />&lt;/p>
 &lt;ul>
 &lt;li>Set the number of rows and columns by typing numbers into those fields&lt;/li>
 &lt;li>The headers field dropdown gives you options to create a header column, row, or both.
@@ -1170,7 +1563,7 @@ Links are simple in Open Y - just highlight your text and click the link icon or
 &lt;/ul>
 &lt;h2 id="editing-the-table">Editing the Table&lt;/h2>
 &lt;p>To edit a table after you’ve built one, right click on the table. To access the basic table options, click on “Table Properties.”&lt;/p>
-&lt;p>&lt;img src="/img/a0d80e4672ca10fedb2a4c3bbf53f2a439c8229f.png" alt="landing-page-|296x500, 50%">&lt;/p>
+&lt;p>&lt;img src="/img/a0d80e4672ca10fedb2a4c3bbf53f2a439c8229f.png" alt="landing-page-|296x500, 50%" />&lt;/p>
 &lt;p>You can also double-click inside a table cell.&lt;/p>
 &lt;h2 id="adding-rowscolumns">Adding Rows/Columns&lt;/h2>
 &lt;p>To add a row or column, right-click and go to either “Row” or “Column” in the options that appear. You can insert a row or column before or after the current row/column.&lt;/p>
@@ -1180,19 +1573,20 @@ Links are simple in Open Y - just highlight your text and click the link icon or
 &lt;h2 id="formatting-individual-cellsgroups-of-cells">Formatting Individual Cells/Groups of Cells&lt;/h2>
 &lt;p>The “Cell” option from the right-click menu gives you same options as Row and Column, including inserting cells and deleting cells. You can also merge cells or split cells as you would in an excel table by selecting those options from the right-click menu.&lt;/p>
 &lt;p>However, there is another option called “Cell Properties” that allows you to style your cells as well. Just right-click &amp;gt; Cell &amp;gt; Cell Properties.&lt;/p>
-&lt;p>&lt;img src="/img/f6a82a1957f81cf57cba0e863bbe47044377e602.png" alt="A sample of the available cell options when you right click on a cell, 75%">&lt;/p>
+&lt;p>&lt;img src="/img/f6a82a1957f81cf57cba0e863bbe47044377e602.png" alt="A sample of the available cell options when you right click on a cell, 75%" />&lt;/p>
 &lt;p>This opens a dialogue box similar to the table properties. You can set the width/height for your cell (pixels only for height; pixels or percentages for your width) in the fields on the left.&lt;/p>
 &lt;p>Farther down on the left, you can choose from a dropdown whether or not to wrap the text in a cell.&lt;/p>
 &lt;p>You can also use dropdowns to set your vertical and horizontal alignments for your cells.&lt;/p>
 &lt;p>On the bottom right, you can set your border and background colors for your cells. These field support hexadecimal (#FFF) and rgba (256,256,256,1.0) color formats.&lt;/p>
-&lt;p>&lt;a href="https://www.pluralsight.com/blog/tutorials/understanding-hexadecimal-colors-simple">https://www.pluralsight.com/blog/tutorials/understanding-hexadecimal-colors-simple&lt;/a>&lt;/p>
+&lt;p>
+&lt;a href="https://www.pluralsight.com/blog/tutorials/understanding-hexadecimal-colors-simple" target="_blank">https://www.pluralsight.com/blog/tutorials/understanding-hexadecimal-colors-simple&lt;/a>&lt;/p>
 &lt;p>Finally, you can edit your cells to “span” two or more rows or columns. For example, if you have a header cell you want to span two columns, you can set the “Columns Span” field to 2.&lt;/p>
 &lt;p>If you would like to apply these styling options to multiple cells, just highlight the cells you want to edit and Right-Click &amp;gt; Cell &amp;gt; Cell Properties.&lt;/p>
 &lt;hr>
 &lt;h2 id="table-examples">Table Examples&lt;/h2>
 &lt;p>To see an example of what a table might look like on your site, open the &amp;ldquo;Source&amp;rdquo; tab on your text editor and insert the HTML. You can then edit the content inside using the WYSIWYG text editor.&lt;/p>
 &lt;h3 id="-pricing-table">// Pricing Table&lt;/h3>
-&lt;p>&lt;img src="/img/f917638b631b58e8faa0fc9dd6824b9e6d19b4a0.png" alt="landing-page-simple-content__pricing-example|690x426, 75%">&lt;/p>
+&lt;p>&lt;img src="/img/f917638b631b58e8faa0fc9dd6824b9e6d19b4a0.png" alt="landing-page-simple-content__pricing-example|690x426, 75%" />&lt;/p>
 &lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-html" data-lang="html">&lt;span style="display:flex;">&lt;span> &lt;span style="color:#000;font-weight:bold">&amp;lt;&lt;/span>&lt;span style="color:#204a87;font-weight:bold">h2&lt;/span>&lt;span style="color:#000;font-weight:bold">&amp;gt;&lt;/span>Registration and Pricing&lt;span style="color:#000;font-weight:bold">&amp;lt;/&lt;/span>&lt;span style="color:#204a87;font-weight:bold">h2&lt;/span>&lt;span style="color:#000;font-weight:bold">&amp;gt;&lt;/span>
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#000;font-weight:bold">&amp;lt;&lt;/span>&lt;span style="color:#204a87;font-weight:bold">table&lt;/span> &lt;span style="color:#c4a000">align&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">=&lt;/span>&lt;span style="color:#4e9a06">&amp;#34;left&amp;#34;&lt;/span> &lt;span style="color:#c4a000">border&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">=&lt;/span>&lt;span style="color:#4e9a06">&amp;#34;1&amp;#34;&lt;/span> &lt;span style="color:#c4a000">cellpadding&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">=&lt;/span>&lt;span style="color:#4e9a06">&amp;#34;5&amp;#34;&lt;/span> &lt;span style="color:#c4a000">cellspacing&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">=&lt;/span>&lt;span style="color:#4e9a06">&amp;#34;1&amp;#34;&lt;/span> &lt;span style="color:#c4a000">style&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">=&lt;/span>&lt;span style="color:#4e9a06">&amp;#34;width: 500px;&amp;#34;&lt;/span>&lt;span style="color:#000;font-weight:bold">&amp;gt;&lt;/span>
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#000;font-weight:bold">&amp;lt;&lt;/span>&lt;span style="color:#204a87;font-weight:bold">caption&lt;/span>&lt;span style="color:#000;font-weight:bold">&amp;gt;&lt;/span>*A $25 deposit is due at the time of registration.&lt;span style="color:#000;font-weight:bold">&amp;lt;/&lt;/span>&lt;span style="color:#204a87;font-weight:bold">caption&lt;/span>&lt;span style="color:#000;font-weight:bold">&amp;gt;&lt;/span>
@@ -1226,7 +1620,7 @@ Links are simple in Open Y - just highlight your text and click the link icon or
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#000;font-weight:bold">&amp;lt;/&lt;/span>&lt;span style="color:#204a87;font-weight:bold">tbody&lt;/span>&lt;span style="color:#000;font-weight:bold">&amp;gt;&lt;/span>
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#000;font-weight:bold">&amp;lt;/&lt;/span>&lt;span style="color:#204a87;font-weight:bold">table&lt;/span>&lt;span style="color:#000;font-weight:bold">&amp;gt;&lt;/span>
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="-camp-locations">// Camp Locations&lt;/h3>
-&lt;p>&lt;img src="/img/609efb274c09d0d2635e57f376a68b3fa372eb76.png" alt="landing-page-simple-content__camp-locations-example|690x386">&lt;/p>
+&lt;p>&lt;img src="/img/609efb274c09d0d2635e57f376a68b3fa372eb76.png" alt="landing-page-simple-content__camp-locations-example|690x386" />&lt;/p>
 &lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-html" data-lang="html">&lt;span style="display:flex;">&lt;span> &lt;span style="color:#000;font-weight:bold">&amp;lt;&lt;/span>&lt;span style="color:#204a87;font-weight:bold">style&lt;/span>&lt;span style="color:#000;font-weight:bold">&amp;gt;&lt;/span>
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#ce5c00;font-weight:bold">//&lt;/span> &lt;span style="color:#204a87;font-weight:bold">To&lt;/span> &lt;span style="color:#204a87;font-weight:bold">achieve&lt;/span> &lt;span style="color:#204a87;font-weight:bold">the&lt;/span> &lt;span style="color:#204a87;font-weight:bold">full&lt;/span> &lt;span style="color:#204a87;font-weight:bold">effect&lt;/span> &lt;span style="color:#204a87;font-weight:bold">of&lt;/span> &lt;span style="color:#204a87;font-weight:bold">this&lt;/span> &lt;span style="color:#204a87;font-weight:bold">table&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">,&lt;/span> &lt;span style="color:#204a87;font-weight:bold">insert&lt;/span> &lt;span style="color:#204a87;font-weight:bold">this&lt;/span> &lt;span style="color:#204a87;font-weight:bold">style&lt;/span> &lt;span style="color:#204a87;font-weight:bold">tag&lt;/span> &lt;span style="color:#204a87;font-weight:bold">above&lt;/span> &lt;span style="color:#204a87;font-weight:bold">the&lt;/span> &lt;span style="color:#204a87;font-weight:bold">table&lt;/span> &lt;span style="color:#204a87;font-weight:bold">or&lt;/span> &lt;span style="color:#204a87;font-weight:bold">insert&lt;/span> &lt;span style="color:#204a87;font-weight:bold">it&lt;/span> &lt;span style="color:#204a87;font-weight:bold">into&lt;/span> &lt;span style="color:#204a87;font-weight:bold">the&lt;/span> &lt;span style="color:#204a87;font-weight:bold">CSS&lt;/span> &lt;span style="color:#204a87;font-weight:bold">Editor&lt;/span> &lt;span style="color:#204a87;font-weight:bold">module&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">.&lt;/span>
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#8f5902;font-style:italic">/* margin fix for h6 embedded inside table */&lt;/span>
@@ -1462,7 +1856,45 @@ Links are simple in Open Y - just highlight your text and click the link icon or
 &lt;/table>
 &lt;h3 id="url-pattern">URL pattern&lt;/h3>
 &lt;p>Content type is using following pattern:
-&lt;code>/camps/[node:title]&lt;/code>&lt;/p></description></item><item><title>Docs: Categories Listing</title><link>/docs/content-structure/paragraphs/categories-listing/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/content-structure/paragraphs/categories-listing/</guid><description>
+&lt;code>/camps/[node:title]&lt;/code>&lt;/p></description></item><item><title>Docs: Camp</title><link>/docs/user-documentation/content-types/camp/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/user-documentation/content-types/camp/</guid><description/></item><item><title>Docs: Camp Menu</title><link>/docs/user-documentation/paragraphs/camp-menu/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/user-documentation/paragraphs/camp-menu/</guid><description>
+&lt;blockquote>
+&lt;p>Camp menu adds a horizontal menu beneath the Header Area on a camp page.&lt;/p>
+&lt;/blockquote>
+&lt;h2 id="examples">Examples&lt;/h2>
+&lt;h3 id="carnation">Carnation&lt;/h3>
+&lt;p>&lt;img src="upload://yEu9UFLnGp7gH7aUeWphadUFzvC.jpeg" alt="carnation&amp;amp;ndash;camp__camp&amp;amp;ndash;menu|690x180, 75%" />&lt;/p>
+&lt;h3 id="lily">Lily&lt;/h3>
+&lt;p>&lt;img src="upload://8on2aI5cwXvu3scx8lkYVV8J5VM.jpeg" alt="lily&amp;amp;ndash;camp__camp-menu|690x242, 75%" />&lt;/p>
+&lt;h3 id="rose">Rose&lt;/h3>
+&lt;p>&lt;img src="upload://P1Snx7VCshybWHdZnlohJqRCbo.jpeg" alt="rose&amp;amp;ndash;camp__camp-menu|690x242, 75%" />&lt;/p>
+&lt;hr>
+&lt;h2 id="areas-it-can-be-used">Areas It Can Be Used:&lt;/h2>
+&lt;ul>
+&lt;li>Header Area&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h2 id="how-it-should-be-used">How It Should Be Used&lt;/h2>
+&lt;p>Before adding the paragraph, add the links you want on your menu by adding them on your Camp Page at General Info &amp;gt; Menu Links.&lt;/p>
+&lt;p>&lt;img src="upload://5mbjiHKdjq05hhVSvVIpFPVYbxu.png" alt="camp__camp-menu&amp;amp;ndash;menu-links|450x500, 75%" />&lt;/p>
+&lt;p>
+&lt;a href="https://community.openymca.org/t/content-editing-basics-open-y-user-docs/732" target="_blank">Learn More About Link Fields ⇒&lt;/a>&lt;/p>
+&lt;p>To add additional links to your menu, click on the Add Another Item button.&lt;/p>
+&lt;p>&lt;img src="upload://rJL5XswzqmWEFTEGhkkyr9MOk9N.gif" alt="camp__camp-menu&amp;amp;ndash;add-links|690x194" />&lt;/p>
+&lt;p>Once you’re done adding your menu links, scroll down to the Header Area and add “Camp Menu.” Click save.&lt;/p>
+&lt;blockquote>
+&lt;p>&lt;em>Note - While it is technically possible to position the camp menu above your banner image, it is not recommended. The camp menu busts in desktop on Carnation, and in all themes it can be hard to distinguish the camp menu from your main navigation.&lt;/em>&lt;/p>
+&lt;/blockquote>
+&lt;hr>
+&lt;h3 id="mobile-considerations-for-camp-menu">Mobile Considerations for Camp Menu&lt;/h3>
+&lt;p>When a user views your camp menu in mobile, the menu doesn&amp;rsquo;t collapse; it merely shrinks. Menu items either disappear or wrap onto a new line if they do not fit the space.&lt;/p>
+&lt;p>It&amp;rsquo;s recommended you limit your menu items to no more than 3 or 4 unless you opt to customize.&lt;/p>
+&lt;p>&lt;img src="upload://hDr88t6d3ea0K3XoELLcOEkh2OK.jpeg" alt="carnation&amp;amp;ndash;camp__camp-menu&amp;amp;ndash;mobile|322x500, 75%" />&lt;/p>
+&lt;hr>
+&lt;h2 id="content-types-that-support-this-paragraph">Content Types That Support this Paragraph&lt;/h2>
+&lt;ul>
+&lt;li>
+&lt;a href="https://community.openymca.org/t/camp-content-types-user-docs/690" target="_blank">Camp&lt;/a>&lt;/li>
+&lt;/ul></description></item><item><title>Docs: Categories Listing</title><link>/docs/content-structure/paragraphs/categories-listing/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/content-structure/paragraphs/categories-listing/</guid><description>
 &lt;p>This is dynamic paragraph that renders all published categories according to current program page.&lt;/p>
 &lt;p>It uses sticky at the top option and order items based on published date(newest at the top).&lt;/p>
 &lt;h3 id="fields">Fields&lt;/h3>
@@ -1483,7 +1915,47 @@ Links are simple in Open Y - just highlight your text and click the link icon or
 &lt;td>Block reference to the view/block. Should have default value and should be hidden in form display.&lt;/td>
 &lt;/tr>
 &lt;/tbody>
-&lt;/table></description></item><item><title>Docs: Class</title><link>/docs/content-structure/content-types/class/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/content-structure/content-types/class/</guid><description>
+&lt;/table></description></item><item><title>Docs: Categories Listing</title><link>/docs/user-documentation/paragraphs/categories-listing/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/user-documentation/paragraphs/categories-listing/</guid><description>
+&lt;blockquote>
+&lt;p>Embeds horizontal cards for program subcategories on a programs page.&lt;/p>
+&lt;/blockquote>
+&lt;h2 id="examples">Examples&lt;/h2>
+&lt;h3 id="carnation">Carnation&lt;/h3>
+&lt;h4 id="desktop">Desktop&lt;/h4>
+&lt;p>&lt;img src="upload://xrlcIOa55e8fW3E1raw5hgOShZC.jpeg" alt="carnation&amp;amp;ndash;program__categories-listing|690x482, 75%" />&lt;/p>
+&lt;h4 id="mobile">Mobile&lt;/h4>
+&lt;p>&lt;img src="upload://io6AMAadCvHRaj49uJNdmKth9J5.jpeg" alt="carnation&amp;amp;ndash;program__categories-listing&amp;amp;ndash;mobile|430x500, 75%" />&lt;/p>
+&lt;h3 id="lily">Lily&lt;/h3>
+&lt;p>&lt;img src="upload://8Io8pXHVcadphB2D0Rd3ukiWMAq.jpeg" alt="lily&amp;amp;ndash;program__categories-listing|690x482, 75%" />&lt;/p>
+&lt;h3 id="rose">Rose&lt;/h3>
+&lt;p>&lt;img src="upload://2XvcBc6D2SLP6N445IYQujdRElf.jpeg" alt="rose&amp;amp;ndash;program__categories-listing|690x475, 75%" />&lt;/p>
+&lt;hr>
+&lt;h2 id="areas-it-should-be-used">Areas It Should Be Used&lt;/h2>
+&lt;ul>
+&lt;li>Content Area&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h2 id="how-to-use-it">How To Use It:&lt;/h2>
+&lt;ul>
+&lt;li>
+&lt;a href="https://community.openymca.org/t/program-content-types-open-y-user-docs/691" target="_blank">On a Programs page&lt;/a>, go to the content area and click to open it.&lt;/li>
+&lt;li>Select Categories listing.&lt;/li>
+&lt;/ul>
+&lt;p>&lt;img src="upload://fgGiiosW91RDrSYvP8zwfDlsP0P.png" alt="admin-program__programs-listing|690x170, 75%" />&lt;/p>
+&lt;blockquote>
+&lt;p>This paragraph can only used on programs pages that have
+&lt;a href="https://community.openymca.org/t/program-subcategory-content-types-open-y-user-docs/692" target="_blank">subcategories tied to them&lt;/a>. If a program has no subcategories tied to it or if it’s used on another content type, it will not work.&lt;/p>
+&lt;/blockquote>
+&lt;p>
+&lt;a href="https://community.openymca.org/t/program-content-types-open-y-user-docs/691" target="_blank">Learn more about programs content type ⇒&lt;/a>&lt;/p>
+&lt;p>
+&lt;a href="https://community.openymca.org/t/program-subcategory-content-types-open-y-user-docs/692" target="_blank">Learn more about programs subcategories content type ⇒&lt;/a>&lt;/p>
+&lt;hr>
+&lt;h2 id="content-types-that-support-categories-listing">Content Types that Support Categories Listing&lt;/h2>
+&lt;ul>
+&lt;li>
+&lt;a href="https://community.openymca.org/t/program-content-types-open-y-user-docs/691" target="_blank">Program&lt;/a>&lt;/li>
+&lt;/ul></description></item><item><title>Docs: Class</title><link>/docs/content-structure/content-types/class/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/content-structure/content-types/class/</guid><description>
 &lt;p>Class content type is used for adding Classes on the site.&lt;/p>
 &lt;h3 id="fields">Fields&lt;/h3>
 &lt;table>
@@ -1772,572 +2244,4 @@ Links are simple in Open Y - just highlight your text and click the link icon or
 &lt;td>Block reference to Code block. Create a new one or pick up an existed Code block.&lt;/td>
 &lt;/tr>
 &lt;/tbody>
-&lt;/table></description></item><item><title>Docs: Code Review Quality Best Practices</title><link>/docs/wiki/code-review-quality-best-practices/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/wiki/code-review-quality-best-practices/</guid><description>
-&lt;p>This document serves as an addition to our &lt;a href="/docs/wiki/open-y-code-of-conduct-and-best-practices/">Code of Conduct and Best Practices&lt;/a>. It is more technical and in-depth for specific cases that were discussed during code quality review processes the Open Y team has in place. During this process, all code should be reviewed by 1-2 developers before being merged into the Open Y codebase.&lt;/p>
-&lt;h1 id="general-rules">General Rules&lt;/h1>
-&lt;p>Components in Open Y (whether modules, themes, or other code structures) should be, as much as possible, reusable and atomic. All features, content types, settings, styles, etc. should be bundled together to create a cohesive component.&lt;/p>
-&lt;ol>
-&lt;li>General naming conventions
-&lt;ol>
-&lt;li>Features module naming
-&lt;ol>
-&lt;li>&lt;strong>openy_${entity_type|abbr}_${entity_bundle|abbr}_${feature|optional}&lt;/strong>
-&lt;ol>
-&lt;li>Example: &lt;strong>openy_node_blog_feature&lt;/strong>&lt;/li>
-&lt;li>&lt;strong>openy_prgf_sc_feature&lt;/strong> -&amp;gt; OpenY Paragraph Simple Content (name within yml)&lt;/li>
-&lt;/ol>
-&lt;/li>
-&lt;/ol>
-&lt;/li>
-&lt;li>Fields naming (&amp;lt;=20 chars)
-&lt;ol>
-&lt;li>&lt;strong>field_${entity_type|abbr}_${entity_bundle|abbr}_{name|abbr}&lt;/strong>
-&lt;ol>
-&lt;li>Example: &lt;strong>field_prgf_sc_body&lt;/strong>&lt;/li>
-&lt;/ol>
-&lt;/li>
-&lt;/ol>
-&lt;/li>
-&lt;li>&lt;strong>All descriptions are mandatory!&lt;/strong>&lt;/li>
-&lt;/ol>
-&lt;/li>
-&lt;li>Module naming conventions - Depending on the context we should choose the name from this list:
-&lt;ol>
-&lt;li>&lt;strong>${project_name|abbr}_${business_name|abbr&lt;/strong>} - when the code looks like legacy and has specifics that are not ready to be open-sourced&lt;/li>
-&lt;li>&lt;strong>openy_${business_name|abbr}&lt;/strong> - when the code is ready to be ejected to OpenY package&lt;/li>
-&lt;li>&lt;strong>${business_name}&lt;/strong> - when the code is so abstract that it has no connection to OpenY and is ready to be hosted on Drupal.org as an independent project.&lt;/li>
-&lt;/ol>
-&lt;/li>
-&lt;/ol>
-&lt;h2 id="code-sharing">Code Sharing&lt;/h2>
-&lt;p>To support reuse by the community, the MODULE-NAME should relate to the business logic of the module. It is not good to create modules by abstracting them out of the business. All modules that have been shared to drupal.org from past projects were possible to share only because they represent some feature, tied to a business need. For example:&lt;/p>
-&lt;ul>
-&lt;li>personify - module for SOAP related methods for working with Personify API&lt;/li>
-&lt;li>acrypt - Asymmetric crypt algorithm&lt;/li>
-&lt;/ul>
-&lt;p>and so on.&lt;/p>
-&lt;h1 id="php">PHP&lt;/h1>
-&lt;h2 id="return-early-pattern">Return early pattern&lt;/h2>
-&lt;p>To keep readability in functions and methods, it is wise to return early if simple conditions apply that can be checked at the beginning of a method:&lt;/p>
-&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-php" data-lang="php">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#ce5c00;font-weight:bold">&amp;lt;?&lt;/span>&lt;span style="color:#000">php&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#204a87;font-weight:bold">function&lt;/span> &lt;span style="color:#000">foo&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#000">$bar&lt;/span>&lt;span style="color:#000;font-weight:bold">,&lt;/span> &lt;span style="color:#000">$baz&lt;/span>&lt;span style="color:#000;font-weight:bold">)&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#000;font-weight:bold">{&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#204a87;font-weight:bold">if&lt;/span> &lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#000">$foo&lt;/span>&lt;span style="color:#000;font-weight:bold">)&lt;/span> &lt;span style="color:#000;font-weight:bold">{&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#8f5902;font-style:italic">// logic goes here
-&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#8f5902;font-style:italic">&lt;/span> &lt;span style="color:#204a87;font-weight:bold">return&lt;/span> &lt;span style="color:#000">$calculated_value&lt;/span>&lt;span style="color:#000;font-weight:bold">;&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#000;font-weight:bold">}&lt;/span> &lt;span style="color:#204a87;font-weight:bold">else&lt;/span> &lt;span style="color:#000;font-weight:bold">{&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#204a87;font-weight:bold">return&lt;/span> &lt;span style="color:#204a87;font-weight:bold">null&lt;/span>&lt;span style="color:#000;font-weight:bold">;&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#000;font-weight:bold">}&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#000;font-weight:bold">}&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#8f5902;font-style:italic">?&amp;gt;&lt;/span>&lt;span style="color:#a40000">
-&lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>It&amp;rsquo;s better to return early, keeping indentation and brainpower needed to follow the code low.&lt;/p>
-&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-php" data-lang="php">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#ce5c00;font-weight:bold">&amp;lt;?&lt;/span>&lt;span style="color:#000">php&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#204a87;font-weight:bold">function&lt;/span> &lt;span style="color:#000">foo&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#000">$bar&lt;/span>&lt;span style="color:#000;font-weight:bold">,&lt;/span> &lt;span style="color:#000">$baz&lt;/span>&lt;span style="color:#000;font-weight:bold">)&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#000;font-weight:bold">{&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#204a87;font-weight:bold">if&lt;/span> &lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">!&lt;/span>&lt;span style="color:#000">$foo&lt;/span>&lt;span style="color:#000;font-weight:bold">)&lt;/span> &lt;span style="color:#000;font-weight:bold">{&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#204a87;font-weight:bold">return&lt;/span> &lt;span style="color:#204a87;font-weight:bold">null&lt;/span>&lt;span style="color:#000;font-weight:bold">;&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#000;font-weight:bold">}&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#8f5902;font-style:italic">// logic goes here
-&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#8f5902;font-style:italic">&lt;/span> &lt;span style="color:#204a87;font-weight:bold">return&lt;/span> &lt;span style="color:#000">$calculated_value&lt;/span>&lt;span style="color:#000;font-weight:bold">;&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#000;font-weight:bold">}&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#8f5902;font-style:italic">?&amp;gt;&lt;/span>&lt;span style="color:#a40000">
-&lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="define-early-pattern">Define early pattern&lt;/h2>
-&lt;p>When you have a condition that aims to change the value of a variable without additional logic, get rid of &lt;code>if else elseif&lt;/code> code and instead define your variable early and change it via conditions.&lt;/p>
-&lt;p>Before:&lt;/p>
-&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-php" data-lang="php">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#204a87;font-weight:bold">if&lt;/span> &lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#000">$a&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">=&lt;/span> &lt;span style="color:#4e9a06">&amp;#39;hello&amp;#39;&lt;/span>&lt;span style="color:#000;font-weight:bold">)&lt;/span> &lt;span style="color:#000;font-weight:bold">{&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#000">$text&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">=&lt;/span> &lt;span style="color:#4e9a06">&amp;#39;Welcome to site&amp;#39;&lt;/span>&lt;span style="color:#000;font-weight:bold">;&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#000;font-weight:bold">}&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#204a87;font-weight:bold">else&lt;/span> &lt;span style="color:#000;font-weight:bold">{&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#000">$text&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">=&lt;/span> &lt;span style="color:#4e9a06">&amp;#39;Register please&amp;#39;&lt;/span>&lt;span style="color:#000;font-weight:bold">;&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#000;font-weight:bold">}&lt;/span>
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>After:&lt;/p>
-&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-php" data-lang="php">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#000">$text&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">=&lt;/span> &lt;span style="color:#4e9a06">&amp;#39;Register please&amp;#39;&lt;/span>&lt;span style="color:#000;font-weight:bold">;&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#204a87;font-weight:bold">if&lt;/span> &lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#000">$a&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">=&lt;/span> &lt;span style="color:#4e9a06">&amp;#39;hello&amp;#39;&lt;/span>&lt;span style="color:#000;font-weight:bold">)&lt;/span> &lt;span style="color:#000;font-weight:bold">{&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#000">$text&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">=&lt;/span> &lt;span style="color:#4e9a06">&amp;#39;Welcome to site&amp;#39;&lt;/span>&lt;span style="color:#000;font-weight:bold">;&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#000;font-weight:bold">}&lt;/span>
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="null-checks-with-isset">Null Checks with &lt;code>isset&lt;/code>&lt;/h2>
-&lt;p>&lt;a href="https://www.php.net/manual/en/function.isset.php">&lt;code>isset()&lt;/code>&lt;/a> verifies if set and not null. There is no need to do additional verification against NULL.&lt;/p>
-&lt;p>Before:&lt;/p>
-&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-php" data-lang="php">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#ce5c00;font-weight:bold">...&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#4e9a06">&amp;#39;video&amp;#39;&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">=&amp;gt;&lt;/span> &lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#000">isset&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#000">$feed&lt;/span>&lt;span style="color:#000;font-weight:bold">[&lt;/span>&lt;span style="color:#4e9a06">&amp;#39;profile_media_videos&amp;#39;&lt;/span>&lt;span style="color:#000;font-weight:bold">])&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">||&lt;/span> &lt;span style="color:#000">$feed&lt;/span>&lt;span style="color:#000;font-weight:bold">[&lt;/span>&lt;span style="color:#4e9a06">&amp;#39;profile_media_videos&amp;#39;&lt;/span>&lt;span style="color:#000;font-weight:bold">]&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">!=&lt;/span> &lt;span style="color:#204a87;font-weight:bold">NULL&lt;/span>&lt;span style="color:#000;font-weight:bold">)&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">?&lt;/span> &lt;span style="color:#000">$feed&lt;/span>&lt;span style="color:#000;font-weight:bold">[&lt;/span>&lt;span style="color:#4e9a06">&amp;#39;profile_media_videos&amp;#39;&lt;/span>&lt;span style="color:#000;font-weight:bold">]&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">:&lt;/span> &lt;span style="color:#4e9a06">&amp;#39;&amp;#39;&lt;/span>&lt;span style="color:#000;font-weight:bold">,&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#ce5c00;font-weight:bold">...&lt;/span>
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>After:&lt;/p>
-&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-php" data-lang="php">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#ce5c00;font-weight:bold">...&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#4e9a06">&amp;#39;video&amp;#39;&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">=&amp;gt;&lt;/span> &lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#000">isset&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#000">$feed&lt;/span>&lt;span style="color:#000;font-weight:bold">[&lt;/span>&lt;span style="color:#4e9a06">&amp;#39;profile_media_videos&amp;#39;&lt;/span>&lt;span style="color:#000;font-weight:bold">]))&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">?&lt;/span> &lt;span style="color:#000">$feed&lt;/span>&lt;span style="color:#000;font-weight:bold">[&lt;/span>&lt;span style="color:#4e9a06">&amp;#39;profile_media_videos&amp;#39;&lt;/span>&lt;span style="color:#000;font-weight:bold">]&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">:&lt;/span> &lt;span style="color:#4e9a06">&amp;#39;&amp;#39;&lt;/span>&lt;span style="color:#000;font-weight:bold">,&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#ce5c00;font-weight:bold">...&lt;/span>
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="dependency-injection">Dependency Injection&lt;/h2>
-&lt;p>For the decoupled and easier to upgrade code in Drupal 8+ Dependency injection should be used instead of calling methods from services statically.&lt;/p>
-&lt;p>See the Drupal API &lt;a href="https://api.drupal.org/api/drupal/core%21core.api.php/group/container/9.3.x">Overview of the Dependency Injection Container and Services&lt;/a>.&lt;/p>
-&lt;p>Before:&lt;/p>
-&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-php" data-lang="php">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#ce5c00;font-weight:bold">...&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#000">$node&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">=&lt;/span> &lt;span style="color:#000">Drupal&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">::&lt;/span>&lt;span style="color:#c4a000">entityTypeManager&lt;/span>&lt;span style="color:#000;font-weight:bold">()&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">-&amp;gt;&lt;/span>&lt;span style="color:#c4a000">getStorage&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#4e9a06">&amp;#39;node&amp;#39;&lt;/span>&lt;span style="color:#000;font-weight:bold">)&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">-&amp;gt;&lt;/span>&lt;span style="color:#c4a000">load&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#000">$result&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">-&amp;gt;&lt;/span>&lt;span style="color:#c4a000">getField&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#4e9a06">&amp;#39;nid&amp;#39;&lt;/span>&lt;span style="color:#000;font-weight:bold">)&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">-&amp;gt;&lt;/span>&lt;span style="color:#c4a000">getValues&lt;/span>&lt;span style="color:#000;font-weight:bold">()[&lt;/span>&lt;span style="color:#0000cf;font-weight:bold">0&lt;/span>&lt;span style="color:#000;font-weight:bold">]);&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#ce5c00;font-weight:bold">...&lt;/span>
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>After:&lt;/p>
-&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-php" data-lang="php">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#ce5c00;font-weight:bold">...&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#000">$node&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">=&lt;/span> &lt;span style="color:#000">$this&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">-&amp;gt;&lt;/span>&lt;span style="color:#c4a000">entityTypeManager&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">-&amp;gt;&lt;/span>&lt;span style="color:#c4a000">getStorage&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#4e9a06">&amp;#39;node&amp;#39;&lt;/span>&lt;span style="color:#000;font-weight:bold">)&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">-&amp;gt;&lt;/span>&lt;span style="color:#c4a000">load&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#000">$result&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">-&amp;gt;&lt;/span>&lt;span style="color:#c4a000">getField&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#4e9a06">&amp;#39;nid&amp;#39;&lt;/span>&lt;span style="color:#000;font-weight:bold">)&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">-&amp;gt;&lt;/span>&lt;span style="color:#c4a000">getValues&lt;/span>&lt;span style="color:#000;font-weight:bold">()[&lt;/span>&lt;span style="color:#0000cf;font-weight:bold">0&lt;/span>&lt;span style="color:#000;font-weight:bold">]);&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#ce5c00;font-weight:bold">...&lt;/span>
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="creating-meaningful-log-messages">Creating meaningful log messages&lt;/h2>
-&lt;p>To provide useful logging for site managers, we need to write meaningful log messages with a proper context.&lt;/p>
-&lt;p>Before:&lt;/p>
-&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-php" data-lang="php">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#ce5c00;font-weight:bold">...&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#204a87;font-weight:bold">if&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#000">$type&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">==&lt;/span> &lt;span style="color:#4e9a06">&amp;#39;program&amp;#39;&lt;/span>&lt;span style="color:#000;font-weight:bold">)&lt;/span> &lt;span style="color:#000;font-weight:bold">{&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#204a87;font-weight:bold">if&lt;/span> &lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#000">$feed&lt;/span>&lt;span style="color:#000;font-weight:bold">[&lt;/span>&lt;span style="color:#4e9a06">&amp;#39;profile_media_videos&amp;#39;&lt;/span>&lt;span style="color:#000;font-weight:bold">]&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">!=&lt;/span> &lt;span style="color:#204a87;font-weight:bold">NULL&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">||&lt;/span> &lt;span style="color:#000">$feed&lt;/span>&lt;span style="color:#000;font-weight:bold">[&lt;/span>&lt;span style="color:#4e9a06">&amp;#39;profile_media_images&amp;#39;&lt;/span>&lt;span style="color:#000;font-weight:bold">]&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">!=&lt;/span> &lt;span style="color:#204a87;font-weight:bold">NULL&lt;/span>&lt;span style="color:#000;font-weight:bold">)&lt;/span> &lt;span style="color:#000;font-weight:bold">{&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#000">\Drupal&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">::&lt;/span>&lt;span style="color:#c4a000">logger&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#4e9a06">&amp;#39;272&amp;#39;&lt;/span>&lt;span style="color:#000;font-weight:bold">)&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">-&amp;gt;&lt;/span>&lt;span style="color:#c4a000">notice&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#000">$type&lt;/span>&lt;span style="color:#000;font-weight:bold">);&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#ce5c00;font-weight:bold">...&lt;/span>
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>After:&lt;/p>
-&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-php" data-lang="php">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#ce5c00;font-weight:bold">...&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#204a87;font-weight:bold">if&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#000">$type&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">==&lt;/span> &lt;span style="color:#4e9a06">&amp;#39;program&amp;#39;&lt;/span>&lt;span style="color:#000;font-weight:bold">)&lt;/span> &lt;span style="color:#000;font-weight:bold">{&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#204a87;font-weight:bold">if&lt;/span> &lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#000">$feed&lt;/span>&lt;span style="color:#000;font-weight:bold">[&lt;/span>&lt;span style="color:#4e9a06">&amp;#39;profile_media_videos&amp;#39;&lt;/span>&lt;span style="color:#000;font-weight:bold">]&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">!=&lt;/span> &lt;span style="color:#204a87;font-weight:bold">NULL&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">||&lt;/span> &lt;span style="color:#000">$feed&lt;/span>&lt;span style="color:#000;font-weight:bold">[&lt;/span>&lt;span style="color:#4e9a06">&amp;#39;profile_media_images&amp;#39;&lt;/span>&lt;span style="color:#000;font-weight:bold">]&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">!=&lt;/span> &lt;span style="color:#204a87;font-weight:bold">NULL&lt;/span>&lt;span style="color:#000;font-weight:bold">)&lt;/span> &lt;span style="color:#000;font-weight:bold">{&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#000">\Drupal&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">::&lt;/span>&lt;span style="color:#c4a000">logger&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#4e9a06">&amp;#39;form_import&amp;#39;&lt;/span>&lt;span style="color:#000;font-weight:bold">)&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">-&amp;gt;&lt;/span>&lt;span style="color:#c4a000">notice&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#4e9a06">&amp;#34;FORM IMPORT: type is &lt;/span>&lt;span style="color:#4e9a06">$type&lt;/span>&lt;span style="color:#4e9a06">&amp;#34;&lt;/span>&lt;span style="color:#000;font-weight:bold">);&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#ce5c00;font-weight:bold">...&lt;/span>
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h1 id="maintaining-an-upgrade-path">Maintaining an Upgrade Path&lt;/h1>
-&lt;p>All changes in configurations should be added to appropriate hook_update_N to update already existing environments. We suggest using the &lt;a href="https://www.drupal.org/project/confi">Config Importer and Tools
-&lt;/a> package for working with hook_update_N.&lt;/p>
-&lt;h2 id="install-files">Install files&lt;/h2>
-&lt;h3 id="openyinstall-in-profile">&lt;code>openy.install&lt;/code> in profile&lt;/h3>
-&lt;p>In this file, we should put updates that are related to the distribution in general and don&amp;rsquo;t fit into any feature.&lt;/p>
-&lt;ul>
-&lt;li>Enable/Disable module&lt;/li>
-&lt;li>General configs&lt;/li>
-&lt;/ul>
-&lt;h3 id="openy_install-in-modules">&lt;code>openy_*.install&lt;/code> in modules&lt;/h3>
-&lt;p>If you update some configuration for a specific feature, make sure that you put updates into this file in the appropriate module.&lt;/p>
-&lt;h2 id="config-management">Config Management&lt;/h2>
-&lt;h3 id="revert-only-specific-property-from-config">Revert only specific property from config&lt;/h3>
-&lt;p>This is the preferred method of updating configs as it will result in fewer conflicts for upgrading customized Open Y instances.&lt;/p>
-&lt;p>With &lt;a href="https://www.drupal.org/project/confi">config_import module&lt;/a> we can update only part of the full config.&lt;/p>
-&lt;p>For updating specific property in config use the &lt;code>openy_upgrade_tool.param_updater&lt;/code> service:&lt;/p>
-&lt;ol>
-&lt;li>Find the module where your config lives.&lt;/li>
-&lt;li>Create a new &lt;code>hook_update_N&lt;/code> in the &lt;code>openy_*.install&lt;/code> file.&lt;/li>
-&lt;li>In that hook add the update code (for example):&lt;/li>
-&lt;/ol>
-&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-php" data-lang="php">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#000">$config&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">=&lt;/span> &lt;span style="color:#000">drupal_get_path&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#4e9a06">&amp;#39;module&amp;#39;&lt;/span>&lt;span style="color:#000;font-weight:bold">,&lt;/span> &lt;span style="color:#4e9a06">&amp;#39;openy_media_image&amp;#39;&lt;/span>&lt;span style="color:#000;font-weight:bold">)&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">.&lt;/span> &lt;span style="color:#4e9a06">&amp;#39;/config/install/views.view.images_library.yml&amp;#39;&lt;/span>&lt;span style="color:#000;font-weight:bold">;&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#000">$config_importer&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">=&lt;/span> &lt;span style="color:#000">\Drupal&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">::&lt;/span>&lt;span style="color:#c4a000">service&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#4e9a06">&amp;#39;openy_upgrade_tool.param_updater&amp;#39;&lt;/span>&lt;span style="color:#000;font-weight:bold">);&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#000">$config_importer&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">-&amp;gt;&lt;/span>&lt;span style="color:#c4a000">update&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#000">$config&lt;/span>&lt;span style="color:#000;font-weight:bold">,&lt;/span> &lt;span style="color:#4e9a06">&amp;#39;views.view.images_library&amp;#39;&lt;/span>&lt;span style="color:#000;font-weight:bold">,&lt;/span> &lt;span style="color:#4e9a06">&amp;#39;display.default.display_options.pager&amp;#39;&lt;/span>&lt;span style="color:#000;font-weight:bold">);&lt;/span>
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>Where:&lt;/p>
-&lt;ul>
-&lt;li>&lt;code>$config&lt;/code> variable contains path to config with config name, like:&lt;/li>
-&lt;li>&lt;code>views.view.images_library&lt;/code> - config name&lt;/li>
-&lt;li>&lt;code>display.default.display_options.pager&lt;/code> - config specific property (you can set value from a nested array with variable depth)&lt;/li>
-&lt;/ul>
-&lt;h3 id="revert-full-configs">Revert full configs&lt;/h3>
-&lt;p>This variant uses extensive config file manipulation and increases the time for an upgrade.&lt;/p>
-&lt;p>For updating full config or several configs from directory use the &lt;code>openy_upgrade_tool.importer&lt;/code> service:&lt;/p>
-&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-php" data-lang="php">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#000">$config_dir&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">=&lt;/span> &lt;span style="color:#000">drupal_get_path&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#4e9a06">&amp;#39;module&amp;#39;&lt;/span>&lt;span style="color:#000;font-weight:bold">,&lt;/span> &lt;span style="color:#4e9a06">&amp;#39;openy_media_image&amp;#39;&lt;/span>&lt;span style="color:#000;font-weight:bold">)&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">.&lt;/span> &lt;span style="color:#4e9a06">&amp;#39;/config/install&amp;#39;&lt;/span>&lt;span style="color:#000;font-weight:bold">;&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#000">$config_importer&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">=&lt;/span> &lt;span style="color:#000">\Drupal&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">::&lt;/span>&lt;span style="color:#c4a000">service&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#4e9a06">&amp;#39;openy_upgrade_tool.importer&amp;#39;&lt;/span>&lt;span style="color:#000;font-weight:bold">);&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#000">$config_importer&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">-&amp;gt;&lt;/span>&lt;span style="color:#c4a000">setDirectory&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#000">$config_dir&lt;/span>&lt;span style="color:#000;font-weight:bold">);&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#000">$config_importer&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">-&amp;gt;&lt;/span>&lt;span style="color:#c4a000">importConfigs&lt;/span>&lt;span style="color:#000;font-weight:bold">([&lt;/span>&lt;span style="color:#4e9a06">&amp;#39;views.view.images_library&amp;#39;&lt;/span>&lt;span style="color:#000;font-weight:bold">]);&lt;/span>
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>Where:&lt;/p>
-&lt;ul>
-&lt;li>&lt;code>$config_dir&lt;/code> - path to directory with config&lt;/li>
-&lt;li>&lt;code>views.view.images_library&lt;/code> - config name&lt;/li>
-&lt;/ul>
-&lt;p>Also you can update several configs from a directory:&lt;/p>
-&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-php" data-lang="php">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#000">$config_importer&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">-&amp;gt;&lt;/span>&lt;span style="color:#c4a000">importConfigs&lt;/span>&lt;span style="color:#000;font-weight:bold">([&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#4e9a06">&amp;#39;views.view.images_library&amp;#39;&lt;/span>&lt;span style="color:#000;font-weight:bold">,&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#4e9a06">&amp;#39;views.view.example_view&amp;#39;&lt;/span>&lt;span style="color:#000;font-weight:bold">,&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#000;font-weight:bold">]);&lt;/span>
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h1 id="javascript-includes">JavaScript includes&lt;/h1>
-&lt;p>&lt;img src="https://user-images.githubusercontent.com/563412/122801945-6f28b700-d2cd-11eb-8d0c-694432e8cbf0.png" alt="image">&lt;/p></description></item><item><title>Docs: Color</title><link>/docs/content-structure/taxonomy/color/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/content-structure/taxonomy/color/</guid><description>
-&lt;p>This is a vocabulary that will be used for adding colors on the site.&lt;/p>
-&lt;p>&lt;strong>Machine_name&lt;/strong>: color&lt;/p>
-&lt;h3 id="fields">Fields&lt;/h3>
-&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th>Name&lt;/th>
-&lt;th>Machine name&lt;/th>
-&lt;th>Required&lt;/th>
-&lt;th>Description&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td>Name&lt;/td>
-&lt;td>drupal&amp;rsquo;s default&lt;/td>
-&lt;td>Yes&lt;/td>
-&lt;td>Color name.&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>Color&lt;/td>
-&lt;td>field_color&lt;/td>
-&lt;td>Yes&lt;/td>
-&lt;td>Color selector.&lt;/td>
-&lt;/tr>
-&lt;/tbody>
-&lt;/table></description></item><item><title>Docs: Composer</title><link>/docs/development/composer/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/development/composer/</guid><description>
-&lt;p>Please always make sure &lt;code>composer.lock&lt;/code> file is updated after any changes in &lt;code>composer.json&lt;/code> file.
-You can use &lt;code>composer update&lt;/code> command to update any package, in this case composer will take care about updating of &lt;code>composer.lock&lt;/code> file.&lt;/p>
-&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-fallback" data-lang="fallback">&lt;span style="display:flex;">&lt;span>composer update drupal/metatag
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>Also you can use &lt;code>composer update --lock&lt;/code> command to force updating of &lt;code>composer.lock&lt;/code> file according to dependencies in &lt;code>composer.json&lt;/code>.&lt;/p>
-&lt;p>Please check official composer documentation for details: &lt;a href="https://getcomposer.org/doc/01-basic-usage.md">https://getcomposer.org/doc/01-basic-usage.md&lt;/a>&lt;/p></description></item><item><title>Docs: Composer version constraints for Open Y</title><link>/docs/wiki/composer-version-constraints-for-open-y/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/wiki/composer-version-constraints-for-open-y/</guid><description>
-&lt;p>In 2020, due to changes in Drupal core release management and demand from Open Y customers to improve upgrade path flexibility and stability, the Open Y team added extended composer version constraints to our &lt;code>composer.json&lt;/code>.&lt;/p>
-&lt;p>Examples from &lt;a href="https://github.com/ymcatwincities/openy/blob/9.x-2.x/composer.json">composer.json&lt;/a>:&lt;/p>
-&lt;ul>
-&lt;li>&lt;code>&amp;quot;drupal/ckeditor_bootstrap_buttons&amp;quot;: &amp;quot;^1.2 || ^2.0.0&amp;quot;,&lt;/code> - this line means previous version was 1.2 or any 1.x starting from 1.2, and latest tested - 2.0.0 with allowed any stable 2.x starting from 2.0.0&lt;/li>
-&lt;li>&lt;code>&amp;quot;drupal/custom_formatters&amp;quot;: &amp;quot;^3.0 || ^3.0@beta&amp;quot;,&lt;/code> - tested with 3.0 beta of custom_formatters and allowed any 3.x starting from 3.0 (when it will be released)&lt;/li>
-&lt;/ul>
-&lt;p>By having multiple OR (&lt;code>||&lt;/code>) conditions we are providing information for developers on which versions could be used for upgrades. There are cases when the latest, even stable version of dependency could be incompatible with some other functionality and it makes sense to keep the version older while functionality is in the process of upgrading.&lt;/p>
-&lt;p>For example, if, for some reason, &lt;code>custom_formatters&lt;/code> 3.0 won&amp;rsquo;t be compatible with any of Open Y dependencies at the time of release, a developer can select an older beta version in order to proceed with the upgrade.&lt;/p>
-&lt;p>To select a specific version of a dependency when you do an upgrade of Open Y, add a dependency and its version alongside Open Y at the &lt;code>composer require...&lt;/code> step.&lt;/p>
-&lt;p>For example:&lt;/p>
-&lt;p>from &lt;a href="/docs/wiki/openy-upgrade-how-to-for-developers/">upgrade doc&lt;/a>&lt;/p>
-&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>composer require ymcatwincities/openy:NEW_VERSION_HERE --no-update
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>composer update --prefer-dist --with-dependencies --prefer-stable --no-suggest
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>then change the dependency version&lt;/p>
-&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>composer require ymcatwincities/openy:NEW_VERSION_HERE --no-update
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>composer require drupal/custom_formatters:3.0@beta1
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>You can change any of the dependency versions without upgrading Open Y by running only the &lt;code>composer require...&lt;/code> command for specific dependencies and Drupal Update DB routines afterward.&lt;/p>
-&lt;p>Check &lt;a href="https://getcomposer.org/doc/articles/versions.md">official Composer documentation about version constraints&lt;/a> and &lt;a href="https://www.drupal.org/docs/updating-drupal/updating-modules-and-themes-using-composer">updating Drupal modules with Composer&lt;/a>.&lt;/p></description></item><item><title>Docs: Configuration for social posts import</title><link>/docs/development/configuration-for-social-posts-import/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/development/configuration-for-social-posts-import/</guid><description>
-&lt;p>Add import social posts to site (Facebook, Instagram, Twitter)&lt;/p>
-&lt;h2 id="how-configure-import-of-posts-from-the-social-networks">How configure import of posts from the social networks&lt;/h2>
-&lt;p>&lt;strong>Given:&lt;/strong>
-As an Open Y site developer, I want to be able import posts from company&amp;rsquo;s accounts form social networks (Twitter, Facebook, Instagram) and save them as content on the site.&lt;/p>
-&lt;p>&lt;strong>How to:&lt;/strong>&lt;/p>
-&lt;ul>
-&lt;li>Open configuration page /admin/config/social_feed_fetcher_settings - Configuration -&amp;gt; Social Feed Settings&lt;/li>
-&lt;li>Select checkbox for needed social network and add additional settings. Every social network has their own API, please read documentation for this settings on the official pages of each social networks.&lt;/li>
-&lt;li>When all settings will be filled - click on the button - Run Cron. Import is started.&lt;/li>
-&lt;/ul></description></item><item><title>Docs: Contributing</title><link>/docs/development/contributing/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/development/contributing/</guid><description>
-&lt;h2 id="issues">Issues&lt;/h2>
-&lt;p>If you have a support request, you&amp;rsquo;ve found a bug or you have a feature request:&lt;/p>
-&lt;ul>
-&lt;li>Search through known issues/requests &lt;a href="https://github.com/ymcatwincities/openy/issues">https://github.com/ymcatwincities/openy/issues&lt;/a>&lt;/li>
-&lt;li>Create new issue &lt;a href="https://github.com/ymcatwincities/openy/issues/new">https://github.com/ymcatwincities/openy/issues/new&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;h2 id="pull-requests">Pull Requests&lt;/h2>
-&lt;p>If you have some time to make a contribution to the project, here are the steps that will help you:&lt;/p>
-&lt;ul>
-&lt;li>Create fork of &lt;a href="https://github.com/ymcatwincities/openy">main project&lt;/a>. &lt;a href="https://help.github.com/articles/fork-a-repo/">How to create fork&lt;/a>.&lt;/li>
-&lt;li>Commit &amp;amp; push changes into your fork&lt;/li>
-&lt;li>Create new Pull Request. &lt;a href="https://help.github.com/articles/creating-a-pull-request/">How to create Pull Request&lt;/a>.&lt;/li>
-&lt;li>Write steps for review. In this way maintainers can go through steps on build to verify your fix/feature.&lt;/li>
-&lt;li>Ensure steps for review added to README.md file in a module&amp;rsquo;s/project&amp;rsquo;s directory if it makes sense to check them on regular basis. Often this is needed for crucial parts of the system which is main business functionality of the component. Example of super simple steps for review &lt;a href="https://github.com/ymcatwincities/openy/blob/8.x-1.x/modules/custom/location_finder/README.md#quickstart">see in Quickstart section of location_finder module&lt;/a>, please.&lt;/li>
-&lt;li>Create Drupal tour module, based on steps for review and ship it with the module which provides a functionality.&lt;/li>
-&lt;li>Wait for a CI build and ask maintainers for review.&lt;/li>
-&lt;/ul>
-&lt;p>&lt;strong>Important:&lt;/strong> make sure your git email is associated with account on drupal.org, otherwise you won&amp;rsquo;t get commits there.&lt;/p>
-&lt;h2 id="drupalorg-credits">Drupal.org credits&lt;/h2>
-&lt;p>If you would like to get drupal.org credits for your contribution:&lt;/p>
-&lt;ul>
-&lt;li>Create issue on &lt;a href="https://www.drupal.org/project/issues/openy?categories=All">drupal.org&lt;/a>&lt;/li>
-&lt;li>Link drupal.org issue to GitHub Pull Request&lt;/li>
-&lt;li>Specify in GitHub Pull Request link to drupal.org issue&lt;/li>
-&lt;li>Once PR has been merged, reviewer will close drupal.org issue with appropriate credits.&lt;/li>
-&lt;/ul></description></item><item><title>Docs: Create &amp; Use New View Modes</title><link>/docs/development/create-view-modes/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/development/create-view-modes/</guid><description>
-&lt;p>As with any other entity in Drupal, when it comes to render the rendering it in different contexts, you might want to have specific view modes.&lt;/p>
-&lt;p>Here you can find instructions how you can add new view modes into embedded entity form on Open Y distribution.&lt;/p>
-&lt;h3 id="create-a-new-view-mode">Create a new View Mode&lt;/h3>
-&lt;ol>
-&lt;li>Go to &amp;lsquo;View modes&amp;rsquo; page: Structure -&amp;gt; Display modes -&amp;gt; View modes (or visit the URL: &lt;code>/admin/structure/display-modes/view&lt;/code>
-&lt;img src="../../assets/view_mode_in_menu.png" alt="Configuration project add/update form">&lt;/li>
-&lt;/ol>
-&lt;p>&lt;img src="../../assets/view_mode_types.png" alt="Configuration project add/update form">&lt;/p>
-&lt;ol start="2">
-&lt;li>Create new view mode: click &amp;lsquo;Add view mode&amp;rsquo; button and select entity type (or visit the URL: &lt;code>/admin/structure/display-modes/view/add&lt;/code>&lt;/li>
-&lt;/ol>
-&lt;p>&lt;img src="../../assets/view_mode_firt_way_to_create.png" alt="Configuration project add/update form">&lt;/p>
-&lt;p>or after each entity type you can see &amp;lsquo;Add new {Name} view mode&amp;rsquo; and click on it
-&lt;img src="../../assets/view_mode_seond_way.png" alt="Configuration project add/update form">&lt;/p>
-&lt;ol start="3">
-&lt;li>Select &amp;ldquo;Media&amp;rdquo; and then give a name to your new view mode (or visit the URL: /&lt;code>admin/structure/display-modes/view/add/media&lt;/code>
-&lt;img src="../../assets/view_mode_creating.png" alt="Configuration project add/update form">&lt;/li>
-&lt;/ol>
-&lt;h3 id="use-the-view-mode">Use the View Mode&lt;/h3>
-&lt;ol>
-&lt;li>Go to Configuration -&amp;gt; Text editor embed buttons (or visit the URL: &lt;code>/admin/config/content/embed&lt;/code>
-&lt;img src="../../assets/view_mode_using.png" alt="Configuration project add/update form">&lt;/li>
-&lt;/ol>
-&lt;p>&lt;img src="../../assets/view_mode_using_list.png" alt="Configuration project add/update form">&lt;/p>
-&lt;ol start="2">
-&lt;li>Then make sure you enable the new view mode in &amp;ldquo;Allowed Entity Embed Display plugins&amp;rdquo;, and at the bottom of the page click &amp;ldquo;Save&amp;rdquo;.
-&lt;img src="../../assets/view_mode_enable.png" alt="Configuration project add/update form">&lt;/li>
-&lt;/ol></description></item><item><title>Docs: Custom Simple</title><link>/docs/content-structure/blocks/custom-simple/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/content-structure/blocks/custom-simple/</guid><description>
-&lt;p>A simple block with a body.&lt;/p>
-&lt;h3 id="fields">Fields&lt;/h3>
-&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th>Name&lt;/th>
-&lt;th>Machine name&lt;/th>
-&lt;th>Required&lt;/th>
-&lt;th>Description&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td>Icon&lt;/td>
-&lt;td>field_icon&lt;/td>
-&lt;td>No&lt;/td>
-&lt;td>Icon for block.&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>Icon class&lt;/td>
-&lt;td>field_icon_class&lt;/td>
-&lt;td>No&lt;/td>
-&lt;td>Provide a &amp;ldquo;Font Awesome&amp;rdquo; icon name, e.g. flag, car, info. Overrides image icon.&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>Body&lt;/td>
-&lt;td>field_sb_body&lt;/td>
-&lt;td>No&lt;/td>
-&lt;td>Enter body text.&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>Link&lt;/td>
-&lt;td>field_sb_link&lt;/td>
-&lt;td>No&lt;/td>
-&lt;td>Add link to the block.&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>Title&lt;/td>
-&lt;td>field_sb_title&lt;/td>
-&lt;td>No&lt;/td>
-&lt;td>Title to display at top of block.&lt;/td>
-&lt;/tr>
-&lt;/tbody>
-&lt;/table></description></item><item><title>Docs: Data Layer</title><link>/docs/development/datalayer/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/development/datalayer/</guid><description>
-&lt;p>See also the &lt;a href="https://git.drupalcode.org/project/datalayer/-/blob/8.x-1.x/README.md">Data Layer module README&lt;/a>.&lt;/p>
-&lt;p>The Data Layers module output data on the page in a json format. By default it will output properties (langcode, vid, name, uid, created, status, roles) and related taxonomy for any node, user, or any route based entity.&lt;/p>
-&lt;p>A limited set of properties are available via the Data Layers configuration form at &lt;code>/admin/config/search/datalayer&lt;/code> (langcode, vid, name, uid, created, status, roles).&lt;/p>
-&lt;p>Adding additional properties can be done through use of hook_datalayer_meta().&lt;/p>
-&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-php" data-lang="php">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#204a87;font-weight:bold">function&lt;/span> &lt;span style="color:#000">my_module_datalayer_meta&lt;/span>&lt;span style="color:#000;font-weight:bold">()&lt;/span> &lt;span style="color:#000;font-weight:bold">{&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#204a87;font-weight:bold">return&lt;/span> &lt;span style="color:#204a87;font-weight:bold">array&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#4e9a06">&amp;#39;property&amp;#39;&lt;/span>&lt;span style="color:#000;font-weight:bold">,&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#000;font-weight:bold">);&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#000;font-weight:bold">}&lt;/span>
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>It will be added to the page as:&lt;/p>
-&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-json" data-lang="json">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#000;font-weight:bold">{&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#204a87;font-weight:bold">&amp;#34;entityProperty&amp;#34;&lt;/span>&lt;span style="color:#000;font-weight:bold">:&lt;/span> &lt;span style="color:#4e9a06">&amp;#34;whatever the value is&amp;#34;&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#000;font-weight:bold">}&lt;/span>
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>Altering which properties will be output can be done via hook_datalayer_meta_alter().&lt;/p>
-&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-php" data-lang="php">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#204a87;font-weight:bold">function&lt;/span> &lt;span style="color:#000">my_module_datalayer_meta_alter&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">&amp;amp;&lt;/span>&lt;span style="color:#000">$properties&lt;/span>&lt;span style="color:#000;font-weight:bold">)&lt;/span> &lt;span style="color:#000;font-weight:bold">{&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#8f5902;font-style:italic">// Override module norm in all cases.
-&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#8f5902;font-style:italic">&lt;/span> &lt;span style="color:#000">unset&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#000">$properties&lt;/span>&lt;span style="color:#000;font-weight:bold">[&lt;/span>&lt;span style="color:#4e9a06">&amp;#39;entityUid&amp;#39;&lt;/span>&lt;span style="color:#000;font-weight:bold">]);&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#8f5902;font-style:italic">// Specific situation alteration...
-&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#8f5902;font-style:italic">&lt;/span> &lt;span style="color:#000">$type&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">=&lt;/span> &lt;span style="color:#204a87;font-weight:bold">false&lt;/span>&lt;span style="color:#000;font-weight:bold">;&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#204a87;font-weight:bold">if&lt;/span> &lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#000">$obj&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">=&lt;/span> &lt;span style="color:#000">_datalayer_menu_get_any_object&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#000">$type&lt;/span>&lt;span style="color:#000;font-weight:bold">))&lt;/span> &lt;span style="color:#000;font-weight:bold">{&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#204a87;font-weight:bold">if&lt;/span> &lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#000">$type&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">===&lt;/span> &lt;span style="color:#4e9a06">&amp;#39;node&amp;#39;&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">&amp;amp;&amp;amp;&lt;/span> &lt;span style="color:#000">in_array&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#204a87;font-weight:bold">array&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#4e9a06">&amp;#39;my_bundle&amp;#39;&lt;/span>&lt;span style="color:#000;font-weight:bold">,&lt;/span> &lt;span style="color:#4e9a06">&amp;#39;my_nodetype&amp;#39;&lt;/span>&lt;span style="color:#000;font-weight:bold">),&lt;/span> &lt;span style="color:#000">$obj&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">-&amp;gt;&lt;/span>&lt;span style="color:#c4a000">type&lt;/span>&lt;span style="color:#000;font-weight:bold">))&lt;/span> &lt;span style="color:#000;font-weight:bold">{&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#8f5902;font-style:italic">// Remove author names on some content type.
-&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#8f5902;font-style:italic">&lt;/span> &lt;span style="color:#204a87;font-weight:bold">if&lt;/span> &lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#000">$key&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">=&lt;/span> &lt;span style="color:#000">array_search&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#4e9a06">&amp;#39;name&amp;#39;&lt;/span>&lt;span style="color:#000;font-weight:bold">,&lt;/span> &lt;span style="color:#000">$properties&lt;/span>&lt;span style="color:#000;font-weight:bold">))&lt;/span> &lt;span style="color:#000;font-weight:bold">{&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#000">unset&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#000">$properties&lt;/span>&lt;span style="color:#000;font-weight:bold">[&lt;/span>&lt;span style="color:#000">$key&lt;/span>&lt;span style="color:#000;font-weight:bold">]);&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#000;font-weight:bold">}&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#000;font-weight:bold">}&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#204a87;font-weight:bold">elseif&lt;/span> &lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#000">$type&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">===&lt;/span> &lt;span style="color:#4e9a06">&amp;#39;my_entity_type&amp;#39;&lt;/span>&lt;span style="color:#000;font-weight:bold">)&lt;/span> &lt;span style="color:#000;font-weight:bold">{&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#8f5902;font-style:italic">// Remove some property on some entity type.
-&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#8f5902;font-style:italic">&lt;/span> &lt;span style="color:#204a87;font-weight:bold">if&lt;/span> &lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#000">$key&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">=&lt;/span> &lt;span style="color:#000">array_search&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#4e9a06">&amp;#39;my_property&amp;#39;&lt;/span>&lt;span style="color:#000;font-weight:bold">,&lt;/span> &lt;span style="color:#000">$properties&lt;/span>&lt;span style="color:#000;font-weight:bold">))&lt;/span> &lt;span style="color:#000;font-weight:bold">{&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#000">unset&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#000">$properties&lt;/span>&lt;span style="color:#000;font-weight:bold">[&lt;/span>&lt;span style="color:#000">$key&lt;/span>&lt;span style="color:#000;font-weight:bold">]);&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#000;font-weight:bold">}&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#000;font-weight:bold">}&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#000;font-weight:bold">}&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#000;font-weight:bold">}&lt;/span>
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>Adding additional data can be done using datalayer_add().&lt;/p>
-&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-php" data-lang="php">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#204a87;font-weight:bold">function&lt;/span> &lt;span style="color:#000">_my_module_myevent_func&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#000">$argument&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">=&lt;/span> &lt;span style="color:#204a87;font-weight:bold">FALSE&lt;/span>&lt;span style="color:#000;font-weight:bold">)&lt;/span> &lt;span style="color:#000;font-weight:bold">{&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#204a87;font-weight:bold">if&lt;/span> &lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#000">$argument&lt;/span>&lt;span style="color:#000;font-weight:bold">)&lt;/span> &lt;span style="color:#000;font-weight:bold">{&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#000">datalayer_add&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#204a87;font-weight:bold">array&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#4e9a06">&amp;#39;drupalMyProperty&amp;#39;&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">=&amp;gt;&lt;/span> &lt;span style="color:#000">$argument&lt;/span>&lt;span style="color:#000;font-weight:bold">,&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#4e9a06">&amp;#39;userAnotherProperty&amp;#39;&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">=&amp;gt;&lt;/span> &lt;span style="color:#000">_my_module_other_funct&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#000">$argument&lt;/span>&lt;span style="color:#000;font-weight:bold">),&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#000;font-weight:bold">));&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#000;font-weight:bold">}&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#000;font-weight:bold">}&lt;/span>
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>To alter the data to be output use hook_datalayer_alter().&lt;/p>
-&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-php" data-lang="php">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#204a87;font-weight:bold">function&lt;/span> &lt;span style="color:#000">my_module_datalayer_alter&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#ce5c00;font-weight:bold">&amp;amp;&lt;/span>&lt;span style="color:#000">$data_layer&lt;/span>&lt;span style="color:#000;font-weight:bold">)&lt;/span> &lt;span style="color:#000;font-weight:bold">{&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#8f5902;font-style:italic">// Make the title lowercase on some node type.
-&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#8f5902;font-style:italic">&lt;/span> &lt;span style="color:#204a87;font-weight:bold">if&lt;/span> &lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#000">isset&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#000">$data_layer&lt;/span>&lt;span style="color:#000;font-weight:bold">[&lt;/span>&lt;span style="color:#4e9a06">&amp;#39;entityBundle&amp;#39;&lt;/span>&lt;span style="color:#000;font-weight:bold">])&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">&amp;amp;&amp;amp;&lt;/span> &lt;span style="color:#000">$data_layer&lt;/span>&lt;span style="color:#000;font-weight:bold">[&lt;/span>&lt;span style="color:#4e9a06">&amp;#39;entityBundle&amp;#39;&lt;/span>&lt;span style="color:#000;font-weight:bold">]&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">==&lt;/span> &lt;span style="color:#4e9a06">&amp;#39;mytype&amp;#39;&lt;/span>&lt;span style="color:#000;font-weight:bold">)&lt;/span> &lt;span style="color:#000;font-weight:bold">{&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#000">$data_layer&lt;/span>&lt;span style="color:#000;font-weight:bold">[&lt;/span>&lt;span style="color:#4e9a06">&amp;#39;entityLabel&amp;#39;&lt;/span>&lt;span style="color:#000;font-weight:bold">]&lt;/span> &lt;span style="color:#ce5c00;font-weight:bold">=&lt;/span> &lt;span style="color:#000">strtolower&lt;/span>&lt;span style="color:#000;font-weight:bold">(&lt;/span>&lt;span style="color:#000">$data_layer&lt;/span>&lt;span style="color:#000;font-weight:bold">[&lt;/span>&lt;span style="color:#4e9a06">&amp;#39;entityLabel&amp;#39;&lt;/span>&lt;span style="color:#000;font-weight:bold">]);&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#000;font-weight:bold">}&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#000;font-weight:bold">}&lt;/span>
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div></description></item><item><title>Docs: Daxko</title><link>/docs/development/daxko/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/development/daxko/</guid><description>
-&lt;p>Relates to: &lt;a href="/docs/content-structure/paragraphs/program-registration-daxko/">Program Registration (Daxko)&lt;/a>&lt;/p>
-&lt;p>Configuration setting at &lt;code>/admin/config/development/daxko&lt;/code>&lt;/p>
-&lt;p>Account configuration must be setup before the Program Registration paragraph will work.&lt;/p></description></item><item><title>Docs: Decouple component from Open Y as independent module project</title><link>/docs/wiki/decouple-component-from-open-y-as-independent-module-project/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/wiki/decouple-component-from-open-y-as-independent-module-project/</guid><description>
-&lt;h2 id="history">History&lt;/h2>
-&lt;p>In 2019 the Open Y team started decoupling major components to streamline the distribution and simplify support.&lt;/p>
-&lt;p>Communication started in the &lt;a href="https://community.openymca.org/t/ejecting-modules-from-openy-distro-as-independent-projects/513">Community Board - Ejecting modules from OpenY distro as independent projects&lt;/a>.&lt;/p>
-&lt;p>The decoupling process is ongoing. See &lt;a href="/docs/wiki/decoupled--external--projects-of-openy/">the index of decoupled projects&lt;/a>.&lt;/p>
-&lt;p>In 2021 the Open Y core team faced coupling blockers in the distribution during &lt;a href="https://github.com/ymcatwincities/openy/milestone/21">the upgrade from Drupal 8 to Drupal 9&lt;/a>&lt;/p>
-&lt;p>To formalize the ongoing development and maintenance strategy, the Open Y core team &lt;a href="https://docs.google.com/presentation/d/1H09GsUsSdt3RoN7rbKpNv4eihCNos74Y2KCbJBJXRqc/edit?usp=sharing">shared its decoupling plan with the wider community&lt;/a> in mid-2021.&lt;/p>
-&lt;p>This document elaborates on those processes.&lt;/p>
-&lt;h2 id="policy">Policy&lt;/h2>
-&lt;ul>
-&lt;li>Every new component or sub-project of Open Y should be developed in its own repository - either on GitHub or Drupal.org.
-&lt;ul>
-&lt;li>Drupal.org example: &lt;a href="https://www.drupal.org/project/paragraph_skins">paragraph_skins&lt;/a>&lt;/li>
-&lt;li>GitHub Example: &lt;a href="https://github.com/ymcatwincities/openy_activity_finder">openy_activity_finder&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>The decoupled project could be
-&lt;ul>
-&lt;li>&lt;strong>part of Open Y core&lt;/strong> - e.g. &lt;a href="https://github.com/ymcatwincities/openy_activity_finder">Activity Finder&lt;/a> and &lt;a href="https://github.com/ymcatwincities/openy/blob/9.2.8.0/composer.json#L112">added to Open Y profile by default&lt;/a>, or&lt;/li>
-&lt;li>&lt;strong>not part of the core&lt;/strong>, e.g. &lt;a href="https://github.com/ymcatwincities/openy_memberships">Open Y Membership Framework&lt;/a> which could be &lt;a href="https://github.com/ymcatwincities/openy_memberships/blob/master/README.md#installation">installed later&lt;/a>.&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>&lt;strong>GitHub&lt;/strong> should be used when there is no strategy to make a component or project available for the wider Drupal community - that is, when it is tied to YMCA business and unlikely to be leveraged by somebody else.&lt;/li>
-&lt;li>&lt;strong>Drupal.org&lt;/strong> should be used when the component could be useful to projects outside of Open Y.&lt;/li>
-&lt;/ul>
-&lt;h2 id="process">Process&lt;/h2>
-&lt;h3 id="for-creating-a-new-decoupled-component">for creating a new decoupled component&lt;/h3>
-&lt;ol>
-&lt;li>Create a new GitHub/Drupal.org repository.&lt;/li>
-&lt;li>Work on getting an initial release with at least &lt;code>beta&lt;/code> version stability.&lt;/li>
-&lt;li>Create a composer.json file for the component in order to be able to start using it via &lt;code>composer&lt;/code>. See &lt;a href="https://github.com/ymcatwincities/openy_gated_content/blob/master/composer.json">Virtual Y&lt;/a> for an example.&lt;/li>
-&lt;li>Make it available for the public via packagist.org or drupal.org as a release. Ensure &lt;code>podarok&lt;/code> is added as a co-maintainer to the respective system.&lt;/li>
-&lt;li>Suggest adding to Open Y by &lt;a href="https://github.com/ymcatwincities/openy/issues">opening an issue&lt;/a>.&lt;/li>
-&lt;li>If approved, create a Pull Request adding it as a dependency in &lt;a href="https://github.com/ymcatwincities/openy/blob/9.x-2.x/composer.json">composer.json&lt;/a>.&lt;/li>
-&lt;li>Ensure this component is enabled in any of the packages maintained in the &lt;a href="https://github.com/ymcatwincities/openy/blob/9.x-2.x/openy.packages.yml">Open Y profile installation&lt;/a>&lt;/li>
-&lt;li>Ask for review and release, according to the &lt;a href="/docs/wiki/how-we-release-openy-distribution-from-code-perspective/">release plan&lt;/a>.&lt;/li>
-&lt;/ol>
-&lt;h3 id="for-decoupling-an-existing-component-of-open-y">for decoupling an existing component of Open Y&lt;/h3>
-&lt;p>Follow the steps above, but:&lt;/p>
-&lt;ul>
-&lt;li>After creating the repo, filter the selected component by running &lt;code>git filter-branch --subdirectory-filter ...&lt;/code> from the latest development branch of the Open Y profile. This keeps credits of work done for this component as a part of the &lt;a href="/docs/wiki/open-y-code-of-conduct-and-best-practices/">Code of Conduct&lt;/a>.&lt;/li>
-&lt;li>After separating the code, ensure the ejected code is not duplicated in the Open Y profile. Remove duplicated code in the same Pull Request in which you add the new dependency.&lt;/li>
-&lt;/ul>
-&lt;h2 id="examples">Examples&lt;/h2>
-&lt;h3 id="how-to-update-module-on-drupalorg">How to update module on Drupal.org&lt;/h3>
-&lt;ul>
-&lt;li>Git filter-branch to get a history of changes.&lt;/li>
-&lt;li>Change git origin to Drupal.org project.&lt;/li>
-&lt;li>Create a new branch and push the code to Drupal.org.&lt;/li>
-&lt;li>Create and push tag to Drupal.org. Create a release on drupal.org.&lt;/li>
-&lt;li>Update composer.json in this distribution with a new tag.&lt;/li>
-&lt;/ul>
-&lt;h3 id="how-to-decouple-module-from-yn-to-drupalorg">How to decouple module from YN to Drupal.org&lt;/h3>
-&lt;p>Example: &lt;a href="https://www.drupal.org/project/paragraph_skins">paragraph_skins&lt;/a>&lt;/p>
-&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-sh" data-lang="sh">&lt;span style="display:flex;">&lt;span>git clone git@github.com:ymcatwincities/openy.git decouple
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>rm -rf decouple_copy &lt;span style="color:#ce5c00;font-weight:bold">&amp;amp;&amp;amp;&lt;/span> cp -a decouple decouple_copy
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#204a87">cd&lt;/span> decouple_copy
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>git filter-branch --subdirectory-filter docroot/modules/contrib/paragraph_skins
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>git clean -dfx
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>git remote remove origin &lt;span style="color:#ce5c00;font-weight:bold">&amp;amp;&amp;amp;&lt;/span> git remote add origin git@git.drupal.org:project/paragraph_skins.git
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>git pull origin 8.x-1.x --allow-unrelated-histories
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#8f5902;font-style:italic"># Resolve conflicts if applicable.&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>git push origin production:8.x-1.x
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#8f5902;font-style:italic"># Create tags and release on Drupal.org&lt;/span>
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="how-to-decouple-module-from-open-y-to-open-y-subprojectshttpsgithubcomopen-y-subprojects">How to decouple module from Open Y to &lt;a href="https://github.com/Open-Y-subprojects">Open Y Subprojects&lt;/a>&lt;/h3>
-&lt;p>Request a repository for the module. Example: &lt;a href="https://github.com/Open-Y-subprojects/shared_content_server">shared_content_server&lt;/a>&lt;/p>
-&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-sh" data-lang="sh">&lt;span style="display:flex;">&lt;span>git clone git@github.com:ymcatwincities/openy.git decouple
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>rm -rf decouple_copy &lt;span style="color:#ce5c00;font-weight:bold">&amp;amp;&amp;amp;&lt;/span> cp -a decouple decouple_copy
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#204a87">cd&lt;/span> decouple_copy
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>git filter-branch --subdirectory-filter docroot/profiles/contrib/openy/modules/custom/SOME_MODULE_HERE
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>git clean -dfx
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>git remote remove origin &lt;span style="color:#ce5c00;font-weight:bold">&amp;amp;&amp;amp;&lt;/span> git remote add origin git@github.com:Open-Y-subprojects/SOME_MODULE_HERE.git
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>git push origin production
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#8f5902;font-style:italic"># Create composer.json on the decoupled repository. Example: https://github.com/ymcatwincities/openy_activity_finder/blob/4.x/composer.json&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>git clone git@github.com:ynorth-projects/distribution.git yn-distribution
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#8f5902;font-style:italic"># Update composer json for distrubution. See below&lt;/span>
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>&lt;a href="https://github.com/ymcatwincities/openy/pull/2288/files#diff-d2ab9925cad7eac58e0ff4cc0d251a937ecf49e4b6bf57f8b95aab76648a9d34R111">Example for Activity Finder&lt;/a>&lt;/p>
-&lt;h1 id="references">References&lt;/h1>
-&lt;ul>
-&lt;li>A useful article for future decoupling - &lt;a href="https://medium.com/@ayushya/move-directory-from-one-repository-to-another-preserving-git-history-d210fa049d4b">Move files from one repository to another, preserving git history&lt;/a>&lt;/li>
-&lt;/ul></description></item><item><title>Docs: Decoupled (external) projects of OpenY</title><link>/docs/wiki/decoupled--external--projects-of-openy/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/wiki/decoupled--external--projects-of-openy/</guid><description>
-&lt;h1 id="inventory-of-external-modules-available-via-composer">Inventory of external modules available via Composer&lt;/h1>
-&lt;p>Check all GitHub for the tag &lt;a href="https://github.com/topics/openy-decoupled">&lt;code>openy-decoupled&lt;/code>&lt;/a>&lt;/p>
-&lt;h2 id="github-hosted">GitHub hosted&lt;/h2>
-&lt;ol>
-&lt;li>&lt;a href="https://github.com/ymcatwincities/openy_block_modal">&lt;code>ymcatwincities/openy_block_modal&lt;/code>&lt;/a> - Implements a simple block with a body and title that will be used to display modal windows.&lt;/li>
-&lt;li>&lt;a href="https://github.com/ymcatwincities/openy_memberships">&lt;code>ymcatwincities/openy_memberships&lt;/code>&lt;/a> - Membership Framework for OpenY and Drupal.&lt;/li>
-&lt;li>&lt;a href="https://github.com/ymcatwincities/openy_prgf_sidebar_menu">&lt;code>ymcatwincities/openy_prgf_sidebar_menu&lt;/code>&lt;/a> - SideBar menu for referencing menu blocks and using in SideBars across different pages.&lt;/li>
-&lt;li>&lt;a href="https://github.com/ymcatwincities/openy_loc_filter">&lt;code>ymcatwincities/openy_loc_finder&lt;/code>&lt;/a> - Extended Location Finder&lt;/li>
-&lt;li>&lt;a href="https://github.com/Open-Y-subprojects/reqclique_gxp_sync">&lt;code>Open-Y-subprojects/reqclique_gxp_sync&lt;/code>&lt;/a> - Reqclique Group Exercise Sync&lt;/li>
-&lt;li>&lt;a href="https://github.com/open-y-subprojects/virtual_y_signaling_server">&lt;code>open-y-subprojects/virtual_y_signaling_server&lt;/code>&lt;/a> - Signalling server for Virtual Y&lt;/li>
-&lt;li>&lt;a href="https://github.com/open-y-subprojects/openy_daxko_gxp_syncer">&lt;code>open-y-subprojects/openy_daxko_gxp_syncer&lt;/code>&lt;/a> - Daxko GroupEx PRO v1 API Syncer into Program Event Framework&lt;/li>
-&lt;li>&lt;a href="https://github.com/open-y-subprojects/ynorth_gxp_spots_proxy">&lt;code>open-y-subprojects/ynorth_gxp_spots_proxy&lt;/code>&lt;/a> - Availability Spots Cache Proxy for Groupex PRO embed API Syncer into PEF&lt;/li>
-&lt;li>&lt;a href="https://github.com/open-y-subprojects/openy_node_alert">&lt;code>open-y-subprojects/openy_node_alert&lt;/code>&lt;/a> - Alerts APP for Open Y&lt;/li>
-&lt;li>&lt;a href="https://github.com/open-y-subprojects/openy_focal_point">&lt;code>open-y-subprojects/openy_focal_point&lt;/code>&lt;/a> - Open Y Focal Point routines&lt;/li>
-&lt;li>&lt;a href="https://github.com/open-y-subprojects/shared_content_server">&lt;code>open-y-subprojects/shared_content_server&lt;/code>&lt;/a> - Shared Content Server&lt;/li>
-&lt;li>&lt;a href="https://github.com/ynorth-projects/openy_node_session">&lt;code>ynorth-projects/openy_node_session&lt;/code>&lt;/a> - Open Y Node Session&lt;/li>
-&lt;li>&lt;a href="https://github.com/ynorth-projects/openy_repeat">&lt;code>ynorth-projects/openy_repeat&lt;/code>&lt;/a> - Repeat API for PEF. Schedules APP built in Vue.js&lt;/li>
-&lt;li>&lt;a href="https://github.com/ynorth-projects/openy_pef_gxp_sync">&lt;code>ynorth-projects/openy_pef_gxp_sync&lt;/code>&lt;/a> - Groupex Pro Embed/OpenY Syncer into PEF&lt;/li>
-&lt;li>&lt;a href="https://github.com/ymcatwincities/ymca_sync">&lt;code>ymcatwincities/ymca_sync&lt;/code>&lt;/a> - Syncer backend core&lt;/li>
-&lt;li>&lt;a href="https://github.com/ymcatwincities/openy_activity_finder">&lt;code>ymcatwincities/openy_activity_finder&lt;/code>&lt;/a> - Activity Finder app&lt;/li>
-&lt;li>&lt;a href="https://github.com/ymcatwincities/media_entity_document">&lt;code>ymcatwincities/media_entity_document&lt;/code>&lt;/a> - Media Entity Document&lt;/li>
-&lt;li>&lt;a href="https://github.com/ynorth-projects/openy_prgf_session_table">&lt;code>ynorth-projects/openy_prgf_session_table&lt;/code>&lt;/a> - if you need to present couple of Sessions in a table view without using any complex app like Schedules or Activity Finder&lt;/li>
-&lt;/ol>
-&lt;h2 id="drupalorg-hosted">Drupal.org hosted&lt;/h2>
-&lt;ol>
-&lt;li>&lt;a href="https://www.drupal.org/project/upgrade_tool">&lt;code>drupal/upgrade_tool&lt;/code>&lt;/a> - Open Y Upgrade Tool&lt;/li>
-&lt;li>&lt;a href="https://github.com/ymcatwincities/paragraph_skins">&lt;code>ymcatwincities/paragraph_skins&lt;/code>&lt;/a> - Skins component from OpenY. Decoupled to &lt;a href="https://www.drupal.org/project/paragraph_skins">&lt;code>drupal/paragraph_skins&lt;/code>&lt;/a>&lt;/li>
-&lt;li>&lt;a href="https://www.drupal.org/project/openy_autocomplete_path">&lt;code>drupal/openy_autocomplete_path&lt;/code>&lt;/a> - Open Y Autocomplete Path. Works in Drupal 8 only. Removed from &lt;code>9.*&lt;/code> Open Y releases.&lt;/li>
-&lt;/ol>
-&lt;h2 id="decoupling-mind-map">Decoupling mind-map&lt;/h2>
-&lt;p>&lt;img src="https://user-images.githubusercontent.com/563412/123959435-d540c880-d9b6-11eb-89ed-8af3f21095dd.png" alt="Open Y decoupling">&lt;/p></description></item><item><title>Docs: Dependencies in drupal info.yml</title><link>/docs/wiki/dependencies-in-drupal-info.yml/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/wiki/dependencies-in-drupal-info.yml/</guid><description>
-&lt;p>In order to generate &lt;code>composer.json&lt;/code>, Drupal.org defines specific rules in the modules &lt;code>info.yml&lt;/code> file&lt;/p>
-&lt;p>If you need to add a dependency to the Drupal.org module you should provide a format:&lt;/p>
-&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-yml" data-lang="yml">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#204a87;font-weight:bold">dependencies&lt;/span>&lt;span style="color:#000;font-weight:bold">:&lt;/span>&lt;span style="color:#f8f8f8;text-decoration:underline">
-&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#f8f8f8;text-decoration:underline"> &lt;/span>- &lt;span style="color:#000">drupal:webform&lt;/span>&lt;span style="color:#f8f8f8;text-decoration:underline">
-&lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>In this case, your module will have composer dependency to &lt;a href="https://dgo.to/webform">drupal/webform&lt;/a>&lt;/p>
-&lt;p>If you make it:&lt;/p>
-&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-yml" data-lang="yml">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#204a87;font-weight:bold">dependencies&lt;/span>&lt;span style="color:#000;font-weight:bold">:&lt;/span>&lt;span style="color:#f8f8f8;text-decoration:underline">
-&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#f8f8f8;text-decoration:underline"> &lt;/span>- &lt;span style="color:#000">whatevernameyouwish:webform&lt;/span>&lt;span style="color:#f8f8f8;text-decoration:underline">
-&lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>the Drupal.org packaging routine will replace it with &lt;code>drupal:webform&lt;/code> on the fly.&lt;/p>
-&lt;p>In order to break the dependency on composer level but still tell Drupal core to have module dependency while resolving dependencies during the process of enabling the module, you should use the simplified format:&lt;/p>
-&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-yml" data-lang="yml">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#204a87;font-weight:bold">dependencies&lt;/span>&lt;span style="color:#000;font-weight:bold">:&lt;/span>&lt;span style="color:#f8f8f8;text-decoration:underline">
-&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#f8f8f8;text-decoration:underline"> &lt;/span>- &lt;span style="color:#000">webform&lt;/span>&lt;span style="color:#f8f8f8;text-decoration:underline">
-&lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>In the above case, composer won&amp;rsquo;t have any dependencies, but your module will require that the webform module be available in the codebase in order to be enabled by Drupal core.&lt;/p></description></item><item><title>Docs: Deprecate and remove components from Open Y</title><link>/docs/wiki/deprecate-and-remove-components-from-open-y/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/wiki/deprecate-and-remove-components-from-open-y/</guid><description>
-&lt;p>Occasionally old code is deprecated from the Open Y codebase. In order to minimize disruption to existing sites, we use the following process:&lt;/p>
-&lt;ol>
-&lt;li>&lt;strong>Decide&lt;/strong> - Before removing components from the distribution we gather feedback from the community to protect active projects from having components accidentally removed. This is accomplished via messaging in the Open Y Slack and discussion on Monthly calls.&lt;/li>
-&lt;li>&lt;strong>Deprecate&lt;/strong> - Once a decision is made, we notify users that the feature will be removed soon. The deprecated component is moved from the &lt;code>Open Y&lt;/code> package group to the &lt;code>Open Y ( Deprecated )&lt;/code> package group. For example: &lt;a href="https://github.com/open-y-subprojects/openy_features/pull/15/files">Deprecate Daxko Program Registration Paragraph&lt;/a>. Deprecation notices are posted in point and quarterly releases of Open Y.&lt;/li>
-&lt;li>&lt;strong>Uninstall&lt;/strong> - Before removing code, components should be uninstalled via an update hook in the distribution and any hard dependencies should be removed. Uninstalls must occur &lt;em>at least one point (fix) release&lt;/em> after the deprecation notice.&lt;/li>
-&lt;li>&lt;strong>Remove&lt;/strong> - Complete removal of the component from the codebase or &lt;code>composer.json&lt;/code> should happen &lt;em>at least one quarterly (feature) release&lt;/em> after the deprecation notice.&lt;/li>
-&lt;/ol>
-&lt;p>Additionally, the following housekeeping steps should be taken when deprecating a component:&lt;/p>
-&lt;ol>
-&lt;li>The release where the deprecated component has been uninstalled should be added to the &lt;a href="https://github.com/ymcatwincities/openy/wiki/Important-versions-for-upgrade-path">important versions document&lt;/a> in the Wiki.&lt;/li>
-&lt;li>Code should be decoupled to external GitHub repositories with all history of commits, marked as &lt;code>openy-decoupled&lt;/code>, and archived.&lt;/li>
-&lt;/ol></description></item><item><title>Docs: Development FAQ</title><link>/docs/wiki/development-faq/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/wiki/development-faq/</guid><description>
-&lt;h1 id="open-y-developer-faq">Open Y Developer FAQ&lt;/h1>
-&lt;h2 id="local-development">Local Development&lt;/h2>
-&lt;h3 id="getting-started-with-a-local-environment">Getting started with a local environment&lt;/h3>
-&lt;p>To start developing you need to obtain the latest Open Y codebase. See the &lt;a href="https://github.com/ymcatwincities/openy-project#latest-development-version-drupal-9-2x">&lt;code>openy-project&lt;/code> repository&lt;/a> for the full process.&lt;/p>
-&lt;p>&lt;a href="https://www.youtube.com/watch?v=jRlinjpTl0c">This video tutorial&lt;/a> will walk you through how to initiate a local development environment.&lt;/p>
-&lt;p>The Open Y team has pre-built environments and walkthroughs using either &lt;a href="https://github.com/ymcatwincities/openy-cibox-vm#drupal-vagrant-dev-box-for-openy-support">Vagrant and VirtualBox&lt;/a> or &lt;a href="https://github.com/ymcatwincities/openy-docksal#get-started">Docker and Docksal&lt;/a>. Choose the method that you&amp;rsquo;re most comfortable with and get started!&lt;/p>
-&lt;h3 id="gathering-information-about-your-local-environment">Gathering information about your local environment&lt;/h3>
-&lt;p>To best troubleshoot issues, it&amp;rsquo;s helpful for the Open Y team to have as much information about your environment as possible. Before you ask for help, watch this tutorial on &lt;a href="https://www.youtube.com/watch?v=01y617maeBE">how to gather that information&lt;/a>.&lt;/p>
-&lt;h3 id="debugging-with-xdebug-in-your-local">Debugging with Xdebug in your local&lt;/h3>
-&lt;p>The Docksal project maintains detailed information for &lt;a href="https://docs.docksal.io/tools/xdebug/">using Xdebug with VSCode, PHPStorm, and more&lt;/a>.&lt;/p>
-&lt;h2 id="contributing">Contributing&lt;/h2>
-&lt;h3 id="who-should-i-specify-for-review">Who should I specify for review?&lt;/h3>
-&lt;p>We have a best practice to get at least 2 independent reviews before merging code. Please request a review from the Open Y Lead Technical Architect (Andrii Podanenko, &lt;code>@podarok&lt;/code>) and somebody else (from your team or another Open Y partner).&lt;/p>
-&lt;h3 id="who-is-responsible-for-merging">Who is responsible for merging?&lt;/h3>
-&lt;p>The Open Y Lead Technical Architect (Andrii Podanenko, &lt;code>@podarok&lt;/code>) is responsible for final approval, merging, and release management on the Open Y project.&lt;/p>
-&lt;h3 id="what-labels-in-prs-should-i-use">What labels in PRs should I use?&lt;/h3>
-&lt;h3 id="what-milestone-should-i-specify">What milestone should I specify?&lt;/h3>
-&lt;h3 id="why-i-cant-add-labels-or-specify-milestones">Why I can&amp;rsquo;t add labels or specify milestones?&lt;/h3>
-&lt;p>All of these require you to be granted Contributor access to the Open Y GitHub repository. Contact the Open Y Lead Technical Architect (Andrii Podanenko, &lt;code>@podarok&lt;/code>) to get access. Labels are usually set by the Open Y Core Team.&lt;/p>
-&lt;h3 id="why-are-the-steps-for-review-in-pull-requests-so-important">Why are the steps for review in Pull Requests so important?&lt;/h3>
-&lt;p>When you send your code for review our team must know both how to review the code and what to test to verify the functionality. You are the only source of truth for how to check functionality. Adding steps for review will help the reviewer and QA team to verify that the issue is resolved.&lt;/p>
-&lt;h3 id="why-should-i-add-a-reference-to-the-github-issue-in-my-pr-description">Why should I add a reference to the GitHub issue in my PR description?&lt;/h3>
-&lt;p>As we are a community-led project, there may be a long time between creating an issue and resolving it in a Pull Request. The reviewer should be able to understand the context and possible discussion around the issue to be resolved with your PR. The more context we have, the better and faster we can review the request.&lt;/p>
-&lt;h3 id="in-what-format-should-i-add-commits-should-i-add-internal-jira-task-id-or-github-issue">In what format should I add commits, should I add internal Jira task ID or GitHub issue?&lt;/h3>
-&lt;p>It is important to make commit messages with some sort of sense for the human to read them when digging back in history. Adding any task identifications from the project management system is allowed.&lt;/p>
-&lt;h3 id="what-is-the-deepcode-bot">What is the &amp;ldquo;DeepCode&amp;rdquo; bot?&lt;/h3>
-&lt;p>DeepCode bot is the automated, machine learning code review system that analyses huge amounts of GitHub repositories and is sometimes useful to find common issues before humans do reviews. It is helpful, but not always necessary to fix issues found by the DeepCode bot because sometimes it fails. If you see a comment be sure to read the report. If the report makes sense, then fix the issue suggested by the bot.&lt;/p>
-&lt;h2 id="build-automation--ci">Build Automation &amp;amp; CI&lt;/h2>
-&lt;h3 id="what-ci-processes-does-open-y-have-in-place">What CI processes does Open Y have in place?&lt;/h3>
-&lt;p>To get a fully working Open Y site for the code change you are about to push for review there is a build generating system installed for the Open Y GitHub repository that automatically generates a dedicated temporary website with your changes applied.&lt;/p>
-&lt;h2 id="why-are-some-builds-created-automatically-and-some-not">Why are some builds created automatically and some not?&lt;/h2>
-&lt;p>By default, builds are configured for trusted users, so if you are getting a message from the bot like&lt;/p>
-&lt;blockquote>
-&lt;p>&amp;ldquo;Can one of the admins verify this patch? Use &amp;ldquo;o+k to test&amp;rdquo; or &amp;lsquo;&amp;rsquo;t+est this please&amp;rdquo; for manual build execution.&amp;quot;&lt;/p>
-&lt;/blockquote>
-&lt;p>then your username is not in the allowlist and somebody from the Open Y Core Team can comment to initiate a build for you. Contact &lt;code>@podarok&lt;/code> to get your build generated or your name added to the allowlist.&lt;/p>
-&lt;h3 id="how-do-i-create-a-build-for-my-pr">How do I create a build for my PR?&lt;/h3>
-&lt;p>If you are on the allowlist then simply create a Pull Request from your fork to the Open Y repository. After up to 30 minutes you&amp;rsquo;ll receive comments with links to the generated site builds.&lt;/p>
-&lt;h3 id="when-are-builds-deleted-from-the-server">When are builds deleted from the server?&lt;/h3>
-&lt;p>Usually, you have a day for the build to be wiped out from the server. If there is an upcoming deadline and many PRs are coming in, the lifetime could be significantly shorter, down to a couple of hours.&lt;/p>
-&lt;h3 id="who-should-i-contact-to-get-logs-from-the-build-server">Who should I contact to get logs from the build server?&lt;/h3>
-&lt;p>Andrii Podanenko &lt;code>@podarok&lt;/code> or Dima Danylevskyi &lt;code>@danylevskyi&lt;/code>&lt;/p>
-&lt;h3 id="what-should-i-do-if-tests-fail">What should I do if tests fail?&lt;/h3>
-&lt;p>If you have any concerns with reports generated by the code checkers that are used in Open Y ask Open Y Lead Technical Architect Andrii Podanenko to get them resolved. The majority of these systems are works-in-progress and it is helpful to have feedback on them.&lt;/p>
-&lt;h2 id="how-do-i-install-open-y-on-pantheon-hosting">How do I install Open Y on Pantheon hosting&lt;/h2>
-&lt;p>See &lt;a href="https://github.com/ymcatwincities/openy/issues/2004">request from a community&lt;/a>. The solution is described in &lt;a href="https://pantheon.io/docs/nested-docroot">Pantheon&amp;rsquo;s documentation on nested docroots&lt;/a>. We suggest that you maintain your own &lt;code>composer.json&lt;/code> with the specified web-root directory, as described in the &lt;a href="https://github.com/pantheon-systems/example-drops-8-composer/blob/master/composer.json#L94">Pantheon examples&lt;/a>.&lt;/p></description></item></channel></rss>
+&lt;/table></description></item></channel></rss>
