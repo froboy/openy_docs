@@ -2,6 +2,8 @@
 &lt;p>In addition to the
 &lt;a href="/docs/contribution-guidelines/#useful-resources">full documentation&lt;/a>, here are some commonly used functions in the Open Y Docs.&lt;/p>
 &lt;h2 id="general-styles">General Styles&lt;/h2>
+&lt;p>The Open Y Docs are written in
+&lt;a href="https://commonmark.org/help/" target="_blank">Markdown&lt;/a>, an easy-to read and write formatting language.&lt;/p>
 &lt;p>The old documentation made heavy use of horizontal rules &lt;code>---&lt;/code> and slashes in headings &lt;code>## // Heading&lt;/code>. We try to use standard Markdown headings for organization and remove those visual indicators for better accessibility.&lt;/p>
 &lt;p>Headings with a page should start with level 2 &lt;code>##&lt;/code> in order to properly build the in-page navigation.&lt;/p>
 &lt;h2 id="links">Links&lt;/h2>
@@ -9,6 +11,20 @@
 &lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-markdown" data-lang="markdown">&lt;span style="display:flex;">&lt;span>[&lt;span style="color:#204a87;font-weight:bold">Blocks&lt;/span>](&lt;span style="color:#c4a000">../user-documentation/blocks&lt;/span>)
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>
 &lt;a href="/docs/user-documentation/blocks/">Blocks&lt;/a>&lt;/p>
+&lt;h2 id="images">Images&lt;/h2>
+&lt;p>Image files should be placed in the &lt;code>/assets/img&lt;/code> directory at the root of the project, then they can be embedded with relative paths with Markdown:&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-markdown" data-lang="markdown">&lt;span style="display:flex;">&lt;span>![&lt;span style="color:#204a87;font-weight:bold">Alt text&lt;/span>](&lt;span style="color:#c4a000">../../../../assets/img/llama.png &amp;#34;This is a caption.&amp;#34;&lt;/span>)
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>
+&lt;figure class="image-caption">
+&lt;img alt="A very adorable llama." srcset="
+/img/llama_hu3de79a2561c6492a3180473eca7533d6_597460_fa5a47394bd75279542596ead36dabc1.png 458w,
+/img/llama_hu3de79a2561c6492a3180473eca7533d6_597460_e8af417743fd37dc66eae9aea4fa446c.png 726w,
+/img/llama_hu3de79a2561c6492a3180473eca7533d6_597460_1200x664_fit_catmullrom_3.png 1200w" sizes="50vw" src="/img/llama_hu3de79a2561c6492a3180473eca7533d6_597460_fa5a47394bd75279542596ead36dabc1.png" />
+&lt;figcaption>A very adorable llama&lt;/figcaption>
+&lt;/figure>
+&lt;/p>
+&lt;p>Image processing is brought to you by
+&lt;a href="https://gohugo.io/templates/render-hooks/" target="_blank">Hugo Markdown Render Hooks&lt;/a>, editable in &lt;code>layouts/_default/_markup&lt;/code>.&lt;/p>
 &lt;h2 id="video-embeds">Video Embeds&lt;/h2>
 &lt;p>Videos can be embedded using
 &lt;a href="https://gohugo.io/content-management/shortcodes/#youtube" target="_blank">Hugo&amp;rsquo;s youtube or vimeo shortcodes&lt;/a>. These take the form:&lt;/p>

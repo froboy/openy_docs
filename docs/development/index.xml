@@ -135,11 +135,13 @@ As an Open Y site developer, I want to be able import posts from company&amp;rsq
 &lt;li>Go to &amp;lsquo;View modes&amp;rsquo; page: Structure -&amp;gt; Display modes -&amp;gt; View modes (or visit the URL: &lt;code>/admin/structure/display-modes/view&lt;/code>
 &lt;img src="../../assets/view_mode_in_menu.png" alt="Configuration project add/update form" />&lt;/li>
 &lt;/ol>
-&lt;p>&lt;img src="../../assets/view_mode_types.png" alt="Configuration project add/update form" />&lt;/p>
+&lt;p>
+&lt;img src="../../assets/view_mode_types.png" alt="Configuration project add/update form" />&lt;/p>
 &lt;ol start="2">
 &lt;li>Create new view mode: click &amp;lsquo;Add view mode&amp;rsquo; button and select entity type (or visit the URL: &lt;code>/admin/structure/display-modes/view/add&lt;/code>&lt;/li>
 &lt;/ol>
-&lt;p>&lt;img src="../../assets/view_mode_firt_way_to_create.png" alt="Configuration project add/update form" />&lt;/p>
+&lt;p>
+&lt;img src="../../assets/view_mode_firt_way_to_create.png" alt="Configuration project add/update form" />&lt;/p>
 &lt;p>or after each entity type you can see &amp;lsquo;Add new {Name} view mode&amp;rsquo; and click on it
 &lt;img src="../../assets/view_mode_seond_way.png" alt="Configuration project add/update form" />&lt;/p>
 &lt;ol start="3">
@@ -151,7 +153,8 @@ As an Open Y site developer, I want to be able import posts from company&amp;rsq
 &lt;li>Go to Configuration -&amp;gt; Text editor embed buttons (or visit the URL: &lt;code>/admin/config/content/embed&lt;/code>
 &lt;img src="../../assets/view_mode_using.png" alt="Configuration project add/update form" />&lt;/li>
 &lt;/ol>
-&lt;p>&lt;img src="../../assets/view_mode_using_list.png" alt="Configuration project add/update form" />&lt;/p>
+&lt;p>
+&lt;img src="../../assets/view_mode_using_list.png" alt="Configuration project add/update form" />&lt;/p>
 &lt;ol start="2">
 &lt;li>Then make sure you enable the new view mode in &amp;ldquo;Allowed Entity Embed Display plugins&amp;rdquo;, and at the bottom of the page click &amp;ldquo;Save&amp;rdquo;.
 &lt;img src="../../assets/view_mode_enable.png" alt="Configuration project add/update form" />&lt;/li>
@@ -277,11 +280,13 @@ As an Open Y site developer, I want to be able import posts from company&amp;rsq
 &lt;/tr>
 &lt;/tbody>
 &lt;/table>
-&lt;p>&lt;img src="../../assets/Add_custom_font.png" alt="Add_custom_font|591x500" />&lt;/p>
+&lt;p>
+&lt;img src="../../assets/Add_custom_font.png" alt="Add_custom_font|591x500" />&lt;/p>
 &lt;ul>
 &lt;li>After you&amp;rsquo;ve added each font, &lt;strong>Enable&lt;/strong> them.&lt;/li>
 &lt;/ul>
-&lt;p>&lt;img src="../../assets/Custom_Font.png" alt="Custom_Font|690x156, 100%" />&lt;/p>
+&lt;p>
+&lt;img src="../../assets/Custom_Font.png" alt="Custom_Font|690x156, 100%" />&lt;/p>
 &lt;ul>
 &lt;li>Your site should now use the Cachet font in headers and other areas. Usage is dependent on the Open Y theme you choose.&lt;/li>
 &lt;/ul>
@@ -888,10 +893,12 @@ Installer path will look like this:&lt;/p>
 &lt;/ol>
 &lt;h2 id="video-tutorial">Video tutorial&lt;/h2>
 &lt;p>
-&lt;a href="https://youtu.be/RCvsLANsbm8" target="_blank">&lt;img src="https://img.youtube.com/vi/RCvsLANsbm8/0.jpg" alt="Open Y v1.0b - Install Tutorial" />&lt;/a>&lt;/p>
+&lt;a href="https://youtu.be/RCvsLANsbm8" target="_blank">
+&lt;img src="https://img.youtube.com/vi/RCvsLANsbm8/0.jpg" alt="Open Y v1.0b - Install Tutorial" />&lt;/a>&lt;/p>
 &lt;h2 id="end-to-end-installation">End to end installation&lt;/h2>
 &lt;p>
-&lt;a href="https://youtu.be/RT6kC38zgvo" target="_blank">&lt;img src="https://img.youtube.com/vi/RT6kC38zgvo/0.jpg" alt="Open Y install - in 16 minutes end to end, no tutorial" />&lt;/a>&lt;/p></description></item><item><title>Docs: Tests</title><link>/docs/development/tests/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/development/tests/</guid><description>
+&lt;a href="https://youtu.be/RT6kC38zgvo" target="_blank">
+&lt;img src="https://img.youtube.com/vi/RT6kC38zgvo/0.jpg" alt="Open Y install - in 16 minutes end to end, no tutorial" />&lt;/a>&lt;/p></description></item><item><title>Docs: Tests</title><link>/docs/development/tests/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/development/tests/</guid><description>
 &lt;p>These instructions explain how you can run tests.&lt;/p>
 &lt;h2 id="behat">Behat&lt;/h2>
 &lt;h3 id="requirements">Requirements&lt;/h3>
@@ -944,7 +951,8 @@ Installer path will look like this:&lt;/p>
 &lt;/ol>
 &lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-fallback" data-lang="fallback">&lt;span style="display:flex;">&lt;span>$ bin/behat
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>
-&lt;a href="https://youtu.be/RSsQLVVhldc" target="_blank">&lt;img src="https://img.youtube.com/vi/RSsQLVVhldc/0.jpg" alt="Debugging JavaScript Behat tests" />&lt;/a>&lt;/p>
+&lt;a href="https://youtu.be/RSsQLVVhldc" target="_blank">
+&lt;img src="https://img.youtube.com/vi/RSsQLVVhldc/0.jpg" alt="Debugging JavaScript Behat tests" />&lt;/a>&lt;/p>
 &lt;h3 id="custom-behat-functionality">Custom Behat functionality&lt;/h3>
 &lt;ul>
 &lt;li>Create entities in table forms, with key to use in reference and reference entities by key.

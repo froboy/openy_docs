@@ -4,11 +4,14 @@
 &lt;/blockquote>
 &lt;h2 id="examples">Examples&lt;/h2>
 &lt;h3 id="rose---without-block">Rose - Without Block&lt;/h3>
-&lt;p>&lt;img src="upload://19gwcxdsp4g4PHXFDDGHeW1rZVy.png" alt="rose&amp;amp;ndash;landing-page_1-column-no-block|690x171, 75%" />&lt;/p>
+&lt;p>
+&lt;img src="upload://19gwcxdsp4g4PHXFDDGHeW1rZVy.png" alt="rose&amp;amp;ndash;landing-page_1-column-no-block|690x171, 75%" />&lt;/p>
 &lt;h3 id="rose---with-block">Rose - With Block&lt;/h3>
-&lt;p>&lt;img src="upload://2FCFow9jwiwvHOyG9k2XkerjNJ9.png" alt="rose&amp;amp;ndash;landing-page__1-column-with-block|690x186" />&lt;/p>
+&lt;p>
+&lt;img src="upload://2FCFow9jwiwvHOyG9k2XkerjNJ9.png" alt="rose&amp;amp;ndash;landing-page__1-column-with-block|690x186" />&lt;/p>
 &lt;h3 id="carnation---with-custom-block">Carnation - With Custom Block&lt;/h3>
-&lt;p>&lt;img src="upload://jOGLkK7ItZy0i5pzFmUPBuMfkh3.png" alt="carnation&amp;amp;ndash;landing-page_1-column-with-block|690x186" />&lt;/p>
+&lt;p>
+&lt;img src="upload://jOGLkK7ItZy0i5pzFmUPBuMfkh3.png" alt="carnation&amp;amp;ndash;landing-page_1-column-with-block|690x186" />&lt;/p>
 &lt;hr>
 &lt;h2 id="areas-1-column-should-be-used">Areas 1 Column Should Be Used&lt;/h2>
 &lt;ul>
@@ -18,7 +21,8 @@
 &lt;/ul>
 &lt;hr>
 &lt;h2 id="how-to-use-1-column">How to Use 1 Column&lt;/h2>
-&lt;p>&lt;img src="upload://j3rf2kiL9RTWYhAjFl8gyBIypQt.gif" alt="landing-page__1-column-demo|690x431, 75%" />&lt;/p>
+&lt;p>
+&lt;img src="upload://j3rf2kiL9RTWYhAjFl8gyBIypQt.gif" alt="landing-page__1-column-demo|690x431, 75%" />&lt;/p>
 &lt;p>After selecting “1 Column” from the paragraphs dropdown, you will notice paragraph title field, a checkbox, and a required description.&lt;/p>
 &lt;ul>
 &lt;li>&lt;strong>Paragraph title&lt;/strong> adds an all-caps heading at the top of your paragraph. This is optional.&lt;/li>
@@ -30,7 +34,8 @@
 &lt;a href="https://community.openymca.org/t/introduction-text-editor-open-y-user-docs/643" target="_blank">https://community.openymca.org/t/introduction-text-editor-open-y-user-docs/643&lt;/a>&lt;/p>
 &lt;h3 id="custom-block-feature">Custom Block Feature&lt;/h3>
 &lt;p>While the paragraph be used only with the fields above, 1 column also supports custom blocks of content. For this paragraph type, it’s recommended that users stick with “Simple block” types.&lt;/p>
-&lt;p>&lt;img src="upload://8ztiCyU8UuDvYi6E3SjEthQEFQ.gif" alt="landing-page__1-column-demo-block|690x474, 75%" />&lt;/p>
+&lt;p>
+&lt;img src="upload://8ztiCyU8UuDvYi6E3SjEthQEFQ.gif" alt="landing-page__1-column-demo-block|690x474, 75%" />&lt;/p>
 &lt;p>When adding your custom block, use the font-awesome icon class instead of the custom icon image field. In Carnation, the image option tends to get too large.&lt;/p>
 &lt;p>
 &lt;a href="https://community.openymca.org/t/blocks-website-structure-open-y-user-docs/733" target="_blank">Learn more about custom blocks ⇒&lt;/a>&lt;/p>
@@ -70,11 +75,14 @@ color: inherit;
 &lt;/blockquote>
 &lt;h2 id="examples">Examples&lt;/h2>
 &lt;h3 id="carnation">Carnation&lt;/h3>
-&lt;p>&lt;img src="upload://dkzxUqrsfBxqvPnivluX5HzHuhA.png" alt="carnation&amp;amp;ndash;landing-page__2-columns|690x268, 75%" />&lt;/p>
+&lt;p>
+&lt;img src="upload://dkzxUqrsfBxqvPnivluX5HzHuhA.png" alt="carnation&amp;amp;ndash;landing-page__2-columns|690x268, 75%" />&lt;/p>
 &lt;h3 id="lily">Lily&lt;/h3>
-&lt;p>&lt;img src="upload://wqxqkbzAzZ1JtBrs4RZGcU7nPX2.png" alt="lily&amp;amp;ndash;landing-page__2-columns|690x208, 75%" />&lt;/p>
+&lt;p>
+&lt;img src="upload://wqxqkbzAzZ1JtBrs4RZGcU7nPX2.png" alt="lily&amp;amp;ndash;landing-page__2-columns|690x208, 75%" />&lt;/p>
 &lt;h3 id="rose">Rose&lt;/h3>
-&lt;p>&lt;img src="upload://nRt57PAn1C33zFd8BXarNcSLrT6.png" alt="rose&amp;amp;ndash;landing-page__2-columns|690x268, 75%" />&lt;/p>
+&lt;p>
+&lt;img src="upload://nRt57PAn1C33zFd8BXarNcSLrT6.png" alt="rose&amp;amp;ndash;landing-page__2-columns|690x268, 75%" />&lt;/p>
 &lt;hr>
 &lt;h2 id="areas-it-can-be-used">Areas it Can Be Used:&lt;/h2>
 &lt;ul>
@@ -97,10 +105,12 @@ color: inherit;
 &lt;/blockquote>
 &lt;hr>
 &lt;p>There is an optional checkbox to display a horizontal rule above the two columns.&lt;/p>
-&lt;p>&lt;img src="upload://rsZNPIOPtpILPC1XRQEGBb2FFTV.png" alt="landing-page__2-columns-line-above|616x186, 50%" />&lt;/p>
+&lt;p>
+&lt;img src="upload://rsZNPIOPtpILPC1XRQEGBb2FFTV.png" alt="landing-page__2-columns-line-above|616x186, 50%" />&lt;/p>
 &lt;hr>
 &lt;p>If you want to add multiple rows of content with 2 columns, add a new 2 columns paragraph for each set of two you want (e.g., if you have five blocks of content, add three 2 columns paragraphs).&lt;/p>
-&lt;p>&lt;img src="upload://gJ2vO2DWTfWm7zi11C9csfMZZK1.gif" alt="landing-page__2-columns-multi-row|320x189" />&lt;/p>
+&lt;p>
+&lt;img src="upload://gJ2vO2DWTfWm7zi11C9csfMZZK1.gif" alt="landing-page__2-columns-multi-row|320x189" />&lt;/p>
 &lt;hr>
 &lt;h2 id="content-types-that-support-this-paragraph">Content Types That Support this Paragraph&lt;/h2>
 &lt;ul>
@@ -126,11 +136,14 @@ color: inherit;
 &lt;/blockquote>
 &lt;h2 id="examples">Examples&lt;/h2>
 &lt;h3 id="carnation">Carnation&lt;/h3>
-&lt;p>&lt;img src="upload://np6mLmb2jkFwsL3ow2XXYZdQU6g.png" alt="carnation&amp;amp;ndash;landing-page__3-columns|690x402, 75%" />&lt;/p>
+&lt;p>
+&lt;img src="upload://np6mLmb2jkFwsL3ow2XXYZdQU6g.png" alt="carnation&amp;amp;ndash;landing-page__3-columns|690x402, 75%" />&lt;/p>
 &lt;h3 id="lily">Lily&lt;/h3>
-&lt;p>&lt;img src="upload://w3bMgpC2xgUyaHHrWstb1mSMHlX.png" alt="lily&amp;amp;ndash;landing-page__3-columns|690x402, 75%" />&lt;/p>
+&lt;p>
+&lt;img src="upload://w3bMgpC2xgUyaHHrWstb1mSMHlX.png" alt="lily&amp;amp;ndash;landing-page__3-columns|690x402, 75%" />&lt;/p>
 &lt;h3 id="rose">Rose&lt;/h3>
-&lt;h2 id="rose--landing-page__3-columns690x402-75uploaddkhsffvh4lp43jqtgi0tgoobyawpng">&lt;img src="upload://dkhSffVh4lP43JQTGi0TGoObYAW.png" alt="rose&amp;amp;ndash;landing-page__3-columns|690x402, 75%" />&lt;/h2>
+&lt;h2 id="rose--landing-page__3-columns690x402-75uploaddkhsffvh4lp43jqtgi0tgoobyawpng">
+&lt;img src="upload://dkhSffVh4lP43JQTGi0TGoObYAW.png" alt="rose&amp;amp;ndash;landing-page__3-columns|690x402, 75%" />&lt;/h2>
 &lt;h2 id="areas-it-can-be-used">Areas it Can Be Used:&lt;/h2>
 &lt;ul>
 &lt;li>Content Area&lt;/li>
@@ -138,7 +151,8 @@ color: inherit;
 &lt;/ul>
 &lt;hr>
 &lt;h2 id="how-it-works">How it Works&lt;/h2>
-&lt;p>&lt;img src="upload://9af9E5y5FrDdJ97QTY97bFQKSNy.png" alt="landing-page__3-columns-dropdown|644x500, 50%" />&lt;/p>
+&lt;p>
+&lt;img src="upload://9af9E5y5FrDdJ97QTY97bFQKSNy.png" alt="landing-page__3-columns-dropdown|644x500, 50%" />&lt;/p>
 &lt;ul>
 &lt;li>Select 3 Columns from the Paragraphs dropdown.&lt;/li>
 &lt;li>&lt;strong>Title&lt;/strong>: Optional large, all caps title at the top.&lt;/li>
@@ -146,7 +160,8 @@ color: inherit;
 &lt;/ul>
 &lt;p>
 &lt;a href="https://community.openymca.org/t/blocks-website-structure-open-y-user-docs/733" target="_blank">Learn more about custom blocks ⇒&lt;/a>&lt;/p>
-&lt;p>&lt;img src="upload://qM1IaFTQvMqc1MD11pO4ZhJQT3q.png" alt="landing-page__3-columns-options|544x500, 75%" />&lt;/p>
+&lt;p>
+&lt;img src="upload://qM1IaFTQvMqc1MD11pO4ZhJQT3q.png" alt="landing-page__3-columns-options|544x500, 75%" />&lt;/p>
 &lt;p>If you want to add multiple rows of content with 3 columns, add a new 3 columns paragraph for each set of two you want (e.g., if you have seven blocks of content, add three 3 columns paragraphs).&lt;/p>
 &lt;hr>
 &lt;h2 id="content-types-that-support-this-paragraph">Content Types That Support this Paragraph&lt;/h2>
@@ -179,9 +194,11 @@ color: inherit;
 &lt;a href="https://community.openymca.org/t/featured-content-paragraphs-open-y-user-docs/713" target="_blank">Featured Content&lt;/a> paragraphs to achieve a similar layout.&lt;/p>
 &lt;/blockquote>
 &lt;h3 id="lily">Lily&lt;/h3>
-&lt;p>&lt;img src="upload://qDbiXOcJTlITS35qmjkpcL468jV.png" alt="lily&amp;amp;ndash;landing-page__4-columns|690x346, 75%" />&lt;/p>
+&lt;p>
+&lt;img src="upload://qDbiXOcJTlITS35qmjkpcL468jV.png" alt="lily&amp;amp;ndash;landing-page__4-columns|690x346, 75%" />&lt;/p>
 &lt;h3 id="rose">Rose&lt;/h3>
-&lt;p>&lt;img src="upload://5a76MKBOZX0ESRqTTaPnXhTADve.png" alt="rose&amp;amp;ndash;landing-page__4-columns|690x216, 75%" />&lt;/p>
+&lt;p>
+&lt;img src="upload://5a76MKBOZX0ESRqTTaPnXhTADve.png" alt="rose&amp;amp;ndash;landing-page__4-columns|690x216, 75%" />&lt;/p>
 &lt;hr>
 &lt;h2 id="areas-it-can-be-used">Areas it Can Be Used:&lt;/h2>
 &lt;ul>
@@ -195,13 +212,15 @@ color: inherit;
 &lt;li>&lt;strong>Title&lt;/strong>: Optional large, all-caps title at the top&lt;/li>
 &lt;li>&lt;strong>Line Above&lt;/strong>: Adds a horizontal rule above each column.&lt;/li>
 &lt;/ul>
-&lt;p>&lt;img src="upload://nvaYHUXy4C2JTaLL9d0hxlGVdJv.png" alt="landing-page__line-above|615x120, 50%" />&lt;/p>
+&lt;p>
+&lt;img src="upload://nvaYHUXy4C2JTaLL9d0hxlGVdJv.png" alt="landing-page__line-above|615x120, 50%" />&lt;/p>
 &lt;ul>
 &lt;li>&lt;strong>Description&lt;/strong>: A subheader/section description embedded below the title and above your titles.
 &lt;a href="https://community.openymca.org/c/Resources-and-training-for-content-editors/Learn-how-to-use-the-basic-text-editing-functions-available-to-content-editors" target="_blank">Uses the text editor&lt;/a> for styling.&lt;/li>
 &lt;li>Add custom blocks to the First Column, Second Column, Third Column, Fourth Column.&lt;/li>
 &lt;/ul>
-&lt;p>&lt;img src="upload://5w09U86JkdvGcMYRLRLyMD6lwKw.png" alt="Screen Shot 2020-03-26 at 2.43.58 PM|580x500, 75%" />&lt;/p>
+&lt;p>
+&lt;img src="upload://5w09U86JkdvGcMYRLRLyMD6lwKw.png" alt="Screen Shot 2020-03-26 at 2.43.58 PM|580x500, 75%" />&lt;/p>
 &lt;p>
 &lt;a href="https://community.openymca.org/t/blocks-website-structure-open-y-user-docs/733" target="_blank">Learn more about custom blocks ⇒&lt;/a>&lt;/p>
 &lt;blockquote>
@@ -217,7 +236,8 @@ Out of the box, the &lt;em>Title field&lt;/em> in each &lt;em>custom block&lt;/e
 &lt;p>In all three themes currently in Open Y, the Title field displays in a font-size and color nearly identical to the body copy. To override, target &lt;code>.field-sb-title&lt;/code>.&lt;/p>
 &lt;h3 id="carnation---columns-stack-in-desktop">Carnation -&amp;gt; Columns stack in desktop&lt;/h3>
 &lt;p>In order for this to work in Carnation, the &lt;code>.wrapper&lt;/code> containing the column elements needs to be changed to &lt;code>.row&lt;/code>; otherwise, each of the four columns expands to the full width of the Area it’s embedded in.&lt;/p>
-&lt;p>&lt;img src="upload://e5PN69yzVeeS8Svoco5QFXb7Qhy.png" alt="carnation&amp;amp;ndash;landing-page__4-columns|690x346, 75%" />&lt;/p>
+&lt;p>
+&lt;img src="upload://e5PN69yzVeeS8Svoco5QFXb7Qhy.png" alt="carnation&amp;amp;ndash;landing-page__4-columns|690x346, 75%" />&lt;/p>
 &lt;h2 id="content-types-that-support-this-paragraph">Content Types That Support this Paragraph&lt;/h2>
 &lt;ul>
 &lt;li>
@@ -285,10 +305,12 @@ Out of the box, the &lt;em>Title field&lt;/em> in each &lt;em>custom block&lt;/e
 &lt;blockquote>
 &lt;p>Banners add large, full width images to the top of your page, along with a title, optional description and optional link.&lt;/p>
 &lt;/blockquote>
-&lt;p>&lt;img src="upload://dXgFCQyM5QmNRf3C8Hlg66Btbxc.jpeg" alt="Landing page in Carnation on desktop" />&lt;/p>
+&lt;p>
+&lt;img src="upload://dXgFCQyM5QmNRf3C8Hlg66Btbxc.jpeg" alt="Landing page in Carnation on desktop" />&lt;/p>
 &lt;h3 id="how-to-use-a-banner">How to Use a Banner:&lt;/h3>
 &lt;p>In the Header Area of your content, select “Add Banner” from the dropdown. Then, fill out the following fields:&lt;/p>
-&lt;p>&lt;img src="upload://xUbANfl6Ye5jocluuwBTiQyW5R8.gif" alt="landing-page__banner-fields|690x431" />&lt;/p>
+&lt;p>
+&lt;img src="upload://xUbANfl6Ye5jocluuwBTiQyW5R8.gif" alt="landing-page__banner-fields|690x431" />&lt;/p>
 &lt;ul>
 &lt;li>
 &lt;p>&lt;strong>Title (required):&lt;/strong> This field adds a headline to your banner. The placement of the title will depend on your theme and customization, but it will typically appear as large, all-caps text.&lt;/p>
@@ -304,7 +326,8 @@ Out of the box, the &lt;em>Title field&lt;/em> in each &lt;em>custom block&lt;/e
 &lt;/li>
 &lt;li>
 &lt;p>&lt;strong>Image:&lt;/strong>&lt;/p>
-&lt;p>&lt;img src="upload://3sSzX2tN1MLavjpM1pDSK3gsFEC.gif" alt="landing-page__banner-image-select|480x94" />&lt;/p>
+&lt;p>
+&lt;img src="upload://3sSzX2tN1MLavjpM1pDSK3gsFEC.gif" alt="landing-page__banner-image-select|480x94" />&lt;/p>
 &lt;p>Use the image library to embed an image. You can upload a new image from your computer or reuse an existing image from your library. The image field is optional, but recommended.&lt;/p>
 &lt;p>For recommended image sizes for your Open Y site, talk to your agency partner.&lt;/p>
 &lt;p>&lt;strong>How to add/edit images &amp;gt;&lt;/strong>&lt;/p>
@@ -335,11 +358,14 @@ Out of the box, the &lt;em>Title field&lt;/em> in each &lt;em>custom block&lt;/e
 &lt;/blockquote>
 &lt;h2 id="examples">Examples&lt;/h2>
 &lt;h3 id="carnation">Carnation&lt;/h3>
-&lt;p>&lt;img src="upload://1itw6gKGtnEw3GBx0HOTpMIPJjP.jpeg" alt="carnation&amp;amp;ndash;landing-page__blog-listing|690x403, 75%" />&lt;/p>
+&lt;p>
+&lt;img src="upload://1itw6gKGtnEw3GBx0HOTpMIPJjP.jpeg" alt="carnation&amp;amp;ndash;landing-page__blog-listing|690x403, 75%" />&lt;/p>
 &lt;h3 id="lily">Lily&lt;/h3>
-&lt;p>&lt;img src="upload://cSNmLCLfccdudScYx3rSIcXyNXI.jpeg" alt="lily-landing-page__blog-listing|690x456, 75%" />&lt;/p>
+&lt;p>
+&lt;img src="upload://cSNmLCLfccdudScYx3rSIcXyNXI.jpeg" alt="lily-landing-page__blog-listing|690x456, 75%" />&lt;/p>
 &lt;h3 id="rose">Rose&lt;/h3>
-&lt;p>&lt;img src="upload://9XsjHUvqHi9hIuWp5ZcVRh6ZAtV.jpeg" alt="rose&amp;amp;ndash;landing-page__blog-listing|690x403, 75%" />&lt;/p>
+&lt;p>
+&lt;img src="upload://9XsjHUvqHi9hIuWp5ZcVRh6ZAtV.jpeg" alt="rose&amp;amp;ndash;landing-page__blog-listing|690x403, 75%" />&lt;/p>
 &lt;h2 id="areas-it-should-be-used">Areas it Should Be Used&lt;/h2>
 &lt;ul>
 &lt;li>Content Area&lt;/li>
@@ -347,7 +373,8 @@ Out of the box, the &lt;em>Title field&lt;/em> in each &lt;em>custom block&lt;/e
 &lt;/ul>
 &lt;h2 id="how-to-use-blog-posts">How to Use Blog Posts&lt;/h2>
 &lt;p>From the paragraphs dropdown, add &lt;em>Blog Posts Listing&lt;/em>. Enter a header title for the section in the text field and hit &lt;em>Save&lt;/em>.&lt;/p>
-&lt;p>&lt;img src="upload://tXW9m7SRrSXpseb2rIzuybXKOju.png" alt="landing-page__blog-posts-listing-admin|690x193, 75%" />&lt;/p>
+&lt;p>
+&lt;img src="upload://tXW9m7SRrSXpseb2rIzuybXKOju.png" alt="landing-page__blog-posts-listing-admin|690x193, 75%" />&lt;/p>
 &lt;h2 id="advanced">Advanced&lt;/h2>
 &lt;p>Advanced users can make changes to the exposed fields using the Views module and the paragraphs settings.&lt;/p>
 &lt;p>
@@ -375,11 +402,14 @@ Out of the box, the &lt;em>Title field&lt;/em> in each &lt;em>custom block&lt;/e
 &lt;/blockquote>
 &lt;h2 id="examples">Examples&lt;/h2>
 &lt;h3 id="carnation">Carnation&lt;/h3>
-&lt;p>&lt;img src="upload://yEu9UFLnGp7gH7aUeWphadUFzvC.jpeg" alt="carnation&amp;amp;ndash;camp__camp&amp;amp;ndash;menu|690x180, 75%" />&lt;/p>
+&lt;p>
+&lt;img src="upload://yEu9UFLnGp7gH7aUeWphadUFzvC.jpeg" alt="carnation&amp;amp;ndash;camp__camp&amp;amp;ndash;menu|690x180, 75%" />&lt;/p>
 &lt;h3 id="lily">Lily&lt;/h3>
-&lt;p>&lt;img src="upload://8on2aI5cwXvu3scx8lkYVV8J5VM.jpeg" alt="lily&amp;amp;ndash;camp__camp-menu|690x242, 75%" />&lt;/p>
+&lt;p>
+&lt;img src="upload://8on2aI5cwXvu3scx8lkYVV8J5VM.jpeg" alt="lily&amp;amp;ndash;camp__camp-menu|690x242, 75%" />&lt;/p>
 &lt;h3 id="rose">Rose&lt;/h3>
-&lt;p>&lt;img src="upload://P1Snx7VCshybWHdZnlohJqRCbo.jpeg" alt="rose&amp;amp;ndash;camp__camp-menu|690x242, 75%" />&lt;/p>
+&lt;p>
+&lt;img src="upload://P1Snx7VCshybWHdZnlohJqRCbo.jpeg" alt="rose&amp;amp;ndash;camp__camp-menu|690x242, 75%" />&lt;/p>
 &lt;hr>
 &lt;h2 id="areas-it-can-be-used">Areas It Can Be Used:&lt;/h2>
 &lt;ul>
@@ -388,11 +418,13 @@ Out of the box, the &lt;em>Title field&lt;/em> in each &lt;em>custom block&lt;/e
 &lt;hr>
 &lt;h2 id="how-it-should-be-used">How It Should Be Used&lt;/h2>
 &lt;p>Before adding the paragraph, add the links you want on your menu by adding them on your Camp Page at General Info &amp;gt; Menu Links.&lt;/p>
-&lt;p>&lt;img src="upload://5mbjiHKdjq05hhVSvVIpFPVYbxu.png" alt="camp__camp-menu&amp;amp;ndash;menu-links|450x500, 75%" />&lt;/p>
+&lt;p>
+&lt;img src="upload://5mbjiHKdjq05hhVSvVIpFPVYbxu.png" alt="camp__camp-menu&amp;amp;ndash;menu-links|450x500, 75%" />&lt;/p>
 &lt;p>
 &lt;a href="https://community.openymca.org/t/content-editing-basics-open-y-user-docs/732" target="_blank">Learn More About Link Fields ⇒&lt;/a>&lt;/p>
 &lt;p>To add additional links to your menu, click on the Add Another Item button.&lt;/p>
-&lt;p>&lt;img src="upload://rJL5XswzqmWEFTEGhkkyr9MOk9N.gif" alt="camp__camp-menu&amp;amp;ndash;add-links|690x194" />&lt;/p>
+&lt;p>
+&lt;img src="upload://rJL5XswzqmWEFTEGhkkyr9MOk9N.gif" alt="camp__camp-menu&amp;amp;ndash;add-links|690x194" />&lt;/p>
 &lt;p>Once you’re done adding your menu links, scroll down to the Header Area and add “Camp Menu.” Click save.&lt;/p>
 &lt;blockquote>
 &lt;p>&lt;em>Note - While it is technically possible to position the camp menu above your banner image, it is not recommended. The camp menu busts in desktop on Carnation, and in all themes it can be hard to distinguish the camp menu from your main navigation.&lt;/em>&lt;/p>
@@ -401,7 +433,8 @@ Out of the box, the &lt;em>Title field&lt;/em> in each &lt;em>custom block&lt;/e
 &lt;h3 id="mobile-considerations-for-camp-menu">Mobile Considerations for Camp Menu&lt;/h3>
 &lt;p>When a user views your camp menu in mobile, the menu doesn&amp;rsquo;t collapse; it merely shrinks. Menu items either disappear or wrap onto a new line if they do not fit the space.&lt;/p>
 &lt;p>It&amp;rsquo;s recommended you limit your menu items to no more than 3 or 4 unless you opt to customize.&lt;/p>
-&lt;p>&lt;img src="upload://hDr88t6d3ea0K3XoELLcOEkh2OK.jpeg" alt="carnation&amp;amp;ndash;camp__camp-menu&amp;amp;ndash;mobile|322x500, 75%" />&lt;/p>
+&lt;p>
+&lt;img src="upload://hDr88t6d3ea0K3XoELLcOEkh2OK.jpeg" alt="carnation&amp;amp;ndash;camp__camp-menu&amp;amp;ndash;mobile|322x500, 75%" />&lt;/p>
 &lt;hr>
 &lt;h2 id="content-types-that-support-this-paragraph">Content Types That Support this Paragraph&lt;/h2>
 &lt;ul>
@@ -414,13 +447,17 @@ Out of the box, the &lt;em>Title field&lt;/em> in each &lt;em>custom block&lt;/e
 &lt;h2 id="examples">Examples&lt;/h2>
 &lt;h3 id="carnation">Carnation&lt;/h3>
 &lt;h4 id="desktop">Desktop&lt;/h4>
-&lt;p>&lt;img src="upload://xrlcIOa55e8fW3E1raw5hgOShZC.jpeg" alt="carnation&amp;amp;ndash;program__categories-listing|690x482, 75%" />&lt;/p>
+&lt;p>
+&lt;img src="upload://xrlcIOa55e8fW3E1raw5hgOShZC.jpeg" alt="carnation&amp;amp;ndash;program__categories-listing|690x482, 75%" />&lt;/p>
 &lt;h4 id="mobile">Mobile&lt;/h4>
-&lt;p>&lt;img src="upload://io6AMAadCvHRaj49uJNdmKth9J5.jpeg" alt="carnation&amp;amp;ndash;program__categories-listing&amp;amp;ndash;mobile|430x500, 75%" />&lt;/p>
+&lt;p>
+&lt;img src="upload://io6AMAadCvHRaj49uJNdmKth9J5.jpeg" alt="carnation&amp;amp;ndash;program__categories-listing&amp;amp;ndash;mobile|430x500, 75%" />&lt;/p>
 &lt;h3 id="lily">Lily&lt;/h3>
-&lt;p>&lt;img src="upload://8Io8pXHVcadphB2D0Rd3ukiWMAq.jpeg" alt="lily&amp;amp;ndash;program__categories-listing|690x482, 75%" />&lt;/p>
+&lt;p>
+&lt;img src="upload://8Io8pXHVcadphB2D0Rd3ukiWMAq.jpeg" alt="lily&amp;amp;ndash;program__categories-listing|690x482, 75%" />&lt;/p>
 &lt;h3 id="rose">Rose&lt;/h3>
-&lt;p>&lt;img src="upload://2XvcBc6D2SLP6N445IYQujdRElf.jpeg" alt="rose&amp;amp;ndash;program__categories-listing|690x475, 75%" />&lt;/p>
+&lt;p>
+&lt;img src="upload://2XvcBc6D2SLP6N445IYQujdRElf.jpeg" alt="rose&amp;amp;ndash;program__categories-listing|690x475, 75%" />&lt;/p>
 &lt;hr>
 &lt;h2 id="areas-it-should-be-used">Areas It Should Be Used&lt;/h2>
 &lt;ul>
@@ -433,7 +470,8 @@ Out of the box, the &lt;em>Title field&lt;/em> in each &lt;em>custom block&lt;/e
 &lt;a href="https://community.openymca.org/t/program-content-types-open-y-user-docs/691" target="_blank">On a Programs page&lt;/a>, go to the content area and click to open it.&lt;/li>
 &lt;li>Select Categories listing.&lt;/li>
 &lt;/ul>
-&lt;p>&lt;img src="upload://fgGiiosW91RDrSYvP8zwfDlsP0P.png" alt="admin-program__programs-listing|690x170, 75%" />&lt;/p>
+&lt;p>
+&lt;img src="upload://fgGiiosW91RDrSYvP8zwfDlsP0P.png" alt="admin-program__programs-listing|690x170, 75%" />&lt;/p>
 &lt;blockquote>
 &lt;p>This paragraph can only used on programs pages that have
 &lt;a href="https://community.openymca.org/t/program-subcategory-content-types-open-y-user-docs/692" target="_blank">subcategories tied to them&lt;/a>. If a program has no subcategories tied to it or if it’s used on another content type, it will not work.&lt;/p>
@@ -454,9 +492,11 @@ Unformatted, unrestricted text that supports any HTML tag and can be embedded an
 &lt;/div>
 &lt;h2 id="examples">Examples&lt;/h2>
 &lt;h3 id="ymca-of-central-kentucky--daxko-schedules-iframe">YMCA of Central Kentucky / Daxko Schedules iframe&lt;/h3>
-&lt;p>&lt;img src="upload://xWdxyZdejraNn7ve3qOLYxRGEbc.png" alt="y-example&amp;amp;ndash;code__daxko-iframe|690x362, 75%" />&lt;/p>
+&lt;p>
+&lt;img src="upload://xWdxyZdejraNn7ve3qOLYxRGEbc.png" alt="y-example&amp;amp;ndash;code__daxko-iframe|690x362, 75%" />&lt;/p>
 &lt;h3 id="ymca-of-middle-tennessee--groupex-pro-script">YMCA of Middle Tennessee / GroupEx Pro Script&lt;/h3>
-&lt;p>&lt;img src="upload://3QLx1QiF1ggw1xkbfc6djWPLUQM.png" alt="y-example&amp;amp;ndash;code__gxp-iframe|690x327, 75%" />&lt;/p>
+&lt;p>
+&lt;img src="upload://3QLx1QiF1ggw1xkbfc6djWPLUQM.png" alt="y-example&amp;amp;ndash;code__gxp-iframe|690x327, 75%" />&lt;/p>
 &lt;h2 id="areas-it-should-be-used">Areas it Should Be Used&lt;/h2>
 &lt;ul>
 &lt;li>Content Area&lt;/li>
@@ -467,7 +507,8 @@ Unformatted, unrestricted text that supports any HTML tag and can be embedded an
 &lt;ul>
 &lt;li>
 &lt;p>Select “Add Code” from the paragraphs dropdown.&lt;/p>
-&lt;p>&lt;img src="upload://2v8ZmDflbxvdTdQfQkJCmbQrtFK.png" alt="admin&amp;amp;ndash;code__paragraph-dropdown|690x309, 50%" />&lt;/p>
+&lt;p>
+&lt;img src="upload://2v8ZmDflbxvdTdQfQkJCmbQrtFK.png" alt="admin&amp;amp;ndash;code__paragraph-dropdown|690x309, 50%" />&lt;/p>
 &lt;/li>
 &lt;li>
 &lt;p>You will see two buttons - one to add a custom block, the other to search for a custom block.&lt;/p>
@@ -484,7 +525,8 @@ Unformatted, unrestricted text that supports any HTML tag and can be embedded an
 &lt;ul>
 &lt;li>When you add your block, you will see a blank, unformatted text field. Type your HTML text into this field.&lt;/li>
 &lt;/ul>
-&lt;p>&lt;img src="upload://5KrrpvVIFZVDrt4zrsoASTkTenJ.png" alt="admin&amp;amp;ndash;code__block|690x422, 75%" />&lt;/p>
+&lt;p>
+&lt;img src="upload://5KrrpvVIFZVDrt4zrsoASTkTenJ.png" alt="admin&amp;amp;ndash;code__block|690x422, 75%" />&lt;/p>
 &lt;blockquote>
 &lt;p>&lt;em>&lt;strong>To use code, you must add HTML tags.&lt;/strong>&lt;/em>&lt;/p>
 &lt;p>&lt;em>Hard returns will be ignored, and text will be printed out in one long string.&lt;/em>&lt;/p>
@@ -532,18 +574,22 @@ Unformatted, unrestricted text that supports any HTML tag and can be embedded an
 &lt;p>Pick &lt;em>Add Date Block&lt;/em> from the list of paragraphs in the dropdown. You will see two options: add a new custom block or add an existing custom block.&lt;/p>
 &lt;h3 id="add-new-custom-block">Add New Custom Block&lt;/h3>
 &lt;p>If you’re using Date Block for the first time or creating a new date block, choose the Add New Custom Block option.&lt;/p>
-&lt;p>&lt;img src="upload://tBeVUUv2GJEK4QRlVYkj9iKEBk3.gif" alt="admin__date-block&amp;amp;ndash;new-block|690x440, 75%" />&lt;/p>
+&lt;p>
+&lt;img src="upload://tBeVUUv2GJEK4QRlVYkj9iKEBk3.gif" alt="admin__date-block&amp;amp;ndash;new-block|690x440, 75%" />&lt;/p>
 &lt;p>Enter a label for your date block in the block description field. If and when you’d like to reuse this section on multiple pages, this is what you’ll use to search for it.&lt;/p>
 &lt;p>Below the block description field, you will enter a start date and an end date for your block. This schedules content in your date block to publish and unpublish, just like with a content type.&lt;/p>
-&lt;p>&lt;img src="upload://8HU9BWAa5HBjmFzFMw6PhgpowJ8.png" alt="admin__date-block&amp;amp;ndash;start-end-dates|690x354, 50%" />&lt;/p>
+&lt;p>
+&lt;img src="upload://8HU9BWAa5HBjmFzFMw6PhgpowJ8.png" alt="admin__date-block&amp;amp;ndash;start-end-dates|690x354, 50%" />&lt;/p>
 &lt;p>Below this you can add in paragraphs to display &lt;em>Before, During and After&lt;/em> your scheduled dates. Add paragraphs into these fields as you normally would.&lt;/p>
-&lt;p>&lt;img src="upload://nCswYWp8tNZg25wC3jYW50HdZ7i.png" alt="admin__date-block&amp;amp;ndash;paragraph-fields|690x354, 50%" />&lt;/p>
+&lt;p>
+&lt;img src="upload://nCswYWp8tNZg25wC3jYW50HdZ7i.png" alt="admin__date-block&amp;amp;ndash;paragraph-fields|690x354, 50%" />&lt;/p>
 &lt;p>If you don&amp;rsquo;t want content to display before, during or after your time period, leave it blank.&lt;/p>
 &lt;p>Hit “Create custom block” to add your block.&lt;/p>
 &lt;hr>
 &lt;h3 id="add-existing-custom-block">Add Existing Custom Block&lt;/h3>
 &lt;p>To reuse a date block you’ve previously created, click the “Add Existing Custom Block” button.” Enter the description of your block into the autocomplete field. Select your block from the options to drop it in.&lt;/p>
-&lt;p>&lt;img src="upload://ktYOhlTNPOWqDCppafNF3eKl07r.gif" alt="admin__date-block&amp;amp;ndash;exsiting-block|690x143, 75%" />&lt;/p>
+&lt;p>
+&lt;img src="upload://ktYOhlTNPOWqDCppafNF3eKl07r.gif" alt="admin__date-block&amp;amp;ndash;exsiting-block|690x143, 75%" />&lt;/p>
 &lt;hr>
 &lt;h3 id="editing-a-date-block">Editing a Date Block&lt;/h3>
 &lt;p>To edit your block, click “edit” next to the paragraph. You will need to click another “edit” button when the name of your date block appears.
@@ -582,7 +628,8 @@ Make your changes inside the block and, when you’re done, click “Update Cust
 &lt;p>Embeds the out-of-box GroupEx Pro schedule script on a page with a single click.&lt;/p>
 &lt;/blockquote>
 &lt;h2 id="example">Example&lt;/h2>
-&lt;p>&lt;img src="upload://xq6xKMMgNtMA9dYwDBtnTo9e1AK.png" alt="y-example__gxp-schedule&amp;amp;ndash;houston|690x460, 75%" />&lt;/p>
+&lt;p>
+&lt;img src="upload://xq6xKMMgNtMA9dYwDBtnTo9e1AK.png" alt="y-example__gxp-schedule&amp;amp;ndash;houston|690x460, 75%" />&lt;/p>
 &lt;hr>
 &lt;h2 id="areas-it-should-be-used">Areas it Should Be Used&lt;/h2>
 &lt;ul>
@@ -596,9 +643,11 @@ Make your changes inside the block and, when you’re done, click “Update Cust
 &lt;ul>
 &lt;li>To integrate you GroupEx Pro account, go to the admin toolbar.
 &amp;gt;
-&amp;gt; &lt;img src="upload://rB0AOyzPIPVqX3ivE8BAKhsD2IQ.png" alt="admin__menu&amp;amp;ndash;gxp-account-settings|611x500, 75%" />&lt;/li>
+&amp;gt;
+&lt;img src="upload://rB0AOyzPIPVqX3ivE8BAKhsD2IQ.png" alt="admin__menu&amp;amp;ndash;gxp-account-settings|611x500, 75%" />&lt;/li>
 &lt;li>Go to Open Y &amp;gt; Integrations &amp;gt; GroupEx Pro &amp;gt; Group Ex Pro Account Settings. Add your account number to the field. That’s it!
-&amp;gt;&lt;img src="upload://uNJgKy1DAu5mYhqnijpzbSB8eAB.png" alt="admin__gxp-account-settings|690x259, 75%" />&lt;/li>
+&amp;gt;
+&lt;img src="upload://uNJgKy1DAu5mYhqnijpzbSB8eAB.png" alt="admin__gxp-account-settings|690x259, 75%" />&lt;/li>
 &lt;/ul>
 &lt;hr>
 &lt;p>For information on where to find your GroupEx Pro account number, visit groupexpro.com.&lt;/p>
@@ -606,7 +655,8 @@ Make your changes inside the block and, when you’re done, click “Update Cust
 &lt;hr>
 &lt;h3 id="adding-the-paragraph-to-your-page">Adding the Paragraph to Your Page&lt;/h3>
 &lt;p>Select &lt;em>Embedded GroupEx Pro Schedule&lt;/em> from the paragraphs dropdown. Hit save.&lt;/p>
-&lt;p>&lt;img src="upload://yXLJywn1bBOASWzR8M7jigSOIVB.png" alt="admin__gxp-schedule|690x66" />&lt;/p>
+&lt;p>
+&lt;img src="upload://yXLJywn1bBOASWzR8M7jigSOIVB.png" alt="admin__gxp-schedule|690x66" />&lt;/p>
 &lt;hr>
 &lt;h2 id="content-types-that-support-embedded-groupex-pro-schedule">Content Types That Support Embedded GroupEx Pro Schedule&lt;/h2>
 &lt;ul>
@@ -625,7 +675,8 @@ Make your changes inside the block and, when you’re done, click “Update Cust
 &lt;p>Create an easy-to-read FAQ or policy section with the FAQ paragraph. FAQ adds an accordion tab that expands when users click on it.&lt;/p>
 &lt;/blockquote>
 &lt;h2 id="example">Example&lt;/h2>
-&lt;p>&lt;img src="upload://aUwK4KoggrG9504WyjbhS58tNNI.png" alt="carnation&amp;amp;ndash;landing-page__faq|669x500, 50%" />&lt;/p>
+&lt;p>
+&lt;img src="upload://aUwK4KoggrG9504WyjbhS58tNNI.png" alt="carnation&amp;amp;ndash;landing-page__faq|669x500, 50%" />&lt;/p>
 &lt;hr>
 &lt;h2 id="where-it-can-be-used">Where it Can Be Used&lt;/h2>
 &lt;ul>
@@ -637,7 +688,8 @@ Make your changes inside the block and, when you’re done, click “Update Cust
 &lt;ul>
 &lt;li>
 &lt;p>Select &lt;em>FAQ&lt;/em> from the paragraph dropdown&lt;/p>
-&lt;p>&lt;img src="upload://eRZhplgt9wM18V1VoEJuMUu3G1W.png" alt="admin__faq&amp;amp;ndash;dropdown|690x259" />&lt;/p>
+&lt;p>
+&lt;img src="upload://eRZhplgt9wM18V1VoEJuMUu3G1W.png" alt="admin__faq&amp;amp;ndash;dropdown|690x259" />&lt;/p>
 &lt;/li>
 &lt;li>
 &lt;p>Add a title or a Question into the &lt;em>Question&lt;/em> field. This will show as the title of your section.&lt;/p>
@@ -645,7 +697,8 @@ Make your changes inside the block and, when you’re done, click “Update Cust
 &lt;li>
 &lt;p>
 &lt;a href="https://community.openymca.org/t/introduction-text-editor-open-y-user-docs/643" target="_blank">Use the text editor&lt;/a> to provide an answer/expanded section of content once the user clicks on your section.&lt;/p>
-&lt;p>&lt;img src="upload://wWVWcJBIOB3FpTUm9O5HpYmXSNH.png" alt="admin__faq&amp;amp;ndash;fields|669x500, 75%" />&lt;/p>
+&lt;p>
+&lt;img src="upload://wWVWcJBIOB3FpTUm9O5HpYmXSNH.png" alt="admin__faq&amp;amp;ndash;fields|669x500, 75%" />&lt;/p>
 &lt;p>&lt;strong>
 &lt;a href="https://community.openymca.org/t/introduction-text-editor-open-y-user-docs/643" target="_blank">Learn how to use the text editor ⇒&lt;/a>&lt;/strong>&lt;/p>
 &lt;/li>
@@ -653,7 +706,8 @@ Make your changes inside the block and, when you’re done, click “Update Cust
 &lt;hr>
 &lt;h3 id="add-another-section">Add Another Section&lt;/h3>
 &lt;p>To add another Question and Answer, click the &lt;em>Add another item&lt;/em> button at the bottom of your paragraph.&lt;/p>
-&lt;p>&lt;img src="upload://AqY7M0bqDgJoNcd2SJBITxUiglp.png" alt="admin__faq&amp;amp;ndash;fields&amp;amp;ndash;another-item-button|519x103, 50%" />&lt;/p>
+&lt;p>
+&lt;img src="upload://AqY7M0bqDgJoNcd2SJBITxUiglp.png" alt="admin__faq&amp;amp;ndash;fields&amp;amp;ndash;another-item-button|519x103, 50%" />&lt;/p>
 &lt;hr>
 &lt;h2 id="content-types-that-support-this-paragraph">Content Types that Support this Paragraph&lt;/h2>
 &lt;ul>
@@ -682,19 +736,25 @@ Make your changes inside the block and, when you’re done, click “Update Cust
 &lt;h2 id="examples">Examples&lt;/h2>
 &lt;h3 id="carnation">Carnation&lt;/h3>
 &lt;h4 id="desktop">Desktop&lt;/h4>
-&lt;p>&lt;img src="upload://q2pJKeNotDnXSMUVaxZMD0uBpat.jpeg" alt="carnation&amp;amp;ndash;landing-page__featured-blog-posts&amp;amp;ndash;desktop|690x351, 50%" />&lt;/p>
+&lt;p>
+&lt;img src="upload://q2pJKeNotDnXSMUVaxZMD0uBpat.jpeg" alt="carnation&amp;amp;ndash;landing-page__featured-blog-posts&amp;amp;ndash;desktop|690x351, 50%" />&lt;/p>
 &lt;h4 id="mobile">Mobile&lt;/h4>
-&lt;p>&lt;img src="upload://xUybepe2FCK97hPYCS28UzTOXXo.png" alt="carnation&amp;amp;ndash;landing-page__featured-blog-posts&amp;amp;ndash;mobile|432x500, 50%" />&lt;/p>
+&lt;p>
+&lt;img src="upload://xUybepe2FCK97hPYCS28UzTOXXo.png" alt="carnation&amp;amp;ndash;landing-page__featured-blog-posts&amp;amp;ndash;mobile|432x500, 50%" />&lt;/p>
 &lt;h3 id="lily">Lily&lt;/h3>
 &lt;h4 id="desktop-1">Desktop&lt;/h4>
-&lt;p>&lt;img src="upload://4jQHEsYyiuFmDgSxjBpRelW56yt.jpeg" alt="lily&amp;amp;ndash;landing-page__featured-blog-posts&amp;amp;ndash;desktop|690x351, 50%" />&lt;/p>
+&lt;p>
+&lt;img src="upload://4jQHEsYyiuFmDgSxjBpRelW56yt.jpeg" alt="lily&amp;amp;ndash;landing-page__featured-blog-posts&amp;amp;ndash;desktop|690x351, 50%" />&lt;/p>
 &lt;h4 id="mobile-1">Mobile&lt;/h4>
-&lt;p>&lt;img src="upload://ho5MZGawd0QZPb3UYbfRrqMjL24.png" alt="lily&amp;amp;ndash;landing-page__featured-blog-posts&amp;amp;ndash;mobile|432x500, 50%" />&lt;/p>
+&lt;p>
+&lt;img src="upload://ho5MZGawd0QZPb3UYbfRrqMjL24.png" alt="lily&amp;amp;ndash;landing-page__featured-blog-posts&amp;amp;ndash;mobile|432x500, 50%" />&lt;/p>
 &lt;h3 id="rose">Rose&lt;/h3>
 &lt;h4 id="desktop-2">Desktop&lt;/h4>
-&lt;p>&lt;img src="upload://gT95aCMys7l1EkslO66nU40I7Zd.jpeg" alt="rose&amp;amp;ndash;landing-page__featured-blog-posts&amp;amp;ndash;desktop|690x351, 50%" />&lt;/p>
+&lt;p>
+&lt;img src="upload://gT95aCMys7l1EkslO66nU40I7Zd.jpeg" alt="rose&amp;amp;ndash;landing-page__featured-blog-posts&amp;amp;ndash;desktop|690x351, 50%" />&lt;/p>
 &lt;h4 id="mobile-2">Mobile&lt;/h4>
-&lt;p>&lt;img src="upload://yirY07PrXs21g5WI9qOp0DitXNq.png" alt="rose&amp;amp;ndash;landing-page__featured-blog-posts&amp;amp;ndash;mobile|432x500, 50%" />&lt;/p>
+&lt;p>
+&lt;img src="upload://yirY07PrXs21g5WI9qOp0DitXNq.png" alt="rose&amp;amp;ndash;landing-page__featured-blog-posts&amp;amp;ndash;mobile|432x500, 50%" />&lt;/p>
 &lt;hr>
 &lt;h2 id="areas-it-can-be-used">Areas It Can Be Used&lt;/h2>
 &lt;ul>
@@ -705,9 +765,11 @@ Make your changes inside the block and, when you’re done, click “Update Cust
 &lt;h2 id="how-to-use-it">How to Use It&lt;/h2>
 &lt;p>Add a headline for this section of content in the &lt;em>Headline&lt;/em> field.&lt;/p>
 &lt;p>Next, type in the name of the blog you would like to feature in the autocomplete field. Click on the post when it shows up below.&lt;/p>
-&lt;p>&lt;img src="upload://f4c2KSFRr2ImmtVoy23iT5FumUU.png" alt="admin__featured-blog-posts|690x362, 75%" />&lt;/p>
+&lt;p>
+&lt;img src="upload://f4c2KSFRr2ImmtVoy23iT5FumUU.png" alt="admin__featured-blog-posts|690x362, 75%" />&lt;/p>
 &lt;p>To add another blog post, click the &lt;em>Add another item&lt;/em> button. Click the blue save button at the bottom when you’re finished.&lt;/p>
-&lt;p>&lt;img src="upload://AqY7M0bqDgJoNcd2SJBITxUiglp.png" alt="admin__faq&amp;amp;ndash;fields&amp;amp;ndash;another-item-button|519x103, 50%" />&lt;/p>
+&lt;p>
+&lt;img src="upload://AqY7M0bqDgJoNcd2SJBITxUiglp.png" alt="admin__faq&amp;amp;ndash;fields&amp;amp;ndash;another-item-button|519x103, 50%" />&lt;/p>
 &lt;hr>
 &lt;h2 id="content-types-that-support-featured-blog-pots">Content Types that Support Featured Blog Pots&lt;/h2>
 &lt;ul>
@@ -730,11 +792,14 @@ Make your changes inside the block and, when you’re done, click “Update Cust
 &lt;/blockquote>
 &lt;h2 id="examples">Examples&lt;/h2>
 &lt;h3 id="carnation">Carnation&lt;/h3>
-&lt;p>&lt;img src="upload://ow5oBSx0JCFIw15o0WRtevEgOgf.png" alt="carnation&amp;amp;ndash;landing-page__featured-content&amp;amp;ndash;desktop|690x409, 50%" />&lt;/p>
+&lt;p>
+&lt;img src="upload://ow5oBSx0JCFIw15o0WRtevEgOgf.png" alt="carnation&amp;amp;ndash;landing-page__featured-content&amp;amp;ndash;desktop|690x409, 50%" />&lt;/p>
 &lt;h3 id="lily">Lily&lt;/h3>
-&lt;p>&lt;img src="upload://gqbVaSepPEXHGzLRpkE2VztifJO.png" alt="lily&amp;amp;ndash;landing-page__featured-content&amp;amp;ndash;desktop|690x409, 50%" />&lt;/p>
+&lt;p>
+&lt;img src="upload://gqbVaSepPEXHGzLRpkE2VztifJO.png" alt="lily&amp;amp;ndash;landing-page__featured-content&amp;amp;ndash;desktop|690x409, 50%" />&lt;/p>
 &lt;h3 id="rose">Rose&lt;/h3>
-&lt;p>&lt;img src="upload://kpkvAkHxRTupSjVe9uU7qfqHb5z.png" alt="rose&amp;amp;ndash;landing-page__featured-content&amp;amp;ndash;desktop|690x409, 50%" />&lt;/p>
+&lt;p>
+&lt;img src="upload://kpkvAkHxRTupSjVe9uU7qfqHb5z.png" alt="rose&amp;amp;ndash;landing-page__featured-content&amp;amp;ndash;desktop|690x409, 50%" />&lt;/p>
 &lt;hr>
 &lt;h2 id="areas-it-can-be-used">Areas It Can Be Used&lt;/h2>
 &lt;ul>
@@ -767,7 +832,8 @@ Make your changes inside the block and, when you’re done, click “Update Cust
 &lt;p>Additionally, you can limit the number of columns to four in the Featured Content’s paragraph settings.&lt;/p>
 &lt;/blockquote>
 &lt;p>Finally, add content for each column of content using the text editor. To add additional columns click the “Add Another Item” button.&lt;/p>
-&lt;p>&lt;img src="upload://rCjtP5f0P10myXeduSulSRtFrQ7.gif" alt="admin__featured-content|690x449, 75%" />&lt;/p>
+&lt;p>
+&lt;img src="upload://rCjtP5f0P10myXeduSulSRtFrQ7.gif" alt="admin__featured-content|690x449, 75%" />&lt;/p>
 &lt;ul>
 &lt;li>&lt;strong>Lily/Rose:&lt;/strong> Adding more columns than what you selected in the “Style” dropdown will create additional rows. Aligning each column’s content is not recommended unless you are not using any other field.&lt;/li>
 &lt;/ul>
@@ -797,11 +863,14 @@ Make your changes inside the block and, when you’re done, click “Update Cust
 &lt;h2 id="examples">Examples&lt;/h2>
 &lt;h3 id="carnation">Carnation&lt;/h3>
 &lt;h4 id="desktop">Desktop&lt;/h4>
-&lt;p>&lt;img src="upload://kmFZ5eKuYNADTpkSU37EvJz0xM2.jpeg" alt="carnation&amp;amp;ndash;landing-page__featured-news-posts&amp;amp;ndash;dekstop|690x288, 50%" />&lt;/p>
+&lt;p>
+&lt;img src="upload://kmFZ5eKuYNADTpkSU37EvJz0xM2.jpeg" alt="carnation&amp;amp;ndash;landing-page__featured-news-posts&amp;amp;ndash;dekstop|690x288, 50%" />&lt;/p>
 &lt;h4 id="mobile">Mobile&lt;/h4>
-&lt;p>&lt;img src="upload://bIN6mGK0N9UpCTSvRHAHz4XXyen.jpeg" alt="carnation&amp;amp;ndash;landing-page__featured-news-posts&amp;amp;ndash;mobile|413x500, 50%" />&lt;/p>
+&lt;p>
+&lt;img src="upload://bIN6mGK0N9UpCTSvRHAHz4XXyen.jpeg" alt="carnation&amp;amp;ndash;landing-page__featured-news-posts&amp;amp;ndash;mobile|413x500, 50%" />&lt;/p>
 &lt;h3 id="rose">Rose&lt;/h3>
-&lt;p>&lt;img src="upload://2ujbm3arbX2vYQq5dBa3DX1rQPj.jpeg" alt="rose&amp;amp;ndash;landing-page__featured-news-posts&amp;amp;ndash;dekstop|690x376, 50%" />&lt;/p>
+&lt;p>
+&lt;img src="upload://2ujbm3arbX2vYQq5dBa3DX1rQPj.jpeg" alt="rose&amp;amp;ndash;landing-page__featured-news-posts&amp;amp;ndash;dekstop|690x376, 50%" />&lt;/p>
 &lt;hr>
 &lt;h2 id="areas-it-can-be-used">Areas It Can Be Used&lt;/h2>
 &lt;ul>
@@ -812,9 +881,11 @@ Make your changes inside the block and, when you’re done, click “Update Cust
 &lt;h2 id="how-to-use-featured-news-posts">How to Use Featured News Posts&lt;/h2>
 &lt;p>Add a &lt;em>Headline&lt;/em> for this section of content in the Title field.&lt;/p>
 &lt;p>Next, type in the name of the news post you would like to feature in the autocomplete field. Click on the post when it shows up below.&lt;/p>
-&lt;p>&lt;img src="upload://fw6WsCMJxwVKgXGh2Izmg1J3SvH.png" alt="admin__featured-news-posts|690x409, 50%" />&lt;/p>
+&lt;p>
+&lt;img src="upload://fw6WsCMJxwVKgXGh2Izmg1J3SvH.png" alt="admin__featured-news-posts|690x409, 50%" />&lt;/p>
 &lt;p>To add another news post, click the &lt;em>Add another item&lt;/em> button. Click the blue save button at the bottom when you’re finished.&lt;/p>
-&lt;p>&lt;img src="upload://AqY7M0bqDgJoNcd2SJBITxUiglp.png" alt="admin__faq&amp;amp;ndash;fields&amp;amp;ndash;another-item-button|519x103, 50%" />&lt;/p>
+&lt;p>
+&lt;img src="upload://AqY7M0bqDgJoNcd2SJBITxUiglp.png" alt="admin__faq&amp;amp;ndash;fields&amp;amp;ndash;another-item-button|519x103, 50%" />&lt;/p>
 &lt;h2 id="content-types-that-support-featured-news-posts">Content Types that Support Featured News Posts&lt;/h2>
 &lt;ul>
 &lt;li>
@@ -839,16 +910,21 @@ Make your changes inside the block and, when you’re done, click “Update Cust
 &lt;h2 id="examples">Examples&lt;/h2>
 &lt;h3 id="carnation">Carnation&lt;/h3>
 &lt;h4 id="desktop">Desktop&lt;/h4>
-&lt;p>&lt;img src="upload://yYalTqQ9TYSNSOD6O8tRjw86G1H.jpeg" alt="carnation&amp;amp;ndash;branch__gallery-desktop|690x271, 50%" />&lt;/p>
+&lt;p>
+&lt;img src="upload://yYalTqQ9TYSNSOD6O8tRjw86G1H.jpeg" alt="carnation&amp;amp;ndash;branch__gallery-desktop|690x271, 50%" />&lt;/p>
 &lt;h4 id="mobile">Mobile&lt;/h4>
-&lt;p>&lt;img src="upload://n1n1lMPBFGXb62MbQ1xqCtkpcGi.jpeg" alt="carnation&amp;amp;ndash;branch__gallery-mobile|636x500, 50%" />&lt;/p>
+&lt;p>
+&lt;img src="upload://n1n1lMPBFGXb62MbQ1xqCtkpcGi.jpeg" alt="carnation&amp;amp;ndash;branch__gallery-mobile|636x500, 50%" />&lt;/p>
 &lt;h3 id="lily">Lily&lt;/h3>
 &lt;h4 id="desktop-1">Desktop&lt;/h4>
-&lt;p>&lt;img src="upload://hJwtCHNkCW9i2JxqBvkAfOpJmk8.jpeg" alt="lily&amp;amp;ndash;branch__gallery-desktop|690x307, 50%" />&lt;/p>
+&lt;p>
+&lt;img src="upload://hJwtCHNkCW9i2JxqBvkAfOpJmk8.jpeg" alt="lily&amp;amp;ndash;branch__gallery-desktop|690x307, 50%" />&lt;/p>
 &lt;h4 id="mobile-1">Mobile&lt;/h4>
-&lt;p>&lt;img src="upload://gvIetlk2bDAII2gB8maoOBkGpqT.jpeg" alt="lily&amp;amp;ndash;branch__gallery-mobile|558x500, 50%" />&lt;/p>
+&lt;p>
+&lt;img src="upload://gvIetlk2bDAII2gB8maoOBkGpqT.jpeg" alt="lily&amp;amp;ndash;branch__gallery-mobile|558x500, 50%" />&lt;/p>
 &lt;h3 id="rose">Rose&lt;/h3>
-&lt;p>&lt;img src="upload://q91s1TBTpOlXjRFg1UCKLlLNo5c.jpeg" alt="rose&amp;amp;ndash;branch__gallery-desktop|690x307, 50%" />&lt;/p>
+&lt;p>
+&lt;img src="upload://q91s1TBTpOlXjRFg1UCKLlLNo5c.jpeg" alt="rose&amp;amp;ndash;branch__gallery-desktop|690x307, 50%" />&lt;/p>
 &lt;hr>
 &lt;h2 id="areas-it-can-be-used">Areas It Can Be Used&lt;/h2>
 &lt;ul>
@@ -866,7 +942,8 @@ Make your changes inside the block and, when you’re done, click “Update Cust
 &lt;a href="https://community.openymca.org/c/Resources-and-training-for-content-editors/Learn-how-to-use-the-basic-text-editing-functions-available-to-content-editors" target="_blank">Learn more about the text editor ⇒&lt;/a>&lt;/p>
 &lt;/blockquote>
 &lt;p>Optionally, you can add a Link in the link field.&lt;/p>
-&lt;p>&lt;img src="upload://1zX6malPCRwSziaV0bMHJe210uI.png" alt="admin__gallery&amp;amp;ndash;link|690x217, 50%" />&lt;/p>
+&lt;p>
+&lt;img src="upload://1zX6malPCRwSziaV0bMHJe210uI.png" alt="admin__gallery&amp;amp;ndash;link|690x217, 50%" />&lt;/p>
 &lt;p>
 &lt;a href="https://community.openymca.org/t/content-editing-basics-open-y-user-docs/732/2" target="_blank">How link fields work in Open Y ⇒&lt;/a>&lt;/p>
 &lt;p>Below the link field, you will add your images. Click on the &lt;em>Add images&lt;/em> button to select the pictures for your gallery. You can upload an image to the media library, or select multiple images from your library.&lt;/p>
@@ -874,7 +951,8 @@ Make your changes inside the block and, when you’re done, click “Update Cust
 &lt;a href="https://community.openymca.org/t/video-tutorials-for-images-and-documents/738" target="_blank">Learn how to upload images in the media library ⇒&lt;/a>&lt;/p>
 &lt;p>Once you’ve uploaded/selected your images, click that blue &lt;em>Add images&lt;/em> button at the bottom.&lt;/p>
 &lt;p>To order your images, hover your mouse over the thumbnail in the “Images” section, and then drag them to reorder. You will see a cross-arrow icon when you’re dragging them around, similar to what you see when you reorder paragraphs.&lt;/p>
-&lt;p>&lt;img src="upload://1VarHj8AvLgCq2nff1evGXaVy6p.gif" alt="admin__gallery&amp;amp;ndash;rearrange|690x415, 75%" />&lt;/p>
+&lt;p>
+&lt;img src="upload://1VarHj8AvLgCq2nff1evGXaVy6p.gif" alt="admin__gallery&amp;amp;ndash;rearrange|690x415, 75%" />&lt;/p>
 &lt;p>To delete a photo from the gallery, click the delete button below the image.&lt;/p>
 &lt;p>Hit &lt;em>Save&lt;/em> at the bottom of the image to save it.&lt;/p>
 &lt;hr>
@@ -895,11 +973,14 @@ Make your changes inside the block and, when you’re done, click “Update Cust
 &lt;/blockquote>
 &lt;h2 id="examples">Examples&lt;/h2>
 &lt;h3 id="carnation">Carnation&lt;/h3>
-&lt;p>&lt;img src="upload://hr810ymEKvK5xCOKq4YOzaWgBJz.png" alt="carnation&amp;amp;ndash;branch__grid-content|690x326, 50%" />&lt;/p>
+&lt;p>
+&lt;img src="upload://hr810ymEKvK5xCOKq4YOzaWgBJz.png" alt="carnation&amp;amp;ndash;branch__grid-content|690x326, 50%" />&lt;/p>
 &lt;h3 id="lily">Lily&lt;/h3>
-&lt;p>&lt;img src="upload://pEtNXHTHdCiliXuXHGGFsdqaSvC.png" alt="lily&amp;amp;ndash;branch__grid-content|690x326, 50%" />&lt;/p>
+&lt;p>
+&lt;img src="upload://pEtNXHTHdCiliXuXHGGFsdqaSvC.png" alt="lily&amp;amp;ndash;branch__grid-content|690x326, 50%" />&lt;/p>
 &lt;h3 id="rose">Rose&lt;/h3>
-&lt;p>&lt;img src="upload://jdVqUBOqwux3NxtqnMYf0a8BLXM.png" alt="rose&amp;amp;ndash;branch__grid-content|690x217, 50%" />&lt;/p>
+&lt;p>
+&lt;img src="upload://jdVqUBOqwux3NxtqnMYf0a8BLXM.png" alt="rose&amp;amp;ndash;branch__grid-content|690x217, 50%" />&lt;/p>
 &lt;hr>
 &lt;h2 id="areas-it-should-be-used">Areas It Should Be Used:&lt;/h2>
 &lt;ul>
@@ -911,7 +992,8 @@ Make your changes inside the block and, when you’re done, click “Update Cust
 &lt;blockquote>
 &lt;p>&lt;em>Note on Grid Content: This paragraph’s style will vary greatly depending on your theme. The docs outline how to use the fields.&lt;/em>&lt;/p>
 &lt;/blockquote>
-&lt;p>&lt;img src="upload://1s8QsdyxSbhzEZ5epbNsKbrdcF7.png" alt="admin__grid-content&amp;amp;ndash;add|669x500, 50%" />&lt;/p>
+&lt;p>
+&lt;img src="upload://1s8QsdyxSbhzEZ5epbNsKbrdcF7.png" alt="admin__grid-content&amp;amp;ndash;add|669x500, 50%" />&lt;/p>
 &lt;p>First, choose &lt;em>Grid Content&lt;/em> from the Paragraphs dropdown. You will then see a dropdown with four options under &lt;em>Style&lt;/em>:&lt;/p>
 &lt;ul>
 &lt;li>2 items per row&lt;/li>
@@ -922,11 +1004,14 @@ Make your changes inside the block and, when you’re done, click “Update Cust
 &lt;blockquote>
 &lt;h3 id="-examples">// Examples&lt;/h3>
 &lt;h4 id="-2-items-per-row-w-2-grid-columns">// 2 items per row w/ 2 Grid Columns&lt;/h4>
-&lt;p>&lt;img src="upload://sjtKJp5uPmYmbmJ8EMnd2d9Hl88.png" alt="admin__grid-content&amp;amp;ndash;2-items|669x500, 50%" />&lt;/p>
-&lt;p>&lt;img src="upload://tuhKI9KWCeGjwYc95rmrcLBq6SH.png" alt="carnation&amp;amp;ndash;landing-page__grid-content&amp;amp;ndash;2-item-style|690x245, 50%" />&lt;/p>
+&lt;p>
+&lt;img src="upload://sjtKJp5uPmYmbmJ8EMnd2d9Hl88.png" alt="admin__grid-content&amp;amp;ndash;2-items|669x500, 50%" />&lt;/p>
+&lt;p>
+&lt;img src="upload://tuhKI9KWCeGjwYc95rmrcLBq6SH.png" alt="carnation&amp;amp;ndash;landing-page__grid-content&amp;amp;ndash;2-item-style|690x245, 50%" />&lt;/p>
 &lt;hr>
 &lt;h4 id="-3-items-per-row-w-2-grid-columns">/// 3 items per row w/ 2 grid columns&lt;/h4>
-&lt;p>&lt;img src="upload://fWMEVQYm4Z9zX7LnHthqoN09cX2.png" alt="admin__grid-content&amp;amp;ndash;3-items|451x500, 50%" />
+&lt;p>
+&lt;img src="upload://fWMEVQYm4Z9zX7LnHthqoN09cX2.png" alt="admin__grid-content&amp;amp;ndash;3-items|451x500, 50%" />
 &lt;img src="upload://4QxJJBQ7fAirMA3DnX5Bgip6Y18.png" alt="carnation&amp;amp;ndash;landing-page__grid-content-3-item-style|690x299, 50%" />&lt;/p>
 &lt;/blockquote>
 &lt;p>Next, you will see a button that says &lt;em>Add Grid Columns.&lt;/em> This is where you will start adding your individual sections/cards.&lt;/p>
@@ -1041,9 +1126,11 @@ Make your changes inside the block and, when you’re done, click “Update Cust
 &lt;/blockquote>
 &lt;h2 id="examples">Examples&lt;/h2>
 &lt;h3 id="carnation">Carnation&lt;/h3>
-&lt;p>&lt;img src="upload://xjcY3wRWQuFlVKyZMInQfmJwGKk.png" alt="carnation&amp;amp;ndash;camp__latest-news-posts&amp;amp;ndash;desktop|690x264, 75%" />&lt;/p>
+&lt;p>
+&lt;img src="upload://xjcY3wRWQuFlVKyZMInQfmJwGKk.png" alt="carnation&amp;amp;ndash;camp__latest-news-posts&amp;amp;ndash;desktop|690x264, 75%" />&lt;/p>
 &lt;h3 id="rose">Rose&lt;/h3>
-&lt;h2 id="rose--camp__latest-news-posts--desktop690x368-75uploadtcmjaslmyzksiceymgam6xxlo1ypng">&lt;img src="upload://tcmJaSLmYZKSICEYmgam6XxLO1Y.png" alt="rose&amp;amp;ndash;camp__latest-news-posts&amp;amp;ndash;desktop|690x368, 75%" />&lt;/h2>
+&lt;h2 id="rose--camp__latest-news-posts--desktop690x368-75uploadtcmjaslmyzksiceymgam6xxlo1ypng">
+&lt;img src="upload://tcmJaSLmYZKSICEYmgam6XxLO1Y.png" alt="rose&amp;amp;ndash;camp__latest-news-posts&amp;amp;ndash;desktop|690x368, 75%" />&lt;/h2>
 &lt;h2 id="areas-it-should-be-used">Areas it Should Be Used&lt;/h2>
 &lt;ul>
 &lt;li>Content Area&lt;/li>
@@ -1052,7 +1139,8 @@ Make your changes inside the block and, when you’re done, click “Update Cust
 &lt;hr>
 &lt;h2 id="how-to-use-latest-news-posts">How to Use Latest News Posts&lt;/h2>
 &lt;p>From the paragraphs dropdown, add the “Latest News Posts.” Enter a header title for the section in the text field and hit save.&lt;/p>
-&lt;p>&lt;img src="upload://wBKVUT6i5uSSb4pfZrtou4fiImR.png" alt="admin__latest-news-posts|690x99" />&lt;/p>
+&lt;p>
+&lt;img src="upload://wBKVUT6i5uSSb4pfZrtou4fiImR.png" alt="admin__latest-news-posts|690x99" />&lt;/p>
 &lt;hr>
 &lt;h2 id="content-types-that-support-latest-news-posts">Content Types that Support Latest News Posts&lt;/h2>
 &lt;ul>
@@ -1129,17 +1217,21 @@ Make your changes inside the block and, when you’re done, click “Update Cust
 &lt;/ol>
 &lt;h3 id="membership-type">Membership Type&lt;/h3>
 &lt;p>This step lists the Title, Image, and Description of each published Member node.&lt;/p>
-&lt;p>&lt;img src="upload://u6yyw4uFzZZCotOQd4pYtQCaAhQ.png" alt="Join___Drush_Site-Install|690x373" />&lt;/p>
+&lt;p>
+&lt;img src="upload://u6yyw4uFzZZCotOQd4pYtQCaAhQ.png" alt="Join___Drush_Site-Install|690x373" />&lt;/p>
 &lt;h3 id="primary-location">Primary Location&lt;/h3>
 &lt;p>This step provides a map with radio buttons for the member to select their primary location. Every location listed in the &lt;strong>Open Y Location Filter Settings&lt;/strong> (see Troubleshooting section below) is listed.&lt;/p>
-&lt;p>&lt;img src="upload://6i4S8IF4qJvSPyb2ALReAUlGoLv.jpeg" alt="Join___Drush_Site-Install|690x442" />&lt;/p>
+&lt;p>
+&lt;img src="upload://6i4S8IF4qJvSPyb2ALReAUlGoLv.jpeg" alt="Join___Drush_Site-Install|690x442" />&lt;/p>
 &lt;h3 id="summary">Summary&lt;/h3>
 &lt;p>This page provides a link for the member to continue their registration, or a message indicating the selected membership is not provided at the selected location.&lt;/p>
-&lt;p>&lt;img src="upload://2Ee7kf0rgze3Zu9LJgI89y3wcWS.png" alt="Join___Drush_Site-Install|690x227" />
+&lt;p>
+&lt;img src="upload://2Ee7kf0rgze3Zu9LJgI89y3wcWS.png" alt="Join___Drush_Site-Install|690x227" />
 &lt;img src="upload://oiNJgkNX0AF53v7fCMUSanEyg7.png" alt="Join___Drush_Site-Install|690x220" />&lt;/p>
 &lt;h2 id="heading--troubleshooting">Troubleshooting&lt;/h2>
 &lt;p>On some sites, the second step of the &lt;em>Membership Calculator&lt;/em> may not show any locations. In order to resolve this, visit &lt;strong>Administration&lt;/strong> &amp;gt; &lt;strong>Open Y&lt;/strong> &amp;gt; &lt;strong>Settings&lt;/strong> &amp;gt; &lt;strong>Open Y Location Filter Settings&lt;/strong> and ensure that any Branches you want to use in the location search are checked.&lt;/p>
-&lt;p>&lt;img src="upload://wnoZu5d7zbclkYYCE9DbOGCKEn0.png" alt="Locations_filter_settings___Drush_Site-Install|689x287" />&lt;/p>
+&lt;p>
+&lt;img src="upload://wnoZu5d7zbclkYYCE9DbOGCKEn0.png" alt="Locations_filter_settings___Drush_Site-Install|689x287" />&lt;/p>
 &lt;h2 id="content-types-that-support-membership-calculator">Content Types that Support Membership Calculator&lt;/h2>
 &lt;ul>
 &lt;li>
@@ -1161,7 +1253,8 @@ Make your changes inside the block and, when you’re done, click “Update Cust
 &lt;/ul>
 &lt;hr>
 &lt;h2 id="how-to-use-news-posts">How to Use News Posts&lt;/h2>
-&lt;p>&lt;img src="upload://aeYJaF1mA3l04L0HeqsuUA8gdPt.png" alt="admin__news-posts-listing|690x99, 75%" />&lt;/p>
+&lt;p>
+&lt;img src="upload://aeYJaF1mA3l04L0HeqsuUA8gdPt.png" alt="admin__news-posts-listing|690x99, 75%" />&lt;/p>
 &lt;p>From the paragraphs dropdown, add the &lt;em>News Posts Listing&lt;/em>. Enter a header title for the section in the text field and hit &lt;em>Save&lt;/em>.&lt;/p>
 &lt;blockquote>
 &lt;p>&lt;em>&lt;strong>Note:&lt;/strong> Advanced users can make changes to the exposed fields using the Views module and the paragraphs settings.&lt;/em>&lt;/p>
@@ -1191,11 +1284,14 @@ Make your changes inside the block and, when you’re done, click “Update Cust
 &lt;/blockquote>
 &lt;h2 id="examples">Examples&lt;/h2>
 &lt;h3 id="carnation">Carnation&lt;/h3>
-&lt;p>&lt;img src="upload://q5TCtCNY4MDBOrTJfOkA9RE5seC.png" alt="carnation__promo-card|652x500, 50%" />&lt;/p>
+&lt;p>
+&lt;img src="upload://q5TCtCNY4MDBOrTJfOkA9RE5seC.png" alt="carnation__promo-card|652x500, 50%" />&lt;/p>
 &lt;h3 id="lily">Lily&lt;/h3>
-&lt;p>&lt;img src="upload://bxld42wmFFySY49H6GnQypX6N63.png" alt="lily__promo-card|690x434, 50%" />&lt;/p>
+&lt;p>
+&lt;img src="upload://bxld42wmFFySY49H6GnQypX6N63.png" alt="lily__promo-card|690x434, 50%" />&lt;/p>
 &lt;h3 id="rose">Rose&lt;/h3>
-&lt;h2 id="rose__promo-card541x500-50uploadrznfuholwufglfduncewvozqetfpng">&lt;img src="upload://rznFuholwufglFDUNcEwvoZqEtf.png" alt="rose__promo-card|541x500, 50%" />&lt;/h2>
+&lt;h2 id="rose__promo-card541x500-50uploadrznfuholwufglfduncewvozqetfpng">
+&lt;img src="upload://rznFuholwufglFDUNcEwvoZqEtf.png" alt="rose__promo-card|541x500, 50%" />&lt;/h2>
 &lt;h2 id="areas-it-should-be-used">Areas It Should be Used&lt;/h2>
 &lt;ul>
 &lt;li>Sidebar Area&lt;/li>
@@ -1264,19 +1360,25 @@ Make your changes inside the block and, when you’re done, click “Update Cust
 &lt;h2 id="examples">Examples&lt;/h2>
 &lt;h3 id="carnation">Carnation&lt;/h3>
 &lt;h4 id="desktop">Desktop&lt;/h4>
-&lt;p>&lt;img src="upload://ztfFhwLTMlymczCza5kBFLPtfSK.jpeg" alt="carnation&amp;amp;ndash;landing-page__small-banner|690x182, 75%" />&lt;/p>
+&lt;p>
+&lt;img src="upload://ztfFhwLTMlymczCza5kBFLPtfSK.jpeg" alt="carnation&amp;amp;ndash;landing-page__small-banner|690x182, 75%" />&lt;/p>
 &lt;h4 id="mobile">Mobile&lt;/h4>
-&lt;p>&lt;img src="upload://diCjdeqo5vQ29Fjiupt8Kw5wgei.jpeg" alt="carnation&amp;amp;ndash;landing-page__small-banner&amp;amp;ndash;mobile|652x500, 50%" />&lt;/p>
+&lt;p>
+&lt;img src="upload://diCjdeqo5vQ29Fjiupt8Kw5wgei.jpeg" alt="carnation&amp;amp;ndash;landing-page__small-banner&amp;amp;ndash;mobile|652x500, 50%" />&lt;/p>
 &lt;h3 id="lily">Lily&lt;/h3>
 &lt;h4 id="desktop-1">Desktop&lt;/h4>
-&lt;p>&lt;img src="upload://dY0ef05XZNRxOJpYDzvPvrjbr6X.jpeg" alt="lily&amp;amp;ndash;landing-banner__small-banner&amp;amp;ndash;desktop|690x307, 50%" />&lt;/p>
+&lt;p>
+&lt;img src="upload://dY0ef05XZNRxOJpYDzvPvrjbr6X.jpeg" alt="lily&amp;amp;ndash;landing-banner__small-banner&amp;amp;ndash;desktop|690x307, 50%" />&lt;/p>
 &lt;h4 id="mobile-1">Mobile&lt;/h4>
-&lt;p>&lt;img src="upload://1EUNipe3m7hlLQpdIp3QFHqhezM.jpeg" alt="lily&amp;amp;ndash;landing-page__small-banner&amp;amp;ndash;mobile|514x500, 50%" />&lt;/p>
+&lt;p>
+&lt;img src="upload://1EUNipe3m7hlLQpdIp3QFHqhezM.jpeg" alt="lily&amp;amp;ndash;landing-page__small-banner&amp;amp;ndash;mobile|514x500, 50%" />&lt;/p>
 &lt;h3 id="rose">Rose&lt;/h3>
 &lt;h4 id="desktop-2">Desktop&lt;/h4>
-&lt;p>&lt;img src="upload://y9VrlIAnsVkyPi8FdfeYaJBFK0q.png" alt="rose&amp;amp;ndash;ladning-page__small&amp;amp;ndash;banner&amp;amp;ndash;desktop|690x319, 75%" />&lt;/p>
+&lt;p>
+&lt;img src="upload://y9VrlIAnsVkyPi8FdfeYaJBFK0q.png" alt="rose&amp;amp;ndash;ladning-page__small&amp;amp;ndash;banner&amp;amp;ndash;desktop|690x319, 75%" />&lt;/p>
 &lt;h4 id="mobile-2">Mobile&lt;/h4>
-&lt;h2 id="rose--landing-page__small-banner--mobile486x500-50uploadbngmfewjstjq257k38id7sp2bhpng">&lt;img src="upload://BnGmFeWjsTjq257K38iD7sp2bH.png" alt="rose&amp;amp;ndash;landing-page__small-banner&amp;amp;ndash;mobile|486x500, 50%" />&lt;/h2>
+&lt;h2 id="rose--landing-page__small-banner--mobile486x500-50uploadbngmfewjstjq257k38id7sp2bhpng">
+&lt;img src="upload://BnGmFeWjsTjq257K38iD7sp2bH.png" alt="rose&amp;amp;ndash;landing-page__small-banner&amp;amp;ndash;mobile|486x500, 50%" />&lt;/h2>
 &lt;h2 id="areas-it-can-be-used">Areas it Can be Used&lt;/h2>
 &lt;ul>
 &lt;li>Header Area&lt;/li>
@@ -1411,7 +1513,8 @@ Make your changes inside the block and, when you’re done, click “Update Cust
 &lt;a href="https://www.youtube.com/playlist?list=PLXu9x8jV-0fDQz_7BXVeAbFNOoYLQhcJ1" target="_blank">Drupal Webform Tutorials (by Jacob Rockowitz) ⇒&lt;/a>&lt;/strong>&lt;/p>
 &lt;/blockquote>
 &lt;p>Once you’ve selected &lt;em>Webform&lt;/em> from the paragraphs dropdown, select the name of the webform you want to embed onto your page.&lt;/p>
-&lt;p>&lt;img src="upload://tcGUqOrUMu7a1WP5oYo2RggUryC.png" alt="admin__webform&amp;amp;ndash;select-form|514x499, 75%" />&lt;/p>
+&lt;p>
+&lt;img src="upload://tcGUqOrUMu7a1WP5oYo2RggUryC.png" alt="admin__webform&amp;amp;ndash;select-form|514x499, 75%" />&lt;/p>
 &lt;p>Next, you will have the option to open, close or schedule your open/close dates for your webform.&lt;/p>
 &lt;blockquote>
 &lt;p>Ignore the “Default submission pairs” field, unless you’re

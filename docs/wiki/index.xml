@@ -176,7 +176,8 @@
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#4e9a06">&amp;#39;views.view.example_view&amp;#39;&lt;/span>&lt;span style="color:#000;font-weight:bold">,&lt;/span>
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#000;font-weight:bold">]);&lt;/span>
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h1 id="javascript-includes">JavaScript includes&lt;/h1>
-&lt;p>&lt;img src="https://user-images.githubusercontent.com/563412/122801945-6f28b700-d2cd-11eb-8d0c-694432e8cbf0.png" alt="image" />&lt;/p></description></item><item><title>Docs: Composer version constraints for Open Y</title><link>/docs/wiki/composer-version-constraints-for-open-y/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/wiki/composer-version-constraints-for-open-y/</guid><description>
+&lt;p>
+&lt;img src="https://user-images.githubusercontent.com/563412/122801945-6f28b700-d2cd-11eb-8d0c-694432e8cbf0.png" alt="image" />&lt;/p></description></item><item><title>Docs: Composer version constraints for Open Y</title><link>/docs/wiki/composer-version-constraints-for-open-y/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/wiki/composer-version-constraints-for-open-y/</guid><description>
 &lt;p>In 2020, due to changes in Drupal core release management and demand from Open Y customers to improve upgrade path flexibility and stability, the Open Y team added extended composer version constraints to our &lt;code>composer.json&lt;/code>.&lt;/p>
 &lt;p>Examples from
 &lt;a href="https://github.com/ymcatwincities/openy/blob/9.x-2.x/composer.json" target="_blank">composer.json&lt;/a>:&lt;/p>
@@ -353,7 +354,8 @@
 &lt;a href="https://www.drupal.org/project/openy_autocomplete_path" target="_blank">&lt;code>drupal/openy_autocomplete_path&lt;/code>&lt;/a> - Open Y Autocomplete Path. Works in Drupal 8 only. Removed from &lt;code>9.*&lt;/code> Open Y releases.&lt;/li>
 &lt;/ol>
 &lt;h2 id="decoupling-mind-map">Decoupling mind-map&lt;/h2>
-&lt;p>&lt;img src="https://user-images.githubusercontent.com/563412/123959435-d540c880-d9b6-11eb-89ed-8af3f21095dd.png" alt="&amp;lt;code&amp;gt;Open Y decoupling&amp;lt;/code&amp;gt;" />&lt;/p></description></item><item><title>Docs: Dependencies in drupal info.yml</title><link>/docs/wiki/dependencies-in-drupal-info.yml/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/wiki/dependencies-in-drupal-info.yml/</guid><description>
+&lt;p>
+&lt;img src="https://user-images.githubusercontent.com/563412/123959435-d540c880-d9b6-11eb-89ed-8af3f21095dd.png" alt="&amp;lt;code&amp;gt;Open Y decoupling&amp;lt;/code&amp;gt;" />&lt;/p></description></item><item><title>Docs: Dependencies in drupal info.yml</title><link>/docs/wiki/dependencies-in-drupal-info.yml/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/wiki/dependencies-in-drupal-info.yml/</guid><description>
 &lt;p>In order to generate &lt;code>composer.json&lt;/code>, Drupal.org defines specific rules in the modules &lt;code>info.yml&lt;/code> file&lt;/p>
 &lt;p>If you need to add a dependency to the Drupal.org module you should provide a format:&lt;/p>
 &lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-yml" data-lang="yml">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#204a87;font-weight:bold">dependencies&lt;/span>&lt;span style="color:#000;font-weight:bold">:&lt;/span>&lt;span style="color:#f8f8f8;text-decoration:underline">
@@ -564,26 +566,31 @@
 &lt;li>Log in as admin.&lt;/li>
 &lt;li>Go to &lt;code>admin/modules&lt;/code> and enable the Open Y Search API module.&lt;/li>
 &lt;/ul>
-&lt;p>&lt;img src="https://user-images.githubusercontent.com/563412/142628630-b412aa4b-8f2b-42f6-ba06-c5bb6a78469c.png" alt="image" />&lt;/p>
+&lt;p>
+&lt;img src="https://user-images.githubusercontent.com/563412/142628630-b412aa4b-8f2b-42f6-ba06-c5bb6a78469c.png" alt="image" />&lt;/p>
 &lt;ul>
 &lt;li>Approve the next step for enabling Database Search.&lt;/li>
 &lt;/ul>
-&lt;p>&lt;img src="https://user-images.githubusercontent.com/563412/142628735-6aa409bd-5ff5-4305-a0f0-7f6bc96d0740.png" alt="image" />&lt;/p>
+&lt;p>
+&lt;img src="https://user-images.githubusercontent.com/563412/142628735-6aa409bd-5ff5-4305-a0f0-7f6bc96d0740.png" alt="image" />&lt;/p>
 &lt;ul>
 &lt;li>Go to the Search API configuration page &lt;code>admin/config/search/search-api&lt;/code>.&lt;/li>
 &lt;li>Verify that the &amp;ldquo;OpenY Database Search&amp;rdquo; server is enabled.&lt;/li>
 &lt;li>Visit &amp;ldquo;Search content&amp;rdquo; index.&lt;/li>
 &lt;/ul>
-&lt;p>&lt;img src="https://user-images.githubusercontent.com/563412/142629065-e13c8bb4-cad8-436f-93c6-30fa6ac6fdf7.png" alt="image" />&lt;/p>
+&lt;p>
+&lt;img src="https://user-images.githubusercontent.com/563412/142629065-e13c8bb4-cad8-436f-93c6-30fa6ac6fdf7.png" alt="image" />&lt;/p>
 &lt;p>tip: Admins can enable and the Solr search and switch the index between servers.&lt;/p>
 &lt;ul>
 &lt;li>Index content by clicking &amp;ldquo;Index now&amp;rdquo;.&lt;/li>
 &lt;/ul>
-&lt;p>&lt;img src="https://user-images.githubusercontent.com/563412/142629227-8607eeca-4022-47c4-b5fd-6e38ccfb7bab.png" alt="image" />&lt;/p>
+&lt;p>
+&lt;img src="https://user-images.githubusercontent.com/563412/142629227-8607eeca-4022-47c4-b5fd-6e38ccfb7bab.png" alt="image" />&lt;/p>
 &lt;ul>
 &lt;li>Go to the homepage and search for any keyword.&lt;/li>
 &lt;/ul>
-&lt;p>&lt;img src="https://user-images.githubusercontent.com/563412/142629467-e275b536-2505-4ddf-8d78-7c6f4ae0e716.png" alt="image" />&lt;/p>
+&lt;p>
+&lt;img src="https://user-images.githubusercontent.com/563412/142629467-e275b536-2505-4ddf-8d78-7c6f4ae0e716.png" alt="image" />&lt;/p>
 &lt;ul>
 &lt;li>Verify search results are displayed correctly.&lt;/li>
 &lt;/ul>
@@ -1018,7 +1025,8 @@ Basically - run a command under root&lt;/li>
 &lt;/ul>
 &lt;h3 id="release-schedule">Release schedule&lt;/h3>
 &lt;h4 id="2021">2021&lt;/h4>
-&lt;p>&lt;img src="https://user-images.githubusercontent.com/563412/104428684-6fd65800-558d-11eb-93b3-5c63e92ccd56.png" alt="OpenY/VirtualY Releases for 2021" />&lt;/p>
+&lt;p>
+&lt;img src="https://user-images.githubusercontent.com/563412/104428684-6fd65800-558d-11eb-93b3-5c63e92ccd56.png" alt="OpenY/VirtualY Releases for 2021" />&lt;/p>
 &lt;h4 id="prior-years">Prior years&lt;/h4>
 &lt;ul>
 &lt;li>
@@ -1124,7 +1132,8 @@ This Agreement shall be governed by, and construed in accordance with, the laws 
 &lt;p>Recently, the Open Y Core Team decided to sunset this functionality and remove &lt;code>openy_analytics&lt;/code> as well as &lt;code>openy_update&lt;/code> modules from the Open Y Distribution, as this feature was rarely used. By sunsetting this functionality, we reduced server load from Open Y instances and archive the analytics server.&lt;/p>
 &lt;h2 id="how-to-opt-out-from-analytics-subsystem">How to opt-out from analytics subsystem&lt;/h2>
 &lt;p>Visit Open Y -&amp;gt; Terms and Conditions in your Open Y site instance and uncheck the Optional Permissions checkbox&lt;/p>
-&lt;p>&lt;img src="https://user-images.githubusercontent.com/563412/130236284-5979a4fe-289c-4ccc-9c18-059d17d143e8.png" alt="image" />&lt;/p>
+&lt;p>
+&lt;img src="https://user-images.githubusercontent.com/563412/130236284-5979a4fe-289c-4ccc-9c18-059d17d143e8.png" alt="image" />&lt;/p>
 &lt;p>After submitting this form your site will stop sending anonymous data.&lt;/p>
 &lt;p>If the checkbox was not enabled just disregard it, you didn&amp;rsquo;t opt-in earlier.&lt;/p>
 &lt;h2 id="deprecation-action">Deprecation action&lt;/h2>
@@ -1177,7 +1186,8 @@ In case if all good proceed with a command below, which will patch your site:&lt
 &lt;a href="https://www.youtube.com/watch?v=V3K4-RLjxQo" target="_blank">https://www.youtube.com/watch?v=V3K4-RLjxQo&lt;/a> you should have your OPenY installed on you DigitalOcean server(droplet) in a predictable for current document folder. That&amp;rsquo;s why we prepared a short how to patch your OpenY site in a most simple way if you are not a Tech Guru, but just a user&lt;/p>
 &lt;ol>
 &lt;li>Log in as an admin user to your site admin UI by visiting &lt;code>/user/login&lt;/code> URI page.&lt;/li>
-&lt;li>Login to your DigitalOcean cloud console at digitalocean.com and find Access Console in the dropdown for the droplet you are using for the OpenY &lt;img src="https://user-images.githubusercontent.com/563412/38104705-b2ebf8fe-3392-11e8-8c27-55db3ed032ff.png" alt="image" />&lt;/li>
+&lt;li>Login to your DigitalOcean cloud console at digitalocean.com and find Access Console in the dropdown for the droplet you are using for the OpenY
+&lt;img src="https://user-images.githubusercontent.com/563412/38104705-b2ebf8fe-3392-11e8-8c27-55db3ed032ff.png" alt="image" />&lt;/li>
 &lt;li>You should see a popup window with a black screen where console asks you for the login. Use &lt;code>root&lt;/code> user and a password generated for you upon droplet creation.&lt;/li>
 &lt;li>After login to a console run the command below, respectively to the version of your Drupal core.&lt;/li>
 &lt;/ol>
@@ -1277,7 +1287,8 @@ In case if all good proceed with a command below, which will patch your site:&lt
 &lt;ol>
 &lt;li>Log in as an admin user to your site admin UI by visiting &lt;code>/user/login&lt;/code> URI page.&lt;/li>
 &lt;li>Go to &lt;code>/admin/reports/status&lt;/code> after login and search for Drupal Version string. It should be something like 8.2.x, 8.3.x or 8.4.x (x - some number too, like 8.4.2, for example). Based on your finding follow the steps below to your version&lt;/li>
-&lt;li>Login to your ВigitalOcean cloud console at digitalocean.com and find Access Console in the dropdown for the droplet you are using for the OpenY &lt;img src="https://user-images.githubusercontent.com/563412/38104705-b2ebf8fe-3392-11e8-8c27-55db3ed032ff.png" alt="image" />&lt;/li>
+&lt;li>Login to your ВigitalOcean cloud console at digitalocean.com and find Access Console in the dropdown for the droplet you are using for the OpenY
+&lt;img src="https://user-images.githubusercontent.com/563412/38104705-b2ebf8fe-3392-11e8-8c27-55db3ed032ff.png" alt="image" />&lt;/li>
 &lt;li>You should see a popup window with a black screen where console asks you for the login. Use &lt;code>root&lt;/code> user and a password generated for you upon droplet creation.&lt;/li>
 &lt;li>After login to a console run the command below, respectively to the version of your Drupal core.&lt;/li>
 &lt;/ol>
@@ -1498,7 +1509,8 @@ For previous versions the best way to check your version is to analyze creation 
 &lt;p>&lt;code>drush ev &amp;quot;Drupal::service('module_installer')-&amp;gt;install(['module_with_problem']);&amp;quot;&lt;/code>&lt;/p>
 &lt;h3 id="visit-openy-upgrade-tool-dashboard">Visit OpenY upgrade tool dashboard&lt;/h3>
 &lt;p>Review and revert or apply an updated version of the configs after the upgrade.&lt;/p>
-&lt;p>&lt;img src="https://user-images.githubusercontent.com/563412/55151463-01759b00-5157-11e9-878e-dc744698a021.png" alt="image" />&lt;/p>
+&lt;p>
+&lt;img src="https://user-images.githubusercontent.com/563412/55151463-01759b00-5157-11e9-878e-dc744698a021.png" alt="image" />&lt;/p>
 &lt;h3 id="check-for-regressions">Check for regressions&lt;/h3>
 &lt;p>In order to check for regressions during the upgrade, it is best to work with smoke tests. Open Y maintains the
 &lt;a href="https://docs.google.com/spreadsheets/d/1yLUkMgJKK94hABy107_V-1AcJbRSSEf2s4wsQto1wfI/edit?usp=sharing" target="_blank">smoke tests database document&lt;/a> you should use for the process.&lt;/p>
@@ -1710,9 +1722,12 @@ Given the fact
 &lt;li>&lt;code>drush ev &amp;quot;Drupal::service('module_installer')-&amp;gt;install(['openy']);&amp;quot;&lt;/code> &amp;lt;- This steps fixes some hidden bug when &lt;code>openy&lt;/code> profile removed from &lt;code>core.extension&lt;/code> configuration for unknown reason.&lt;/li>
 &lt;li>Manual step (optional, if you have issues with &lt;code>drush updatedb&lt;/code>): Edit all yml files in &lt;code>profiles&lt;/code> folder to comment &lt;code>media.type.image&lt;/code> , &lt;code>field.field.node.program.field_header_content&lt;/code>, &lt;code>field.field.node.branch.field_location_amenities&lt;/code> in dependencies sections.&lt;/li>
 &lt;/ul>
-&lt;p>&lt;img src="https://user-images.githubusercontent.com/563412/64005803-bc94cc80-cb19-11e9-8137-702d141c48e5.png" alt="image" />&lt;/p>
-&lt;p>&lt;img src="https://user-images.githubusercontent.com/563412/64005817-c1598080-cb19-11e9-8a04-9be0c7f3a15a.png" alt="image" />&lt;/p>
-&lt;p>&lt;img src="https://user-images.githubusercontent.com/563412/64005820-c61e3480-cb19-11e9-9853-dbad3c17d851.png" alt="image" />&lt;/p>
+&lt;p>
+&lt;img src="https://user-images.githubusercontent.com/563412/64005803-bc94cc80-cb19-11e9-8137-702d141c48e5.png" alt="image" />&lt;/p>
+&lt;p>
+&lt;img src="https://user-images.githubusercontent.com/563412/64005817-c1598080-cb19-11e9-8a04-9be0c7f3a15a.png" alt="image" />&lt;/p>
+&lt;p>
+&lt;img src="https://user-images.githubusercontent.com/563412/64005820-c61e3480-cb19-11e9-9853-dbad3c17d851.png" alt="image" />&lt;/p>
 &lt;ul>
 &lt;li>run &lt;code>drush updatedb -y&lt;/code> &amp;lt;- this will fail for the first time ( Media not installed yet ), disregard&lt;/li>
 &lt;li>run &lt;code>drush updatedb -y&lt;/code> &amp;lt;- this should run properly.&lt;/li>

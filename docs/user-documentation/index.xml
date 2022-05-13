@@ -1,14 +1,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Open Y – User Documentation</title><link>/docs/user-documentation/</link><description>Recent content in User Documentation on Open Y</description><generator>Hugo -- gohugo.io</generator><atom:link href="/docs/user-documentation/index.xml" rel="self" type="application/rss+xml"/><item><title>Docs: Text Editor</title><link>/docs/user-documentation/text-editor/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/user-documentation/text-editor/</guid><description>
-&lt;p>&lt;img src="/img/dd630632ed4ea5876a15d65709946e420ffb84d1.png" alt="blog-description__text-editor|690x307" />&lt;/p>
+&lt;p>
+&lt;figure class="image-caption">
+&lt;img alt="blog-description__text-editor|690x307" srcset="
+/img/dd630632ed4ea5876a15d65709946e420ffb84d1_huc1ff945e4c07bb7c06e5b311f9206b5e_163594_8a5d01c472a380d37a48f3257e676a80.png 458w,
+/img/dd630632ed4ea5876a15d65709946e420ffb84d1_huc1ff945e4c07bb7c06e5b311f9206b5e_163594_e724d9cfbc23d9c821319870092c8531.png 726w,
+/img/dd630632ed4ea5876a15d65709946e420ffb84d1_huc1ff945e4c07bb7c06e5b311f9206b5e_163594_1200x664_fit_catmullrom_3.png 1200w" sizes="50vw" src="/img/dd630632ed4ea5876a15d65709946e420ffb84d1_huc1ff945e4c07bb7c06e5b311f9206b5e_163594_8a5d01c472a380d37a48f3257e676a80.png" />
+&lt;figcaption>&lt;/figcaption>
+&lt;/figure>
+&lt;/p>
 &lt;p>&lt;em>The description field inside a blog is an example of the WYISWYG Editor in action.&lt;/em>&lt;/p>
 &lt;p>
 &lt;a href="https://www.optimizely.com/optimization-glossary/content-management-system/" target="_blank">If you have worked in a Content Management System&lt;/a> like Drupal, Wordpress or Joomla!, you are likely familiar with what a text editor does. This tool allows you the flexibility to format content however you want within a certain container or area.&lt;/p>
-&lt;p>&lt;img src="/img/4e7d30e968474e737d679c2f2a9081a91bc8d9c0.png" alt="blog-description_text-editor-example|690x385" />&lt;/p>
+&lt;p>
+&lt;figure class="image-caption">
+&lt;img alt="blog-description_text-editor-example|690x385" srcset="
+/img/4e7d30e968474e737d679c2f2a9081a91bc8d9c0_hubd96fbbe88e1289c7af25253e3128047_431817_0106eba4be64b7d777a5a0097ab1df28.png 458w,
+/img/4e7d30e968474e737d679c2f2a9081a91bc8d9c0_hubd96fbbe88e1289c7af25253e3128047_431817_63491b4903511dc0a84bc9bb191d101a.png 726w,
+/img/4e7d30e968474e737d679c2f2a9081a91bc8d9c0_hubd96fbbe88e1289c7af25253e3128047_431817_1200x664_fit_catmullrom_3.png 1200w" sizes="50vw" src="/img/4e7d30e968474e737d679c2f2a9081a91bc8d9c0_hubd96fbbe88e1289c7af25253e3128047_431817_0106eba4be64b7d777a5a0097ab1df28.png" />
+&lt;figcaption>&lt;/figcaption>
+&lt;/figure>
+&lt;/p>
 &lt;p>
 &lt;a href="https://ckeditor.com/ckeditor-4/demo/#article" target="_blank">Open Y&amp;rsquo;s text editor (CKEditor)&lt;/a> provides a number of different buttons for styling and formatting, as well as a Source editor if you are so inclined to use HTML.&lt;/p></description></item><item><title>Docs: Page/Content Types</title><link>/docs/user-documentation/content-types/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/user-documentation/content-types/</guid><description/></item><item><title>Docs: Blocks</title><link>/docs/user-documentation/blocks/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/user-documentation/blocks/</guid><description>
 &lt;h2 id="how-to-use-blocks">How to Use Blocks&lt;/h2>
 &lt;p>A block works like this - you choose a paragraph, and that paragraph asks you to create a block. You write a section of content inside that block.&lt;/p>
-&lt;p>&lt;img src="upload://oJpAbSjT6RA1hMjvOTQxUwdozRd.gif" alt="landing-page__2-column-block|690x290, 75%" />&lt;/p>
+&lt;p>
+&lt;img src="upload://oJpAbSjT6RA1hMjvOTQxUwdozRd.gif" alt="landing-page__2-column-block|690x290, 75%" />&lt;/p>
 &lt;p>You can now embed that block on another page simply by typing its name and click on it from a list of results.&lt;/p>
 &lt;div class="alert alert-primary" role="alert">
 &lt;h3 id="site-wide-blocks">Site-wide Blocks&lt;/h3>
@@ -18,10 +35,12 @@
 &lt;/div>
 &lt;p>Paragraphs that support blocks will have two buttons - “Add New Custom Block” and “Add Existing Custom Block.”.&lt;/p>
 &lt;p>Adding a new custom block will allow you to retrieve it later on another page. When you go to retrieve a block, you will choose the “Existing Custom Block” option, type the Block Description in the search field, and choose from one of the options that appear.&lt;/p>
-&lt;p>&lt;img src="upload://ktYOhlTNPOWqDCppafNF3eKl07r.gif" alt="admin__date-block&amp;amp;ndash;exsiting-block|690x143, 75%" />&lt;/p>
+&lt;p>
+&lt;img src="upload://ktYOhlTNPOWqDCppafNF3eKl07r.gif" alt="admin__date-block&amp;amp;ndash;exsiting-block|690x143, 75%" />&lt;/p>
 &lt;h3 id="block-descriptions">Block Descriptions&lt;/h3>
 &lt;p>Standard across all block types is the block description field, which serves as the name for your block. Use this description field to help identify your block when you are embedding it onto a page.&lt;/p>
-&lt;p>&lt;img src="upload://uDDl7bJrFreiiN5nboh5MaOOWMF.png" alt="admin&amp;amp;ndash;code__block__cropped|690x155, 50%" />&lt;/p>
+&lt;p>
+&lt;img src="upload://uDDl7bJrFreiiN5nboh5MaOOWMF.png" alt="admin&amp;amp;ndash;code__block__cropped|690x155, 50%" />&lt;/p>
 &lt;h2 id="block-types">Block Types&lt;/h2>
 &lt;p>Open Y not only allows you to use blocks, but it supports different types of blocks for different types of content.&lt;/p>
 &lt;h3 id="basic-block">Basic Block&lt;/h3>
@@ -30,7 +49,8 @@
 &lt;h3 id="simple-block">Simple Block&lt;/h3>
 &lt;p>The block type you will likely use most often is the simple block. A simple block gives you a
 &lt;a href="https://community.openymca.org/t/introduction-text-editor-open-y-user-docs/643" target="_blank">basic text editor and that’s it.&lt;/a> This is great for embedding descriptions on cards across multiple pages.&lt;/p>
-&lt;p>&lt;img src="upload://8ztiCyU8UuDvYi6E3SjEthQEFQ.gif" alt="landing-page__1-column-demo-block|690x474, 75%" />&lt;/p>
+&lt;p>
+&lt;img src="upload://8ztiCyU8UuDvYi6E3SjEthQEFQ.gif" alt="landing-page__1-column-demo-block|690x474, 75%" />&lt;/p>
 &lt;h4 id="paragraphs-that-support-simple-blocks">Paragraphs that Support Simple Blocks&lt;/h4>
 &lt;ul>
 &lt;li>
@@ -60,7 +80,8 @@
 &lt;li>&lt;em>Sidebar Area&lt;/em> - Where you put related information, such as promotions and links to other content.&lt;/li>
 &lt;li>&lt;em>Bottom Area&lt;/em> - The “anchoring” elements of your page, such as a call to action.&lt;/li>
 &lt;/ul>
-&lt;p>&lt;img src="upload://nuI2Q27pR437LWvdUifiQg3nRJX.gif" alt="Choose a paragraph by selecting an area and picking an option from the dropdown., 75%" />&lt;/p>
+&lt;p>
+&lt;img src="upload://nuI2Q27pR437LWvdUifiQg3nRJX.gif" alt="Choose a paragraph by selecting an area and picking an option from the dropdown., 75%" />&lt;/p>
 &lt;blockquote>
 &lt;p>Not all content types use all four regions. For example, a content type use its fields to put content inside the Sidebar Area, while another may have a sidebar area but use its Image field instead of a Header Area&lt;/p>
 &lt;/blockquote>
@@ -85,12 +106,15 @@
 &lt;/div>
 &lt;h2 id="rearranging-paragraphs">Rearranging Paragraphs&lt;/h2>
 &lt;p>Sometimes you have one layout in your head and it doesn’t look as good when you add it to your page. You can easily move around your sections by clicking on the cross icon to the left of your paragraphs. Drag around your paragraphs to rearrange.&lt;/p>
-&lt;p>&lt;img src="upload://A2aXQz2GyNGt0O2bPQ80DgF5eZX.gif" alt="Just drag your paragraphs to rearrange them.,75%" />&lt;/p>
+&lt;p>
+&lt;img src="upload://A2aXQz2GyNGt0O2bPQ80DgF5eZX.gif" alt="Just drag your paragraphs to rearrange them.,75%" />&lt;/p>
 &lt;h2 id="editing-paragraphs">Editing Paragraphs&lt;/h2>
-&lt;p>&lt;img src="upload://l08kRV3xp03b5XGVaGA50lGYnT.gif" alt="Click the edit button next to a paragraph to edit it., 75%" />&lt;/p>
+&lt;p>
+&lt;img src="upload://l08kRV3xp03b5XGVaGA50lGYnT.gif" alt="Click the edit button next to a paragraph to edit it., 75%" />&lt;/p>
 &lt;p>Need to fix a typo? Click the edit button next to each paragraph to open it back up and make edits.&lt;/p>
 &lt;h2 id="deleting-paragraphs">Deleting Paragraphs&lt;/h2>
-&lt;p>&lt;img src="upload://2dIYO5spDIKgtJu0rMvLURIV0Sy.gif" alt="Remove a paragraph and confirm to delete it from your layout, 75%" />&lt;/p>
+&lt;p>
+&lt;img src="upload://2dIYO5spDIKgtJu0rMvLURIV0Sy.gif" alt="Remove a paragraph and confirm to delete it from your layout, 75%" />&lt;/p>
 &lt;p>Maybe you didn’t need that section. Don’t worry: you can easily delete a paragraph by clicking on the remove option from the dropdown next to where it says “Edit.”&lt;/p>
 &lt;h3 id="choosing-the-right-paragraph-type">Choosing the Right Paragraph Type&lt;/h3>
 &lt;p>Open Y comes with more than 50 paragraph types, and depending on your partner’s customizations, you may have even more. This documentation will focus the types that come out of the box with Open Y and how to use them.&lt;/p></description></item><item><title>Docs: Taxonomy, Vocabularies, and Terms</title><link>/docs/user-documentation/taxonomy/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/user-documentation/taxonomy/</guid><description>
@@ -102,10 +126,13 @@
 &lt;p>Each list is called a &lt;em>Vocabulary&lt;/em>, while each item in your list is called a &lt;em>Term&lt;/em>. Terms comprise a Term Name and any additional data/settings for that particular vocabulary (see below in &lt;em>Vocabularies in Open Y&lt;/em> for details).&lt;/p>
 &lt;h2 id="how-to-edit-vocabulary-lists">How to Edit Vocabulary Lists&lt;/h2>
 &lt;p>Go to Structure &amp;gt; Taxonomy. When you find the Vocabulary you want to edit, click &lt;em>List Terms&lt;/em>.&lt;/p>
-&lt;p>&lt;img src="upload://ysqQNZfvbOA1GfGuG1k688gdwMb.png" alt="admin__admin-menu&amp;amp;ndash;taxonomy|196x500, 100%" />&lt;/p>
-&lt;p>&lt;img src="upload://w9cQW8E5VPxzuCIjN7Zyk57s1e4.png" alt="admin__taxonomy&amp;amp;ndash;vocabulary-options|450x240, 50%" />&lt;/p>
+&lt;p>
+&lt;img src="upload://ysqQNZfvbOA1GfGuG1k688gdwMb.png" alt="admin__admin-menu&amp;amp;ndash;taxonomy|196x500, 100%" />&lt;/p>
+&lt;p>
+&lt;img src="upload://w9cQW8E5VPxzuCIjN7Zyk57s1e4.png" alt="admin__taxonomy&amp;amp;ndash;vocabulary-options|450x240, 50%" />&lt;/p>
 &lt;p>You can rearrange your terms by hovering your mouse over the cross icon and dragging them. This will determine the order in which they appear. By default these are alphabetical.&lt;/p>
-&lt;p>&lt;img src="upload://hsx5RCE7klxneULzPMwaakbj4Y8.gif" alt="admin__taxonomy&amp;amp;ndash;rearrange|662x204, 75%" />&lt;/p>
+&lt;p>
+&lt;img src="upload://hsx5RCE7klxneULzPMwaakbj4Y8.gif" alt="admin__taxonomy&amp;amp;ndash;rearrange|662x204, 75%" />&lt;/p>
 &lt;p>Moving a term to the right will &amp;ldquo;nest&amp;rdquo; it underneath another term, making it a &amp;ldquo;child&amp;rdquo; to that term.&lt;/p>
 &lt;h2 id="addingediting-terms">Adding/Editing Terms&lt;/h2>
 &lt;p>Click on &lt;em>Edit&lt;/em> to make changes to an existing item or &lt;em>Add Term&lt;/em> to add a new one.&lt;/p>
@@ -115,19 +142,23 @@
 &lt;blockquote>
 &lt;h3 id="term-example---grey-color">Term Example - Grey Color&lt;/h3>
 &lt;p>The &lt;em>Color&lt;/em> Vocabulary provides a standard list of color options across your website, such as in a background color for your header.&lt;/p>
-&lt;p>&lt;img src="upload://le6o5669677wGUVltFKYLhLDLgM.png" alt="admin__taxonomy&amp;amp;ndash;color-vocabulary&amp;amp;ndash;select|258x500, 75%" />
+&lt;p>
+&lt;img src="upload://le6o5669677wGUVltFKYLhLDLgM.png" alt="admin__taxonomy&amp;amp;ndash;color-vocabulary&amp;amp;ndash;select|258x500, 75%" />
 To change your shade of grey, you would go to Structure &amp;gt; Taxonomy &amp;gt; Color &amp;gt; Grey.&lt;/p>
 &lt;p>Below the name of your Grey term, you&amp;rsquo;ll find a color widget where you can change your standard shade of Grey across your site.&lt;/p>
 &lt;p>In this example, you can change the color of the &lt;em>Grey&lt;/em> term in the &lt;em>Color&lt;/em> Vocabulary using a Color widget.&lt;/p>
 &lt;/blockquote>
 &lt;/div>
-&lt;p>&lt;img src="upload://dIrOibHH8SybbqhEhLrPHuUjxUW.png" alt="admin__taxonomy&amp;amp;ndash;color-vocabulary&amp;amp;ndash;grey-edit|358x500, 75%" /> &lt;img src="upload://9fEEt5uojLqeXghql0KsL8X9aUv.png" alt="admin__taxonomy&amp;amp;ndash;color-vocabulary&amp;amp;ndash;grey-edit-1|690x365, 75%" />&lt;/p>
+&lt;p>
+&lt;img src="upload://dIrOibHH8SybbqhEhLrPHuUjxUW.png" alt="admin__taxonomy&amp;amp;ndash;color-vocabulary&amp;amp;ndash;grey-edit|358x500, 75%" />
+&lt;img src="upload://9fEEt5uojLqeXghql0KsL8X9aUv.png" alt="admin__taxonomy&amp;amp;ndash;color-vocabulary&amp;amp;ndash;grey-edit-1|690x365, 75%" />&lt;/p>
 &lt;h2 id="vocabularies-in-open-y">Vocabularies in Open Y&lt;/h2>
 &lt;p>Because Vocabularies are lists of categories, how they will show up depends on which Vocabulary you use.&lt;/p>
 &lt;h3 id="amenities">Amenities&lt;/h3>
 &lt;p>Used for tagging
 &lt;a href="https://community.openymca.org/t/branch-content-types-open-y-user-docs/685" target="_blank">branches&lt;/a> with amenities. Amenities display on a branch page and as a filter on a locations page.&lt;/p>
-&lt;p>&lt;img src="upload://y3WRDOOAU8jEfKW8tic27bWtYS.png" alt="carnation&amp;amp;ndash;landing-page__locations|690x396, 75%" />&lt;/p>
+&lt;p>
+&lt;img src="upload://y3WRDOOAU8jEfKW8tic27bWtYS.png" alt="carnation&amp;amp;ndash;landing-page__locations|690x396, 75%" />&lt;/p>
 &lt;h3 id="color">Color&lt;/h3>
 &lt;p>As mentioned above, Color is a list of colors you can use across your site, primarily in your page headers, small
 &lt;a href="https://community.openymca.org/t/small-banner-paragraphs-open-y-user-docs/725/2" target="_blank">banners&lt;/a>,
