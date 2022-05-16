@@ -576,7 +576,39 @@ request, on every CI build in the future.&lt;/p>
 &lt;p>Add the “Activity Finder Search Results” paragraph into your content area and leave the “Activity Finder Page Reference” field blank. Save your page.&lt;/p>
 &lt;p>Read: Deep-linking to an Activity Finder Program Search results page &amp;gt;&lt;/p>
 &lt;p>Targeted Approach&lt;/p>
-&lt;p>Activity Finder can also be used on multiple pages on your site, specifically on your Program Subcategory pages. On a Subcategory page, add the “Activity Finder” paragraph&lt;/p></description></item><item><title>Docs: Activity, Class, and Session</title><link>/docs/user-documentation/content-types/activity-class-session/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/user-documentation/content-types/activity-class-session/</guid><description/></item><item><title>Docs: Adding and Embedding Videos</title><link>/docs/user-documentation/text-editor/adding-embedding-videos/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/user-documentation/text-editor/adding-embedding-videos/</guid><description>
+&lt;p>Activity Finder can also be used on multiple pages on your site, specifically on your Program Subcategory pages. On a Subcategory page, add the “Activity Finder” paragraph&lt;/p></description></item><item><title>Docs: Activity, Class, and Session</title><link>/docs/user-documentation/content-types/activity-class-session/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/user-documentation/content-types/activity-class-session/</guid><description>
+&lt;blockquote>
+&lt;p>These content types format data/content pulled from third parties, such as Daxko, Personify and ActiveNet, for display in Open Y.&lt;/p>
+&lt;/blockquote>
+&lt;p>Content editors rarely, if ever, enter information directly into these content types on a day-to-day basis. However, it is important to know how they work and how they relate to manually-entered content.&lt;/p>
+&lt;blockquote>
+&lt;p>&lt;strong>Example - Swim Lessons&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>Swimming and Aquatics (Program Page, manually entered)&lt;/li>
+&lt;li>Swim Lessons (Program Subcategory Page, manually entered)&lt;/li>
+&lt;li>Youth Group Swim Lessons (Activity, mapped from CRM or custom automation)&lt;/li>
+&lt;li>Stage 3 (Class, mapped from CRM)&lt;/li>
+&lt;li>Monday/Wednesday/Friday 9:30-10 a.m. at Franklin Family YMCA (Session, mapped from CRM)&lt;/li>
+&lt;/ul>
+&lt;p>&lt;em>Note: This is an example only. Depending on your CRM and any customizations you make, your setup for Swim Lessons or any program may look different that the example listed above.&lt;/em>&lt;/p>
+&lt;/blockquote>
+&lt;h2 id="activity">Activity&lt;/h2>
+&lt;p>Often used as the top-level filter in Activity Finder and Repeat Schedules, Activity consists of three fields:&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>Title&lt;/strong>: The name of the Activity (and the filter in Activity Finder).&lt;/li>
+&lt;li>&lt;strong>Program subcategory&lt;/strong>: An &lt;em>entity reference&lt;/em> to or tag for a
+&lt;a href="https://community.openymca.org/t/program-subcategory-content-types-open-y-user-docs/692" target="_blank">Program Subcategory&lt;/a>. Maps the Activity to higher-levels of user-entered content.
+*&lt;strong>Description:&lt;/strong> A description for the Activity. Usually pulled from a description in a CRM through an API.&lt;/li>
+&lt;/ul>
+&lt;h2 id="class">Class&lt;/h2>
+&lt;p>A narrower selection of Program Offerings. Not an individual instance, but a smaller selection of instances.&lt;/p>
+&lt;p>Classes have three ields that map into Activity Finder and Repeat Schedules: a &lt;em>description&lt;/em>, a &lt;em>title&lt;/em> and &lt;em>entity reference/tag&lt;/em> to an Activity.&lt;/p>
+&lt;blockquote>
+&lt;p>Class also contains Areas for content editors to add paragraphs; however, depending on how your CRM and the number of programs your Y runs, it may not be practical use these fields.&lt;/p>
+&lt;/blockquote>
+&lt;h2 id="session">Session&lt;/h2>
+&lt;p>An individual program offering. Contains fields for pricing, session date/time, instructor, ages and a registration link. This are the individual rows/instances in Repeat Schedules and
+&lt;a href="https://community.openymca.org/t/activity-finder-activity-finder-search-paragraphs-open-y-user-docs/702" target="_blank">Activity Finder&lt;/a>.&lt;/p></description></item><item><title>Docs: Adding and Embedding Videos</title><link>/docs/user-documentation/text-editor/adding-embedding-videos/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/user-documentation/text-editor/adding-embedding-videos/</guid><description>
 &lt;h1 id="addingembedding-videos-with-the-open-y-text-editor">Adding/Embedding Videos with the Open Y Text Editor&lt;/h1>
 &lt;p>Open Y allows you to upload and embed images directly into a block of text, either from your computer or from the Open Y media library and browser.&lt;/p>
 &lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
@@ -858,7 +890,63 @@ Links are simple in Open Y - just highlight your text and click the link icon or
 &lt;/table>
 &lt;h3 id="url-pattern">URL pattern&lt;/h3>
 &lt;p>Content type is using following pattern:
-&lt;code>/alert/[node:title]&lt;/code>.&lt;/p></description></item><item><title>Docs: Alert</title><link>/docs/user-documentation/content-types/alert/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/user-documentation/content-types/alert/</guid><description/></item><item><title>Docs: All Amenities</title><link>/docs/content-structure/paragraphs/all-amenities/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/content-structure/paragraphs/all-amenities/</guid><description>
+&lt;code>/alert/[node:title]&lt;/code>.&lt;/p></description></item><item><title>Docs: Alert</title><link>/docs/user-documentation/content-types/alert/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/user-documentation/content-types/alert/</guid><description>
+&lt;blockquote>
+&lt;p>Alerts display timely information in a thin banner across your site, just below the header or above the footer.&lt;/p>
+&lt;/blockquote>
+&lt;p>
+&lt;img src="upload://4xCXyDaACMFdZrLgm2X88iV7AEY.png" alt="Screen Shot 2020-03-24 at 10.07.11 PM|690x67" />&lt;/p>
+&lt;p>Unlike most content types in Open Y, you don&amp;rsquo;t use Alert to create pages. Instead, Alerts display as a &lt;em>rendered entity&lt;/em> or a section of content on other pages.&lt;/p>
+&lt;p>Alerts also don&amp;rsquo;t use paragraphs. By design, the layout of Alerts are rigid; however, text editor and the the color options listed below allow content editors some flexibility.&lt;/p>
+&lt;h2 id="when-should-you-use-an-alert">When Should You Use an Alert?&lt;/h2>
+&lt;ul>
+&lt;li>Timely updates for centers, such as when your hours change or facilities close.&lt;/li>
+&lt;li>Marketing promotions, such as for membership campaigns or even promotions.&lt;/li>
+&lt;/ul>
+&lt;h2 id="how-to-use-an-alert">How to Use an Alert&lt;/h2>
+&lt;p>Click on &amp;ldquo;Content&amp;rdquo; from your admin toolbar, and then click on the blue &amp;ldquo;Add Content&amp;rdquo; button.&amp;quot; Select &amp;ldquo;Alert&amp;rdquo; on the next page.&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;strong>Title&lt;/strong>: Displays as the headline for your alert.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>Description&lt;/strong>: The main body of your alert. Sentences should be short and minimally styled in this section. Uses
+&lt;a href="https://community.openymca.org/c/Resources-and-training-for-content-editors/Learn-how-to-use-the-basic-text-editing-functions-available-to-content-editors" target="_blank">the Open Y Text Editor&lt;/a>.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>Color Fields&lt;/strong>: These three dropdown fields control different aspects of color in your alert. All three dropdowns reference the
+&lt;a href="http://#" target="_blank">the Open Y color vocabulary&lt;/a>.&lt;/p>
+&lt;ul>
+&lt;li>&lt;em>&lt;strong>Background Color&lt;/strong>&lt;/em>: The color of your alert.&lt;/li>
+&lt;li>&lt;em>&lt;strong>Text Color&lt;/strong>&lt;/em>: Stick to using either black or white for accessibility.&lt;/li>
+&lt;li>&lt;em>&lt;strong>Icon Color&lt;/strong>&lt;/em>: Changes the appearance of the icon to the left of the title.&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>Link&lt;/strong>: Adds a button with a call to action to the alert on the right. Button color defaults to black.
+&lt;a href="http://#" target="_blank">Learn more about the link field ⇒&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>Placement&lt;/strong>: Choose &amp;ldquo;Header&amp;rdquo; to show your alert above your main content or &amp;ldquo;Footer&amp;rdquo; to show below your main content.&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;p>
+&lt;img src="upload://akUU32T0jawWJ1Q3y5ez8zDaQfT.gif" alt="admin__alert&amp;amp;ndash;dropdowns|662x396, 75%" />&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;strong>Visibility pages&lt;/strong>: This is where you control where the alert displays on your site. In the large text field, you write the relative path of the pages where you want this to appear or not appear. Enter each path on a new line.&lt;/p>
+&lt;p>You also have the option to use an asterisk character &lt;code>*&lt;/code> as a wildcard so you don&amp;rsquo;t have to enter in a large number of relative paths. For example, if you wanted to add an alert to a &lt;code>/health-and-fitness&lt;/code> section, you would enter &lt;code>/health-and-fitness*&lt;/code> in the text area.&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;p>
+&lt;img src="upload://epmNM8LN0t7cT4thANWpfOP0mge.gif" alt="admin__alert&amp;amp;ndash;visibility-pages|320x191" />&lt;/p>
+&lt;blockquote>
+&lt;p>&lt;strong>What is a relative path?&lt;/strong>
+A &lt;em>relative path&lt;/em> is the part of your url after your &lt;em>domain name.&lt;/em>&lt;/p>
+&lt;p>At
+&lt;a href="https://openy.org/community" target="_blank">https://openy.org/community&lt;/a>, for example, the &lt;em>domain name&lt;/em> is &lt;strong>&lt;code>openy.org&lt;/code>&lt;/strong>, while the &lt;em>relative path&lt;/em> is &lt;strong>&lt;code>/community&lt;/code>&lt;/strong>.&lt;/p>
+&lt;/blockquote>
+&lt;p>Using the &lt;strong>Alert visibility state&lt;/strong> radio buttons at the bottom, you can either show or hide your alert from the page paths listed in the text area above.&lt;/p></description></item><item><title>Docs: All Amenities</title><link>/docs/content-structure/paragraphs/all-amenities/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/content-structure/paragraphs/all-amenities/</guid><description>
 &lt;p>Provide a paragraph with a table view shows list of Branches.&lt;/p>
 &lt;h3 id="fields">Fields&lt;/h3>
 &lt;table>
@@ -1210,7 +1298,82 @@ Links are simple in Open Y - just highlight your text and click the link icon or
 &lt;p>Content type is using following pattern:
 &lt;code>/blog/[node:title]&lt;/code>&lt;/p></description></item><item><title>Docs: Blog Category</title><link>/docs/content-structure/taxonomy/blog-category/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/content-structure/taxonomy/blog-category/</guid><description>
 &lt;p>This is a vocabulary that will be used for adding blog categories on the site.&lt;/p>
-&lt;p>&lt;strong>Machine_name&lt;/strong>: blog_category&lt;/p></description></item><item><title>Docs: Blog Post</title><link>/docs/user-documentation/content-types/blog-post/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/user-documentation/content-types/blog-post/</guid><description/></item><item><title>Docs: Blog Posts Listing</title><link>/docs/content-structure/paragraphs/blog-posts-listing/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/content-structure/paragraphs/blog-posts-listing/</guid><description>
+&lt;p>&lt;strong>Machine_name&lt;/strong>: blog_category&lt;/p></description></item><item><title>Docs: Blog Post</title><link>/docs/user-documentation/content-types/blog-post/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/user-documentation/content-types/blog-post/</guid><description>
+&lt;blockquote>
+&lt;p>Designed for timely content, articles and news pieces tagged with one or more physical locations.&lt;/p>
+&lt;p>&lt;em>Note: This Content Type is
+&lt;a href="https://community.openymca.org/t/news-post-content-types-open-y-user-docs/694" target="_blank">similar to the News Post content type&lt;/a>.&lt;/em>&lt;/p>
+&lt;/blockquote>
+&lt;p>
+&lt;img src="upload://Rkgdb0hjyEt9lLUjFxWtTDGmZE.jpeg" alt="carnation&amp;amp;ndash;blog&amp;amp;ndash;desktop|690x479, 75%" />&lt;/p>
+&lt;p>Blog posts in Open Y allow you the flexibility to both create simple posts using only the text editor and more robust layouts with paragraphs.&lt;/p>
+&lt;h2 id="when-should-i-use-a-blog-post">When Should I Use a Blog Post?&lt;/h2>
+&lt;p>When you decide to use a blog post
+&lt;a href="https://www.youtube.com/watch?v=myGNK_qUGDM" target="_blank">depends greatly on your Association&amp;rsquo;s content strategy&lt;/a>. However, blog posts are designed so you can post timely pages and list them throughout your site. Examples of blogs may include:&lt;/p>
+&lt;ul>
+&lt;li>Member Stories&lt;/li>
+&lt;li>Workouts and Recipes&lt;/li>
+&lt;li>Updates about a Center/Branch&lt;/li>
+&lt;li>Promotions and Contests&lt;/li>
+&lt;li>Press Releases&lt;/li>
+&lt;/ul>
+&lt;h2 id="how-do-i-use-a-blog-post">How Do I Use a Blog Post?&lt;/h2>
+&lt;p>There are three fields that appear above the accordion tabs below:&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;strong>Title&lt;/strong>: The name of the blog. Displays in the header area on your blog post and in
+&lt;a href="https://community.openymca.org/t/blog-posts-paragraphs-open-y-user-docs/705" target="_blank">the cards that display in a list of blogs&lt;/a>.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>Locations&lt;/strong>: An &lt;em>option select&lt;/em> for you to tag a post with one or more locations (Camp or Branch). Use Ctrl+Click (Windows) or Cmd⌘+Click (Mac) to select multiple locations.&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;blockquote>
+&lt;p>Each time you create a new Branch Page or Camp Page it populates into the locations field automatically&lt;/p>
+&lt;/blockquote>
+&lt;ul>
+&lt;li>&lt;strong>Category&lt;/strong>: An &lt;em>entity reference&lt;/em> to
+&lt;a href="https://community.openymca.org/t/taxonomy-vocabularies-and-terms-website-structure-open-y-user-docs/734" target="_blank">the Blog Category vocabulary&lt;/a>. Type in the name of the category and select from the options that appear, or create a new category/term by typing in a new one.&lt;/li>
+&lt;/ul>
+&lt;p>
+&lt;img src="upload://jwO81z5xCJqqZQwPTRIoyRgNmwW.gif" alt="admin&amp;amp;ndash;blog-posts__category|662x204, 75%" />&lt;/p>
+&lt;h3 id="style">Style&lt;/h3>
+&lt;p>This dropdown changes the style of the post&amp;rsquo;s card when it appears in a listing format. This dropdown does not affect any layouts on the page.&lt;/p>
+&lt;p>
+&lt;img src="upload://cPN5q42rJ6WDOnkaQJ9eLyTdlZO.png" alt="admin&amp;amp;ndash;blog-post__style|564x434, 50%" />
+&lt;strong>####&lt;/strong> Story Card
+&lt;img src="upload://oJLrZIvtwSuBB7Jpu5nB8zki5X9.png" alt="carnation&amp;amp;ndash;landing-page__blog-posts&amp;amp;ndash;story-card|610x500, 50%" />
+&lt;img src="upload://i3yBTJgILl00OKqXi5fWd6VAmT8.png" alt="lily&amp;amp;ndash;landing-page__blog-posts&amp;amp;ndash;story-card|394x500, 50%" />&lt;/p>
+&lt;p>&lt;strong>####&lt;/strong> Photo Card
+&lt;img src="upload://tCqVbj1a1LnF1vt47REP84d7LYA.png" alt="carnation&amp;amp;ndash;landing-page__blog-listing&amp;amp;ndash;photo-card|590x500, 50%" />
+&lt;img src="upload://5FmyMqI53U1GhHWF7ehlqyQq8hg.png" alt="lily&amp;amp;ndash;landing-page__blog-posts&amp;amp;ndash;photo-card|434x500, 50%" />&lt;/p>
+&lt;p>&lt;strong>####&lt;/strong> News Card
+&lt;img src="upload://z5Ez1sNgStJPfGzD6lKSzwLFeii.png" alt="carnation&amp;amp;ndash;landing-page__blog-listing&amp;amp;ndash;news-card|590x500, 50%" />&lt;/p>
+&lt;p>&lt;strong>####&lt;/strong> Color Card
+When choosing color card, you are presented with two styling options in dropdowns. Both are &lt;em>entity references&lt;/em> to
+&lt;a href="https://community.openymca.org/t/taxonomy-vocabularies-and-terms-website-structure-open-y-user-docs/734" target="_blank">the Color vocabulary&lt;/a>:&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>Background color&lt;/strong>: Changes the color of the card.&lt;/li>
+&lt;li>&lt;strong>Text color&lt;/strong>: Changes the color of the text. It&amp;rsquo;s recommended you only use white or black.&lt;/li>
+&lt;/ul>
+&lt;h3 id="content-area">Content Area&lt;/h3>
+&lt;p>The content area is the main body of your page. You can use the default fields entered below for a simple block post or build a more robust layout using paragraphs.&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;strong>Image&lt;/strong>: Displays above your description and inside a Photo Card. Not required. Uses the
+&lt;a href="https://community.openymca.org/t/video-tutorials-for-images-and-documents/738" target="_blank">media browser and image field.&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>Description&lt;/strong>:
+&lt;a href="https://community.openymca.org/t/introduction-text-editor-open-y-user-docs/643" target="_blank">Using the Open Y text editor&lt;/a>, you can enter anything from a brief summary to the entire body of your text.
+&lt;img src="upload://zhby7Do2LGR6ZscauU8bVJdUB8h.png" alt="carnation&amp;amp;ndash;landing-page__blog-posts&amp;amp;ndash;color-card&amp;amp;ndash;green|590x500, 50%" />
+&lt;img src="upload://48cFIYzzKbvW4UQushKjT8etmSS.png" alt="lily&amp;amp;ndash;landing-page__blog-posts&amp;amp;ndash;color-card&amp;amp;ndash;green|434x500, 50%" />&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;h3 id="sidebar-area">Sidebar Area&lt;/h3>
+&lt;p>The sidebar area also allows you embed paragraphs below a section that links to the centers tagged in the post, the categories and a &lt;em>Related Content field&lt;/em> that allows you to promote other Blog Posts by tagging them with the autocomplete widget.&lt;/p>
+&lt;h3 id="layouts">Layouts&lt;/h3>
+&lt;p>While you have the option to build layouts in blog posts using paragraphs, all blog posts are strictly two-column layouts. The Content Area displays on the left while the Sidebar Area displays on the right.&lt;/p></description></item><item><title>Docs: Blog Posts Listing</title><link>/docs/content-structure/paragraphs/blog-posts-listing/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/content-structure/paragraphs/blog-posts-listing/</guid><description>
 &lt;p>This is dynamic paragraph that renders the latest blog posts and utilizes exposed filters.&lt;/p>
 &lt;ul>
 &lt;li>Location&lt;/li>
@@ -1429,7 +1592,105 @@ Links are simple in Open Y - just highlight your text and click the link icon or
 &lt;/table>
 &lt;h3 id="url-pattern">URL pattern&lt;/h3>
 &lt;p>Content type is using following pattern:
-&lt;code>/locations/[node:title]&lt;/code>&lt;/p></description></item><item><title>Docs: Branch</title><link>/docs/user-documentation/content-types/branch/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/user-documentation/content-types/branch/</guid><description/></item><item><title>Docs: Branch Amenities</title><link>/docs/content-structure/blocks/branch-amenities/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/content-structure/blocks/branch-amenities/</guid><description>
+&lt;code>/locations/[node:title]&lt;/code>&lt;/p></description></item><item><title>Docs: Branch</title><link>/docs/user-documentation/content-types/branch/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/user-documentation/content-types/branch/</guid><description>
+&lt;p>&lt;strong>One of the first places members go when they visit a Y website is to their local Y’s page. In Open Y, you create pages for a wellness facility with the Branch content type.&lt;/strong>&lt;/p>
+&lt;hr>
+&lt;p>
+&lt;img src="upload://qaEmMaGxttuNKYSzZRH4IrVvTc5.png" alt="carnation&amp;amp;ndash;branch&amp;amp;ndash;tablet_1|375x500, 75%" />&lt;/p>
+&lt;p>
+&lt;img src="upload://iQD92lirDJvqK5np1vuQ0M2Ar4p.jpeg" alt="lily&amp;amp;ndash;branch&amp;amp;ndash;tablet.PNG|375x500, 75%" />&lt;/p>
+&lt;h2 id="collecting-standard-information-for-your-branch">Collecting Standard Information for Your Branch&lt;/h2>
+&lt;p>When you create a branch, you create a page for that branch, a card listing on your locations page, and a tag for blogs, sessions, events, membership types and news posts.&lt;/p>
+&lt;p>Most of your general information will display in your header.&lt;/p>
+&lt;p>Your branch amenities will only display if you add a “Branch Amenities with Icons” paragraph in your bottom or content Area&lt;/p>
+&lt;hr>
+&lt;h2 id="branch-information-fields">Branch Information Fields&lt;/h2>
+&lt;h3 id="general-information">General Information&lt;/h3>
+&lt;h4 id="--title">-&amp;gt; Title&lt;/h4>
+&lt;p>This is the name of your branch, which will display as your page title and the title in the location card.&lt;/p>
+&lt;p>There is no separate field for the full name of your facility (e.g., Downtown Nashville YMCA Burkholder Center) versus the common name (Downtown YMCA). The best practice would be to use the shorter, more common name for readability.&lt;/p>
+&lt;h4 id="--neighborhood">-&amp;gt; Neighborhood&lt;/h4>
+&lt;p>An optional reference to specify which neighborhood your Y is located in (e.g., “East Nashville” for the Margaret Maddox YMCA). Start typing and select from the list of neighborhoods that appear.&lt;/p>
+&lt;p>To add a new neighborhood, add it to the “Area” vocabulary under Structure &amp;gt; Taxonomy.&lt;/p>
+&lt;hr>
+&lt;h3 id="contact-info">Contact Info&lt;/h3>
+&lt;h4 id="--address">-&amp;gt; Address:&lt;/h4>
+&lt;p>The physical address of your location. Be sure to include all address fields.&lt;/p>
+&lt;h4 id="---branch-coordinates">-&amp;gt; Branch coordinates&lt;/h4>
+&lt;p>This field pins your branch on the locations map.&lt;/p>
+&lt;blockquote>
+&lt;p>&lt;strong>How to Get Your Branch Coordinates from Google Maps&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>Right click on your Y and select “What’s here?” Click on the latitude/longitude number at the bottom of the card.
+&amp;gt;
+&amp;gt;
+&lt;img src="upload://4KumwfEfMol8v7BE7kFXceiBGOH.png" alt="admin__google-maps&amp;amp;ndash;whats-here|573x500, 75%" />&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Below the headline, copy the first number (the non-negative number) into the latitude field. Copy the second number (the negative number) into the longitude field.
+&amp;gt;
+&amp;gt;
+&lt;img src="upload://hqLgdeW9w9ZEsDIxMm36NNZPjq8.png" alt="admin__google-maps&amp;amp;ndash;geo|573x500, 75%" />&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;/blockquote>
+&lt;h4 id="--phonefaxemail">-&amp;gt; Phone/Fax/Email&lt;/h4>
+&lt;p>The fax is optional, but add the main line for your branch in the phone field.&lt;/p>
+&lt;p>Add a main contact email, such as
+&lt;a href="mailto:contactmyy@anytownymca.org">contactmyy@anytownymca.org&lt;/a>, rather than the email for an individual staff member.&lt;/p>
+&lt;h4 id="--directions">-&amp;gt; Directions&lt;/h4>
+&lt;p>Link to your Google Places. Add “Get Directions” in the Link Text section.&lt;/p>
+&lt;h4 id="--branch-hours">-&amp;gt; Branch Hours&lt;/h4>
+&lt;p>Add the main hours for your facility. Use the 7am-5pm format to save space. Displays in the header and on the card.&lt;/p>
+&lt;blockquote>
+&lt;p>&lt;strong>Note&lt;/strong> - Some Ys have set up the branch hours field to include holiday hours, as well as hours for multiple parts of your facility. This is an advanced feature; talk to your agency partner if you would like this.&lt;/p>
+&lt;/blockquote>
+&lt;hr>
+&lt;h3 id="header-area">Header Area&lt;/h3>
+&lt;p>There is no image field for the Branch content type, so you will need to add one of the following paragraphs to add an image and title at the top of your page:&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;a href="https://community.openymca.org/t/banner-open-y-paragraphs-user-documentation/665" target="_blank">Banner&lt;/a>&lt;/li>
+&lt;li>
+&lt;a href="https://community.openymca.org/t/small-banner-paragraphs-open-y-user-docs/725" target="_blank">Small Banner&lt;/a>&lt;/li>
+&lt;li>
+&lt;a href="https://community.openymca.org/t/gallery-paragraphs-open-y-user-docs/715" target="_blank">Gallery&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h3 id="content-area">Content Area&lt;/h3>
+&lt;p>The Branch Content Type only has one layout option—one column—and no description field. Add in almost any paragraph you want into the body of you page.&lt;/p>
+&lt;p>The following paragraph types integrate directly with Branch:&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;a href="https://community.openymca.org/t/latest-blog-posts-including-camp-branch-paragraphs-open-y-user-docs/717" target="_blank">Latest Blog Posts (Branch)&lt;/a>&lt;/li>
+&lt;li>
+&lt;a href="https://community.openymca.org/t/latest-news-branch-including-camp-branch-paragraphs-open-y-user-docs/718" target="_blank">Latest News Posts (Branch)&lt;/a>&lt;/li>
+&lt;li>Branch Amenities with Icons (see Branch Amenities below)&lt;/li>
+&lt;/ul>
+&lt;h3 id="bottom-area">Bottom Area&lt;/h3>
+&lt;p>Use the bottom area for anchoring elements on your page. The following paragraphs are great for this area:&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;a href="https://community.openymca.org/t/small-banner-paragraphs-open-y-user-docs/725" target="_blank">Small Banner&lt;/a>&lt;/li>
+&lt;li>
+&lt;a href="https://community.openymca.org/t/gallery-paragraphs-open-y-user-docs/715" target="_blank">Gallery&lt;/a>&lt;/li>
+&lt;li>
+&lt;a href="https://community.openymca.org/t/webform-paragraph-open-y-user-docs/729" target="_blank">Webform&lt;/a>&lt;/li>
+&lt;li>
+&lt;a href="https://community.openymca.org/t/limited-time-offer-paragraphs-open-y-user-docs/719" target="_blank">Limited Time Offer&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h3 id="branch-amenities">Branch Amenities&lt;/h3>
+&lt;p>Type in and select which amenities are available at your branch using the autocomplete field.&lt;/p>
+&lt;p>
+&lt;img src="upload://y2bWNI9tEnxS53cfvzDcOKtXbVC.png" alt="admin&amp;amp;ndash;branch__amenities|690x213, 75%" />&lt;/p>
+&lt;p>If you embed a Branch Amenities with Icons paragraph on your page, the amenities will display in your content. The Amenities will also serve as filters for branches on your locations page.&lt;/p>
+&lt;p>If you don&amp;rsquo;t see an option available or would like to rename a branch amenity, go to Structure &amp;gt; Taxonomy &amp;gt; Amenities.&lt;/p>
+&lt;p>&lt;strong>####&lt;/strong> Closed Amenities
+Ys with Open Y 2.5 or later can tag amenities at a branch that have closed. Content editors will see a &amp;ldquo;Closed Amenities&amp;rdquo; field.&lt;/p>
+&lt;p>
+&lt;img src="upload://1H6H8xKzjCpEMYDKfZe7it4R40Y.png" alt="carnation&amp;amp;ndash;branch&amp;amp;ndash;closed-amenities|442x499, 50%" />
+&lt;img src="upload://a4WrDjPoqlMgnP5OtobiCzpvrZg.png" alt="admin&amp;amp;ndash;branch__amenities&amp;amp;ndash;closed-amenities|690x341, 50%" />&lt;/p></description></item><item><title>Docs: Branch Amenities</title><link>/docs/content-structure/blocks/branch-amenities/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/content-structure/blocks/branch-amenities/</guid><description>
 &lt;p>A block with amenities list of the current branch.&lt;/p>
 &lt;h3 id="fields">Fields&lt;/h3>
 &lt;table>
@@ -2007,7 +2268,119 @@ Links are simple in Open Y - just highlight your text and click the link icon or
 &lt;/table>
 &lt;h3 id="url-pattern">URL pattern&lt;/h3>
 &lt;p>Content type is using following pattern:
-&lt;code>/camps/[node:title]&lt;/code>&lt;/p></description></item><item><title>Docs: Camp</title><link>/docs/user-documentation/content-types/camp/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/user-documentation/content-types/camp/</guid><description/></item><item><title>Docs: Camp Menu</title><link>/docs/user-documentation/paragraphs/camp-menu/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/user-documentation/paragraphs/camp-menu/</guid><description>
+&lt;code>/camps/[node:title]&lt;/code>&lt;/p></description></item><item><title>Docs: Camp</title><link>/docs/user-documentation/content-types/camp/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/user-documentation/content-types/camp/</guid><description>
+&lt;blockquote>
+&lt;p>Camps in Open Y are physical locations where outdoor camp programming takes place.&lt;/p>
+&lt;p>&lt;em>Note: Camp is similar to the
+&lt;a href="https://community.openymca.org/t/branch-content-types-open-y-user-docs/685" target="_blank">Branch content type&lt;/a>.&lt;/em>&lt;/p>
+&lt;/blockquote>
+&lt;p>While
+&lt;a href="https://community.openymca.org/t/branch-content-types-open-y-user-docs/685" target="_blank">YMCA Branches&lt;/a> may offer some form of summer day camp, they differ from facilities that primarily host programs related to outdoor camps.&lt;/p>
+&lt;p>
+&lt;img src="upload://6BYympxpxhtqF8I7QdaDdbr9s3X.jpeg" alt="carnation&amp;amp;ndash;camp&amp;amp;ndash;tablet.PNG|375x500, 100%" />&lt;/p>
+&lt;hr>
+&lt;h2 id="when-should-i-use-camp">When Should I Use Camp?&lt;/h2>
+&lt;p>If you are an independent YMCA camp or you&amp;rsquo;re an Association with one or more locations dedicated to outdoor camp, the Camp Content Type serves well as a landing page for those locations.&lt;/p>
+&lt;blockquote>
+&lt;h3 id="-what-about-branch-day-camps">// What about Branch Day Camps?&lt;/h3>
+&lt;p>There are several considerations for Branches that host Day Camps in the center:&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>The &lt;em>Branch content type&lt;/em> is intended to be &lt;strong>the home page for branches&lt;/strong>.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Adding a Branch listing &lt;em>and&lt;/em> a Camp listing for the same &lt;strong>physical location&lt;/strong> creates duplicate listings for your center and could have search implications.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Camp pages don&amp;rsquo;t have fields for operating hours or amenities.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Branch Day Camps, unlike outdoor camps, tend to be listed in the same CRM as other branch-based programs, and therefore could integrate into Activity Finder, provided the CRM&amp;rsquo;s compatibility.&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;p>&lt;strong>Recommended Content Types for Branch Day Camps&lt;/strong>
+-&amp;gt;
+&lt;a href="https://community.openymca.org/t/program-subcategory-content-types-open-y-user-docs/692" target="_blank">Learn how to use the Program Subcategory content type ⇒&lt;/a>
+-&amp;gt;
+&lt;a href="https://community.openymca.org/t/landing-page-content-types-open-y-user-docs/667" target="_blank">Read about Landing Pages ⇒&lt;/a>&lt;/p>
+&lt;/blockquote>
+&lt;hr>
+&lt;h2 id="how-do-i-use-camp">How Do I Use Camp?&lt;/h2>
+&lt;h3 id="general-info">General Info&lt;/h3>
+&lt;h4 id="--title">-&amp;gt; Title&lt;/h4>
+&lt;p>This is the name of your branch, which will display as your page title and the title in the location card.&lt;/p>
+&lt;p>There is no separate field for the full name of your facility (e.g., Joe C. Davis YMCA Outdoor Center) versus the common name (Camp Widjiwagan). The best practice would be to use the shorter, more common name for readability.&lt;/p>
+&lt;h4 id="--menu-links">-&amp;gt; Menu Links&lt;/h4>
+&lt;p>Add in the URL or name of the content you want to link your
+&lt;a href="https://community.openymca.org/t/camp-menu-paragraphs-open-y-user-docs/706" target="_blank">Camp Menu&lt;/a> to (must use
+&lt;a href="https://community.openymca.org/t/camp-menu-paragraphs-open-y-user-docs/706" target="_blank">Camp Menu&lt;/a> for this to work).&lt;/p>
+&lt;p>
+&lt;img src="upload://5mbjiHKdjq05hhVSvVIpFPVYbxu.png" alt="camp__camp-menu&amp;amp;ndash;menu-links|450x500, 75%" />&lt;/p>
+&lt;p>
+&lt;a href="https://community.openymca.org/t/camp-menu-paragraphs-open-y-user-docs/706" target="_blank">Read more about Camp Menu ⇒&lt;/a>&lt;/p>
+&lt;hr>
+&lt;h3 id="contact-info">Contact Info&lt;/h3>
+&lt;h4 id="--address">-&amp;gt; Address:&lt;/h4>
+&lt;p>The physical address of your location. Be sure to include all address fields.&lt;/p>
+&lt;h4 id="---camp-coordinates">-&amp;gt; Camp coordinates&lt;/h4>
+&lt;p>This field pins your camp on the locations map.&lt;/p>
+&lt;blockquote>
+&lt;p>&lt;strong>How to Get Your Camp Coordinates from Google Maps&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>Right click on your camp and select “What’s here?” Click on the latitude/longitude number at the bottom of the card.
+&amp;gt;
+&amp;gt;
+&lt;img src="upload://4KumwfEfMol8v7BE7kFXceiBGOH.png" alt="admin__google-maps&amp;amp;ndash;whats-here|573x500, 50%" />&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Below the headline, copy the first number (the non-negative number) into the latitude field. Copy the second number (the negative number) into the longitude field.
+&amp;gt;
+&amp;gt;
+&lt;img src="upload://hqLgdeW9w9ZEsDIxMm36NNZPjq8.png" alt="admin__google-maps&amp;amp;ndash;geo|573x500, 75%" />&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;/blockquote>
+&lt;h4 id="--phonefaxemail">-&amp;gt; Phone/Fax/Email&lt;/h4>
+&lt;p>The fax is optional, but add the main line for your branch in the phone field.&lt;/p>
+&lt;p>Add a main contact email, such as
+&lt;a href="mailto:contactmyy@anytownymca.org">contactmyy@anytownymca.org&lt;/a>, rather than the email for an individual staff member.&lt;/p>
+&lt;h4 id="--directions">-&amp;gt; Directions&lt;/h4>
+&lt;p>Link to your Google Places. Add “Get Directions” in the Link Text section.&lt;/p>
+&lt;h3 id="header-area">Header Area&lt;/h3>
+&lt;p>There is no image field for the Camp content type, so you will need to add one of the following paragraphs to add an image and title at the top of your page:&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;a href="https://community.openymca.org/t/banner-open-y-paragraphs-user-documentation/665" target="_blank">Banner&lt;/a>&lt;/li>
+&lt;li>
+&lt;a href="https://community.openymca.org/t/small-banner-paragraphs-open-y-user-docs/725" target="_blank">Small Banner&lt;/a>&lt;/li>
+&lt;li>
+&lt;a href="https://community.openymca.org/t/gallery-paragraphs-open-y-user-docs/715" target="_blank">Gallery&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;p>Below your header image,
+&lt;a href="https://community.openymca.org/t/camp-menu-paragraphs-open-y-user-docs/706" target="_blank">add in a Camp Menu paragraph&lt;/a> for a secondary, full-width navigation.&lt;/p>
+&lt;h3 id="content-area">Content Area&lt;/h3>
+&lt;p>The Camp Content Type only has one layout option—one column—and no description field. Add in almost any paragraph you want into the body of you page.&lt;/p>
+&lt;p>The following paragraph types integrate directly with Camp:&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;a href="https://community.openymca.org/t/latest-blog-posts-including-camp-branch-paragraphs-open-y-user-docs/717" target="_blank">Latest Blog Posts (Camp)&lt;/a>&lt;/li>
+&lt;li>
+&lt;a href="https://community.openymca.org/t/latest-news-branch-including-camp-branch-paragraphs-open-y-user-docs/718" target="_blank">Latest News Posts (Camp)&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h3 id="bottom-area">Bottom Area&lt;/h3>
+&lt;p>Use the bottom area for anchoring elements on your page. The following paragraphs are great for this area:&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;a href="https://community.openymca.org/t/small-banner-paragraphs-open-y-user-docs/725" target="_blank">Small Banner&lt;/a>&lt;/li>
+&lt;li>
+&lt;a href="https://community.openymca.org/t/gallery-paragraphs-open-y-user-docs/715" target="_blank">Gallery&lt;/a>&lt;/li>
+&lt;li>
+&lt;a href="https://community.openymca.org/t/webform-paragraph-open-y-user-docs/729" target="_blank">Webform&lt;/a>&lt;/li>
+&lt;li>
+&lt;a href="https://community.openymca.org/t/limited-time-offer-paragraphs-open-y-user-docs/719" target="_blank">Limited Time Offer&lt;/a>&lt;/li>
+&lt;/ul></description></item><item><title>Docs: Camp Menu</title><link>/docs/user-documentation/paragraphs/camp-menu/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/user-documentation/paragraphs/camp-menu/</guid><description>
 &lt;blockquote>
 &lt;p>Camp menu adds a horizontal menu beneath the Header Area on a camp page.&lt;/p>
 &lt;/blockquote>
