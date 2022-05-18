@@ -28,17 +28,15 @@
 &lt;li>&lt;strong>Paragraph title&lt;/strong> adds an all-caps heading at the top of your paragraph. This is optional.&lt;/li>
 &lt;li>&lt;strong>The checkbox&lt;/strong> adds dual horizontal rules. Check this only if you’re planning on using the paragraph title&lt;/li>
 &lt;li>&lt;strong>Description (required)&lt;/strong> - Adds simple text
-&lt;a href="https://community.openymca.org/t/introduction-text-editor-open-y-user-docs/643" target="_blank">through a text editor.&lt;/a> Font color defaults to purple in Lily and Rose.&lt;/li>
+&lt;a href="/docs/user-documentation/text-editor/">through a text editor.&lt;/a> Font color defaults to purple in Lily and Rose.&lt;/li>
 &lt;/ul>
-&lt;p>
-&lt;a href="https://community.openymca.org/t/introduction-text-editor-open-y-user-docs/643" target="_blank">https://community.openymca.org/t/introduction-text-editor-open-y-user-docs/643&lt;/a>&lt;/p>
 &lt;h3 id="custom-block-feature">Custom Block Feature&lt;/h3>
 &lt;p>While the paragraph be used only with the fields above, 1 column also supports custom blocks of content. For this paragraph type, it’s recommended that users stick with “Simple block” types.&lt;/p>
 &lt;p>
 &lt;img src="upload://8ztiCyU8UuDvYi6E3SjEthQEFQ.gif" alt="landing-page__1-column-demo-block|690x474, 75%" />&lt;/p>
 &lt;p>When adding your custom block, use the font-awesome icon class instead of the custom icon image field. In Carnation, the image option tends to get too large.&lt;/p>
 &lt;p>
-&lt;a href="https://community.openymca.org/t/blocks-website-structure-open-y-user-docs/733" target="_blank">Learn more about custom blocks ⇒&lt;/a>&lt;/p>
+&lt;a href="/docs/user-documentation/blocks/">Learn more about custom blocks ⇒&lt;/a>&lt;/p>
 &lt;p>
 &lt;a href="https://fontawesome.com/cheatsheet?from=io" target="_blank">Read about the Font Awesome icon library ⇒&lt;/a>&lt;/p>
 &lt;h2 id="advanced">Advanced&lt;/h2>
@@ -96,12 +94,12 @@ color: inherit;
 &lt;li>Insert a custom block into the Left and Right Column&lt;/li>
 &lt;/ul>
 &lt;p>
-&lt;a href="https://community.openymca.org/t/blocks-website-structure-open-y-user-docs/733" target="_blank">Learn more about custom blocks ⇒&lt;/a>&lt;/p>
+&lt;a href="/docs/user-documentation/blocks/">Learn more about custom blocks ⇒&lt;/a>&lt;/p>
 &lt;blockquote>
 &lt;p>Unlike similar paragraphs (such as
-&lt;a href="https://community.openymca.org/t/1-column-paragraphs-open-y-user-docs/698" target="_blank">1 column paragraph&lt;/a> and
-&lt;a href="https://community.openymca.org/t/grid-content-paragraphs-open-y-user-docs/716" target="_blank">Grid Content&lt;/a>), there is no title field. To add a Title,
-&lt;a href="https://community.openymca.org/t/simple-content-paragraphs-open-y-user-docs/724" target="_blank">insert a &lt;em>Simple Content&lt;/em> paragraph&lt;/a> above your 2 columns paragraph.&lt;/p>
+&lt;a href="/docs/user-documentation/paragraphs/1c/">1 column paragraph&lt;/a> and
+&lt;a href="/docs/user-documentation/paragraphs/grid-content/">Grid Content&lt;/a>), there is no title field. To add a Title,
+&lt;a href="/docs/user-documentation/paragraphs/simple-content/">insert a &lt;em>Simple Content&lt;/em> paragraph&lt;/a> above your 2 columns paragraph.&lt;/p>
 &lt;/blockquote>
 &lt;hr>
 &lt;p>There is an optional checkbox to display a horizontal rule above the two columns.&lt;/p>
@@ -115,21 +113,21 @@ color: inherit;
 &lt;h2 id="content-types-that-support-this-paragraph">Content Types That Support this Paragraph&lt;/h2>
 &lt;ul>
 &lt;li>
-&lt;a href="https://community.openymca.org/t/landing-page-content-types-open-y-user-docs/667" target="_blank">Landing Page&lt;/a>&lt;/li>
+&lt;a href="/docs/user-documentation/content-types/landing-page/">Landing Page&lt;/a>&lt;/li>
 &lt;li>
-&lt;a href="https://community.openymca.org/t/branch-content-types-open-y-user-docs/685" target="_blank">Branch (Not Supported in Carnation)&lt;/a>&lt;/li>
+&lt;a href="/docs/user-documentation/content-types/branch/">Branch (Not Supported in Carnation)&lt;/a>&lt;/li>
 &lt;li>
-&lt;a href="https://community.openymca.org/t/camp-content-types-user-docs/690" target="_blank">Camp&lt;/a>&lt;/li>
+&lt;a href="/docs/user-documentation/content-types/camp/">Camp&lt;/a>&lt;/li>
 &lt;li>Facility&lt;/li>
 &lt;li>
-&lt;a href="https://community.openymca.org/t/program-content-types-open-y-user-docs/691" target="_blank">Program&lt;/a>&lt;/li>
+&lt;a href="/docs/user-documentation/content-types/program/">Program&lt;/a>&lt;/li>
 &lt;li>
-&lt;a href="https://community.openymca.org/t/landing-page-content-types-open-y-user-docs/667" target="_blank">Program Subcategory&lt;/a>&lt;/li>
+&lt;a href="/docs/user-documentation/content-types/program-subcategory/">Program Subcategory&lt;/a>&lt;/li>
 &lt;li>
-&lt;a href="https://community.openymca.org/t/blog-post-content-types-open-y-user-docs/693" target="_blank">Blog Post&lt;/a>&lt;/li>
+&lt;a href="/docs/user-documentation/content-types/blog-post/">Blog Post&lt;/a>&lt;/li>
 &lt;li>Event&lt;/li>
 &lt;li>
-&lt;a href="https://community.openymca.org/t/news-post-content-types-open-y-user-docs/694" target="_blank">News Post&lt;/a>&lt;/li>
+&lt;a href="/docs/user-documentation/content-types/news-post/">News Post&lt;/a>&lt;/li>
 &lt;/ul></description></item><item><title>Docs: 3 Columns</title><link>/docs/user-documentation/paragraphs/3c/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/user-documentation/paragraphs/3c/</guid><description>
 &lt;blockquote>
 &lt;p>3 Columns adds three equal-width, reusable blocks of content, side-by-side. The leftmost columns stack on top of columns to their right.&lt;/p>
@@ -159,7 +157,7 @@ color: inherit;
 &lt;li>Add custom blocks to the &lt;em>Left Column&lt;/em>, &lt;em>Center Column&lt;/em>, and &lt;em>Right Column&lt;/em> fields.&lt;/li>
 &lt;/ul>
 &lt;p>
-&lt;a href="https://community.openymca.org/t/blocks-website-structure-open-y-user-docs/733" target="_blank">Learn more about custom blocks ⇒&lt;/a>&lt;/p>
+&lt;a href="/docs/user-documentation/blocks/">Learn more about custom blocks ⇒&lt;/a>&lt;/p>
 &lt;p>
 &lt;img src="upload://qM1IaFTQvMqc1MD11pO4ZhJQT3q.png" alt="landing-page__3-columns-options|544x500, 75%" />&lt;/p>
 &lt;p>If you want to add multiple rows of content with 3 columns, add a new 3 columns paragraph for each set of two you want (e.g., if you have seven blocks of content, add three 3 columns paragraphs).&lt;/p>
@@ -167,21 +165,21 @@ color: inherit;
 &lt;h2 id="content-types-that-support-this-paragraph">Content Types That Support this Paragraph&lt;/h2>
 &lt;ul>
 &lt;li>
-&lt;a href="https://community.openymca.org/t/landing-page-content-types-open-y-user-docs/667" target="_blank">Landing Page&lt;/a>&lt;/li>
+&lt;a href="/docs/user-documentation/content-types/landing-page/">Landing Page&lt;/a>&lt;/li>
 &lt;li>
-&lt;a href="https://community.openymca.org/t/branch-content-types-open-y-user-docs/685" target="_blank">Branch&lt;/a>&lt;/li>
+&lt;a href="/docs/user-documentation/content-types/branch/">Branch&lt;/a>&lt;/li>
 &lt;li>
-&lt;a href="https://community.openymca.org/t/camp-content-types-user-docs/690" target="_blank">Camp&lt;/a>&lt;/li>
+&lt;a href="/docs/user-documentation/content-types/camp/">Camp&lt;/a>&lt;/li>
 &lt;li>Facility&lt;/li>
 &lt;li>
-&lt;a href="https://community.openymca.org/t/program-content-types-open-y-user-docs/691" target="_blank">Program&lt;/a>&lt;/li>
+&lt;a href="/docs/user-documentation/content-types/program/">Program&lt;/a>&lt;/li>
 &lt;li>
-&lt;a href="https://community.openymca.org/t/landing-page-content-types-open-y-user-docs/667" target="_blank">Program Subcategory&lt;/a>&lt;/li>
+&lt;a href="/docs/user-documentation/content-types/program-subcategory/">Program Subcategory&lt;/a>&lt;/li>
 &lt;li>
-&lt;a href="https://community.openymca.org/t/blog-post-content-types-open-y-user-docs/693" target="_blank">Blog Post (Not Supported in Carnation)&lt;/a>&lt;/li>
+&lt;a href="/docs/user-documentation/content-types/blog-post/">Blog Post (Not Supported in Carnation)&lt;/a>&lt;/li>
 &lt;li>Event&lt;/li>
 &lt;li>
-&lt;a href="https://community.openymca.org/t/news-post-content-types-open-y-user-docs/694" target="_blank">News Post&lt;/a>&lt;/li>
+&lt;a href="/docs/user-documentation/content-types/news-post/">News Post&lt;/a>&lt;/li>
 &lt;/ul></description></item><item><title>Docs: 4 Columns</title><link>/docs/user-documentation/paragraphs/4c/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/user-documentation/paragraphs/4c/</guid><description>
 &lt;blockquote>
 &lt;p>Adds four equal-width, reusable blocks of content, side-by-side. The leftmost columns stacks on top of columns to their right.&lt;/p>
@@ -190,8 +188,8 @@ color: inherit;
 &lt;blockquote>
 &lt;p>&lt;strong>This paragraph does not work out of the box in Carnation (see Advanced).&lt;/strong>&lt;/p>
 &lt;p>Content editors can use
-&lt;a href="https://community.openymca.org/t/grid-content-paragraphs-open-y-user-docs/716" target="_blank">Grid Content&lt;/a> or
-&lt;a href="https://community.openymca.org/t/featured-content-paragraphs-open-y-user-docs/713" target="_blank">Featured Content&lt;/a> paragraphs to achieve a similar layout.&lt;/p>
+&lt;a href="/docs/user-documentation/paragraphs/grid-content/">Grid Content&lt;/a> or
+&lt;a href="/docs/user-documentation/paragraphs/featured-content/">Featured Content&lt;/a> paragraphs to achieve a similar layout.&lt;/p>
 &lt;/blockquote>
 &lt;h3 id="lily">Lily&lt;/h3>
 &lt;p>
@@ -216,13 +214,13 @@ color: inherit;
 &lt;img src="upload://nvaYHUXy4C2JTaLL9d0hxlGVdJv.png" alt="landing-page__line-above|615x120, 50%" />&lt;/p>
 &lt;ul>
 &lt;li>&lt;strong>Description&lt;/strong>: A subheader/section description embedded below the title and above your titles.
-&lt;a href="https://community.openymca.org/c/Resources-and-training-for-content-editors/Learn-how-to-use-the-basic-text-editing-functions-available-to-content-editors" target="_blank">Uses the text editor&lt;/a> for styling.&lt;/li>
+&lt;a href="/docs/user-documentation/text-editor/basic-text-formatting/">Uses the text editor&lt;/a> for styling.&lt;/li>
 &lt;li>Add custom blocks to the First Column, Second Column, Third Column, Fourth Column.&lt;/li>
 &lt;/ul>
 &lt;p>
 &lt;img src="upload://5w09U86JkdvGcMYRLRLyMD6lwKw.png" alt="Screen Shot 2020-03-26 at 2.43.58 PM|580x500, 75%" />&lt;/p>
 &lt;p>
-&lt;a href="https://community.openymca.org/t/blocks-website-structure-open-y-user-docs/733" target="_blank">Learn more about custom blocks ⇒&lt;/a>&lt;/p>
+&lt;a href="/docs/user-documentation/blocks/">Learn more about custom blocks ⇒&lt;/a>&lt;/p>
 &lt;blockquote>
 &lt;p>&lt;strong>Adding Headers to Individual Blocks&lt;/strong>
 Out of the box, the &lt;em>Title field&lt;/em> in each &lt;em>custom block&lt;/em> renders as plain text. To work around this, add your headers in the text editor.&lt;/p>
@@ -230,7 +228,7 @@ Out of the box, the &lt;em>Title field&lt;/em> in each &lt;em>custom block&lt;/e
 &lt;/blockquote>
 &lt;p>If you want to add multiple rows of content with 4 columns, add a new 4 columns paragraph for each set of two you want (e.g., if you have seven blocks of content, add two 4 columns paragraphs).&lt;/p>
 &lt;p>
-&lt;a href="https://community.openymca.org/t/content-editing-basics-open-y-user-docs/732/2" target="_blank">Learn more about the link field ⇒&lt;/a>&lt;/p>
+&lt;a href="/docs/user-documentation/text-editor/adding-links/">Learn more about the link field ⇒&lt;/a>&lt;/p>
 &lt;h2 id="advanced">Advanced&lt;/h2>
 &lt;h3 id="title-field-styling">Title Field Styling&lt;/h3>
 &lt;p>In all three themes currently in Open Y, the Title field displays in a font-size and color nearly identical to the body copy. To override, target &lt;code>.field-sb-title&lt;/code>.&lt;/p>
@@ -241,21 +239,21 @@ Out of the box, the &lt;em>Title field&lt;/em> in each &lt;em>custom block&lt;/e
 &lt;h2 id="content-types-that-support-this-paragraph">Content Types That Support this Paragraph&lt;/h2>
 &lt;ul>
 &lt;li>
-&lt;a href="https://community.openymca.org/t/landing-page-content-types-open-y-user-docs/667" target="_blank">Landing Page&lt;/a>&lt;/li>
+&lt;a href="/docs/user-documentation/content-types/landing-page/">Landing Page&lt;/a>&lt;/li>
 &lt;li>
-&lt;a href="https://community.openymca.org/t/branch-content-types-open-y-user-docs/685" target="_blank">Branch&lt;/a>&lt;/li>
+&lt;a href="/docs/user-documentation/content-types/branch/">Branch&lt;/a>&lt;/li>
 &lt;li>
-&lt;a href="https://community.openymca.org/t/camp-content-types-user-docs/690" target="_blank">Camp&lt;/a>&lt;/li>
+&lt;a href="/docs/user-documentation/content-types/camp/">Camp&lt;/a>&lt;/li>
 &lt;li>Facility&lt;/li>
 &lt;li>
-&lt;a href="https://community.openymca.org/t/program-content-types-open-y-user-docs/691" target="_blank">Program&lt;/a>&lt;/li>
+&lt;a href="/docs/user-documentation/content-types/program/">Program&lt;/a>&lt;/li>
 &lt;li>
-&lt;a href="https://community.openymca.org/t/landing-page-content-types-open-y-user-docs/667" target="_blank">Program Subcategory&lt;/a>&lt;/li>
+&lt;a href="/docs/user-documentation/content-types/program-subcategory/">Program Subcategory&lt;/a>&lt;/li>
 &lt;li>
-&lt;a href="https://community.openymca.org/t/blog-post-content-types-open-y-user-docs/693" target="_blank">Blog Post (Not Supported in Carnation)&lt;/a>&lt;/li>
+&lt;a href="/docs/user-documentation/content-types/blog-post/">Blog Post (Not Supported in Carnation)&lt;/a>&lt;/li>
 &lt;li>Event&lt;/li>
 &lt;li>
-&lt;a href="https://community.openymca.org/t/news-post-content-types-open-y-user-docs/694" target="_blank">News Post&lt;/a>&lt;/li>
+&lt;a href="/docs/user-documentation/content-types/news-post/">News Post&lt;/a>&lt;/li>
 &lt;/ul></description></item><item><title>Docs: Activity Finder</title><link>/docs/user-documentation/paragraphs/activity-finder/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/user-documentation/paragraphs/activity-finder/</guid><description>
 &lt;h2 id="documentation-in-progress">&lt;strong>Documentation in Progress&lt;/strong>&lt;/h2>
 &lt;p>Activity Finder&lt;/p>
@@ -295,7 +293,8 @@ Out of the box, the &lt;em>Title field&lt;/em> in each &lt;em>custom block&lt;/e
 &lt;p>Styling will differ greatly based on the theme. Use of this paragraph in Rose is not recommended.&lt;/p>
 &lt;p>Supported Content Types&lt;/p>
 &lt;ul>
-&lt;li>Landing Page&lt;/li>
+&lt;li>
+&lt;a href="/docs/user-documentation/content-types/landing-page/">Landing Page&lt;/a>&lt;/li>
 &lt;/ul>
 &lt;p>Related Paragraphs&lt;/p>
 &lt;ul>
@@ -334,7 +333,7 @@ Out of the box, the &lt;em>Title field&lt;/em> in each &lt;em>custom block&lt;/e
 &lt;/li>
 &lt;li>
 &lt;p>&lt;strong>Link/Button:&lt;/strong> Add a URL and a link to the button on the page. The button on your banner cannot be styled without custom CSS/code.
-&lt;a href="https://community.openymca.org/t/video-tutorials-for-images-and-documents/738" target="_blank">Using link/button fields ⇒&lt;/a>&lt;/p>
+&lt;a href="/docs/user-documentation/text-editor/building-buttons/">Using link/button fields ⇒&lt;/a>&lt;/p>
 &lt;blockquote>
 &lt;p>&lt;strong>Note:&lt;/strong> If you know a little CSS, you can have your agency partner
 &lt;a href="https://www.drupal.org/project/css_editor" target="_blank">install the CSS Editor &lt;/a>module, and you can target &lt;code>.btn.banner-btn&lt;/code> to change the default button.&lt;/p>
@@ -385,17 +384,17 @@ Out of the box, the &lt;em>Title field&lt;/em> in each &lt;em>custom block&lt;/e
 &lt;h2 id="content-types-that-support-blog-posts">Content Types that Support Blog Posts&lt;/h2>
 &lt;ul>
 &lt;li>
-&lt;a href="https://community.openymca.org/t/landing-page-content-types-open-y-user-docs/667" target="_blank">Landing Page&lt;/a>&lt;/li>
+&lt;a href="/docs/user-documentation/content-types/landing-page/">Landing Page&lt;/a>&lt;/li>
 &lt;/ul>
 &lt;h2 id="relatedalternative-paragraphs">Related/Alternative Paragraphs&lt;/h2>
 &lt;ul>
 &lt;li>Event Posts Listing&lt;/li>
 &lt;li>
-&lt;a href="https://community.openymca.org/t/latest-blog-posts-including-camp-branch-paragraphs-open-y-user-docs/717" target="_blank">Latest Blog Posts/(Camp)/(Branch)&lt;/a>&lt;/li>
+&lt;a href="/docs/user-documentation/paragraphs/latest-blog-posts/">Latest Blog Posts/(Camp)/(Branch)&lt;/a>&lt;/li>
 &lt;li>
-&lt;a href="https://community.openymca.org/t/latest-news-branch-including-camp-branch-paragraphs-open-y-user-docs/718" target="_blank">Latest News Posts/(Camp)/(Branch)&lt;/a>&lt;/li>
+&lt;a href="/docs/user-documentation/paragraphs/latest-news-posts/">Latest News Posts/(Camp)/(Branch)&lt;/a>&lt;/li>
 &lt;li>
-&lt;a href="https://community.openymca.org/t/news-posts-listing-paragraphs-open-y-user-docs/721" target="_blank">News Posts Listing&lt;/a>&lt;/li>
+&lt;a href="/docs/user-documentation/paragraphs/news-posts-listing/">News Posts Listing&lt;/a>&lt;/li>
 &lt;/ul></description></item><item><title>Docs: Camp Menu</title><link>/docs/user-documentation/paragraphs/camp-menu/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/user-documentation/paragraphs/camp-menu/</guid><description>
 &lt;blockquote>
 &lt;p>Camp menu adds a horizontal menu beneath the Header Area on a camp page.&lt;/p>
@@ -439,7 +438,7 @@ Out of the box, the &lt;em>Title field&lt;/em> in each &lt;em>custom block&lt;/e
 &lt;h2 id="content-types-that-support-this-paragraph">Content Types That Support this Paragraph&lt;/h2>
 &lt;ul>
 &lt;li>
-&lt;a href="https://community.openymca.org/t/camp-content-types-user-docs/690" target="_blank">Camp&lt;/a>&lt;/li>
+&lt;a href="/docs/user-documentation/content-types/camp/">Camp&lt;/a>&lt;/li>
 &lt;/ul></description></item><item><title>Docs: Categories Listing</title><link>/docs/user-documentation/paragraphs/categories-listing/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/user-documentation/paragraphs/categories-listing/</guid><description>
 &lt;blockquote>
 &lt;p>Embeds horizontal cards for program subcategories on a programs page.&lt;/p>
@@ -467,24 +466,24 @@ Out of the box, the &lt;em>Title field&lt;/em> in each &lt;em>custom block&lt;/e
 &lt;h2 id="how-to-use-it">How To Use It:&lt;/h2>
 &lt;ul>
 &lt;li>
-&lt;a href="https://community.openymca.org/t/program-content-types-open-y-user-docs/691" target="_blank">On a Programs page&lt;/a>, go to the content area and click to open it.&lt;/li>
+&lt;a href="/docs/user-documentation/content-types/program/">On a Programs page&lt;/a>, go to the content area and click to open it.&lt;/li>
 &lt;li>Select Categories listing.&lt;/li>
 &lt;/ul>
 &lt;p>
 &lt;img src="upload://fgGiiosW91RDrSYvP8zwfDlsP0P.png" alt="admin-program__programs-listing|690x170, 75%" />&lt;/p>
 &lt;blockquote>
 &lt;p>This paragraph can only used on programs pages that have
-&lt;a href="https://community.openymca.org/t/program-subcategory-content-types-open-y-user-docs/692" target="_blank">subcategories tied to them&lt;/a>. If a program has no subcategories tied to it or if it’s used on another content type, it will not work.&lt;/p>
+&lt;a href="/docs/user-documentation/content-types/program-subcategory/">subcategories tied to them&lt;/a>. If a program has no subcategories tied to it or if it’s used on another content type, it will not work.&lt;/p>
 &lt;/blockquote>
 &lt;p>
-&lt;a href="https://community.openymca.org/t/program-content-types-open-y-user-docs/691" target="_blank">Learn more about programs content type ⇒&lt;/a>&lt;/p>
+&lt;a href="/docs/user-documentation/content-types/program/">Learn more about programs content type ⇒&lt;/a>&lt;/p>
 &lt;p>
-&lt;a href="https://community.openymca.org/t/program-subcategory-content-types-open-y-user-docs/692" target="_blank">Learn more about programs subcategories content type ⇒&lt;/a>&lt;/p>
+&lt;a href="/docs/user-documentation/content-types/program-subcategory/">Learn more about programs subcategories content type ⇒&lt;/a>&lt;/p>
 &lt;hr>
 &lt;h2 id="content-types-that-support-categories-listing">Content Types that Support Categories Listing&lt;/h2>
 &lt;ul>
 &lt;li>
-&lt;a href="https://community.openymca.org/t/program-content-types-open-y-user-docs/691" target="_blank">Program&lt;/a>&lt;/li>
+&lt;a href="/docs/user-documentation/content-types/program/">Program&lt;/a>&lt;/li>
 &lt;/ul></description></item><item><title>Docs: Code</title><link>/docs/user-documentation/paragraphs/code/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/user-documentation/paragraphs/code/</guid><description>
 &lt;div class="alert alert-primary" role="alert">
 &lt;h4 class="alert-heading">What Is Code?&lt;/h4>
@@ -521,7 +520,7 @@ Unformatted, unrestricted text that supports any HTML tag and can be embedded an
 &lt;/li>
 &lt;/ul>
 &lt;p>
-&lt;a href="https://community.openymca.org/t/blocks-website-structure-open-y-user-docs/733" target="_blank">Learn more about blocks ⇒&lt;/a>&lt;/p>
+&lt;a href="/docs/user-documentation/blocks/">Learn more about blocks ⇒&lt;/a>&lt;/p>
 &lt;ul>
 &lt;li>When you add your block, you will see a blank, unformatted text field. Type your HTML text into this field.&lt;/li>
 &lt;/ul>
@@ -539,25 +538,25 @@ Unformatted, unrestricted text that supports any HTML tag and can be embedded an
 &lt;h2 id="content-types-that-support-code">Content Types that Support Code&lt;/h2>
 &lt;ul>
 &lt;li>
-&lt;a href="https://community.openymca.org/t/landing-page-content-types-open-y-user-docs/667" target="_blank">Landing Page&lt;/a>&lt;/li>
+&lt;a href="/docs/user-documentation/content-types/landing-page/">Landing Page&lt;/a>&lt;/li>
 &lt;li>
-&lt;a href="https://community.openymca.org/t/branch-content-types-open-y-user-docs/685" target="_blank">Branch&lt;/a>&lt;/li>
+&lt;a href="/docs/user-documentation/content-types/branch/">Branch&lt;/a>&lt;/li>
 &lt;li>
-&lt;a href="https://community.openymca.org/t/camp-content-types-user-docs/690" target="_blank">Camp&lt;/a>&lt;/li>
+&lt;a href="/docs/user-documentation/content-types/camp/">Camp&lt;/a>&lt;/li>
 &lt;li>Facility&lt;/li>
 &lt;li>Event&lt;/li>
 &lt;li>
-&lt;a href="https://community.openymca.org/t/activity-class-and-session-content-types-open-y-user-docs/697" target="_blank">Activity&lt;/a>&lt;/li>
+&lt;a href="/docs/user-documentation/content-types/activity-class-session/">Activity&lt;/a>&lt;/li>
 &lt;li>
-&lt;a href="https://community.openymca.org/t/program-content-types-open-y-user-docs/691" target="_blank">Program&lt;/a>&lt;/li>
+&lt;a href="/docs/user-documentation/content-types/program/">Program&lt;/a>&lt;/li>
 &lt;li>
-&lt;a href="https://community.openymca.org/t/landing-page-content-types-open-y-user-docs/667" target="_blank">Program Subcategory&lt;/a>&lt;/li>
+&lt;a href="/docs/user-documentation/content-types/program-subcategory/">Program Subcategory&lt;/a>&lt;/li>
 &lt;li>
-&lt;a href="https://community.openymca.org/t/activity-class-and-session-content-types-open-y-user-docs/697" target="_blank">Class&lt;/a>&lt;/li>
+&lt;a href="/docs/user-documentation/content-types/activity-class-session/">Class&lt;/a>&lt;/li>
 &lt;li>
-&lt;a href="https://community.openymca.org/t/blog-post-content-types-open-y-user-docs/693" target="_blank">Blog Post&lt;/a>&lt;/li>
+&lt;a href="/docs/user-documentation/content-types/blog-post/">Blog Post&lt;/a>&lt;/li>
 &lt;li>
-&lt;a href="https://community.openymca.org/t/news-post-content-types-open-y-user-docs/694" target="_blank">News Post&lt;/a>&lt;/li>
+&lt;a href="/docs/user-documentation/content-types/news-post/">News Post&lt;/a>&lt;/li>
 &lt;/ul></description></item><item><title>Docs: Date Block</title><link>/docs/user-documentation/paragraphs/date-block/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/user-documentation/paragraphs/date-block/</guid><description>
 &lt;blockquote>
 &lt;p>A date block allow you to schedule different sections to show or hide on your pages.&lt;/p>
@@ -597,28 +596,28 @@ Make your changes inside the block and, when you’re done, click “Update Cust
 &lt;blockquote>
 &lt;p>Making any changes to a date block will change it on every page where it has been added.&lt;/p>
 &lt;p>
-&lt;a href="https://community.openymca.org/t/blocks-website-structure-open-y-user-docs/733" target="_blank">Learn more about custom blocks ⇒&lt;/a>&lt;/p>
+&lt;a href="/docs/user-documentation/blocks/">Learn more about custom blocks ⇒&lt;/a>&lt;/p>
 &lt;/blockquote>
 &lt;hr>
 &lt;h2 id="content-types-that-support-date-block">Content Types That Support Date Block&lt;/h2>
 &lt;ul>
 &lt;li>
-&lt;a href="https://community.openymca.org/t/landing-page-content-types-open-y-user-docs/667" target="_blank">Landing Page&lt;/a>&lt;/li>
+&lt;a href="/docs/user-documentation/content-types/landing-page/">Landing Page&lt;/a>&lt;/li>
 &lt;li>
-&lt;a href="https://community.openymca.org/t/branch-content-types-open-y-user-docs/685" target="_blank">Branch&lt;/a>&lt;/li>
+&lt;a href="/docs/user-documentation/content-types/branch/">Branch&lt;/a>&lt;/li>
 &lt;li>
-&lt;a href="https://community.openymca.org/t/camp-content-types-user-docs/690" target="_blank">Camp&lt;/a>&lt;/li>
+&lt;a href="/docs/user-documentation/content-types/camp/">Camp&lt;/a>&lt;/li>
 &lt;li>Facility&lt;/li>
 &lt;li>
-&lt;a href="https://community.openymca.org/t/blog-post-content-types-open-y-user-docs/693" target="_blank">Blog Post&lt;/a>&lt;/li>
+&lt;a href="/docs/user-documentation/content-types/blog-post/">Blog Post&lt;/a>&lt;/li>
 &lt;li>
-&lt;a href="https://community.openymca.org/t/news-post-content-types-open-y-user-docs/694" target="_blank">News Post&lt;/a>&lt;/li>
+&lt;a href="/docs/user-documentation/content-types/news-post/">News Post&lt;/a>&lt;/li>
 &lt;li>
-&lt;a href="https://community.openymca.org/t/activity-class-and-session-content-types-open-y-user-docs/697" target="_blank">Class&lt;/a>&lt;/li>
+&lt;a href="/docs/user-documentation/content-types/activity-class-session/">Class&lt;/a>&lt;/li>
 &lt;li>
-&lt;a href="https://community.openymca.org/t/program-content-types-open-y-user-docs/691" target="_blank">Program&lt;/a>&lt;/li>
+&lt;a href="/docs/user-documentation/content-types/program/">Program&lt;/a>&lt;/li>
 &lt;li>
-&lt;a href="https://community.openymca.org/t/landing-page-content-types-open-y-user-docs/667" target="_blank">Program Subcategory&lt;/a>&lt;/li>
+&lt;a href="/docs/user-documentation/content-types/program-subcategory/">Program Subcategory&lt;/a>&lt;/li>
 &lt;li>Event&lt;/li>
 &lt;/ul></description></item><item><title>Docs: Embedded GroupEx Pro Schedule</title><link>/docs/user-documentation/paragraphs/embedded-gxp-schedule/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/user-documentation/paragraphs/embedded-gxp-schedule/</guid><description>
 &lt;blockquote>
@@ -661,9 +660,9 @@ Make your changes inside the block and, when you’re done, click “Update Cust
 &lt;h2 id="content-types-that-support-embedded-groupex-pro-schedule">Content Types That Support Embedded GroupEx Pro Schedule&lt;/h2>
 &lt;ul>
 &lt;li>
-&lt;a href="https://community.openymca.org/t/landing-page-content-types-open-y-user-docs/667" target="_blank">Landing Page&lt;/a>&lt;/li>
+&lt;a href="/docs/user-documentation/content-types/landing-page/">Landing Page&lt;/a>&lt;/li>
 &lt;li>
-&lt;a href="https://community.openymca.org/t/branch-content-types-open-y-user-docs/685" target="_blank">Branch (Single-Branch Associations Only)&lt;/a>&lt;/li>
+&lt;a href="/docs/user-documentation/content-types/branch/">Branch (Single-Branch Associations Only)&lt;/a>&lt;/li>
 &lt;/ul>
 &lt;hr>
 &lt;h2 id="related-paragraphs">Related Paragraphs&lt;/h2>
@@ -696,11 +695,11 @@ Make your changes inside the block and, when you’re done, click “Update Cust
 &lt;/li>
 &lt;li>
 &lt;p>
-&lt;a href="https://community.openymca.org/t/introduction-text-editor-open-y-user-docs/643" target="_blank">Use the text editor&lt;/a> to provide an answer/expanded section of content once the user clicks on your section.&lt;/p>
+&lt;a href="/docs/user-documentation/text-editor/">Use the text editor&lt;/a> to provide an answer/expanded section of content once the user clicks on your section.&lt;/p>
 &lt;p>
 &lt;img src="upload://wWVWcJBIOB3FpTUm9O5HpYmXSNH.png" alt="admin__faq&amp;amp;ndash;fields|669x500, 75%" />&lt;/p>
 &lt;p>&lt;strong>
-&lt;a href="https://community.openymca.org/t/introduction-text-editor-open-y-user-docs/643" target="_blank">Learn how to use the text editor ⇒&lt;/a>&lt;/strong>&lt;/p>
+&lt;a href="/docs/user-documentation/text-editor/">Learn how to use the text editor ⇒&lt;/a>&lt;/strong>&lt;/p>
 &lt;/li>
 &lt;/ul>
 &lt;hr>
@@ -712,22 +711,22 @@ Make your changes inside the block and, when you’re done, click “Update Cust
 &lt;h2 id="content-types-that-support-this-paragraph">Content Types that Support this Paragraph&lt;/h2>
 &lt;ul>
 &lt;li>
-&lt;a href="https://community.openymca.org/t/landing-page-content-types-open-y-user-docs/667" target="_blank">Landing Page&lt;/a>&lt;/li>
+&lt;a href="/docs/user-documentation/content-types/landing-page/">Landing Page&lt;/a>&lt;/li>
 &lt;li>
-&lt;a href="https://community.openymca.org/t/branch-content-types-open-y-user-docs/685" target="_blank">Branch&lt;/a>&lt;/li>
+&lt;a href="/docs/user-documentation/content-types/branch/">Branch&lt;/a>&lt;/li>
 &lt;li>
-&lt;a href="https://community.openymca.org/t/camp-content-types-user-docs/690" target="_blank">Camp&lt;/a>&lt;/li>
+&lt;a href="/docs/user-documentation/content-types/camp/">Camp&lt;/a>&lt;/li>
 &lt;li>Facility&lt;/li>
 &lt;li>
-&lt;a href="https://community.openymca.org/t/blog-post-content-types-open-y-user-docs/693" target="_blank">Blog Post&lt;/a>&lt;/li>
+&lt;a href="/docs/user-documentation/content-types/blog-post/">Blog Post&lt;/a>&lt;/li>
 &lt;li>
-&lt;a href="https://community.openymca.org/t/news-post-content-types-open-y-user-docs/694" target="_blank">News Post&lt;/a>&lt;/li>
+&lt;a href="/docs/user-documentation/content-types/news-post/">News Post&lt;/a>&lt;/li>
 &lt;li>
-&lt;a href="https://community.openymca.org/t/program-content-types-open-y-user-docs/691" target="_blank">Program&lt;/a>&lt;/li>
+&lt;a href="/docs/user-documentation/content-types/program/">Program&lt;/a>&lt;/li>
 &lt;li>
-&lt;a href="https://community.openymca.org/t/landing-page-content-types-open-y-user-docs/667" target="_blank">Program Subcategory&lt;/a>&lt;/li>
+&lt;a href="/docs/user-documentation/content-types/program-subcategory/">Program Subcategory&lt;/a>&lt;/li>
 &lt;li>
-&lt;a href="https://community.openymca.org/t/activity-class-and-session-content-types-open-y-user-docs/697" target="_blank">Class (Not Recommended)&lt;/a>&lt;/li>
+&lt;a href="/docs/user-documentation/content-types/activity-class-session/">Class (Not Recommended)&lt;/a>&lt;/li>
 &lt;/ul></description></item><item><title>Docs: Featured Blog Posts</title><link>/docs/user-documentation/paragraphs/featured-blog-posts/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/user-documentation/paragraphs/featured-blog-posts/</guid><description>
 &lt;blockquote>
 &lt;p>Create a standalone page with a
@@ -774,18 +773,18 @@ Make your changes inside the block and, when you’re done, click “Update Cust
 &lt;h2 id="content-types-that-support-featured-blog-pots">Content Types that Support Featured Blog Pots&lt;/h2>
 &lt;ul>
 &lt;li>
-&lt;a href="https://community.openymca.org/t/landing-page-content-types-open-y-user-docs/667" target="_blank">Landing Page&lt;/a>&lt;/li>
+&lt;a href="/docs/user-documentation/content-types/landing-page/">Landing Page&lt;/a>&lt;/li>
 &lt;li>
-&lt;a href="https://community.openymca.org/t/program-content-types-open-y-user-docs/691" target="_blank">Program&lt;/a>&lt;/li>
+&lt;a href="/docs/user-documentation/content-types/program/">Program&lt;/a>&lt;/li>
 &lt;li>
-&lt;a href="https://community.openymca.org/t/landing-page-content-types-open-y-user-docs/667" target="_blank">Program Subcategory&lt;/a>&lt;/li>
+&lt;a href="/docs/user-documentation/content-types/program-subcategory/">Program Subcategory&lt;/a>&lt;/li>
 &lt;li>
-&lt;a href="https://community.openymca.org/t/branch-content-types-open-y-user-docs/685" target="_blank">Branch&lt;/a>&lt;/li>
+&lt;a href="/docs/user-documentation/content-types/branch/">Branch&lt;/a>&lt;/li>
 &lt;li>
-&lt;a href="https://community.openymca.org/t/camp-content-types-user-docs/690" target="_blank">Camp&lt;/a>&lt;/li>
+&lt;a href="/docs/user-documentation/content-types/camp/">Camp&lt;/a>&lt;/li>
 &lt;li>Facility&lt;/li>
 &lt;li>
-&lt;a href="https://community.openymca.org/t/blog-post-content-types-open-y-user-docs/693" target="_blank">Blog Post&lt;/a>&lt;/li>
+&lt;a href="/docs/user-documentation/content-types/blog-post/">Blog Post&lt;/a>&lt;/li>
 &lt;/ul></description></item><item><title>Docs: Featured Content</title><link>/docs/user-documentation/paragraphs/featured-content/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/user-documentation/paragraphs/featured-content/</guid><description>
 &lt;blockquote>
 &lt;p>Featured content adds a section of simple simple columns onto a page with an optional call-to-action button on the bottom, an optional title, and optional description.&lt;/p>
@@ -817,15 +816,15 @@ Make your changes inside the block and, when you’re done, click “Update Cust
 &lt;li>&lt;strong>Carnation:&lt;/strong> The headline center-aligns in Carnation.&lt;/li>
 &lt;/ul>
 &lt;p>Next, add an optional &lt;em>Description&lt;/em>
-&lt;a href="https://community.openymca.org/c/Resources-and-training-for-content-editors/Learn-how-to-use-the-basic-text-editing-functions-available-to-content-editors" target="_blank">using the text editor&lt;/a>. Avoid changing your text alignment for your description.&lt;/p>
+&lt;a href="/docs/user-documentation/text-editor/basic-text-formatting/">using the text editor&lt;/a>. Avoid changing your text alignment for your description.&lt;/p>
 &lt;p>Add an optional link in the link field.&lt;/p>
 &lt;p>
-&lt;a href="https://community.openymca.org/t/video-tutorials-for-images-and-documents/738" target="_blank">Learn how to use a Link field ⇒&lt;/a>&lt;/p>
+&lt;a href="/docs/user-documentation/text-editor/adding-links/">Learn how to use a Link field ⇒&lt;/a>&lt;/p>
 &lt;hr>
 &lt;p>Select the number of columns you would like to have in each row using the style dropdown.&lt;/p>
 &lt;ul>
 &lt;li>&lt;strong>Carnation&lt;/strong>: Due to the card styling in Carnation, this field does not limit the number of cards that will display in a single row. A recommended workaround is to add multiple rows of featured content or
-&lt;a href="https://community.openymca.org/t/grid-content-paragraphs-open-y-user-docs/716" target="_blank">use the Grid Content paragraph type&lt;/a>.&lt;/li>
+&lt;a href="/docs/user-documentation/paragraphs/grid-content/">use the Grid Content paragraph type&lt;/a>.&lt;/li>
 &lt;/ul>
 &lt;blockquote>
 &lt;p>&lt;em>&lt;strong>Advanced users&lt;/strong>&lt;/em>: You can clear the confusion for content editors in Carnation by making the style field an optional field and hiding it in the form display in the UI.&lt;/p>
@@ -841,20 +840,20 @@ Make your changes inside the block and, when you’re done, click “Update Cust
 &lt;h2 id="content-types-that-support-featured-content">Content Types that Support Featured Content&lt;/h2>
 &lt;ul>
 &lt;li>
-&lt;a href="https://community.openymca.org/t/landing-page-content-types-open-y-user-docs/667" target="_blank">Landing Page&lt;/a>&lt;/li>
+&lt;a href="/docs/user-documentation/content-types/landing-page/">Landing Page&lt;/a>&lt;/li>
 &lt;li>
-&lt;a href="https://community.openymca.org/t/branch-content-types-open-y-user-docs/685" target="_blank">Branch&lt;/a>&lt;/li>
+&lt;a href="/docs/user-documentation/content-types/branch/">Branch&lt;/a>&lt;/li>
 &lt;li>
-&lt;a href="https://community.openymca.org/t/camp-content-types-user-docs/6" target="_blank">Camp&lt;/a>&lt;/li>
+&lt;a href="/docs/user-documentation/content-types/camp/">Camp&lt;/a>&lt;/li>
 &lt;li>Facility&lt;/li>
 &lt;li>
-&lt;a href="https://community.openymca.org/t/blog-post-content-types-open-y-user-docs/693" target="_blank">Blog Post&lt;/a>&lt;/li>
+&lt;a href="/docs/user-documentation/content-types/blog-post/">Blog Post&lt;/a>&lt;/li>
 &lt;li>
-&lt;a href="https://community.openymca.org/t/news-post-content-types-open-y-user-docs/694" target="_blank">News Post&lt;/a>&lt;/li>
+&lt;a href="/docs/user-documentation/content-types/news-post/">News Post&lt;/a>&lt;/li>
 &lt;li>
-&lt;a href="https://community.openymca.org/t/program-content-types-open-y-user-docs/691" target="_blank">Program&lt;/a>&lt;/li>
+&lt;a href="/docs/user-documentation/content-types/program/">Program&lt;/a>&lt;/li>
 &lt;li>
-&lt;a href="https://community.openymca.org/t/landing-page-content-types-open-y-user-docs/667" target="_blank">Program Subcategory&lt;/a>&lt;/li>
+&lt;a href="/docs/user-documentation/content-types/program-subcategory/">Program Subcategory&lt;/a>&lt;/li>
 &lt;/ul></description></item><item><title>Docs: Featured News Posts</title><link>/docs/user-documentation/paragraphs/featured-news-posts/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/docs/user-documentation/paragraphs/featured-news-posts/</guid><description>
 &lt;blockquote>
 &lt;p>Featured News Posts creates a standalone page with
