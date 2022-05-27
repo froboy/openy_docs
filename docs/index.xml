@@ -48,13 +48,34 @@
 &lt;h2 id="examples">Examples&lt;/h2>
 &lt;h3 id="rose---without-block">Rose - Without Block&lt;/h3>
 &lt;p>
-&lt;img src="upload://19gwcxdsp4g4PHXFDDGHeW1rZVy.png" alt="rose&amp;amp;ndash;landing-page_1-column-no-block|690x171, 75%" />&lt;/p>
+&lt;figure class="image-caption">
+&lt;img alt="rose&amp;amp;ndash;landing-page_1-column-no-block" srcset="
+/img/080e5435d89d994c773761dfe0196018fe63e8dc_hu673841aa836f370642286620b1ac60b1_23864_5fc5b61512ac0fcf93f7db7a114411ab.png 458w,
+/img/080e5435d89d994c773761dfe0196018fe63e8dc_hu673841aa836f370642286620b1ac60b1_23864_0222347eef3838e79eb7b2407fd09018.png 726w,
+/img/080e5435d89d994c773761dfe0196018fe63e8dc_hu673841aa836f370642286620b1ac60b1_23864_1200x664_fit_catmullrom_3.png 1200w" sizes="50vw" src="/img/080e5435d89d994c773761dfe0196018fe63e8dc_hu673841aa836f370642286620b1ac60b1_23864_5fc5b61512ac0fcf93f7db7a114411ab.png" />
+&lt;figcaption>&lt;/figcaption>
+&lt;/figure>
+&lt;/p>
 &lt;h3 id="rose---with-block">Rose - With Block&lt;/h3>
 &lt;p>
-&lt;img src="upload://2FCFow9jwiwvHOyG9k2XkerjNJ9.png" alt="rose&amp;amp;ndash;landing-page__1-column-with-block|690x186" />&lt;/p>
+&lt;figure class="image-caption">
+&lt;img alt="rose&amp;amp;ndash;landing-page__1-column-with-block" srcset="
+/img/12b8dda69f73758976d0789e5951db4661bc888b_hu55d6792d00367157bf78407ba1421057_38365_f5bf02c11289f650f407c8bb97705b3d.png 458w,
+/img/12b8dda69f73758976d0789e5951db4661bc888b_hu55d6792d00367157bf78407ba1421057_38365_4696e14c9e55335ea067dd99c3bc888d.png 726w,
+/img/12b8dda69f73758976d0789e5951db4661bc888b_hu55d6792d00367157bf78407ba1421057_38365_1200x664_fit_catmullrom_3.png 1200w" sizes="50vw" src="/img/12b8dda69f73758976d0789e5951db4661bc888b_hu55d6792d00367157bf78407ba1421057_38365_f5bf02c11289f650f407c8bb97705b3d.png" />
+&lt;figcaption>&lt;/figcaption>
+&lt;/figure>
+&lt;/p>
 &lt;h3 id="carnation---with-custom-block">Carnation - With Custom Block&lt;/h3>
 &lt;p>
-&lt;img src="upload://jOGLkK7ItZy0i5pzFmUPBuMfkh3.png" alt="carnation&amp;amp;ndash;landing-page_1-column-with-block|690x186" />&lt;/p>
+&lt;figure class="image-caption">
+&lt;img alt="carnation&amp;amp;ndash;landing-page_1-column-with-block|690x186" srcset="
+/img/8ae42dfa49156be5a11f1cc57112401004e16bf9_hua15713a93d43b7adb033c6a9298a7be7_39227_bcbb943ae50327ae6fc67c68f187ef52.png 458w,
+/img/8ae42dfa49156be5a11f1cc57112401004e16bf9_hua15713a93d43b7adb033c6a9298a7be7_39227_91ef3c0b74023d471d90bcd74a28be5c.png 726w,
+/img/8ae42dfa49156be5a11f1cc57112401004e16bf9_hua15713a93d43b7adb033c6a9298a7be7_39227_1200x664_fit_catmullrom_3.png 1200w" sizes="50vw" src="/img/8ae42dfa49156be5a11f1cc57112401004e16bf9_hua15713a93d43b7adb033c6a9298a7be7_39227_bcbb943ae50327ae6fc67c68f187ef52.png" />
+&lt;figcaption>&lt;/figcaption>
+&lt;/figure>
+&lt;/p>
 &lt;hr>
 &lt;h2 id="areas-1-column-should-be-used">Areas 1 Column Should Be Used&lt;/h2>
 &lt;ul>
@@ -64,8 +85,6 @@
 &lt;/ul>
 &lt;hr>
 &lt;h2 id="how-to-use-1-column">How to Use 1 Column&lt;/h2>
-&lt;p>
-&lt;img src="upload://j3rf2kiL9RTWYhAjFl8gyBIypQt.gif" alt="landing-page__1-column-demo|690x431, 75%" />&lt;/p>
 &lt;p>After selecting “1 Column” from the paragraphs dropdown, you will notice paragraph title field, a checkbox, and a required description.&lt;/p>
 &lt;ul>
 &lt;li>&lt;strong>Paragraph title&lt;/strong> adds an all-caps heading at the top of your paragraph. This is optional.&lt;/li>
@@ -75,8 +94,6 @@
 &lt;/ul>
 &lt;h3 id="custom-block-feature">Custom Block Feature&lt;/h3>
 &lt;p>While the paragraph be used only with the fields above, 1 column also supports custom blocks of content. For this paragraph type, it’s recommended that users stick with “Simple block” types.&lt;/p>
-&lt;p>
-&lt;img src="upload://8ztiCyU8UuDvYi6E3SjEthQEFQ.gif" alt="landing-page__1-column-demo-block|690x474, 75%" />&lt;/p>
 &lt;p>When adding your custom block, use the font-awesome icon class instead of the custom icon image field. In Carnation, the image option tends to get too large.&lt;/p>
 &lt;p>
 &lt;a href="/docs/user-documentation/blocks/">Learn more about custom blocks ⇒&lt;/a>&lt;/p>
@@ -153,13 +170,34 @@ color: inherit;
 &lt;h2 id="examples">Examples&lt;/h2>
 &lt;h3 id="carnation">Carnation&lt;/h3>
 &lt;p>
-&lt;img src="upload://dkzxUqrsfBxqvPnivluX5HzHuhA.png" alt="carnation&amp;amp;ndash;landing-page__2-columns|690x268, 75%" />&lt;/p>
+&lt;figure class="image-caption">
+&lt;img alt="carnation&amp;amp;ndash;landing-page__2-columns" srcset="
+/img/5d6f9e69f64664e6a07ed9848abcc613fffc9af2_hu2af56d1fe897a31b5e733e4863a90f77_236906_a86829854a4654d6fe4150193bf69078.png 458w,
+/img/5d6f9e69f64664e6a07ed9848abcc613fffc9af2_hu2af56d1fe897a31b5e733e4863a90f77_236906_5cdda898f58da3725b8ec2cc61ab0566.png 726w,
+/img/5d6f9e69f64664e6a07ed9848abcc613fffc9af2_hu2af56d1fe897a31b5e733e4863a90f77_236906_1200x664_fit_catmullrom_3.png 1200w" sizes="50vw" src="/img/5d6f9e69f64664e6a07ed9848abcc613fffc9af2_hu2af56d1fe897a31b5e733e4863a90f77_236906_a86829854a4654d6fe4150193bf69078.png" />
+&lt;figcaption>&lt;/figcaption>
+&lt;/figure>
+&lt;/p>
 &lt;h3 id="lily">Lily&lt;/h3>
 &lt;p>
-&lt;img src="upload://wqxqkbzAzZ1JtBrs4RZGcU7nPX2.png" alt="lily&amp;amp;ndash;landing-page__2-columns|690x208, 75%" />&lt;/p>
+&lt;figure class="image-caption">
+&lt;img alt="lily&amp;amp;ndash;landing-page__2-columns" srcset="
+/img/e3459038736e6deb77a695c4dd8348f3a3e372d0_hu1eed53a8a7d416ee2edbd37cb33804b5_161432_555417bc30120b56c4168ee7626d3746.png 458w,
+/img/e3459038736e6deb77a695c4dd8348f3a3e372d0_hu1eed53a8a7d416ee2edbd37cb33804b5_161432_6c5df9daa0086a4570566dd953fcb966.png 726w,
+/img/e3459038736e6deb77a695c4dd8348f3a3e372d0_hu1eed53a8a7d416ee2edbd37cb33804b5_161432_1200x664_fit_catmullrom_3.png 1200w" sizes="50vw" src="/img/e3459038736e6deb77a695c4dd8348f3a3e372d0_hu1eed53a8a7d416ee2edbd37cb33804b5_161432_555417bc30120b56c4168ee7626d3746.png" />
+&lt;figcaption>&lt;/figcaption>
+&lt;/figure>
+&lt;/p>
 &lt;h3 id="rose">Rose&lt;/h3>
 &lt;p>
-&lt;img src="upload://nRt57PAn1C33zFd8BXarNcSLrT6.png" alt="rose&amp;amp;ndash;landing-page__2-columns|690x268, 75%" />&lt;/p>
+&lt;figure class="image-caption">
+&lt;img alt="rose&amp;amp;ndash;landing-page__2-columns" srcset="
+/img/a73d4e0d2a8e4c251de23a2641b8283134a006ec_hu2af56d1fe897a31b5e733e4863a90f77_280383_1f4dfcfb13854709489b38310846d63f.png 458w,
+/img/a73d4e0d2a8e4c251de23a2641b8283134a006ec_hu2af56d1fe897a31b5e733e4863a90f77_280383_fdb5d188a171dbe861c549a122286975.png 726w,
+/img/a73d4e0d2a8e4c251de23a2641b8283134a006ec_hu2af56d1fe897a31b5e733e4863a90f77_280383_1200x664_fit_catmullrom_3.png 1200w" sizes="50vw" src="/img/a73d4e0d2a8e4c251de23a2641b8283134a006ec_hu2af56d1fe897a31b5e733e4863a90f77_280383_1f4dfcfb13854709489b38310846d63f.png" />
+&lt;figcaption>&lt;/figcaption>
+&lt;/figure>
+&lt;/p>
 &lt;hr>
 &lt;h2 id="areas-it-can-be-used">Areas it Can Be Used:&lt;/h2>
 &lt;ul>
@@ -183,11 +221,22 @@ color: inherit;
 &lt;hr>
 &lt;p>There is an optional checkbox to display a horizontal rule above the two columns.&lt;/p>
 &lt;p>
-&lt;img src="upload://rsZNPIOPtpILPC1XRQEGBb2FFTV.png" alt="landing-page__2-columns-line-above|616x186, 50%" />&lt;/p>
+&lt;figure class="image-caption">
+&lt;img alt="landing-page__2-columns-line-above" srcset="
+/img/c081d0e3fc843873c40ea85ab7dbc329585909e7_huece645cbcc29a816389d2bf4bc60f91a_12164_3abb2fa86087869302dc312a38696bcf.png 458w,
+/img/c081d0e3fc843873c40ea85ab7dbc329585909e7_huece645cbcc29a816389d2bf4bc60f91a_12164_e4b88a6b5df06013979449424e993496.png 726w,
+/img/c081d0e3fc843873c40ea85ab7dbc329585909e7_huece645cbcc29a816389d2bf4bc60f91a_12164_1200x664_fit_catmullrom_3.png 1200w" sizes="50vw" src="/img/c081d0e3fc843873c40ea85ab7dbc329585909e7_huece645cbcc29a816389d2bf4bc60f91a_12164_3abb2fa86087869302dc312a38696bcf.png" />
+&lt;figcaption>&lt;/figcaption>
+&lt;/figure>
+&lt;/p>
 &lt;hr>
 &lt;p>If you want to add multiple rows of content with 2 columns, add a new 2 columns paragraph for each set of two you want (e.g., if you have five blocks of content, add three 2 columns paragraphs).&lt;/p>
 &lt;p>
-&lt;img src="upload://gJ2vO2DWTfWm7zi11C9csfMZZK1.gif" alt="landing-page__2-columns-multi-row|320x189" />&lt;/p>
+&lt;figure class="image-caption">
+&lt;img alt="landing-page__2-columns-multi-row" src="/img/753a2df2dabdae1e537badd3c8213af44363db51.gif" />
+&lt;figcaption>&lt;/figcaption>
+&lt;/figure>
+&lt;/p>
 &lt;hr>
 &lt;h2 id="content-types-that-support-this-paragraph">Content Types That Support this Paragraph&lt;/h2>
 &lt;ul>
